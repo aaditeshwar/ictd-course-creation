@@ -29,6 +29,8 @@ from pipeline_common import (
     DEFAULT_BOOK_CONCEPT_MAP,
     DEFAULT_CORE_STACK_TOPIC_MAP,
     DEFAULT_LECTURE_PREP_OUT_DIR,
+    resolve_lecture_prep_out_dir,
+    ensure_lecture_prep_dirs,
     readings_missing_pdf,
     refresh_manifest_pdf_status,
 )
@@ -97,8 +99,10 @@ def main():
     )
     args = parser.parse_args()
 
-    out_dir = args.out_dir or str(DEFAULT_LECTURE_PREP_OUT_DIR / args.example_id)
-    os.makedirs(out_dir, exist_ok=True)
+    out_dir = str(resolve_lecture_prep_out_dir(args.example_id, args.out_dir))
+    pdf_dir = ensure_lecture_prep_dirs(out_dir)
+    print(f"Lecture prep dir: {out_dir}")
+    print(f"PDF folder: {pdf_dir}")
 
     if not args.skip_download:
         run([sys.executable, os.path.join(HERE, "resolve_and_download.py"),

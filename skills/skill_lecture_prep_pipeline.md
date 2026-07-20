@@ -61,8 +61,15 @@ extract -- use its abstract/description text instead), or needs-manual-download 
 writes a checklist with DOI and title so you can fetch it through your library access).
 
 If any non-video readings still lack a PDF, the orchestrator **stops** and waits for you to
-drop files into `pdfs/<reading_id>.pdf`, then **re-run the same command** (it picks up PDFs
-already on disk). Use `--force-processing` to continue with partial coverage anyway.
+drop files into `data/lecture-prep/<slug>/pdfs/<reading_id>.pdf`, then **re-run the same
+command** (it picks up PDFs already on disk). Use `--force-processing` to continue with
+partial coverage anyway.
+
+New case studies use a shortened folder name under `data/lecture-prep/`:
+`<truncated-example-id>_<hash>/` (e.g.
+`data/lecture-prep/water_security_climate_resilience_tools_19b1fe3d0340/`). Pass the **full
+original `--example-id`** on the command line; the pipeline resolves the slug folder
+automatically.
 
 **Don't try to route around paywalls programmatically.** Scraping around institutional access
 controls is both against most publishers' terms and a bad foundation for a course that, per the
@@ -71,7 +78,7 @@ The manual-download checklist exists precisely so a human with legitimate access
 
 ### 2. Extract text and figures from whatever PDFs are now present
 
-Run `python skills/pdf_to_text_figures.py --out-dir data/lecture-prep/<id>/` (after dropping any manually-downloaded PDFs into
+Run `python skills/pdf_to_text_figures.py --out-dir data/lecture-prep/<slug>/` (after dropping any manually-downloaded PDFs into
 `pdfs/<reading_id>.pdf` following the checklist from step 1). Uses PyMuPDF to pull per-page text
 and every embedded image, with a **heuristic, position-blind caption guess** per figure (nearest
 "Figure N: ..." text found on the same page) -- treat captions as a first draft to verify by eye

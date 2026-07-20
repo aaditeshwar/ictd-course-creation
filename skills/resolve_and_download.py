@@ -20,13 +20,18 @@ import re
 import time
 import argparse
 import os
+from pathlib import Path
 import requests
 
 from pipeline_common import (
     DEFAULT_READINGS,
     DEFAULT_EXAMPLES,
-    DEFAULT_LECTURE_PREP_OUT_DIR,
+    resolve_lecture_prep_out_dir,
+    register_lecture_prep_dir,
+    ensure_lecture_prep_dirs,
+    find_pdf_for_reading,
     pdf_path_for_reading,
+    PDF_MATCH_MIN_PREFIX,
     refresh_manifest_pdf_status,
 )
 
@@ -105,11 +110,12 @@ def main():
     parser.add_argument("--out-dir", default=None)
     args = parser.parse_args()
 
-    out_dir = args.out_dir or str(DEFAULT_LECTURE_PREP_OUT_DIR / args.example_id)
-    pdf_dir = os.path.join(out_dir, "pdfs")
-    os.makedirs(pdf_dir, exist_ok=True)
-
+    out_dir = str(resolve_lecture_prep_out_dir(args.example_id, args.out_dir))
     cs, readings = load_case_study(args.examples, args.readings, args.example_id)
+    register_lecture_prep_dir(args.example_id, cs["name"], out_dir)
+    pdf_dir = ensure_lecture_prep_dirs(out_dir)
+    print(f"Output dir: {out_dir}")
+    print(f"Save manual PDFs here: {pdf_dir}")
     print(f"Case study: {cs['name']} ({len(readings)} readings)")
 
     manifest = []
@@ -153,9 +159,9 @@ def main():
             else:
                 print(f"    failed, falling back to manual-download flag")
 
-        dest = pdf_path_for_reading(out_dir, r["id"])
-        if os.path.isfile(dest):
-            print(f"  Using manually provided PDF: {r['id']}")
+        dest = find_pdf_for_reading(out_dir, r["id"])
+        if dest:
+            print(f"  Using manually provided PDF: {r['id']} ({Path(dest).name})")
             entry["access_status"] = "downloaded"
             entry["pdf_path"] = dest
             manifest.append(entry)
@@ -183,9 +189,12 @@ def main():
 
     with open(os.path.join(out_dir, "manual_downloads_needed.md"), "w", encoding="utf-8") as f:
         f.write(f"# Manual downloads needed for: {cs['name']}\n\n")
-        f.write(f"Place each PDF at `pdfs/<reading_id>.pdf` once downloaded (use your "
-                f"institutional access -- IIT Delhi library / ACM DL / JSTOR / AEA proxy login), "
-                f"then re-run: python skills/run_lecture_prep.py --example-id {args.example_id}\n\n")
+        f.write(f"Save each PDF to `{pdf_dir}\\` using the reading id as the filename.\n")
+        f.write(f"Truncated names are OK if the first {PDF_MATCH_MIN_PREFIX} characters match "
+                f"(e.g. browser saving `..._natural_resource_man.pdf` for a longer id).\n\n")
+        f.write(f"    {pdf_dir}\\<reading_id>.pdf\n\n")
+        f.write(f"Use institutional access (IIT Delhi library / ACM DL / JSTOR / AEA), then re-run:\n\n")
+        f.write(f"    python skills/run_lecture_prep.py --example-id {args.example_id}\n\n")
         if not manual_needed:
             f.write("Nothing needed -- everything was auto-downloadable or is a video.\n")
         for e in manual_needed:
@@ -197,7 +206,7 @@ def main():
                 f.write(f"- **DOI**: https://doi.org/{e['doi']}\n")
             if e.get("existing_link"):
                 f.write(f"- **Existing link on record**: {e['existing_link']}\n")
-            f.write(f"- **Save to**: `pdfs/{e['id']}.pdf`\n\n")
+            f.write(f"- **Save to**: `{pdf_dir}\\{e['id']}.pdf`\n\n")
 
     downloaded = sum(1 for e in manifest if e["access_status"] == "downloaded")
     videos = sum(1 for e in manifest if e["access_status"] == "video_no_pdf")

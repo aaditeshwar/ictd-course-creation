@@ -20,8 +20,16 @@ import os
 import re
 import json
 import argparse
+import sys
+from pathlib import Path
 
 import fitz  # PyMuPDF
+
+HERE = os.path.dirname(os.path.abspath(__file__))
+if HERE not in sys.path:
+    sys.path.insert(0, HERE)
+
+from pipeline_common import find_pdf_for_reading  # noqa: E402
 
 CAPTION_PATTERN = re.compile(r"(Figure|Fig\.?)\s*\d+[:.]?\s*[^\n]{0,200}", re.IGNORECASE)
 
@@ -93,12 +101,15 @@ def main():
         raise SystemExit(f"No pdfs/ directory found at {pdf_dir} -- run resolve_and_download.py first.")
 
     for entry in manifest["readings"]:
-        pdf_path = os.path.join(pdf_dir, f"{entry['id']}.pdf")
-        if not os.path.exists(pdf_path):
+        pdf_path = find_pdf_for_reading(args.out_dir, entry["id"])
+        if not pdf_path:
             continue  # video, or still needs manual download -- skip silently, that's expected
         out_dir = os.path.join(extracted_root, entry["id"])
         os.makedirs(out_dir, exist_ok=True)
-        print(f"Extracting: {entry['id']}")
+        if Path(pdf_path).stem != entry["id"]:
+            print(f"Extracting: {entry['id']} (from {Path(pdf_path).name})")
+        else:
+            print(f"Extracting: {entry['id']}")
         try:
             text_len, n_figs = extract_pdf(pdf_path, out_dir)
         except Exception as e:
