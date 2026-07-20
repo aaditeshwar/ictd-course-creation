@@ -1,0 +1,306 @@
+[
+  {
+    "domain_name": "Remote Sensing Crop & Land Mapping",
+    "reading_ids": [
+      "climate_change_ai_efficient_multi_temporal_and_in_season",
+      "ijcai_2023_customized_positional_encoding_to_combine_static",
+      "compass_2021_poster_mapping_opium_poppy_cultivation_in",
+      "compass_2024_evaluation_of_computer_vision_pipeline_for",
+      "ghtc_2021_grapesense_a_grape_aging_classifier_using",
+      "aseth_publications_beyond_flat_classifiers_practical_methodologies_for",
+      "climate_change_ai_detection_of_housing_and_agriculture_areas"
+    ],
+    "background_concepts": [
+      {
+        "concept": "Multispectral satellite bands (Landsat / Sentinel-2 red, NIR, SWIR)",
+        "why_needed": "These crop and land-cover mapping papers assume the reader knows what spectral bands are, why particular satellite sensors sample red/near-infrared/short-wave-infrared, and their spatial resolution, without explaining the sensor payload.",
+        "suggested_resources": [
+          {
+            "title": "ESA - Introducing Sentinel-2",
+            "url": "https://www.esa.int/Applications/Observing_the_Earth/Copernicus/Sentinel-2/Introducing_Sentinel-2",
+            "type": "agency_guide"
+          },
+          {
+            "title": "Sentinel 2 Bands and Combinations - GIS Geography",
+            "url": "https://gisgeography.com/sentinel-2-bands-combinations/",
+            "type": "primer"
+          }
+        ]
+      },
+      {
+        "concept": "NDVI and vegetation indices",
+        "why_needed": "Crop classification and drone/computer-vision pipelines rely on NDVI-type greenness indices as features but treat them as a given metric rather than explaining the red/NIR reflectance formula and its interpretation.",
+        "suggested_resources": [
+          {
+            "title": "Landsat Normalized Difference Vegetation Index | USGS",
+            "url": "https://www.usgs.gov/landsat-missions/landsat-normalized-difference-vegetation-index",
+            "type": "agency_guide"
+          },
+          {
+            "title": "What Is Normalized Difference Vegetation Index (NDVI)?",
+            "url": "https://eos.com/blog/normalized-difference-vegetation-index-or-ndvi/",
+            "type": "primer"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "domain_name": "Climate-Agriculture Forecasting & Impact Modeling",
+    "reading_ids": [
+      "climate_change_ai_resolving_super_fine_resolution_sif_via",
+      "climate_change_ai_a_machine_learning_pipeline_to_predict",
+      "climate_change_ai_a_multi_source_end_to_end",
+      "ghtc_2024_potential_geographical_distribution_of_the_wheat",
+      "ghtc_2024_influence_of_the_red_billed_quelea"
+    ],
+    "background_concepts": [
+      {
+        "concept": "Solar-Induced Fluorescence (SIF) as a photosynthesis proxy",
+        "why_needed": "The super-resolution SIF paper assumes the reader knows that SIF is a faint re-emitted signal from chlorophyll during photosynthesis and serves as a proxy for gross primary productivity, without teaching the underlying physical process.",
+        "suggested_resources": [
+          {
+            "title": "Solar Induced Fluorescence: Learn a New Approach to Remote Sensing of Vegetation | NASA Applied Sciences",
+            "url": "https://appliedsciences.nasa.gov/our-impact/news/solar-induced-fluorescence-learn-new-approach-remote-sensing-vegetation",
+            "type": "agency_guide"
+          },
+          {
+            "title": "NASA ARSET SIF Primer Slides (Vegetation Photosynthesis)",
+            "url": "https://appliedsciences.nasa.gov/sites/default/files/2021-03/SIF_LIDAR_Part4_0.pdf",
+            "type": "course_module"
+          }
+        ]
+      },
+      {
+        "concept": "Vegetation greenness indices (NDVI) for health/yield prediction",
+        "why_needed": "The vegetation health prediction pipeline uses NDVI-based greenness as its target variable without introducing what the index measures or its value range.",
+        "suggested_resources": [
+          {
+            "title": "Landsat Normalized Difference Vegetation Index | USGS",
+            "url": "https://www.usgs.gov/landsat-missions/landsat-normalized-difference-vegetation-index",
+            "type": "agency_guide"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "domain_name": "Digital Agricultural Extension & Farmer Information Systems",
+    "reading_ids": [
+      "ictd_2022_diagnosing_data_from_icts_to_provide",
+      "itid_2017_can_digital_discussion_support_tools_provide",
+      "itid_2020_ict4scale_in_smallholder_agriculture_contributions_and",
+      "aseth_publications_a_participatory_video_and_audio_platform",
+      "ghtc_2023_implementation_of_the_steam_method_through"
+    ],
+    "background_concepts": [
+      {
+        "concept": "Interactive Voice Response (IVR) and voice-forum platforms for low-literacy users",
+        "why_needed": "These extension papers deploy IVR/voice-forum and DVD-based participatory systems as the delivery channel, assuming familiarity with how automated telephony menus and voice social networks work in low-literacy rural contexts.",
+        "suggested_resources": [
+          {
+            "title": "Interactive voice response - Wikipedia (ICTD / developing countries section)",
+            "url": "https://en.wikipedia.org/wiki/Interactive_voice_response",
+            "type": "primer"
+          },
+          {
+            "title": "What Is Interactive Voice Response (IVR)? | IBM",
+            "url": "https://www.ibm.com/think/topics/interactive-voice-response",
+            "type": "primer"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "domain_name": "Agricultural Market Structure & Price Information",
+    "reading_ids": [
+      "ictd_2022_mobile_mandi_towards_an_accessible_agricultural",
+      "jcss_2023_ai_based_market_intelligence_systems_for",
+      "aseth_publications_price_forecasting_anomaly_detection_for_agricultural",
+      "compass_2021_poster_mapping_rural_marketplaces_and_tracking"
+    ],
+    "background_concepts": [
+      {
+        "concept": "Mandi / APMC regulated market system and e-NAM",
+        "why_needed": "The Mobile Mandi and market-intelligence papers assume the reader knows the Indian mandi/APMC institutional structure, the role of commission agents/intermediaries, and the e-NAM electronic trading portal, which shape how prices are discovered.",
+        "suggested_resources": [
+          {
+            "title": "Agricultural Produce Market Committee (APMC) | Indian Economic Service - Arthapedia",
+            "url": "https://ies.gov.in/arthapedia/concept/agricultural-produce-market-committee-apmc",
+            "type": "agency_guide"
+          },
+          {
+            "title": "Understanding the Agricultural Produce Market Committee (APMC) System",
+            "url": "https://agriculture.institute/agripreneurship/understanding-apmc-system/",
+            "type": "primer"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "domain_name": "Smallholder Farmer Livelihoods & Agrarian Crisis",
+    "reading_ids": [
+      "ghtc_2024_operational_and_financial_analysis_of_smallholder"
+    ],
+    "background_concepts": []
+  },
+  {
+    "domain_name": "Groundwater, Soil & Sustainable Farming Practices",
+    "reading_ids": [
+      "climate_change_ai_residue_density_segmentation_for_monitoring_and",
+      "climate_change_ai_improving_image_based_characterization_of_porous"
+    ],
+    "background_concepts": [
+      {
+        "concept": "Conservation tillage and crop residue management",
+        "why_needed": "The residue-density segmentation paper assumes the reader understands why measuring surface crop residue matters for tillage practices, erosion control, and soil carbon, without explaining the agronomic rationale.",
+        "suggested_resources": [
+          {
+            "title": "Soil Carbon Sequestration\u2014Fundamentals | Ohioline (Ohio State)",
+            "url": "https://ohioline.osu.edu/factsheet/AEX-510",
+            "type": "agency_guide"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "domain_name": "Agricultural Measurement & Statistical Ground-Truthing",
+    "reading_ids": [
+      "ghtc_2024_monitoring_the_impacts_of_disruption_events",
+      "kdd_2025_irrmap_a_large_scale_comprehensive_dataset",
+      "climate_change_ai_high_resolution_global_irrigation_prediction_with"
+    ],
+    "background_concepts": [
+      {
+        "concept": "Sentinel-2 30m surface reflectance and revisit cadence",
+        "why_needed": "The irrigation-detection and IrrMap datasets rely on Sentinel-2 imagery, spatial resolution and revisit frequency as the measurement substrate without introducing the mission's sensing characteristics.",
+        "suggested_resources": [
+          {
+            "title": "USGS EROS Archive - Sentinel-2 | U.S. Geological Survey",
+            "url": "https://www.usgs.gov/centers/eros/science/usgs-eros-archive-sentinel-2",
+            "type": "agency_guide"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "domain_name": "In-field IoT and sensing for precision agriculture",
+    "reading_ids": [
+      "compass_2021_low_cost_in_ground_soil_moisture",
+      "climate_change_ai_smartcast_predicting_soil_moisture_interpolations_into",
+      "ijcai_2022_dynamic_structure_learning_through_graph_neural",
+      "ghtc_2022_smallholder_farmer_centric_integration_of_iot"
+    ],
+    "background_concepts": [
+      {
+        "concept": "Vegetation/soil-moisture remote sensing indices used as sensing signals",
+        "why_needed": "The soil-moisture forecasting papers combine in-ground sensors with Earth-observation greenness/reflectance features and assume familiarity with satellite-derived indices as inputs alongside physical sensors.",
+        "suggested_resources": [
+          {
+            "title": "What Is Normalized Difference Vegetation Index (NDVI)?",
+            "url": "https://eos.com/blog/normalized-difference-vegetation-index-or-ndvi/",
+            "type": "primer"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "domain_name": "Agricultural supply chain intermediaries and procurement mechanisms",
+    "reading_ids": [
+      "compass_2022_incentive_compatible_mechanisms_for_efficient_procurement",
+      "ghtc_2022_mitigation_intermediary_transactions_within_kenya_s"
+    ],
+    "background_concepts": [
+      {
+        "concept": "Incentive compatibility and mechanism design (revelation principle, truthful mechanisms)",
+        "why_needed": "The incentive-compatible procurement paper is built on mechanism-design terminology (dominant-strategy incentive compatibility, truthful/allocation-payment rules) that it uses without defining.",
+        "suggested_resources": [
+          {
+            "title": "Foundations of Mechanism Design: A Tutorial (Y. Narahari, IISc)",
+            "url": "https://gtl.csa.iisc.ac.in/gametheory/md1-dec07.pdf",
+            "type": "lecture_notes"
+          },
+          {
+            "title": "Introduction to Mechanism Design (Wasser, Micro II lecture notes)",
+            "url": "https://en-econ.tau.ac.il/sites/economy_en.tau.ac.il/files/media_server/Economics/grad/mini%20courses/Benny%20Moldovanu/MDintro_presentation.pdf",
+            "type": "lecture_notes"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "domain_name": "Human-centered design of low-cost agricultural tools and machines",
+    "reading_ids": [
+      "development_engineering_2020_developing_intermediate_machines_for_high_land",
+      "itid_2019_redesigning_agricultural_hand_tools_in_western"
+    ],
+    "background_concepts": []
+  },
+  {
+    "domain_name": "Climate-smart farming practices and carbon/emissions in agriculture",
+    "reading_ids": [
+      "climate_change_ai_optimization_of_agricultural_management_for_soil",
+      "ijcai_2023_optimizing_crop_management_with_reinforcement_learning",
+      "ghtc_2022_assessment_of_emissions_with_carbon_smart"
+    ],
+    "background_concepts": [
+      {
+        "concept": "Soil organic carbon sequestration",
+        "why_needed": "The soil-carbon RL optimization and carbon-smart farming papers assume the reader understands how management practices transfer atmospheric CO2 into soil organic matter and why this is a climate mitigation lever, without teaching the process.",
+        "suggested_resources": [
+          {
+            "title": "Soil Organic Carbon in Temperate Managed Ecosystems: A Primer (USDA Climate Hubs)",
+            "url": "https://www.climatehubs.usda.gov/sites/default/files/Soils_CPrimer_05302024.pdf",
+            "type": "primer"
+          },
+          {
+            "title": "Soil Carbon Sequestration\u2014Fundamentals | Ohioline",
+            "url": "https://ohioline.osu.edu/factsheet/AEX-510",
+            "type": "agency_guide"
+          }
+        ]
+      },
+      {
+        "concept": "Reinforcement learning (agent, state, action, reward, policy)",
+        "why_needed": "The crop-management and soil-carbon optimization papers frame farm decisions as an RL/MDP problem and assume familiarity with the agent-environment loop and reward maximization.",
+        "suggested_resources": [
+          {
+            "title": "Part 1: Key Concepts in RL \u2014 OpenAI Spinning Up",
+            "url": "https://spinningup.openai.com/en/latest/spinningup/rl_intro.html",
+            "type": "lecture_notes"
+          },
+          {
+            "title": "\ud83e\udd17 Deep Reinforcement Learning Course - Introduction",
+            "url": "https://huggingface.co/learn/deep-rl-course/en/unit0/introduction",
+            "type": "course_module"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "domain_name": "Water and irrigation infrastructure for food/water security",
+    "reading_ids": [
+      "compass_2024_assessing_the_impact_of_farm_ponds",
+      "ghtc_2024_rainwater_harvesting_and_automated_off_grid",
+      "ghtc_2021_innovating_solar_charging_kiosks_for_shambatek"
+    ],
+    "background_concepts": []
+  },
+  {
+    "domain_name": "Alternative and diversified livelihood cultivation systems for smallholders",
+    "reading_ids": [
+      "compass_2024_developing_and_deploying_ai_and_iot",
+      "ghtc_2021_ecosystem_approach_to_sustainable_aquaculture_for",
+      "ghtc_2022_modular_methods_for_oyster_mushroom_cultivation",
+      "ghtc_2024_sustainable_solutions_for_livelihood_enhancement_in"
+    ],
+    "background_concepts": []
+  }
+]

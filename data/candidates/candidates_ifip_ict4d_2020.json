@@ -1,0 +1,158 @@
+[
+  {
+    "id": null,
+    "title": "Risks and Risk-Mitigation Strategies of Gig Economy Workers in the Global South: The Case of Ride-Hailing in Cape Town",
+    "authors": "Mpofu, Tatenda, Tsibolane, Pitso, Heeks, Richard, Van Belle, Jean-Paul",
+    "year": 2020,
+    "venue": "ifip_ict4d_2020",
+    "areas": [
+      "labour"
+    ],
+    "topics": [
+      "operations_scale"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "ifip_ict4d_2020_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context (Cape Town, South Africa) and addresses labor issues in the gig economy, which aligns with the 'labour' area and 'operations_scale' topic.",
+    "link": "https://doi.org/10.1007/978-3-030-65828-1_3",
+    "abstract": "Fast growth of the gig economy in the global South has brought with it both hopes and concerns about this new form of digitally-enabled employment. Relatively little work has so far looked at the risks of such work; risks shaped by the particular context of developing countries. This paper undertakes an inductive, interpretive study of risks endured and risk-mitigation strategies adopted by ride-hailing drivers in Cape Town, South Africa, drawing from the perspective of ride-hailing drivers working for Uber and Bolt in Cape Town. A thematic analysis of eighteen (n\u00a0=\u00a018) semi-structured interview data shows three main perceived risks; inadequate income, personal safety, and deactivation from the platform. The severity of these risks means most drivers seek to mitigate them and we identify three types of mitigation strategy; initiated by the platforms (e.g. panic buttons), by the drivers individually (e.g. techniques for handling risky riders or locations), or by driver groups (e.g. rotating savings schemes). Platform design and business decisions mean it is individual workers who bear the majority of risks and individual workers who have to take responsibility for the majority of risk-mitigation strategies. Based on these new insights into digitally-enabled work, we suggest some directions for improved risk mitigation and for future research.",
+    "_matched_keywords": [
+      "thematic analysis"
+    ]
+  },
+  {
+    "id": null,
+    "title": "The Adoption of Mobile Health (mHealth) Services by Internally Displaced Persons (IDPs) in Nigeria",
+    "authors": "Gbadegesin, Dolapo Bilkis, Longe, Olumide",
+    "year": 2020,
+    "venue": "ifip_ict4d_2020",
+    "areas": [
+      "health"
+    ],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [
+      "marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "ifip_ict4d_2020_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context (Nigeria) and addresses the topic of health technology adoption, which aligns with the 'health' area and 'cs_fundamentals' topic.",
+    "link": "https://doi.org/10.1007/978-3-030-65828-1_7",
+    "abstract": "This study operationalized the unified theory of acceptance and use of technology (UTAUT) to study the attitudes and opinions of internally displaced persons (IDPs) in Malkohi host community Yola, to mHealth if deployed to support their healthcare and health information needs. Findings from the research revealed that the IDPs have a positive behavioral intention towards mHealth technology, which could then lead to its adoption. The study also unveiled new constructs such as \u201cLanguage\u201d and \u201cNo Tariff\u201d which are more vital determinants of the IDPs attitude towards mHealth than the original UTAUT constructs. These newly discovered constructs were added to modify the UTAUT to make it a suitable framework to check attitudes and opinions of IDPs towards mobile health (mHealth).",
+    "_matched_keywords": [
+      "mHealth"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Constraining and Enabling Factors in the Use of ICT in Rural Schools in Nepal",
+    "authors": "Thapa, Dhiraj, Griffiths, Dai, Kolodziejski, Ann L.",
+    "year": 2020,
+    "venue": "ifip_ict4d_2020",
+    "areas": [
+      "education"
+    ],
+    "topics": [
+      "problem_discovery",
+      "ethnographic_design",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "gender"
+    ],
+    "area_agnostic": false,
+    "source_course": "ifip_ict4d_2020_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context (Nepal) and addresses education-related issues.",
+    "link": "https://doi.org/10.1007/978-3-030-65828-1_9",
+    "abstract": "The OLE-Nepal project has deployed over 6,500 XO laptops in schools in Nepal, pre-installed with materials designed to support the national curriculum. This has raised hopes that technology can transform the quality of education available in remote regions. In order to investigate if and how the technology can have this impact, a case study was carried out which gathered detailed data on the use of the computers in three schools in contrasting remote rural areas of Nepal. The principal data collection methods were interviews, focus groups, classroom observations, and questionnaires. The results show that the effectiveness of technology in transforming schools is strongly dependent on local conditions and practices. This paper identifies constraining and enabling factors which can be identified in the case study data: infrastructure, classroom management, gender, and teacher motivation and training.",
+    "_matched_keywords": [
+      "data collection methods"
+    ]
+  },
+  {
+    "id": null,
+    "title": "ICT-Based Participation in Support of Palestinian Refugees\u2019 Sustainable Livelihoods: A Local Authority Perspective",
+    "authors": "Aradeh, Osama, Van Belle, Jean-Paul, Budree, Adheesh",
+    "year": 2020,
+    "venue": "ifip_ict4d_2020",
+    "areas": [
+      "livelihood"
+    ],
+    "topics": [
+      "problem_discovery",
+      "ethnographic_design",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "ifip_ict4d_2020_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context, specifically the Gaza Strip in Palestine, focusing on ICT-based participation to improve livelihoods of marginalized groups.",
+    "link": "https://doi.org/10.1007/978-3-030-65828-1_11",
+    "abstract": "This study investigates how e-participation could improve the livelihoods of marginalized and disadvantaged groups, in particular, refugees in the Gaza Strip in Palestine. They constantly faced problems of basic services of water supply, electricity, housing and infrastructure in their daily lives. This study was conducted from the perspective of municipalities which are local authorities which providing services and responsible to address these issues. This study used a qualitative research method by means of in-depth interviews. Thirteen interviewees from four municipalities in the Gaza Strip participated in the study and were given open-ended questions to express their views about the phenomenon. Thematic analysis was adopted to analyze the interview transcripts. Two theme clusters were uncovered: consequences of e-participation as increasing information and raising awareness among refugees, saving time, and long-term direct relationships with their stakeholders, and livelihood outcomes which include poverty alleviation and unemployment reduction as well as increased well-being. There are challenges that persist in e-participation implementation in the Gaza Strip including ICT infrastructure and the culture of the society. However, the findings of this study reveal evidence of the benefits of e-participation implementation and how livelihood outcomes have influence in refugee contexts.",
+    "_matched_keywords": [
+      "thematic analysis"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Appraising WhatsApp in the Indian Context: Understanding the Rural Sentiment",
+    "authors": "Vagrani, Anushruti, Bijarnia, Saroj, Ilavarasan, P. Vigneswara, Masiero, Silvia",
+    "year": 2020,
+    "venue": "ifip_ict4d_2020",
+    "areas": [
+      "media_information"
+    ],
+    "topics": [
+      "ethnographic_design",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "social_capital_marginalization",
+      "gender",
+      "caste"
+    ],
+    "area_agnostic": false,
+    "source_course": "ifip_ict4d_2020_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context in India, focusing on the rural use of WhatsApp.",
+    "link": "https://doi.org/10.1007/978-3-030-65828-1_12",
+    "abstract": "Web-based instant messaging applications are predominant as means of Internet usage in rural settings. This becomes particularly interesting in the Indian rural context where applications like WhatsApp are accepted and used extensively, while the Internet is still rather an alien concept for a large part of the population. While adoption of these applications is motivated by ease of access, ease of use, and other facilitating conditions, to better understand the collective acceptance, the role of social influence needs to be contextualized for the rural areas in point. To this end, we use the analytical lens of social capital to understand and elaborate on the rural sentiment around the usage of WhatsApp. We triangulate a thematic analysis of qualitative details from an ethnographic study with the sentiment analysis of selected parts of interviews conducted during the study. This mixed-method study throws light on how social constructs in rural households play a role in defining technological usability and habits, as well as individual-level perceptions and sentiments. Our study, which illustrates the usefulness of mixed methods in ICT4D, has implications for various stakeholders to understand the usage patterns and perception of digital platforms in rural contexts.",
+    "_matched_keywords": [
+      "thematic analysis"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Exploring Gender Gaps: How Nigerian Micro Business Owners Use Mobile Apps for Business",
+    "authors": "Owoseni, Adebowale, Wakunuma, Kutoma, Tolani, Adedamola, Twinomurinzi, Hossana",
+    "year": 2020,
+    "venue": "ifip_ict4d_2020",
+    "areas": [
+      "livelihood"
+    ],
+    "topics": [
+      "problem_discovery",
+      "impact_evaluation",
+      "sociotechnical_dynamics"
+    ],
+    "cross_cutting_axes": [
+      "gender"
+    ],
+    "area_agnostic": false,
+    "source_course": "ifip_ict4d_2020_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context (Nigeria) and addresses gender issues in technology use, aligning with the 'gender' cross-cutting axis.",
+    "link": "https://doi.org/10.1007/978-3-030-65828-1_14",
+    "abstract": "This exploratory study examined how men and women who own micro businesses in Lagos, Nigeria, use mobile apps for business from Amartya Sen\u2019s capability approach perspective and quantitative research methods. The two key findings suggest that women micro business owners make more use of mobile apps compared to men, and that they tend to exit micro businesses as they grow older indicating a possible influence of patriarchy in African contexts. Specifically, women seized opportunities presented by mobile apps to acquire capabilities to function ; and they adapt mobile apps to enhance their wellbeing and freedom despite the restrictions and responsibilities in the patriarchal environments typical of low-income countries. The insignificant gender gap in certain mobile app usages presents new perspectives to debates on gender (economic) gaps, inequality, women empowerment, and technology uptake in low-income country contexts.",
+    "_matched_keywords": [
+      "capability approach",
+      "capability approach",
+      "inequality"
+    ]
+  }
+]

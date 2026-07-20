@@ -1,0 +1,256 @@
+[
+  {
+    "id": null,
+    "title": "Learning Pollution Maps from Mobile Phone Images",
+    "authors": "Ankit Bhardwaj, Shiva R. Iyer, Yash Jalan, Lakshminarayanan Subramanian",
+    "year": 2022,
+    "venue": "ijcai_2022",
+    "areas": [
+      "environmental_health"
+    ],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [
+      "climate_change",
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "ijcai_2022_venue_search",
+    "notes": "The paper engages with a developing-regions context (urban sectors in India) and applies strong computer science methods to address a specific environmental challenge.",
+    "link": "https://doi.org/10.24963/ijcai.2022/697",
+    "abstract": "Air pollution monitoring and management is one of the key challenges for urban sectors, especially in developing countries. Measuring pollution levels requires significant investment in reliable and durable instrumentation and subsequent maintenance. On the other hand, there have been many attempts by researchers to develop image-based pollution measurement models which have shown significant results and established the feasibility of the idea. But, taking image-level models to a city-level system presents new challenges, which include scarcity of high-quality annotated data and a high amount of label noise. In this paper, we present a low-cost, end-to-end system for learning pollution maps using images captured through a mobile phone. We demonstrate our system for parts of New Delhi and Ghaziabad. We use transfer learning to overcome the problem of data scarcity. We investigate the effects of label noise in detail and introduce the metric of in-interval accuracy to evaluate our models in presence of noise. We use distributed averaging to learn pollution maps and mitigate the effects of noise to some extent. We also develop haze-based interpretable models which have comparable performance to mainstream models. With only 382 images from Delhi and Ghaziabad and single-scene dataset from Beijing and Shanghai, we are able to achieve a mean absolute error of 44 ug/m^3 in PM2.5 concentration on a test set of 267 images and an in-interval accuracy of 67% on predictions. Going further, we learn pollution maps with a mean absolute error as low as 35 ug/m^3 and in-interval accuracy as high as 74% significantly mitigating the image models' error. We also show that the noise in pollution labels emerging from unreliable sensing instrumentation forms a significant barrier to the realization of an ideal air pollution monitoring system. Our codebase can be found at https://github.com/ankitbha/pollution_with_images.",
+    "_matched_keywords": [
+      "transfer learning"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Chronic Disease Management with Personalized Lab Test Response Prediction",
+    "authors": "Suman Bhoi, Mong-Li Lee, Wynne Hsu, Andrew Hao Sen Fang, Ngiap Chuan Tan",
+    "year": 2022,
+    "venue": "ijcai_2022",
+    "areas": [
+      "health"
+    ],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [],
+    "area_agnostic": false,
+    "source_course": "ijcai_2022_venue_search",
+    "notes": "The paper applies strong computer science methods to predict patient lab test responses, which can be adapted to a developing-regions context for chronic disease management.",
+    "link": "https://doi.org/10.24963/ijcai.2022/699",
+    "abstract": "Chronic disease management involves frequent administration of invasive lab procedures in order for\n\nclinicians to determine the best course of treatment\n\nregimes for these patients. However, patients are\n\noften put off by these invasive lab procedures and\n\ndo not follow the appointment schedules. This has\n\nresulted in poor management of their chronic conditions leading to unnecessary disease complications. An AI system that is able to personalize the\n\nprediction of individual patient lab test responses\n\nwill enable clinicians to titrate the medications to\n\nachieve the desired therapeutic outcome. Accurate prediction of lab test response is a challenge because these patients typically have co-morbidities and their treatments might influence the target lab test response. To address this,\n\nwe model the complex interactions among different medications, diseases, lab test response, and\n\nfine-grained dosage information to learn a strong\n\npatient representation. Together with information\n\nfrom similar patients and external knowledge such\n\nas drug-lab interactions and diagnosis-lab interaction, we design a system called KALP to perform\n\npersonalized prediction of patients\u2019 response for a\n\ntarget lab result and identify the top influencing\n\nfactors for the prediction. Experiment results on\n\nreal-world datasets demonstrate the effectiveness of\n\nKALP in reducing prediction errors by a significant\n\nmargin. Case studies show that the identified factors are consistent with clinicians\u2019 understanding.",
+    "_matched_keywords": [
+      "chronic disease management"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Creating Dynamic Checklists via Bayesian Case-Based Reasoning: Towards Decent Working Conditions for All",
+    "authors": "Eirik Lund Flogard, Ole Jakob Mengshoel, Kerstin Bach",
+    "year": 2022,
+    "venue": "ijcai_2022",
+    "areas": [
+      "labour"
+    ],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "caste"
+    ],
+    "area_agnostic": false,
+    "source_course": "ijcai_2022_venue_search",
+    "notes": "The paper applies strong computer science methods to improve labor inspection processes, which can be adapted to developing regions to enhance labor rights and working conditions.",
+    "link": "https://doi.org/10.24963/ijcai.2022/709",
+    "abstract": "Every year there are 1.9 million deaths world-wide attributed to occupational health and safety risk factors. To address poor working conditions and fulfill UN's SDG 8, \"protect labour rights and promote safe working environments for all workers\", governmental agencies conduct labour inspections, using checklists to survey individual organisations for working environment violations. Recent research highlights the benefits of using machine learning for creating checklists. However, the current methods only create static checklists and do not adapt them to new information that surfaces during use. In contrast, we propose a new method called Context-aware Bayesian Case-Based Reasoning (CBCBR) that creates dynamic checklists. These checklists are continuously adapted as the inspections progress, based on how they are answered. Our evaluations show that CBCBR's dynamic checklists outperform static checklists created via the current state-of-the-art methods, increasing the expected number of working environment violations found in the labour inspections.",
+    "_matched_keywords": [
+      "labour rights"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Gigs with Guarantees: Achieving Fair Wage for Food Delivery Workers",
+    "authors": "Ashish Nair, Rahul Yadav, Anjali Gupta, Abhijnan Chakraborty, Sayan Ranu, Amitabha Bagchi",
+    "year": 2022,
+    "venue": "ijcai_2022",
+    "areas": [
+      "labour"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "ethnographic_design",
+      "impact_evaluation",
+      "operations_scale"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "caste",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "ijcai_2022_venue_search",
+    "notes": "The paper engages with the labour topic, specifically gig/platform work, which is relevant to developing regions like India.",
+    "link": "https://doi.org/10.24963/ijcai.2022/711",
+    "abstract": "With the increasing popularity of food delivery platforms, it has become pertinent to look into the working conditions of the `gig' workers in these platforms, especially providing them fair wages, reasonable working hours, and transparency on work availability. However, any solution to these problems must not degrade customer experience and be cost-effective to ensure that platforms are willing to adopt them. We propose Work4Food, which provides income guarantees to delivery agents, while minimizing platform costs and ensuring customer satisfaction. Work4Food ensures that the income guarantees are met in such a way that it does not lead to increased working hours or degrade environmental impact. To incorporate these objectives, Work4Food balances supply and demand by controlling the number of agents in the system and providing dynamic payment guarantees to agents based on factors such as agent location, ratings, etc. We evaluate Work4Food on a real-world dataset from a leading food delivery platform and establish its advantages over the state of the art in terms of the multi-dimensional objectives at hand.",
+    "_matched_keywords": [
+      "wages"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Revealing the Excitation Causality between Climate and Political Violence via a Neural Forward-Intensity Poisson Process",
+    "authors": "Schyler C. Sun, Bailu Jin, Zhuangkun Wei, Weisi Guo",
+    "year": 2022,
+    "venue": "ijcai_2022",
+    "areas": [
+      "climate_change"
+    ],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [
+      "climate_change"
+    ],
+    "area_agnostic": false,
+    "source_course": "ijcai_2022_venue_search",
+    "notes": "The paper addresses climate change as a cross-cutting dimension, which is relevant to the developing regions context.",
+    "link": "https://doi.org/10.24963/ijcai.2022/718",
+    "abstract": "The causal mechanism between climate and political violence is fraught with complex mechanisms. Current quantitative causal models rely on one or more assumptions: (1) the climate drivers persistently generate conflict, (2) the causal mechanisms have a linear relationship with the conflict generation parameter, and/or (3) there is sufficient data to inform the prior distribution. Yet, we know conflict drivers often excite a social transformation process which leads to violence (e.g., drought forces agricultural producers to join urban militia), but further climate effects do not necessarily contribute to further violence. Therefore, not only is this bifurcation relationship highly non-linear, there is also often a lack of data to support prior assumptions for high resolution modeling. \n\n\n\nHere, we aim to overcome the aforementioned causal modeling challenges by proposing a neural forward-intensity Poisson process (NFIPP) model. The NFIPP is designed to capture the potential non-linear causal mechanism in climate induced political violence, whilst being robust to sparse and timing-uncertain data. Our results span 20 recent years and reveal an excitation-based causal link between extreme climate events and political violence across diverse countries. Our climate-induced conflict model results are cross-validated against qualitative climate vulnerability indices. Furthermore, we label historical events that either improve or reduce our predictability gain, demonstrating the importance of domain expertise in informing interpretation.",
+    "_matched_keywords": [
+      "drought",
+      "climate vulnerability"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Dynamic Structure Learning through Graph Neural Network for Forecasting Soil Moisture in Precision Agriculture",
+    "authors": "Anoushka Vyas, Sambaran Bandyopadhyay",
+    "year": 2022,
+    "venue": "ijcai_2022",
+    "areas": [
+      "agriculture"
+    ],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [],
+    "area_agnostic": false,
+    "source_course": "ijcai_2022_venue_search",
+    "notes": "The paper applies strong computer science methods to a problem in agriculture, which can be adapted to a developing-regions context.",
+    "link": "https://doi.org/10.24963/ijcai.2022/720",
+    "abstract": "Soil moisture is an important component of precision agriculture as it directly impacts the growth and quality of vegetation. Forecasting soil moisture is essential to schedule the irrigation and optimize the use of water. Physics based soil moisture models need rich features and heavy computation which is not scalable. In recent literature, conventional machine learning models have been applied for this problem. These models are fast and simple, but they often fail to capture the spatio-temporal correlation that soil moisture exhibits over a region. In this work, we propose a novel graph neural network based solution that learns temporal graph structures and forecast soil moisture in an end-to-end framework. Our solution is able to handle the problem of missing ground truth soil moisture which is common in practice. We show the merit of our algorithm on real-world soil moisture data.",
+    "_matched_keywords": [
+      "irrigation"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Quantifying Health Inequalities Induced by Data and AI Models",
+    "authors": "Honghan Wu, Aneeta Sylolypavan, Minhong Wang, Sarah Wild",
+    "year": 2022,
+    "venue": "ijcai_2022",
+    "areas": [
+      "health"
+    ],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [
+      "gender"
+    ],
+    "area_agnostic": false,
+    "source_course": "ijcai_2022_venue_search",
+    "notes": "The paper addresses health inequalities induced by AI models, which is relevant to the 'health' area and 'cs_fundamentals' topic, even though it is not set in a developing region as per the rule for 'cs_fundamentals'.",
+    "link": "https://doi.org/10.24963/ijcai.2022/721",
+    "abstract": "AI technologies are being increasingly tested and applied in critical environments including healthcare. Without an effective way to detect and mitigate AI induced inequalities, AI might do more harm than good, potentially leading to the widening of underlying inequalities. This paper proposes a generic allocation-deterioration framework for detecting and quantifying AI induced inequality. Specifically, AI induced inequalities are quantified as the area between two allocation-deterioration curves. To assess the framework\u2019s performance, experiments were conducted on ten synthetic datasets (N&gt;33,000) generated from HiRID - a real-world Intensive Care Unit (ICU) dataset, showing its ability to accurately detect and quantify inequality proportionally to controlled inequalities. Extensive analyses were carried out to quantify health inequalities (a) embedded in two real-world ICU datasets; (b) induced by AI models trained for two resource allocation scenarios. Results showed that compared to men, women had up to 33% poorer deterioration in markers of prognosis when admitted to HiRID ICUs. All four AI models assessed were shown to induce significant inequalities (2.45% to 43.2%) for non-White compared to White patients. The models exacerbated data embedded inequalities significantly in 3 out of 8 assessments, one of which was &gt;9 times worse.",
+    "_matched_keywords": [
+      "inequality"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Sequential Vaccine Allocation with Delayed Feedback",
+    "authors": "Yichen Xiao, Han-Ching Ou, Haipeng Chen, Van Thieu Nguyen, Long Tran-Thanh",
+    "year": 2022,
+    "venue": "ijcai_2022",
+    "areas": [
+      "health"
+    ],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [
+      "climate_change",
+      "gender",
+      "caste",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "ijcai_2022_venue_search",
+    "notes": "The paper applies strong computer science methods to a public health problem, which can be adapted to a developing-regions context.",
+    "link": "https://doi.org/10.24963/ijcai.2022/722",
+    "abstract": "In this work we consider the problem of how to best allocate a limited supply of vaccines in the aftermath of an infectious disease outbreak by viewing the problem as a sequential game between a learner and an environment (specifically, a bandit problem). The difficulty of this problem lies in the fact that the payoff of vaccination cannot be directly observed, making it difficult to compare the relative effectiveness of vaccination on different population groups. Currently used vaccination policies make recommendations based on mathematical modelling and ethical considerations. These policies are static, and do not adapt as conditions change. Our aim is to design and evaluate an algorithm which can make use of routine surveillance data to dynamically adjust its recommendation. We evaluate the performance of our approach by applying it to a simulated epidemic of a disease based on real-world COVID-19 data, and show that our vaccination policy was able to perform better than existing vaccine allocation policies.\n\nIn particular, we show that with our allocation method, we can reduce the number of required vaccination by at least 50% in order to keep the peak number of hospitalised patients below a certain threshold. Also, when the same batch sizes are used, our method can reduce the peak number of hospitalisation by up to 20%.\n\nWe also demonstrate that our vaccine allocation does not vary the number of batches per group much, making it socially more acceptable (as it reduces uncertainty, hence results in better and more interpretable communication).",
+    "_matched_keywords": [
+      "vaccination"
+    ]
+  },
+  {
+    "id": null,
+    "title": "A norm optimisation approach to SDGs: tackling poverty by acting on discrimination",
+    "authors": "Georgina Curto, Nieves Montes, Carles Sierra, Nardine Osman, Flavio Comim",
+    "year": 2022,
+    "venue": "ijcai_2022",
+    "areas": [
+      "livelihood",
+      "governance"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "caste",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "ijcai_2022_venue_search",
+    "notes": "The paper uses a general-purpose methodology that could be adapted to a developing-regions context, focusing on poverty reduction and discrimination, which aligns with the 'cs_fundamentals' topic rule.",
+    "link": "https://doi.org/10.24963/ijcai.2022/726",
+    "abstract": "Policies that seek to mitigate poverty by acting on equal opportunity have been found to aggravate discrimination against the poor (aporophobia), since individuals are made responsible for not progressing in the social hierarchy. Only a minority of the poor benefit from meritocracy in this era of growing inequality, generating resentment among those who seek to escape their needy situations by trying to climb up the ladder. Through the formulation and development of an agent-based social simulation, this study aims to analyse the role of norms implementing equal opportunity and social solidarity principles as enhancers or mitigators of aporophobia, as well as the threshold of aporophobia that would facilitate the success of poverty-reduction policies. The ultimate goal of the social simulation is to extract insights that could help inform and guide a new generation of policy making for poverty reduction by acting on the discrimination against the poor, in line with the UN \u201cLeave No One Behind\u201d principle. An \u201caporophobia-meter\u201d will be developed and guidelines will be drafted based on both the simulation results and a review of poverty reduction policies at regional levels.",
+    "_matched_keywords": [
+      "inequality",
+      "LiDAR"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Argo: Towards Small Vessel Detection for Humanitarian Purposes",
+    "authors": "Elisabeth Moser, Selina Meyer, Maximilian Schmidhuber, Daniel Ketterer, Matthias Eberhardt",
+    "year": 2022,
+    "venue": "ijcai_2022",
+    "areas": [
+      "governance"
+    ],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "ijcai_2022_venue_search",
+    "notes": "The paper addresses a humanitarian issue relevant to developing regions through the application of computer science fundamentals, aligning with the 'cs_fundamentals' topic rule.",
+    "link": "https://doi.org/10.24963/ijcai.2022/728",
+    "abstract": "Refugees trying to get to Europe via the Mediterranean often face human rights violations. The present situation is not in line with the UN's SDG's 10 and 16. We present Argo: a semi-automatically created vessel classification dataset focused on small boats, with the aim to enable NGOs and the public to detect refugee boats in satellite imagery. We achieve a classification recall of 91% on small ships. With a tool developed on top of the results presented here, NGOs could collect information and hold institutions participating in illegal activities accountable.",
+    "_matched_keywords": [
+      "satellite imagery"
+    ]
+  }
+]

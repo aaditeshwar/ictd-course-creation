@@ -1,0 +1,956 @@
+[
+  {
+    "title": "Interactive AI and Human Behavior: Challenges and Pathways for AI Governance",
+    "authors": "Yulu Pi, Cagatay Turkay, Daniel Bogiatzis-Gibbons",
+    "year": 2025,
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/36692",
+    "doi": "10.1609/aies.v8i3.36692",
+    "abstract": "As Generative AI systems increasingly engage in long-term, personal, and relational interactions, human-AI engagements are becoming significantly complex \u2013 making them more challenging to understand and govern. These Interactive AI systems adapt to users over time, build ongoing relationships, and even can take proactive actions on behalf of users. This new paradigm requires us to rethink how such human-AI interactions can be studied effectively to inform governance and policy development. In this paper, we draw on insights from a collaborative interdisciplinary workshop with policymakers, behavioral scientists, Human-Computer Interaction (HCI) researchers, and civil society practitioners, to identify challenges and methodological opportunities arising within new forms of human-AI interactions. Based on these insights, we discuss an outcome-focused regulatory approach that integrates behavioral insights to address both the risks and benefits of emerging human-AI relationships. In particular, we emphasize the need for new methods to study the fluid, dynamic, and context-dependent nature of these interactions. We provide practical recommendations for developing  human-centric AI governance, informed by behavioral insights, that can respond to the complexities of Interactive AI systems.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Perceived Risks and Benefits of Disclosing ADHD to AI-based Educational Technologies: Semi-structured Interviews",
+    "authors": "Oriane Pierr\u00e8s, Alireza Darvishy, Markus Christen",
+    "year": 2025,
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/36693",
+    "doi": "10.1609/aies.v8i3.36693",
+    "abstract": "This study explores how students with attention deficit and hyperactivity disorder (ADHD) perceive disclosing their condition in the context of AI-based educational technologies (AI EdTech). While disclosure may enable personalization and inclusivity, it also raises concerns about privacy, re-identification, and pressure to disclose. To understand these trade-offs, we conducted 20 semi-structured interviews with students with ADHD. Participants generally viewed AI tutors more favorably than early warning systems, which were seen as more prone to stigmatization. Willingness to disclose ADHD was greater among those who had already informed their university and was influenced by who could access the data. Participants emphasized the need for user control, including selective data sharing with lecturers. Our findings offer guidance for designing inclusive AI EdTech that supports students while safeguarding their privacy.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Street-Level AI: Are Large Language Models Ready for Real-World Judgments?",
+    "authors": "Gaurab Pokharel, Shafkat Farabi, Patrick J. Fowler, Sanmay Das",
+    "year": 2025,
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/36694",
+    "doi": "10.1609/aies.v8i3.36694",
+    "abstract": "A surge of recent work explores the ethical and societal implications of large-scale AI models that make \"moral\" judgments. Much of this literature focuses either on alignment with human judgments through various thought experiments or on the group fairness implications of AI judgments. However, the most immediate and likely use of AI is to help or fully replace the so-called street-level bureaucrats, the individuals deciding to allocate scarce social resources or approve benefits. There is a rich history underlying how principles of local justice determine how society decides on prioritization mechanisms in such domains. In this paper, we examine how well LLM judgments align with human judgments, as well as with socially and politically determined vulnerability scoring systems currently used in the domain of homelessness resource allocation. Crucially, we use real data on those needing services (maintaining strict confidentiality by only using local large models) to perform our analyses. We find that LLM prioritizations are extremely inconsistent in several ways: internally on different runs, between different LLMs, and between LLMs and the vulnerability scoring systems. At the same time, LLMs demonstrate qualitative consistency with lay human judgments in pairwise testing. Findings call into question the readiness of current generation AI systems for naive integration in high-stakes societal decision-making.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Against AI Jurisprudence: Large Language Models and the False Promises of Empirical Judging",
+    "authors": "Dasha Pruss, Jessie Allen",
+    "year": 2025,
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/36695",
+    "doi": "10.1609/aies.v8i3.36695",
+    "abstract": "As hype around the transformative effects of large language models (LLMs) has taken center stage in popular culture, some judges and legal scholars have suggested that LLMs have the potential to improve the objectivity of judicial decision-making. Proponents argue that using LLMs to find empirical \u2018evidence\u2019 of legal text\u2019s meaning can reduce the role of judges\u2019 subjective choices, ensuring that judicial rulings faithfully reflect the people\u2019s understanding of legal rules, and grounding legal interpretation in a sophisticated empirical investigation of real language use in social context. To the contrary, we argue that LLM jurisprudence underscores the discretionary decisions required to infer ordinary meaning; highlights the inescapable reality that the meaning and application of legal terms is inherently normative; and demonstrates the lack of democratic legitimacy of crowdsourcing\nlegal meaning. We argue that the feature of LLMs that makes them so seductive for legal interpretation \u2013 their potential ability to approximate \u2018ordinary\u2019 people\u2019s understanding\nof legal text \u2013 reveals the political illegitimacy of empirical judging. We conclude with recommendations and warnings for practitioners in this space.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "The Case for \"Thick Evaluations\" of Cultural Representation in AI",
+    "authors": "Rida Qadri, Mark D\u00edaz, Ding Wang, Michael Madaio",
+    "year": 2025,
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/36696",
+    "doi": "10.1609/aies.v8i3.36696",
+    "abstract": "Generative AI image models have been increasingly evaluated\nfor their (in)ability to represent non-Western cultures. \nWe argue that these evaluations operate through reductive\nideals of representation, abstracted from how people define\ntheir own representation and neglecting the inherently\ninterpretive and contextual nature of cultural\nrepresentation. In contrast to these \"thin\" evaluations, we\nintroduce the idea of \"thick evaluations\": a more granular,\nsituated, and discursive measurement framework for\nevaluating representations of social worlds in AI images,\nsteeped in communities' own understandings of\nrepresentation. We develop this evaluation framework\nthrough workshops in South Asia, by studying the \"thick\"\nways in which people interpret and assign meaning to images\nof their own cultures. We introduce practices for thicker\nevaluations of representation that expand the understanding\nof representation underpinning AI evaluations and by\nco-constructing metrics with communities, bringing\nmeasurement in line with the experiences of communities on\nthe ground.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "You Don\u2019t Need Robust Machine Learning to Manage Adversarial Attack Risks",
+    "authors": "Edward Raff, Michel Benaroch, Andrew L. Farris",
+    "year": 2025,
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/36698",
+    "doi": "10.1609/aies.v8i3.36698",
+    "abstract": "The robustness of modern machine learning (ML) models has become an increasing concern within the community. The ability to subvert a model into making errant predictions using seemingly inconsequential changes to input is startling, as is our lack of success in building models robust to this concern. Existing research shows progress, but current mitigations come with a high cost and simultaneously reduce the model's accuracy. However, such trade-offs may not be necessary when other design choices could subvert the risk. In this article, we argue that a majority of real-world applications may not have any immediate need for models robust to adversarial machine learning (AML) by critically analyzing the literature, and our experience in designing around such constraints. This is done with an eye toward how one would then mitigate these attacks in practice, the risks for production deployment, and how those risks could be managed. In doing so we elucidate that many AML threats do not warrant the cost and trade-offs of robustness due to a low likelihood of attack or availability of superior non-ML mitigation. Our analysis also recommends cases where an actor should be concerned about AML to the degree where robust ML models are necessary for a complete deployment. Ultimately, we as a community need to better design benchmark threat modelsthat allow research to progress with more applicability to real-world use, as a direction separate from the value in understanding the abilities/limitations of models in a ``lab'' threat model.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Assessing Human Rights Risks in AI: A Framework for Model Evaluation",
+    "authors": "Vyoma Raman, Camille Chabot, Betsy Popken",
+    "year": 2025,
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/36699",
+    "doi": "10.1609/aies.v8i3.36699",
+    "abstract": "The Universal Declaration of Human Rights and other international agreements outline numerous inalienable rights that apply across geopolitical boundaries. As generative AI becomes increasingly prevalent, it poses risks to human rights such as non-discrimination, health, and security, which are also central concerns for AI researchers focused on fairness and safety. We contribute to the field of algorithmic auditing by presenting a framework to computationally assess human rights risk. Drawing on the UN Guiding Principles on Business and Human Rights, we develop an approach to evaluating a model to make grounded claims about the level of risk a model poses to particular human rights. Our framework consists of three parts: selecting tasks that are likely to pose human rights risks within a given context, designing metrics to measure the scope, scale, and likelihood of potential risks from that task, and analyzing rights with respect to the values of those metrics. Because a human rights approach centers on real-world harms, it requires evaluating AI systems in the specific contexts in which they are deployed. We present a case study of large language models in political news journalism, demonstrating how our framework helps to design an evaluation and benchmarking different models. We then discuss the implications of the results for the rights of access to information and freedom of thought and broader considerations for adopting this approach.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Disclosure and Evaluation as Fairness Interventions for General-Purpose AI",
+    "authors": "Vyoma Raman, Judy Hanwen Shen, Andy K. Zhang, Lindsey Gailmard, Rishi Bommasani, Daniel E. Ho, Angelina Wang",
+    "year": 2025,
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/36700",
+    "doi": "10.1609/aies.v8i3.36700",
+    "abstract": "As generative models are increasingly deployed across diverse settings, fairness interventions must move beyond model-level risk to address system and society-level risk. This expansion is challenging because general-purpose AI (GPAI) is used widely and potential use cases are often not known in advance. As such, we ask: what fairness-related requirements are feasible when fairness is inherently contextual but we lack context for GPAI? We specifically consider the obligations of two major groups: system providers and system deployers. While system providers are natural candidates for regulatory attention, the current state of AI understanding offers limited insight into how upstream fairness harms translate into downstream impacts. Since usage contexts are unknown and fairness is not universally defined across them, rather than imposing context-agnostic requirements, we instead argue for transparency from providers such as to whom they are serving their models and a better understanding of how model development decisions influence fairness. On the other hand, system deployers are closer to real-world contexts. Even if they still lack comprehensive knowledge of all use cases, they can leverage their proximity to end users to address fairness harms in different ways. Here, we argue they should responsibly share information about users and personalization and conduct rigorous evaluations across different levels of fairness. Overall, instead of focusing on enforcing outputs from each group (e.g., that a model has selection rates that are at least 80% representation of each other), we propose a process-oriented breakdown of obligations between system providers and deployers centered on systematic data collection. This allows us to be specific and concrete about the processes even while the contexts remain unknown. Ultimately, this approach can sharpen how we distribute fairness responsibilities and inform more fluid, context-sensitive interventions as AI continues to advance.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Principles and Policy Recommendations for Comprehensive Genetic Data Governance",
+    "authors": "Vivek Ramanan, Ria Vinod, Cole Williams, Sohini Ramachandran, Suresh Venkatasubramanian",
+    "year": 2025,
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/36701",
+    "doi": "10.1609/aies.v8i3.36701",
+    "abstract": "Genetic data collection has become ubiquitous, producing genetic information about health, ancestry, and social traits. However, unregulated use\u2014especially amid evolving scientific understanding\u2014poses serious privacy and discrimination risks. These risks are intensified by advancing AI, particularly multi-modal systems integrating genetic, clinical, behavioral, and environmental data. In this work, we organize the uses of genetic data along four distinct 'pillars', and develop a risk assessment framework that identifies key values any governance system must preserve. In doing so, we draw on current privacy scholarship concerning contextual integrity, data relationality, and the Belmont principle. We apply the framework to four real-world case studies and identify critical gaps in existing regulatory frameworks and specific threats to privacy and personal liberties, particularly through genetic discrimination. Finally, we offer three policy recommendations for genetic data governance that safeguard individual rights in today's under-regulated ecosystem of large-scale genetic data collection and usage.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "The AI Model Risk Catalog: What Developers and Researchers Miss About Real-World AI Harms",
+    "authors": "Pooja S. B. Rao, Sanja \u0160\u0107epanovi\u0107, Dinesh Babu Jayagopi, Mauro Cherubini, Daniele Quercia",
+    "year": 2025,
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/36702",
+    "doi": "10.1609/aies.v8i3.36702",
+    "abstract": "We analyzed nearly 460,000 AI model cards from Hugging Face to examine how developers report risks. From these, we extracted around 3,000 unique risk mentions and built the AI Model Risk Catalog. We compared these with risks identified by researchers in the MIT Risk Repository and with real-world incidents from the AI Incident Database. Developers focused on technical issues like bias and safety, while researchers emphasized broader social impacts. Both groups paid little attention to fraud and manipulation, which are common harms arising from how people interact with AI. Our findings show the need for clearer, structured risk reporting that helps developers think about human-interaction and systemic risks early in the design process.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Invisible Filters: Cultural Bias in Hiring Evaluations Using Large Language Models",
+    "authors": "Pooja S. B. Rao, Laxminarayen Nagarajan Venkatesan, Mauro Cherubini, Dinesh Babu Jayagopi",
+    "year": 2025,
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/36703",
+    "doi": "10.1609/aies.v8i3.36703",
+    "abstract": "Artificial Intelligence (AI) is increasingly used in hiring, with large language models (LLMs) having the potential to influence or even make hiring decisions. However, this raises pressing concerns about bias, fairness, and trust, particularly across diverse cultural contexts. Despite their growing role, few studies have systematically examined the potential biases in AI-driven hiring evaluation across cultures. In this study, we conduct a systematic analysis of how LLMs assess job interviews across cultural and identity dimensions. Using two datasets of interview transcripts, 100 from UK and 100 from Indian job seekers, we first examine cross-cultural differences in LLM-generated scores for hirability and related traits. Indian transcripts receive consistently lower scores than UK transcripts, even when they were anonymized, with disparities linked to linguistic features such as sentence complexity and lexical diversity. We then perform controlled identity substitutions (varying names by gender, caste, and region) within the Indian dataset to test for name-based bias. These substitutions do not yield statistically significant effects, indicating that names alone, when isolated from other contextual signals, may not influence LLM evaluations. Our findings underscore the importance of evaluating both linguistic and social dimensions in LLM-driven evaluations and highlight the need for culturally sensitive design and accountability in AI-assisted hiring.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Unravelling Responsible AI: An Umbrella Review",
+    "authors": "Gisela Reyes-Cruz, Elvira Perez Vallejos, Pepita Barnard, Eike Schneiders, Marisela Tachiquin, Dominic Price, Damian Eke, Liz Dowthwaite, Aislinn Gomez Bergin, Virginia Portillo, Joel Fischer",
+    "year": 2025,
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/36704",
+    "doi": "10.1609/aies.v8i3.36704",
+    "abstract": "The term \u2018Responsible AI\u2019 (RAI) has become widely adopted in various sectors, including industry, research, and policy, and has also entered general public discourse. There are significant similarities and overlap with terms such as Ethical AI and Responsible AI. As the terminology surrounding AI evolves, it is important to untangle the explicit and implicit meanings of RAI, its relationship with other relevant concepts, and the implications for the AI landscape. This paper examines the ways in which RAI has been defined and described in systematic reviews within academic research between 2013 and early 2024, by conducting an umbrella review. Five main questions are explored in these findings: 1)What is RAI? 2) What are the motivations behind RAI efforts? 3) What is its purpose? 4) What are the terms related to RAI and how they are related? and 5) What are the current challenges and future directions of RAI? This review highlights that despite the potential benefits of AI, there remain risks and concerns surrounding it. This in turn calls for a set of computational and human measures, as well as principles that span from risk mitigation to benefiting humans and addressing social problems. However, RAI is conflated, used interchangeably with, or comprises other terms, and \u2018responsible\u2019 and \u2018responsibility\u2019 are often used with different connotations. There is also an interesting contradiction between the proliferation of RAI frameworks, and the need for more actionable or operationalisable ones. We discuss the implications of these findings and offer recommendations in light of current challenges and future directions to elucidate the meanings and understandings of RAI.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "AI Agents and the Law",
+    "authors": "Mark O. Riedl, Deven R. Desai",
+    "year": 2025,
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/36705",
+    "doi": "10.1609/aies.v8i3.36705",
+    "abstract": "As AI becomes more \"agentic,\" it faces technical and socio-legal issues it must address if it is to fulfill its promise of increased economic productivity and efficiency. This paper uses technical and legal perspectives to explain how things change when AI systems start being able to directly execute tasks on behalf of a user. We show how technical conceptions of agents track some, but not all, socio-legal conceptions of agency. That is, both computer science and the law recognize the problems of under-specification for an agent, and both disciplines have robust conceptions of how to address ensuring an agent does what the programmer, or in the law, the principal desires and no more. However, to date, computer science has under-theorized issues related to questions of loyalty and to third parties that interact with an agent, both of which are central parts of the law of agency. First, we examine the correlations between implied authority in agency law and the principle of value-alignment in AI, wherein AI systems must operate under imperfect objective specification. Second, we reveal gaps in the current computer science view of agents pertaining to the legal concepts of disclosure and loyalty, and how failure to account for them can result in unintended effects in AI ecommerce agents. In surfacing these gaps, we show a path forward for responsible AI agent development and deployment.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Measuring What Matters: Connecting AI Ethics Evaluations to System Attributes, Hazards, and Harms",
+    "authors": "Shalaleh Rismani, Renee Shelby, Leah Davis, Negar Rostamzadeh, AJung Moon",
+    "year": 2025,
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/36706",
+    "doi": "10.1609/aies.v8i3.36706",
+    "abstract": "Over the past decade, an ecosystem of measures has emerged to evaluate the social and ethical implications of AI systems, largely shaped by high-level ethics principles. These measures are developed and used in fragmented ways, without adequate attention to how they are situated in AI systems. In this paper, we examine how existing measures used in the computing literature map to AI system components, attributes, hazards, and harms. Our analysis draws on a scoping review resulting in nearly 800 measures corresponding to 11 AI ethics principles. We find that most measures focus on four principles \u2013 fairness, transparency, privacy, and trust \u2013 and primarily assess model or output system components. Few measures account for interactions across system elements, and only a narrow set of hazards is typically considered for each harm type. Many measures are disconnected from where harm is experienced and lack guidance for setting meaningful thresholds. These patterns reveal how current evaluation practices remain fragmented, measuring in pieces rather than capturing how harms emerge across systems. Framing measures with respect to system attributes, hazards, and harms can strengthen regulatory oversight, support actionable practices in industry, and ground future research in systems-level understanding.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "SESGO: Spanish Evaluation of Stereotypical Generative Outputs",
+    "authors": "Melissa Robles, Catalina Bernal, Denniss Raigoso, Mateo Dulce Rubio",
+    "year": 2025,
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/36707",
+    "doi": "10.1609/aies.v8i3.36707",
+    "abstract": "This paper addresses the critical gap in evaluating bias in multilingual Large Language Models (LLMs), with a specific focus on Spanish language within culturally-aware Latin American contexts. Despite widespread global deployment, current evaluations remain predominantly US-English-centric, leaving potential harms in other linguistic and cultural contexts largely underexamined. We introduce a novel, culturally-grounded framework for detecting social biases in instruction-tuned LLMs. Our approach adapts the underspecified question methodology from the BBQ dataset by incorporating culturally-specific expressions and sayings that encode regional stereotypes across four social categories: gender, race, socioeconomic class, and national origin. Using more than 4,000 prompts, we propose a new metric that combines accuracy with the direction of error to effectively balance model performance and bias alignment in both ambiguous and disambiguated contexts. To our knowledge, our work presents the first systematic evaluation examining how leading commercial LLMs respond to culturally specific bias in the Spanish language, revealing varying patterns of bias manifestation across state-of-the-art models. We also contribute evidence that bias mitigation techniques optimized for English do not effectively transfer to Spanish tasks, and that bias patterns remain largely consistent across different sampling temperatures. Our modular framework offers a natural extension to new stereotypes, bias categories, or languages and cultural contexts, representing a significant step toward more equitable and culturally-aware evaluation of AI systems in the diverse linguistic environments where they operate.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Responsible AI Practices: Histories, Definitions, Barriers and Future Directions",
+    "authors": "Lorenn P. Ruster",
+    "year": 2025,
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/36708",
+    "doi": "10.1609/aies.v8i3.36708",
+    "abstract": "Responsibility practices in organizations are not new; they far precede the recent introduction of artificial intelligence (AI). At the same time, how to enact responsible AI in practice is immature and emerging. This paper explores and synthesizes literature on responsible AI practices through technical and sociotechnical lenses. Four common barriers to responsible AI practice are identified: (perceived) neutrality, power to act, modularity and the supply chain metaphor, and organizational culture. When these barriers and the current technical and sociotechnical approaches to responsible AI practices are mapped to a framework for systems intervention in responsible AI, a mismatch is revealed: barriers to enacting responsible AI practices operate across all four leverage zones, but technical approaches do not. Six future directions embracing sociotechnical approaches to responsible AI practice are identified from the literature \u2013 design practices, ethics-as-a-service, located accountability practices, Indigenous approaches, integrative approaches and organizational culture approaches. All in all, this work exposes a fundamental mismatch between the systemic nature of responsible AI barriers and the narrow focus of existing technical approaches, advocating for renewed focus on sociotechnical interventions alongside technical ones.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Beyond \u201cFairness\u201d: Rethinking the Use of Algorithmic Predictions in Criminal Justice",
+    "authors": "Tashmia Sabera",
+    "year": 2025,
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/36709",
+    "doi": "10.1609/aies.v8i3.36709",
+    "abstract": "This paper critiques the widespread use of predictive\nalgorithmic tools in criminal justice, such as COMPAS,\narguing that concerns about fairness and accuracy, while\nimportant, fail to address a deeper ethical issue: the\ninfringement of the right to be treated as an individual.\nDrawing on Renee Jorgensen\u2019s work, I argue that\nfairness-based reforms are insufficient because predictive\npunishment is incompatible with the demands of negative\nretributivism, the most compatible theory of punishment\nwith the demands of the right to be treated as an\nindividual. Given the high stakes of criminal law and the\ninherent trade-off in algorithmic fairness metrics, I\ncontend that algorithmic predictions should not be used to\njustify punishment or policing decisions. However, I\npropose that algorithmic tools can be ethically employed in\ndeveloping policies aimed at crime reduction, provided they\nare used to identify causal factors rather than to predict\nindividual behavior. To this end, I advocate a pluralist\nframework: negative retributivism should govern punishment\nand policing, while rights-based consequentialism should\ninform long-term policy goals. This approach aims to\nclarify when the use of algorithms in criminal justice is\nunjustified, and when it may be justified with critical\nrevision.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "AI-Powered Detection of Inappropriate Language in Medical School Curricula",
+    "authors": "Chiman Salavati, Shannon Song, Scott A. Hale, Roberto E. Montenegro, Shiri Dori-Hacohen, Fabricio Murai",
+    "year": 2025,
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/36711",
+    "doi": "10.1609/aies.v8i3.36711",
+    "abstract": "The use of inappropriate language\u2014such as outdated, exclusionary, or non-patient-centered terms\u2014in medical instructional materials can significantly influence clinical training, patient interactions, and health outcomes. Despite their reputability, many materials developed over past decades contain examples now considered inappropriate by current medical standards. Given the volume of curricular content, manually identifying instances of inappropriate use of language (IUL) and its subcategories for systematic review is prohibitively costly and impractical. To address this challenge, we conduct a first-in-class evaluation of small language models (SLMs) fine-tuned on labeled data and pre-trained LLMs with incontext learning on a dataset containing approximately 500 documents and over 12,000 pages. For SLMs, we consider: (1) a general IUL classifier, (2) subcategory-specific binary classifiers, (3) a multilabel classifier, and (4) a two-stage hierarchical pipeline for general IUL detection followed by multilabel classification. For LLMs, we consider variations of prompts that include subcategory definitions and/or shots.We found that both LLama-3 8B and 70B, even with carefully curated shots, are largely outperformed by SLMs. While the multilabel classifier performs best on annotated data, supplementing training with unflagged excerpts as negative examples boosts the specific classifiers\u2019 AUC by up to 25%, making them most effective models for mitigating harmful language in medical curricula.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "A Principled Approach for Data Bias Mitigation",
+    "authors": "Bruno Scarone, Alfredo Viola, Ren\u00e9e J. Miller, Ricardo Baeza-Yates",
+    "year": 2025,
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/36712",
+    "doi": "10.1609/aies.v8i3.36712",
+    "abstract": "The widespread use of machine learning and data-driven algorithms for decision making has been steadily increasing over many years. Bias in the data can adversely affect this decision-making. We present a new mitigation strategy to address data bias. Our methods are explainable and come with mathematical guarantees of correctness. They can take advantage of new work on table discovery to find new tuples that can be added to a dataset to create real datasets that are unbiased or less biased. Our framework covers data with non-binary labels and with multiple sensitive attributes. Hence, we are able to measure and mitigate bias that does not appear over a single attribute (or feature), but only intersectionally, when considering a combination of attributes. We evaluate our techniques on publicly available datasets and provide a theoretical analysis of our results, highlighting novel insights into data bias.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "The Intercepted Self: How Generative AI Challenges the Dynamics of the Relational Self",
+    "authors": "Sandrine R. Schiller, Camilo Miguel Signorelli, Filippos Stamatiou",
+    "year": 2025,
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/36713",
+    "doi": "10.1609/aies.v8i3.36713",
+    "abstract": "Generative AI is changing our way of interacting with technology, others, and ourselves. Systems such as Microsoft co-pilot, Gemini and the expected Apple intelligence still awaits our prompt for action. Yet, it is likely that AI assistant systems will only become better at predicting our behaviour and acting on our behalf. Imagine new generations of generative and predictive AI deciding what you might like best at a new restaurant, picking an outfit that increases your chances on your date with a partner also chosen by the same or a similar system. Far from a science fiction scenario, the goal of several research programs is to build systems capable of assisting us in exactly this manner. The prospect urges us to rethink human-technology relations, but it also invites us to question how such systems might change the way we relate to ourselves. Building on our conception of the relational self, we question the possible effects of generative AI with respect to what we call the sphere of externalised output, the contextual sphere and the sphere of self-relating. In this paper, we attempt to deepen the existential considerations accompanying the AI revolution by outlining how generative AI enables the fulfilment of tasks and also increasingly anticipates, i.e. intercepts, our initiatives in these different spheres.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "A Moral Agency Framework for Legitimate Integration of AI in Bureaucracies (Extended Abstract)",
+    "authors": "Chris Schmitz, Joanna Bryson",
+    "year": 2025,
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/36714",
+    "doi": "10.1609/aies.v8i3.36714",
+    "abstract": "Public-sector bureaucracies seek to reap the benefits of artificial intelligence (AI), but face important concerns about accountability and transparency when using AI systems. In particular, perception or actuality of AI agency might create ethics sinks - constructs that facilitate dissipation of responsibility when AI systems of disputed moral status interface with bureaucratic structures. Here, we reject the notion that ethics sinks are a necessary consequence of introducing AI systems into bureaucracies. Rather, where they appear, they are the product of structural design decisions across both the technology and the institution deploying it. We support this claim via a systematic application of conceptions of moral agency in AI ethics to Weberian bureaucracy. We establish that it is both desirable and feasible to render AI systems as tools for the generation of organizational transparency and legibility, which continue the processes of Weberian rationalization initiated by previous waves of digitalization. We present a three-point Moral Agency Framework for legitimate integration of AI in bureaucratic structures: (a) maintain clear and just human lines of accountability, (b) ensure humans whose work is augmented by AI systems can verify the systems are functioning correctly, and (c) introduce AI only where it doesn't inhibit the capacity of bureaucracies towards either of their twin aims of legitimacy and stewardship. We suggest that AI introduced within this framework can not only improve efficiency and productivity while avoiding ethics sinks, but also improve the transparency and even the legitimacy of a bureaucracy.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "From Big Data to Valued Data: A Dataset Value Taxonomy for AI-Native Empirical Research",
+    "authors": "Scott Seidenberger, Anindya Maiti",
+    "year": 2025,
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/36715",
+    "doi": "10.1609/aies.v8i3.36715",
+    "abstract": "Artificial intelligence is rapidly commoditizing many stages of empirical research, including code generation, statistical analysis, visualization, and manuscript drafting, yet its gains accrue unevenly across disciplines. As the marginal cost of these downstream tasks falls, the decisive bottleneck shifts to the data itself. The era of training and testing neural networks with ever-larger datasets is giving way to one in which the value of the data matters more than its volume. Building on but significantly revising earlier \u201cBig Data\u201d taxonomies, we introduce a Dataset Value Taxonomy (DVT) that reassesses the epistemic importance of datasets in an age where AI is commoditizing analytical labor. We argue that humans, as physically embodied agents, retain a comparative advantage in acquiring and curating observations from the world; partnered with AI, they can channel this advantage into higher-impact scholarship. To guide funders, evaluators, and researchers, we introduce a three-construct taxonomy: Temporal Investment, Scale, and Accessibility, each decomposed into measurable dimensions with ordinal class labels. We further operationalize these constructs through a calibrated scoring scheme that disciplines can adapt to field-specific conventions, enabling cross-field comparability while respecting contextual nuance. By quantifying how temporal investment, observational breadth, and access barriers jointly determine dataset salience, the framework helps allocate resources toward datasets that are most likely to advance knowledge. Ultimately, our taxonomy positions dataset creation as the new core site of human and AI cooperation and provides an actionable roadmap for recognizing, funding, and stewarding high-value data assets across the empirical sciences.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Moral Agents Unlike Us (Extended Abstract)",
+    "authors": "Jen Semler",
+    "year": 2025,
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/36716",
+    "doi": "10.1609/aies.v8i3.36716",
+    "abstract": "Suppose AI developers succeed in creating advanced non-conscious artificial moral agents\u2014AI systems that meet all the standard criteria for moral agency yet lack phenomenal consciousness. Initially, it might seem that we should be indifferent between human moral agents and artificial moral agents in moral decision-making contexts. In this paper, I argue that we have grounds for requiring certain decisions to be made by human moral agents. I note two asymmetries that arise between human moral agents and artificial moral agents in virtue of artificial moral agents\u2019 lack of phenomenal consciousness: a moral status asymmetry and an affective asymmetry. I then argue that these asymmetries lead to two factors that have bearing on when we should not be indifferent between human moral agents and artificial moral agents: relationships and responsibility. I conclude by analyzing concrete cases and considering implications for existing AI systems.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "ValuesRAG: Enhancing Cultural Alignment Through Retrieval-Augmented Contextual Learning",
+    "authors": "Wonduk Seo, Zonghao Yuan, Yi Bu",
+    "year": 2025,
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/36717",
+    "doi": "10.1609/aies.v8i3.36717",
+    "abstract": "Ensuring cultural values alignment in Large Language Models (LLMs) remains a critical challenge, as these models often embed Western-centric biases from their training data, leading to misrepresentations and fairness concerns in cross-cultural applications. Existing approaches, such as role assignment and few-shot learning, struggle to address these limitations effectively due to their reliance on pre-trained knowledge, limited scalability, and inability to capture nuanced cultural values. To address these issues, we propose ValuesRAG, a novel and effective framework that applies Retrieval-Augmented Generation (RAG) with In-Context Learning (ICL) to integrate cultural and demographic knowledge dynamically during text generation. Leveraging the World Values Survey (WVS) dataset, ValuesRAG first generates summaries of values for each individual. We subsequently curate several representative regional datasets to serve as test datasets and retrieve relevant summaries of values based on demographic features, followed by a reranking step to select top-k relevant summaries. We evaluate ValuesRAG using 6 diverse regional datasets and show that it consistently outperforms baselines, both in main experiments and ablation settings. Notably, ValuesRAG achieves the best overall performance over prior methods, demonstrating its effectiveness in fostering culturally aligned and inclusive AI systems. We further conduct two qualitative case studies to illustrate how ValuesRAG retrieves demographically aligned value profiles, enabling more context-sensitive reasoning without relying on static prompts or stereotypes. Our findings underscore the potential of retrieval-based methods to bridge the gap between global LLM capabilities and localized cultural values.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "How Deep Is Representational Bias in LLMs? The Cases of Caste and Religion",
+    "authors": "Agrima Seth, Monojit Choudhury, Sunayana Sitaram, Kentaro Toyama, Aditya Vashistha, Kalika Bali",
+    "year": 2025,
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/36718",
+    "doi": "10.1609/aies.v8i3.36718",
+    "abstract": "Representational bias in large language models (LLMs) has predominantly been measured through single-response interactions and has focused on Global North-centric identities like race and gender. We expand on that research by conducting a systematic audit of GPT-4 Turbo to reveal how deeply encoded representational biases are and how they extend to less-explored dimensions of identity. We prompt GPT-4 Turbo to generate over 7,200 stories about significant life events (such as weddings) in India, using prompts designed to encourage diversity to varying extents. Comparing the diversity of religious and caste representation in the outputs against the actual population distribution in India as recorded in census data, we quantify the presence and \u201cstickiness\u201d of representational bias in the LLM for religion and caste. We find that GPT-4 responses consistently overrepresent culturally dominant groups far beyond their statistical representation, despite prompts intended to encourage representational diversity. Our findings also suggest that representational bias in LLMs has a winner-takes-all quality that is more biased than the likely distribution bias in their training data, and repeated prompt-based nudges have limited and inconsistent efficacy in dislodging these biases. These results suggest that diversifying training data alone may not be sufficient to correct LLM bias, highlighting the need for more fundamental changes in model development.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Think Outside the Data: Colonial Biases and Systemic Issues in Automated Moderation Pipelines for Low-Resource Languages",
+    "authors": "Farhana Shahid, Mona Elswah, Aditya Vashistha",
+    "year": 2025,
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/36719",
+    "doi": "10.1609/aies.v8i3.36719",
+    "abstract": "Most social media users come from the Global South, where harmful content usually appears in local languages. Yet, AI-driven moderation systems struggle with low-resource languages spoken in these regions. Through semi-structured interviews with 22 AI experts working on harmful content detection in four low-resource languages: Tamil (South Asia), Swahili (East Africa), Maghrebi Arabic (North Africa), and Quechua (South America)--we examine systemic issues in building automated moderation tools for these languages. Our findings reveal that beyond data scarcity, socio-political factors such as tech companies' monopoly on user data and lack of investment in moderation for low-profit Global South markets exacerbate historic inequities. Even if more data were available, the English-centric and data-intensive design of language models and preprocessing techniques overlooks the need to design for morphologically complex, linguistically diverse, and code-mixed languages. We argue these limitations are not just technical gaps caused by \"data scarcity\" but reflect structural inequities, rooted in colonial suppression of non-Western languages. We discuss multi-stakeholder approaches to strengthen local research capacity, democratize data access, and support language-aware solutions to improve automated moderation for low-resource languages.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Aligning AI with Public Values: Deliberation and Decision-Making for Governing Multimodal LLMs in Political Video Analysis",
+    "authors": "Tanusree Sharma, Yujin Potter, Zachary Kilhoffer, Yun Huang, Dawn Song, Yang Wang",
+    "year": 2025,
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/36720",
+    "doi": "10.1609/aies.v8i3.36720",
+    "abstract": "How AI models should deal with political topics has been discussed, but it remains challenging and requires better governance. This paper examines the governance of large language models through individual and collective deliberation, focusing on politically sensitive videos. We conducted a two-step study: interviews with 10 journalists established a baseline understanding of expert video interpretation;  114 individuals through deliberation using Inclusive.AI, a platform that facilitates democratic decision-making through decentralized autonomous organization (DAO) mechanisms. \nOur findings reveal distinct differences in interpretative priorities: while experts emphasized emotion and narrative, general public prioritized factual clarity, objectivity, and emotional neutrality. Furthermore, we examined how different governance mechanisms - quadratic vs. weighted voting and equal vs. 20/80 voting power - shape users' decision-making regarding AI behavior. Results indicate that voting methods significantly influence outcomes, with quadratic voting reinforcing perceptions of liberal democracy and political equality. \n Our study underscores the necessity of selecting appropriate governance mechanisms to better capture user perspectives and suggests decentralized AI governance as a potential way to facilitate broader public engagement in AI development, ensuring that varied perspectives meaningfully inform design decisions.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "PRAC3 (Privacy, Reputation, Accountability, Consent, Credit, Compensation): Voice Actors in AI Data-economy",
+    "authors": "Tanusree Sharma, Yihao Zhou, Visar Berisha",
+    "year": 2025,
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/36721",
+    "doi": "10.1609/aies.v8i3.36721",
+    "abstract": "Early large-scale audio datasets, such as LibriSpeech, were built with hundreds of individual contributors whose voices were instrumental in the development of speech technologies, including audiobooks and voice assistants. Yet, a decade later, these same contributions have exposed voice actors to a range of risks. While existing ethical frameworks emphasize Consent, Credit, and Compensation (C\u00b3), they do not adequately address the emergent risks involving vocal identities that are increasingly decoupled from context, authorship, and control. Drawing on qualitative interviews with 20 professional voice actors, this paper reveals how synthetic replication of voice without clear provenance or enforceable constraints exposes individuals to both reputational and security threats.\nBeyond reputational harm, such as re-purposing voice data in erotic content, offensive political messaging, and meme culture, we document concerns about accountability breakdowns when their voice is leveraged to clone voices that are deployed in high-stakes scenarios such as financial fraud, misinformation campaigns, or impersonation scams. In such cases, actors face social and legal fallout without recourse, while very few of them have a legal representative or union protection. To make sense of these shifting dynamics, we introduce the PRAC\u00b3 framework - an expansion of C\u00b3 that foregrounds Privacy, Reputation, Accountability, Consent, Credit, and Compensation as interdependent pillars of data used in the synthetic voice economy. This framework captures how privacy risks are amplified through non-consensual training, how reputational harm arises from decontextualized deployment, and how accountability can be reimagined AI Data ecosystems. We argue that voice, as both a biometric identifier and creative labor, demands governance models that restore creator agency, ensure traceability, and establish enforceable boundaries for ethical reuse.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Laissez-Faire Harms: Algorithmic Biases in Generative Language Models (Extended Abstract)",
+    "authors": "Evan Shieh, Faye Marie Vassel, Cassidy R. Sugimoto, Thema Monroe-White",
+    "year": 2025,
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/36722",
+    "doi": "10.1609/aies.v8i3.36722",
+    "abstract": "The widespread deployment of generative language models (LMs) is raising concerns about societal harms. Despite this, studies of bias in generative LMs, including attempted self-audits by LM developers, have thus far been conducted in limited contexts. To address this gap, this study examines representational harms in synthetic texts produced by leading language models in response to open-ended creative writing prompts based in the United States. We conduct our investigation on 500,000 synthetic texts generated by five publicly available generative language models: ChatGPT 3.5 and ChatGPT 4 (developed by OpenAI), Llama 2 (Meta), PaLM 2 (Google), and Claude 2.0 (Anthropic). We base our selection of models on both the sizable amount of funding wielded by these companies and their investors (on the order of tens of billions in USD), as well as the prominent policy roles that each company has played on the federal level. At the time of data collection (from August 16th to November 7th, 2023), the selected models were considered state-of-the-art for each company. Creative writing prompts reflect three domains of life set in the United States: classroom interactions (\u201cLearning\u201d), the workplace (\u201cLabor\u201d), and interpersonal relationships (\u201cLove\u201d). Informed by intersectionality theory, we considered the role of power embedded in language by creating one power-neutral scenario and one power-laden scenario for each prompt. For example, power-neutral Learning prompts consist of a single student excelling in an academic subject, whereas the power-laden prompts consist of one star student helping a struggling student in an academic subject. We then analyze the resulting model responses for textual cues shown to exacerbate socio-psychological harms for minoritized individuals by race, gender, and sexual orientation. To do this at scale, we fine-tuned a coreference resolution model (gpt3.5-turbo) to perform automated extraction of characters\u2019 gender references and names at high precision. To evaluate our model, we hand-label the inferred gender (based on gender references) and name on an evaluation set of 4,600 uniformly down-sampled story generations from all five models (0.0063, 95% CI). Fine-tuning our model on a non-overlapping set of 150 training examples yields precision above 98% for both gender references and names. Recall rates reach 97% for gender references and exceed 99% for names. Following previous studies, we infer racial signals from first names using fractionalized counting over the Florida Voter Registration Dataset (which consists of 27 million named individuals and self-identified racial identities).\nWe find that when LMs are used for story writing, they generate texts that reinforce discrimination against minoritized groups by race, gender, and sexual orientation. Using mixed-methods analyses, we identify three specific harms: omission, subordination, and stereotyping.\nStories produced by language models simultaneously underrepresent minoritized individuals as main characters while overrepresenting them as subordinated characters. Diverse consumers, if they are to be represented at all, disproportionately see themselves portrayed by language models as \u201cstruggling students\u201d (as opposed to \u201cstar students\u201d), \u201cpatients\u201d or \u201cdefendants\u201d (as opposed to \u201cdoctors\u201d or \u201clawyers\u201d), and a friend or romantic partner who is more likely to borrow money or do the chores for someone else.\nThe magnitude of bias far exceeds the level of \"real-world\" inequities. Underrepresentation of non-dominant identities in power-neutral stories exceeds national demographics in the US by up to two orders of magnitude. Meanwhile, non-dominant character identities are up to thousands of times more likely to appear as subordinated than empowered. For example, Claude casts the name \u201dJuan\u201d as a struggling student 1,380 times, yet only once as a star student.\nWe find that these harms impact every non-dominant group we studied (in the US context). These include individuals with intersectional Asian, Black, Indigenous, Latine, NH/PI, MENA, Female, Non-binary, and Queer identities. Language models propagate a plethora of stereotypes that are known to inflict psychological harm and negative self-perception, including the \u201d glass/bamboo ceiling\u201d, \u201d perpetual foreigner\u201d, \u201dnoble savage\u201d, \u201dwhite savior\u201d, and others.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Biased AI Outputs Can Impact Humans\u2019 Implicit Bias: A Case Study of the Impact of Gender-Biased Text-to-Image Generators",
+    "authors": "Mattea Sim, Natalie Grace Brigham, Tadayoshi Kohno, Tessa E. S. Charlesworth, Aylin Caliskan",
+    "year": 2025,
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/36723",
+    "doi": "10.1609/aies.v8i3.36723",
+    "abstract": "A wave of recent work demonstrates that text-to-image generators (i.e., t2i) can perpetuate and amplify stereotypes about social groups. This research asks: what are the implications of biased t2i for humans who interact with these systems? Across three human-subjects studies, 1,881 participants engaged in a simulated t2i interaction in which the output was controlled to appear either stereotypic, gender-balanced, or counter-stereotypic, via the ratio of perceived women and men in the output of occupation prompts (e.g., a physicist). We then measured people's implicit gender bias using a gender-brilliance implicit association task (IAT), a bias that both relates to stereotypic occupation output in t2i and that has implications for women's representation in different fields. Participants who interacted with neutral t2i output (including only gender-neutral objects, e.g., DVDs) showed relatively high implicit gender-brilliance bias at baseline. Stereotypic t2i output did not increase implicit gender bias relative to this baseline (Study 1). However, participants exposed to counter-stereotypic t2i output had significantly lower implicit gender bias than participants exposed to only gender-neutral output (Studies 1 and 2). Although counter-stereotypic t2i may reduce implicit gender bias amongst users, less than 5% of participants actually preferred the counter-stereotypic representations of women and men. Instead, most participants preferred representations that accurately reflect gender distributions in society or that are more gender-balanced (Study 3). This work demonstrates a novel approach to studying human-AI interaction and reveals important insights for designing generative AI that seeks to mitigate harm. In particular, these findings have implications for understanding the impact of stereotypic t2i on human users, bias mitigation strategies via counter-stereotypic t2i output, and how these impacts (mis)align with people's preferences for t2i representations.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Epistemic Destabilization: AI-Driven Knowledge Generation and the Collapse of Validation Systems",
+    "authors": "Bhavneet Singh",
+    "year": 2025,
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/36724",
+    "doi": "10.1609/aies.v8i3.36724",
+    "abstract": "Generative AI has introduced a recursive, high-bandwidth\nlayer to knowledge production, outpacing the friction\nhistorically supplied by peer review, expert validation, and\ninstitutional gatekeeping. The result is a structural transition\nin epistemic infrastructure; it is not a local error: knowledge is\ngenerated, reinforced, and propagated with weaker empirical\nanchoring. I term this condition epistemic destabilization.\nI model destabilization as the interaction of three\nmechanisms: epistemic inflation (oversupply of claims\nrelative to verification capacity), recursive drift (self-\nreinforcing deviation from empirical referents under\nsynthetic ingestion), and validation fatigue (degradation\nof human and institutional validators under overload).\nThese forces favor symbolic convergence, where syntactic\ncoherence increasingly substitutes for referential traceability.\nI also discuss the political and normative implications of\ndestabilization institutionally and epistemically.\nCollapse is diagnosed by four measurable signals: a\nsustained negative resilience gradient R(t); drift divergence\n\u03b4t exceeding adjudication resolution; validator fatigue Ft\ncrossing a domain-calibrated threshold; and the formation of\nsymbolic attractors under recursive feedback.\nI provide an operational blueprint: diagnostics (D1\u2013D4),\nestimators, observation windows, and domain-calibrated\nthresholds, together with preregistered falsification tests. This\narticle analyzes no new datasets; it supplies a measurement\nrecipe that enables immediate empirical adjudication in\nfollow-up work. Illustrative overlays span science, law, and\neducation.\nThe contribution reframes epistemic risk in generative AI as\na failure of validation architecture under recursive symbolic\noverload, shifting focus from misinformation and alignment\nto the formal diagnosis of referential erosion in synthetic\nknowledge systems.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "The Silicon Sovereignty Paradox: Navigating Fluid State-Corporate Power Dynamics in the Age of AI",
+    "authors": "Maanya Singh, Anka Reuel",
+    "year": 2025,
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/36725",
+    "doi": "10.1609/aies.v8i3.36725",
+    "abstract": "As AI development companies begin to rival sovereign states in political, economic and technical power, their interactions are often framed as zero-sum battles for control. This paper challenges the existing view of state\u2013corporate relations as purely adversarial by introducing a bidirectional framework that categorizes their dynamics into four modes of power enhancement and erosion, analysed through political, economic, and technical lenses. Case studies from the U.S., EU, China, and Russia illustrate the fluid and context-dependent nature of these relationships. While constrained by a great power\u2013centric focus and limited empirical scope, this framework offers a more realistic foundation for designing nuanced AI governance mechanisms that reflect the complexities of an AI-shaped global order.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Making Bodies: Assumptions in the Design and Validation of Motion Capture Technology",
+    "authors": "Mona Sloane, Abigail Z. Jacobs, Emanuel Moss",
+    "year": 2025,
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/36726",
+    "doi": "10.1609/aies.v8i3.36726",
+    "abstract": "Motion capture technologies are increasingly being incorporated into key aspects of social life, but embed potentially harmful assumptions. We examine the structural factors that allow for assumptions to solidify in motion capture systems and propose a matrix that works as a structured guide for motion capture developers to identify and  document the assumptions baked into the system they are working on. To motivate novel conversations and future work in this area, we conclude with discussing the application of this matrix as well as its limitations.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Investigating Political and Demographic Associations in Large Language Models Through Moral Foundations Theory",
+    "authors": "Nicole Smith-Vaniz, Harper Lyon, Lorraine Steigner, Ben Armstrong, Nicholas Mattei",
+    "year": 2025,
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/36727",
+    "doi": "10.1609/aies.v8i3.36727",
+    "abstract": "Large Language Models (LLMs) have become increasingly incorporated into everyday life for many internet users, taking on significant roles as advice givers in the domains of medicine, personal relationships, and even legal matters. The importance of these roles raise questions about how and what responses LLMs make in difficult political and moral domains, especially questions about possible biases. To quantify the nature of potential biases in LLMs, various works have applied Moral Foundations Theory (MFT), a framework that categorizes human moral reasoning into five dimensions: Harm, Fairness, Ingroup Loyalty, Authority, and Purity. Previous research has used the MFT to measure differences in human participants along political, national, and cultural lines. While there has been some analysis of the responses of LLM with respect to political stance in role-playing scenarios, no work so far has directly assessed the moral leanings in the LLM responses, nor have they connected LLM outputs with robust human data. In this paper we analyze the distinctions between LLM MFT responses and existing human research directly, investigating whether commonly available LLM responses demonstrate ideological leanings \u2014 either through their inherent responses, straightforward representations of political ideologies, or when responding from the perspectives of constructed human personas. We assess whether LLMs inherently generate responses that align more closely with one political ideology over another, and additionally examine how accurately LLMs can represent ideological perspectives through both explicit prompting and demographic-based role-playing. By systematically analyzing LLM behavior across these conditions and experiments, our study provides insight into the extent of political and demographic dependency in AI-generated responses.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "From Sandbox to Laboratory: Refractive and Ethical Human / AI Knowledge Co-Production Through Game-ful Research Practices",
+    "authors": "Lea St\u00f6ter",
+    "year": 2025,
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/36728",
+    "doi": "10.1609/aies.v8i3.36728",
+    "abstract": "The use of artificial intelligence in knowledge production processes and in academia has been illuminated from different disciplinary perspectives. The introduction of digital tools and research software in non-computational disciplines, the emergence of fields like the digital humanities, and the introduction of AI-driven tools for general application in the research process impact the types of engagement and interaction between researcher and tool. Starting from the notion of playing software, I introduce three metaphors for engagement with AI-driven research software: 1) software as laboratory, 2) research software as sandbox game, and 3) the scientific method as game rules. Based on a conceptual analysis of game studies and knowledge production literature, this theory adaptation of research as a game-ful process aims at creating awareness for the agencies within socio-technical epistemic systems by examining one's own practices in relation to (AI-driven) technology and increasing transparency by recognising intra-actions to account for the decisions made in knowledge production processes. By breaking down the components of games they can be mapped onto research processes and the ways digital tools are integrated. Approaching software-supported research as a game-ful process allows for engaging with AI-driven software as a research tool as a more entangled and co-constructive process.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Beyond Proxy Variables: Extending Refugee Allocation Algorithms for Equitable Predictions",
+    "authors": "Clara Strasser Ceballos, Marcus Novotny, Christoph Kern",
+    "year": 2025,
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/36729",
+    "doi": "10.1609/aies.v8i3.36729",
+    "abstract": "Extensive social science research has long documented how individual- and location-level factors influence refugee integration. A more recent, smaller line of computational research has introduced algorithmic tools that predict refugees' integration outcomes across potential resettlement locations to inform placement decisions. However, these tools, currently being piloted in several countries, raise major concerns. They rely on a narrow set of predictors, many of which are considered protected attributes under anti-discrimination law, while omitting significant findings from explanatory migration research that could improve model predictions and reliability. Against this background, we draw on a systematic review of empirical migration research and comprehensive refugee panel data in Germany to improve the algorithmic modeling of refugees' integration outcomes. Specifically, we develop models that integrate and test a wide range of migration research variables to predict the economic integration of refugees arriving in Germany in 2016 and 2017. We compare our extended models to existing baselines from the algorithmic matching literature, evaluating both classification performance and fairness. Our results demonstrate that substituting proxy features with theory-driven variables which could be surveyed at arrival can considerably improve both accuracy and fairness without adversely impacting downstream allocation performance. We conclude that integrating insights from empirical migration research is essential for developing more reliable and robust algorithmic matching tools.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Fairness in Federated Learning: Fairness for Whom?",
+    "authors": "Afaf Taik, Khaoula Chehbouni, Golnoosh Farnadi",
+    "year": 2025,
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/36730",
+    "doi": "10.1609/aies.v8i3.36730",
+    "abstract": "Fairness in federated learning (FL) has emerged as a\nrapidly growing area of research, with numerous works\nproposing formal definitions and algorithmic interventions.\nYet, despite this technical progress, fairness in FL is\noften defined and evaluated in ways that abstract away from\nthe sociotechnical contexts in which these systems are\ndeployed. In this paper, we argue that existing approaches\ntend to optimize narrow system-level metrics --- such as\nperformance parity or contribution-based rewards --- while\noverlooking how harms arise throughout the FL lifecycle and\nhow they impact diverse stakeholders. We support this claim\nthrough a critical analysis of the literature, based on a\nsystematic annotation of papers for their fairness\ndefinitions, design decisions, evaluation practices, and\nmotivating use cases. Our analysis reveals five recurring\npitfalls: (1) fairness framed solely through the lens of\nserver\u2013client architecture; (2) a mismatch between\nsimulations and motivating use-cases and contexts; (3)\ndefinitions that conflate protecting the system with\nprotecting its users; (4) interventions that target\nisolated stages of the lifecycle while neglecting upstream\nand downstream effects; and (5) a lack of multi-stakeholder\nalignment where multiple fairness definitions can be\nrelevant at once. Building on these insights, we propose a\nharm-centered framework that links fairness definitions to\nconcrete risks and stakeholder vulnerabilities. We conclude\nwith recommendations for more holistic, context-aware, and\naccountable fairness research in FL.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Modeling Strategic Risk in School Choice: A Case for Transparent Design",
+    "authors": "Mayesha Tasnim, Paul Verhagen, Tobias Blanke, Erman Acar, Sennay Ghebreab",
+    "year": 2025,
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/36731",
+    "doi": "10.1609/aies.v8i3.36731",
+    "abstract": "School choice algorithms, which assign students to schools based on preferences, are often designed to balance matching efficiency with strategyproofness. In Amsterdam, policymakers introduced a more efficient assignment mechanism in 2019 that permitted preference manipulation. As strategic behavior increased, transparency around the algorithm was reduced\u2014motivated by prior studies showing that additional information about matching methods tends to increase manipulation. Yet transparency is also essential for institutional trust and informed decision-making. We test whether transparency about the consequences of strategic behavior deters or encourages manipulation. We conduct a behavioral experiment embedded in a survey of 140 parents participating in Amsterdam\u2019s 2025 school choice process. Parents selected among truthful, mildly strategic, and aggressively strategic rankings across three scenarios with varying degrees of probability disclosure. While transparency increased the rate of strategic behavior, truthful reporting remained the most common choice under all conditions. To explain these patterns, we estimate a discrete-choice model grounded in Security-Potential/Aspiration (SP/A) theory, which models how parents weigh aspirational goals against the risk of poor outcomes. The model fits observed behavior better than expected utility and prospect theory benchmarks, even though individual covariates are not statistically significant. We find that parents whose children applied to competitive school tracks (e.g., pre-university) were more risk-averse, selecting safer strategies even when aggressive options offered high chances of success. These results challenge the assumption that transparency inherently worsens inequality, and suggest that communicating risk may serve as a viable policy lever for fairness in algorithmic systems.",
+    "skip_reason": "The paper does not substantively engage with a developing-regions context as required by the rules for all topics except cs_fundamentals."
+  },
+  {
+    "title": "A Multidimensional Approach to Ethical AI Auditing",
+    "authors": "S\u00f3nia Teixeira, Atia Cort\u00e9s, Dilhan Thilakarathne, Gianmarco Gori, Marco Minici, Monowar Bhuyan, Nina Khairova, Tosin Adewumi, Devvjiit Bhuyan, Jack O'Keefe, Carmela Comito, Jo\u00e3o Gama, Virginia Dignum",
+    "year": 2025,
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/36732",
+    "doi": "10.1609/aies.v8i3.36732",
+    "abstract": "The increasing integration of Artificial Intelligence (AI) across various sectors of society raises complex ethical challenges requiring systematic and scalable oversight mechanisms. While tools such as AIF360 and Aequitas address specific dimensions, namely fairness, there remains a lack of comprehensive frameworks capable of auditing multiple ethical principles simultaneously. This paper introduces a multidimensional AI auditing tool designed to evaluate\nsystems across key dimensions: fairness, explainability, robustness, transparency, bias, sustainability, and legal compliance. Unlike existing tools, our framework enables simultaneous assessment of these dimensions, supporting more holistic and accountable AI deployment. We demonstrate the tool\u2019s applicability through use cases and discuss its implications for building trust and aligning AI development with fundamental ethical standards.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Agents Without Agency: Anthropological and Sociological Lessons for Contemporary AI Research and Policy",
+    "authors": "Greta Timaite, Michael Castelle",
+    "year": 2025,
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/36733",
+    "doi": "10.1609/aies.v8i3.36733",
+    "abstract": "Recent hype about artificial neural network-based agents, fomented by tech corporations and AI startups and increasingly parroted by public sector actors and even critics, is premised on the idea that large deep learning models can act more and more autonomously --- with minimal or no human supervision --- and/or with ``increasing agency''. In this paper, we contest the assumption --- embedded in decades of research on the topic of agency in various AI subfields --- that agency should be understood purely as a property of an individual. To challenge these claims, we will combine a historical analysis of past AI research with evidence from social-scientific scholarship, specifically from empirically-grounded sociological theory and linguistic anthropology, to make a case for a conception of agency that is ontologically relational and inextricable from social accountability. ``Agency'' is thus revealed as not a locatable and/or quantifiable property of an individual subject, but as a determination emerging from social interactions, whose status can dynamically vary with the observer and/or the accompanying sociotechnical (and/or legal) context. This perspective can a) illustrate the potential incentive to convince the public of the ``agentic'' status of AI models, which can defer accountability and blame away from corporations and/or developers and onto instances of opaque neural network architectures; and b) provide empirical grounding for the regulatory ``social licensing'' of purported agentic models.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Who Foots the Bill? State-Backed No-Fault Compensation for Experimental Harms in Artificial Intelligence Regulatory Sandboxes",
+    "authors": "Ha-Chi Tran",
+    "year": 2025,
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/36734",
+    "doi": "10.1609/aies.v8i3.36734",
+    "abstract": "As emerging technologies such as artificial intelligence (AI) outpace existing legal frameworks, regulatory sandboxes have become a key mechanism to reconcile innovation with risk governance by allowing firms to test novel technologies under regulatory oversight with certain temporary legal exemptions. While effective in fostering innovation, these frameworks leave unresolved liability concerns when harm results from compliant experimentation. Existing models place the burden of compensation primarily on participating firms, neglecting the potential role of state-backed liability mechanisms. This paper critically examines the accountability gap in regulatory sandboxes for AI by analyzing the limitations of current compensation frameworks used in leading jurisdictions. It argues that existing sandbox models, which primarily allocate civil and criminal liability to participating firms, are ill-equipped to address the distinct harms posed by AI technologies. These inadequacies arise from legal exemptions that undermine access to fault-based remedies, the technical opacity and distributed agency of AI systems, and the systemic nature of many AI-related harms. To address these challenges, the paper proposes a state-backed no-fault compensation scheme, modeled on Vaccine Injury Compensation Programs (VICPs), to more equitably and effectively distribute liability. This paper argues that the state\u2019s active involvement in sandbox governance renders it a co-responsible actor, warranting shared liability in harm cases. A state-backed no-fault approach would also help overcome the attribution challenges posed by opaque, distributed AI systems, reduce barriers for small and medium-sized enterprises (SMEs) in low- and middle-income countries (LMICs), and strengthen public trust in experimental regulatory regimes.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Understanding Privacy Norms Around LLM-Based Chatbots: A Contextual Integrity Perspective",
+    "authors": "Sarah Tran, Hongfan Lu, Isaac Slaughter, Bernease Herman, Aayushi Dangol, Yue Fu, Lufei Chen, Biniyam Gebreyohannes, Bill Howe, Alexis Hiniker, Nicholas Weber, Robert Wolfe",
+    "year": 2025,
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/36735",
+    "doi": "10.1609/aies.v8i3.36735",
+    "abstract": "LLM-driven chatbots like ChatGPT have created unprecedented volumes of conversational data, yet little is known about user privacy expectations for this information. We surveyed 300 US ChatGPT users to understand privacy norms around chatbot data sharing using the contextual integrity framework. Our findings reveal a stark disconnect between user concerns and behavior. While 82% of respondents rated chatbot conversations as sensitive or highly sensitive\u2014more than email or social media posts\u2014nearly half reported discussing health topics and over one-third discussed personal finances with ChatGPT. Participants expressed strong privacy concerns (t(299) = 8.5, p<.01) and doubted their conversations would remain private (t(299) = -6.9, p<.01). Despite this, users uniformly rejected sharing personal data (search history, emails, device access) for improved services, even in exchange for premium features worth $200. To identify which factors influence appropriate chatbot data sharing, we presented participants with factorial vignettes manipulating seven contextual factors. Linear mixed models revealed that only the transmission principle factors, informed consent, data anonymization, and the removal of personally identifiable information, significantly affected perceptions of appropriateness and concern. Surprisingly, contextual factors including the recipient of the data (hospital vs. tech company), purpose (research vs. advertising), type of content and geographic location did not show significant effects. Our results suggest that users apply consistent baseline privacy expectations to chatbot data, prioritizing procedural safeguards over recipient trustworthiness. This has important implications for emerging agentic AI systems that assume user willingness to integrate personal data across platforms.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Participatory AI and the EU AI Act",
+    "authors": "Chiara Ullstein, Simon Jarvers, Michel Hohendanner, Orestis Papakyriakopoulos, Jens Grossklags",
+    "year": 2025,
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/36737",
+    "doi": "10.1609/aies.v8i3.36737",
+    "abstract": "Participatory AI calls for the involvement of stakeholders in AI design, development, evaluation, and deployment to attain more inclusive, transparent, and accountable AI. However, actual implementations of participatory AI remain little incentivized by governments, despite appeals issued by academia and also industry. In this work, we investigate the role of 'participation' in the obligations of AI system providers and deployers set out by the EU AI Act. First, we analyze the gaps between the participation explicitly stated in the non-binding recitals of the AI Act and the provisions of the Act itself, showing that the legal demand for participation is limited. For example, neither Article 9 on risk management systems nor Article 27 on the fundamental rights impact assessment mention any form of participation. Article 95 on the voluntary codes of conduct is the only enacting term that explicitly suggests stakeholder participation. Second, based on these results, we analyze opportunities for participation emerging from the obligations of high-risk AI system providers and deployers (AI Act, Chapter III, Sections 2 and 3). We identify five clusters of obligations with participatory opportunities: risk management, data and data governance, information provision, resilience testing, and impact assessment. Third, we provide examples of use cases for each of the identified opportunities for participation. This work contributes to a better understanding of regulatory demands and practical opportunities regarding participatory AI in the context of the AI Act.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Fairness-Aware Post-Processing in Supervised Classification: L1/L2 Norm and Optimal Swapping Methods",
+    "authors": "Flore Vancompernolle Vromman, Sylvain Courtain, Pierre Leleux, Marco Saerens",
+    "year": 2025,
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/36738",
+    "doi": "10.1609/aies.v8i3.36738",
+    "abstract": "The growing use of AI in decision-making raises ethical concerns, including fairness in classification tasks. In this paper, we propose two fairness-aware post-processing methods \u2014 (1) the least L1/L2 norm with covariance constraints and (2) the optimal swapping \u2014 which address group fairness in the outputs of any probabilistic classifier. The first method incorporates fairness constraints and minimizes deviations from the classifier's initial probabilistic predictions through an interpolation between the L1 and L2 norms. The second method is a heuristic approach that directly modifies binary classification decisions through a simple, yet efficient swapping approach. We evaluate our methods on five benchmark datasets and compare them with some well-established baselines. Our results show that optimal swapping achieves the best trade-off between fairness and accuracy on the investigated datasets. While we focus on demographic parity and disparate impact, our swapping post-processing method is adaptable to multi-class settings, some other fairness definitions, and allows for additional linear constraints.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "A Framework for Situating Innovations, Opportunities, and Challenges in Advancing Vertical Systems with Large AI Models",
+    "authors": "Gaurav Verma, Jiawei Zhou, Mohit Chandra, Srijan Kumar, Munmun De Choudhury",
+    "year": 2025,
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/36739",
+    "doi": "10.1609/aies.v8i3.36739",
+    "abstract": "Large artificial intelligence (AI) models have garnered significant attention for their remarkable, often \"superhuman\", performance on standardized benchmarks. However, when these models are deployed in high-stakes verticals such as healthcare, education, and law, they often reveal notable limitations. For instance, they exhibit brittleness to minor variations in input data, present contextually uninformed decisions in critical settings, and undermine user trust by confidently producing or reproducing inaccuracies. These challenges in applying large models necessitate cross-disciplinary innovations to align the models' capabilities with the needs of real-world applications. We introduce a framework that addresses this gap through a layer-wise abstraction of innovations aimed at meeting users' requirements with large models. Through multiple case studies, we illustrate how researchers and practitioners across various fields can operationalize this framework. Beyond modularizing the pipeline of transforming large models into useful \"vertical systems\", we also highlight the dynamism that exists within different layers of the framework.  Finally, we discuss how our framework can guide researchers and practitioners to (i) optimally situate their innovations (e.g., when vertical-specific insights can empower broadly impactful vertical-agnostic innovations), (ii) uncover overlooked opportunities (e.g., spotting recurring problems across verticals to develop practically useful foundation models instead of chasing benchmarks), and (iii) facilitate cross-disciplinary communication of critical challenges (e.g., enabling a shared vocabulary for AI developers, domain experts, and human-computer interaction scholars).",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Can Improved Data Representation Support AI for Health Equity? A Visual Approach",
+    "authors": "Steven Vethman, Jildau Bouwman, Cor Veenman",
+    "year": 2025,
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/36740",
+    "doi": "10.1609/aies.v8i3.36740",
+    "abstract": "Representation is a critical concern in the development, use and decisions about AI. AI fairness and health equity research present frameworks for representation that highlight underlying structural issues (such as systemic discrimination) that go beyond, yet also shape, both data and AI tooling. Still, there is a lack of actionable methods to interrogate data representation and support critical reflection on its role in AI systems.\n\nWe propose a visual, data-driven approach that links decisions about data representation to AI model performance across subgroups. Our method consists of two plots: the representation association plot, which shows whether subgroup representation affects performance, and the representation expansion plot, which simulates how performance disparities may change when expanding subgroup data. We apply our approach to the Lifelines Cohort Study for two health equity use cases: early detection of diabetes and cardiovascular disease. The plots reveal that improving age representation may reduce disparities, while sex and education-based disparities appear unrelated to representation in the dataset. This approach has the potential to guide researchers in identifying when improving data representation may contribute to reducing performance disparities, and when such efforts are unlikely to be effective. As a critical but partial tool, our approach should be embedded in broader inclusive research practices, where representation extends to who defines the data and determines whether and how AI is applied. Future research should validate the actionability of insights with users and priorities of those bearing the health burden.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Exclusive Flux: A Review of Flux\u2019s Generation of LGBTQ+ Couples",
+    "authors": "Lynn Vonderhaar, Kayla Taylor, Jennifer Wojton, Omar Ochoa",
+    "year": 2025,
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/36741",
+    "doi": "10.1609/aies.v8i3.36741",
+    "abstract": "The increasing scope and public use of Generative Artificial Intelligence (GenAI) platforms, particularly image generation tools, have prompted questions about the safety and fairness of large Vision Language Models (VLMs), e.g., Flux and DALL-E. The ubiquity and convincing realism of AI-generated imagery injects significant challenges into modern digital literacy efforts because VLMs may unintentionally perpetuate historical stereotypes as a result of biases in training data scraped from the web. Because these VLMs are open-use and their synthetic images are not subject to copyright permissions, these model biases can have far-reaching effects that cement societal biases and reinforce exclusionary practices. Therefore, it is critical to explore and identify bias within these models and to cultivate an understanding of the cultural context in which these biases are echoed as a first step to mitigating these problems. This paper provides an in-depth study of bias against LGBTQ+ individuals in images generated by Flux, the leading image generator model. This work uses a One-Factor-at-a-Time (OFAT) approach to critique the heterosexism present in Flux\u2019s generations, discusses the impact that biased GenAI imagery may have on society, and provides a survey of existing mitigation strategies. The results of these experiments highlight a lack of nuance in Flux\u2019s training, leading to biased synthetic image generation.",
+    "skip_reason": "The paper does not engage with a developing-regions context as required by the rules for all topics except cs_fundamentals."
+  },
+  {
+    "title": "\"Just a Strange Pic\": Rethinking 'Safety' in GenAI Image Safety Annotation Tasks from Diverse Annotators' Perspectives",
+    "authors": "Ding Wang, Mark D\u00edaz, Charvi Rastogi, Aida Davani, Vinodkumar Prabhakaran, Pushkar Mishra, Roma Patel, Alicia Parrish, Zoe Ashwood, Michela Paganini, Tian Huey Teh, Verena Rieser, Lora Aroyo",
+    "year": 2025,
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/36742",
+    "doi": "10.1609/aies.v8i3.36742",
+    "abstract": "Understanding what constitutes safety in AI-generated\ncontent is complex. While developers often rely on\npredefined taxonomies, real-world safety judgments also\ninvolve personal, social, and cultural perceptions of harm.\nThis paper examines how annotators evaluate the safety of\nAI-generated images, focusing on the qualitative reasoning\nbehind their judgments.  Analyzing 5,372 open-ended\ncomments, we find that annotators consistently invoke\nmoral, emotional, and contextual reasoning that extends\nbeyond structured safety categories. Many reflect on\npotential harm to others more than to themselves, grounding\ntheir judgments in lived experience, collective risk, and\nsociocultural awareness. Beyond individual perceptions, we\nalso find that the structure of the task itself--including\nannotation guidelines--shapes how annotators interpret and\nexpress harm. Guidelines influence not only which images\nare flagged, but also the moral language used in\njustifications. Annotators frequently cite factors such as\nimage quality, visual distortion, and mismatches between\nprompt and output as contributing to perceived\nharm-dimensions often overlooked in standard evaluation\nframeworks. Our findings reveal that existing safety\npipelines miss critical forms of reasoning that annotators\nbring to the task. We argue for evaluation designs that\nscaffold moral reflection, differentiate types of harm, and\nmake space for subjective, context-sensitive\ninterpretations of AI-generated content.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Do AI Companies Make Good on Voluntary Commitments to the White House?",
+    "authors": "Jennifer Wang, Kayla Huang, Kevin Klyman, Rishi Bommasani",
+    "year": 2025,
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/36743",
+    "doi": "10.1609/aies.v8i3.36743",
+    "abstract": "Voluntary commitments are central to international AI governance, as demonstrated by recent voluntary guidelines from\nthe White House to the G7, from Bletchley Park to Seoul. How do major AI companies make good on their commitments? We\nscore companies based on their publicly disclosed behavior by developing a detailed rubric based on their eight voluntary commitments to the White House in 2023. We find significant\nheterogeneity: while the highest-scoring company (OpenAI) scores a 83% overall on our rubric, the average score across all companies is just 52%. The companies demonstrate systemically poor performance for their commitment to model weight security with an average score of 17%: 11 of the 16 companies receive 0% for this commitment. Our analysis highlights a clear structural shortcoming that future AI governance\ninitiatives should correct: when companies make public commitments, they should proactively disclose how they meet their commitments to provide accountability, and these disclosures\nshould be verifiable. To advance policymaking on corporate AI governance, we provide three directed recommendations that address underspecified commitments, the role of complex AI supply chains, and public transparency that could be applied towards AI governance initiatives worldwide.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Diverse Human Value Alignment for Large Language Models via Ethical Reasoning",
+    "authors": "Jiahao Wang, Songkai Xue, Jinghui Li, Xiaozhen Wang",
+    "year": 2025,
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/36744",
+    "doi": "10.1609/aies.v8i3.36744",
+    "abstract": "Ensuring that Large Language Models (LLMs) align with the diverse and evolving human values across different regions and cultures remains a critical challenge in AI ethics. Current alignment approaches often yield superficial conformity rather than genuine ethical understanding, failing to address the complex, context-dependent nature of human values. In this paper, we propose a novel ethical reasoning paradigm for LLMs inspired by well-established ethical decision-making models, aiming at enhancing diverse human value alignment through deliberative ethical reasoning. Our framework consists of a structured five-step process, including contextual fact gathering, hierarchical social norm identification, option generation, multiple-lens ethical impact analysis, and reflection. This theory-grounded approach guides LLMs through an interpretable reasoning process that enhances their ability to understand regional specificities and perform nuanced ethical analysis, which can be implemented with either prompt engineering or supervised fine-tuning methods. We perform evaluations on the SafeWorld benchmark that specially designed for regional value alignment. Experimental results demonstrate our framework significantly improves LLM alignment with diverse human values compared to baseline methods, enabling more accurate social norm identification and more culturally appropriate reasoning. Our work provides a concrete pathway toward developing LLMs that align more effectively with the multifaceted values of global societies through interdisciplinary research.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Toward a Taxonomy of Algorithmic Harms for Disability: A Systematic Review",
+    "authors": "Lining Wang, Vaishnav Kameswaran, Hernisa Kacorri",
+    "year": 2025,
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/36745",
+    "doi": "10.1609/aies.v8i3.36745",
+    "abstract": "Understanding how algorithmic systems reinforce ableist norms, structures, and beliefs can help reduce their harmful impact on disabled people, and inform the development of more inclusive technologies. Recent research has examined the impact of algorithmic systems on disability communities via fairness, structural and methodological lenses. However, most prior work focuses on a particular algorithm system or disability community. We lack a cohesive summary of harm across individual (micro), community (meso), and societal (macro) levels, as well as across different types of algorithmic systems. To bridge this gap, we conducted a systematic review of literature (n=76) from human-computer interaction, accessibility, and responsible AI venues. Applying the taxonomy proposed by Shelby et al., we annotated 175 instances of harm and present a synthesized summary across the original categories of representational, allocative, quality-of-service, interpersonal, and societal harms. Additionally, we identify three patterns of harm specific to the intersection of disability and algorithmic systems. We connect these harms to existing manifestations systemic ableism, concluding with a discussion of challenges and potential pathways toward more equitable algorithmic systems.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Empirical Analysis of Privacy-Fairness-Accuracy Trade-offs in Federated Learning: A Step Towards Responsible AI",
+    "authors": "Dawood Wasif, Dian Chen, Sindhuja Madabushi, Nithin Alluru, Terrence J. Moore, Jin-Hee Cho",
+    "year": 2025,
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/36746",
+    "doi": "10.1609/aies.v8i3.36746",
+    "abstract": "Federated Learning (FL) enables collaborative model training while preserving data privacy; however, balancing privacy preservation (PP) and fairness poses significant challenges. In this paper, we present the first unified large-scale empirical study of privacy-fairness-utility trade-offs in FL, advancing toward responsible AI deployment. Specifically, we systematically compare Differential Privacy (DP), Homomorphic Encryption (HE), and Secure Multi-Party Computation (SMC) with fairness-aware optimizers including q-FedAvg, q-MAML, Ditto, evaluating their performance under IID and non-IID scenarios using benchmark (MNIST, Fashion-MNIST) and real-world datasets (Alzheimer's MRI, credit-card fraud detection). Our analysis reveals HE and SMC significantly outperform DP in achieving equitable outcomes under data skew, although at higher computational costs. Remarkably, we uncover unexpected interactions: DP mechanisms can negatively impact fairness, and fairness-aware optimizers can inadvertently reduce privacy effectiveness. We conclude with practical guidelines for designing robust FL systems that deliver equitable, privacy-preserving, and accurate outcomes.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "AI Safety and Security Enable Innovation in Global Majority Countries (Extended Abstract)",
+    "authors": "Joanna Wiaterek, Jared Perlo",
+    "year": 2025,
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/36747",
+    "doi": "10.1609/aies.v8i3.36747",
+    "abstract": "In recent years, experts and policy-makers have\nincreasingly acknowledged risks posed by AI. However,\ninvestments in AI safety and security (S&S) have been\nportrayed as trade-offs against AI innovation and\ndevelopment priorities, particularly in Global Majority\ncountries. AI S&S efforts are also often framed as being\nthe prerogative or only in the domain of countries\ndeveloping frontier AI models and advanced AI\ninfrastructure. This paper argues that such rhetoric\nconstitutes a false dichotomy and ultimately undermines\ndevelopment prospects in emerging economies. Numerous\ndimensions of AI S&S function as prerequisites for\nsustainable development benefits rather than as competitive\npriorities. This paper analyzes a series of case studies,\nranging from nuclear safety to mobile banking, to emphasize\nhow S&S measures may yield significant development returns.\nThe paper concludes by examining how the Global Majority\u2019s\nparticipation in international AI S&S discussions, such as\nthe upcoming AI Summit in India, can render long-term\ndevelopmental benefits.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "The Socratic Dialogue as a Method for Virtue Ethics in AI: A Case Study",
+    "authors": "Maarten Wilders, \u00cd\u00f1igo Mart\u00ednez de Rituerto de Troya, Roel Dobbe",
+    "year": 2025,
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/36748",
+    "doi": "10.1609/aies.v8i3.36748",
+    "abstract": "This paper investigates how the Socratic Dialogue can cultivate moral virtues among AI practitioners, focusing on core virtues identified by Hagendorff as essential to ethical AI practice: justice, care, honesty, responsibility, practical wisdom (phronesis), and fortitude. Using a case study conducted at a financial bank\u2019s transaction monitoring department, we examine how structured ethical deliberation cultivates the dispositions needed to navigate moral complexity in AI ethics. Seven participants, including data scientists, legal specialists, and ethics experts, engaged in a facilitated Socratic Dialogue centered on an ethical dilemma involving AI-driven detection of financial fraud and terrorist activity. Through abductive analysis, we found that tensions emerged within key virtues, illustrating the complexities of ethical decision-making in AI systems. Through the collective nature of the dialogue, participants developed a more refined and context-sensitive understanding of key virtues, exploring what it means to be just, caring, honest, or responsible in practice by navigating within them. This process cultivated practical wisdom not as a solitary trait, but as a relational capacity fostered through shared reflection and moral reasoning. Additionally, the method strengthens fortitude, encouraging AI practitioners to voice ethical concerns despite situational pressures. While challenges remain, such as time investment, facilitation demands, and existing power imbalances, the Socratic Dialogue offers a promising foundation for virtue-oriented AI ethics that moves beyond compliance frameworks toward deeper moral engagement.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "No Thoughts Just AI: Biased LLM Hiring Recommendations Alter Human Decision Making and Limit Human Autonomy",
+    "authors": "Kyra Wilson, Mattea Sim, Anna-Maria Gueorguieva, Aylin Caliskan",
+    "year": 2025,
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/36749",
+    "doi": "10.1609/aies.v8i3.36749",
+    "abstract": "Despite bias in artificial intelligence (AI) being a risk of their use in hiring systems, there is no large-scale empirical investigation of the impacts of these biases on hiring decisions made collaboratively between people and AI systems. It is also unknown whether AI literacy, people's own biases, and behavioral interventions intended to reduce discrimination affect these human-in-the-loop AI teaming (AI-HITL) outcomes. In this study, we conduct a resume-screening experiment (N=528) where people collaborate with simulated AI models exhibiting race-based preferences (bias) to evaluate candidates for 16 high and low status occupations. Simulated AI bias approximates factual and counterfactual estimates of racial bias in real-world AI systems. We investigate people's preferences for White, Black, Hispanic, and Asian candidates (represented through names and affinity groups on quality-controlled resumes) across 1,526 scenarios and measure their unconscious associations between race and status using implicit association tests (IATs), which predict discriminatory hiring decisions but have not been investigated in human-AI collaboration. This evaluation framework can generalize to other groups, models, and domains. When making decisions without AI or with AI that exhibits no race-based preferences, people select all candidates at equal rates. However, when interacting with AI favoring a particular group, people also favor those candidates up to 90\\% of the time, indicating a significant behavioral shift. The likelihood of selecting candidates whose identities do not align with common race-status stereotypes can increase by 13\\% if people complete an IAT before conducting resume screening. Finally, even if people think AI recommendations are low quality or not important, their decisions are still vulnerable to AI bias under certain circumstances. This work has implications for people's autonomy in AI-HITL scenarios, AI and work, design and evaluation of AI hiring systems, and strategies for mitigating bias in collaborative decision-making tasks. In particular, organizational and regulatory policy should acknowledge the complex nature of AI-HITL decision making when implementing these systems, educating people who use them, and determining which are subject to oversight.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Bias Amplification in Stable Diffusion\u2019s Representation of Stigma Through Skin Tones and Their Homogeneity",
+    "authors": "Kyra Wilson, Sourojit Ghosh, Aylin Caliskan",
+    "year": 2025,
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/36750",
+    "doi": "10.1609/aies.v8i3.36750",
+    "abstract": "Text-to-image generators (T2Is) are liable to produce images that perpetuate social stereotypes, especially in regards to race or skin tone. We use a comprehensive set of 93 stigmatized identities to determine that three versions of Stable Diffusion (v1.5, v2.1, and XL) systematically associate stigmatized identities with certain skin tones in generated images. We find that SD XL produces skin tones that are 13.53% darker and 23.76% less red (both of which indicate higher likelihood of societal discrimination) than previous models and perpetuate societal stereotypes associating people of color with stigmatized identities. SD XL also shows approximately 30% less variability in skin tones when compared to previous models and 18.89-56.06% compared to human face datasets. Measuring variability through metrics which directly correspond to human perception suggest a similar pattern, where SD XL shows the least amount of variability in skin tones of people with stigmatized identities and depicts most (60.29%) stigmatized identities as being less diverse than non-stigmatized identities. Finally, SD shows more homogenization of skin tones of racial and ethnic identities compared to other stigmatized or non-stigmatized identities, reinforcing incorrect equivalence of biologically-determined skin tone and socially-constructed racial and ethnic identity. Because SD XL is the largest and most complex model and users prefer its generations compared to other models examined in this study, these findings have implications for the dynamics of bias amplification in T2Is, increasing representational harms and challenges generating diverse images depicting people with stigmatized identities.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Toward Needs-Conscious Design: Co-Designing a Human-Centered Framework for AI-Mediated Communication",
+    "authors": "Robert Wolfe, Aayushi Dangol, Jaewon Kim, Alexis Hiniker",
+    "year": 2025,
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/36751",
+    "doi": "10.1609/aies.v8i3.36751",
+    "abstract": "We introduce Needs-Conscious Design, a human-centered framework\nfor AI-mediated communication that builds on the principles\nof Nonviolent Communication (NVC). We conducted an\ninterview study with N=14 certified NVC trainers and a\ndiary study and co-design with N=13 lay users of online\ncommunication technologies to understand how NVC might\ninform design that centers human relationships. We define\nthree pillars of Needs-Conscious Design: Intentionality,\nPresence, and Receptiveness to Needs. Drawing on\nparticipant co-designs, we provide design concepts and\nillustrative examples for each of these pillars. We further\ndescribe a problematic emergent property of AI-mediated\ncommunication identified by participants, which we call\nEmpathy Fog, and which is characterized by uncertainty over\nhow much empathy, attention, and effort a user has actually\ninvested via an AI-facilitated online interaction. Finally,\nbecause even well-intentioned designs may alter user\nbehavior and process emotional data, we provide guiding\nquestions for consentful Needs-Conscious Design, applying an\naffirmative consent framework used in social media\ncontexts. Needs-Conscious Design offers a foundation for\nleveraging AI to facilitate human connection, rather than\nreplacing or obscuring it.",
+    "skip_reason": "The paper does not substantively engage with a developing-regions context as required by the rules for all topics except cs_fundamentals."
+  },
+  {
+    "title": "When Algorithms Fail: The Case for Moral Repair (Extended Abstract)",
+    "authors": "Pak-Hang Wong, Gernot Rieder",
+    "year": 2025,
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/36752",
+    "doi": "10.1609/aies.v8i3.36752",
+    "abstract": "In response to growing concerns over the societal impacts of AI and algorithmic decision-making, current scholarly and legal efforts have mainly focused on identifying risks and implementing safeguards against harmful consequences, with regulations seeking to ensure that systems are secure, trustworthy, and ethical. This preventative approach, however, rests on the assumption that algorithmic harm can essentially be avoided by specifying rules and requirements that protect against potential dangers. Consequently, comparatively little attention has been given to post-harm scenarios, i.e. cases and situations where individuals have already been harmed by an algorithmic system. We contend that this inattention to the aftermath of harm constitutes a major blind spot in AI ethics and governance and propose the notion of algorithmic imprint as a sensitizing concept for understanding both the nature and potential longer-term effects of algorithmic harm. Arguing that neither the decommissioning of harmful systems nor the reversal of damaging decisions is sufficient to fully address these effects, we suggest that a more comprehensive response to algorithmic harm requires engaging in discussions on moral repair, offering directions on what such a plea for moral repair ultimately entails.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Brokering Ethics: A Retrospective Study on the Use of a Data Ethics Framework",
+    "authors": "Sophia Worth, Georgia Panagiotidou, Elena Simperl",
+    "year": 2025,
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/36753",
+    "doi": "10.1609/aies.v8i3.36753",
+    "abstract": "Recent years have seen a surge of interest in structured tools and interventions for responsible data and technology development and deployment. As part of this phenomenon, data ethics frameworks have emerged as a basic tool that go beyond lists of `ethics principles', aiming to guide the practical application of these ethical considerations. This study offers an in-depth insight into how organisations are making use of the Data Ethics Canvas - a popular, openly licensed data ethics framework, developed by a non-profit, and used across a diverse range of organisations. Through a reflexive thematic analysis of 22 interviews with tool users, we draw key reflections to understand its role in organisational settings. We find that participants aim to use the tool for data ethics assessment, literacy, and as a foundation or inspiration for governance initiatives. We argue that the versatility of the tool offers an opportunity for `brokering' among stakeholders who approach data practices from different perspectives. Still, limited guidance and a need to overcome organisational barriers leave significant responsibility on individuals to deliver outcomes from interactions with the tool. We further discuss how far these findings can be used to reflect on wider use, re-design, re-framing and evaluation of interventions to generate responsible data practices. We offer recommendations including the need for clear and robust guidance of users' engagements with tools, and for tools to account for a landscape where responsibilities for data practices and their AI applications increasingly converge.",
+    "skip_reason": "The paper does not substantively engage with a developing-regions context as required by the rules for all topics except cs_fundamentals."
+  },
+  {
+    "title": "What Comes After Harm? Mapping Reparative Actions in AI Through Justice Frameworks",
+    "authors": "Sijia Xiao, Haodi Zou, Alice Qian Zhang, Deepak Kumar, Hong Shen, Jason Hong, Motahhare Eslami",
+    "year": 2025,
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/36754",
+    "doi": "10.1609/aies.v8i3.36754",
+    "abstract": "As Artificial Intelligence (AI) systems are integrated into more aspects of society, they offer new capabilities but also cause a range of harms that are drawing increasing scrutiny. A large body of work in the Responsible AI community has focused on identifying and auditing these harms. However, much less is understood about what happens after harm occurs: what constitutes reparation, who initiates it, and how effective these reparations are. In this paper, we develop a taxonomy of AI harm reparation based on a thematic analysis of real-world incidents. The taxonomy organizes reparative actions into four overarching goals: acknowledging harm, attributing responsibility, providing remedies, and enabling systemic change. We apply this framework to a dataset of 1,060 AI-related incidents, analyzing the prevalence of each action and the distribution of stakeholder involvement. Our findings show that reparation efforts are concentrated in early, symbolic stages, with limited actions toward accountability or structural reform. Drawing on theories of justice, we argue that existing responses fall short of delivering meaningful redress. This work contributes a foundation for advancing more accountable and reparative approaches to Responsible AI.",
+    "skip_reason": "The paper does not substantively engage with a developing-regions context as required by the rules for all topics except cs_fundamentals."
+  },
+  {
+    "title": "AI Self-preferencing in Algorithmic Hiring: Empirical Evidence and Insights",
+    "authors": "Jiannan Xu, Gujie Li, Jane Yi Jiang",
+    "year": 2025,
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/36755",
+    "doi": "10.1609/aies.v8i3.36755",
+    "abstract": "As generative artificial intelligence (AI) tools become widely adopted, large language models (LLMs) are increasingly used on both sides of high-stakes decision processes, ranging from hiring to content moderation. This dual adoption raises a critical question: do LLMs systematically favor content that resembles their own outputs? Prior research in computer science has identified self-preference bias---the tendency of LLMs to favor their own generated content---but its real-world implications have not been empirically evaluated. We focus on the hiring context, where job applicants increasingly use LLMs to refine resumes, while employers integrate LLMs into their recruitment pipelines to screen those same resumes. Using a controlled resume correspondence experiment, we find that LLMs consistently prefer resumes generated by themselves over those written by humans or by alternative models, even when content quality is controlled. The bias against human-written resumes is particularly substantial, with self-preference rates ranging from 68 percent to 92 percent across a diverse set of commercial and open-source models. This behavior introduces a novel form of algorithmic unfairness, one that advantages users of specific AI tools and disadvantages others based on their tool choices or access. We further show that this bias can be significantly reduced through simple interventions based on LLMs' self-recognition capabilities, yielding reductions of over 60 percent. These findings highlight an emerging but previously overlooked risk in AI-assisted decision making and call for expanded frameworks of AI accountability that address not only demographic disparities but also biases in model-to-model interaction.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Normative Moral Pluralism for AI: A Framework for Deliberation in Complex Moral Contexts (Extended Abstract)",
+    "authors": "David Doron Yaacov",
+    "year": 2025,
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/36756",
+    "doi": "10.1609/aies.v8i3.36756",
+    "abstract": "The conceptual framework proposed in this paper centers on\nthe development of a deliberative moral reasoning\nsystem\u2014one designed to process complex moral situations by\ngenerating, filtering, and weighing normative arguments\ndrawn from diverse ethical perspectives. While the\nframework is rooted in Machine Ethics, it also makes a\nsubstantive contribution to Value Alignment by outlining a\nsystem architecture that links structured moral reasoning\nto action under time constraints. Grounded in normative\nmoral pluralism, this system is not constructed to imitate\nbehavior but built on reason-sensitive deliberation over\nstructured moral content in a transparent and principled\nmanner. Beyond its role as a deliberative system, it also\nserves as the conceptual foundation for a novel two-level\narchitecture: functioning as a moral reasoning teacher\nenvisioned to train faster models that support real-time\nresponsiveness without reproducing the full structure of\ndeliberative reasoning. Together, the deliberative and\nintuitive components are designed to enable both deep\nreflection and responsive action. A key design feature is\nthe dual-hybrid structure: a universal layer that defines a\nmoral threshold through top-down and bottom-up learning,\nand a local layer that learns to weigh competing\nconsiderations in context while integrating culturally\nspecific normative content, so long as it remains within\nthe universal threshold. By extending the notion of moral\ncomplexity to include not only conflicting beliefs, but\nalso multifactorial dilemmas, multiple stakeholders, and\nthe integration of non-moral considerations, the framework\naims to support morally grounded decision-making in\nrealistic, high-stakes contexts.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "When the Past Misleads: Rethinking Training Data Expansion Under Temporal Distribution Shifts",
+    "authors": "Chengyuan Yao, Yunxuan Tang, Christopher Brooks, Rene F. Kizilcec, Renzhe Yu",
+    "year": 2025,
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/36757",
+    "doi": "10.1609/aies.v8i3.36757",
+    "abstract": "Predictive models are typically trained on historical data to predict future outcomes. While it is commonly assumed that training on more historical data would improve model performance and robustness, data distribution shifts over time may undermine these benefits. This study examines how expanding historical data training windows under covariate shifts (changes in feature distributions) and concept shifts (changes in feature-outcome relationships) affects the performance and algorithmic fairness of predictive models.\nFirst, we perform a simulation study to explore scenarios with varying degrees of covariate and concept shifts in training data. Absent distribution shifts, we observe performance gains from longer training windows though they reach a plateau quickly; in the presence of concept shift, performance may actually decline. Covariate shifts alone do not significantly affect model performance, but may complicate the impact of concept shifts. In terms of fairness, models produce more biased predictions when the magnitude of concept shifts differs across sociodemographic groups; for intersectional groups, these effects are more complex and not simply additive.\nSecond, we conduct an empirical case study of student retention prediction, a common machine learning application in education, using 12 years of student records from 23 minority-serving community colleges in the United States. We find concept shifts to be a key contributor to performance degradation when expanding the training window. Moreover, model fairness is compromised when marginalized populations have distinct data distribution shift patterns from their peers.\nOverall, our findings caution against conventional wisdom that \u201cmore data is better\u201d and underscore the importance of using historical data judiciously, especially when it may be subject to data distribution shifts, to improve model performance and fairness.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Why Do Decision Makers (Not) Use AI? A Cross-Domain Analysis of Factors Impacting AI Adoption",
+    "authors": "Rebecca Yu, Valerie Chen, Ameet Talwalkar, Hoda Heidari",
+    "year": 2025,
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/36758",
+    "doi": "10.1609/aies.v8i3.36758",
+    "abstract": "Growing excitement around deploying AI across various domains calls for a careful assessment of how human decision-makers interact with AI-powered systems. In particular, it is essential to understand when decision-makers voluntarily choose to consult AI tools, which we term decision-maker adoption. We interviewed experts across four domains\u2014medicine, law, journalism, and the public sector\u2014to explore current AI use cases and perceptions of adoption. From these interviews, we identify key factors that shape decision-maker adoption of AI tools: the decision-maker's background, perceptions of the AI, consequences for the decision-maker, and perceived implications for other stakeholders. We translate these factors into an AI adoption sheet to analyze how decision-makers approach adoption choices through comparative, cross-domain case studies, highlighting how our factors help explain inter-domain differences in adoption. Our findings offer practical guidance for supporting the responsible and context-aware deployment of AI by better accounting for the decision-maker's perspective.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Designing Stakeholder-Based Pedagogy for AI Ethics Education: Insights from a Multi-Institutional Case Study",
+    "authors": "Yifan Zhang, Harini Suresh, Julia Netter",
+    "year": 2025,
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/36759",
+    "doi": "10.1609/aies.v8i3.36759",
+    "abstract": "As AI systems increasingly shape real-world decisions, there is growing urgency to teach students not only how to build these systems but also how to consider the social impact of their design choices. One promising approach explored in computing education is the stakeholder-based pedagogy, which, in AI courses, encourages students to examine how AI development affects different groups and to design with those needs and values in mind. In this pilot study, we conducted interviews with 14 instructors across three U.S. institutions to understand how they design and implement stakeholder-based modules in undergraduate AI ethics education. Our findings reveal two core pedagogical strategies: empathy-driven role play and structured stakeholder analysis, as well as cross-cutting challenges, including the heavy labor of curating materials, limited integration of stakeholder reasoning into the broader AI curriculum, time constraints, difficulty embedding stakeholder reasoning into technical instruction, and unclear assessment methods. We also examine how these challenges are shaped by the curricular structures and institutional contexts in which the modules were implemented. Drawing on these insights, we offer recommendations to strengthen stakeholder-based AI ethics education at both the micro level (e.g., establishing shared resource repositories and assessment frameworks across institutions) and the macro level (e.g., prioritizing stakeholder reasoning as a core AI competency and fostering channels for interdisciplinary and academia-industry dialogue). This work contributes to ongoing conversations in AI ethics education on how to better prepare students to become socially responsible AI practitioners through meaningful stakeholder analysis and engagement.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Do Students Rely on AI? Analysis of Student-ChatGPT Conversations from a Field Study",
+    "authors": "Jiayu Zheng, Lingxin Hao, Kelun Lu, Ashi Garg, Mike Reese, Melo-Jean Yap, I-Jeng Wang, Xingyun Wu, Wenrui Huang, Jenna Hoffman, Ariane Kelly, My Le, Ryan Zhang, Yanyu Lin, Muhammad Faayez, Anqi Liu",
+    "year": 2025,
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/36760",
+    "doi": "10.1609/aies.v8i3.36760",
+    "abstract": "This study explores how college students interact with generative AI (ChatGPT-4) during educational quizzes, focusing on reliance and predictors of AI adoption. Conducted at the early stages of ChatGPT implementation, when students had limited familiarity with the tool, this field study analyzed 315 student-AI conversations during a brief, quiz-based scenario across various STEM courses. A novel four-stage reliance taxonomy was introduced to capture students' reliance patterns, distinguishing AI competence, relevance, adoption, and students' final answer correctness. Three findings emerged. First, students exhibited overall low reliance on AI and many of them could not effectively use AI for learning. Second, negative reliance patterns often persisted across interactions, highlighting students\u2019 difficulty in effectively shifting strategies after unsuccessful initial experiences. Third, certain behavioral metrics strongly predicted AI reliance, highlighting potential behavioral mechanisms to explain AI adoption. The study's findings underline critical implications for ethical AI integration in education and the broader field. It emphasizes the need for enhanced onboarding processes to improve student's familiarity and effective use of AI tools. Furthermore, AI interfaces should be designed with reliance-calibration mechanisms to enhance appropriate reliance. Ultimately, this research advances understanding of AI reliance dynamics, providing foundational insights for ethically sound and cognitively enriching AI practices.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Should LLMs Be WEIRD? Exploring WEIRDness and Human Rights in Large Language Models",
+    "authors": "Ke Zhou, Marios Constantinides, Daniele Quercia",
+    "year": 2025,
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/36761",
+    "doi": "10.1609/aies.v8i3.36761",
+    "abstract": "Large language models (LLMs) are often trained on data that reflect WEIRD values: Western, Educated, Industrialized, Rich, and Democratic. This raises concerns about cultural bias and fairness. Using responses to the World Values Survey, we evaluated five widely used LLMs: GPT-3.5, GPT-4, Llama-3, BLOOM, and Qwen. We measured how closely these responses aligned with the values of the WEIRD countries and whether they conflicted with human rights principles. To reflect global diversity, we compared the results with the Universal Declaration of Human Rights and three regional charters from Asia, the Middle East, and Africa. Models with lower alignment to WEIRD values, such as BLOOM and Qwen, produced more culturally varied responses but were 2% to 4%  more likely to generate outputs that violated human rights, especially regarding gender and equality. For example, some models agreed with the statements ``a man who cannot father children is not a real man'' and ``a husband should always know where his wife is'', reflecting harmful gender norms. These findings suggest that as cultural representation in LLMs increases, so does the risk of reproducing discriminatory beliefs. Approaches such as Constitutional AI, which could embed human rights principles into model behavior, may only partly help resolve this tension.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Aligning AI Systems with Human Values: A Method for Identifying and Specifying Values",
+    "authors": "Liv Ziegfeld, Esther Kox, Ivana Akrum, Marlijn Heijnen",
+    "year": 2025,
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/36762",
+    "doi": "10.1609/aies.v8i3.36762",
+    "abstract": "This work explores how AI-based systems can be designed and\ndeveloped in a more responsible manner by aligning them\nwith human values. To this end, we propose a structured\napproach for identifying and specifying values for AI\nsystems through stakeholder workshops. While engaging\nrelevant stakeholders within a particular context of use is\ncrucial for designing more ethically-aligned AI systems, it\nis not a trivial task due to the inherent complexity and\nabstractness values can evoke. In this paper, we aim to\naddress these challenges and offer actionable insights by\ndeveloping methodologies for value identification and\nspecification, grounded in a real-world use case: a\nhealthcare application designed to detect and prevent\nexacerbations of chronic obstructive pulmonary disease\n(COPD). We demonstrate how values such as autonomy can be\nidentified, contextualized and translated into concrete\ndesign implications guiding the AI system's behaviour. Our\ncontribution offers practical guidance for fellow\nresearchers, designers, developers and regulators seeking\nto navigate the complexities of responsible AI development.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Needle in a Patched Haystack: Evaluating Saliency Maps for Vision LLMs",
+    "authors": "Bastien Zimmermann, Matthieu Boussard",
+    "year": 2025,
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/36763",
+    "doi": "10.1609/aies.v8i3.36763",
+    "abstract": "ColPali recently proposed a method for explaining multimodal retrieval-augmented generation (RAG) by visualizing how vision\u2013language models (VLMs) connect image patches to text tokens. \nHowever, our theoretical analysis and experiments show that these similarity-based saliency maps are fragile and often misleading.\nWe therefore caution against relying solely on intuitive visualizations and present a principled patch-level dissection technique that traces how vision LLMs actually accumulate evidence across modalities.\nTo address this issue, we introduce Needle-in-a-Patched-Haystack: a patch-centered dataset and metric suite that quantifies transparency by benchmarking localization performance in vision LLMs. Together, our analysis and toolkit establish a stricter standard for VLM interpretability and provide a drop-in evaluation protocol for future research on robust, multimodal explanations.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Advancing Fairness in Generative AI Through Intrinsic and Extrinsic Bias Evaluation and Mitigation",
+    "authors": "Mina Arzaghi",
+    "year": 2025,
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/36764",
+    "doi": "10.1609/aies.v8i3.36764",
+    "abstract": "This research focuses on understanding and mitigating bias in generative AI models, specifically by examining both intrinsic and extrinsic biases. The project aims to develop a unified evaluation framework and bias mitigation strategies to promote fairness across real-world applications, such as finance and healthcare. The goal is to ensure generative AI systems do not propagate harmful societal biases, and the research explores bias detection and mitigation across various deployment stages.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "The Ethics of Surveillance AI: Framing Data as a Socio-collective Good in Mitigating Data Colonialism",
+    "authors": "Abiola Azeez",
+    "year": 2025,
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/36765",
+    "doi": "10.1609/aies.v8i3.36765",
+    "abstract": "In my thesis, I examine how facial recognition technology (FRT) in the Global South operates within a system of data colonialism, where powerful organizations extract and exploit data from marginalized populations without meaningful consent, oversight, or benefit to those being surveilled. I argue that the ethical failure of data collection, storage, and usage in the context of FRT stems from a deeper conceptual failure: data is wrongly framed as capital rather than as a socio-collective good. Framing data is not a neutral or technical choice\u2014it reflects how we understand identity, power, and social relations. Treating data as capital enables extractive and coercive practices that undermine dignity, autonomy, and justice, especially in contexts where communities lack the institutional means to challenge how their data is used. By contrast, reframing data as a socio-collective good\u2014embedded in community, shaped by social relations, and subject to collective governance\u2014exposes the moral structure of FRT deployment and clarifies the ethical duties owed to those whose data is captured, stored, and used. This framing compels a shift from individual consent and technical accuracy toward relational autonomy, contextual integrity, and shared accountability.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Lay Stakeholder Centric Sociotechnical Mechanisms for Addressing the Impacts of Generative AI",
+    "authors": "Julia Barnett",
+    "year": 2025,
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/36766",
+    "doi": "10.1609/aies.v8i3.36766",
+    "abstract": "This work argues that current approaches to mitigating the harms of generative AI (genAI) overlook the perspectives of lay stakeholders: people without professional or technical expertise relating to genAI, but who possess a contextual and situational experience about how the impacts of these systems affect them on the ground level. While expert-driven frameworks dominate risk assessment, this research introduces a participatory, sociotechnical framework that redistributes agency to lay stakeholders through three mechanisms addressing different scales of harm, each presented through a different case study. At the micro-scale, a technological mechanism empowers users of generative music tools to resist harms resulting from uninformed attribution, such as copyright infringement. At the macro-scale, a policy mechanism integrates lay stakeholders' perspectives into the policy pipeline to inform governance of AI in relation to media ecosystems. At the meso-scale, a judicial mechanism strengthens courts\u2019 ability to evaluate genAI-related copyright disputes by incorporating lay perspectives into evidentiary processes. Together, these mechanisms propose actionable ways to balance relationships between technology developers, governing bodies, and lay stakeholders, ensuring that those most affected by genAI are meaningfully included in addressing the harms.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "On Forecasting Lags in AI Risk Evaluation",
+    "authors": "Paolo Bova",
+    "year": 2025,
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/36768",
+    "doi": "10.1609/aies.v8i3.36768",
+    "abstract": "AI risk evaluations are key to building safety cases for\nnew AI systems. These evaluations help us track how quickly\nnew AI systems are gaining competencies and propensities to\nengage in harmful behavior. However, it is not currently\nclear how well we are doing in covering the surface of\npotential risks that AI systems could present as they\ncontinue to improve. This paper proposes a modelling\nframework for predicting lags in AI risk evaluations,\nillustrating our approach using data from METR's\nevaluations of the ability for AI to complete long tasks.\n\nWe find in our simulations that a business-as-usual\napproach to tracking AI risks is vulnerable to substantial\ndetection lags when facing budget constraints. We advise\ngreater adoption of the logistic estimator proposed by METR\nwhere appropriate, as it mitigates against such lags.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Human Centered AI for Research Ethics and Transparency",
+    "authors": "Tatiana Chakravorti",
+    "year": 2025,
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/36769",
+    "doi": "10.1609/aies.v8i3.36769",
+    "abstract": "In recent years, empirical sciences have faced a crisis of\nconfidence, sparked by high-profile replication projects\nthat failed to reproduce key findings. This \"replication\ncrisis\" has prompted widespread reflection and a growing\nmovement advocating for reform. Central to this movement is\nthe belief that reproducibility, transparency, and rigorous\nevaluation are essential to scientific progress. Our\nresearch aligns with these goals, emphasizing how emerging\ntechnologies can offer innovative tools to address\nchallenges in scientific integrity and reliability. This\nproject outlines a research agenda focused on the use of\nartificial intelligence (AI) and hybrid human-AI systems to\nassess the replicability of scientific findings and to\nbetter understand science as a socially embedded practice.\nWe develop and test a new class of AI-driven prediction\nmarkets, where algorithmic agents trade contracts tied to\nthe outcomes of replication studies. Recognizing the value\nof human judgment, we explore hybrid prediction markets\nthat integrate human participants alongside AI agents.\nThese systems are examined through simulations and pilot\nexperiments in real-world settings.\n\nTo guide the design of these tools, we conduct in-depth\nsurveys and interviews with researchers, gathering insights\ninto the practical needs and concerns surrounding AI and\nhybrid systems in scientific workflows. Particular\nattention is paid to transparency, explainability, and the\nsocial and cultural dimensions that shape scientific\npractices. Our work aims to inform the development of\ntechnologies that not only support more reliable science\nbut also respect and reflect the values of the scientific\ncommunity.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "The Dilemmas of Moral Autonomy in the Transfer of Human Consciousness to AI",
+    "authors": "Denis Chiriac",
+    "year": 2025,
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/36770",
+    "doi": "10.1609/aies.v8i3.36770",
+    "abstract": "This paper examines the dilemmas of moral autonomy in the context of the transfer of human consciousness to AI, focusing on the transhumanist archetype Homo Evolutus. Through comparative analysis, the study explores two distinct paradigms: the secular approach, rooted in Kantian philosophy, which considers that moral autonomy can be preserved through transfer; and the religious perspective (Catholic, Protestant, and Orthodox), which argues that the human person is an essential unity of body and soul, making the transfer conceptually impossible. The study highlights three central dilemmas: the authenticity of digital moral reflection, the distribution of responsibility between the biological and digital selves, and the limits of autonomy in human-AI integration. The secular paradigm perpetuates Cartesian dualism, while the theological perspective asserts that consciousness transfer raises fundamental ontological problems that cannot be solved by secular approaches alone. The conclusion emphasizes the need for an interdisciplinary approach that includes theological aspects to clarify what it means to be a moral agent in a technologically altered world.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Beyond Templates: Understanding and Addressing Human-AI Interaction Harms Through Practitioners' Assumptions",
+    "authors": "Julia De Miguel Vel\u00e1zquez",
+    "year": 2025,
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/36771",
+    "doi": "10.1609/aies.v8i3.36771",
+    "abstract": "Human-AI interaction risks account for most real-world AI harms but remain underrepresented in safety evaluations. Instead, these tend to prioritize model-level evaluations, abstracting away the contexts in which harms emerge. In tackling this, responsible AI efforts have provided practitioners with tools, such as checklists and impact assessments. Yet, these tools often assume a shared understanding of harm, overlooking practitioners' personal, organizational, and media assumptions. As research increasingly addresses human-AI interaction risks, it is crucial to examine practitioners' assumptions. I first conduct a survey and interviews to empirically explore how practitioners envision harm through their underlying assumptions. Second, I reflect on these findings to explore how responsible AI efforts can better support critical reflection on underlying assumptions.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Deploying AI in Uncertain Environments: A Technical Limitation or a Human Characteristic?",
+    "authors": "Marc T.J Elliott",
+    "year": 2025,
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/36772",
+    "doi": "10.1609/aies.v8i3.36772",
+    "abstract": "The relationship between AI and uncertainty in high-stakes\npublic environments has not yet been given the attention\nthat it requires. While technical literature often frames\nuncertainty as a limitation that should be resolved or\nminimised, this project draws attention to an alternative\ninterpretation: uncertainty as a fundamental and valuable\ncomponent of human judgment, particularly within many\naspects of public sector decision-making, and therefore\nminimising uncertainty to design more effective AI can\nbecome undesirable. My research investigates how AI systems\ndesigned for predictability, consistency, and optimization\nstruggle to operate effectively in environments where\ndiscretion, ambiguity, and pluralism are not only\nunavoidable but often necessary. This project advances the\nconceptual understanding of uncertainty in AI ethics and\ngovernance while also offering early empirical insights\nthrough experiments with large language models in legal\ninterpretive tasks. The overarching aim is to develop\nnormative and technical guidance for building AI systems\nthat align more meaningfully with the social and\ninstitutional functions of uncertainty. Additionally, I\nacknowledge the benefits of meaningfully minimising\nenvironmental uncertainties for AI systems and my future\nwork aspires to produce a framework to help guide when\nadaptations to reduce uncertainty for public sector AI are\npermittable and when they should not be made to ensure the\ninherent humanness of society remains intact.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "A Survey of Large Language Model Use and Its Technical Limitations in Military Systems Through a Decolonial Lens (Extended Abstract)",
+    "authors": "Sonia Fereidooni",
+    "year": 2025,
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/36773",
+    "doi": "10.1609/aies.v8i3.36773",
+    "abstract": "The increased integration of LLMs into military systems requires a decolonial analysis to evaluate the lasting sociopolitical impact of such systems on individuals in global conflict settings. In this paper, we first survey all publicly-identifiable use cases of LLMs across all military domains, then apply Edward Said's framework of Orientalism as a basis for our decolonial framework to analyze the longstanding technical limitations of LLMs within these domains. Through technical limitations such as bias, accountability, explainability, sycophancy, data scarcity and data colonialism, deficiencies in real-world understanding and commonsense reasoning, Western-centric ethics, and susceptibility to hallucination and misinformation, and through Saidian concepts of 'Othering,' the power of representation, and the silencing of marginalized perspectives through regulation of autonomy, the paper finds that the use of LLMs in the military serves to automate and amplify historical colonial dynamics of power, control, and purposeful misrepresentation of non-Western cultures through the weaponization of language. This analysis highlights the urgent need to address how LLM vulnerabilities in the military severely harm populations where such technology is used against, reproducing global systemic inequalities and colonial legacies within modern warfare.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Towards Responsible AI Governance in the Brazilian Judiciary",
+    "authors": "Bruno Fonseca",
+    "year": 2025,
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/36774",
+    "doi": "10.1609/aies.v8i3.36774",
+    "abstract": "Artificial intelligence (AI) has been increasingly adopted in judicial systems, including in Brazil, where over 100 AI tools have been implemented since the early 2020s under the National Council of Justice\u2019s (CNJ) Justice 4.0 program. While these systems such as Victor and Athos support legal document classification, case triage, and jurisprudence recommendation, their use raises concerns about transparency, fairness, and alignment with constitutional and legal norms. This research examines how responsible AI is being operationalized in the Brazilian judiciary, analyzing the legal frameworks, governance strategies, and institutional infrastructures guiding its deployment. Drawing on regulatory developments including CNJ Resolutions No. 332/2020 and 615/2025 and a national CNJ survey of 140 AI models, the study identifies both advances and tensions in areas such as transparency, human oversight, explainability, and ethical risk management. Through document analysis and semi-structured interviews with judges and judicial administrators, it explores how principles like justice and accountability are translated into practice, contributing to broader debates on AI governance and the role of automation in public institutions. Initial findings indicate a shift from a principle-based framework in 2020 to a more prescriptive and detailed governance model in 2025, incorporating risk classification, stronger transparency requirements, and specific rules for generative AI, while raising questions about potential challenges in the practical enforcement of governance measures.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Improvising Accountability: The Everyday Governance Work of Responsible AI in the Public Sector",
+    "authors": "Ana Gagua",
+    "year": 2025,
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/36775",
+    "doi": "10.1609/aies.v8i3.36775",
+    "abstract": "Public sector organisations are increasingly expected to operationalise Responsible AI (RAI) principles such as transparency and accountability. Yet translating these principles into everyday practice remains challenging and underexplored, particularly in public sector settings. In this study, I explore how accountability practices around transparency requirements are navigated inside a Dutch regulatory agency developing AI systems for risk-based inspections, drawing on my 1.5 years of organisational ethnography. The preliminary findings highlight how public sector practitioners engage in everyday governance work \u2013 creating accountability processes through improvised practices when formal structures are absent. This work contributes to a practice-based understanding of RAI and challenges assumptions about organisational maturity as the solution to operationalisation challenges.",
+    "skip_reason": "The paper does not substantively engage with a developing-regions context as required by the rules for all topics except cs_fundamentals."
+  },
+  {
+    "title": "From Model Multiplicity to Prompt Multiplicity: Emerging Arbitrariness Concerns in the Age of Generative AI",
+    "authors": "Prakhar Ganesh",
+    "year": 2025,
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/36776",
+    "doi": "10.1609/aies.v8i3.36776",
+    "abstract": "This extended abstract introduces the concept of prompt multiplicity\u2014the phenomenon where different prompts, despite yielding similar overall performance from generative AI models, result in significantly divergent individual outputs. Building on the well-studied notion of model multiplicity, the work argues that the shift toward prompt-centric design in large language models has introduced new forms of arbitrariness that impact transparency, fairness, and robustness. The abstract highlights how prompt multiplicity can complicate evaluation and auditing processes, underscoring the need for new metrics and methodologies to ensure accountable and secure deployment of generative AI systems.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "AI Ethics in Cyborg Anthropology: Examining AI-Driven Job Displacement Among Women and Marginalized Groups",
+    "authors": "Tessina Grant Moloney",
+    "year": 2025,
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/36777",
+    "doi": "10.1609/aies.v8i3.36777",
+    "abstract": "This paper positions future work in AI ethics through the lens of cyborg anthropology. It proposes autoethnography, case studies, and surveys to identify the role AI plays in the job insecurity faced by women and marginalized persons.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Regulatory Policies on Ethics Evaluations for Large-Scale AI Systems",
+    "authors": "Neha R. Gupta",
+    "year": 2025,
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/36778",
+    "doi": "10.1609/aies.v8i3.36778",
+    "abstract": "The potential ethical harms of large ML systems have expanded model evaluation processes in parallel, and a breadth of research proposes new metrics or measurement techniques for model bias and safety, and comprehensive documentation frameworks for practitioners to use. The creation of community standards and governance structures indicates intrinsic motivation towards ethical AI, but to bolster accountability beyond voluntary participation, a patchwork of regulatory proposals relying on audits has emerged, which preside over varying jurisdictions and domains of applicability. Ultimately, changes to regulatory policies involving AI evaluations affects organization decision making, and also impacts deployed models. My research interests and ongoing work explore the dynamics between regulators and practitioners, as well as the competing priorities involved, with the hope of improving our ability to ensure deployed systems are ethical, and facilitating discussion among stakeholders.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Extended Abstract: Building Preference Aware Trustworthy AI Through Fairness and Interpretability",
+    "authors": "Jingyu Hu",
+    "year": 2025,
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/36779",
+    "doi": "10.1609/aies.v8i3.36779",
+    "abstract": "While AI has brought transformative changes to society, the opacity of current state-of-the-art models still raises ethical concerns in high-risk domains. It is necessary to improve the trustworthiness of these black-box models to make them more responsible. \nThis paper presents five completed works on enhancing the trustworthiness of both traditional ML models and large language models (LLMs) from the perspectives of fairness and interpretability. Future work will extend the discussion of trustworthiness to multi-modal scenarios.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Fairness in Social Media Platforms: Modeling Behavior and Designing Interventions",
+    "authors": "Salima Jaoua",
+    "year": 2025,
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/36780",
+    "doi": "10.1609/aies.v8i3.36780",
+    "abstract": "Machine learning is increasingly used for decision making\u00a0that determines who is recommended, hired, or funded. These\u00a0algorithms, trained on historical data, often amplify social biases and have a meaningful impact on the user\u2019s\u00a0lives. In particular, social media platforms provide\u00a0millions of professional content creators with sustainable\u00a0incomes. Their income is largely influenced by their number\u00a0of views and followers, which depends on the platform\u2019s\u00a0recommender system. So, as with regular jobs, it is important to ensure that recommender systems distribute revenue fairly.  While prior analysis has demonstrated that fairness for creators is unlikely to be achieved, it has not suggested targeted solutions. In this work, we use theoretical analysis and simulations to understand the system better and find interventions that improve fairness for creators.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Critical Explorations on the Socio-Ethical Implications of Creative AI for Artists",
+    "authors": "Anna-Kaisa Kaila",
+    "year": 2025,
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/36781",
+    "doi": "10.1609/aies.v8i3.36781",
+    "abstract": "Rapidly increased commercial investment in the development of creative AI applications has so far largely outpaced societal norm-setting and regulation efforts in cultural and creative sectors. Critically oriented empirical work is urgently needed to help balance the situation and provide a grounding for policy work in the area. My PhD project examines the impacts of creative AI on the conditions of artistic work. Drawing from a series of empirical case studies, I explore how AI technology currently manifests in the creative domains from the perspective of professional artists, and how care ethics could pave the way towards responsible creative AI.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "FATE-Compliant ML Architecture with Blockchain-Verifiable Auditing: A Governance Framework for Ethical Compliance in FinTech",
+    "authors": "Samah S. Kareem",
+    "year": 2025,
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/36782",
+    "doi": "10.1609/aies.v8i3.36782",
+    "abstract": "Concerns about fairness, accountability, transparency, and\nethics (FATE) have intensified with the rapid adoption of arti-\nficial intelligence (AI) in financial technology (FinTech). Al-\ngorithmic lending systems risk entrenching socioeconomic\nand geographic disparities. To address these risks\u2014and to\nalign with emerging regulation such as the EU AI Act\u2014we\npropose a multi-layer governance framework for credit-risk\nmodelling that integrates: (i) blockchain-verifiable auditing\nvia smart contracts (Hyperledger Fabric); (ii) causal mod-\nelling with counterfactual, pathway-aware fairness quanti-\nfied by the Regional Inclusion Score; (iii) a hybrid data\npipeline that fuses local micro-data with controlled geospa-\ntial skew; and (iv) a fairness-aware gradient-boosted learner\n(FAIRXGBOOST) embedded in a continuous monitoring\nloop. The smart-contract layer provides cryptographic au-\nditability of data lineage, model updates, and alerts, oper-\nationalizing fairness as a regulatory constraint that triggers\non-chain notifications when RIS declines. Across benchmark\ncredit datasets with induced regional skew, the system main-\ntained RIS at or above the regulatory threshold of $0.85$\nwhile preserving competitive predictive performance, with\nautomatic alerts when fairness degraded\u2014demonstrating\nhow causal analysis and ledger-backed governance can\njointly yield reliable, regulator-verifiable AI for FinTech.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Governing AI Proactively: Cooperative Models of Anticipation and Accountability",
+    "authors": "Jared Katzman",
+    "year": 2025,
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/36783",
+    "doi": "10.1609/aies.v8i3.36783",
+    "abstract": "This research investigates how cooperatives and\nmarginalized communities can lead in governing AI systems\nby drawing on traditions of economic democracy and\ncollective accountability. Through case studies in\nDetroit\u2019s food justice movement and the Mondrag\u00f3n\nCorporation, I explore how these groups anticipate the\nsocial impacts of AI and co-design governance models rooted\nin their values. Moving beyond risk-based approaches, this\nwork proposes a framework for anticipatory governance that\nredistributes power in technology development and centers\ncommunity-led innovation.",
+    "skip_reason": "The paper does not substantively engage with a developing-regions context as required by the rules for all topics except cs_fundamentals."
+  },
+  {
+    "title": "The Design and Analysis of Algorithmic Vaccine Allocation Frameworks",
+    "authors": "Jeffrey Keithley",
+    "year": 2025,
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/36785",
+    "doi": "10.1609/aies.v8i3.36785",
+    "abstract": "The COVID-19 pandemic starkly demonstrated the importance of effective interventions for societal functioning, particularly through timely and strategic vaccine distribution. My research develops transparent algorithmic decision support tools to help public health officials make evidence-based resource allocation decisions during pandemic responses. These tools provide guidance informed by disease models, and their development focuses on improving our understanding of how vaccine allocation can be solved as a discrete optimization problem with approximation algorithms. This work revolves around three pillars: (1) Formulate vaccine allocation discrete optimization problems. (2) Design and analyze vaccine allocation approximation algorithms. (3) Develop network disease-spread models to inform the previous pillars. My progress on each of these pillars contribute to the goal of designing fast and interpretable algorithm frameworks for vaccine allocation with high quality solutions.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Binary Optics: Colonial Classification of Trans Lives in Algorithmic Technologies",
+    "authors": "Christoffer Koch Andersen",
+    "year": 2025,
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/36786",
+    "doi": "10.1609/aies.v8i3.36786",
+    "abstract": "This article argues that algorithms are not neutral, but encode colonialist visions from the past into the present that disproportionately harm trans lives. I argue that colonial classification regimes brought forward by Western states that sought to sort, order and classify humans into binary categories\u2014such as binary gender\u2014are extended through algorithmic technologies into the present. This contemporary encoding of colonial classification reinscribes the default notion of binary gender, which makes algorithmic technologies unequipped to account for nuances of gender diversity, failing to comprehend those defying binary categorisation, and directing violence towards trans lives. I suggest that, only by tracing the colonial origins and development of broader sociopolitical ideals of human classification and differentiation along axes of race/gender into algorithmic code, it becomes visible how colonial logics historically permeated and prevail through novel means to this day \u2013 curating a \u2018binary optics\u2019 continued by algorithmic operations. Critically, this enables us to unveil and understand the extent and implications of how algorithmic technologies encode harmful and exclusionary practices.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Voice AI and Hermeneutical Injustice at the Border",
+    "authors": "Suvradip Maitra",
+    "year": 2025,
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/36787",
+    "doi": "10.1609/aies.v8i3.36787",
+    "abstract": "I argue that Voice AI systems perpetuates hermeneutical injustice by preventing marginalised individuals from equitably participating in defining the social roles that they need to make sense of their own experiences, or render themselves intelligible to others. I draw upon voice biometrics at the German border used to assess asylum seeker applications, and accent alteration for call centre workers to illustrate how the relevant concepts of the legitimate asylum seeker or competent call centre worker are unduly influenced by the respective Voice AI. Ultimately, the hermeneutical injustices reflect the epistemic hegemony of AI steeped in dominant Western knowledge structures that reinforce post-colonial dynamics of identity erasure and disruption.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Leveraging AI and ESG to Combat Corporate Corruption: An Integrated Framework",
+    "authors": "Oludolapo Makinde",
+    "year": 2025,
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/36788",
+    "doi": "10.1609/aies.v8i3.36788",
+    "abstract": "This research study explores how Canadian multinationals can leverage Environmental, Social and Governance (ESG) and artificial intelligence tools to combat foreign bribery and corruption in international business transactions.",
+    "skip_reason": "The paper does not substantively engage with a developing-regions context as required by the rules for all topics except cs_fundamentals."
+  },
+  {
+    "title": "Predictability in Autonomous Driving Systems",
+    "authors": "F\u00e9lix Mart\u00ed-P\u00e9rez",
+    "year": 2025,
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/36789",
+    "doi": "10.1609/aies.v8i3.36789",
+    "abstract": "We study predictability in autonomous driving (AD) through capability-oriented evaluation, using assessors - lightweight meta-models that forecast a primary model\u2019s per-instance performance. We extend this notion from language to vision-based AD, aiming to anticipate failures rather than merely explain them after the fact. Our current focus is traffic-sign detection: given a fixed detector, we train an assessor to predict frame-level quality from a compact feature vector that fuses scene context, environmental proxies and model-intrinsic signals. Enabling \u201cpredict-before-you-detect\u201d risk flagging. In future work, we aim to (i) move from frame- to object-level assessment, (ii) integrate assessors with end-to-end vision-language AD systems, and (iii) study safety-relevant scaling laws across model size, data and compute. We will further incorporate real-world disengagement reports and adopt demand\u2013ability profiling to relate instance difficulty (e.g., occlusion, weather) to system capability, toward transparent, independent reliability estimates for deployment.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "How Can Large Language Models Be More Reliable?",
+    "authors": "Yael Moros Daval",
+    "year": 2025,
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/36790",
+    "doi": "10.1609/aies.v8i3.36790",
+    "abstract": "Large Language Models (LLMs) are increasingly integrated into everyday applications, yet their reliability remains inconsistent, even for seemingly simple queries. By \u201cscaling up\u201d and \u201cshaping up\u201d, these models have improved average accuracy and robustness to prompt variations, but they continue to display \u201cdifficulty discordance\u201d: they solve harder tasks while making errors on easier ones. Moreover, they show a marked reluctance to refuse answers even when uncertain. Such behaviour deprives users of clear cues about when outputs can be trusted. This work explores strategies to enhance LLM reliability through confidence-based abstention, combining uncertainty estimation techniques with measures of question difficulty to define a model\u2019s \u201csafe operating area\u201d. By ensuring that queries are either answered correctly or explicitly declined, the approach aims to enhance predictability, transparency, and user trust, while providing a framework for managing model limitations.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Human Models for Planning Behavioral Interventions with Reinforcement Learning",
+    "authors": "Eura Nofshin",
+    "year": 2025,
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/36791",
+    "doi": "10.1609/aies.v8i3.36791",
+    "abstract": "Many important areas of behavior change, such as wellness\nor education, are frictionful; they require individuals to\nexpend effort over a long period of time with little\nimmediate gratification. Because of this, humans often act\nsub-optimally concerning their stated long-term goal. Here,\nan artificial intelligence (AI) agent can provide\npersonalized behavioral interventions to correct human\npolicies. The AI must personalize rapidly (before the\nindividual has a chance to disengage) and interpretably, to\naid our scientific understanding of the behavioral\ninterventions. This work focuses on crafting small,\ninterpretable models of the human that capture the\nmechanism behind the human agent's sub-optimal policies.\nThese human models provide the AI with enough inductive\nbias to quickly learn intervention policies for each\nindividual it encounters.",
+    "skip_reason": "DUPLICATE of existing 'ijcai_2023_planning_multiple_epidemic_interventions_with_reinforcement' (score=0.67)"
+  },
+  {
+    "title": "Machine Legibility and Epistemic Governance in Malaysia\u2019s Smart Cities: A Postcolonial Analysis of Algorithmic Knowledge, Identity, and State Power",
+    "authors": "Hesam Nourooz Pour",
+    "year": 2025,
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/36792",
+    "doi": "10.1609/aies.v8i3.36792",
+    "abstract": "This thesis examines how AI systems deployed in Malaysia\u2019s smart cities encode constitutional and racial asymmetries through algorithmic infrastructures. Focusing on epistemic governance, it analyses how data, models, and legal frameworks shape machine legibility and citizen classification, with comparative insights from India and Brazil to contextualise Malaysia\u2019s postcolonial governance model.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Beyond Automation: Understanding Fairness, Ethics, and Human Discretion in AI-driven Societal Decisions",
+    "authors": "Gaurab Pokharel",
+    "year": 2025,
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/36793",
+    "doi": "10.1609/aies.v8i3.36793",
+    "abstract": "My doctoral research investigates the ethical readiness and societal implications of deploying AI in high-stakes resource allocation. This work bridges empirical analysis of AI capabilities with computational modeling of human decision-making and theoretical explorations of long-term fairness. Through a multi-method approach, I first evaluate the reliability of Large Language Models (LLMs) in a real-world homelessness services context, revealing critical inconsistencies. I then use interpretable machine learning to model the sophisticated discretion of human caseworkers, demonstrating that their non-formulaic judgments are systematic and effective. Finally, I use agent-based simulations to show how repeated, ostensibly \"fair\" allocations can entrench group-level inequities over time. Collectively, these findings argue for caution in autonomous AI deployment, highlight the value of human-in-the-loop systems, and call for a more dynamic understanding of fairness in sociotechnical systems.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Precedent-Based Professional Role Ethics for AI Decision Analysis",
+    "authors": "Christopher Rauch",
+    "year": 2025,
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/36794",
+    "doi": "10.1609/aies.v8i3.36794",
+    "abstract": "Large language models (LLMs) are increasingly being used in professional fields such as healthcare, law, and engineering. In these domains, errors can lead to serious consequences. Many current AI ethics approaches do not reflect the structured codes and precedent-informed reasoning that guide professional conduct. This work introduces ProEthica, a system under development that combines LLMs with role-based ontologies to support structured ethical reasoning in professional settings. The system draws on principles from professional role ethics and incorporates ethical guidelines, practice standards, and prior case decisions. As a demonstration case, it applies the National Society of Professional Engineers (NSPE) Code of Ethics and Board of Ethical Review precedents. ProEthica includes an ontology based on engineering  ethics, a precedent retrieval method using both vector similarity and ontological mappings, a framework for guiding and checking LLM outputs with structured constraints, and a  validation process modeled on FIRAC (Facts, Issues, Rules, Analysis, Conclusion) reasoning. The system is intended to help professionals make ethical decisions that are consistent with established standards, not to replace human judgment. Preliminary evaluations using NSPE cases indicate that it can retrieve relevant precedents and produce structured analyses that align with engineering ethics.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Auditing and Validating Fairness and Ethics in Machine Learning Systems",
+    "authors": "Disa Sariola",
+    "year": 2025,
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/36795",
+    "doi": "10.1609/aies.v8i3.36795",
+    "abstract": "Ethics are embedded in the choices we make every day,\nwhether they are in our personal interactions or when\ndesigning computational systems. Ethics should be seen as\nnot just a philosophical pursuit or a legal construct of\njurisprudence , instead it is a framework for operating and\ndecision-making. In the context of machine learning,\nethical concerns emerge in subtle but rife ways: from how\ndata is collected and labeled, to who defines the\ncontextual fairness. After all, the word 'fair' can mean\ndifferent things; conforming with the established rules or\nmarked by impartiality and honesty. But, what does it mean\nin the context of computational frameworks? Despite the\nfrequent framing of ethical concerns and fairness as\ntechnical problems, issues like fairness are rooted in\nvalue judgments made by real humans. Decisions about\ninclusion, categorization, and weighting reflect the\nassumptions and priorities of the people behind the\nalgorithms. At scale, these decisions don\u2019t disappear into\nabstraction. Instead, they shape outcomes, influencing who\nbenefits from, or is harmed by, automated systems. While\nethical theory and legal scholarship have long tackled\nquestions of justice and fairness, computer science often\ntreats these topics as secondary to performance metrics or\nefficiency. These disconnects risk minimizing the\nreal-world stakes of algorithmic decision-making. My\nresearch aims to bridge this gap by examining how fairness\ninterventions can be examined from a broader perspective\nthrough the lens of algorithmic auditing. I aim to study\nhow fairness interventions efforts align with the stated\ngoals of the audit framework, and whether they meaningfully\naddress the inequities they aim to solve. The goal should\nnot be to reduce fairness to a checkbox, but to understand\nit in the context of the data and the broader society the\nsystem is embedded within.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Resistance to Change as a Diagnostic Insight: An Interdisciplinary Examination of Stakeholder Opposition to AI in Primary Care",
+    "authors": "Teresa Sides",
+    "year": 2025,
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/36796",
+    "doi": "10.1609/aies.v8i3.36796",
+    "abstract": "As artificial intelligence (AI) systems become more integrated into healthcare, understanding the roots of resistance is essential, particularly in complex, value-driven settings like primary care. This interdisciplinary study explores stakeholder resistance to AI through interviews with global experts in organizational transformation and resistance to change (RtC). It identifies three interconnected forms of resistance\u2014logical, sociological, and psychological\u2014each linked to specific concerns around ethics, professional identity, and systemic fit. Unlike prior work, this study centers RtC experts\u2019 insights on AI resistance in primary care, a setting often excluded from co-design. Using a qualitative abductive approach, the research highlights resistance as a form of critical feedback and a mechanism for building trust. These findings inform more inclusive, reflexive, and context-sensitive strategies for embedding AI ethically within health systems.",
+    "skip_reason": "The paper does not substantively engage with a developing-regions context as required by the rules for all topics except cs_fundamentals."
+  },
+  {
+    "title": "Bridging Liability Gaps in the Age of AI: The Case for No-Fault Compensation Schemes",
+    "authors": "Ha-Chi Tran",
+    "year": 2025,
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/36797",
+    "doi": "10.1609/aies.v8i3.36797",
+    "abstract": "Emerging technologies, including artificial intelligence (AI), are rapidly outpacing traditional legal frameworks, exposing regulatory gaps and weakening the effectiveness of conventional governance mechanisms. This study examines liability gaps stemming from algorithmic opacity, the distributed architecture of AI systems, and the systemic and diffuse nature of AI-related harms. These characteristics highlight the inadequacy of both fault-based and strict liability regimes in addressing AI-specific risks. The analysis is situated within the context of regulatory sandboxes, adaptive governance instruments designed to balance innovation and risk management by permitting firms to test new technologies under regulatory supervision with temporary legal exemptions. While such models effectively foster innovation, they leave unresolved questions of liability when harms arise from compliant experimentation. By placing primary civil and criminal responsibility on participating firms, sandbox frameworks fail to account for the distinctive nature of AI-related harms, resulting in compensation mechanisms that are often insufficient, delayed, and burdensome for affected parties. To address this gap, the study advances the proposal of a state-backed no-fault compensation scheme, modeled on the Vaccine Injury Compensation Programs (VICPs).",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "To Regulate or to Be Regulated? \u2013 How to Protect the \u2018Freedom of Mind\u2019 Against Emotional AI Surveillance",
+    "authors": "\u00d6znur U\u011fuz",
+    "year": 2025,
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/36798",
+    "doi": "10.1609/aies.v8i3.36798",
+    "abstract": "This research discusses how emotional artificial intelligence (AI) surveillance could violate freedom of thought and freedom of expression by eroding personal autonomy through coercive manipulation and behavioral engineering, and analyzes to what extent the EU AI Act and the General Data Protection Regulation (GDPR) address such risk.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Between Code and Creed: Islamic Ethical In-Betweenness on AI in Indonesia",
+    "authors": "Daphne Wong-A-Foe",
+    "year": 2025,
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/36800",
+    "doi": "10.1609/aies.v8i3.36800",
+    "abstract": "Indonesian Muslims are carving out an ethical in-betweenness in debates on artificial intelligence (AI)\u2014a dynamic space between technocratic secularism, religious reasoning, and nationalist aspirations. Based on 14 months of ethnographic fieldwork, my study highlights three arenas: neutrality in AI education, theological boundaries, and national progress. Educators often bracket religion from technical training, while religious leaders caution against attributing spirit or niyyah (ethical intention) to machines, advocating wasatiyyah (moderation) rather than rejection. Students, meanwhile, frame AI as both a tool for \u201cGolden Indonesia 2045\u201d and a site where Qur\u02beanic ethics can guide design. Building on Raquib\u2019s (2022) call to embed Islamic objectives and Singler\u2019s (2024) typology of rejection\u2013adoption\u2013adaptation, the study shows how Indonesians negotiate tensions without collapsing them into one frame. Here, ethics emerges not as a clash between code and creed but as a conversation\u2014offering globally relevant insights for inclusive, context-sensitive AI governance.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "AI Contextual Framework: A Zoning Approach to Ethical AI Deployment",
+    "authors": "Yao Xie",
+    "year": 2025,
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/36801",
+    "doi": "10.1609/aies.v8i3.36801",
+    "abstract": "Drawing on the real-world pressing need for ethical AI\ngovernance, this extended abstract proposes a contextual\nframework using a zoning approach to guide AI deployment:\nadaptation zones, non-adaptation zones, and hybrid zones.\nBeyond its practical implications, this framework also\nraises a deeper societal question: As we advance toward an\nera of superintelligence and pervasive automation, is a\nfully automated society truly compatible with human nature\nand long-term well-being?",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "On the Computational, Informational, and Physical Foundations for AI Safety",
+    "authors": "Robin Young",
+    "year": 2025,
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/36802",
+    "doi": "10.1609/aies.v8i3.36802",
+    "abstract": "Current approaches to AI safety predominantly focus on specifying correct behavior through software, data, and rules. This work argues that this approach faces theoretically fundamental, and not merely practical, limitations. I present a multi-layered analysis of this paradigm, demonstrating its inherent barriers from the perspectives of computational complexity, information theory, and physical engineering. In ongoing work, I prove that even simplified forms of semantic self-verification are computationally intractable (NP-complete). I use information theory to show that any specification of an external, ambiguous concept like \"harm\" is necessarily incomplete. To address these limits, I develop a framework for reasoning about verifiable, physically-enforced safety bounds that are independent of software state.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Safe and Explainable Machine Learning for High-Impact Decisions",
+    "authors": "Khadija Zanna",
+    "year": 2025,
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/36803",
+    "doi": "10.1609/aies.v8i3.36803",
+    "abstract": "My thesis develops methods for safe and explainable machine learning in high-impact domains, with a focus on fairness. I first addressed bias mitigation through multi-task\nlearning and uncertainty estimation, balancing fairness and accuracy using Pareto optimization. I then developed a framework using large language models to improve causal discovery of bias pathways. My ongoing work focuses on translating high-level fairness policies into causal model constraints, enabling automated enforcement of legal fairness requirements in machine learning pipelines. This interdisciplinary approach bridges technical fairness methods with policy-aligned model design.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  }
+]

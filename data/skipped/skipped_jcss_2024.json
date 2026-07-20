@@ -1,0 +1,344 @@
+[
+  {
+    "title": "Making Ethics at Home in Global CS Education: Provoking Stories from the Souths",
+    "authors": "Marisol Wong-Villacres, Cat Kutay, Shaimaa Lazem, Nova Ahmed, Cristina L. Abad, C\u00e9sar A. Collazos, Shady Elbassuoni, Farzana Islam, Deepa Singh, Tasmiah Tahsin Mayeesha, Martin Mabeifam Ujakpa, Tariq Zaman, Nicola J. Bidwell",
+    "year": 2024,
+    "link": "https://doi.org/10.1145/3608113",
+    "doi": "10.1145/3608113",
+    "abstract": "Despite the increase in university courses and curricula on the ethics of computing there are few studies about how computer science (CS) programs should account for the diverse ways ethical dilemmas and approaches to ethics are situated in cultural, philosophical, and governance systems, religions, and languages. We draw on the experiences and insights of 46 university educators and practitioners in Latin America, South-Asia, Africa, the Middle East, and Australian First Nations who participated in surveys and interviews. Our modest study seeks to prompt conversation about ethics and computing in the Global Souths and inform revisions to the Association of Computer Machinery's curricular guidelines for the Society, Ethics and Professionalism knowledge area in undergraduate CS programs. Participants describe frictions between static and anticipatory approaches to ethics in globalised regulations and formal codes of ethics and professional conduct and local practices, values, and impacts of technologies in the Global Souths. Codes and regulations are instruments for international control and their gap with local realities can cause harm, despite local efforts to compensate. However, our insights also illustrate opportunities for university teaching to link more closely to priorities, actions, and experiences in the Global Souths and enrich students\u2019 education in the Global North.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Shadow Program Committee: Designing for Diversity and Equity within Academic Communities",
+    "authors": "Delvin Varghese, Hafeni Mthoko, Jessica L. Watterson, Pranav Kulkarni, Dan Richardson, Shaimaa Lazem, Patrick Olivier",
+    "year": 2024,
+    "link": "https://doi.org/10.1145/3630743",
+    "doi": "10.1145/3630743",
+    "abstract": "The development of early career researchers (ECRs) and their induction into academia has traditionally been a process that is at best obscure, and at worst, cronyism laden. Arguably this is especially true for cross-disciplinary fields like HCI, where relatively fragmented specialisms co-exist. With COVID-19 and its negative impacts on ECRs as the backdrop, we explored the design of a 5-month virtual training program for ECRs worldwide (with particular emphasis on the Global South). Through an action research approach, the program was executed in collaboration with the organizers of a cross-disciplinary conference. Eighty-one participants from 26 countries took part. The program created a collaborative learning experience for attendees and provided opportunities for networking and learning the nuances of the peer-review process. This article details our experiences and provides reflections on design opportunities to (1) develop professional development spaces for underserved researchers, and (2) leverage ECRs\u2019 unique capacity for contributing to inclusive conference spaces.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Hate Speech Detection in Limited Data Contexts Using Synthetic Data Generation",
+    "authors": "Aman Khullar, Daniel Nkemelu, Viet Cuong Nguyen, Michael L. Best",
+    "year": 2024,
+    "link": "https://doi.org/10.1145/3625679",
+    "doi": "10.1145/3625679",
+    "abstract": "A growing body of work has focused on text classification methods for detecting the increasing amount of hate speech posted online. This progress has been limited to only a select number of highly resourced languages causing detection systems to either under-perform or not exist in limited data contexts. This is mostly caused by a lack of training data, which are expensive to collect and curate in these settings. In this work, we propose a data augmentation approach that addresses the problem of lack of data for online hate speech detection in limited data contexts using synthetic data generation techniques. Given a handful of hate speech examples in a high-resource language such as English, we present three methods to synthesize new examples of hate speech data in a target language that retains the hate sentiment in the original examples but transfers the hate targets. We apply our approach to generate training data for hate speech classification tasks in Hindi and Vietnamese. Our findings show that a model trained on synthetic data performs comparably to, and in some cases outperforms, a model trained only on the samples available in the target domain. This method can be adopted to bootstrap hate speech detection models from scratch in limited data contexts. As the growth of social media within these contexts continues to outstrip response efforts, this work furthers our capacities for detection, understanding, and response to hate speech. Disclaimer: This work contains terms that are offensive and hateful. These, however, cannot be avoided due to the nature of the work.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Localised Trust in a Globalised Knot: Designing Information Privacy for Digital-ID",
+    "authors": "Stefanus van Staden, Nicola J. Bidwell",
+    "year": 2024,
+    "link": "https://doi.org/10.1145/3616024",
+    "doi": "10.1145/3616024",
+    "abstract": "We designed the system that manages, verifies and exchanges identity information for Namibia's national Digital-ID. We applied Grounded Theory methods to five focus groups to understand experiences, expectations and practices in different contexts of legal identity verification and sharing. Local perspectives on privacy aligned with prevalent models for Digital-ID, in which people individually own and trade their personal information, yet they cannot be disentangled from specific social relationships. Thus, our design responds to the ways people establish trust with organisations over time and relate consent for information exchange and privacy control to accountability. We use Situational Analysis to consider how data governance is constructed in a policy-design-adoption \u2018knot\u2019 and relates to Namibia's sociotechnical imaginary of \u2018unity in diversity\u2019. Unequal telecommunications access and adoption contributes to systems that produce inegalitarian data relations but is not central in Namibia's data protection and privacy discourse, thus our thick analysis prompted designing to strengthen collective voice in governance through Government Gazettes and civil society activism. Our reflections also suggest that although design research of a real-world system in Africa offers important insights about combining individualist and collectivist orientations in data governance, their wider scholarly contribution is impeded by norms imposed by the Global North.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Quantifying the Quality of Parent-Child Interaction Through Machine-Learning Based Audio and Video Analysis: Towards a Vision of AI-assisted Coaching Support for Social Workers",
+    "authors": "Atefeh Jebeli, Lujie Karen Chen, Katherine Guerrerio, Sophia Papparotto, Lisa Berlin, Brenda Jones Harden",
+    "year": 2024,
+    "link": "https://doi.org/10.1145/3617693",
+    "doi": "10.1145/3617693",
+    "abstract": "Attachment is the emotional bonding between a child and a caregiver. Whether or not there is a secure attachment in early childhood has a profound life-long impact on the child. In recent years, attachment-based interventions have been developed and implemented, especially with families from low socioeconomic backgrounds. One important aspect of the program is to assess the quality of parent-child interactions through audio/video recorded at home while parent-child dyads were engaged in semi-structured interaction tasks, such as \u201cthree-bag-assessment.\u201d The current practice relies on human coders to rate the videos, which is a time-consuming process. Using a dataset of 220 video recordings of parent-child dyads collected at home as part of an attachment-based intervention program, we prototype a machine learning approach based on human body keypoints extracted from the posture analysis tool OpenPose and voice activity features derived from audio recordings. The results show that there are potential values in using machine learning to improve the coding efficiency of parent-child interactions. When further developed and improved, this kind of model may contribute to a new vision of AI-assisted parenting coaching support to make evidence-based interventions accessible and affordable at a large scale to children and families.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "PollutionMapper: Identifying Global Air Pollution Sources",
+    "authors": "Dhruv Agarwal, Srinivasan Iyengar, Pankaj Kumar",
+    "year": 2024,
+    "link": "https://doi.org/10.1145/3617129",
+    "doi": "10.1145/3617129",
+    "abstract": "Air pollution adversely impacts public health. The National Capital Region (Delhi-NCR) is among the most polluted urban areas in the world. One component of air pollution is PM2.5, which accounts for around 80% of deaths due to air pollution. Solutions for lowering PM2.5 levels in Delhi have been ineffective due to their unscientific design. In this article, we build a mixed-methods model that captures the interplay of various factors\u2014geographical, chemical, meteorological\u2014that contribute to the concentration of PM2.5. Using domain knowledge and KDE sampling from NASA\u2019s GEOS-CF dataset, we identify the major sources of each of the seven constituents of PM2.5. From the 68 sources thus selected, we run the NOAA\u2019s HYSPLIT wind dispersion model to track the movement of released particles to the sink, i.e., Delhi. Using the concentration of pollutants at the sources and by tracking their movement, we can predict the PM2.5 levels at the sink and identify polluting sources. Our model performed significantly better than the baseline fixed-effects model and captured seasonal variations in all seven constituents of PM2.5. It also uncovered the impact of polluting sources hundreds of kilometers away on the air of Delhi. Policymakers can use such a model to design data-driven policy interventions.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "To Reply or to Quote: Comparing Conversational Framing Strategies on Twitter",
+    "authors": "Himanshu Zade, Spencer Williams, Theresa T. Tran, Christina Smith, Sukrit Venkatagiri, Gary Hsieh, Kate Starbird",
+    "year": 2024,
+    "link": "https://doi.org/10.1145/3625680",
+    "doi": "10.1145/3625680",
+    "abstract": "Social media platform affordances allow users to interact with content and with each other in diverse ways. For example, on Twitter,1 users can like, reply, retweet, or quote another tweet. Though it\u2019s clear that these different features allow various types of interactions, open questions remain about how these different affordances shape the conversations. We examine how two similar, but distinct conversational features on Twitter \u2014 specifically reply vs. quote \u2014 are used differently. Focusing on the polarized discourse around Robert Mueller\u2019s congressional testimony in July 2019, we look at how these features are employed in conversations between politically aligned and opposed accounts. We use a mixed methods approach, employing grounded qualitative analysis to identify the different conversational and framing strategies salient in that discourse and then quantitatively analyzing how those techniques differed across the different features and political alignments. Our research (1) demonstrates that the quote feature is more often used to broadcast and reply is more often used to reframe the conversation; (2) identifies the different framing strategies that emerge through the use of these features when engaging with politically aligned vs. opposed accounts; (3) discusses how reply and quote features may be re-designed to reduce the adversarial tone of polarized conversations on Twitter-like platforms.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Augmented Reality Waste Accumulation Visualizations",
+    "authors": "Ambre Assor, Arnaud Prouzeau, Pierre Dragicevic, Martin Hachet",
+    "year": 2024,
+    "link": "https://doi.org/10.1145/3636970",
+    "doi": "10.1145/3636970",
+    "abstract": "The negative impact humans have on the environment is partly caused by thoughtless consumption leading to unnecessary waste. A likely contributing factor is the relative invisibility of waste: waste produced by individuals is either out of their sight or quickly taken away. Nevertheless, waste disposal systems sometimes break down, creating natural information displays of waste production that can have educational value. We take inspiration from such natural displays and introduce a class of situated visualizations we call augmented reality waste accumulation visualizations, or ARwavs, which are literal representations of waste data embedded in users\u2019 familiar environment. We implemented examples of ARwavs and demonstrated them in feedback sessions with experts in pro-environmental behavior, and during a large tech exhibition event. We discuss general design considerations for ARwavs. Finally, we conducted a study with 20 participants suggesting that ARwavs yield stronger emotional responses than nonimmersive waste accumulation visualizations and plain numbers.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "On the Influence and Political Leaning of Overlap between Propaganda Communities",
+    "authors": "Anirban Sen, Soumyasis Gun, Soham De, Joyojeet Pal",
+    "year": 2024,
+    "link": "https://doi.org/10.1145/3640790",
+    "doi": "10.1145/3640790",
+    "abstract": "Social media offers increasingly diverse mechanisms for the distribution of motivated information, with multiple propaganda communities exhibiting overlaps with respect to user, content, and network characteristics. This has particularly been an issue in the Global South, where recent work has shown various forms of strife related to polarizing speech online. It has also emerged that propagandist information, including fringe positions on issues, can find its way into the mainstream when sufficiently reinforced in tone and frequency, some of which often requires sophisticated organizing and information manipulation. In this study, we analyze the overlap between three events with varying degrees of propagandist messaging by analyzing the content and network characteristics of users leading to overlap between their users and discourse. We find that a significant fraction of users leading to overlap between the three event communities are influential in information spread across the three event networks, and political leaning is one of the factors that helps explain what brings the communities together. Our work sheds light on the importance of network characteristics of users, which can prove to be instrumental in establishing the role of political leaning on overlap between multiple propaganda communities.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Understanding Driving Stress in Urban Bangladesh: An Exploratory Study, Wearable Development and Experiment",
+    "authors": "Rahat Jahangir Rony, Md. Sabbir Ahmed, Sayan Sarcar, Nova Ahmed",
+    "year": 2024,
+    "link": "https://doi.org/10.1145/3648434",
+    "doi": "10.1145/3648434",
+    "abstract": "Driving stress significantly impacts driving behavior primarily from roadside factors, where driving is more challenging in developing countries (i.e., Bangladesh) for unique cultural and infrastructural setups. We conduct an exploratory study (Qualitative n = 26, and Subjective Feedback n = 80) and a correlational analysis involving professional and private car drivers in urban Bangladesh. The study reveals drivers' demography and driving stress factors on the road. These findings motivate us to identify driving stress from physiological factors by developing a low-cost wearable, Stress Wear. This can detect stress from varying Heart Rates, validated by expensive commercial wearables. Between subject experiments on drivers (total n = 14 in two phases) with wearables, we also found that road factors are responsible for driving stress. Therefore, the developed system is helpful for these drivers to self-sense their stress.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "RFDrive: Tagged Human-Vehicle Interaction for All",
+    "authors": "Wei Sun, Kannan Srinivasan",
+    "year": 2024,
+    "link": "https://doi.org/10.1145/3648533",
+    "doi": "10.1145/3648533",
+    "abstract": "Human\u2013vehicle interaction is an important factor for safe driving. The driver needs to interact with the in-vehicle steering wheel and infotainment system properly during driving. Specifically, driving guidelines require the driver to hold the steering wheel at the 3 o\u2019clock and 9 o\u2019clock positions. Moreover, the in-vehicle infotainment system should be more adaptive for the driver and front-seat passenger during driving (i.e., the in-vehicle infotainment system should be part and even fully disabled for the driver, whereas the front-seat passenger should be able to enjoy the full in-vehicle infotainment system). However, affordable vehicles are usually designed to achieve basic driving functions without considering safe human\u2013vehicle interactions, which require an add-on, affordable, and ready-to-use human\u2013vehicle interaction monitoring system. In this article, we present RFDrive, a system that can simultaneously locate the driver\u2019s hand positions on the steering wheel and automate in-vehicle infotainment system touch discrimination for safe driving using commodity passive RFID tags. Since these commodity passive RFID tags are low cost (i.e., around 5 cents per tag), battery free, and are small, like a sticker, our design will enable not only safe driving but is also low cost, which can lead to sustainable solutions. To do so, we attach RFID tags on the steering wheel for the driver\u2019s hand position location and attach RFID tags on the roof of the vehicle\u2019s interior for in-vehicle infotainment system touch discrimination (i.e., differentiating the driver\u2019s infotainment system touch and front-seat passenger\u2019s infotainment system touch). However, the wheel steering will distort the wireless channel-based driver\u2019s hand position location on the steering wheel. Thus, we propose a novel tag ID-based algorithm to locate the driver\u2019s hand position on the steering wheel by harnessing the human body as part of the RFID tag\u2019s antenna. Since the in-vehicle infotainment system touch from the driver or front-seat passenger will affect different RFID tags attached to the roof of the vehicle\u2019s interior, we propose to use the differential amplitude of backscattered signals from all the tags to discriminate in-vehicle infotainment system touch sources. Our experiments show that RFDrive can achieve the average accuracy of 0.98 and 0.98 for in-vehicle touch source discrimination and driver\u2019s hand position location, respectively.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "On Disused Connected Devices: Understanding Disuse, \"Holding On, \" and Barriers to Circularity",
+    "authors": "Susan Lechelt, Katerina Gorkovenko, Chris Speed",
+    "year": 2024,
+    "link": "https://doi.org/10.1145/3651171",
+    "doi": "10.1145/3651171",
+    "abstract": "In this article, we explore the complex phenomena behind why people \u201chold on\u201d to disused connected devices, focusing especially on differences between \u201ctraditional\u201d smartphones and computers, and newer categories of smart home devices, wearables, and single-function Internet of Things (IoT) devices. We investigate why and in what contexts different categories of connected devices become disused by their owners; what owners value about their disused devices; and what they perceive to be the barriers to adopting circular practices, for example, by fixing, recycling, or reusing them. Our contribution is to provide a descriptive account of how functional, sentimental, and other values associated with devices shape owners\u2019 perceptions and attitudes toward their \u201cend of life,\u201d for an expanded range of connected products. By highlighting how perceptions of concepts including convenience, ownership, and wastefulness mediate how owners approach the \u201cend of life\u201d of a device, we map the barriers for device owners to engage in more circular practices and highlight opportunities to address them through design. Our study replicates previous findings in the domain, as well as extending them, contributing to how the design of modern IoT devices leads to new barriers, opportunities, and considerations for more circular design.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Implementing e-Participation in Africa: What Roles Can Public Officials Play?",
+    "authors": "Paul Plantinga, Nonkululeko Dlamini, Tanja Gordon",
+    "year": 2024,
+    "link": "https://doi.org/10.1145/3648438",
+    "doi": "10.1145/3648438",
+    "abstract": "A key question in e-participation is what roles public officials can play to harness the benefits of emerging technologies and practices, mitigate potential harms, and, ultimately, ensure more inclusive and effective public involvement in decision making. This article presents results from a desktop analysis of e-participation projects from the African continent to highlight the diversity of public official roles and associated skills and perspectives that would be relevant to e-participation implementation. The identified roles and activities range from legal specialists developing guidelines to comply with personal data protection legislation and stakeholder managers designing models of collaboration with commons-based platforms to communications officials learning how to moderate social media conversations and technology developers exploring new ways of verifying online identity.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "FrugalLight : Symmetry-Aware Cyclic Heterogeneous Intersection Control using Deep Reinforcement Learning with Model Compression, Distillation and Domain Knowledge",
+    "authors": "Sachin Kumar Chauhan, Rijurekha Sen",
+    "year": 2024,
+    "link": "https://doi.org/10.1145/3648599",
+    "doi": "10.1145/3648599",
+    "abstract": "Developing countries need to better manage fast increasing traffic flows, owing to rapid urbanization. Else, increasing traffic congestion would increase fatalities due to reckless driving, as well as keep vehicular emissions and air pollution critically high in cities like New Delhi. State-of-the-art traffic signal control methods in developed countries, however, use expensive sensing, computation, and communication resources. How far can control algorithms go, under resource constraints, is explored through the design and evaluation of FrugalLight (FL) in this article. We also captured and processed a real traffic dataset at a busy intersection in New Delhi, India, using efficient techniques on low cost embedded devices. This dataset (https://delhi-trafficdensity-dataset.github.io) contains traffic density information at fine time granularity of one measurement every second, from all approaches of the intersection for 40 days. FrugalLight (https://github.com/sachin-iitd/FrugalLight) is evaluated on the collected traffic dataset from New Delhi and another open source traffic dataset from New York. FrugalLight matches the performance of state-of-the-art Convolutional Neural Network (CNN) based sensing and Deep Reinforcement Learning (DRL) based control algorithms, while utilizing resources less by an order of magnitude. We further explore improvements using a careful combination of knowledge distillation and domain knowledge based DRL model compression, with employing Model-Agnostic Meta-Learning to quickly adapt to traffic at new intersections. The collected real dataset and FrugalLight therefore opens up opportunities for resource efficient RL based intersection control design for the ML research community, where the controller should have limited carbon footprint. Such intelligent, green, intersection controllers can help reduce traffic congestion and associated vehicular emissions, even if compute and communication infrastructure is limited in low resource regions. This is a critical step toward achieving two of the United Nations Sustainable Development Goals (SDG), namely sustainable cities and communities and climate action.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Understanding Urban Women's Interaction with Domestic Technologies in Malawi: Advancing Feminist Theories in HCI",
+    "authors": "George Hope Chidziwisano, Adam William Cummings, Devendra Dilip Potnis, Maureen Jalakasi",
+    "year": 2024,
+    "link": "https://doi.org/10.1145/3650204",
+    "doi": "10.1145/3650204",
+    "abstract": "In sub-Saharan Africa, women are caretakers of their homes. Despite the gendered nature of technology use, human-computer interaction research has rarely focused on women's interaction with domestic technologies in this context. We explore how urban women in Malawi use domestic technologies to support activities in their homes. We conducted semi-structured interviews, observations, and focus group discussions with 33 married women living with their husbands and other family members. Our findings suggest that women are the primary users of utilitarian domestic technologies; however, their spouses have control over how they use these technologies. Further, we found that purpose and time influence women's decision-making process for selecting domestic technologies to use, especially cooking appliances. The structure of some Malawian homes\u2014which consist of a combination of modern and traditional structures\u2014also influences women's decision-making process. Our findings contribute to feminist theories in human-computer interaction through the application of ecology, pluralism, and self-disclosure aspects.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "EcoSketch: Promoting Sustainable Design through Iterative Environmental Assessment during Early-Stage Product Development",
+    "authors": "Tejaswini Chatty, Bryton L. Moeller, Ioana A. Pantelimon, Catherine D. Parnell, Tahsin M. Khan, Lise Laurin, Jeremy Faludi, Elizabeth L. Murnane",
+    "year": 2024,
+    "link": "https://doi.org/10.1145/3648436",
+    "doi": "10.1145/3648436",
+    "abstract": "Sustainability has long been a topic of substantial interest to the design and human-centered computing communities. With industries increasingly prioritizing climate targets, there is a growing demand for sustainable product design. This article addresses this need through EcoSketch, a digital tool designed to democratize environmental impact assessments for product designers. Shifting typically retrospective evaluations to the early stages of product development, EcoSketch enables proactive consideration and adoption of sustainable alternatives. Unlike software tailored to environmental scientists, it minimizes the need for specialized training or extensive data inputs. We delve into the development and evaluation of EcoSketch, highlighting its unique features and usability strengths. This article concludes by discussing design implications and proposing future research avenues to strengthen the intersection of human-computer interaction and sustainable product design, with the aim of advancing progress on environmental challenges at the systems level.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "RELand: Risk Estimation of Landmines via Interpretable Invariant Risk Minimization",
+    "authors": "Mateo Dulce-Rubio, Siqi Zeng, Qi Wang, Didier Alvarado, Francisco Moreno Rivera, Hoda Heidari, Fei Fang",
+    "year": 2024,
+    "link": "https://doi.org/10.1145/3648437",
+    "doi": "10.1145/3648437",
+    "abstract": "Landmines remain a threat to war-affected communities for years after conflicts have ended, partly due to the laborious nature of demining tasks. Humanitarian demining operations begin by collecting relevant information from the sites to be cleared, which is then analyzed by human experts to determine the potential risk of remaining landmines. In this article, we propose RELand system to support these tasks, which consists of three major components. We (1) provide general feature engineering and label assigning guidelines to enhance datasets for landmine risk modeling, which are widely applicable to global demining routines, (2) formulate landmine presence as a classification problem and design a novel interpretable model based on sparse feature masking and invariant risk minimization, and run extensive evaluation under proper protocols that resemble real-world demining operations to show a significant improvement over the state-of-the-art, and (3) build an interactive web interface to suggest priority areas for demining organizations. We are currently collaborating with a humanitarian demining NGO in Colombia that is using our system as part of their field operations in two areas recently prioritized for demining. The resulting dataset and developed code can be found here.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Unveiling Social Anxiety: Analyzing Acoustic and Linguistic Traits in Impromptu Speech within a Controlled Study",
+    "authors": "Nilesh Kumar Sahu, Manjeet Yadav, Haroon R. Lone",
+    "year": 2024,
+    "link": "https://doi.org/10.1145/3657245",
+    "doi": "10.1145/3657245",
+    "abstract": "Early detection and treatment of Social Anxiety Disorder (SAD) is crucial. However, current diagnostic methods have several drawbacks, including being time consuming for clinical interviews, susceptible to emotional bias for self-reports, and inconclusive for physiological measures. Our research focuses on a digital approach using acoustic and linguistic features extracted from participants\u2019 \u201cspeech\u201d for diagnosing SAD. Our methodology involves identifying correlations between extracted features and SAD severity, selecting the effective features, and comparing classical machine learning and deep learning methods for predicting SAD. Our results demonstrate that both acoustic and linguistic features outperform deep learning approaches when considered individually. Logistic Regression proves effective for acoustic features, whereas Random Forest excels with linguistic features, achieving the highest accuracy of 85.71%. Our findings pave the way for non-intrusive SAD diagnosing that can be used conveniently anywhere, facilitating early detection.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Net Loss: An econometric method to measure the impact of Internet shutdowns",
+    "authors": "Anirudh Tagat, Amreesh Phokeer, Hanna M. Kreitem",
+    "year": 2024,
+    "link": "https://doi.org/10.1145/3659466",
+    "doi": "10.1145/3659466",
+    "abstract": "The economic costs of Internet shutdowns are far-reaching and widespread and span beyond the simple disruption to communication networks that are reliant on access to the Internet. Existing work on the impacts of the Internet shutdowns does not extensively exploit the fact that they can have adverse effects on the local economy in terms of output, employment, and investments. There is a lack of rigorous economic analysis of the impacts of shutdowns that can be more broadly applied to specific regions that account for variations in the intensity (or type) of shutdowns, as well as go beyond providing broad Gross Domestic Product (GDP) cost estimates, which may be misleading. This article aims to bridge this gap by providing an econometric approach to estimate the impact of Internet shutdowns on GDP, employment, and foreign direct investment using panel data on 92 countries. We show that a point increase in the likelihood of an Internet shutdown was statistically significantly associated with a 15.6 percentage point reduction in the GDP per capita on average and every additional day of an Internet shutdown costs $86.58 per person on average.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "ELEV-VISION: Automated Lowest Floor Elevation Estimation from Segmenting Street View Images",
+    "authors": "Yu-Hsuan Ho, Cheng-Chun Lee, Nicholas D. Diaz, Samuel D. Brody, Ali Mostafavi",
+    "year": 2024,
+    "link": "https://doi.org/10.1145/3661832",
+    "doi": "10.1145/3661832",
+    "abstract": "We propose an automated lowest floor elevation (LFE) estimation algorithm based on computer vision techniques to leverage the latent information in street view images. Flood depth-damage models use a combination of LFE and flood depth for determining flood risk and extent of damage to properties. We used image segmentation for detecting door bottoms and roadside edges from Google Street View images. The characteristic of equirectangular projection with constant spacing representation of horizontal and vertical angles allows extraction of the pitch angle from the camera to the door bottom. The depth from the camera to the door bottom was obtained from the depthmap paired with the Google Street View image. LFEs were calculated from the pitch angle and the depth. The testbed for application of the proposed method is Meyerland (Harris County, Texas). The results show that the proposed method achieved mean absolute error of 0.190 m (1.18 %) in estimating LFE. The height difference between the street and the lowest floor (HDSL) was estimated to provide information for flood damage estimation. The proposed automatic LFE estimation algorithm using street view images and image segmentation provides a rapid and cost-effective method for LFE estimation compared with the surveys using total station theodolite and unmanned aerial systems. By obtaining more accurate and up-to-date LFE data using the proposed method, city planners, emergency planners, and insurance companies could make a more precise estimation of flood damage.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Wearable Technology Insights: Unveiling Physiological Responses During Three Different Socially Anxious Activities",
+    "authors": "Nilesh Kumar Sahu, Snehil Gupta, Haroon R. Lone",
+    "year": 2024,
+    "link": "https://doi.org/10.1145/3663671",
+    "doi": "10.1145/3663671",
+    "abstract": "Wearable technology holds promise for monitoring and managing Social Anxiety Disorder (SAD), yet the absence of clear biomarkers specific to SAD hampers its effectiveness. This article explores this issue by presenting a study investigating variances in heart rate, heart rate variability, and skin conductance between socially anxious and non-anxious individuals. One hundred eleven non-clinical student participants participated in groups of three in three anxiety-provoking activities (i.e., speech, group discussion, and interview) in a controlled lab-based study. During the study, electrocardiogram (ECG) and electrodermal activity (EDA) signals were captured via on-body electrodes. During data analysis, participants were divided into four groups based on their self-reported anxiety level (\u201cnone,\u201d \u201cmild,\u201d \u201cmoderate,\u201d and \u201csevere\u201d). Between-group analysis shows that discriminating ECG features (i.e., heart rate and MeanNN) could identify anxious individuals during anxiety-provoking activities, while EDA could not. Moreover, the discriminating ECG features improved the classification accuracy of anxious and non-anxious individuals in different machine-learning techniques. The findings need to be further scrutinized in real-world settings for the generalizability of the results.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Speaking in Terms of Money: Financial Knowledge Acquisition via Speech Data Generation",
+    "authors": "Advait Bhat, Nidhi Kulkarni, Safiya Husain, Aditya Yadavalli, Jivat Neet Kaur, Anurag Shukla, Monali Shelar, Vivek Seshadri",
+    "year": 2024,
+    "link": "https://doi.org/10.1145/3663775",
+    "doi": "10.1145/3663775",
+    "abstract": "Earning a living often leaves low-income individuals with little time for learning new skills, perpetuating a cycle where the need for immediate income restricts access to learning. In this study, we investigate if digital work, specifically speech data generation, can facilitate domain-specific knowledge acquisition. For the purposes of this study we focus on finance and banking. We conducted a two-week financial literacy program with low-income individuals (n = 55) in Wagholi, a semi-urban area in Pune, India. Participants read aloud and recorded a nine-lesson financial curriculum, earning \u20b92,000 (\u2248$24) for \u224890 minutes of voice-recording. By conducting pre- and post-tests, we found a significant increase in participants\u2019 financial knowledge with a high effect size (cohen\u2019s d = 1.32) and medium normalized score gain (hake\u2019s g = 0.58). Fourteen follow-up interviews indicated the work was accessible and conveniently integrated into participants\u2019 daily lives. Additionally, the program triggered attitude change among participants and community dialogue about critical financial concepts. Our results suggest that digital work can become an effective method for knowledge acquisition and should be tested at a larger scale.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Zero-Configuration Alarms: Towards Reducing Distracting Smartphone Interactions while Driving",
+    "authors": "Sugandh Pargal, Neha Dalmia, Harsh Borse, Bivas Mitra, Sandip Chakraborty",
+    "year": 2024,
+    "link": "https://doi.org/10.1145/3675159",
+    "doi": "10.1145/3675159",
+    "abstract": "The rising ubiquity of smartphones for navigation and driver mode, among others, has increased their use significantly among drivers; however, there are growing numbers of road fatalities being reported due to distractions from the phone while driving. In contrast to the existing solutions that use a camera or other communication media on the car or need external setups, this article proposes a solution called ZeCA, where the smartphone itself can identify in real time with zero pre-configurations whether its user is driving while engaging in a high-distraction interaction with the phone. ZeCA runs as a smartphone background service and generates audio-visual alerts when the phone can distract the driver. A thorough evaluation and usability study of ZeCA with 50 different models of vehicles driven by 70 drivers over five countries indicates that the proposed solution can infer distracting smartphone interactions with greater than 80% accuracy and a 70% reduction in smartphone usage during driving.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Is Model Accuracy Enough? A Field Evaluation of a Machine Learning Model to Catch Bogus Firms",
+    "authors": "Taha Barwahwala, Aprajit Mahajan, Shekhar Mittal, Ofir Reich",
+    "year": 2024,
+    "link": "https://doi.org/10.1145/3676188",
+    "doi": "10.1145/3676188",
+    "abstract": "We investigate the use of a machine learning (ML) algorithm to identify fraudulent non-existent firms that are used for tax evasion. Using a rich dataset of tax returns in an Indian state over several years, we train an ML-based model to predict fraudulent firms. We then use the model predictions to carry out field inspections of firms identified as suspicious by the ML tool. We find that the ML model is accurate in both simulated and field settings in identifying non-existent firms. Withholding a randomly selected group of firms from inspection, we estimate the causal impact of ML-driven inspections. Despite the strong predictive performance, our model-driven inspections do not yield a significant increase in enforcement as evidenced by the cancellation of fraudulent firm registrations and tax recovery. We provide two explanations for this discrepancy based on a close analysis of the tax department\u2019s operating protocols: overfitting to proxy-labels and institutional friction in integrating the model into existing administrative systems. Our study serves as a cautionary tale for the application of machine learning in public policy contexts and of relying solely on test-set performance as an effectiveness indicator. Field evaluations are critical in assessing the real-world impact of predictive models.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Assessing the Feasibility and Ethics of Economic Status Prediction using Deep Learning on Household Images",
+    "authors": "Aatif Nisar Dar, Nandana Sengupta, Chetan Arora",
+    "year": 2024,
+    "link": "https://doi.org/10.1145/3675160",
+    "doi": "10.1145/3675160",
+    "abstract": "Precise and comprehensive measurements of socioeconomic status are crucial for both academic investigations and policy making. However, in developing countries, such measures are available at the local household level only at extremely low frequencies (e.g., via a decadal census). A number of works have attempted predicting economic status at aggregated geographical levels such as district or neighborhood using deep learning on images with varying degrees of success. However the utility of such an approach at the household level remains open. In this study, we utilize deep learning models on household images collected from four northeastern states in India to assess the feasibility and ethics of household-level income status prediction. We categorize households into classes based on income and then train a Swin Transformer model with cross-entropy loss and triplet loss to predict the socioeconomic class of the household. We then compare the prediction accuracy of our model with predictions using a simple list of household assets and predictions from a set of expert human annotators. We find that the use of deep learning on images does not lead to any substantial gains in prediction accuracy. Further, we note that human accuracy on this prediction tasks is low, raising questions on the information contained within the images. Our study raises important questions regarding the ethical implications of utilizing household images for predicting socioeconomic status. We explore these ethical implications, emphasizing the importance of a cautious and considerate approach in incorporating image-based techniques.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "ForestQB: Enhancing Linked Data Exploration through Graphical and Conversational UIs Integration",
+    "authors": "Omar Mussa, Omer F. Rana, Benoit Goossens, Pablo Orozco ter Wengel, Charith Perera",
+    "year": 2024,
+    "link": "https://doi.org/10.1145/3675759",
+    "doi": "10.1145/3675759",
+    "abstract": "This article introduces the Forest Query Builder (ForestQB), an innovative toolkit designed to enhance the exploration and application of observational Linked Data (LD) within the field of wildlife research and conservation. Addressing the challenges faced by non-experts in navigating Resource Description Framework (RDF) triplestores and executing SPARQL queries, ForestQB employs a novel integrated approach. This approach combines a graphical user interface (GUI) with a conversational user interface (CUI), thereby greatly simplifying the process of query formulation and making observational LD accessible to users without expertise in RDF or SPARQL. Developed through insights derived from a comprehensive ethnographic study involving wildlife researchers, ForestQB is specifically designed to improve the accessibility of SPARQL endpoints and facilitate the exploration of observational LD in wildlife research contexts. To evaluate the effectiveness of our approach, we conducted a user experiment. The results of this evaluation affirm that ForestQB is not only efficient and user-friendly but also plays a crucial role in eliminating barriers for users, facilitating the effective use of observational LD in wildlife conservation and extending its benefits to wider domains. (GitHub Link: github.com/i3omar/ForestQB).",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Sustainability of Makerspaces: Developing a Framework for Sustainable Community Innovation Centers",
+    "authors": "Mizan Rahman, Michael L. Best",
+    "year": 2024,
+    "link": "https://doi.org/10.1145/3675761",
+    "doi": "10.1145/3675761",
+    "abstract": "Innovation can play a vital role in economic freedom. However, innovation activities at the community level face numerous obstacles. Spaces like makerspaces and fabLabs vitalize innovation, education, and entrepreneurship within communities. Nevertheless, scarce research addresses the transient nature of these spaces; their premature cessation adversely affects their members and the surrounding community. In this study, we develop a novel sustainability framework for community innovation centers through the lens of makerspaces that helps reveal when some centers remain open and meet their objectives and how others close and fail to do so. These centers possess economic and social growth potential, aligning with HCI\u2019s mission to unlock human potential. Building on established ICT4D (Information and Communications Technologies for Development) frameworks, we studied makerspaces across the USA. The resulting framework highlights the importance of fostering a community through the interactions between people and resources, supported by an integrated management, process, and finance infrastructure. This work provides an understanding of how to foster sustainable innovation at the community level.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Experiences from Running a Voice-Based Education Platform for Children and Teachers with Visual Impairments",
+    "authors": "Roshni Poddar, Tarini Naik, Manikanteswar Punnam, Kavyansh Chourasia, Rajeswari Pandurangan, Rajesh S. Paali, Nagarathna R. Bhat, Bhagyashree Biradar, Venkatesh Deshpande, Devidatta Ghosh, Sudipta Ray Chaudhuri, Dipanjan Chakraborty, Amit Prakash, Manohar Swaminathan",
+    "year": 2024,
+    "link": "https://doi.org/10.1145/3677323",
+    "doi": "10.1145/3677323",
+    "abstract": "India has the world\u2019s largest population of children with vision impairments (CVIs), a group facing significant educational barriers including inadequate accessible resources, limited school access, and a shortage of trained teachers. The authors from four different organizations including a non-profit dedicated to enhancing STEM education for CVIs through interactive, play-based learning and teacher training have collaborated to create SEEDS, Scalable Educational Experiences with Digital Scaffolding. This is a voice-based platform for educational experiences delivery, featuring an Android Teacher App, an Interactive Voice Response (IVR) system, and a comprehensive website for content management. The Teacher app facilitates educational experiences via group calls with students, while the IVR system offers students independent access to educational content using feature phones. To assess effectiveness and usability of SEEDS among students and teachers, we conducted a mixed-methods study involving 29 visually impaired students across five schools and five facilitators (3 sighted and 2 visually impaired) from Vision Empower Trust. Despite challenges like internet connectivity issues causing call drops, the study highlighted strong student engagement and a collaborative environment among facilitators. By open-sourcing the SEEDS codebase, we aim to improve the platform and increase its adoption among teachers in schools for CVIs across India and beyond.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Examining Factors Influencing Technology Integration in Indian Classrooms: A Teachers' Perspective",
+    "authors": "Tarini Naik, Meena Elapulli Shankaranarayanan, Manohar Swaminathan, Kalika Bali, Mohit Jain",
+    "year": 2024,
+    "link": "https://doi.org/10.1145/3677325",
+    "doi": "10.1145/3677325",
+    "abstract": "India is actively transitioning towards a \u2018digital-first\u2019 economy, bolstering digital public infrastructure in sectors like finance, healthcare, and e-commerce. Likewise, the Government of India is striving to revamp the education system, emphasizing technology integration to harness the demographic dividend. Understanding the impact of this technological shift at the grassroots level, especially from teachers\u2019 perspectives, is paramount. This study delves into the factors influencing Indian teachers\u2019 adoption of technology in education and their perceptions of its incorporation. Through a mixed-method approach involving a survey with 1,355 respondents and 20 semi-structured interviews, we uncover how education policies, the COVID-19 pandemic, and social media converge, placing teachers at the forefront of technology integration in education.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Understanding the Longitudinal Impact of a Chatbot to Facilitate a Virtual Community of Practice for Teachers in Rural C\u00f4te d'Ivoire",
+    "authors": "Vikram Kamath Cannanure, Tricia Ngoon, Sharon Wolf, Kaja Jasinska, Timothy X. Brown, Amy Ogan",
+    "year": 2024,
+    "link": "https://doi.org/10.1145/3675762",
+    "doi": "10.1145/3675762",
+    "abstract": "Communities of practice can improve teachers\u2019 professional development through informal in-person discussions among community members. However, infrastructural challenges pose difficulties in fostering in-person connections, particularly in rural communities in the Global South. The emergence of social media and chatbots has presented an avenue for creating virtual communities for teachers, especially those in rural areas. An unanswered question is the potential impact of a chatbot-supported virtual teacher community on teachers\u2019 professional development. To answer this question, we conducted a longitudinal quasi-experiment involving 313 teachers participating in a new training program in rural C\u00f4te d\u2019Ivoire by deploying a chatbot on Facebook Messenger. Our experiment had two chatbot versions for two regions, i.e., one version supporting virtual community and one control. Our findings indicate that teachers in the virtual community condition exhibited modest enhancements in motivation and knowledge indicators. We make a case for implementing virtual communities of practice facilitated by chatbots to bolster the professional development of teachers in rural African contexts.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Machine Learning Analysis of Radio Data to Uncover Community Perceptions on the Ebola Outbreak in Uganda",
+    "authors": "Joyce Nakatumba-Nabende, Jonathan Mukiibi, Tobius Saul Bateesa, Sudi Murindanyi, Andrew Katumba, Chodrine Mutebi",
+    "year": 2024,
+    "link": "https://doi.org/10.1145/3685697",
+    "doi": "10.1145/3685697",
+    "abstract": "Radio is vital for people, especially in rural areas, to share their concerns through interactive talk shows. Understanding public perceptions of pandemics is crucial because they influence people\u2019s attitudes and health-seeking behaviors. This study used machine learning to analyze English and Luganda radio broadcast data to understand public perceptions and perspectives on the Ebola outbreak in Uganda. Our findings revealed three main speaker categories: media personalities, community guests and listeners, and government officials. The government made the most significant effort to educate the public about the Ebola outbreak. The analysis showed that the community was hesitant to use Ebola vaccines, believing that they had not been tested on other populations where the Ebola virus had originated. The community was also concerned about the effects of the lockdown measures imposed during the COVID-19 pandemic. The analysis of the radio broadcast data revealed differences in the timing and content of the conversations between male and female speakers. These experiences can inform population-specific policies for handling ongoing and future pandemics.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Exploring Indoor Air Quality Dynamics in Developing Nations: A Perspective from India",
+    "authors": "Prasenjit Karmakar, Swadhin Pradhan, Sandip Chakraborty",
+    "year": 2024,
+    "link": "https://doi.org/10.1145/3685694",
+    "doi": "10.1145/3685694",
+    "abstract": "Indoor air pollution is a major issue in developing countries such as India and Bangladesh, exacerbated by factors such as traditional cooking methods, insufficient ventilation, and cramped living conditions, all of which elevate the risk of health issues such as lung infections and cardiovascular diseases. With the World Health Organization associating around 3.2 million annual deaths globally to household air pollution, the gravity of the problem is clear. Yet, extensive empirical studies exploring these unique patterns and indoor pollution\u2019s extent are missing. To fill this gap, we carried out a 6-months long field study involving over 30 households, uncovering the complexity of indoor air pollution in developing countries, such as the longer lingering time of volatile organic compounds (VOCs) in the air or the significant influence of air circulation on the spatiotemporal distribution of pollutants. We introduced an innovative Internet of Things (IoT) air quality sensing platform, the Distributed Air QuaLiTy MONitor (DALTON), explicitly designed to meet the needs of these nations, considering factors such as cost, sensor type, accuracy, network connectivity, power, and usability. As a result of a multi-device deployment, the platform identifies pollution hot spots in low- and middle-income households in developing nations. It identifies best practices to minimize daily indoor pollution exposure. Our extensive qualitative survey estimates an overall system usability score of 2.04, indicating an efficient system for air quality monitoring.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Decoding The Playbook: Multi-Modal Characterization of Coordinated Influence Operations on Indian Social Media",
+    "authors": "Saloni Dash, Tanushree Mitra",
+    "year": 2024,
+    "link": "https://doi.org/10.1145/3675760",
+    "doi": "10.1145/3675760",
+    "abstract": "Manipulation of online discourse through organized disinformation and propaganda campaigns is a threat to information integrity and democratic dialogue. Taking cues from on-ground reports and recent literature on online trend manipulation in the Indian political landscape, we argue that organizing and consequently detecting influence operations is a multi-modal problem, where coordination is organized around different modalities like tweet, retweet, image, and temporal. In this article, we examine three case studies of prominent hashtag campaigns on Indian X (formerly known as Twitter). Building on prior coordination detection methods, we identify communities of coordinated users across each of the four modalities. An in-depth analysis of the coordinated communities offers unique insights into the playbook of coordination strategies employed in the Indian context. We find that tweet coordination is used for hashtag trending, while retweet coordination aids in amplifying messaging from influential right-wing accounts. Moreover, we find distinct roles of users across modalities, where users that disseminate content through tweet and image coordination (disseminators) are independent of users that amplify content through retweet coordination (amplifiers), suggesting the existence of distinct coordination campaigns and objectives within influence operations. We conclude by highlighting the multi-modal approach to coordination for comprehensively characterizing influence operations, the drawbacks of temporal filtering in coordination, and the transferability and implications of our findings.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Carbon Rebellion: Empowerment Using Data-Driven Narratives",
+    "authors": "Ambika Shahu, Martin W\u00f6lfer, Florian Michahelles",
+    "year": 2024,
+    "link": "https://doi.org/10.1145/3677324",
+    "doi": "10.1145/3677324",
+    "abstract": "Climate change communication demands narratives that resonate widely. \u201cCarbon Rebellion,\u201d an Interactive Digital Narrative, exemplifies this by blending personal anecdotes with data-driven content, fostering deep engagement. This research highlights the power of narratives in articulating the gravity of climate change, emphasizing the need for collective action and policy-level interventions. By juxtaposing individual choices against the backdrop of broader societal implications, the narrative seeks to both inspire and empower individuals. The findings reveal that such narratives can elicit strong emotional responses, catalyze critical thinking, and drive proactive climate action. The narrative\u2019s emphasis on community-based efforts highlights the pivotal role of collective endeavors in addressing this global challenge.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "What's Up On The Roof: Tracking Cool Roofs in India with Satellite Imaging",
+    "authors": "Varchita Lalwani, Anupam Sobti, Vishal Garg",
+    "year": 2024,
+    "link": "https://doi.org/10.1145/3685696",
+    "doi": "10.1145/3685696",
+    "abstract": "With rapid pace of urbanization, the increase in built up area is leading to urban heat islands which absorb a lot of the heat received through solar radiation. To reduce this effect, reflective coatings on top of building roofs, known as cool roofs are installed. Cool roofs reflect light back through the atmosphere to minimize the heat radiation within the urban space. In this article, we introduce a cool roof tracker. The tracker provides building level information of whether a roof is cool or not, thus indicating if an urban heat island is likely to develop in a region. This information helps policymakers identify the vulnerable regions in a city and track the progress of cool roof implementation in all areas. There are three key components of the system: building polygon extraction, reflectance features extraction from roof images; and classification into cool vs. non cool buildings. There are a number of satellites operational today which offer different strengths - high resolution, high revisit time, multiple spectral bands, and so on. In this work, we do a mix of quantitative and qualitative evaluation of the efficacy of different satellite modalities for each of the system components, build robust models with extensive experimentation on color space, augmentations, and generalization achieving an F1-score of 97% on our test set. We also develop a prototype dashboard as a demonstration for supporting data-driven decision making for state level heat mitigation plans as well as regulatory and compliance tool for measuring roof reflectance.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Unveiling Users' Security and Privacy Concerns Regarding Smart Home IoT Products from Online Reviews",
+    "authors": "Taufiq Islam Protick, Aafaq Sabir, Abhinaya S. B., Aiden Bartlett, Anupam Das",
+    "year": 2024,
+    "link": "https://doi.org/10.1145/3685929",
+    "doi": "10.1145/3685929",
+    "abstract": "The Internet of Things (IoT) has revolutionized the global market with lifestyle products such as fitness trackers (FT), smart home speakers (SHS), and surveillance and security camera systems (SSCS). While offering convenience, these products also introduce potential security and privacy (S&P) risks to buyers, often going unnoticed. Consumers\u2019 incomplete mental models of the risks involved and the information asymmetry between buyers and sellers only add to the problem. Understanding consumer concerns in online product reviews can play a crucial role in bridging the gap of such information asymmetry. By establishing a balanced flow of information between buyers and sellers, manufacturers can leverage genuine concerns expressed in reviews to enhance product features while educating users about misinformation in reviews. In this study, we collected FT, SHS, and SSCS product reviews from three Amazon domains: the US, the UK, and India. Using a keyword-based search method focused on S&P concerns, we discovered a considerable number of reviews expressing notable concerns regarding security and privacy. Our qualitative analysis revealed that data security is a common concern across all product types. Further, our quantitative analysis exposed significant geographic variations, with the concern ratio being higher in the US than in the UK for all device types and higher than in the Indian domain for security cameras. These findings highlight the need for tailored security measures and user awareness campaigns in different parts of the world to address the identified concerns effectively.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "A Platform for Connectivity and Synergy between Parents and Teachers of Children with Autism",
+    "authors": "Ifti Azad Abeer, Anik Sinha, Anik Saha, Syeda Shabnam Khan, Nova Ahmed",
+    "year": 2024,
+    "link": "https://doi.org/10.1145/3696434",
+    "doi": "10.1145/3696434",
+    "abstract": "Collaboration between parents and teachers of Children with Autism (CWA) is emphasized for effective education while the communication gap between both sides impedes it. The lack of specially designed tools to supplement the collaboration process in low-resource settings led us to initiate the research to design a platform for facilitating the synergy between both parties. This qualitative research was conducted in two phases where Phase I interviewed n=10 participants (parent=5, teacher=5). They emphasized personalized communication, maintaining privacy and accountability, and school authority\u2019s role in ensuring meaningful communication ideating three design guidelines. The prototype was developed accordingly and evaluated in Phase II with n=18 (parent=8, teacher=10) participants. They shared different use cases of the application, suggested modifications, and recommended new features. The work presents the parents and teachers of CWA with a platform to connect and synchronize their efforts and provides the HCI researchers contextual design considerations while designing for resource-constrained communities in Global South.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "An open and interoperable Knowledge Management framework for Climate Change Vulnerability Assessment",
+    "authors": "Christina Maria Androna, Ioanna Mandilara, Eleni Fotopoulou, Anastasios Zafeiropoulos, Symeon Papavassiliou, Konstantinos Ziliaskopoulos, Chrysi S. Laspidou",
+    "year": 2024,
+    "link": "https://doi.org/10.1145/3698819",
+    "doi": "10.1145/3698819",
+    "abstract": "Climate change vulnerability assessment (CCVA) is crucial to understand how different regions, communities, and ecosystems are susceptible to the impacts of climate change. Through the identification of vulnerabilities, policymakers can prioritize adaptation efforts, allocate resources effectively, and develop risk mitigation strategies. Social and environmental scientists can design solutions for the development of climate-resilient regions. Nowadays, various approaches have been made available for CCVA, leading to increased knowledge along with the identification of challenges and pitfalls. Participatory approaches are required for the proper selection of vulnerability indicators and the interpretation of the assessment results, accompanied by the development of quality data assessment processes to reduce inconsistencies and uncertainties in the provided data. Openness and interoperability of data and processes have to be promoted to enable the extensibility, reproducibility and comparability of the produced results. In the current work, we develop a framework to enable open and interoperable CCVA, taking advantage of a knowledge management infrastructure and specifically a Knowledge Graph that tracks information for various indicators around the Sustainable Development Goals. We follow an indicator-based vulnerability assessment approach for various temporal and spatial scales, while considering hazard-independent and hazard-dependent analysis. Indicative analysis results are provided in national, regional and local scale.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  }
+]

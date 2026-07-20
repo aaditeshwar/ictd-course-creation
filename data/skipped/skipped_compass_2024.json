@@ -1,0 +1,182 @@
+[
+  {
+    "title": "BLIPS: Bluetooth locator for an Indoor Positioning System in Realtime",
+    "authors": "Shyama Sastha Krishnamoorthy Srinivasan, Siddharth Singh, Pushpendra Singh, Mohan Kumar",
+    "year": 2024,
+    "link": "https://doi.org/10.1145/3674829.3675057",
+    "doi": "10.1145/3674829.3675057",
+    "abstract": "Traditional localization systems often rely on a network of external sensors, making the setups cumbersome, expensive, and requiring significant calibration effort. The advent of Bluetooth 5.1 and later versions brought enhancements that enable precise localization using constant tone extension (CTE) in the signal through Angle of Arrival (AoA) and Angle of Departure (AoD) techniques. This work examines the capacity of a single Bluetooth Low-Energy (BLE) locator with an antenna array based on AoA in terms of performance, efficiency, and latency in real-time indoor positioning. While traditional neural networks train measured entities to match calculated distances, we utilize the azimuth and elevation angle components in the AoA measured and train neural networks to match their theoretical counterparts. We conducted extensive experiments in a real-world lab environment, providing ablation studies in the design. The results demonstrate the system\u2019s capability in real-time with many potential interference variables. Under lab conditions, our results show the capacity of a single locator wanes past 4m with the best average accuracy of 0.09m error in positioning within a 5m radius to as much as \u223c 1m of error beyond 6m up to the maximum possible measuring distance in the lab.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "AI-Driven Healthcare Delivery in Pakistan: A Framework for Systemic Improvement",
+    "authors": "Imama Zahoor, Shiza Ihtsham, Muhammad Umar Ramzan, Agha Ali Raza, Basmaa Ali",
+    "year": 2024,
+    "link": "https://doi.org/10.1145/3674829.3675058",
+    "doi": "10.1145/3674829.3675058",
+    "abstract": "In Low- and Middle-Income Countries (LMICs), poor health outcomes come from a high burden of disease, a shortage of healthcare professionals, and inefficient health information exchange leading to substantial economic losses. In this paper, we highlight critical gaps in healthcare delivery in Pakistan and propose solutions to improve patient outcomes in resource-constrained environments. We have built Darcheeni, an AI-driven healthcare framework that leverages artificial intelligence to assist and supplement physicians, streamline healthcare processes, and prioritize patient-centered care. Darcheeni analyzes doctor-patient interactions in real-time, integrates lab and imaging data, generates and distributes care plans customized to the patient\u2019s needs, and sends them directly to patients\u2019 smartphones. We also discuss the challenges and limitations associated with sustainable AI integration by centering our learnings from the pilot deployment of Darcheeni. By focusing on Pakistan as a case study, this work offers practical insights and strategies for deploying AI-driven technologies sustainably in similar resource-constrained environments and contributes to the broader discourse on the role of AI in global health improvement.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Mapping Thermal Footprints: Occupancy Estimation and Localization in Diverse Indoor Settings with Thermal Arrays",
+    "authors": "Soumya Ranjan Sahoo, Haroon R. Lone",
+    "year": 2024,
+    "link": "https://doi.org/10.1145/3674829.3675059",
+    "doi": "10.1145/3674829.3675059",
+    "abstract": "Estimating and locating occupants indoors is crucial for automating operations within buildings. However, current privacy-preserving occupancy estimation systems using thermal cameras have not been thoroughly evaluated in dense settings, such as classrooms or movie theaters, where occupants sit close to one another. Estimating occupancy in such settings presents challenges, as nearby occupants often lead to clusters of thermal signatures, thereby affecting the accuracy of the estimation. In response to these challenges, our work proposes Machine Learning (ML) and Deep Learning (DL) based methods for occupancy estimation and localization, both in dense and sparse settings. The ML method complements existing occupancy estimation techniques by incorporating new manual features, while the DL method performs automatic feature extraction, accurate occupancy estimation and localization. Remarkably, the results demonstrate a significant enhancement in occupancy estimation accuracy of up to 10%, achieving an impressive overall accuracy rate of 97%. Moreover, our evaluation on an edge device confirms the practicality and relevance of the proposed methods in real-world applications.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "AAVE Corpus Generation and Low-Resource Dialect Machine Translation",
+    "authors": "Eric Graves, Shreyas Aswar, Rujuta Desai, Srilekha Nampelli, Sunandan Chakraborty, Ted Hall",
+    "year": 2024,
+    "link": "https://doi.org/10.1145/3674829.3675060",
+    "doi": "10.1145/3674829.3675060",
+    "abstract": "African American Vernacular English (AAVE) is a dialect of the English language spoken in the United States by members of the Black community. The stark differences between AAVE and Standard American English (SAE), as well as a historically negative stigma towards its use, have contributed to an academic performance gap between Black students and their non-Black counterparts. This research works to generate educational resources similar to what is available in English Second Language (ESL) classrooms. Exposure to these resources has been shown to both improve the negative stigma towards the use of AAVE as well as facilitate code-switching between AAVE and SAE. The resources to be generated in this research are a parallel corpora for AAVE and SAE using both professionally translated text and AI-generated text, and a Neural Machine Translation (NMT) model to translate SAE into AAVE using novel network architectures used language to language translation including LSTM, Bi-LSTM, Attention, and Transformer network components. The parallel corpora will be quantitatively reviewed and validated before using tested dialect translation model methods. Methodology will additionally be focused on low-resource machine translation due to the lack of large corpora containing AAVE. Both professional translators and large language model, ChatGPT, will be used to create parallel corpora containing AAVE and SAE. This short paper details the preliminary results of the assessment of these generated corpora as well as the accuracy of dialect machine translation models trained on them.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Simulation-based Analysis of Car-sharing Electrification in Schleswig-Holstein, Germany",
+    "authors": "Aliyu Tanko Ali, Andreas Schuldei, Martin Sachenbacher, Martin Leucker",
+    "year": 2024,
+    "link": "https://doi.org/10.1145/3674829.3675064",
+    "doi": "10.1145/3674829.3675064",
+    "abstract": "We present a study to assess the feasibility and implications of replacing internal combustion engine vehicles with battery-powered electric vehicles (EVs) in a car-sharing fleet. For the analysis, we used operational data from a local car-sharing company, which encompasses various aspects such as trip distance, start and duration, vehicle type, and pickup and return locations. To evaluate the impact of transitioning the entire fleet to EVs, we used EV and charger models to simulate the battery-powered trips and also the necessary post-trip recharging. Both could affect the service quality of car sharing services, as the requested trip distance might not be covered by an electric vehicle due to range or charging time limitations. Specifically, in our simulation-based analysis, we identified chains of consecutive bookings as a critical factor for car-sharing electrification. Furthermore, to assess the potential impact of electrification on the energy grid, we used data about the local grid load and its composition to relate it to the predicted vehicle charging times.",
+    "skip_reason": "The paper does not substantively engage with a developing-regions context as required by the rules for all topics except cs_fundamentals."
+  },
+  {
+    "title": "Navigating Truth in the Sea of Content: Exploring Influential Factors Shaping User Perceptions of Trustworthiness in YouTube Content",
+    "authors": "Aditto Baidya Alok, Fardin Huq, Shamsil Arafin Ullah, Riya Ghosh, Jannatun Noor",
+    "year": 2024,
+    "link": "https://doi.org/10.1145/3674829.3675065",
+    "doi": "10.1145/3674829.3675065",
+    "abstract": "In today\u2019s digital age, YouTube stands as a vital hub for information across various domains, from entertainment to education. However, the persistent challenge of misinformation threatens its integrity. This study explores the complex dynamics of trust and legitimacy within YouTube\u2019s content ecosystem, uncovering factors shaping user perceptions in Bangladesh. We highlight the crucial roles of creator reputation, content presentation, and social validation in building trust while emphasizing the need to address misleading content effectively. Employing a mixed-methods approach, we conducted surveys (n=71) and interviews (n-19) to gain insights into user experiences comprehensively. By addressing gaps in current research, our study contributes to the HCI and ICT4D communities, illuminating critical issues in the digital realm. As YouTube continues to influence our online landscape, grasping trust and misinformation becomes essential for fostering an informed and trustworthy online community.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Towards Safer Roads: Deep Learning for Rash Driving Detection using Smartphone Sensors Data",
+    "authors": "Durgesh Mishra, Manoj Gulati, Haroon R. Lone",
+    "year": 2024,
+    "link": "https://doi.org/10.1145/3674829.3675069",
+    "doi": "10.1145/3674829.3675069",
+    "abstract": "Rash driving detection is vital to prevent accidents and improve public safety. Existing rash driving solutions using hand-crafted features have several limitations. We propose a simple yet efficient two-step process to overcome the limitations of the existing works by leveraging smartphone sensor (accelerometer and gyroscope) data. The first step filters out normal driving data and retains only the abnormal driving data with the proposed Adaptive Time Window (ATW) algorithm. This not only enhances the accuracy of detection but also reduces computation time, making our solution more efficient. Importantly, the proposed ATW algorithm completely eliminates window overlap redundancy and edge effects in the system. The second step classifies abnormal driving patterns with the proposed 1D Convolutional Neural Network (CNN) model. Our results demonstrate that the proposed solution is highly accurate and has a weighted accuracy of 97.14%. Additionally, as part of this research, we have curated and released a labeled Indian dataset comprising five distinct rash driving patterns: Lane Weaving, Lane Swerving, Hard Braking, Hard Cornering, and Quick U-turn. This dataset can be valuable for further studies and aid in developing multimodal rash driving detection systems.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "PRET Printer: Development and Evaluation of a Passive Refreshable Tactile Printer",
+    "authors": "Tigmanshu Bhatnagar, Catherine Holloway",
+    "year": 2024,
+    "link": "https://doi.org/10.1145/3674829.3675070",
+    "doi": "10.1145/3674829.3675070",
+    "abstract": "While audio-based interfaces make information accessible to people with visual impairments, some information, such as diagrams, graphs, and charts, can be better interpreted tactilely. We introduce a new Passive Refreshable Tactile (PRET) Printer concept. Using off-the-shelf components of a laser engraver and the nascent Tacilia technology, the prototype enables the creation of refreshable tactile graphics. By leveraging Pixel Art as a rendering process, we enhance the diversity of image production on this medium. We contribute technical specifications, open-source files to make the PRET printer and a qualitative evaluation of the concept by tactile learners. The prototype facilitates rapid and cost-effective development of refreshable tactile media, crucial for improving comprehension. The work builds upon existing research, furthering the groundwork to address the needs of tactile learners worldwide and establishing a foundation for further innovation and development in this domain.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Nobody Can See Us: An Overview of Online Dating Site Experiences",
+    "authors": "Nova Ahmed, Abdul Wohab, Monisha Dey",
+    "year": 2024,
+    "link": "https://doi.org/10.1145/3674829.3675072",
+    "doi": "10.1145/3674829.3675072",
+    "abstract": "Although Bangladesh is a country that values matchmaking and matchmakers greatly, online dating is a relatively new phenomenon that became popular only recently mostly among the young population. While anecdotal reports suggest a considerable number of individuals utilize online dating platforms in Bangladesh, a comprehensive investigation of their experiences and the potential impact on their well-being has yet to be conducted. Given the growing prevalence of online dating apps among young adults in Bangladesh, the present study aims to conduct in-depth interviews with a sample of 33 participants between the ages of 18 and 25 who actively use these platforms. The sample comprises 14 male and 19 female participants, each of whom has experience using online dating apps. By gaining insights into the experiences of young adult users of dating apps in Bangladesh and examining the effects of such platforms on their physical and mental well-being, the findings of this study highlight three areas: a) youth's intention to fight existing social norms, b) gender experiences relating to abuse and harassment in online dating platforms, c) alternative usage of online dating application space, particularly during the Covid-19 pandemic period. This study also seeks to raise awareness of online usage patterns among young adults in Bangladesh and identify potential interventions that may address any negative outcomes associated with excessive online activity.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Interpretable Checklist for Delirium Detection",
+    "authors": "Joel Forman, Ramya Srinivasan, Kanji Uchino, Gen Shinozaki",
+    "year": 2024,
+    "link": "https://doi.org/10.1145/3674829.3675073",
+    "doi": "10.1145/3674829.3675073",
+    "abstract": "Delirium is a syndrome characterized by acute and fluctuating change in attention, awareness, and cognition. Common in older adults, especially those with underlying medical conditions, delirium is associated with higher mortality rates, longer hospital stays, and increased healthcare costs. Early identification and management of delirium therefore becomes essential in order to prevent adverse outcomes, improve patient health, and reduce healthcare costs. As multiple predisposing (e.g., neurological disorders) and precipitating factors (e.g., medications) can be involved in the aetiology of delirium, detecting the syndrome early on can be challenging. In this work, we present an interpretable multimodal checklist that can aid clinicians in delirium detection. Specifically, we leverage causal decision trees to extract most relevant features for delirium detection which are then used in learning the predictive checklist. Experiments demonstrate the efficacy of the approach over existing methods in terms of both detection accuracy and interpretability.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "\"We are blessed to live in the countryside\": Unpacking Rural and Small-Town Older Adults' Resilient Nature in Times of the COVID-19 Pandemic",
+    "authors": "Novia Nurain, Chia-Fang Chung, Clara Marques Caldeira, Kay Connelly",
+    "year": 2024,
+    "link": "https://doi.org/10.1145/3674829.3675074",
+    "doi": "10.1145/3674829.3675074",
+    "abstract": "The COVID-19 pandemic has threatened disproportionately rural older adults\u2019 health and well-being as they suffer from unique social exclusion due to a lack of services, such as transportation, communication infrastructure, healthcare, and social services. Although older adults can uniquely cope with pandemic adversity compared to younger adults, less attention has been directed to investigating the coping and resilience of rural older adults. To understand how diverse coping strategies impact the resilience of rural older adults, we conducted interviews with 26 rural and small-town older adults. Older adult participants adopted different coping strategies, such as following protective measures, keeping themselves busy, providing and receiving social support, and having a positive mindset. They experienced positive changes, such as increased interpersonal connectivity. Older adults\u2019 individual-level coping processes are influenced by their social and physical environments. We explore design opportunities to support older adults\u2019 resilient practices and harness their skills to facilitate community resilience.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "WebLight: DRL based Intersection Control in Developing Countries without Reliable Cameras",
+    "authors": "Sachin Chauhan, Rijurekha Sen",
+    "year": 2024,
+    "link": "https://doi.org/10.1145/3674829.3675075",
+    "doi": "10.1145/3674829.3675075",
+    "abstract": "Effective traffic intersection control is crucial for urban sustainability. State of the art research seeking Artificial Intelligence (AI), for example Deep Reinforcement Learning (DRL) based traffic control requires environment states through various Computer Vision methods, where the collective state of multiple cameras across an intersection constitute the single state for AI. This brings in serious robustness or fault-tolerance concerns on the deployed system. Camera systems are highly susceptible to faults due to multiple possible points of failure. A single fault collapses the AI state and hence the capacity of AI controller to manage the traffic is gone. Also, infrastructure deployment and maintenance is a slow bureaucratic process in the developing countries, which makes camera faults a regular event. In the given paper, we build WebLight (https://github.com/sachin-iitd/WebLight), a web based, independent and alternative, traffic state processing method which can replace the camera dependency completely, or support as a backup mechanism until the camera system is back online, making the AI intersection control robust to camera failures.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Designing A Sustainable Marine Debris Clean-up Framework without Human Labels",
+    "authors": "Raymond Wang, Nicholas R. Record, D. Whitney King, Tahiya Chowdhury",
+    "year": 2024,
+    "link": "https://doi.org/10.1145/3674829.3675076",
+    "doi": "10.1145/3674829.3675076",
+    "abstract": "Marine debris poses a significant ecological threat to birds, fish, and other animal life. Traditional methods for assessing debris accumulation involve labor-intensive and costly manual surveys. This study introduces a framework that utilizes aerial imagery captured by drones to conduct remote trash surveys. Leveraging computer vision techniques, our approach detects, classifies, and maps marine debris distributions. The framework uses Grounding DINO, a transformer-based zero-shot object detector, and CLIP, a vision-language model for zero-shot object classification, enabling the detection and classification of debris objects based on material type without the need for training labels. To mitigate over-counting due to different views of the same object, Scale-Invariant Feature Transform (SIFT) is employed for duplicate matching using local object features. Additionally, we have developed a user-friendly web application that facilitates end-to-end analysis of drone images, including object detection, classification, and visualization on a map to support cleanup efforts. Our method achieves competitive performance in detection (0.69 mean IoU) and classification (0.74 F1 score) across seven debris object classes without labeled data, comparable to state-of-the-art supervised methods. This framework has the potential to streamline automated trash sampling surveys, fostering efficient and sustainable community-led cleanup initiatives.",
+    "skip_reason": "The paper focuses on marine debris cleanup, which does not align with the specified areas of focus for the course on ICT for Development and Sustainability in rural/developing regions of India."
+  },
+  {
+    "title": "EvolveUI: User Interfaces that Evolve with User Proficiency",
+    "authors": "Ali Saif, Mohammad Taha Zakir, Agha Ali Raza, Mustafa Naseem",
+    "year": 2024,
+    "link": "https://doi.org/10.1145/3674829.3675078",
+    "doi": "10.1145/3674829.3675078",
+    "abstract": "Recent studies have highlighted the challenges low-literacy users face with complex user interfaces, often preventing them from utilizing essential smartphone applications for an improved quality of life. This paper introduces the EvolveUI design approach that diverges from conventional interface design by evolving in complexity alongside a user\u2019s growing proficiency. Initially presenting a single navigation point to simplify interaction, EvolveUI systematically expands, introducing more features and navigation points as users become more adept at interacting with the interface. We build upon previous adaptive user interface research by uniquely focusing on expanding functionality based on user proficiency, offering a tailored experience that aligns with individual learning curves. By conceptualizing the interface as a dynamically expanding hierarchy, starting as a minimalist \u201ctree\u201d and unfolding into a more complex structure, EvolveUI facilitates a more accessible and engaging user experience. Our study compares this evolving interface approach with conventional designs through usability tests on a mobile health application, demonstrating EvolveUI\u2019s potential to enhance technology accessibility for low-literacy users and suggesting new directions for inclusive design practices.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Comuniqa: Exploring Large Language Models For Improving English Speaking Skills",
+    "authors": "Shikhar Sharma, Manas Mhasakar, Apurv Mehra, Utkarsh Venaik, Ujjwal Singhal, Dhruv Kumar, Kashish Mittal",
+    "year": 2024,
+    "link": "https://doi.org/10.1145/3674829.3675082",
+    "doi": "10.1145/3674829.3675082",
+    "abstract": "In this paper, we investigate the potential of Large Language Models (LLMs) to improve English speaking skills. This is particularly relevant in countries like India, where English is crucial for academic, professional, and personal communication but remains a non-native language for many. Traditional methods for enhancing speaking skills often rely on human experts, which can be limited in terms of scalability, accessibility, and affordability. Recent advancements in Artificial Intelligence (AI) offer promising solutions to overcome these limitations. We propose Comuniqa, a novel LLM-based system designed to enhance English speaking skills. We adopt a human-centric evaluation approach, comparing Comuniqa with the feedback and instructions provided by human experts. In our evaluation, we divide the participants in three groups: those who use LLM-based system for improving speaking skills, those guided by human experts for the same task and those who utilize both the LLM-based system as well as the human experts. Using surveys, interviews, and actual study sessions, we provide a detailed perspective on the effectiveness of different learning modalities. Our preliminary findings suggest that while LLM-based systems have commendable accuracy, they lack human-level cognitive capabilities, both in terms of accuracy and empathy. Nevertheless, Comuniqa represents a significant step towards achieving Sustainable Development Goal 4: Quality Education by providing a valuable learning tool for individuals who may not have access to human experts for improving their speaking skills.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Bridging the Gap: Exploring the Factors Influencing Women's Adoption of Mobile Financial Services (MFS) in Rural Areas of Bangladesh",
+    "authors": "Bishal Deb Roy, Sumaia Arefin Ritu, Anika Priodorshinee Mrittika, Jannatun Noor",
+    "year": 2024,
+    "link": "https://doi.org/10.1145/3674829.3675083",
+    "doi": "10.1145/3674829.3675083",
+    "abstract": "In regions where traditional gender norms and limited access to resources have historically posed significant challenges, mobile financial services (MFS) have emerged as a potent instrument for enhancing the economic and social empowerment of women. This study explores the impact of sustainable development on rural Bangladeshi women, with a particular focus on their use of MFS. Through qualitative interviews with 39 participants, including 35 rural women and 4 MFS agents, our research highlights the broader societal implications of women\u2019s increased involvement in economic activities. It also underscores advancements in women\u2019s rights and their growing influence. Along with that, the study acknowledges the presence of persistent obstacles such as unequal pay, limited access to education, and cultural biases that continue to hinder women\u2019s full economic participation, especially in rural settings. Ultimately, our study emphasizes the importance of financial stability and savings for both families and society as a whole.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Enhancing Wireless Connectivity in Skip Zones via Energy-Efficient Reconfigurable Intelligent Surface",
+    "authors": "Khagendra Joshi, Deepak Kumar Sahoo, Debidas Kundu, Vivek Ashok Bohara, Amalendu Patnaik",
+    "year": 2024,
+    "link": "https://doi.org/10.1145/3674829.3675084",
+    "doi": "10.1145/3674829.3675084",
+    "abstract": "The efficacy of a reconfigurable intelligent surface (RIS)-aided network for enhanced connectivity in skip zones is demonstrated through real-time video streaming. The demonstration is carried out with the help of National Instruments universal software radio peripheral (NI-USRP) devices integrated with an RIS prototype. The RIS prototype is designed and fabricated using a 16 \u00d7 10 metasurface operating at 5.3 GHz carrier frequency. Utilizing LabVIEW\u2019s long-term evolution (LTE) application framework module, good connectivity between the transmitter and receiver in an otherwise skip zone is exhibited. Various modulation and coding schemes have been applied to the streamed data to observe the throughput, SINR, and constellation diagrams with respect to different positions of the receiver in the non-line of sight (NLOS) skip zone. The demonstration ratifies the potential of RIS system in practical applications related to future wireless communications.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Demo: SensiTrain: A Crowd Supported Platform to Understand Context and Improve Sensitivity in Online Communication",
+    "authors": "Pushwitha Krishnappa, Tahmid Ahmed, Otabek Abduraufov, Tathagata Mukherjee, Xiaoti Fan, Sriram Chellappan",
+    "year": 2024,
+    "link": "https://doi.org/10.1145/3674829.3675088",
+    "doi": "10.1145/3674829.3675088",
+    "abstract": "In this work we present SensiTrain - a data collection system designed with the goal of curating a dataset for understanding how differences in cultural backgrounds, sexual orientation, gender, race and national origin affect the way one perceives statements made on social media as being either benign or hurtful and sometimes even hateful and aggressive. SensiTrain displays social media posts to users and asks them to categorize the posts as being either benign or hurtful while providing a reason for such classification. We plan to use the data thus collected to build a public dataset repository and use the same to train a baseline system for identifying potentially hurtful statements before they are posted on social media platforms. The resulting system would be able to explain why a given statement could be perceived as hurtful by one or more groups thus making the inference more trustworthy to the users of the system. We hope that through this endeavor we will be able to mitigate unintentional harm caused due to lack of understanding of different cultures and backgrounds, thus making the world a kinder place.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "CR-Cross: Cross Domain Coral Recognitions with Reject Options For Coral Conservation",
+    "authors": "Hongyong Han, Wei Wang, Gaowei Zhang, Mingjie Li, Yi Wang",
+    "year": 2024,
+    "link": "https://doi.org/10.1145/3674829.3675089",
+    "doi": "10.1145/3674829.3675089",
+    "abstract": "Although coral reefs are special and vital marine ecosystems, massive coral degradation began to occur due to the increase in global temperatures and the intensification of human industrial activities. Coral reef protection requires accurate coral recognition because it is the foundation for learning the distribution, disease, and growth of coral reefs, hereby informing the proper ways for further action. Recently, CNNs have been applied in automated coral image classification. These classifier models, however, are difficult to be generalized from the trained coral images in a marine region (source domain) to the coral images in a different marine region (target domain) since the corals have significant within-species morphological variability among the different geographic location domains. In this paper, a novel coral recognition algorithm is introduced via knowledge transfer across domains and its advantages lie in the following aspects. (1) It simultaneously transfers corals\u2019 texture and structure features across domains thus providing useful knowledge to assist the coral recognition tasks in the target marine domain. (2) To overcome the difficulty that the confusing coral images (e.g., bleached corals) are prone to be misclassified and transfer useless or even negative information, our algorithm is equipped with the reject option for the confusing corals while adapting. These corals can be sent to an expert or a more expensive but accurate system, resulting in strengthened transferability and reliability. Furthermore, we develop a new cross-domain coral image dataset to enhance coral research. Without the label information from the target marine region, our method significantly reduces the distribution gap and domain shift among the different marine regions. In addition, CR-Cross goes a step further in tackling the challenges of missing coral data, maximizing the utilization of available coral datasets, and enhancing the reusability of both coral data and coral recognition models. A series of empirical studies show that our method remarkably outperforms a broad range of baselines.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Towards Deep Learning for Predicting Microbial Fuel Cell Energy Output",
+    "authors": "Adam Hess-Dunlop, Harshitha Kakani, Colleen Josephson",
+    "year": 2024,
+    "link": "https://doi.org/10.1145/3674829.3675358",
+    "doi": "10.1145/3674829.3675358",
+    "abstract": "Soil microbial fuel cells (SMFCs) are an emerging technology which offer clean and renewable energy in environments where more traditional power sources, such as chemical batteries or solar, are not suitable. With further development, SMFCs show great promise for use in robust and affordable outdoor sensor networks, particularly for farmers. One of the greatest challenges in the development of this technology is understanding and predicting the fluctuations of SMFC energy generation, as the electro-generative process is not yet fully understood. Very little work currently exists attempting to model and predict the relationship between soil conditions and SMFC energy generation, and we are the first to use machine learning to do so. In this paper, we train Long Short Term Memory (LSTM) models to predict the future energy generation of SMFCs across timescales ranging from 3 minutes to 1 hour, with results ranging from 2.33% to 5.71% MAPE for median voltage prediction. For each timescale, we use quantile regression to obtain point estimates and to establish bounds on the uncertainty of these estimates. When comparing the median predicted vs. actual values for the total energy generated during the testing period, the magnitude of prediction errors ranged from 2.29% to 16.05%. To demonstrate the real-world utility of this research, we also simulate how the models could be used in an automated environment where SMFC-powered devices shut down and activate intermittently to preserve charge, with promising initial results. Our deep learning-based prediction and simulation framework would allow a fully automated SMFC-powered device to achieve a median 100+% increase in successful operations, compared to a naive model that schedules operations based on the average voltage generated in the past.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  }
+]

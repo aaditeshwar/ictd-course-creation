@@ -1,0 +1,22 @@
+# Secrets
+.env
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Pipeline / runtime logs
+logs/
+*.log
+
+# Local lecture-prep artifacts (PDFs, extracted text, figures)
+data/lecture-prep/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

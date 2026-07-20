@@ -1,0 +1,128 @@
+[
+  {
+    "title": "The Ancient Elephant in the Room: Stigma, Gender Norms, and Cultural Barriers in Reproductive Care in Bangladesh",
+    "authors": "Hafsah Mahzabin Chowdhury, A. T. M. Mizanur Rahman, Rokeya Akter, Zinnat Sultana, Syed Ishtiaque Ahmed, Sharifa Sultana",
+    "year": 2024,
+    "link": "https://doi.org/10.1145/3700794.3700797",
+    "doi": "10.1145/3700794.3700797",
+    "abstract": "This paper examines the current state of reproductive care in Bangladesh. In this ten-month-long ethnographic research in three rural Bangladeshi villages, we explored how the sociocultural landscape, cultural beliefs, and healthcare infrastructure impact rural Bangladeshi women\u2019s access to quality reproductive healthcare services. Through observations, interviews, focus group discussions, we explored rural people\u2019s perception of different existing challenges, including high maternal mortality rates, unmet family planning needs, lack of adolescent sexual and reproductive health education, women\u2019s limited access to safe pregnancy experience and termination services, and stakeholder\u2019s roles. Additionally, we asked them about emerging opportunities like advancements in ICT and intelligent interventions and policy changes promoting reproductive rights. We found that the concept of reproductive care is strictly gender-normed in Bangladeshi rural communities. Additionally, different types of stigma and privacy issues influence people to shy away from talking about their problems with practitioners and knowledgeable community members. Thus, these stigmas and gender norms have been sustained in communities for generations, blocking people from seeking proper care and creating roadblocks for many existing tools and techniques to be adequately helpful to the community. This paper provides ICTD, HCI, and AI for social good with a holistic understanding of Bangladeshi reproductive care, paving the way for designing culturally appropriate and timely tools and technology for improved service delivery and better health outcomes for women in Bangladesh and similar others in the Global South.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Data Protection in the Digital Age: A Comparative Analysis of Nigeria's NDPA and the EU's GDPR",
+    "authors": "Otuekong Ekpo, Abasifiok Okokon, Monday Akpakpan",
+    "year": 2024,
+    "link": "https://doi.org/10.1145/3700794.3700799",
+    "doi": "10.1145/3700794.3700799",
+    "abstract": "With advancements in technology, protecting personal data has become crucial for safeguarding user privacy. Recently, Nigeria experienced a major data breach where the financial and personal data of millions of Nigerians was exposed and sold on a public facing website: AnyVerify.com.ng. In response to such incidents, Nigeria enacted the Nigerian Data Protection Act (NDPA) in 2023 to promote stronger data security practices. On a global level, the General Data Protection Regulation (GDPR) is recognized for its strict data protection standards and serves as a benchmark for many countries, reflecting Europe\u2019s well-developed ICT ecosystem and commitment to user privacy. Despite efforts to improve data protection, Nigeria still faces challenges, with ongoing discussions about strengthening the Nigerian Data Protection Act (NDPA) and its enforcement. This study compares the NDPA to the General Data Protection Regulation (GDPR), focusing on key areas like data subject rights, cross-border data transfers, and the duties of data controllers and processors. Using a qualitative archival research approach, we reviewed existing literature, guidelines, regulations, and news on data protection. Our findings reveal that provisions on consent, data subject rights, and breach notifications are similar between the NDPA and GDPR. However, there are notable differences in areas like child consent, the appointment of data protection officers, certification of data controllers and processors, cross-border data transfers, and penalties. Overall, our study contributes to the global discourse on data protection and offers recommendations for improving the NDPA.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "A Civics-oriented Approach to Understanding Intersectionally Marginalized Users' Experience with Hate Speech Online",
+    "authors": "Achhiya Sultana, Dipto Das, Saadia Binte Alam, Mohammad Shidujaman, Syed Ishtiaque Ahmed",
+    "year": 2024,
+    "link": "https://doi.org/10.1145/3700794.3700802",
+    "doi": "10.1145/3700794.3700802",
+    "abstract": "While content moderation in online platforms marginalizes users in the Global South at large, users of certain identities are further marginalized. Such users often come from Indigenous ethnic minority groups or identify as women. Through a qualitative study based on 18 semi-structured interviews, this paper explores how such users\u2019 experiences with hate speech online in Bangladesh are shaped by their intersectional identities. Through a civics-oriented approach, we examined the spectrum of their legal status, membership, rights, and participation as users of online platforms. Drawing analogies with the concept of citizenship, we develop the concept of usership that offers a user-centered metaphor in studying moderation and platform governance.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Smart Sheba: Enhancing Elderly User Experience with LLM-Enabled Chatbots and User-Centered Design",
+    "authors": "Sharfuddin Khan Chisty, Anika Tahsin Miami, Jannatun Noor",
+    "year": 2024,
+    "link": "https://doi.org/10.1145/3700794.3700803",
+    "doi": "10.1145/3700794.3700803",
+    "abstract": "The elderly population constitutes a significant segment of the world\u2019s population, and this ratio is expected to increase in both developed and developing countries. However, in the information age, the elderly face a new challenge of dependency on others for soft skills. Despite the widespread availability of technology, their interaction with it often relies on younger family members, which frequently discourages them from using technology. Large corporations typically focus on providing technology solutions to experienced users, often overlooking the elderly who are consequently deprived of these advancements. This paper examines these approaches and proposes a unique solution. It identifies critical areas where technology is essential for the elderly, focusing on e-health services. The paper demonstrates how the use of a Large Language Model (LLM)-enabled chatbot, designed with a User-Centered Design (UCD) approach, significantly improves the System Usability Scale (SUS) score. Based on these findings, the paper concludes with a UCD-based Inclusive Design Strategy, offering a practical solution to the problem of technology dependency among the elderly, thus ensuring they can fully realize the potential of the information age.",
+    "skip_reason": "The paper does not substantively engage with a developing-regions context as required by the rules for all topics except 'cs_fundamentals'."
+  },
+  {
+    "title": "Investigating the Crowdfunding Communication Gap Between the Campaign Creators and Backers: a Case from Namibia",
+    "authors": "Anna M\u00fcller, Shilumbe Chivuno-Kuria, Pietari Keskinen, Marko Nieminen",
+    "year": 2024,
+    "link": "https://doi.org/10.1145/3700794.3700805",
+    "doi": "10.1145/3700794.3700805",
+    "abstract": "Crowdfunding has been thought to be a potential tool that the poor small-scale entrepreneurs in the Global South could use to find funding for their businesses. However, a gap in communication remains in between the potential campaign backers and the entrepreneurs creating crowdfunding campaigns. In this paper, we have worked with Namibian crowdfunding campaign creators, and their potential backers to investigate that gap. We have found that creators have difficulties in creating persuasive media for their campaigns. The backers find the lack of believable business plans and the poor quality content unreliable. To close the crowdfunding communication gap, we have tested a prototype of a tool that helps the campaign creators to communicate their ideas. We recommend that the crowdfunding platforms should help the creators to produce relevant images, create channel for interaction between backers and creators, and use more explicit questions to guide the campaign text creation.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Tinea Skin Disease Network (TiSkiD-Net): Detecting Tinea Skin Diseases through Leveraging Lightweight and Unbiased Deep Convolutional Neural Network",
+    "authors": "Rantu Das, Sohidul Haque Sahid, Jannatun Noor",
+    "year": 2024,
+    "link": "https://doi.org/10.1145/3700794.3700806",
+    "doi": "10.1145/3700794.3700806",
+    "abstract": "Tinea Pedis, Tinea Corporis, Tinea Capitis, and Tinea Unguium represent prevalent fungal infections of human skin today. These infections are highly contagious and can spread through direct contact with an infected individual or by sharing contaminated items like towels, clothing, or grooming utensils. Furthermore, if left untreated, these skin diseases can pose serious health risks. Hence, early identification is crucial to mitigate their adverse effects. However, existing Convolutional Neural Network (CNN) studies for automated skin disease detection often focus solely on a single racial skin type, limiting their impartiality across diverse ethnic groups. Moreover, the deployment of large CNN models is hindered by extensive computational requirements. To address these challenges, our research introduces a lightweight, unbiased Deep Convolutional Neural Network (Deep CNN) model capable of detecting four different fungal (Tinea) infectious skin diseases in humans, regardless of the skin tones among different ethnic groups. Our proposed lightweight Deep CNN model achieves a promising accuracy rate of 97%, surpassing previous research efforts. We validate our model using datasets representing the three predominant ethnic groups with varying skin tones (White, Brown, and Black), demonstrating consistent performance across these demographics.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "TVWS Network Resilience in Rural Towns: How External Factors Impact Network Performance and Social Factors Impact Network Longevity",
+    "authors": "Vaasu Taneja, Munthir Chater, Tony Comanzo, Petko Bogdanov, Mariya Zheleva",
+    "year": 2024,
+    "link": "https://doi.org/10.1145/3700794.3700811",
+    "doi": "10.1145/3700794.3700811",
+    "abstract": "Equitable access to information and communication technologies has become a basic human right. However, residents\u2019 ability to access these technologies significantly lags behind in areas with spotty or missing Internet connectivity. This issue is particularly pronounced in rural areas, where rugged terrain, long distances and sparse populations make it challenging to provision connectivity using high-speed wired backhaul. As a result, fixed wireless backhaul and last mile solutions, such as Television White Spaces (TVWS) and the Citizen Broadband Radio Service (CBRS) have emerged to connect populations where fiber and cable technologies are not economically viable. While fixed wireless can substantially lower the cost for Internet access, it often suffers performance issues that are poorly understood. Some factors affecting performance may be internal, stemming from network architecture, integration and frequency allocation. Other issues are external including weather and tropospheric effects, and the proximity of other in-band spectrum users, which in turn, may affect signal propagation properties or cause external interference. This paper aims to shed light on the performance of Internet access networks that operate in the TVWS bands. We collaborate with a rural town in the northeast of the United States, where a TVWS network was used for 5 years \u2014 from 2016 through 2020, to deliver residential connectivity. Our data comprises a longitudinal trace of link layer and transport layer data. We also employ two datasets that capture historic weather and tropospheric ducting conditions. We show that higher wind speeds, precipitation, and temperatures correlate with worse network performance on the TVWS network. We also find that antenna cross-talk and non-ideal antenna orientation will negatively impact network performance. We study socio-economic factors leading to the network\u2019s termination. In light of our findings, we recommend potential improvements to rural network topology design and management.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Near Feasibility, Distant Practicality: Empirical Analysis of Deploying and Using LLMs on Resource-Constrained Smartphones",
+    "authors": "Mateus Monteiro Santos, Aristoteles Barros, Luiz Rodrigues, Diego Dermeval, Tiago T. Primo, Ig Ibert Bittencourt, Seiji Isotani",
+    "year": 2024,
+    "link": "https://doi.org/10.1145/3700794.3700817",
+    "doi": "10.1145/3700794.3700817",
+    "abstract": "Artificial Intelligence (AI) systems, such as Large Language Models (LLMs), have the transformative potential to empower education. However, utilizing such systems often requires technological infrastructure, including computers and internet access, which are unavailable in many underserved regions, particularly in the Global South. Despite these limitations, research indicates that smartphones are increasingly accessible even in these areas, presenting an opportunity to deliver advanced systems like LLMs through resource-constrained devices. Nevertheless, the technical feasibility of deploying and using LLMs on disconnected smartphones remains unexplored to the best of our knowledge. This paper presents an empirical study that developed an LLM-powered mobile application, deployed it on a smartphone, and evaluated its performance in terms of response time, memory usage, and storage utilization based on three lightweight LLMs (Tinyllama, Redpajama, and Qwen2). The results show that the overall response time ranged from one to two minutes, and memory usage varied between three and nearly five GB. While these findings demonstrate the technical feasibility of deploying LLMs on disconnected smartphones, the significant waiting time and memory consumption highlight the challenges of this approach. Therefore, although LLMs can be deployed on resource-constrained devices to provide equitable access to advanced educational technology, there is an urgent need to develop optimized alternatives suitable for underserved educational settings so that exploring LLMs in such context becomes practically feasible.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "The GAIUS Experience: Powering a Hyperlocal Mobile Web for Communities in Emerging Regions",
+    "authors": "Rohail Asim, Arjuna Sathiaseelan, Arko Chatterjee, Mukund Lal, Yasir Zaki, Lakshminarayanan Subramanian",
+    "year": 2024,
+    "link": "https://doi.org/10.1145/3700794.3700818",
+    "doi": "10.1145/3700794.3700818",
+    "abstract": "Despite increasing mobile Internet penetration in developing regions, mobile users continue to experience a poor web experience due to two key factors: (i) lack of locally relevant content; (ii) poor web performance due to complex web pages and poor network conditions. In this paper, we describe our design, implementation and deployment experiences of GAIUS, a mobile content ecosystem that enables efficient creation and dissemination of locally relevant web content into hyperlocal communities in emerging markets. The basic building blocks of GAIUS are a lightweight content edge platform combined with a mobile application that collectively provide a Hyperlocal Web abstraction for mobile users to create and consume locally relevant content and interact with other users via a community abstraction. The GAIUS platform uses MAML, a web specification language that dramatically simplifies web pages to reduce the complexity of Web content within the GAIUS ecosystem, improve page load times and reduce network costs. In this paper, we describe our experiences deploying GAIUS across a large user base in India, Bangladesh and Kenya.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "AI4Bangladesh: AI Ethics for Bangladesh - Challenges, Risks, Principles, and Suggestions",
+    "authors": "Tasmiah Tahsin Mayeesha, Farzana Islam, Nova Ahmed",
+    "year": 2024,
+    "link": "https://doi.org/10.1145/3700794.3700820",
+    "doi": "10.1145/3700794.3700820",
+    "abstract": "In recent times, the term AI ethics caught the attention among the academics, legislators, developers, and among AI users to promote ethical AI development. While countries in the North have led the way in discussions about the direction of ethical and responsible artificial intelligence development and deployment, perspectives from developing countries like Bangladesh are underrepresented. Based on 32 qualitative interviews with different stakeholders, including machine learning practitioners, academic researchers, and policymakers in the emerging AI ecosystem in Bangladesh, this work closely examines the ongoing challenges and opportunities to ensure AI ethics in Bangladesh with emerging AI usage. In Bangladesh, the government has not yet fully implemented measures to empower citizens with AI-related skills, policies, resources, and data ethics, and a significant portion of the population lacks knowledge in AI. In this paper, we are presenting the findings of AI4Bangladesh project that intend to create the roadmap for ethical AI in Bangladesh. We outline the core challenges, present situation, and risks of AI for Bangladesh; propose seven AI ethics principles, and offer suggestions to ensure a transparent, accountable, and fair AI ecosystem for Bangladesh.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Barriers to transformation in the South African banking sector",
+    "authors": "Sophie Kasse Kengne, Michael Twum-Darko, Temitope Oluwaseyi Tokosi",
+    "year": 2024,
+    "link": "https://doi.org/10.1145/3700794.3700795",
+    "doi": "10.1145/3700794.3700795",
+    "abstract": "Transformation was looked at from the socio-economic, political, and technological perspectives as directed by the literature and the views of senior bankers from banking institutions established in South Africa were taken. More specifically, this paper presented the findings based on qualitative inquiry from primary data (interviews), and secondary sources. The secondary sources of data were collected from annual reports, transformation reports, and announcements from the financial institutions, as well as updates from regulatory authorities such as the FSCA and the B-BBEE commission. A pilot study was first undertaken before the main study was conducted, with its findings reported. Seven (7) managers were further interviewed after 4 participated in the pilot study. The study is a combination of data collected from both the pilot and main study. The responses from the managers interviewed and documentary evidence both at the pilot and main study phases reflected the feelings of banks towards the role that BANKSETA play, so these feelings must not be ignored. Identified barriers to transformation included economic inequality, slow ownership transformation, regulatory complexity, resistance to change, skills shortages, ICT infrastructure limitations, and insufficient collaboration. Solutions to facilitate effective transformation involved collaboration between the banking industry and educational institutions to produce quality graduates. Others include enhancing education and customer service, adopting better technology, and addressing consumer behaviour. Proper implementation of banking regulations, such as the EE Act, profit maximisation, and customer satisfaction, were also vital for accelerating banking transformation.",
+    "skip_reason": "The paper does not substantively engage with a developing-regions context as required by the rules for all topics except cs_fundamentals."
+  },
+  {
+    "title": "Cultural Dominance on Social Media: Experiences of Namibian and Nigerian Young Adults Online",
+    "authors": "Benjamin Akinmoyeje, Kentaro Toyama, Suama Hamunyela",
+    "year": 2024,
+    "link": "https://doi.org/10.1145/3700794.3700809",
+    "doi": "10.1145/3700794.3700809",
+    "abstract": "Like other communication forums, social media can be the site of cultural dominance, where some cultures have greater visibility and influence than other cultures. A particular form of such dominance is cultural hegemony, when a dominant group reinforces its economic and political dominance by propagating values and norms that uphold it. In this study, we explored how young adults from two sub-Saharan countries \u2013 Namibia and Nigeria \u2013 perceived cultural dominance and hegemony on social media. We find that participants generally see the West as dominant on social media, both in terms of productive usage and cultural or economic cachet. Our participants also exhibited differences in how they felt about this dominance, with Namibian participants tending to voice resentment about the lack of representation of their own culture, while Nigerian participants often expressed admiration for successful Global North influencers online. Yet, even as participants hoped for representation and economic opportunity through social media, they also seemed unaware of the platforms\u2019 extractive potential, suggesting that social media effectively strengthens the global capitalist order\u2019s cultural hegemony.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "ChatGPT In The Classroom: Guidelines for Integrating AI-Assisted Learning into Pakistani Children's Academic Journey",
+    "authors": "Noverah Khan, Hira Eiraj Daud, Suleman Shahid",
+    "year": 2024,
+    "link": "https://doi.org/10.1145/3700794.3700813",
+    "doi": "10.1145/3700794.3700813",
+    "abstract": "This paper seeks to understand the extent of AI chatbot usage amongst Pakistani primary and middle school children. Through a mixed-method approach involving quantitative survey and qualitative interviews with students and teachers, we discover the most common ways in which children use AI assistance for their education. Our findings reveal that students from grade 6 onwards start using ChatGPT regularly for their coursework, primarily for subjects like English, Science, Social Studies, and Math. Based on our findings, we recommend guidelines on how to prepare children to critically and effectively use AI assistance to their advantage. The findings of this study lay the foundations of how to integrate AI tools in children's learning and development.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "From Hobby to Career: Exploring Professional eSports in Bangladesh",
+    "authors": "Md. Rifat Rahman, Md. Showrav Zaman, Aditto Baidya Alok, Jannatun Noor",
+    "year": 2024,
+    "link": "https://doi.org/10.1145/3700794.3700814",
+    "doi": "10.1145/3700794.3700814",
+    "abstract": "The eSports phenomenon, a convergence of gaming and sports, has evolved beyond casual recreation, establishing itself as a burgeoning professional pursuit globally. This transformation is particularly pronounced in Bangladesh, fueled by a youthful demographic and widespread internet access. This research investigates the motivations driving individuals to embrace eSports as a career, scrutinizing associated challenges such as societal perceptions, financial considerations, and broader cultural implications. Through a combination of surveys, expert interviews, and a comprehensive examination of 64 survey responses and in-person interviews with 22 participants, this study reveals that personal enthusiasm serves as a primary driver for players, despite the challenges of balancing academic and personal responsibilities. While skepticism persists, eSports is gaining momentum, fostering communities and innovative employment opportunities. To sustain this positive trajectory, government support and recognition of study limitations are imperative. This study offers a thorough analysis of eSports\u2019 profound impact on the socio-cultural landscape and anticipates its future ramifications for Bangladesh. The findings contribute to the HCI and ICT4D communities, offering insights into the intersection of technology, culture, and eSports in a rapidly evolving digital nation.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  }
+]

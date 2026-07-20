@@ -1,0 +1,227 @@
+[
+  {
+    "title": "Platform-led Upskilling: Marketplace Platforms as a Source of Livelihoods Training",
+    "authors": "Jonathan Donner, Marissa Dean, Jessica Osborn, Annabel Schiff",
+    "year": 2020,
+    "link": "https://doi.org/10.1145/3392561.3394629",
+    "doi": "10.1145/3392561.3394629",
+    "abstract": "Platform-led upskilling is training that marketplace platforms provide to vendors and self-employed workers, outside of an employer-employee relationship. Based on expert interviews with 15 heterogenous platforms, this study identifies platform-led upskilling as a practice worthy of further programmatic and research attention from the technology and development community. Through the interviews and accompanying landscape scan, we identify three broad approaches to platform-led upskilling---face-to-face, online, and in-workflow training moments---and several content types---platform proficiencies, financial and digital literacies, vocation-specific skills, and soft skills. This kind of training is important to current debates about digitization and the future of work because some platform-led upskilling aims to teach portable, lifelong skills, bringing platforms into the broader education landscape and potentially strengthening the social contract between platforms and vendors/workers. However, the scale at which platform-led upskilling will impact individuals and markets remains undetermined and needs further research.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Supporting Smartphone-Based Image Capture of Rapid Diagnostic Tests in Low-Resource Settings",
+    "authors": "Chunjong Park, Alex Mariakakis, Jane Yang, Diego Lassala, Yasamba Djiguiba, Youssouf Keita, Hawa Diarra, Beatrice Wasunna, Fatou Fall, Mar\u00e8me Soda Gaye, Bara Ndiaye, Ari Johnson, Isaac Holeman, Shwetak N. Patel",
+    "year": 2020,
+    "link": "https://doi.org/10.1145/3392561.3394630",
+    "doi": "10.1145/3392561.3394630",
+    "abstract": "Rapid diagnostic tests (RDTs) provide point-of-care medical diagnosis without sophisticated laboratory equipment, making them especially useful for community health workers (CHWs). Because the procedure for completing a malaria RDT is error-prone, CHWs are often asked to carry completed RDTs back to their supervisors. Doing so makes RDTs susceptible to deterioration and introduces inefficiencies in the CHWs' workflow. In this work, we propose a smartphone-based RDT capture app, RDTScan, that facilitates the collection of high-quality RDT images to support CHWs in the field. RDTScan does not require an external adapter to control the image capture environment, but instead provides real-time guidance using image processing to obtain the best image possible. During our evaluation study, we found that RDTScan had 98.1% sensitivity and 99.7% specificity against visual inspection of the RDTs. RDTScan helped CHWs capture high-quality RDT images within 18 seconds while enabling a better RDT workflow.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Reflections from Practical Experiences of Managing Participatory Media Platforms for Development",
+    "authors": "Aaditeshwar Seth, Akshay Gupta, Aparna Moitra, Deepak Kumar, Dipanjan Chakraborty, Lamuel Enoch, Orlanda Ruthven, Paramita Panjal, Rafi Ahmad Siddiqi, Rohit Singh, Sayonee Chatterjee, Sangeeta Saini, Sultan Ahmad, Vijay Sai Pratap",
+    "year": 2020,
+    "link": "https://doi.org/10.1145/3392561.3394632",
+    "doi": "10.1145/3392561.3394632",
+    "abstract": "The design of participatory media platforms can have many variations in terms of whether or not anonymous communication is allowed, what moderation policies are in use, the conversation model that is supported, etc. We use six case-studies of voice-based ICT4D participatory media platforms running in India to outline a typology of design axes that can be used to characterize these platforms. Such typologies can be useful for ICT4D practitioners to conceptualize suitable designs for their platforms in different contexts, and to reconfigure the platforms in case design changes are required. We also use this typology to discuss the design constraints and flexibilities allowed by Internet based social media platforms.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Engaging the Crowd: Social Movement Building via Online Bystander Mobilization",
+    "authors": "Divya Siddarth, Joyojeet Pal",
+    "year": 2020,
+    "link": "https://doi.org/10.1145/3392561.3394633",
+    "doi": "10.1145/3392561.3394633",
+    "abstract": "Social media has become increasingly important as a space for both organized and ad-hoc activism. As social movement organizations have shifted many aspects of their communication online, bystander populations - citizens who may be somewhat interested in a movement but are largely uninvolved in its activities - have begun to play a more significant role in the achievement of movement aims. In this paper, we examine bystander targeting on social media by social movement organizations in India. Through interviews, observation, and participation, we investigate ways that activists themselves conceptualize, carry out, and reflect upon their own messaging strategies in online spaces, and the perceived success and failure of these strategies. We discuss the limitations of social media as a space in which to achieve movement aims, particularly in a class-segregated context. Our work illustrates the tension faced by activists between prioritizing short and long-term movement goals in the digital sphere.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Conceptual Learning through Accessible Play: Project Torino and Computational Thinking for Blind Children in India",
+    "authors": "Gesu India, Geetha Ramakrishna, Joyojeet Pal, Manohar Swaminathan",
+    "year": 2020,
+    "link": "https://doi.org/10.1145/3392561.3394634",
+    "doi": "10.1145/3392561.3394634",
+    "abstract": "Project Torino is a physical programming environment designed for teaching computational thinking (CT) to school children in the UK, regardless of the level of vision. We introduced Project Torino to children in three schools for the blind in Bangalore, India as a toy for playing with songs, rhymes, and stories. We present the results of 103 semi-structured play sessions spread over three months with 12 children (2 girls, 10 boys) with diverse backgrounds. We found that children progressed from playing with pre-connected examples, to making changes, to actively participating in what items are played. Engaging the children in conversation while they played, we established that the teams had grasped three basic concepts of computational thinking--flow of control, variables, and loops, without any explicit instructions towards learning them. We propose that play-based approaches can be successfully used with low resource overhead to introduce fundamental concepts of CT.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Affording Extremes: Incivility, Social Media and Democracy in the Indian Context",
+    "authors": "Anmol Panda, Sunandan Chakraborty, Noopur Raval, Han Zhang, Mugdha Mohapatra, Syeda Zainab Akbar, Joyojeet Pal",
+    "year": 2020,
+    "link": "https://doi.org/10.1145/3392561.3394637",
+    "doi": "10.1145/3392561.3394637",
+    "abstract": "In this mixed-methods study of political discourse, we study the affordances of Twitter in the context of free speech in India. We critically examine specific cases of the legal prosecution of free speech and the use of extreme speech in attacks on people to document the risks to citizens when they engage in antagonistic online discourse, particularly against the state or political institutions. We follow this up with quantitative study of the use of extreme speech through 477 hashtags used by a random sample of thousand political actors on Twitter and find that politicians are rewarded, through higher retweet rates, when they engage in extreme or uncivil messaging. We contextualize these findings to the postcolonial history of India and the laws and institutions that enable differential consequences for engaging in various forms of speech. In conclusion, we propose that the affordances of new ICTs like social media need to be carefully considered for their unintended consequences, and that functional access to free speech may differ dramatically based on one's access to institutions.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Patriarchy and Social Media: Women Only Facebook Groups as Safe Spaces for Support Seeking in Pakistan",
+    "authors": "Fouzia Younas, Mustafa Naseem, Maryam Mustafa",
+    "year": 2020,
+    "link": "https://doi.org/10.1145/3392561.3394639",
+    "doi": "10.1145/3392561.3394639",
+    "abstract": "We explore peer support mechanisms in patriarchal contexts where a woman's movements, social relations and the seeking of support are restricted. We investigate the use of closed Facebook groups as a vital mechanism for access to anonymous peer support in Pakistan for taboo narratives like abortion, sexual harassment, rape, domestic abuse and issues relating to child-rearing and parenting. We discuss how technology is impacting these women's lives and allowing access to a safe, non-judgmental space to share their stories and collectively support other women within the same context. We analyze the posting and support seeking behaviours and the mechanisms for anonymity and privacy within a closed women only Facebook group of 15,000 members. Our study reveals the vital importance of such digital safe spaces and the mechanisms that allow them to remain judgment free and safe for support seeking in stigmatized contexts within vulnerable populations.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "SmartChama: Designing Collaborative Digital Financial Systems for Chama Groups in Kenya",
+    "authors": "George Hope Chidziwisano, Susan Wyche, Rellikson Kisyula",
+    "year": 2020,
+    "link": "https://doi.org/10.1145/3392561.3394641",
+    "doi": "10.1145/3392561.3394641",
+    "abstract": "In Kenya there are over 300,000 \"chamas\". These groups provide social and financial support for their members and have around $3.4 billion in assets. Despite widespread mobile phone use in Kenya, there are few efforts to develop digital services for chamas. We describe the design, and formative evaluation of 'SmartChama'---a prototype mobile app developed to understand activities in chamas and how to digitize them. We used contextual inquiry to understand how seven chama groups (n=48 participants) used our prototype to manage and track their finances. Based on our findings, we iterated SmartChama's design and then evaluated it with seven groups. Findings from this evaluation suggest different chama activities that should be considered when designing digital financial systems for these groups. We discuss these design implications and offer new perspectives on designing financial systems in Kenya.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Privacy Vulnerabilities in Public Digital Service Centers in Dhaka, Bangladesh",
+    "authors": "S. M. Taiabul Haque, Md. Romael Haque, Swapnil Nandy, Priyank Chandra, Mahdi Nasrullah Al-Ameen, Shion Guha, Syed Ishtiaque Ahmed",
+    "year": 2020,
+    "link": "https://doi.org/10.1145/3392561.3394642",
+    "doi": "10.1145/3392561.3394642",
+    "abstract": "This paper joins a growing body of work within ICTD and related fields studying the privacy challenges in the Global South. While most of the existing work in this area has focused on uses of technology in personal and home settings, a large part of computing in the Global South centers around public places, such as commercial Digital Service Centers (DSCs). In this paper, we present the findings from a six-month-long ethnography studying 19 Digital Service Centers in Dhaka, Bangladesh. We find that infrastructural limitations, local power politics, lack of knowledge, and insufficient protection mechanisms lead to privacy vulnerabilities for the customers of these centers. We apply the lens of informal markets to analyze these vulnerabilities and connect our findings to the broader concerns of ICTD around development, ethics, and postcolonial computing and discuss potential design and policy implications around these issues.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Bottlenecks of ICT Innovation in Rwanda",
+    "authors": "Tsuyoshi Kano, Kentaro Toyama",
+    "year": 2020,
+    "link": "https://doi.org/10.1145/3392561.3394644",
+    "doi": "10.1145/3392561.3394644",
+    "abstract": "Despite some successes, Rwanda's ambitious plan to become an ICT-led economy faces challenges. Through 31 semi-structured interviews with stakeholders, we explored the reported strengths, weaknesses, and potential lessons of Rwanda's ICT sector, especially as relevant to the country's economic development. We find that (1) there is sincere, widely shared aspiration toward ICT-led national development; (2) support for ICT entrepreneurship is successful at helping to start ICT-based businesses, but not at continuing or succeeding with them; and (3) some of the challenges of continuing ICT-based businesses have to do with Rwandan higher education, availability of start-up financing, and a weak sense for entrepreneurial initiative. We situate these findings in the literature on global technology hubs and national development, and discuss policy recommendations for countries seeking ICT-based economic growth.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Connecting Isolated Communities: Quantitative Evidence on the Adoption of Community Cellular Networks in the Philippines",
+    "authors": "Niall Keleher, Mary Claire Barela, Joshua Blumenstock, Cedric Festin, Matthew Podolsky, Erin Troland, Arman Rezaee, Kurtis Heimerl",
+    "year": 2020,
+    "link": "https://doi.org/10.1145/3392561.3394645",
+    "doi": "10.1145/3392561.3394645",
+    "abstract": "What determines the success of community cellular networks? We leverage unique circumstances where all households in seven localities were interviewed before the launch of cellular networks. We observed substantial differences in network adoption across communities. Four communities displayed high and regular usage, while usage dissipated shortly after the network launch in three sites. Sixty-five percent of households made or received at least one call or text message. We find that a one standard deviation increase in household wealth is correlated with a three percentage point increase in network adoption and 43 additional cellular network transactions. Agricultural households were ten percentage points more likely to adopt the network than other households and female-headed households were five percentage points more likely to use the network at least once.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Baccalaur\u00e9at Practice Tests in Cameroon: The Impact of SMS-Based Exam Preparation",
+    "authors": "Anthony Poon, Sarah Giroux, Parfait Eloundou-Enyegue, Fran\u00e7ois Guimbreti\u00e8re, Nicola Dell",
+    "year": 2020,
+    "link": "https://doi.org/10.1145/3392561.3394646",
+    "doi": "10.1145/3392561.3394646",
+    "abstract": "In Cameroon, no exam is more important than the baccalaur\u00e9at, which serves as the gateway to adulthood and professional and higher-education aspirations. We build on existing literature on the benefits of practice tests to evaluate how SMS-based quizzes could help students in their final year of secondary school prepare for the baccalaur\u00e9at. Students in 23 schools across Yaound\u00e9, the capital of Cameroon, received multiple-choice questions four times per week for nine weeks leading up to the exam date. We examined baccalaur\u00e9at pass rates and student feedback through 11 focus groups. We find that students used our practice tests for formative assessment and as a prompt for recall and review of study material. SMS-based quizzes were not isolated artifacts but were shared in the students' networks, built a distributed learning environment, and used as a focus of collaborative study sessions.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "An Exploration of African-American Pregnant Women's Information-Seeking Behavior in Detroit",
+    "authors": "Grace Burleson, Mustafa Naseem, Kentaro Toyama",
+    "year": 2020,
+    "link": "https://doi.org/10.1145/3392561.3394647",
+    "doi": "10.1145/3392561.3394647",
+    "abstract": "In the United States, African-American women are three times more likely to die of pregnancy-related issues, and 57% more likely to have miscarriages than White women. In part, this is due to deficiencies in the information ecology serving pregnant mothers. We report on a qualitative study with 16 low-income, African-American, pregnant women from the Detroit area, focused on understanding their informational needs and information-seeking behavior. We find that our participants consumed information from multiple sources voraciously; treated formal medical sources as no more trustworthy than other information sources; sought corroborative evidence when making decisions; relied on video and social media sources; and voiced requests for material and social support more than for medical information. Among our recommendations are increased use of video as a means for pregnancy-related information dissemination -- particularly testimonials by experienced mothers with similar backgrounds -- and better integration of medically sound voices in spaces where mothers already congregate online.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Performing Gender, Doing Politics: Social Media and Women Election Workers in Kerala and Tamil Nadu",
+    "authors": "Drupa Dinnie Charles, Azhagu Meena, Simiran Lalvani, Syeda Zainab Akbar, Divya Siddharth, Joyojeet Pal",
+    "year": 2020,
+    "link": "https://doi.org/10.1145/3392561.3394648",
+    "doi": "10.1145/3392561.3394648",
+    "abstract": "Women political workers adopt a range of tactics to navigate the hyper-masculine space of electoral politics in South India, both offline and, increasingly, online. Using interviews and observations over three months of election campaigning, we examine women's outreach work in online and offline adversarial spaces through the lens of Michel de Certeau's, The Practice of Everyday Life, which examines the \"tactics\" through which people negotiate change and everyday challenges in daily situations. We find that the everyday logistics of election work have changed significantly, and that these bring up two important ways in which \"tactics\" framework is helpful - first, in the changing ways in which representations need to be managed, as political work requires an interactive digital public face, and second, in ways that which online interactions need to be managed as new and increasingly demanding forms of communication are necessitated for effective voter outreach.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Digital Divine: Technology use by Indian Spiritual Sects",
+    "authors": "Azhagu Meena, Varuni Bhatia, Joyojeet Pal",
+    "year": 2020,
+    "link": "https://doi.org/10.1145/3392561.3394650",
+    "doi": "10.1145/3392561.3394650",
+    "abstract": "Spirituality-based organizations in India, centered around a set of beliefs and practices, with a charismatic guru figure at their head, have embraced the information age enthusiastically, and have come to the fore as key players in the national narrative around social welfare and development in recent years. We conducted a qualitative study of four Hinduism-oriented Spirituality-based Organizations (SBOs) in India using interviews, on-site observations, and in-depth examination of their online outreach material to understand the ways in which technology impacts and advances their core functions. We examine five core ways which technology plays a critical role in these SBO - community-building, dissemination of core practices, self-fashioning, philanthropic outreach, and organizational growth -- all of which inform these organizations' influence in society beyond the confines of their adherents. We find that all these functions are enabled in different ways by digital technologies, which have organizational value in and of themselves, but also play an equally important role in helping extend these organizations' public image as modern, innovative organizations aligned with broader aspirations of national development and social welfare.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Measuring Informal Work with Digital Traces: Mobile Payphone Operators in Rwanda",
+    "authors": "Daniel Bj\u00f6rkegren",
+    "year": 2020,
+    "link": "https://doi.org/10.1145/3392561.3397576",
+    "doi": "10.1145/3392561.3397576",
+    "abstract": "This paper illuminates the workings of an informal industry in one of the poorest countries in the world. I study payphone operators in Rwanda using 427 million digital traces recorded on the mobile phone network. I demonstrate how to extract economic behavior from these traces. They reveal every call that generates revenue, as well as operators' critical business decisions: entry, the daily decision of where and when to work, and exit. Over the period I study, thousands of informal workers enter the industry. New entrants learn to optimize their operations within the first two months. Patterns are suggestive of business stealing.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "DIA: A Human AI Hybrid Conversational Assistant for Developing Contexts",
+    "authors": "Vikram Kamath Cannanure, Timothy X. Brown, Amy Ogan",
+    "year": 2020,
+    "link": "https://doi.org/10.1145/3392561.3397577",
+    "doi": "10.1145/3392561.3397577",
+    "abstract": "Social media messaging applications(i.e. WhatsApp, Facebook) have reached 2.3 billion users in 2019, with the majority of users emerging from developing countries. The high usage among emergent users opens the possibility of designing text-based interventions for social change but such interventions rely on experts (i.e. doctors, educators, and moderators) knowledge which is scarce in developing contexts. Expert knowledge can be scaled up using chatbots but more research is needed to support emergent users who need context-specific support such as local language interventions or may not have regular internet connectivity. Therefore to support the design of chatbot based interventions in low resource contexts, we built DIA a chatbot architecture for low resource contexts to scale expert knowledge and support localization. DIA is a human-chatbot (humbot) hybrid system that organically learns topic-specific knowledge and local language from user interactions. We built a preliminary version of DIA on WhatsApp and deployed it to mentor 38 teachers in a rural context of C\u00f4te d'Ivoire. Through our preliminary deployment, we show that DIA can help (1) build a data-set of a topic and language-specific dialogues (2) understand users' online smartphone usage through chat logs and (3) collect survey data for through conversational interaction.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Healthcare Infrastructures in Ecuador: Challenges, Reflections and Opportunities for Digital Health",
+    "authors": "Lorena Carlo, Valeria Carpio, Nervo Verdezoto, Parisa Eslambolchilar, Eduardo Cruz, Frank Malo, Danilo Espinosa",
+    "year": 2020,
+    "link": "https://doi.org/10.1145/3392561.3397578",
+    "doi": "10.1145/3392561.3397578",
+    "abstract": "Besides the efforts of the Ecuadorian government in the last decade to improve the healthcare infrastructure, it still falls short to meet the healthcare needs of its population and remains far away from providing equal access to healthcare services. Based on a visit to an itinerant health point in a rural community and research conducted in public and private hospitals, this paper presents a number of infrastructural challenges that impact the everyday caring experiences of patients and healthcare professional's work practices. Reflecting on these challenges, we discuss some opportunities for future design of digital health tools and services in the Ecuadorian context.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "The Expression of Power in ICT's Knowledge Enterprise: An Empirical Illustration of Computing's Colonial Impulse",
+    "authors": "Richard Canevez, Carleen F. Maitland, Soundous Ettayebi, James Shaw, Charlene Everson, Matthew Rantanen",
+    "year": 2020,
+    "link": "https://doi.org/10.1145/3392561.3397580",
+    "doi": "10.1145/3392561.3397580",
+    "abstract": "ICT globalization continues to spread hardware, software, and accompanying technologies, so too does knowledges and trainings on those ICTs. This knowledge migration process has been linked by scholars to a 'colonial impulse' inherent in computing as a knowledge enterprise, which incorporates into broader colonizing forces. Through simultaneous explorations of dual case studies with a tribal ISP in California and an educational organization that works with indigenous First Nations communities in British Columbia, we depict how power circulates in this process, both empowering and disempowering communities. We then offer a brief argument for the need to foreground methods and approaches to disentangling these contradicting forces.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Understanding Engagement of Parents In Online Health Communities for Early Childhood",
+    "authors": "Jasmeet Kaur, Pushpendra Singh",
+    "year": 2020,
+    "link": "https://doi.org/10.1145/3392561.3397582",
+    "doi": "10.1145/3392561.3397582",
+    "abstract": "Online health communities provide a means for parents to engage with each other and seek and offer support. The parents' conversations in online communities also provide a lens into the parenting practices, challenges, and what role technology can play. Previous studies discuss the engagement of parents on online platforms related to specific childcare concerns. To understand the experiences of parents with online health communities, during the initial years of parenting, we conducted a study on the BabyCenter platform. It is a web forum that provides information on different aspects of early childhood development and offers peer-to-peer interaction. In this paper, we investigate the patterns of users' engagement for early childhood queries. Based on qualitative analysis of publicly available data on BabyCenter, 390 posts from January 2019 to June 2019, we find that the users primarily construct their knowledge, and engage in social interactions on the platform. We also find limited multimedia usage for expressing health concerns. We discuss design implications for parenting forums that meet the multi-faceted needs of parents during the early years of parenting.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Digital Identity and Exclusion in Welfare: Notes from the Public Distribution System in Andhra Pradesh and Karnataka",
+    "authors": "Hartej Singh Hundal, Bidisha Chaudhuri",
+    "year": 2020,
+    "link": "https://doi.org/10.1145/3392561.3397583",
+    "doi": "10.1145/3392561.3397583",
+    "abstract": "In this note, we explore the relationship between digital biometric ID systems and social exclusion by understanding the user of experiences of the Public Distribution System(PDS) in India. Drawing upon ethnographic fieldwork in the states of Karnataka and Andhra Pradesh, we investigate how people engage with the digital biometric ID system of Aadhaar, given that the recent Aadhaarenabled push towards computerisation of the PDS. We find that this has opened up avenues for exclusion. This note lays out the key exclusion problems. The overall objective of the study is to understand how seemingly neutral technology may in fact become exclusionary in practice.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Data Analysis on a Domestic Media Space Connecting Internationally Distributed Families",
+    "authors": "Vanessa Cedeno-Mieles, Javier Tibau, Chris J. Kuhlman, Deborah G. Tatar, Steve Harrison",
+    "year": 2020,
+    "link": "https://doi.org/10.1145/3392561.3397584",
+    "doi": "10.1145/3392561.3397584",
+    "abstract": "Families separated by distance face the challenge of limited bonding, affecting their opportunities to connect and sustain their relationships. FamilySong is a domestic Media Space that fosters feelings of togetherness via synchronized music-listening. FamilySong was used in an experiment that ran for six months, with six distributed families. Detailed data collection, e.g. interaction routines and music sharing patterns, was gathered through the system. These data provide interesting insights into the social behavior of families separated by distance and how they connect over those distances. In this work, we built software to analyze the experiment's data. The procedures and insights described in this paper will be useful for other researchers and practitioners involved in Information and Communications Technologies projects, making the FamilySong analysis with this software an exemplar for efficient data analysis.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Reciprocal Research: Providing Value in Design Research from the Outset in the Rural United States",
+    "authors": "Benjamin V. Hanrahan, Ning F. Ma, Eber Betanzos, Saiph Savage",
+    "year": 2020,
+    "link": "https://doi.org/10.1145/3392561.3397585",
+    "doi": "10.1145/3392561.3397585",
+    "abstract": "Researchers in various fields have been discussing the ethics of field research, particularly their responsibility to provide concrete benefits to participants. For example, when designing technology for their participants the discussion has centered around how and whether the technology benefits participants. We argue, that design projects can be reoriented towards benefiting participants from the outset, by slightly changing the process, activities, and initial object of design. Focusing instead on how to immediately impact the goals of the participants, designers can then progressively introduce technology to scale their impact. In this paper we present an ongoing instantiation of this process in rural West Virginia, where we have been teaching computer classes at a local library. We have found that our participants and partners are more appreciative of our efforts, and that the data we are gathering is just as, if not more, rich than previous design methodologies that we have used.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Wiki HUEs: Understanding Wikipedia practices through Hindi, Urdu, and English takes on evolving regional conflict",
+    "authors": "Molly G. Hickman, Viral Pasad, Harsh Sanghavi, Jacob Thebault-Spieker, Sang Won Lee",
+    "year": 2020,
+    "link": "https://doi.org/10.1145/3392561.3397586",
+    "doi": "10.1145/3392561.3397586",
+    "abstract": "Wikipedia is the product of thousands of editors working collaboratively to provide free and up-to-date encyclopedic information to its users. This article asks to what degree Wikipedia articles in three languages --- Hindi, Urdu, and English --- achieve Wikipedia's mission of making neutrally-presented, reliable information on a polarizing, controversial topic available to people around the globe. We chose the topic of the recent revocation of Article 370 of the Constitution of India, which, along with other recent events in and concerning the region of Jammu and Kashmir, has drawn attention to related articles on Wikipedia. This work focuses on the English Wikipedia, being the preeminent language edition of the project, as well as the Hindi and Urdu editions. Hindi and Urdu are the two standardized varieties of Hindustani, a lingua franca of Jammu and Kashmir. We analyzed page view and revision data for three Wikipedia articles. Additionally, we interviewed editors from all three Wikipedias to learn differences in editing processes and motivations. While activity on South Asian language editions of Wikipedia is growing, at the time of writing, the Hindi and Urdu editions are still in their nascency. In Hindi and Urdu, as well as English, editors predominantly adhere to the principle of neutral point of view (NPOV), and these editors quash attempts by other editors to push political agendas.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Factors influencing low graduation efficiency rate in Computer Engineering degree: A qualitative analysis",
+    "authors": "Otilia Maria Alejandro Molina, Jose Luis Asencio, Thaily Samaniego Figueroa, Francesca Man Ging Pow Hing",
+    "year": 2020,
+    "link": "https://doi.org/10.1145/3392561.3397587",
+    "doi": "10.1145/3392561.3397587",
+    "abstract": "Universities graduate annually a certain number of professionals. Some of these professionals finish their studies in the time suggested by the University; others take a longer time to accomplish their studies because of personal, academic or institutional factors that delay them. The purpose of this research is to determine what factors influenced computer engineering students to end or delay their career studies. This study was made on an Ecuadorian university. The qualitative method was applied through surveys and semi structured interviews. University students and graduates experiences were collected to be later categorized. Results show greater influence by motivational and academic factors, while the institutional factors affect less on the graduation efficiency rate",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  }
+]

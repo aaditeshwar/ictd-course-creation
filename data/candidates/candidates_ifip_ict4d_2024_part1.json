@@ -1,0 +1,159 @@
+[
+  {
+    "id": null,
+    "title": "The Application of Artificial Intelligence in Diabetes Prediction: A Bibliometric Analysis",
+    "authors": "Mbuya, Emmanuel, Mokheleli, Tsholofelo, Bokaba, Tebogo, Ndayizigamiye, Patrick",
+    "year": 2024,
+    "venue": "ifip_ict4d_2024_part1",
+    "areas": [
+      "health"
+    ],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [],
+    "area_agnostic": false,
+    "source_course": "ifip_ict4d_2024_part1_venue_search",
+    "notes": "The paper applies strong computer science methods to diabetes prediction, which can be adapted to a developing-regions context, aligning with the cs_fundamentals topic rule.",
+    "link": "https://doi.org/10.1007/978-3-031-66982-8_1",
+    "abstract": "This study aimed to map the evolution and impact of artificial intelligence (AI) in diabetes prediction research from 2013 to 2023. Utilizing Scopus database records, a bibliometric analysis was conducted on documents featuring AI and diabetes prediction keywords. The analysis used the Bibliometrix and VOSviewer tools to evaluate research publication trends, author collaboration, and keyword co-occurrence in the application of AI in diabetes prediction. Data screening, focusing on specific terms in titles and abstracts, ensured the relevance of the documents. The study included diverse document types and subject areas, reflecting the field\u2019s multidisciplinary nature. The findings revealed a significant annual growth rate of 84.86% in AI applications for diabetes prediction, with 1 498 documents from 802 sources highlighting strong scholarly interest. A peak in citation impact in 2018 marks key contributions and diverse research themes in that year. International co-authorship, notably from the USA, India, China, and Saudi Arabia, underscores extensive collaboration. Thematic analysis points to focal areas like ophthalmology in diabetes-related complications and identifies central topics and emerging trends, including the Internet of Things. The bibliometric review highlights a significant interdisciplinary expansion in AI research applied to diabetes prediction, with a marked increase in global collaborations and contributions. The study underscores the importance of AI in enhancing diabetes diagnostics and management, indicating a promising trajectory for future research, healthcare policy, and clinical practice. The evolution of AI, particularly machine learning, in diabetes prediction, demonstrates the potential for innovative solutions in managing this chronic condition.",
+    "_matched_keywords": [
+      "thematic analysis"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Challenges of ICT4D Solutions in Somalia: A Case Study of Land Management",
+    "authors": "Nuh, Mohamed, Ruohonen, Mikko, Pekkola, Samuli",
+    "year": 2024,
+    "venue": "ifip_ict4d_2024_part1",
+    "areas": [
+      "governance"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "ethnographic_design",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "ifip_ict4d_2024_part1_venue_search",
+    "notes": "The paper engages with a developing-regions context (Somalia) and discusses ICT4D initiatives, which aligns with the rule for topic 'cs_fundamentals' and other topics requiring a developing-regions context.",
+    "link": "https://doi.org/10.1007/978-3-031-66982-8_2",
+    "abstract": "This paper investigates the challenges in Information and Communication Technology for Development (ICT4D) initiatives, wherein they face difficulties when advancing beyond their initial phases, particularly when being deployed across diverse geographical regions. The paper focuses on the interplay among technological integration, local contextual nuances, community engagement, and governmental regulatory frameworks, identifying these as pivotal determinants for ICT4D endeavors. This notion offers value for both scholars and practitioners seeking to enhance the effectiveness of these projects and drive socio-economic advancements within marginalized communities.",
+    "_matched_keywords": [
+      "marginalized communities",
+      "marginalized communities"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Facilitating Gig Work Opportunities for Youth in Developing Countries: A Systematic Literature Review",
+    "authors": "Molema, Kagiso, Turpin, Marita, Van Belle, Jean-Paul",
+    "year": 2024,
+    "venue": "ifip_ict4d_2024_part1",
+    "areas": [
+      "labour"
+    ],
+    "topics": [
+      "problem_discovery",
+      "impact_evaluation",
+      "operations_scale"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "ifip_ict4d_2024_part1_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context, focusing on gig work opportunities for youth in developing countries.",
+    "link": "https://doi.org/10.1007/978-3-031-66982-8_5",
+    "abstract": "Gig work presents a promising prospect for youth in developing countries by offering a flexible and economically viable alternative in the face of high unemployment rates. This Systematic Literature Review (SLR) looks to uncover practical strategies and best practices to facilitate the creation of gig work opportunities for youth in developing countries. It poses two research questions, namely: What gig work opportunities exist for youth in a developing country context, and what practices and strategies facilitate the creation of these opportunities? The SLR identifies a number of gig work jobs and groups them into five categories including online consulting, gig work, online micro-tasking, and social media content production. Eleven strategies and two practices for fostering the creation of gig work opportunities in developing countries are identified from the 20 articles included in the study. The strategies range from providing training, improving infrastructure, enacting legislation, raising awareness, to governments creating gig work opportunities by putting tasks on these platforms or creating their own platforms. Consequently, the SLR calls for future research to evaluate the outcomes of strategies and practices implemented to unlock gig work opportunities for youth in developing countries. The SLR also suggests further research into better mapping the exact type of skills necessary to take advantage of the promising gig work opportunities available.",
+    "_matched_keywords": [
+      "gig work"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Digital Health, Development and Social Exclusion: DHIS2 and HIV Prevention Among Adolescent Girls, Young Women and Key Populations",
+    "authors": "Matavire, Rangarirai, Braa, J\u00f8rn",
+    "year": 2024,
+    "venue": "ifip_ict4d_2024_part1",
+    "areas": [
+      "health"
+    ],
+    "topics": [
+      "problem_discovery"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "ifip_ict4d_2024_part1_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context (Zimbabwe) and addresses health equity and social exclusion, which aligns with the 'health' area and 'problem_discovery' topic.",
+    "link": "https://doi.org/10.1007/978-3-031-66982-8_7",
+    "abstract": "The dominant philosophy guiding digital health studies on interventions is that of \u2018equity\u2019 of healthcare services. This study takes on a different approach, that of equity of health, basing on a capability lens, which sees equity as a differential phenomenon, and extends this to technology development and implementation. This is particularly fitting in contexts where the focus is on populations who have traditionally been exposed to disparities in healthcare due to stigma and discrimination. The study follows an initiative which sought to promote uptake of health services by socially excluded members of society. The initiative was aimed at implementing digital health technologies to support adolescent girls, young women, and key populations in Zimbabwe. This study sought to understand the role digital health plays, and can play, in addressing the problems of social justice, and particularly health equity, in the context of socially deprived groups. It discusses the phenomenon in relation to emerging conceptualisations of health equity which go beyond utilitarian perspectives that focus on the distribution of healthcare services. The study does this by complementing conceptual ideas from Amartya Sen\u2019s capability approach, with those from Shoshana Zuboff\u2019s smart machine perspective. This helps to trace the specific ways in which technology is implicated in development and, specifically, social justice and equity.",
+    "_matched_keywords": [
+      "capability approach",
+      "capability approach"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Overcoming Marginalization: Mobile Payment Domestication by Underserved South African Microentrepreneurs",
+    "authors": "Mavela, Phakamani, Tsibolane, Pitso",
+    "year": 2024,
+    "venue": "ifip_ict4d_2024_part1",
+    "areas": [
+      "livelihood",
+      "infrastructure"
+    ],
+    "topics": [
+      "ethnographic_design",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "social_capital_marginalization",
+      "gender",
+      "caste"
+    ],
+    "area_agnostic": false,
+    "source_course": "ifip_ict4d_2024_part1_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context (South Africa) and explores the appropriation of mobile payment technology among underserved microentrepreneurs, which aligns with the livelihood and infrastructure areas.",
+    "link": "https://doi.org/10.1007/978-3-031-66982-8_8",
+    "abstract": "Mobile payment technology has become widespread among businesses globally, offering an alternative to traditional payment systems. However, existing literature does not adequately explore the underlying factors influencing how underserved microentrepreneurs appropriate, objectify and incorporate mobile payments into their business processes and lives. This study, guided by Technology Domestication and Actor-Network Theory, qualitatively examines the motivations, contextual factors, and design features that enable mobile payment domestication among twenty (N\u2009=\u200920) underserved South African microentrepreneurs. Thematic analysis of the in-depth interviews revealed persisting financial exclusion,\u00a0growth optimism, and risk reduction as primary motives for long-term mobile payment use, while\u00a0the spider network community practices, payment service provider and consumer culture\u00a0dynamics, infrastructural and regulatory landscape are influential contextual conditions. Inclusive and flexible design, affordability, and trust emerged as key mobile payment design considerations impacting overall mobile payment domestication. Policymakers and payment platforms can contribute positively by participating directly in local microenterprise-centered development initiatives. Further research is needed to explore the evolving needs and expectations of microentrepreneurs and understand the developmental impacts of these technologies.",
+    "_matched_keywords": [
+      "thematic analysis"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Digital Technology Enabled Education for Sustainable Development in South Africa: A Case Study of a University of Technology",
+    "authors": "Mhlabathi, Margaretha, Achieng, Mourine S.",
+    "year": 2024,
+    "venue": "ifip_ict4d_2024_part1",
+    "areas": [
+      "education"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "ethnographic_design",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "ifip_ict4d_2024_part1_venue_search",
+    "notes": "The paper engages with a developing-regions context (South Africa) and addresses education in a low-resource setting, aligning with the 'education' area.",
+    "link": "https://doi.org/10.1007/978-3-031-66982-8_14",
+    "abstract": "South Africa is confronted with various social development challenges, and the higher education sector is well-positioned to address these challenges by developing and implementing appropriate solutions. Furthermore, as technology becomes more prominent in the global development agenda, its adoption in higher education holds great promise for advancing education by overcoming some traditional barriers and transforming pedagogical practices and learning outcomes. This study seeks to understand how the integration digital technologies with teaching and learning activities can facilitate education for sustainable development (ESD) in the context of a university of technology to enhance students\u2019 learning outcomes and competencies needed in today\u2019s job market. The research design adopted is a qualitative case study approach. Semi-structured interviews were conducted with purposively selected participants at a university of technology. The data analysis was guided by the Unified theory of acceptance and use technology (UTAUT) as a theoretical lens to identify patterns and interpretations of digital technology enabled ESD. Data analysis suggests that facilitating conditions such as educator training, adequate policies and strategies, and reliable digital infrastructure are important determinants of the behavioral intentions to use digital technology to facilitate ESD. Furthermore, social factors such as digital divide can impede adequate use of technology in ESD. The study contributes towards understanding factors that enable effective integration of digital technologies to facilitate ESD in higher education.",
+    "_matched_keywords": [
+      "learning outcomes",
+      "digital divide"
+    ]
+  }
+]

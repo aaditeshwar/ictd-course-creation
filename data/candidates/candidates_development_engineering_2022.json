@@ -1,0 +1,75 @@
+[
+  {
+    "id": null,
+    "title": "Willingness to pay (WTP) for arsenic-safe drinking water: A case study to understand societal embedding of ECAR technology in rural West Bengal, India",
+    "authors": "Shyamasree Dasgupta, Joyashree Roy, Monalisa Ghosh, Jayanta Talukder",
+    "year": 2022,
+    "venue": "development_engineering_2022",
+    "areas": [
+      "water_security"
+    ],
+    "topics": [
+      "problem_discovery",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "caste",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "development_engineering_2022_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context in India, focusing on water security and arsenic contamination in rural West Bengal.",
+    "link": "https://doi.org/10.1016/j.deveng.2022.100096",
+    "abstract": "This paper analyzes users\u2019 willingness to pay (WTP) for safe drinking water in a resource-poor region in West Bengal, India, with dangerously high groundwater arsenic concentrations. The study was carried out during the installation of an Electro Chemical Arsenic Remediation (ECAR) water treatment plant at the site. Using a contingent valuation method, the study elicits WTP, based on a stratified random sample of 1003 households. Arsenic is invisible and odorless, and related health risks have a prolonged latency period. As a result, awareness about arsenic and the perceived benefits of any arsenic remediation technology are low. In the study area, only 21% of respondents were aware of the danger of high arsenic concentrations in groundwater, however, a large number of the respondents reported irregularity of drinking water supply and a lack of quality assurance. About 64% of the respondents were willing to pay for ECAR-treated safe drinking water. Participants opting for home delivery were willing to pay more than those willing to collect water from the plant. The average WTP was high enough to recover the operational cost of the plant. Households with higher income and educational attainment, more awareness about arsenic contamination, and living in proximity to the plant were willing to pay more than the others. Regular interaction with the community, maintaining transparency, and interacting closely with the local administration created a sense of local ownership for the technology that was found to be crucial for the societal embedding of the technology.",
+    "_matched_keywords": [
+      "groundwater"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Cost estimation of micro-hydropower equipment in Nepal",
+    "authors": "Joe Butchers, Sam Williamson, J.D. Booker, Topaz Maitland, Prem Bikram Karki, Bikram Raj Pradhan, Suman Pradhan, Biraj Gautam",
+    "year": 2022,
+    "venue": "development_engineering_2022",
+    "areas": [
+      "infrastructure"
+    ],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [],
+    "area_agnostic": false,
+    "source_course": "development_engineering_2022_venue_search",
+    "notes": "The paper applies a methodology that could be adapted to a developing-regions context, fitting the criteria for the 'cs_fundamentals' topic.",
+    "link": "https://doi.org/10.1016/j.deveng.2022.100097",
+    "abstract": "Selecting the appropriate technology for providing electricity to rural communities depends upon evaluating the cost of a potential installation. For some rural communities, locally manufactured technology, in the form of wind and hydropower, can be effective. However, often the cost of these locally manufactured technologies is largely unknown. Access to costing data allows the economic viability of a site to be compared with other options. Furthermore, it enables benchmarking, allowing the expected total cost of an installation, or individual sub-systems, to be compared with quotations. This paper attempts to address the current lack of publicly available costing information for locally manufactured micro-hydropower equipment. A methodology is presented where quotations are provided by micro-hydropower manufacturing companies in Nepal for randomly generated sites. Using that information, they provided a quotation for various sub-systems. This data allows comparison of the cost of major components and the influence of turbine type. Through a linear regression model, expression have been developed that can be used to determine the expected cost for both Pelton and Crossflow turbine installations. The accuracy of these expressions is compared with previous costing models, the outcomes of the work and their significance in the context of Nepal and elsewhere is discussed. The key contribution of this work is establishing numerical expressions which allow proposed costs of micro-hydropower equipment to be rapidly evaluated.",
+    "_matched_keywords": [
+      "appropriate technology"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Electronic sensors to monitor functionality and usage trends of rural water infrastructure in Plateau State, Nigeria",
+    "authors": "Taylor Sharpe, Chantal Iribagiza, Emmanuel Iorkumbur, Jeremy Coyle, Crystal Fenwick, Ellen Greggio, Peter Kassam, John Feighery, Luis San Andr\u00e9s, Evan Thomas",
+    "year": 2022,
+    "venue": "development_engineering_2022",
+    "areas": [
+      "water_security"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "ethnographic_design",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [],
+    "area_agnostic": false,
+    "source_course": "development_engineering_2022_venue_search",
+    "notes": "The paper engages with a developing-regions context (Nigeria) and addresses water infrastructure monitoring, which is relevant to the 'water_security' area.",
+    "link": "https://doi.org/10.1016/j.deveng.2022.100100",
+    "abstract": "Internet-connected sensor technologies have recently been used to monitor water service infrastructure in remote settings. In this study, 397 groundwater pumps were observed in Plateau State, Nigeria over 12 months in 2021. Two hundred of these sites were instrumented with remotely reporting electronic sensors, including 100 hand-pump sensors, 50 electrical pump sensors, and 50 cistern water-level sensors. Every two months, phone calls and site visits were used to collect a ground-truth of pump functionality: whether the pump was capable of delivering water, regardless of actual use. Our study examined: (1) What are the operating characteristics and trends of these different kinds of water pumps?; (2) Can water-point functionality be predicted with electronic sensors?; and (3) Does the instrumented water-point sample accurately represent average water-system functionality across the region? An automated classifier generated functional/non-functional diagnostics for instrumented pumps on a weekly basis. Classifier diagnostics were compared to ground-truth data, showing an overall accuracy of 91.7% (96.1% for hand-pumps, 63.9% for cisterns, and 93.2% for electrical boreholes), with high fleet-wide sensitivity in correctly identifying a functional pump (94.4%), but poor overall specificity in correctly identifying a non-functional, broken pump (25.0%). This discrepancy is attributable to the sensors\u2019 difficulty in distinguishing between a broken pump and an unused pump. Varied patterns were seen in pump usage as a function of rainfall, with hand-pump use decreasing significantly, electrical pump usage decreasing to a lesser degree, and cistern use increasing in response to local rainfall. A comparison of the 200 instrumented to 197 non-instrumented sites showed statistically similar repair and failure rates. The high overall accuracy of the sensor-diagnostic system\u2014and the demonstration that sensor-instrumented sample sites can represent population-level breakdown and repair frequencies\u2014suggests this technology\u2019s utility in supporting sample-based monitoring of overall water pump functionality and water volume delivery. However, the poor performance of the system in distinguishing between broken and unused pumps will limit its ability to trigger repair activities at individual pumps.",
+    "_matched_keywords": [
+      "groundwater"
+    ]
+  }
+]

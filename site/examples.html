@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
+  <title>Examples — ICTD Course</title>
+  <script src="js/site-config.js?v=20260719"></script>
+  <link rel="stylesheet" href="css/style.css?v=20260720e">
+</head>
+<body>
+  <header class="site-header">
+    <div class="site-header__inner">
+      <a class="site-title" href="index.html">ICTD Course</a>
+      <nav class="site-nav" aria-label="Main">
+        <a href="index.html" data-page="home">Home</a>
+        <a href="examples.html" data-page="examples">Examples</a>
+        <a href="schedule.html" data-page="schedule">Class Schedule</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div id="load-error" class="error-banner" hidden></div>
+    <p class="page-intro">
+      Case studies grouped by area, with readings arranged in topic columns. Hover or focus a
+      reading to see its abstract when available. This was assembled by pulling together readings 
+      from several key venues for computing applied to development and sustainability, such as ACM
+      COMPASS, ICTD, JCSS, IJCAI and AAAI and KDD tracks for social good, CHI, CSCW, FAccT, and 
+      previous iterations of the course. Area and topic mapping was done by using local LLMs, and
+      clustering them into readings was done with helps from Claude. 
+    </p>
+
+    <div class="examples-filter" role="group" aria-label="Filter case studies">
+      <span class="examples-filter__label">Show:</span>
+      <label class="examples-filter__option">
+        <input type="radio" name="examples-filter" value="multi-topic" checked>
+        3+ topics + background
+      </label>
+      <label class="examples-filter__option">
+        <input type="radio" name="examples-filter" value="all">
+        All examples
+      </label>
+    </div>
+
+    <nav class="examples-toc" aria-label="Areas">
+      <h2>Areas</h2>
+      <ul id="examples-toc-list"></ul>
+    </nav>
+
+    <div id="examples-content">
+      <p>Loading examples…</p>
+    </div>
+  </main>
+
+  <script src="js/shared.js?v=20260720e"></script>
+  <script src="js/examples-render.js?v=20260720f"></script>
+</body>
+</html>

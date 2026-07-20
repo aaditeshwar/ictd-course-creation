@@ -1,0 +1,29 @@
+[
+  {
+    "id": null,
+    "title": "Validated digital literacy measures for populations with low levels of internet experiences",
+    "authors": "Ayesha Ali, Agha Ali Raza, Ihsan Ayyub Qazi",
+    "year": 2023,
+    "venue": "development_engineering_2023",
+    "areas": [
+      "education",
+      "livelihood"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "development_engineering_2023_venue_search",
+    "notes": "The paper engages with a developing-regions context (Pakistan) and addresses digital literacy, which is crucial for ICT interventions in low-resource settings.",
+    "link": "https://doi.org/10.1016/j.deveng.2023.100107",
+    "abstract": "A growing body of evidence suggests that digital literacy is an important barrier constraining adoption and use of Internet and digital technologies in the developing world. By enabling people to effectively find valuable information online, digital literacy can play a crucial role in expanding economic opportunities, thereby leading to human development and poverty reduction. Unfortunately, there is a dearth of validated survey measures for capturing digital literacy of populations who have limited prior exposure to technology. We present a novel approach for measuring digital literacy of low literacy and new Internet users, an important segment of users in developing countries. Using a sample of 143 social media users in Pakistan, which includes a significant fraction of low literacy individuals, we measure digital literacy by observing the effectiveness of participants in completing a series of tasks and by recording a set of self-reported survey responses. We then use machine learning methods (e.g., Random Forest) to identify a parsimonious set of survey questions that are most predictive of ground truth digital literacy established through participant observation. Our approach is easily scalable in low-resource settings and can aid in tracking digital literacy as well as designing interventions and policies tailored to users with different levels of digital literacy.",
+    "_matched_keywords": [
+      "digital literacy"
+    ]
+  }
+]

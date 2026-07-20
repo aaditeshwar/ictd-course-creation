@@ -1,0 +1,607 @@
+[
+  {
+    "id": null,
+    "title": "Potential Geographical Distribution of the Wheat Streak Mosaic Virus and its Impact on Food Security: Prediction Based on Modelling Using Climatic Factor",
+    "authors": "Emmanuel Der Tambile, Raji Pushpalatha, Vilayannur Subramanian Ramachandran",
+    "year": 2024,
+    "venue": "ghtc_2024",
+    "areas": [
+      "agriculture"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "climate_change"
+    ],
+    "area_agnostic": false,
+    "source_course": "ghtc_2024_venue_search",
+    "notes": "The paper uses climate data and modeling to predict the distribution of a crop disease, which can be adapted to a developing-regions context to address food security issues.",
+    "link": "https://doi.org/10.1109/GHTC62424.2024.10771545",
+    "abstract": "Climate change has a major effect on the world's food production systems through outbreaks and spread of vector-borne and non-vector-borne crop diseases that affect farmer's incomes and national economies. This study predicts the distribution of Wheat Streak Mosaic Virus (WSMV) from 2021-2040 using historical and future climate data and WSMV species data. Using a maxent species distribution model with a Training AUC of 0.899, Test AUC of 0.884, and a True Skill Statistic of 0.697, potential regions for WSMV distribution are identified. Isothermality of 15-33, precipitation in driest month between 10mm-300mm, mean diurnal temperature of 11\u00b0C and above; annual temperature range of 25\u00b0C-34\u00b0C; precipitation seasonality not exceeding 7; precipitation in coldest quarter of 50mm\u2013250mm; and precipitation of driest quarter of 25mm-250mm will influence WSMV distribution. We recommend strict enforcement of cross-border plant protection regulations, empowerment of local farmers, and integration of national-level response in risk's preparedness plans.",
+    "_matched_keywords": [
+      "MaxEnt"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Characterize Human Mobility in Nigeria During Flooding Season and Its Impact in Shaping the Spread of Covid-19",
+    "authors": "Kailun Liu, Xin Wu, Lele Zhang, Chenfeng Xiong",
+    "year": 2024,
+    "venue": "ghtc_2024",
+    "areas": [
+      "health",
+      "water_security"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "climate_change"
+    ],
+    "area_agnostic": false,
+    "source_course": "ghtc_2024_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context (Nigeria) and addresses issues related to climate change and public health.",
+    "link": "https://doi.org/10.1109/GHTC62424.2024.10771507",
+    "abstract": "In 2020, Nigeria suffered from both intensified flooding seasons due to climate change and the onset of the COVID-19 pandemic. This study investigates the interconnected dynamics of flooding, human mobility, and COVID-19 transmission in Nigeria during the 2020 flooding season. Utilizing a two-stage spatial panel econometric model, the study incorporates data from satellite imagery, mobility tracking, and regional COVID-19 case reports. The results show that flooding severity, along with heavy rainfall, significantly impacts daily human mobility, which in turn influences the spread of COVID-19. These findings highlight the complex challenges at the intersection of natural disasters and public health, underscoring the need for a national-scale flood management plan in developing countries such as Nigeria.",
+    "_matched_keywords": [
+      "satellite imagery"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Influence of the Red-Billed Quelea Bird on Rice Farming in the Kisumu, Kenya Region",
+    "authors": "Alexander Aumen, Gianna Gagliardi, Colleen Kinkead, Van Nguyen, Kaylee Smith, John Gershenson",
+    "year": 2024,
+    "venue": "ghtc_2024",
+    "areas": [
+      "agriculture"
+    ],
+    "topics": [
+      "problem_discovery",
+      "cs_fundamentals",
+      "ethnographic_design",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [],
+    "area_agnostic": false,
+    "source_course": "ghtc_2024_venue_search",
+    "notes": "The paper engages with a developing-regions context (Kenya) and addresses agricultural challenges, which can be adapted to the Indian context.",
+    "link": "https://doi.org/10.1109/GHTC62424.2024.10771535",
+    "abstract": "The current impacts of quelea birds on East Africa can be seen through the negative economic impact on local rice farmers. This study investigates both current and potential solutions to the quelea bird issues through discussion and field experiments. From discussions, farmers expressed that current solutions are not adequate to overcome this issue and other solutions need to be explored. Field experiments conducted in Kisumu, Kenya studied the effects of the current solutions and an acoustic solution on quelea behavior. Despite the huge economic impact of queleas in the area and the failings of current solutions, there is still potential for a better solution. While not a perfect system, the experimental data shows that acoustic solutions have a place in combating the quelea bird threat through a 50% reduction in bird landings on crops. This study not only highlights the urgent need for improved solutions, but also emphasizes the potential use of acoustics to address the quelea birds, with hopes to help inform and guide future research, funding, and policy decisions.",
+    "_matched_keywords": [
+      "field experiments"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Rainwater Harvesting and Automated Off-Grid Irrigation for Food and Water Security in Guatemala",
+    "authors": "Arav Sharma, Lisa A. Shay",
+    "year": 2024,
+    "venue": "ghtc_2024",
+    "areas": [
+      "water_security",
+      "agriculture"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "ethnographic_design",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "climate_change"
+    ],
+    "area_agnostic": false,
+    "source_course": "ghtc_2024_venue_search",
+    "notes": "The paper engages with a developing-regions context and addresses water security and agricultural issues, which are relevant to the course's focus on ICT for Development and Sustainability.",
+    "link": "https://doi.org/10.1109/GHTC62424.2024.10771532",
+    "abstract": "Research was conducted at the Barbara Ford Peace Building Center in Santa Cruz del Quich\u00e9, Guatemala regarding the effects of climate change on food and water security. A rainwater harvesting system and an off-grid automated irrigation system were designed and analyzed as methods of decreasing water scarcity and labor intensity in the agricultural sector. The rainwater harvesting system was constructed at the Barbara Ford Peace Building Center and used to collect local rainwater capture data over several weeks. Cost analysis of the system was performed and its yields at a rural home nearby were projected. A cost analysis was also performed on the automated irrigation system. Off-grid power sources were also appropriately sized and recommended for the system. Lastly, the client was also given specific crop recommendations for cultivation in Quich\u00e9.",
+    "_matched_keywords": [
+      "irrigation"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Sustainable Solutions for Livelihood Enhancement in Sadivayal Village: Integrating Agriculture and Clean Energy",
+    "authors": "Tangudu Harsha Vardhan, Potu Tejaswi, Bhojanapalli Sri Ganesh, Suneelvijay M, Rithika Nallaparaju, Ilango Karuppasamy, Renjith Mohan",
+    "year": 2024,
+    "venue": "ghtc_2024",
+    "areas": [
+      "agriculture",
+      "livelihood",
+      "water_security"
+    ],
+    "topics": [
+      "ethnographic_design",
+      "impact_evaluation",
+      "operations_scale"
+    ],
+    "cross_cutting_axes": [
+      "climate_change",
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "ghtc_2024_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context in India, focusing on rural livelihoods, agriculture, and clean energy.",
+    "link": "https://doi.org/10.1109/GHTC62424.2024.10771511",
+    "abstract": "This research paper explores the challenges and opportunities for improving livelihoods (SDG8) through sustainable agriculture (SDG2) and clean energy (SDG7) in Sadivayal Village, Tamil Nadu, India. Utilizing Participatory Rural Appraisal (PRA) and Human-Centered Design (HCD) methodologies, the study identifies critical issues such as unpredictable rainfall, inadequate water management, and reliance on water-intensive crops such as rice varieties, maize, and other grains. By analysing rainfall data from 2018 to 2022 highlights the urgent need for innovative water storage and alternative technical solutions. The study is proposing a solarpowered irrigation system designed to optimize water usage and ensure sustainable agricultural practices. The findings reveal that the lack of effective water management systems limits agricultural productivity and water security despite adequate rainfall. By implementing the proposed solutions, the study demonstrates the potential to significantly enhance agricultural productivity (SDG2) and ensure long-term water security, thereby directly contributing to improved rural livelihoods (SDG 8). Integrating local knowledge with scientific research has resulted in comprehensive, community-oriented solutions for sustainable agriculture with the help of clean energy (SDG7). This research provides a replicable model for other rural areas facing similar challenges, demonstrating the potential of integrated approaches to achieve long-term water security, agricultural sustainability, and economic resilience in the face of climate variability.",
+    "_matched_keywords": [
+      "irrigation",
+      "human-centered design (HCD)"
+    ]
+  },
+  {
+    "id": null,
+    "title": "An Interactive Framework: Understanding Community Desires Through Participatory Video",
+    "authors": "Nikola Nizamis, Nina Trauernicht",
+    "year": 2024,
+    "venue": "ghtc_2024",
+    "areas": [
+      "ethnographic_design",
+      "problem_discovery"
+    ],
+    "topics": [
+      "ethnographic_design",
+      "problem_discovery"
+    ],
+    "cross_cutting_axes": [
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "ghtc_2024_venue_search",
+    "notes": "The paper engages with a developing-regions context through its humanitarian engineering application and participatory methods, aligning with the 'problem_discovery' and 'ethnographic_design' topics.",
+    "link": "https://doi.org/10.1109/GHTC62424.2024.10771578",
+    "abstract": "Traditional research methods often fall short in understanding marginalized communities due to cultural and contextual differences. This study explores the application of participatory video (PV) in a humanitarian engineering context, focusing on Ukrainian refugees in the Netherlands, and its impact on enhancing social justice within community-led projects. PV is an approach that amplifies marginalized community voices by enabling them to record and share their own stories, contributing to the design of effective solutions and the promotion of social justice. The assessment of the constructed framework showed encouraging outcomes regarding its perceived usability. However, the actual implementation of the framework did not meet expectations. It is crucial to prioritize consistent group-support sessions for video creation, fostering participant motivation, and nurturing trust between the researcher and the participants. Yet, PV emerges as a powerful tool for humanitarian engineering to uncover hidden voices and understand hidden layers of community life.",
+    "_matched_keywords": [
+      "participatory video",
+      "marginalized communities",
+      "marginalized communities"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Empowering Village Women through CVET: Identifying Challenges, Solutions, and Motivating Factors in Tamil Nadu's Coastal Seaweed Farming",
+    "authors": "Soundariya S, Jisha Mary Lg, Srividya Sheshadri, Marcia L. McLain, Amritha N., Bettina E. Ryf, Rao R. Bhavani",
+    "year": 2024,
+    "venue": "ghtc_2024",
+    "areas": [
+      "livelihood",
+      "education",
+      "gender"
+    ],
+    "topics": [
+      "problem_discovery",
+      "ethnographic_design",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "climate_change"
+    ],
+    "area_agnostic": false,
+    "source_course": "ghtc_2024_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context in India, focusing on women involved in seaweed farming in Tamil Nadu.",
+    "link": "https://doi.org/10.1109/GHTC62424.2024.10771566",
+    "abstract": "Computerized Vocational Educational Training (CVET) holds promise for empowering village women in-volved in seaweed cultivation in Tamil Nadu by improving access to learning resources and enhancing digital literacy. The first study explores the challenges faced by women in sea-weed farming, focusing on qualitative data gathered through focus group discussions with 20 women from three different villages. Three main categories of challenges emerged: health, financial, and environmental issues, along with potential solutions. The second study investigates aspiring factors that promote engagement in seaweed cultivation. Moreover, analysis revealed the importance of cultural nuances that impact women's success. Recommendations for addressing these challenges and considerations for future research are discussed for incorporation into CVET courses. By aligning with SDG 4 (Quality Education), SDG 5 (Gender Equality), SDG 13 (Climate Action), and SDG 14 (Life Below Water), this approach not only fosters educational and gender equity but also promotes sustainable environmental practices in coastal communities.",
+    "_matched_keywords": [
+      "digital literacy"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Natural Language Processing Reveals Core Issues in Uganda's Power Grid: A Study of Outages from 2015-2022",
+    "authors": "Joel Mugyenyi, Isaac V. Kinhonhi, Vijay Modi",
+    "year": 2024,
+    "venue": "ghtc_2024",
+    "areas": [
+      "infrastructure"
+    ],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [],
+    "area_agnostic": false,
+    "source_course": "ghtc_2024_venue_search",
+    "notes": "The paper applies advanced NLP techniques to a developing region's power grid issues, fitting the 'cs_fundamentals' topic criteria.",
+    "link": "https://doi.org/10.1109/GHTC62424.2024.10771564",
+    "abstract": "This research study investigates the root causes of power outages in Uganda, leveraging a unique data set obtained through a partnership with the country's electricity regulator. Covering the period from 2015 to 2022, this data set includes detailed records of each power outage, noting the duration and free-form descriptions of the incidents. The researchers used an advanced natural language processing (NLP) tool to categorize these descriptions into specific root cause groups. The findings highlight equipment failure as the most prevalent cause of power outages, suggesting a critical need to enhance or reevaluate maintenance efforts. Furthermore, the study revealed that outages resulting from vandalism and fires tend to have significantly longer resolution times, indicating areas where targeted interventions could improve response efficiency. This research sheds light on the main factors contributing to power outages in Uganda and demonstrates how NLP can be applied to quickly and accurately identify these causes. The insights gained from this study offer valuable guidance for policymakers and utility companies aiming to improve the reliability and resilience of Uganda's power grid.",
+    "_matched_keywords": [
+      "natural language processing (NLP)"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Applying Social Practice Theory to Understand User Demand in Rural Microgrids",
+    "authors": "Reesha Arshad, Hassan Abbas Khan, Rosanna De Rosa, Dario Minervini, Ivano Scotti",
+    "year": 2024,
+    "venue": "ghtc_2024",
+    "areas": [
+      "infrastructure"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "ethnographic_design",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "climate_change",
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "ghtc_2024_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context (Southern Pakistan) and applies computer science fundamentals to understand user demand in rural microgrids.",
+    "link": "https://doi.org/10.1109/GHTC62424.2024.10771519",
+    "abstract": "Globally, around 770 million people have no access to electricity, despite electrification interventions. Standalone solutions, such as Solar Home Systems (SHS) are widespread in remote off-grid areas of the Global South (GS), due to ease of installation and general availability of pay as you go subscription models. Compared to SHSs, decentralized microgrids with power sharing allow access to higher levels of access, with negligible additional costs. In this paper, we assess changed energy usage patterns using empirical evidence from an off-grid decentralized microgrid deployed in a Southern Pakistani village. To understand how access to off-grid energy is related to transforming social practices in the rural off-grid context, we employ the three-element approach to social practice and assess how access to energy impacts the elements of social practice - material, meaning and competence - and the linkages between them. We argue that such an approach must be embedded into the technical design of the system, along with business model evolution to increase sustainable energy provision and the social value of energy access.",
+    "_matched_keywords": [
+      "electrification"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Empowering Collaboration: Insights into Teacher Collaboration in West Kenya",
+    "authors": "Nimisha Rachel Rackow, Ashley Shea, Ji Zhang, John Gershenson",
+    "year": 2024,
+    "venue": "ghtc_2024",
+    "areas": [
+      "education"
+    ],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [],
+    "area_agnostic": false,
+    "source_course": "ghtc_2024_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context (Kenya) and addresses education-related challenges, aligning with the 'education' area and 'cs_fundamentals' topic.",
+    "link": "https://doi.org/10.1109/GHTC62424.2024.10771584",
+    "abstract": "This paper analyzes teacher collaboration challenges in Kenya's education system during the transition from the 8-4-4 to the Competency-Based Curriculum (CBC). Research was conducted in Kisumu, Kenya, by researchers from Pennsylvania State University using a mix of remote surveys, interviews, and in-field research, including a co-design workshop and small group discussions with teachers in public, private, Alternative Provision of Basic Education and Training (APBET), and international schools. The research revealed significant challenges faced by teachers, encompassing inadequate training, limited resources for the new curriculum, and high student-to-teacher ratios, with the intensity of the issues varying across different school types. A key focus was observing the culture of teacher collaboration, including the sharing methods, information types, comfort levels, and the current collaboration drawbacks. Data from online surveys provided demographic insights and preliminary collaboration trends, while group discussions during in-field school visits explored teachers' resource acquisition, information-sharing, and comfort in collaboration. The findings indicated teachers share a strong inclination toward collaboration, primarily using tools like WhatsApp and in-person interactions. However, the limitations of these methods, such as unorganized content and limited accessibility, hinder effective collaboration. The co-design workshop further clarified teachers' problems and the necessity for more organized, accessible, and efficient digital collaboration methods that echo teachers' unanimous suggestions for an online platform to facilitate better resource sharing, lesson planning, and community building. The insights also emphasize the importance of enhancing educational collaboration through digital innovation, tailored to Kenya's technology infrastructure. It lays the groundwork for developing educational technology solutions vital for fulfilling the evolving needs of Kenyan education.",
+    "_matched_keywords": [
+      "co-design"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Challenges in Rural Innovation and Entrepreneurship: A Lens Through Effectuation Theory",
+    "authors": "Jayshree Patnaik, Ahla Hashir",
+    "year": 2024,
+    "venue": "ghtc_2024",
+    "areas": [
+      "livelihood"
+    ],
+    "topics": [
+      "problem_discovery",
+      "ethnographic_design",
+      "impact_evaluation",
+      "operations_scale"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "caste",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "ghtc_2024_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context in India, focusing on rural entrepreneurship and innovation.",
+    "link": "https://doi.org/10.1109/GHTC62424.2024.10771576",
+    "abstract": "Rural areas are often plagued with diverse challenges that impede the pace of entrepreneurship and innovation processes towards sustainable development. The objective of this paper is to examine the challenges faced by rural entrepreneurs and outline strategies for fostering the scaling-up and growth of their ventures by employing the effectuation theory. An exploratory research design was implemented adopting a qualitative methodology with a multi-case study approach in an Indian context. The analysis of the data was done using thematic analysis. The analysis resulted in four major challenges which include overcoming cognitive barriers, intensifying collaboration with academia, aligning business propositions, and closing the grassroots investment gap. The study recommends the practice of design thinking, promoting technology transfer, increasing access to micro-finance, and localized marketing approaches to strengthen the rural entrepreneurial ecosystem.",
+    "_matched_keywords": [
+      "thematic analysis"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Digital Technology and the Empowerment of Indian Women Micro-Entrepreneurs",
+    "authors": "Rimpa Pal, Bhaskar Bhowmick",
+    "year": 2024,
+    "venue": "ghtc_2024",
+    "areas": [
+      "livelihood"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "ethnographic_design",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "gender"
+    ],
+    "area_agnostic": false,
+    "source_course": "ghtc_2024_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context in India, focusing on women micro-entrepreneurs and the role of digital technology in their empowerment.",
+    "link": "https://doi.org/10.1109/GHTC62424.2024.10771561",
+    "abstract": "The latest technological advancements are transforming women's entrepreneurship in India. This research aims to identify how technology supports Indian women micro-entrepreneurs to run their businesses by overcoming resource constraints and gendered barriers. The cases of four digital technologies that shaped the Indian market recently are analyzed in this research. The findings indicate that government initiatives like SEWA ESS and WEP support rural women with limited education through digital financial inclusion, mentoring, and training programs whereas UPI payments enable them to reach larger markets. E-commerce platforms like Meesho facilitate women entrepreneurs to run their businesses in rural and semi-urban areas by creating home-based and flexible work models. Women's entrepreneurship in India can be supported further by addressing the gap in digital literacy and access to resources.",
+    "_matched_keywords": [
+      "financial inclusion",
+      "digital literacy"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Training of Rural Women to Monitor the Water Quality at the Point of Use to Increase WASH Empowerment in Rural India",
+    "authors": "Reshma Ramesh, Sithara GS, Geethu S. Gireesh, Reshma R. Nair, Athul Ajay, J. Sophie von Lieres, Rao R. Bhavani",
+    "year": 2024,
+    "venue": "ghtc_2024",
+    "areas": [
+      "water_security",
+      "gender"
+    ],
+    "topics": [
+      "ethnographic_design",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "gender"
+    ],
+    "area_agnostic": false,
+    "source_course": "ghtc_2024_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context in rural India, focusing on water quality and women's empowerment.",
+    "link": "https://doi.org/10.1109/GHTC62424.2024.10771543",
+    "abstract": "Rural India grapples with significant struggles in providing clean and safe access to water, sanitation and hygiene measures which have a higher impact on women and children. Inadequate access and lack of proper house-holds water treatment and storage practices often leads to contamination and deteriorated health conditions. This study explores the intersection of WASH and women's empower-ment focussing on a intervention in rural Karnataka, India where women were trained to be Water Ambassadors(WA) in Point of use water quality monitoring using low cost sensors and mobile application. Through a qualitative methodology using in depth interviews and focus group discussion with the women, the study intended to examine the impact on women's sense of agency, well-being, decision making and community engagement. The themes reveal that training had a significant impact on WA's knowledge and confidence, equipping them to influence both household and community water practices, despite being affected by behavioural and cultural resistance. The study highlights the importance of integrating women's empowerment in WASH initiative to bring out gender equality and women's empowerment. With women's involvement, the intervention provided community resilience in water practices and underscored the potential of a technology driven solution to improve WASH outcomes in rural areas.",
+    "_matched_keywords": [
+      "women's empowerment"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Operational and Financial Analysis of Smallholder Rice Farming in Kisumu, Kenya",
+    "authors": "Alexander Aumen, Gianna Gagliardi, Colleen Kinkead, Van Nguyen, Kaylee Smith, John Gershenson",
+    "year": 2024,
+    "venue": "ghtc_2024",
+    "areas": [
+      "agriculture"
+    ],
+    "topics": [
+      "problem_discovery",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "climate_change",
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "ghtc_2024_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context, focusing on smallholder rice farming in Kenya, which aligns with the 'agriculture' area.",
+    "link": "https://doi.org/10.1109/GHTC62424.2024.10771571",
+    "abstract": "Access to information about Kenyan rice farming operations and financials was lacking in the research community. This paper was created to provide a concise and accurate description of the average operations timeline and financial projections for a smallholder Kenyan rice farm on an irrigation scheme in Kisumu County, Kenya. A survey campaign that reached 300 farmers, a co-design event that reached 35 farmers, and in-person interviews were coordinated and conducted by the research team. A timeline for planting and harvesting rice was created. The operational cycle completed each growing season was concluded. The range of costs for each part of the farming cycle was determined. Changes in weather or economy were found to easily affect revenue for farmers. The risk farmers take each season when planting rice was clearly demonstrated by comparing expected expenses to predicted revenues. The average range of fluctuating seasonal profit per farmer per two acres per season between 127,760 Ksh ($930.32) and 285,760 Ksh ($1,885.46) was found. There is little financial gain from farming rice, despite it being considered a staple food and cash crop. In order to grow the production of rice in Kenya to meet the consumption demand, a change to mitigate the financial harm to farmers needs to be made. Presented in this paper is information about financials and operations, along with pain points identified while collecting the data, to inform future research and grant further access to information about the Kenyan smallholder rice farming industry.",
+    "_matched_keywords": [
+      "irrigation",
+      "co-design"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Bridging the Digital Divide with Sustainability: Reuse of Landfill-Bound Computers in Education",
+    "authors": "Yong Lin, Jake Mastrofski, Dylan Fall, Astin Taomy Lin, Chengyao Wu, Tariq Zaman, Charles Noah Lin, Ming Chen",
+    "year": 2024,
+    "venue": "ghtc_2024",
+    "areas": [
+      "education"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "ethnographic_design",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "ghtc_2024_venue_search",
+    "notes": "The paper addresses a developing-regions context through its focus on providing educational computers to low-income families, aligning with the 'education' area and the 'cs_fundamentals' topic.",
+    "link": "https://doi.org/10.1109/GHTC62424.2024.10771515",
+    "abstract": "According to World Health Organization data, in 2019, approximately 53 million tons of e-waste were generated globally, with 41 million computers facing landfill disposal each year. This significant environmental issue highlights the urgent need for sustainable solutions that surpass current practices. Furthermore, data from the World Bank indicates that 700 million people worldwide live on less than \u22032 per day, many of whom lack access to educational computers and technological resources. Providing these individuals with educational computers could offer a viable pathway out of poverty. Despite this, there has been limited research into repurposing discarded computers for educational use. Our innovative research aims to address both of these pressing issues simultaneously, offering a novel approach to converting landfill-bound computers into valuable educational tools. Research has highlighted the benefits of Thin Client technology in education. Prior studies have shown the effective use of Thin Clients using new devices like Chromebooks and Raspberry Pi, but have not explored repurposing obsolete computers. Our innovative approach bridges this gap by transforming end-of-life computers into valuable educational resources for low-income families, thereby extending their lifespan by 5 to 8 years. This innovative concept was originally proposed and tested by the four co-founders of GrowChild nonprofit\u2014Tariq, Astin, Charles, and Yong\u2014and was subsequently adopted by the Humanitarian Engineering and Computing (HEC) minor and the Humanitarian Youth Preparation for Electronics Education (HYPE) student organization at Miami University. Our methodology includes sustainable hardware reuse, installing compatible operating systems, and providing detailed training. Our results demonstrate the effectiveness of this approach, leading to the successful donation of 100 refurbished computers to low-income students and local schools in Ohio in the past year, a 400% increase from the previous year.",
+    "_matched_keywords": [
+      "digital divide"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Assessing Household Cooking Energy Behavior and Potential for Transition to E-Cooking in Informal Urban Settlements",
+    "authors": "Vongaishe Mutatu, Vijay Modi, June Lukuyu",
+    "year": 2024,
+    "venue": "ghtc_2024",
+    "areas": [
+      "health",
+      "gender",
+      "livelihood"
+    ],
+    "topics": [
+      "problem_discovery",
+      "cs_fundamentals",
+      "ethnographic_design",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "ghtc_2024_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context, focusing on informal urban settlements where traditional cooking methods are hazardous and time-consuming, particularly for women and girls.",
+    "link": "https://doi.org/10.1109/GHTC62424.2024.10771567",
+    "abstract": "Traditional cooking methods are hazardous and time- consuming, disproportionately exposing women and girls to these negative effects [2]. In rural areas, fuelwood can be gath- ered from personal trees or the surrounding landscape [2]. How- ever, urban areas lack the luxury of gathering their biomass, and commercial fuels such as LPG are expensive due to high upfront costs and lumpy recurrent payments [1]. While higher-income households can overcome these barriers, those in dense urban informal settlements find themselves in a precarious situation [1]. Measures to drive E-cooking adoption have the greatest potential to succeed in urban informal settlements because a) access to biomass is constrained, b) most consumers are connected to the grid, and c) living quarters are smaller and lack ventilation. Since informal settlements can make up a significant proportion of the urban population, investing in the transition to clean cooking in these areas may yield the highest returns on public investments.",
+    "_matched_keywords": [
+      "informal settlements"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Evaluating the Spatial-Temporal Impact of Urban Flooding on Mobility Patterns and Point of Interest",
+    "authors": "Lele Zhang, Xin Wu, Kailun Liu, Chenfeng Xiong",
+    "year": 2024,
+    "venue": "ghtc_2024",
+    "areas": [
+      "water_security"
+    ],
+    "topics": [
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "climate_change"
+    ],
+    "area_agnostic": false,
+    "source_course": "ghtc_2024_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context (Lagos State, Nigeria) and applies statistical/causal-inference methods (Difference-in-Differences models) to evaluate the impact of urban flooding on mobility patterns, aligning with the 'impact_evaluation' topic.",
+    "link": "https://doi.org/10.1109/GHTC62424.2024.10771563",
+    "abstract": "Urban flooding poses significant challenges to densely populated areas, increasing vulnerability to environmental changes. This study assesses the spatial and temporal mobility patterns in response to flood events in Lagos State, Nigeria, a region prone to severe flooding due to its low-lying topography and rapid urbanization. By integrating human mobility and geospatial data, the study analyzes the correlation between flooding and POI visits using the Maximum Information Coefficient (MIC) and Difference-in-Differences (DiD) models. Results indicate significant variations across POI categories, with increased visits to Healthcare & Medical services reflecting emergency needs, while Transportation and Outdoor Recreation experience declines, highlighting the negative impact on general mobility and economic activities. The findings underscore the importance of targeted urban planning and policy interventions to mitigate the effects of urban flooding on communities.",
+    "_matched_keywords": [
+      "difference-in-differences"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Leveraging Technology for Equitable Access to Social Benefits: A Case Study of Civil Society Organization Interventions Among Internal Seasonal Migrant Workers in India",
+    "authors": "Alyssia Sanchez, Sami El Sabri, Noah Khan, Alazne Qaisar, Joseph Wong",
+    "year": 2024,
+    "venue": "ghtc_2024",
+    "areas": [
+      "labour"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "ethnographic_design",
+      "impact_evaluation",
+      "operations_scale"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "caste",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "ghtc_2024_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context in India, focusing on internal seasonal migrant workers and their access to social benefits.",
+    "link": "https://doi.org/10.1109/GHTC62424.2024.10771516",
+    "abstract": "Internal seasonal migrant workers in India face significant challenges in accessing social security schemes due to their high mobility, inadequate documentation, low digital literacy, regional policy variations, and a general lack of awareness. This paper explores a case study from Jaipur, Rajasthan, where Jan Sahas, a civil society organization and partner within the Migrants Resilience Collaborative, is addressing these challenges using technology. Through the development of the Jan Saathi app, an innovative mobile application, and a scheme discovery and eligibility check platform, this initiative has significantly enhanced service delivery infrastructure for migrant workers. By enabling precise identification of eligibility and facilitating the delivery of benefits, the Migrants Resilience Collaborative has registered over 5.8 million households and successfully delivered over 5.0 million benefits. This approach exemplifies the critical role of leveraging technology in combination with community trust and decentralized implementation, thereby empowering marginalized groups and improving their access to essential services.",
+    "_matched_keywords": [
+      "digital literacy"
+    ]
+  },
+  {
+    "id": null,
+    "title": "An Intelligent Computer Vision System for Gesture Based Home Automation and Detection of Parkinson's Tremors",
+    "authors": "Evelyn Ding, Xiaohu Guo",
+    "year": 2024,
+    "venue": "ghtc_2024",
+    "areas": [
+      "health"
+    ],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "ghtc_2024_venue_search",
+    "notes": "The paper applies strong computer science methods (cs_fundamentals) that could be adapted to a developing-regions context, focusing on elderly care and medical monitoring.",
+    "link": "https://doi.org/10.1109/GHTC62424.2024.10771577",
+    "abstract": "For many elderly people with mobility issues, something as simple as turning on the lights becomes a daily struggle. Furthermore, diagnosis of neurological disorders like Parkinson's disease is unaffordable and inaccessible. The main objective of the research was to utilize machine learning to create a home automation system that performs medical monitoring for hand tremors, including Parkinson's tremors. We built a custom dataset with over 700 hand images and adapted the Yolo-v5 model to our application using transfer learning. The resultant model succeeded in classifying hand gestures in real-time, reaching 96% accuracy. We created a prototype of a home automation system, where different gestures were used to control lights. To add medical monitoring capabilities to the home automation system, we proposed a novel hand-tremor detection method. When tested with simulated hand tremors, the model's results matched well with results from an accelerometer, demonstrating its potential for detecting Parkinson's tremors. This research shows that the proposed approach can provide easily accessible home automation and medical monitoring for the elderly. This novel system can help improve the health and safety of the elderly community globally.",
+    "_matched_keywords": [
+      "transfer learning"
+    ]
+  },
+  {
+    "id": null,
+    "title": "A User-Centred Interaction Design: A Holistic Approach",
+    "authors": "Gibson Kimutai, Anna F\u00f6rster",
+    "year": 2024,
+    "venue": "ghtc_2024",
+    "areas": [],
+    "topics": [
+      "cs_fundamentals",
+      "ethnographic_design"
+    ],
+    "cross_cutting_axes": [
+      "gender"
+    ],
+    "area_agnostic": true,
+    "source_course": "ghtc_2024_venue_search",
+    "notes": "The paper applies user-centered design principles that could be adapted to a developing-regions context, aligning with the cs_fundamentals topic rule.",
+    "link": "https://doi.org/10.1109/GHTC62424.2024.10771531",
+    "abstract": "User-centered design (UCD) plays a critical role in product development by focusing on creating interactive products that effectively meet the diverse needs of users. This study introduces a comprehensive approach that integrates the Agile Scrum software development life-cycle (SDLC) with a strong emphasis on usability and explainability. In our approach, users were actively involved as co-designers throughout the entire development process. This involvement was crucial for enhancing both the usability and explainability of the product. To assess the practical application of this approach, we applied it to developing a deep learning-based tea fermentation detection model. We engaged users extensively through various methods, including questionnaires, interviews, focus groups, and direct observation, to gather detailed requirements and feedback. The integration of user feedback into the Interactive Design (ID) process aimed to refine and improve the product based on real user experiences. Our findings indicate that this user-centered approach resulted in a 10% increase in project costs and a 25% extension of the timeline. Despite these additional investments, the positive feedback received from users justified the increased expenditure. Notably, our study revealed that female users reported lower levels of satisfaction compared to their male counterparts, a trend consistent with other research. This suggests a need for further exploration into the factors contributing to this disparity and high-lights the importance of addressing gender-specific concerns in software design. Overall, this study underscores the effectiveness of combining agile methodologies with user-centered principles to achieve high usability and explainability. The insights gained emphasize the necessity for continued research into creating more inclusive and effective software solutions. Addressing the diverse needs of all users, including understanding gender-specific differences leads to products that have equitable user experiences and higher satisfaction across various demographics.",
+    "_matched_keywords": [
+      "user-centered design",
+      "co-design"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Characteristics and Machine Learning Emulation of Heatwaves in Future Climate of New Jersey - Exploring Data from the CMIP6 Archive",
+    "authors": "Vinay Karthik",
+    "year": 2024,
+    "venue": "ghtc_2024",
+    "areas": [
+      "climate_change"
+    ],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [],
+    "area_agnostic": true,
+    "source_course": "ghtc_2024_venue_search",
+    "notes": "The paper applies machine learning methods that could be adapted to a developing-regions context, fitting the cs_fundamentals topic criteria.",
+    "link": "https://doi.org/10.1109/GHTC62424.2024.10771508",
+    "abstract": "Anthropogenic climate change is expected to increase the duration and intensity of heatwaves with densely populated states being greatly susceptible to their effects. With a geographical focus on New Jersey, we use climate projections from the Coupled Model Intercomparison Project Phase 6 (CMIP6) data archive focusing on future climate in the ScenarioMIP Shared Socioeconomic Pathways for the time period 2015\u20132100 to quantify future heatwave events, finding that the number, intensity, and other characteristics of heatwaves depend sensitively on climate state. We explored the underlying climate drivers using a machine-learning based emulator, with the best skill obtained using Random Forest and Ridge Regression methods. The resulting emulators show a strong sensitivity to carbon dioxide but a weaker dependency on methane. The outcomes of this study offer valuable insight for further research and policy formation for climate change mitigation and adaptation.",
+    "_matched_keywords": [
+      "climate change mitigation"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Digital Information Content Platform for Sustainable Education and Disaster Resilience with Telecommunications Network-Assisted Remote Monitoring and Management",
+    "authors": "Rannie D. Salvador, Nathaniel Joseph C. Libatique, Mark Anthony V. Melendres, Gregory L. Tangonan, Joselito Christian Paulus M. Villanueva",
+    "year": 2024,
+    "venue": "ghtc_2024",
+    "areas": [
+      "education",
+      "infrastructure"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "impact_evaluation",
+      "operations_scale"
+    ],
+    "cross_cutting_axes": [
+      "climate_change",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "ghtc_2024_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context (Philippines) and applies computer science fundamentals to address educational access and disaster resilience.",
+    "link": "https://doi.org/10.1109/GHTC62424.2024.10771562",
+    "abstract": "The constant endeavor to advance mobile technology and broaden educational access has highlighted the digital poverty and digital divide across regions of the Philippines. This study focuses on the redevelopment of the Ateneo Innovation Center Education Cloud, introducing a telecommunications component for internet connectivity and a remote administrator interface. These enable non-service affecting content updates and software maintenance, minimizing resource-intensive physical interventions. The research evaluates the performance of 5G and LTE networks, server data transfer, throughput, and satellite infrastructure, to assess the platform's adaptability relative to terrestrial and non-terrestrial network conditions. Predeployment environment tests revealed a range of connectivity levels, from robust indoor coverage with \u221266 dBm 5G and \u221276.7 dBm LTE signal power to outdoor coverage-only areas with at least \u2212120 dBm signal strength. Server data transfer reached a peak data capacity of 3.92 GB, with a mean throughput of 556 Mbps. Satellite network speeds ranged from 94 Mbps to 166 Mbps. The system's usability within diverse environment and varying network performance, remote-control capabilities, and compatibility with Starlink internet, prove the platform's viability and scalability as a multi-functional information distribution system for community knowledge transfer and disaster resilience, effectively reaching underserved regions in the Philippines.",
+    "_matched_keywords": [
+      "digital divide"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Determining Digital Divide in Local-Level ICT Usage for 311 Civic Applications",
+    "authors": "Kuheli Sai, David Tipper",
+    "year": 2024,
+    "venue": "ghtc_2024",
+    "areas": [],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [
+      "gender"
+    ],
+    "area_agnostic": true,
+    "source_course": "ghtc_2024_venue_search",
+    "notes": "The paper applies a general-purpose methodology that could be adapted to a developing-regions context for understanding digital divide in ICT usage, fitting the cs_fundamentals topic rule.",
+    "link": "https://doi.org/10.1109/GHTC62424.2024.10771527",
+    "abstract": "Information and Communication Technology (ICT) have transformed society and enabled numerous societal applications. However, there is limited understanding whether ICT usage is equitable or not across different neighborhoods (in which public are often geographically clustered based on their socio-economic compositions) within a city. One such application is 311 service, which allows public to report neighborhood specific concerns to their local authorities (e.g., city departments) using various ICT methods. An access to ICTs, willingness, and basic digital literacy skills are required to use these services. Here, we examine if digital divide exist in ICT usage for requesting services specific to 311 applications across diverse neighborhoods in Pittsburgh by analyzing publicly available open 311 civic data. Our data-driven empirical findings reveal the following: First, different neighborhoods with distinct socio-economic and demographic profiles have varying categories of 311 requests. Second, the type of ICT usage and patterns for 311 requests differ across these neighborhoods. Third, higher home prices and presence of a higher proportion of female residents correlate positively with submitted 311 requests. Fourth, while empirical study indicates the possibility of having digital divide in 311 application specific ICT usage, corresponding statistical hypothesis testing based on t-test fails to reject the null hypothesis and further demands a thorough analysis with more number of neighborhoods. This empirical study and corresponding insights can help city policymakers construct data-driven decisions, guiding policy formulation and local-level resource allocation. The methodology provides a blueprint for similar analyses in other cities.",
+    "_matched_keywords": [
+      "digital literacy",
+      "digital divide"
+    ]
+  }
+]

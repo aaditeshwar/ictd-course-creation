@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Health Information System (HIS/DHIS2) Implementation in LMICs",
+    "description": "Deployment, integration, and sustainability of open-source health information systems (notably DHIS2) across health facilities and community levels in low- and middle-income countries. Spans technical architecture, data integration challenges, social inclusion/exclusion of marginalized populations, and the sociotechnical and governance dynamics of implementing these systems in fragile or resource-constrained settings."
+  },
+  {
+    "name": "mHealth Behavior Change and Frontline Health Worker Support",
+    "description": "Mobile health interventions targeting behavior change communication and the community/frontline health workers who deliver them, especially in rural South Asia and Sub-Saharan Africa. Covers ethnographic design of mHealth strategies, training and support practices, scaling, and the gendered dimensions of health worker experiences."
+  },
+  {
+    "name": "AI/ML for Clinical Prediction and Health Equity",
+    "description": "Machine learning and AI models applied to clinical and public health prediction tasks such as disease prediction, lab test response, and resource allocation. Includes attention to algorithmic fairness and health inequalities induced by biased data and models across demographic groups."
+  },
+  {
+    "name": "Digital Technology in Pandemic Response and Risk Communication",
+    "description": "Use of ICTs for COVID-19 risk communication, community engagement, and understanding pandemic impacts on vulnerable and marginalized populations. Spans problem discovery on how crises affect the poor, gendered impacts on healthcare workers, and the design and evaluation of communication technologies during health emergencies."
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "name": "AI Flood Mapping and Forecasting from Satellite Data",
+    "description": "Research applying deep learning to detect, map, and forecast flood extent using optical, SAR, and multimodal satellite imagery, often in data-scarce regions. Spans model development, foundation-model fine-tuning, validation-data generation, and operational flood early warning for vulnerable communities."
+  },
+  {
+    "name": "Data-Driven Weather and Precipitation Forecasting",
+    "description": "Machine learning approaches to weather prediction, precipitation nowcasting/post-processing, and ensemble forecasting of extreme rainfall using neural networks, transformers, and generative models. Includes localized adaptation of global weather models to specific regions and improving accuracy for extreme-event scenarios."
+  },
+  {
+    "name": "Streamflow and Hydrological Modeling with ML",
+    "description": "Applying deep learning (transformers, vision models) to predict streamflow, model watershed hydrology, and support flood/drought planning. Focuses on data-scarce basins and translating hydrological simulation into decision-relevant forecasts for water resource management."
+  },
+  {
+    "name": "Remote Sensing Foundation Models and Segmentation Methods",
+    "description": "Development of general-purpose geospatial foundation models, pretrained encoders, and segmentation/change-detection techniques (e.g., Segment Anything adaptations, prompt-tuning, few-shot instance segmentation) for environmental remote sensing tasks. These are reusable CS methods applied across water, land, and disaster monitoring."
+  },
+  {
+    "name": "Tropical Cyclone and Extreme Storm Prediction",
+    "description": "AI methods for forecasting, reconstructing, and estimating variables of tropical cyclones and typhoons from satellite imagery using diffusion models, video models, and denoising approaches. Aims to improve early warning for storm-driven coastal hazards."
+  },
+  {
+    "name": "Coastal Change and Shoreline Forecasting",
+    "description": "Deep learning for delineating coastlines, forecasting shoreline/coastal evolution, and predicting coastal flooding under climate change and sea-level rise. Particularly relevant to small islands and coastal cities facing erosion and inundation risk."
+  },
+  {
+    "name": "Climate Downscaling and Simulation Correction",
+    "description": "Machine learning to statistically downscale coarse climate/meteorological data, correct under-resolved physical simulations, and emulate expensive climate models for extreme-event analysis. Bridges climate science and computationally efficient AI surrogates."
+  },
+  {
+    "name": "Compound Climate Extremes and Disaster Hazard Prediction",
+    "description": "Spatiotemporal deep learning to predict co-occurring or cascading hazards such as heatwaves, droughts, wildfires, and general disaster events. Includes interpretable methods for extreme-event detection and rapid change detection for disaster management."
+  },
+  {
+    "name": "AI for Climate Policy and Ecosystem Valuation",
+    "description": "Machine learning approaches to emulate integrated assessment models, evaluate climate policies with causal reasoning, and value ecosystem services (e.g., wetland benefits, carbon management). Connects technical modeling to socioeconomic and policy decision-making."
+  }
+]

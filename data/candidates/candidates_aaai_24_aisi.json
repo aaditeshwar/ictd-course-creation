@@ -1,0 +1,357 @@
+[
+  {
+    "id": null,
+    "title": "Decision-Making for Land Conservation: A Derivative-Free Optimization Framework with Nonlinear Inputs",
+    "authors": "Cassidy K. Buhler, Hande Y. Benson",
+    "year": 2024,
+    "venue": "aaai_24_aisi",
+    "areas": [
+      "forests_restoration"
+    ],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [
+      "climate_change"
+    ],
+    "area_agnostic": false,
+    "source_course": "aaai_24_aisi_venue_search",
+    "notes": "The paper applies a general-purpose methodology that could be adapted to a developing-regions context for land conservation, fitting the cs_fundamentals topic rule.",
+    "link": "https://ojs.aaai.org/index.php/AAAI/article/view/30195",
+    "abstract": "Abstract Protected areas (PAs) are designated spaces where human activities are restricted to preserve critical habitats. Decision-makers are challenged with balancing a trade-off of financial feasibility with ecological benefit when establishing PAs. Given the long-term ramifications of these decisions and the constantly shifting environment, it is crucial that PAs are carefully selected with long-term viability in mind. \n\nUsing AI tools like simulation and optimization is common for designating PAs, but current decision models are primarily linear. In this paper, we propose a derivative-free optimization framework paired with a nonlinear component, population viability analysis (PVA). Formulated as a mixed integer nonlinear programming (MINLP) problem, our model allows for linear and nonlinear inputs. Connectivity, competition, crowding, and other similar concerns are handled by the PVA software, rather than expressed as constraints of the optimization model. In addition, we present numerical results that serve as a proof of concept, showing our models yield PAs with similar expected risk to that of preserving every parcel in a habitat, but at a significantly lower cost. \n\nThe overall goal is to promote interdisciplinary work by providing a new mathematical programming tool for conservationists that allows for nonlinear inputs and can be paired with existing ecological software. The code and data are available at\nhttps://github.com/cassiebuhler/conservation-dfo.",
+    "_matched_keywords": [
+      "protected areas"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Fair Sampling in Diffusion Models through Switching Mechanism",
+    "authors": "Yujin Choi, Jinseong Park, Hoki Kim, Jaewook Lee, Saerom Park",
+    "year": 2024,
+    "venue": "aaai_24_aisi",
+    "areas": [],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [],
+    "area_agnostic": true,
+    "source_course": "aaai_24_aisi_venue_search",
+    "notes": "The paper addresses a general-purpose methodology that could be adapted to a developing-regions context, fitting the cs_fundamentals topic rule.",
+    "link": "https://ojs.aaai.org/index.php/AAAI/article/view/30202",
+    "abstract": "Abstract Diffusion models have shown their effectiveness in generation tasks by well-approximating the underlying probability distribution. However, diffusion models are known to suffer from an amplified inherent bias from the training data in terms of fairness. While the sampling process of diffusion models can be controlled by conditional guidance, previous works have attempted to find empirical guidance to achieve quantitative fairness. \nTo address this limitation, we propose a fairness-aware sampling method called \\textit{attribute switching} mechanism for diffusion models. Without additional training, the proposed sampling can obfuscate sensitive attributes in generated data without relying on classifiers.\nWe mathematically prove and experimentally demonstrate the effectiveness of the proposed method on two key aspects: (i) the generation of fair data and (ii) the preservation of the utility of the generated data.",
+    "_matched_keywords": [
+      "diffusion models"
+    ]
+  },
+  {
+    "id": null,
+    "title": "iTrendRNN: An Interpretable Trend-Aware RNN for Meteorological Spatiotemporal Prediction",
+    "authors": "Xu Huang, Chuyao Luo, Bowen Zhang, Huiwei Lin, Xutao Li, Yunming Ye",
+    "year": 2024,
+    "venue": "aaai_24_aisi",
+    "areas": [
+      "water_security",
+      "governance"
+    ],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [],
+    "area_agnostic": false,
+    "source_course": "aaai_24_aisi_venue_search",
+    "notes": "The paper applies strong computer science methods to meteorological prediction, which can be adapted to a developing-regions context for better weather forecasting and urban governance.",
+    "link": "https://ojs.aaai.org/index.php/AAAI/article/view/30217",
+    "abstract": "Abstract Accurate prediction of meteorological elements, such as temperature and relative humidity, is important to human livelihood, early warning of extreme weather, and urban governance. Recently, neural network-based methods have shown impressive performance in this field. However, most of them are overcomplicated and impenetrable. In this paper, we propose a straightforward and interpretable differential framework, where the key lies in explicitly estimating the evolutionary trends. Specifically, three types of trends are exploited. (1) The proximity trend simply uses the most recent changes. It works well for approximately linear evolution. (2) The sequential trend explores the global information, aiming to capture the nonlinear dynamics. Here, we develop an attention-based trend unit to help memorize long-term features. (3) The flow trend is motivated by the nature of evolution, i.e., the heat or substance flows from one region to another. Here, we design a flow-aware attention unit. It can reflect the interactions via performing spatial attention over flow maps. Finally, we develop a trend fusion module to adaptively fuse the above three trends. Extensive experiments on two datasets demonstrate the effectiveness of our method.",
+    "_matched_keywords": [
+      "extreme weather"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Where It Really Matters: Few-Shot Environmental Conservation Media Monitoring for Low-Resource Languages",
+    "authors": "Sameer Jain, Sedrick Scott Keh, Shova Chhetri, Karun Dewan, Pablo  Izquierdo, Johanna   Prussmann, Pooja Shrestha, C\u00e9sar Su\u00e1rez, Zheyuan Ryan Shi, Lei Li, Fei Fang",
+    "year": 2024,
+    "venue": "aaai_24_aisi",
+    "areas": [
+      "wildlife_conservation",
+      "media_information"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "climate_change",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "aaai_24_aisi_venue_search",
+    "notes": "The paper engages with a developing-regions context (Nepal and Colombia) and applies computer science fundamentals to address a specific problem in environmental conservation media monitoring.",
+    "link": "https://ojs.aaai.org/index.php/AAAI/article/view/30218",
+    "abstract": "Abstract Environmental conservation organizations routinely monitor news content on conservation in protected areas to maintain situational awareness of developments that can have an environmental impact. Existing automated media monitoring systems require large amounts of data labeled by domain experts, which is only feasible at scale for high-resource languages like English. However, such tools are most needed in the global south where the news of interest is mainly in local low-resource languages, and far fewer experts are available to annotate datasets on a sustainable basis. In this paper, we propose NewsSerow, a method to automatically recognize environmental conservation content in low-resource languages. NewsSerow is a pipeline of summarization, in-context few-shot classification, and self-reflection using large language models (LLMs). Using at most 10 demonstration example news articles in Nepali, NewsSerow significantly outperforms other few-shot methods and can achieve comparable performance with models fully fine-tuned using thousands of examples. With NewsSerow, Organization X has been able to deploy the media monitoring tool in Nepal, significantly reducing their operational burden, and ensuring that AI tools for conservation actually reach the communities that need them the most. NewsSerow has also been deployed for countries with other languages like Colombia.",
+    "_matched_keywords": [
+      "protected areas"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Deploying ADVISER: Impact and Lessons from Using Artificial Intelligence for Child Vaccination Uptake in Nigeria",
+    "authors": "Opadele Kehinde , Ruth Abdul, Bose Afolabi, Parminder Vir, Corinne Namblard, Ayan Mukhopadhyay, Abiodun Adereni",
+    "year": 2024,
+    "venue": "aaai_24_aisi",
+    "areas": [
+      "health"
+    ],
+    "topics": [
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "climate_change",
+      "gender",
+      "caste",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "aaai_24_aisi_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context (Nigeria) and addresses health-related issues, aligning with the 'health' area and 'impact_evaluation' topic.",
+    "link": "https://ojs.aaai.org/index.php/AAAI/article/view/30223",
+    "abstract": "Abstract More than 5 million children under five years die from largely preventable or treatable medical conditions every year, with an overwhelmingly large proportion of deaths occurring in underdeveloped countries with low vaccination uptake. One of the United Nations' sustainable development goals (SDG 3) aims to end preventable deaths of newborns and children under five years of age. We focus on Nigeria, where the rate of infant mortality is appalling. In particular, low vaccination uptake in Nigeria is a major driver of more than 2,000 daily deaths of children under the age of five years. In this paper, we describe our collaboration with government partners in Nigeria to deploy ADVISER: AI-Driven Vaccination Intervention Optimiser. The framework, based on an integer linear program that seeks to maximize the cumulative probability of successful vaccination, is the first successful deployment of an AI-enabled toolchain for optimizing the allocation of health interventions in Nigeria. In this paper, we provide a background of the ADVISER framework and present results, lessons, and success stories of deploying ADVISER to more than 13,000 families in the state of Oyo, Nigeria.",
+    "_matched_keywords": [
+      "vaccination"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Combining Deep Learning and Street View Imagery to Map Smallholder Crop Types",
+    "authors": "Jordi Laguarta Soler, Thomas Friedel, Sherrie Wang",
+    "year": 2024,
+    "venue": "aaai_24_aisi",
+    "areas": [
+      "agriculture"
+    ],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [],
+    "area_agnostic": false,
+    "source_course": "aaai_24_aisi_venue_search",
+    "notes": "The paper applies computer science fundamentals to a problem relevant to developing regions, specifically smallholder farming in Thailand.",
+    "link": "https://ojs.aaai.org/index.php/AAAI/article/view/30225",
+    "abstract": "Abstract Accurate crop type maps are an essential source of information for monitoring yield progress at scale, projecting global crop production, and planning effective policies. To date, however, crop type maps remain challenging to create in low- and middle-income countries due to a lack of ground truth labels for training machine learning models. Field surveys are the gold standard in terms of accuracy but require an often-prohibitively large amount of time, money, and statistical capacity. \nIn recent years, street-level imagery, such as Google Street View, KartaView, and Mapillary, has become available around the world. Such imagery contains rich information about crop types grown at particular locations and times. \nIn this work, we develop an automated system to generate crop type ground references using deep learning and Google Street View imagery. The method efficiently curates a set of street-view images containing crop fields, trains a model to predict crop types using either weakly-labeled images from disparate out-of-domain sources or zero-shot labeled street view images with GPT-4V, and combines the predicted labels with remote sensing time series to create a wall-to-wall crop type map. We show that, in Thailand, the resulting country-wide map of rice, cassava, maize, and sugarcane achieves an accuracy of 93%. We publicly release the first-ever crop type map for all of Thailand 2022 at 10m-resolution with no gaps. To our knowledge, this is the first time a 10m-resolution, multi-crop map has been created for any smallholder country. As the availability of roadside imagery expands, our pipeline provides a way to map crop types at scale around the globe, especially in underserved smallholder regions.",
+    "_matched_keywords": [
+      "remote sensing"
+    ]
+  },
+  {
+    "id": null,
+    "title": "GLH-Water: A Large-Scale Dataset for Global Surface Water Detection in Large-Size Very-High-Resolution Satellite Imagery",
+    "authors": "Yansheng Li, Bo Dang, Wanchun Li, Yongjun Zhang",
+    "year": 2024,
+    "venue": "aaai_24_aisi",
+    "areas": [
+      "water_security"
+    ],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [
+      "climate_change"
+    ],
+    "area_agnostic": false,
+    "source_course": "aaai_24_aisi_venue_search",
+    "notes": "The paper addresses the use of satellite imagery for surface water detection, which can be adapted to a developing-regions context for water security and resource management.",
+    "link": "https://ojs.aaai.org/index.php/AAAI/article/view/30226",
+    "abstract": "Abstract Global surface water detection in very-high-resolution (VHR) satellite imagery can directly serve major applications such as refined flood mapping and water resource assessment. Although achievements have been made in detecting surface water in small-size satellite images corresponding to local geographic scales, datasets and methods suitable for mapping and analyzing global surface water have yet to be explored. To encourage the development of this task and facilitate the implementation of relevant applications, we propose the GLH-water dataset that consists of 250 satellite images and 40.96 billion pixels labeled surface water annotations that are distributed globally and contain water bodies exhibiting a wide variety of types (e.g. , rivers, lakes, and ponds in forests, irrigated fields, bare areas, and urban areas). Each image is of the size 12,800 \u00d7 12,800 pixels at 0.3 meter spatial resolution. To build a benchmark for GLH-water, we perform extensive experiments employing representative surface water detection models, popular semantic segmentation models, and ultra-high resolution segmentation models. Furthermore, we also design a strong baseline with the novel pyramid consistency loss (PCL) to initially explore this challenge, increasing IoU by 2.4% over the next best baseline. Finally, we implement the cross-dataset generalization and pilot area application experiments, and the superior performance illustrates the strong generalization and practical application value of GLH-water dataset. Project page: https://jack-bo1220.github.io/project/GLH-water.html",
+    "_matched_keywords": [
+      "satellite imagery",
+      "semantic segmentation"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Promoting Fair Vaccination Strategies through Influence Maximization: A Case Study on COVID-19 Spread",
+    "authors": "Nicola Neophytou, Afaf Taik, Golnoosh Farnadi",
+    "year": 2024,
+    "venue": "aaai_24_aisi",
+    "areas": [
+      "health"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "aaai_24_aisi_venue_search",
+    "notes": "The paper engages with health disparities and equitable access to healthcare, which is relevant to the health area in developing regions.",
+    "link": "https://ojs.aaai.org/index.php/AAAI/article/view/30234",
+    "abstract": "Abstract The aftermath of the Covid-19 pandemic saw more severe outcomes for racial minority groups and economically-deprived communities. Such disparities can be explained by several factors, including unequal access to healthcare, as well as the inability of low income groups to reduce their mobility due to work or social obligations. Moreover, senior citizens were found to be more susceptible to severe symptoms, largely due to age-related health reasons. Adapting vaccine distribution strategies to consider a range of demographics is therefore essential to address these disparities. In this study, we propose a novel approach that utilizes influence maximization (IM) on mobility networks to develop vaccination strategies which incorporate demographic fairness. By considering factors such as race, social status, age, and associated risk factors, we aim to optimize vaccine distribution to achieve various fairness definitions for one or more protected attributes at a time. Through extensive experiments conducted on Covid-19 spread in three major metropolitan areas across the United States, we demonstrate the effectiveness of our proposed approach in reducing disease transmission and promoting fairness in vaccination distribution.",
+    "_matched_keywords": [
+      "vaccination"
+    ]
+  },
+  {
+    "id": null,
+    "title": "DISCount: Counting in Large Image Collections with Detector-Based Importance Sampling",
+    "authors": "Gustavo Perez, Subhransu Maji, Daniel Sheldon",
+    "year": 2024,
+    "venue": "aaai_24_aisi",
+    "areas": [
+      "water_security",
+      "wildlife_conservation"
+    ],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [
+      "climate_change"
+    ],
+    "area_agnostic": true,
+    "source_course": "aaai_24_aisi_venue_search",
+    "notes": "The paper applies computer science fundamentals that could be adapted to a developing-regions context, such as disaster response and damage assessment in regions struck by natural disasters.",
+    "link": "https://ojs.aaai.org/index.php/AAAI/article/view/30235",
+    "abstract": "Abstract Many applications use computer vision to detect and count objects in massive image collections. However, automated methods may fail to deliver accurate counts, especially when the task is very difficult or requires a fast response time. For example, during disaster response, aid organizations aim to quickly count damaged buildings in satellite images to plan relief missions, but pre-trained building and damage detectors often perform poorly due to domain shifts. In such cases, there is a need for human-in-the-loop approaches to accurately count with minimal human effort. We propose DISCount -- a detector-based importance sampling framework for counting in large image collections. DISCount uses an imperfect detector and human screening to estimate low-variance unbiased counts. We propose techniques for counting over multiple spatial or temporal regions using a small amount of screening and estimate confidence intervals.  This enables end-users to stop screening when estimates are sufficiently accurate, which is often the goal in real-world applications.  We demonstrate our method with two applications: counting birds in radar imagery to understand responses to climate change, and counting damaged buildings in satellite imagery for damage assessment in regions struck by a natural disaster. On the technical side we develop variance reduction techniques based on control variates and prove the (conditional) unbiasedness of the estimators.  DISCount leads to a 9-12x reduction in the labeling costs to obtain the same error rates compared to naive screening for tasks we consider, and surpasses alternative covariate-based screening approaches.",
+    "_matched_keywords": [
+      "satellite imagery"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Self-Supervised Framework Based on Subject-Wise Clustering for Human Subject Time Series Data",
+    "authors": "Eunseon Seong, Harim Lee, Dong-Kyu Chae",
+    "year": 2024,
+    "venue": "aaai_24_aisi",
+    "areas": [
+      "health"
+    ],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [],
+    "area_agnostic": false,
+    "source_course": "aaai_24_aisi_venue_search",
+    "notes": "The paper applies strong computer science methods to time series data, which can be adapted to a developing-regions context for health monitoring and intervention.",
+    "link": "https://ojs.aaai.org/index.php/AAAI/article/view/30240",
+    "abstract": "Abstract With the widespread adoption of IoT, wearable devices, and sensors, time series data from human subjects are significantly increasing in the healthcare domain. Due to the laborious nature of manual annotation in time series data and the requirement for human experts, self-supervised learning methods are attempted to alleviate the limited label situations. While existing self-supervised methods have been successful to achieve comparable performance to the fully supervised methods, there are still some limitations that need to be addressed, considering the nature of time series data from human subjects: In real-world clinical settings, data labels (e.g., sleep stages) are usually annotated by subject-level, and there is a substantial variation in patterns between subjects. Thus, a model should be designed to deal with not only the label scarcity but also subject-wise nature of data to ensure high performance in real-world scenarios. To mitigate these issues, we propose a novel self-supervised learning framework for human subject time series data: Subject-Aware Time Series Clustering (SA-TSC). In the unsupervised representation learning phase, SA-TSC adopts a subject-wise learning strategy rather than instance-wise learning which randomly samples data instances from different subjects within the batch during training. Specifically, we generate subject-graphs with our graph construction method based on Gumbel-Softmax and perform graph spectral clustering on each subject-graph. In addition, we utilize graph neural networks to capture dependencies between channels and design our own graph learning module motivated from self-supervised loss. Experimental results show the outstanding performance of our SA-TSC with the limited & subject-wise label setting, leading to its high applicability to the healthcare industry. The code is available at: https://github.com/DILAB-HYU/SA-TSC",
+    "_matched_keywords": [
+      "self-supervised learning"
+    ]
+  },
+  {
+    "id": null,
+    "title": "HarvestNet: A Dataset for Detecting Smallholder Farming Activity Using Harvest Piles and Remote Sensing",
+    "authors": "Jonathan Xu, Amna Elmustafa, Liya Weldegebriel, Emnet Negash, Richard Lee, Chenlin Meng, Stefano Ermon, David Lobell",
+    "year": 2024,
+    "venue": "aaai_24_aisi",
+    "areas": [
+      "agriculture"
+    ],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [
+      "climate_change"
+    ],
+    "area_agnostic": false,
+    "source_course": "aaai_24_aisi_venue_search",
+    "notes": "The paper engages with a developing-regions context (Ethiopia) and applies computer science fundamentals to a specific problem in agriculture.",
+    "link": "https://ojs.aaai.org/index.php/AAAI/article/view/30251",
+    "abstract": "Abstract Small farms contribute to a large share of the productive land in developing countries. In regions such as sub-Saharan Africa, where 80% of farms are small (under 2 ha in size), the task of mapping smallholder cropland is an important part of tracking sustainability measures such as crop productivity. However, the visually diverse and nuanced appearance of small farms has limited the effectiveness of traditional approaches to cropland mapping. Here we introduce a new approach based on the detection of harvest piles characteristic of many smallholder systems throughout the world. We present HarvestNet, a dataset for mapping the presence of farms in the Ethiopian regions of Tigray and Amhara during 2020-2023, collected using expert knowledge and satellite images, totalling 7k hand-labeled images and 2k ground-collected labels. We also benchmark a set of baselines, including SOTA models in remote sensing, with our best models having around 80% classification performance on hand labelled data and 90% and 98% accuracy on ground truth data for Tigray and Amhara, respectively. We also perform a visual comparison with a widely used pre-existing coverage map and show that our model detects an extra 56,621 hectares of cropland in Tigray. We conclude that remote sensing of harvest piles can contribute to more timely and accurate cropland assessments in food insecure regions. The dataset can be accessed through https://figshare.com/s/45a7b45556b90a9a11d2, while the code for the dataset and benchmarks is publicly available at https://github.com/jonxuxu/harvest-piles",
+    "_matched_keywords": [
+      "remote sensing"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Graph Bayesian Optimization for Multiplex Influence Maximization",
+    "authors": "Zirui Yuan, Minglai Shao, Zhiqian Chen",
+    "year": 2024,
+    "venue": "aaai_24_aisi",
+    "areas": [],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [],
+    "area_agnostic": true,
+    "source_course": "aaai_24_aisi_venue_search",
+    "notes": "The paper applies strong computer science methods to a problem that could be adapted to a developing-regions context, fitting the cs_fundamentals topic rule.",
+    "link": "https://ojs.aaai.org/index.php/AAAI/article/view/30255",
+    "abstract": "Abstract Influence maximization (IM) is the problem of identifying a limited number of initial influential users within a social network to maximize the number of influenced users. However, previous research has mostly focused on individual information propagation, neglecting the simultaneous and interactive dissemination of multiple information items. In reality, when users encounter a piece of information, such as a smartphone product, they often associate it with related products in their minds, such as earphones or computers from the same brand. Additionally, information platforms frequently recommend related content to users, amplifying this cascading effect and leading to multiplex influence diffusion.\n\nThis paper first formulates the Multiplex Influence Maximization (Multi-IM) problem using multiplex diffusion models with an information association mechanism. In this problem, the seed set is a combination of influential users and information. To effectively manage the combinatorial complexity, we propose Graph Bayesian Optimization for Multi-IM (GBIM). The multiplex diffusion process is thoroughly investigated using a highly effective global kernelized attention message-passing module. This module, in conjunction with Bayesian linear regression (BLR), produces a scalable surrogate model. A data acquisition module incorporating the exploration-exploitation trade-off is developed to optimize the seed set further.\nExtensive experiments on synthetic and real-world datasets have proven our proposed framework effective. The code is available at https://github.com/zirui-yuan/GBIM.",
+    "_matched_keywords": [
+      "diffusion models"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Estimating On-Road Transportation Carbon Emissions from Open Data of Road Network and Origin-Destination Flow Data",
+    "authors": "Jinwei Zeng, Yu  Liu, Jingtao Ding, Jian Yuan, Yong Li",
+    "year": 2024,
+    "venue": "aaai_24_aisi",
+    "areas": [
+      "climate_change"
+    ],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [
+      "climate_change"
+    ],
+    "area_agnostic": true,
+    "source_course": "aaai_24_aisi_venue_search",
+    "notes": "The paper applies strong computer science methods to estimate carbon emissions, which can be adapted to a developing-regions context for sustainability development, fitting the cs_fundamentals topic rule.",
+    "link": "https://ojs.aaai.org/index.php/AAAI/article/view/30257",
+    "abstract": "Abstract Accounting for over 20% of the total carbon emissions, the precise estimation of on-road transportation carbon emissions is crucial for carbon emission monitoring and efficient mitigation policy formulation. However, existing estimation methods typically depend on hard-to-collect individual statistics of vehicle miles traveled to calculate emissions, thereby suffering from high data collection difficulty. To relieve this issue by utilizing the strong pattern recognition of artificial intelligence, we incorporate two sources of open data representative of the transportation demand and capacity factors, the origin-destination (OD) flow data and the road network data, to build a hierarchical heterogeneous graph learning method for on-road carbon emission estimation (HENCE). Specifically, a hierarchical graph consisting of the road network level, community level, and region level is constructed to model the multi-scale road network-based connectivity and travel connection between spatial areas. Heterogeneous graphs consisting of OD links and spatial links are further built at both the community level and region level to capture the intrinsic interactions between travel demand and road network accessibility. Extensive experiments on two large-scale real-world datasets demonstrate HENCE's effectiveness and superiority with R-squared exceeding 0.75 and outperforming baselines by 9.60% on average, validating its success in pioneering the use of artificial intelligence to empower carbon emission management and sustainability development. The implementation codes are available at this link: https://github.com/tsinghua-fib-lab/HENCE.",
+    "_matched_keywords": [
+      "open data"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Pre-trained Online Contrastive Learning for Insurance Fraud Detection",
+    "authors": "Rui Zhang, Dawei Cheng, Jie Yang, Yi Ouyang, Xian Wu, Yefeng Zheng, Changjun Jiang",
+    "year": 2024,
+    "venue": "aaai_24_aisi",
+    "areas": [
+      "health"
+    ],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [],
+    "area_agnostic": false,
+    "source_course": "aaai_24_aisi_venue_search",
+    "notes": "The paper applies strong computer science methods to detect insurance fraud, which can be adapted to a developing-regions context under the 'cs_fundamentals' topic rule.",
+    "link": "https://ojs.aaai.org/index.php/AAAI/article/view/30259",
+    "abstract": "Abstract Medical insurance fraud has always been a crucial challenge in the field of healthcare industry. Existing fraud detection models mostly focus on offline learning scenes. However, fraud patterns are constantly evolving, making it difficult for models trained on past data to detect newly emerging fraud patterns, posing a severe challenge in medical fraud detection. Moreover, current incremental learning models are mostly designed to address catastrophic forgetting, but often exhibit suboptimal performance in fraud detection. To address this challenge, this paper proposes an innovative online learning method for medical insurance fraud detection, named POCL. This method combines contrastive learning pre-training with online updating strategies. In the pre-training stage, we leverage contrastive learning pre-training to learn on historical data, enabling deep feature learning and obtaining rich risk representations. In the online learning stage, we adopt a Temporal Memory Aware Synapses online updating strategy, allowing the model to perform incremental learning and optimization based on continuously emerging new data. This ensures timely adaptation to fraud patterns and reduces forgetting of past knowledge. Our model undergoes extensive experiments and evaluations on real-world insurance fraud datasets. The results demonstrate our model has significant advantages in accuracy compared to the state-of-the-art baseline methods, while also exhibiting lower running time and space consumption. Our sources are released at https://github.com/finint/POCL.",
+    "_matched_keywords": [
+      "medical insurance"
+    ]
+  },
+  {
+    "id": null,
+    "title": "UV-SAM: Adapting Segment Anything Model for Urban Village Identification",
+    "authors": "Xin Zhang, Yu  Liu, Yuming Lin, Qingmin Liao, Yong Li",
+    "year": 2024,
+    "venue": "aaai_24_aisi",
+    "areas": [
+      "infrastructure"
+    ],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "aaai_24_aisi_venue_search",
+    "notes": "The paper applies strong computer science methods to a problem relevant to developing regions, focusing on urban villages which are analogous to informal settlements in India and other low-income countries.",
+    "link": "https://ojs.aaai.org/index.php/AAAI/article/view/30260",
+    "abstract": "Abstract Urban villages, defined as informal residential areas in or around urban centers, are characterized by inadequate infrastructures and poor living conditions, closely related to the Sustainable Development Goals (SDGs) on poverty, adequate housing, and sustainable cities. Traditionally, governments heavily depend on field survey methods to monitor the urban villages, which however are time-consuming, labor-intensive, and possibly delayed. Thanks to widely available and timely updated satellite images, recent studies develop computer vision techniques to detect urban villages efficiently. However, existing studies either focus on simple urban village image classification or fail to provide accurate boundary information. To accurately identify urban village boundaries from satellite images, we harness the power of the vision foundation model and adapt the Segment Anything Model (SAM) to urban village segmentation, named UV-SAM. Specifically, UV-SAM first leverages a small-sized semantic segmentation model to produce mixed prompts for urban villages, including mask, bounding box, and image representations, which are then fed into SAM for fine-grained boundary identification. Extensive experimental results on two datasets in China demonstrate that UV-SAM outperforms existing baselines, and identification results over multiple years show that both the number and area of urban villages are decreasing over time, providing deeper insights into the development trends of urban villages and sheds light on the vision foundation models for sustainable cities. The dataset and codes of this study are available at https://github.com/tsinghua-fib-lab/UV-SAM.",
+    "_matched_keywords": [
+      "semantic segmentation"
+    ]
+  }
+]

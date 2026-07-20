@@ -1,0 +1,506 @@
+[
+  {
+    "title": "Welcome from the Conference Chair",
+    "authors": "Behnam Dezfouli",
+    "year": 2021,
+    "link": "https://doi.org/10.1109/GHTC53159.2021.9612516",
+    "doi": "10.1109/GHTC53159.2021.9612516",
+    "abstract": "It is my pleasure to welcome you to the 2021 IEEE Global Humanitarian Technology Conference (GHTC). GHTC has become a flagship annual venue for academics, for-profit and non-profit businesses, and governmental and nongovernmental organizations to identify the present and future humanitarian needs and present their work to create influential, novel, and accessible humanitarian technologies. GHTC is an excellent opportunity to network, share, learn, and establish collaborations to build innovative and accessible humanitarian technologies. The Technical Program Committee has prepared an excellent program to cover a wide range of topics related to humanitarian needs and technologies. These sessions include topics such as Medical Technologies, Role of Web-based Services and Social Media Channels During Global Pandemics, Supporting Stakeholder Engagement in Healthcare Applications, Data Transmission and Communication during Disasters, Off-grid Electrification, Sustainable Grid Technologies, Human-centered Design of Energy Applications, Energy Conversion and Storage for Humanitarian Applications, Technology Adoption in Agriculture, Online Service Learning, Professional Preparation of Social Entrepreneurs. We will have multiple plenary panels on topics related to technologies for healthy aging, sustainable development, and the impact of social media on public health. We also host multiple plenary talks that highlight practical development approaches and present directions to develop technologies for the benefit of humanity.",
+    "skip_reason": "The paper is a conference welcome message and does not engage with any specific developing region context or technical topic as per the rules."
+  },
+  {
+    "title": "Vehicle detection using YOLO and mobility tracking during COVID-19 pandemic lockdowns",
+    "authors": "Marion Ivan L. Tan, Clyde J. Calgo, Sheanne Eric P. Cabantac, Jaime Luis E. Honrado, Nathaniel J. C. Libatique, Gregory L. Tangonan",
+    "year": 2021,
+    "link": "https://doi.org/10.1109/GHTC53159.2021.9612481",
+    "doi": "10.1109/GHTC53159.2021.9612481",
+    "abstract": "Data-driven approaches to traffic monitoring have important applications in tracking vehicle mobility in the COVID-19 pandemic lockdowns. We report preliminary results of a pipeline that uses the You Only Look Once (YOLOv3) and the Simple Online and Realtime Tracking (SORT) algorithms to count and classify vehicles in traffic videos. We correlate vehicle counts in Katipunan Avenue, Metro Manila and Google COVID-19 Community Mobility Reports from May to August 2020 and we show that vehicle detection data may be considered for monitoring community response to changes in COVID-19 lockdown stringency levels.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Understanding COVID-19 Public Sentiment Towards Public Health Policies Using Social Media Data",
+    "authors": "Olivia Figueira, Yuka Hatori, Liying Liang, Christine Chye, Yuhong Liu",
+    "year": 2021,
+    "link": "https://doi.org/10.1109/GHTC53159.2021.9612509",
+    "doi": "10.1109/GHTC53159.2021.9612509",
+    "abstract": "With the outbreak of COVID-19, an overabundance of information related to the virus was released through social media. The disunity amongst US states and the federal government has exacerbated the task of identifying conflicting guidelines and information unaffected by political polarization. Analyzing the public's response to public health policies provides insight into the progression of the pandemic in the US. We gather Twitter, Facebook, and Reddit data and conduct sentiment analysis to determine public sentiment in response to different COVID-19 policies. We found that users had more positive sentiments toward mask policies than to shelter-in-place and fall school reopening policies. Also, we found significant sentiment differences regarding school reopening and mask policies when comparing among several states. Finally, we found that swing states had more conflicting sentiments for policies within their states than did non-swing states. We recommend further research to determine which factors may influence these differences in sentiment.",
+    "skip_reason": "The paper does not substantively engage with a developing-regions context as required by the RULE for all topics except cs_fundamentals."
+  },
+  {
+    "title": "Evaluation of rule-based, CountVectorizer, and Word2Vec machine learning models for tweet analysis to improve disaster relief",
+    "authors": "Radhika Goyal",
+    "year": 2021,
+    "link": "https://doi.org/10.1109/GHTC53159.2021.9612486",
+    "doi": "10.1109/GHTC53159.2021.9612486",
+    "abstract": "Social media platforms, such as Twitter, are being increasingly used by people as a means of requesting help during disaster events. Machine learning techniques can be used to identify tweets containing requests for help and classify them based on the type of aid that is being requested. In this paper, we build and compare three different models to classify tweets requesting aid into the categories \u201cfood,\u201d \u201cwater,\u201d \u201cenergy,\u201d and \u201cmedical\u201d by using the tweet dataset from Hurricane Sandy, which took place in 2012. Our first model uses a rule-based classifier. Our second model is based on the Scikit-learn toolkit's CountVectorizer, and the third model uses the Word2Vec based classifier. We found that the machine learning models based on CountVectorizer and Word2Vec have higher accuracy than the rule-based classifier model. We also show that the model based on Word2Vec provides the highest accuracy among the three models.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "An Approach Towards a Sustainable Urban City - Utilization of Existing Rooftop Solar Energy Panels by Making Use of DC Appliances",
+    "authors": "Ashir Hamim Rifat, Muckbul Hossain, Rifatul Islam Abir, Shoud Noman, Tahmidul Ashraf, A. K. M. Abdul Malek Azad",
+    "year": 2021,
+    "link": "https://doi.org/10.1109/GHTC53159.2021.9612467",
+    "doi": "10.1109/GHTC53159.2021.9612467",
+    "abstract": "As with the growing GDP, the economy of Bangladesh is developing. This economic growth leads the nation to an energy crisis because of the increasing gap between demand and production. Although having infinite possibilities of harnessing solar energy, 90% of the urban rooftop solar panels are idle. The paper aims to propose an urban solar home system (SHS) that will utilize the existing rooftop solar panels and reduce power consumption by using DC appliances. In this paper, the proposed SHS system's design, simulation and performance evaluation are done. A comparative study between AC and DC appliances is also done regarding efficiency, power consumption and feasibility. In the proposed system, DC appliances get power from solar panels and excess solar energy is stored in the battery bank for later use. Moreover, the grid connection is kept as a backup source. Finally, the proposed system eliminates the expensive inverter cost and power loss in the conversion process. The satisfactory simulation result has encouraged us to believe in its effectiveness and efficiency.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Energy-Efficient Programming Languages for Mobile Applications",
+    "authors": "Shashikala Mahadevappa, Silvia Figueira",
+    "year": 2021,
+    "link": "https://doi.org/10.1109/GHTC53159.2021.9612479",
+    "doi": "10.1109/GHTC53159.2021.9612479",
+    "abstract": "Mobile devices, particularly cellular phones, play a significant part in people's lives everywhere. However, people in remote rural areas lack access to power and face power outages, which make it hard for them to charge their devices. Therefore, applications running on these devices must be as energy efficient as possible. In this paper, we analyze how different programming languages affect the energy consumption of applications in mobile devices. Considering that watching videos is one of the most commonly performed and power-hungry activities on mobile devices, we compare the implementation of video operations using three different programming languages: Java, Kotlin, and React Native. We show that the choice of programming language may make an application more energy efficient. Besides, the device model, Android version, and API used all affect battery usage. We also show that not all programming languages yield battery savings when compromising video quality. We believe these results will provide an important insight for application developers on the factors to consider when developing energy-efficient applications for mobile devices.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Application for Measuring Eyelid Weakness in Individuals with Myasthenia Gravis",
+    "authors": "Shixin Qin, Germaine Ng, Hua Lo, Yanzhang Li, Ami Cuneo, Matthew Preston, Nicholas Ames, John Raiti",
+    "year": 2021,
+    "link": "https://doi.org/10.1109/GHTC53159.2021.9612418",
+    "doi": "10.1109/GHTC53159.2021.9612418",
+    "abstract": "Individuals with myasthenia gravis experience abnormal fatigability and weakness of skeletal muscles. Facial symptoms of myasthenia gravis include ptosis (i.e., drooping eyelid) and weakness of eyelid closure. Currently, the Myasthenia Gravis Activities of Daily Living (MG-ADL) scale is used to track several symptoms of myasthenia gravis, including degree of ptosis. However, this and other current methods of measurement of the degree of ptosis are subjective (qualitative) and not quantified. In this study, we proposed a machine learning-based facial measuring application that can quantitatively track and record the degree and rate of ptosis to aid clinicians in diagnosis, as well as help patients track daily symptoms, and in some cases, assess patient response to medication. In the application, facial landmarks are tracked using face detection algorithms. The distance between upper and lower eyelids is calculated based on the contours of detected eyes. To establish a baseline and compare the degree of ptosis over time, we also use the interocular distance to scale the eye droop level. The experimental results show that the proposed smartphone application can measure the degree of ptosis in individuals with myasthenia gravis.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Inexpensive Voice Assisted Smart Eyewear for Visually Impaired Persons in Context of Bangladesh",
+    "authors": "Md. Mahmudul Kabir Peyal, Quazi Md. Ahnaf Ul Haque, Tashfia Tahiat, Sadia Habib, Al Noor, A. K. M. Abdul Malek Azad",
+    "year": 2021,
+    "link": "https://doi.org/10.1109/GHTC53159.2021.9612468",
+    "doi": "10.1109/GHTC53159.2021.9612468",
+    "abstract": "This paper describes the design of affordable smart eyewear for visually impaired people. Among the total population of Bangladesh, a significant number of people are visually impaired. Most of them relied on others which makes life challenging. They lag behind their fellow mates in terms of academic perspective. To help these people, the proposed system can play a vital role in today's world. Through this smart eyewear, visual input will convert into the audible signal by a Raspberry Pi 4B. Convolutional neural network (CNN) has been introduced to classify objects. Moreover, Optical character recognition (OCR) is available for recognizing Bangla and English text. Using speech recognition API users may able to control electrical gadgets and communicate with caregivers through a mobile app. In the research, we focused on running multiple complex algorithms on a Raspberry Pi in an optimized way and found satisfactory result which can be an affordable solution for developing country like Bangladesh.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Effat\u00e1: Obstacle Identification System to help the Blind in Urban Displacement",
+    "authors": "Lukas Bergengruen, Diego Dur\u00e1n, Rafael Sotelo",
+    "year": 2021,
+    "link": "https://doi.org/10.1109/GHTC53159.2021.9612497",
+    "doi": "10.1109/GHTC53159.2021.9612497",
+    "abstract": "This paper presents Effat\u00e1, a product developed to help blind people walk safer and with greater ease on urban roads. The system uses a Deep Learning algorithm to detect obstacles in the user's vicinity through image detection on a Raspberry Pi 4 connected to two cameras. Once detected, the obstacle's relative position and distance to the user is estimated and informed through 3D sound via bone conduction (open-ear) headphones. The detection cycle takes 0.7 secs. Initial feedback from users, indicates that this solution has proven to be of great aid for blind people when walking through unknown sidewalks. The result product provides the user with a better understanding of surrounding objects, providing a greater sense of safety and independence.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Network Hazard Flow for Multi-Tiered Discriminator Analysis Enhancement with Systems- Theoretic Process Analysis",
+    "authors": "Acklyn Murray, Danda B. Rawat",
+    "year": 2021,
+    "link": "https://doi.org/10.1109/GHTC53159.2021.9612416",
+    "doi": "10.1109/GHTC53159.2021.9612416",
+    "abstract": "Network hazard flow and malware protection is a point of concern for many large organizations and there is a problem of insufficient readiness of the used protection tools against information threat. Disaster preparedness for autonomous infrastructure is complex and embedded with unknown Risks. The conditions of hazard flow and malware protection are even worse in small and medium enterprises, educational institutes, and governmental networks. The present study is based on a trade-off analysis of hazards and malware protection by using a modified version of the System Theoretical Process Analysis (STPA) methodology. The study is aimed to highlight the analysis of hazards, use of STPA features for hazard analysis, and possible alternate methodologies for hazard analysis linked to botnet intrusions. Modern malware and security threats are strong enough to overcome the traditional anti-virus software. The novel model is a hybrid of prediction Generative Adversarial Network (GAN) and cyclic ingestion with unique monitoring engine features for enhancing the identification, system resiliency, and overall performance. Performance evaluation shows that the proposed approach results in better detection over the state-of-the-art botnet detection.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Fixing Mobile Emergency Call Geo- Location Once and For All",
+    "authors": "Ghassan Al-Nuaimi, Matthew Lloyd, Hlekiwe Kachali, Saeed Ur Rehman, Paul Gardner-Stephen",
+    "year": 2021,
+    "link": "https://doi.org/10.1109/GHTC53159.2021.9612463",
+    "doi": "10.1109/GHTC53159.2021.9612463",
+    "abstract": "Accurate geolocation fix for an emergency call can make the difference between life and death, by reducing the time required to bring assistance to the caller. The problem is that only selected phones and selected networks support the efficient and effective conveying of location information during an emergency call. In this paper we describe a simple and achievable intervention to enable smartphones to convey accurate and time-stamped location information to emergency call operators. This consists of providing a button on the emergency call screen that causes the phone to provide its location to the call operator. This works by using text-to-speech to read out a GPS-obtained location for the phone over the open telephone call. In this way, the location can be provided to the emergency call operator, even if the call centre is not equipped with Advanced Mobile Location (AML) or an equivalent technology. A DTMF-based mechanism is also proposed to allow an emergency call centre operator to request a caller's location, supplemented by a dead-man's pedal mechanism, so that location can be obtained even when a caller becomes unresponsive. Further, the intervention requires only modest changes to smart-phone operating software, and is thus highly feasible to implement.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "NetSkylines: Digital Twins for Evaluating Disaster Communication",
+    "authors": "Tobias Meuser, Lars Baumg\u00e4rtner, Benjamin Becker",
+    "year": 2021,
+    "link": "https://doi.org/10.1109/GHTC53159.2021.9612413",
+    "doi": "10.1109/GHTC53159.2021.9612413",
+    "abstract": "Thoroughly evaluating new communication mechanisms for emergency communication is a necessity prior to deployment. This evaluation is often heavily dependent on specialized movement patterns, ranging from purely random over highly scenario specific to real-world traces. The latter being usually the most realistic, but also hard to realize for many different scenarios. Furthermore, the generation of the movement patterns and integration in a network simulation is often a nontrivial task for experts, involving various specialized tools. Thus, professional responders, that quickly want to model a scenario relevant for them and afterwards evaluate technical solutions in this setting, will fail. In this paper, we present a novel framework to utilize an accessible city building game to build a digital twin and generate movement traces in large scale. This can be used to easily model different scenarios, what-if analyses, and also simulate different disasters. Moreover, we provide tools and easy integration of these traces into various network simulators and emulation environments. Therefore, evaluation of disruption-tolerant networking protocols or mesh setups becomes much easier.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Designing a LoRa-based Smart Helmet to Aid in Emergency Detection by Monitoring Bio-signals",
+    "authors": "Marcus Choi, Guanting Li, Ross Todrzak, Qian Zhao, John Raiti, Paul Albee",
+    "year": 2021,
+    "link": "https://doi.org/10.1109/GHTC53159.2021.9612483",
+    "doi": "10.1109/GHTC53159.2021.9612483",
+    "abstract": "The smart helmet is designed for a wildland firefighter to send vital data to their supervisor while they are working to extinguish an active fire. The smart helmet collects temperature, heart rate, and acceleration data from each firefighter via sensors inside and around the helmet. The data is used to alert the supervisor of potential health or emergency issues, such as heat-related illness, dehydration, potential falls or abnormal heart rates. A mobile app that the supervisor connects to their smart helmet device collects data in real time from the firefighters, without the need of any cellular coverage or WiFi.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "DeLorean Energy: The potential of Asynchronous V2G Fleets as Peak Shaving Units",
+    "authors": "Jordan Randleman, Chris Pitterle, Pranav Rao, Arjun Chimni, Navid Shaghaghi",
+    "year": 2021,
+    "link": "https://doi.org/10.1109/GHTC53159.2021.9612447",
+    "doi": "10.1109/GHTC53159.2021.9612447",
+    "abstract": "DeLorean Energy, defined by the authors as the aggregate storage capacity of an Electric Vehicle (EV) fleet available as spinning reserves for power grid services such as peak shaving and frequency regulation, is dependent on the battery capacity of every individual EV in the aggregate. Since battery capacity is dependent on battery size, battery degradation, minimum state of charge, and battery temperature, the effectiveness of an asynchronous Vehicle to Grid (V2G) fleet operated as a power grid peak shaving unit has historically been reviewed as possible, but economically nonviable. However, due to today's reduced battery costs, peak shaving with an asynchronous EV fleet operated in ideal conditions can be economically viable, and even profitable, especially if the EV's minimum state of charge and the ambient temperature are low. As battery prices continue to decrease and as discharging is better managed, battery degradation costs can also further decrease. This, as modeled in this paper, makes peak shaving using DeLorean Energy an increasingly viable solution for addressing peak loads while simultaneously generating profit for those participating in the system.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "A New Approach to Developing Community Solar Projects for LMI Communities in ERCOT's Competitive Electricity Markets",
+    "authors": "Tam Kemabonta, Erick C. Jones, Dana Harmon, Jason Pittman",
+    "year": 2021,
+    "link": "https://doi.org/10.1109/GHTC53159.2021.9612482",
+    "doi": "10.1109/GHTC53159.2021.9612482",
+    "abstract": "The development of Community Solar (CS) projects across the United States has increased in the last decade because of benefits like the reduction in the cost of solar and the avoidance of upfront capital costs common for standalone solar home systems (SHS). Many communities, cities and states have turned to CS projects to meet their climate action plans, renewable energy portfolios, and sustainability goals. CS projects can also be used to reduce energy bills for low-to-moderate income (LMI) communities. This is not the case in Texas. Due to the unique characteristics of the Texas electricity market, deploying CS projects can prove difficult. In this paper we discuss some of these characteristics. We also introduce and discuss a new community solar (CS) model that focuses on increasing under resourced, underrepresented and LMI income communities' access to clean energy technologies while reducing their high energy burdens in the process in the competitive ERCOT electricity markets in Texas.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Investigation of the Electric Power System for San Cristobal Island in the Galapagos Archipelago",
+    "authors": "Nicole Fronsdahl, Pritpal Singh",
+    "year": 2021,
+    "link": "https://doi.org/10.1109/GHTC53159.2021.9612472",
+    "doi": "10.1109/GHTC53159.2021.9612472",
+    "abstract": "This study evaluates the current power system on San Cristobal Island in the Galapagos archipelago off the coast of Ecuador and investigates increasing the penetration of renewable resources to produce electricity for the island. This research is motivated by the Ecuadorian governments' goal of achieving 100% renewable energy generation across the islands. The islands currently produce only 16% of their electricity from renewable resources and the remaining 84 % is generated with diesel fuel. Environmental concerns including carbon emissions, oil transportation, and environmental protection of conservation lands are the main drivers for adopting renewable sources. The islands do not consume a large amount of electricity, but there are infrastructure challenges and small micro grid stabilization issues to consider to prevent environmental degradation and reduce reliability concerns with variable energy resources. This study evaluates the current generation mix for San Cristobal Island, evaluates the renewable energy potential, develops a model for the power system using MATLAB/Simulink and provides a two step renewable energy implementation plan to achieve 100% renewable energy coverage on the islands using a combination of solar, wind, and biofuels.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Condition Monitoring of Electric Vehicle Drives deployed in Rural Electric Transportation",
+    "authors": "Adil Usman, Bharat Singh Rajpurohit, Muhammad Safeer Khan, Michael Akbar",
+    "year": 2021,
+    "link": "https://doi.org/10.1109/GHTC53159.2021.9612414",
+    "doi": "10.1109/GHTC53159.2021.9612414",
+    "abstract": "This paper reports the State of Health (SOH) estimation techniques for the Electric Vehicle (EV)or battery-operated drives widely deployed in rural electric transportation. For the healthy operation of an EV drive system, it is vital to continuously monitor its SOH to give early warning of the fault conditions. Fault diagnosis of the EV is accomplished through monitoring of information/signatures obtained in terms of voltage $(v)$ and current (i) for EV battery charging or Battery Management System (BMS). In addition, the information obtained from the mechanical drive unit of an EV in terms of magnetic flux $(\\psi)$ and motor back-EMF $(E_{B})$ is used to comprehensively estimate its SOH. Other signatures such as acoustic noise/vibrations are also explored in the present study as new emerging techniques for condition monitoring of EVs. The health monitoring techniques are based on machine quantities which are measured using cost effective sensors to estimate the performance of an EV drive. The study is also relevant for effective health monitoring of rural electric transportation systems.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Demonstration of low-cost EEG system providing on-demand communication for locked-in patients",
+    "authors": "Dongho Koo, Hernan F. Herrera Polanco, Michael Cross, Yeon Hee Rho, Nicholas Ames, John Raiti",
+    "year": 2021,
+    "link": "https://doi.org/10.1109/GHTC53159.2021.9612454",
+    "doi": "10.1109/GHTC53159.2021.9612454",
+    "abstract": "Humans with severe speech and motor impairments, such as those with locked-in syndrome, experience difficulty initiating communication with caregivers. Without the ability to press a button or vocalize their requests, they must rely on in-person caregivers to anticipate their needs and communicate through eye movements or expensive and difficult to maintain systems. In this feasibility study, our research demonstrates that low-cost hardware including a consumer-grade, dry electrode EEG headset can be used to detect customizable blink patterns to send notifications to a caregiver's smartphone anywhere with an internet connection. This restores the patient's ability to communicate on-demand and when their caregiver is not physically present in the same room. Low-cost equipment also improves access for monetarily constrained situations.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "A Low-cost, Automated, Portable Mechanical Ventilator for Developing World",
+    "authors": "Saad Pasha, Eesha Tur Razia Babar, Jack Schneider, John Heithaus, Muhammad Mujeeb-U.-Rahman",
+    "year": 2021,
+    "link": "https://doi.org/10.1109/GHTC53159.2021.9612508",
+    "doi": "10.1109/GHTC53159.2021.9612508",
+    "abstract": "A large portion of world's population, especially in developing world, gets affected by the respiratory diseases. Often these patients need a medical device called a ventilator for assistance with their breathing. The ventilator is an expensive and complicated equipment and is often unavailable to patients, leading to severe complications and mortality. In this paper, we present a system that automates the use of a conventional bag valve mask (BVM) and regulates its operation to mimic the response of an ICU Ventilator for life saving applications. The system consists of motorized actuators, sensors, valves and a control system to achieve controlled volume ventilation. This paper presents system design and implementation techniques for this low-cost design. The system has been tested extensively using ventilator testers and is being developed into a product for use in under-resourced settings.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Improving the Use of Surgical Suction Pumps in Sierra Leone",
+    "authors": "Asja Mucha, Jan Henk Dubbink, Stefan Persaud, Adithyan Senthil Athiban, Jan Carel Diehl",
+    "year": 2021,
+    "link": "https://doi.org/10.1109/GHTC53159.2021.9612501",
+    "doi": "10.1109/GHTC53159.2021.9612501",
+    "abstract": "95% of the medical devices available in LMICs are second hand, refurbished devices donated by Western countries, out of which 70% terminate obsolete within a year, due to lack of maintenance staff, appropriate spare parts and consumables, and financial constraints. Unavailable consumables hinder Masanga Hospital's surgical suction pump performance, posing risks to the patients, the medical staff, and the surrounding environment. This project aims to improve the access and performance of the existing suction pump and prolong its operability by leveraging locally available resources, without the need to redesign the device completely. Research on surgical suction, the context of use, and the users helped define the envisioned pump performance and identify contextual implications on the current use, limitations, and opportunities to improve the suction pump. Key insights were translated into safety and embodiment requirements, leading to a design solution for local 3D printing of reusable, watertight medical tubing connectors. The project will be continued for further development of a method for 3D printing of medical consumables and additional testing is planned in Masanga.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Heart Lung Health Monitor: Remote At-Home Patient Surveillance for Pandemic Management",
+    "authors": "Shereena Shaji, Rahul Krishnan Pathinarupothi, Ekanath Srihari Rangan, K. A. Unnikrishna Menon, Maneesha Vinodini Ramesh",
+    "year": 2021,
+    "link": "https://doi.org/10.1109/GHTC53159.2021.9612511",
+    "doi": "10.1109/GHTC53159.2021.9612511",
+    "abstract": "The COVID-19 pandemic has brought about an unprecedented shift towards Telehealth since physicians are overwhelmed by the huge patient load in hospitals. This has forced policy makers to advise home quarantine for mild and moderate COVID patients. Additionally, even non-COVID patients with diabetes and cardiovascular or pulmonary diseases who do not need hospitalization are currently being monitored at home for any changes in their severity that may require a home to hospital transfer. Our research team has developed an Internet of Medical Things wearable Heart Lung Health monitor for patients with cardiovascular and pulmonary risk factors so as to enable hospitals to remotely track patient health status. Our system consists of a credit-card sized wearable 3-lead ECG device interfaced with smartphone that analyzes ECG and extracts heart and respiratory parameters, and transmits these to a dashboard for remote monitoring. We present the architecture, device, respiratory rate extraction algorithm, and its validation on 50 patients. Encouraged by these results we are readying deployment of our system for home monitoring of at-risk patients.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Clinical Investigation as an Iteration Tool for the Design of Low-Risk Medical Devices: A Case Study of an IV Drip Monitoring System",
+    "authors": "Kavyashree Venkatesh, Deval Karia, Manish Arora",
+    "year": 2021,
+    "link": "https://doi.org/10.1109/GHTC53159.2021.9612491",
+    "doi": "10.1109/GHTC53159.2021.9612491",
+    "abstract": "The design of a medical device comprises multiple stages, beginning with task clarification, and followed by conceptual design, embodiment design, detailed design, testing, and a clinical study. Involvement of stakeholders at every stage is essential for translating an idea into a usable product. In this work, we adopt a \u2018user-in-the-loop\u2019 approach to Engineering Design (ED), to explore the use of clinical investigation as an iteration tool. An IV drip monitoring system designed for resource-constrained settings, proposed in our earlier work, is used as a case study to illustrate this. A basic prototype was investigated at multiple clinical settings with requisite approvals. Device operation by clinicians was observed, which elicited embodiment, ergonomic and human-machine interface related issues. While establishing device efficacy, the investigation also gathered significant inputs for subsequent design stages. The adopted approach ensures that only validated designs proceed to the next stage. However, this can only be undertaken for low-risk medical devices with appropriate precautions.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "AI-Based Crop Rotation for Sustainable Agriculture Worldwide",
+    "authors": "Julius Sch\u00f6ning, Mats L. Richter",
+    "year": 2021,
+    "link": "https://doi.org/10.1109/GHTC53159.2021.9612460",
+    "doi": "10.1109/GHTC53159.2021.9612460",
+    "abstract": "Artificial intelligence (AI) and sustainability. Two words not commonly used in the context of crop rotation management. However, simple AI-based expert systems supporting farms' decision-making for optimizing crop rotation might be the key to solving most of the UN sustainable development goals worldwide. The essence of AI-based crop rotation and farm management is that it works with nature-not against it! Thus, the AI -based expert system needs to solve the multidimensional optimization tasks of maximizing the diversity of crops that match the local soil, local climate condition, the needs of the livestock, and any available machinery. Next to the option task, the expert system had to argue its decision-making basis since the goal is to get the most sustainable farming with the most profitable crop yield, not to get the largest yield. The expert systems' user interface (UI) should broaden thinking habits, opting for new sustainable farming perspectives. This paper will introduce both the technical architecture and the user-in-the-loop (UIL) principle of such an expert system. Since our system is still in the conceptional phase, we argue design decisions and address open research questions needed to implement such an expert system.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Optimal Deployment Planning to Maximize Coverage of Agricultural Operations with Effective Resource Utilization",
+    "authors": "Swagatam Bose Choudhury, Sanat Sarangi, Srinivasu Pappula",
+    "year": 2021,
+    "link": "https://doi.org/10.1109/GHTC53159.2021.9612462",
+    "doi": "10.1109/GHTC53159.2021.9612462",
+    "abstract": "In organised precision agriculture setups, one has to take time-bound action aligned with the crop phase over a large area of cultivation with a fixed set of resources. A significant fraction of this is often the human resources that need to be deployed for various daily activities. For crops such as tea, quality of harvested leaf is usually better with hand-plucking than mechanised-harvesting. In order to ensure resources are utilized effectively, it is essential to plan daily movement and quantum of work of human resources keeping various constraints in view like working hours in a day and the need to cover the entire area of interest within a fixed duration. We propose an algorithm to carry out optimal coverage planning towards efficient operations in order to significantly boost harvesting efficiency, reduce production cost and increase the crop quality. Multiple parameters over a period like the number of workers, daily working time, minimum yield per day, and safe harvesting interval are used to arrive at the optimal coverage plan that effectively mirrors the practical scenarios in managing large plots. For a component of coverage planning that involves finding optimal routes, a comparison with various approaches to address the Travelling Salesman Problem (TSP) is carried out to recommend the most suitable option. Farm scenarios are then defined to simulate and compare OCP with a randomised coverage approach and performance improvements on various metrics are discussed.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Digital Display Recognition towards Connected Sensing Systems for Precision Agriculture",
+    "authors": "Sanket Junagade, Prachin Jain, Sanat Sarangi, Srinivasu Pappula",
+    "year": 2021,
+    "link": "https://doi.org/10.1109/GHTC53159.2021.9612477",
+    "doi": "10.1109/GHTC53159.2021.9612477",
+    "abstract": "Many sensing systems deployed in the field and factories have limited communication interfaces to transfer the data they generate to a central hub or gateway. Sometimes, it is an active legacy system that has not been upgraded in a long time. While in other cases, the system has limited communication interfaces by design to limit costs. In the precision agriculture value-chain, sensing systems range widely from low-cost frugal COTS handheld devices on the field to those in the crop and commodity processing unit in the factory. A common thread we observe in these systems is the presence of a simple or complex layout of a seven-segment digital display. Accurate digital display recognition is not without its challenges given the range of devices, displays, and other operational constraints where a recognition system to be scalable would be expected to generalize well across all devices while giving reliable outputs for each. We present our results with some typical displays we encounter in the precision agriculture scenarios where performance with available OCR systems is compared with proposed approaches. We propose to transform such scenarios where display information captured as images is reliably converted into measurements used to generate actionable insights in real-time.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Global STEM Education through e-Service Learning in the Time of COVID-19: A Case Study",
+    "authors": "Grace Ngai, Kenneth W. K. Lo, Stephen C. F. Chan, Shuheng Lin",
+    "year": 2021,
+    "link": "https://doi.org/10.1109/GHTC53159.2021.9612510",
+    "doi": "10.1109/GHTC53159.2021.9612510",
+    "abstract": "COVID-19 has brought about a lot of disruption, and education was one of the areas that was very significantly impacted. In many places in the world, students and teachers were forced to learn or teach online, oftentimes with very little preparation, in other places, schools shut down altogether and students' learning was interrupted. In this paper, we describe a case study that attempts to alleviate some of these challenges through an online STEM workshop series. Focus group studies were used to inform the design of the workshops, which were run as part of a service-learning program, incorporated student-directed, tangible learning, virtual experiential learning alongside theoretical content delivery to complement the formal curriculum. We present evaluation information as well as lessons learned for future similar endeavours.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Reconceptualizing Online Experiential Learning: Case Study of a Tele-engineering Project",
+    "authors": "Shuheng Lin, Kenneth W. K. Lo, Grace Ngai, Stephen C. F. Chan, Artemis M. L. Kuo, Anson C. Wong",
+    "year": 2021,
+    "link": "https://doi.org/10.1109/GHTC53159.2021.9612493",
+    "doi": "10.1109/GHTC53159.2021.9612493",
+    "abstract": "This case study illustrates the design of an international engineering Service-Learning project adapted for a hybrid-mode implementation, where the academic learning takes part mostly online and the service component entirely online. We share lessons learned from the experience with the online teaching community and Service-Learning practitioners on how technology can be leveraged for civically engaged teaching and learning online with innovative lesson planning, even for hands-on engineering projects.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Upgrading the Digital Intranet in the Galapagos Islands",
+    "authors": "Javier Urquizo, Olivia Lajeunesse, Paige Bonvallet, Michael Carrigan, Nathaly Simuy S\u00e1nchez Chan, Pritpal Singh, David Lansdale, C\u00e9sar A. Martin",
+    "year": 2021,
+    "link": "https://doi.org/10.1109/GHTC53159.2021.9612443",
+    "doi": "10.1109/GHTC53159.2021.9612443",
+    "abstract": "This paper describes further upgrades made to an existing Intranet system developed on Raspberry Pi servers to host offline educational resources in the Galapagos Archipelago. The project's goal was to ensure that users of the intranet are provided with reliable education services and to continue developing upon the ideal of sustainability in the Galapagos Islands. This paper reports on including additional services and infrastructure to extend its access to the broader community. The upgraded services include videoconferencing, an email server, and chat features. These were successfully implemented for more accessible communication and collaboration among students and teachers. Furthermore, the consolidation of the current software running on multiple Raspberry Pi's to one shared ProLiant server and segmentation using separate virtual machines was achieved to provide increased security and smoother and more robust server performance. The potential applications for the system and their impacts are also explored.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "The Impact of the Deaf Community on Student Learning in a Service-learning Study Abroad Experience",
+    "authors": "Nusaybah Abu-Mulaweh, William C. Oakes",
+    "year": 2021,
+    "link": "https://doi.org/10.1109/GHTC53159.2021.9612458",
+    "doi": "10.1109/GHTC53159.2021.9612458",
+    "abstract": "With an ever-changing world that is becoming more globalized, it is important that we are preparing our students to meet the needs of this world. To design effectively, engineers need to understand their diverse users. Exposure to different communities and centering design projects in real-world contexts, like in service-learning, can help students gain the experience they need for the real-world. This study focuses on the perceived learning of students who experienced a study abroad within a service-learning design program. Analysis of their written culminating reflections indicates they are learning about the social impact they can have on the world around them, that meeting diverse communities provides deeper understanding, and the importance of fully understanding the user in design firsthand. These results are important because they inform practitioners of service-learning how to provide learning experiences that enrich students and prepare them for the real-world.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Peer and Non-Peer Academic Scientists and Peer Support Specialist Community of Practice: Stakeholder Engagement to Advance the Science of Peer Support",
+    "authors": "Karen L. Fortuna, Mbita Mbao, Arya Kadakia, Amanda Myers, Daniel Fischer, Sandi MacDonald, Sheila Brunchet, Iga Hintz, Rebecca Rossom, Jessica Brooks, Joseph Kalisa, Claver Haragirimana, Marianne Storm, George Mois, Emre Umucu, Margaret Almeida, Jennifer Rivera, Yaara Zisman Ilani, Maria Venegas, Robert Walker",
+    "year": 2021,
+    "link": "https://doi.org/10.1109/GHTC53159.2021.9612411",
+    "doi": "10.1109/GHTC53159.2021.9612411",
+    "abstract": "Community of Practice, a community-engagement method that encourages a group of people to interact regularly towards a common goal, may promote satisfying experiences in patient-outcomes research among marginalized populations. Peer support specialists are increasingly being involved in peer-informed mental health research due to their lived experiences of mental illness and are an asset in co-designing healthcare programs along with researchers. In 2015, ten scientists and ten mental health service users joined as a Community of Practice that trained to engage in patient-centered outcomes research. The group has so far has presented at 20 conferences, published three book chapters and 30 peer-reviewed publications, and developed two smartphone applications. Of note are the co-production of a smartphone application, a digital peer support certification program, an app decision support tool, and an instrument to assess the value of patient-research partnerships. Future research will assess the feasibility of incorporating more stakeholders to enhance research outcomes.",
+    "skip_reason": "The paper does not substantively engage with a developing-regions context as required by the rules for all topics except 'cs_fundamentals'."
+  },
+  {
+    "title": "Stakeholders' Perspectives on Partnering to Inform the Software Development Lifecycle of Smartphone Applications for People with Serious Mental Illness: Enhancing the Software Development Lifecycle Through Stakeholder Engagement",
+    "authors": "Marianne Storm, Maria Venegas, Alyssa Gocinski, Amanda Myers, Jessica Brooks, Karen L. Fortuna",
+    "year": 2021,
+    "link": "https://doi.org/10.1109/GHTC53159.2021.9612444",
+    "doi": "10.1109/GHTC53159.2021.9612444",
+    "abstract": "Serious mental illness (SMI) is a leading disability worldwide. Partnering with people with SMI to co-produce smartphone apps to support mental health outcomes throughout the software development lifecycle may support patient engagement with smartphone health app interventions. Partnering with this community is often challenging and requires a highly specialized community engagement training and skillset. The purpose of this study was to identify stakeholders' perspectives on partnering to inform the software development lifecycle of a smartphone health app intervention for people with SMI. We conducted thirty-five semi-structured qualitative interviews with 20 mental health patients and 15 peer support specialists. We identified six themes: (1) co-produce health app intervention content; (2) selection of app technology features; (3) integration of human factors in digital health apps; (4) consideration of personalized patient preferences in digital health apps; (5) identify unrecognized concerns early in the software development lifecycle; and (6) inclusion of real-world social, cognitive, and environmental contexts. Integration of these considerations may elucidate the partnering process to facilitate engagement among vulnerable populations that commonly disengage from mental health smartphone apps use such as people with SMI.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Designing an interactive real-time web-mapped dashboard to visualise conflict ceasefires data over COVID-19 infection rates: facilities and the way ahead",
+    "authors": "Devanjan Bhattacharya, Sanja Badanjak, Christine Bell, Fiona Kn\u00e4ussel, Laura Wise, John Allison, Benjamin Bach",
+    "year": 2021,
+    "link": "https://doi.org/10.1109/GHTC53159.2021.9612457",
+    "doi": "10.1109/GHTC53159.2021.9612457",
+    "abstract": "In March 2020, the UN Secretary General issued a call for a global ceasefire to help tackle the COVID-19 pandemic. This call was expected to result in a variety of responses from governments, diplomats, armed groups, NGOs, humanitarian actors, and mediators. Since these organizations are typically focused on specific countries and contexts, it was important to provide them and researchers of conflict and peacemaking dynamics with clear, concise, and well-presented data on the full variety of conflict parties' responses to the UNSG's call, the COVID-19 pandemic and to track the impacts of the pandemic on attempts to end armed conflict. Our tracker, called \u2018Ceasefires in a time of COVID-19\u2019 supports these efforts and SDG 16, i.e., promotion of just, peaceful, and inclusive societies. It features a timeline, an interactive map, and a search tool that displays qualitative data about the ceasefires and related events. This tool is unique in its application, bringing together ceasefires declarations and the COVID-19 infection rates from the Johns Hopkins COVID-19 database, and in its design, with input from the academic and practitioner communities. In this paper, we further describe the methodology used in designing the tool and argue in favor of broad interdisciplinary and cross-industry participation in dataset and user interface design, in order to reflect the requirements of the interested publics.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Lessons learnt from deploying an IoT sensing system for e-Agriculture in South Africa",
+    "authors": "Yemisi Oyedele, Phumla Dlamini, Darelle van Greunen, Tinashe Chizema",
+    "year": 2021,
+    "link": "https://doi.org/10.1109/GHTC53159.2021.9612465",
+    "doi": "10.1109/GHTC53159.2021.9612465",
+    "abstract": "One of the initiatives contributing to meeting the agricultural needs of farmers, particularly in the underserved communities in resource-constrained environments, is the Leap Agri project. This paper presents one of the outcomes from the Leap Agri project, specifically an Internet of Things (IoT) system which consists of Leap Agri Farmer and Leap Agri Sensor applications, as well as the lessons learnt during the initial stages of the prototyping of the sensing system in a South African environment. The paper sought to provide an answer to the research question which is \u201cwhat are the lessons learnt during the early stage of the adaptation of an IoT-based mobile system for e-Agriculture in a South African environment?\u201d. The observed experience of assembling the IoT sensing system is described in this paper. From the observations, several lessons are deduced to inform future exploration of the Leap Agri applications and the sensing box.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Towards Building a Data-Driven Framework for Climate Neutral Smart Dairy Farming Practices",
+    "authors": "Mohit Taneja, Nikita Jalodia, Behnam Dezfouli",
+    "year": 2021,
+    "link": "https://doi.org/10.1109/GHTC53159.2021.9612417",
+    "doi": "10.1109/GHTC53159.2021.9612417",
+    "abstract": "Climate change is one of the biggest challenges facing agriculture as we must produce food to feed a growing global population. According to Food and Agriculture Organization (FAO) of the United Nations, the world population is expected to be 9.2 billion by 2050, and consequently the food demand will be increased by 70%. To cope with these increasing demands, the food production also needs to increase by at least 50\u201370 % to its current capacity by 2050. Improving production efficiency on farms and minimizing greenhouse gas (GHG) emissions is an ongoing and active research area. The article is a work-in-progress presentation of our ongoing efforts in the direction of building an all-encompassing framework towards less GHG intensive climate-neutral farming practices. The dairy sector within agriculture is being used for validation and experimentation, with cows as the centrepiece, and the farmers as the stakeholders that will be the ultimate actors for sustainable environmental impact from the improved farming practices in place. The work also focuses on measuring the behavioural changes of farmer(s) for adoption of technology. The envisioned end goal is to build an overarching toolkit and framework for effective knowledge sharing. The article starts with a brief contextual introduction, followed by key considerations, challenges and identified research questions that need to be addressed and evaluated at a wider level in the research community to build the desired framework at a global scale.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "UAV 3D-Draping System for Sharing Situational Awareness from Aerial Imagery Data",
+    "authors": "Toru Yamanouchi, Go Urakawa, Shigeru Kashihara",
+    "year": 2021,
+    "link": "https://doi.org/10.1109/GHTC53159.2021.9612450",
+    "doi": "10.1109/GHTC53159.2021.9612450",
+    "abstract": "In emergency operations for fire service (e.g., fire, disaster, search and rescue), an Unmanned Aerial Vehicle (UAV) is highly expected to make an outstanding contribution to grasp the situations of disasters or incidents from aerial imagery data. At present, imagery data is generally provided as each photo and video, and then the practitioners understand them based on their land sense and experiences. That is, it depends on the individual ability. In order to make efficient activities from aerial imagery data, a system that anyone can quickly grasp a situation from them is required. The paper proposes a UAV 3D-draping system that readily shares situational awareness from aerial imagery data. The key feature is to enable situational awareness without land sense and experience by draping the imagery data with location information to a 3D Geographic Information System (GIS). It also gives an easy operation to use onsite. Through a demonstration, the paper illustrates that the prototype system can effectively provide a 3D map for sharing situational awareness through imagery data recorded by multiple UAVs.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Calling Ground Support: Cooperative DTNs for Improved Aerial Monitoring Systems",
+    "authors": "Julian Zobel, Tobias Meuser, Ralf Steinmetz",
+    "year": 2021,
+    "link": "https://doi.org/10.1109/GHTC53159.2021.9612500",
+    "doi": "10.1109/GHTC53159.2021.9612500",
+    "abstract": "Unmanned Aerial Vehicles (UAV) are very well suited to support long-range communication between intermittent local clusters of Delay- and Disruption-Tolerant Networks (DTN) in a disaster. However, knowledge on the disaster scenario must be gathered initially to be able to install such a system in the first place. For that, UAVs as part of an Aerial Monitoring System are deployed to assess the situation and collect information on the location of devices and the topology of the DTN itself. A comprehensive overview requires a significant effort for detailed monitoring, since each device in the DTN must be detected by the UAVs. In this paper, we introduce cooperative behavior in the DTN to collect information on the ground and sharing it with UAVs in the air. Evaluation results indicate that by calling ground support, the Aerial Monitoring System can reduce the area coverage while simultaneously increase the overall monitoring efficiency.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Academic Social Entrepreneurship in Higher Education and its Impact on Students Entering the Workforce",
+    "authors": "Erica Blaze, Nicole Cingolani, Adira Nair, Nick Vescera, John Gershenson",
+    "year": 2021,
+    "link": "https://doi.org/10.1109/GHTC53159.2021.9612469",
+    "doi": "10.1109/GHTC53159.2021.9612469",
+    "abstract": "The number of university programs embracing the field of social entrepreneurship is rising as people realize its value and impact. A typical university program exposes students to this field through immersive experiential learning and real-world experience working towards launching a social venture. The programs combine aspects of anthropology, business, and engineering with a focus on understanding customers' problems and their culture to co-develop a feasible solution. While these programs support students who plan on pursuing social entrepreneurship or a related field, the skills gained through these programs help students succeed in all job sectors. This paper explores the impact of participating in a social entrepreneurship program on a student after college through the experiences of several graduates from the Humanitarian Engineering and Social Entrepreneurship Program at Penn State. Using an alumni survey to assess student learnings skill retention, the goal was to understand how relevant they are to the work they're doing currently. The data collected reflects positively on the HESE program and social entrepreneurship programs in general, as many of the skills gained proved incredibly beneficial after graduation. Programs like HESE should be a priority for all universities, imparting students with a motivation and skillset for change.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Recent Advances in Socially Relevant Computing: Status and Perspectives",
+    "authors": "Acklyn Murray, Danda B. Rawat",
+    "year": 2021,
+    "link": "https://doi.org/10.1109/GHTC53159.2021.9612514",
+    "doi": "10.1109/GHTC53159.2021.9612514",
+    "abstract": "Socially relevant computational techniques emphasize the utilization of computational technology for providing solutions for personal and societal problems. It provides opportunities to show that computer science is a modern discipline that provides intellectual and technical resources for solving meaningful, global issues. SRC discloses a new framework that assists to identify, design, model tasks, and implementing computer-based solutions that have a deep understanding and align with real-time problems. The SRC, with the best intentions, is expected to produce an insightful entrepreneurial, and more versatile trained computer scientist, by focusing on problem-solving and by providing practice to individuals in identifying vital resources and engineering solutions through computation. In this survey, we present recent advances in Socially Relevant Computing (SRC). Furthermore, we present major milestones of socially relevant computing efforts.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Humanitarian Technologists as Prototypical V-Shaped Professionals",
+    "authors": "Daniel B. Oerther",
+    "year": 2021,
+    "link": "https://doi.org/10.1109/GHTC53159.2021.9612473",
+    "doi": "10.1109/GHTC53159.2021.9612473",
+    "abstract": "A decade of success for the Institute of Electrical and Electronic Engineers (IEEE) Global Humanitarian Technology Conference (GHTC) points to the need to consider important ontological questions, such as, \u201cwhat does it mean to be employed in the occupation of humanitarian technologist?\u201d To answer this important question, definitions of humanitarianism as well as I-shaped, T-shaped, and V-shaped professionals are provided, and an occupation description following the format used by the United States Bureau of Labor Statistics is proposed. Implications for prototypical V-shaped descriptions of humanitarian technologists are described, including how convergence can be used to solve complex problems that meet societal needs such as disaster response, disaster risk reduction, and sustainable development. In this article, it is proposed that the work of humanitarian technologists supports the welfare of individuals and the public through a fair allocation of emergency and preventative resources, which contribute to global sustainable development.",
+    "skip_reason": "The paper does not substantively engage with a developing-regions context as required by the rules for all topics except cs_fundamentals."
+  },
+  {
+    "title": "Attributes Based Ranking and Selection of Vending Carts using Fuzzy TOPSIS",
+    "authors": "Suraj Bhat, Subir Kumar Saha, Vinay Gupta",
+    "year": 2021,
+    "link": "https://doi.org/10.1109/GHTC53159.2021.9612513",
+    "doi": "10.1109/GHTC53159.2021.9612513",
+    "abstract": "Vending carts are used for street vending in most of the developing nations around the world. In this work, we have studied the different types of vending carts being used by vendors and proposed an approach to select the vending cart best suited for the purpose. Various attributes of the cart that directly affect the vendor have been identified, and Fuzzy TOPSIS method has been used to illustrate how the alternatives can be ranked based on the opinions of multiple decision makers.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Offloading an Energy-Efficient IoT Solution to the Edge: A Practical Solution for Developing Countries",
+    "authors": "Gibson Kimutai, Alexander Ngenzi, Said Rutabayiro Ngoga, Anna F\u00f6rster",
+    "year": 2021,
+    "link": "https://doi.org/10.1109/GHTC53159.2021.9612420",
+    "doi": "10.1109/GHTC53159.2021.9612420",
+    "abstract": "Agriculture contributes to the economies of many developing countries. Tea is the most popular crop in Kenya as it contributes majorly to her economy. Among the various stages of processing tea, fermentation is the most important as it determines the final quality of the processed tea. Presently, the process of monitoring is done manually by tea tasters by tasting, smelling, and touching tea which compromises the quality of tea. In this paper, a deep learner dubbed \u201cTeaNet\u201d is deployed in Edge and Fog environments for real-time monitoring of tea fermentation. We power the system using a Photovoltaic (PV) energy source to overcome the challenge of unreliable power supply from the grid. Further, the energy consumption of the solution is reduced by applying duty cycling, where idle components are designed to sleep. We used the Analysis of variance (ANOVA) and Post-hoc for data analysis. From the results, Edge registered the lowest latency compared to the Cloud and Fog environments. During deployment of the energy-optimized model, 50.6559Wh amount of energy was saved. This study recommends that the task offloading model proposed in this study be explored in offloading tasks in other fields.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Optimization of Generational Grain Spawn and Mushroom Production In Tropical Environments",
+    "authors": "Asgar Ali, David Tauman, Belle Sullivan, Khanjan Mehta",
+    "year": 2021,
+    "link": "https://doi.org/10.1109/GHTC53159.2021.9612488",
+    "doi": "10.1109/GHTC53159.2021.9612488",
+    "abstract": "Mushrooms possess a high level of nutrients and can be a robust way to generate year-round income for low-resource farmers. However, specific humidity levels, temperature, light exposure, and nourishment necessary for optimal growth can be difficult to attain in low-resource settings. A series of experiments were conducted to observe how nutrition, inoculation rate, light, and heat exposure affect the growth of Pleurotus ostreatus (Oyster) mushrooms. It was determined that a 1:1 hay to straw ratio was optimal for nutrition while a 1:1 spawn to substrate ratio provided the highest inoculation rate. This ratio is higher than the common inoculation rate of 7% and should be used if the availability of mycelium is not an issue. For temperature, exposing the spawn to a temperature range of 80 to 82 \u00b0F for 8 hours yields the fastest mycelial growth. Exposure to light 6\u20138 inches away from the spawn accelerates mycelial propagation.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Data to Donations: Towards In-Kind Food Donation Prediction across Two Coasts",
+    "authors": "Esha Sharma, Lauren B. Davis, Julie S. Ivy, Min Chi",
+    "year": 2021,
+    "link": "https://doi.org/10.1109/GHTC53159.2021.9612484",
+    "doi": "10.1109/GHTC53159.2021.9612484",
+    "abstract": "Our goal in this work is to build effective yet robust models to predict unreliable and inconsistent in-kind donations at both weekly and monthly levels for two food banks across coasts: the Food Bank of Central Eastern North Carolina in North Carolina and Los Angeles Regional Food Bank in California. We explore three factors: model, data length, and window type. For the model, we evaluate a series of classic time-series forecasting models against the state-of-the-art approaches such as Bayesian Structural Time Series modeling (BSTS) and deep learning models; for the data length, we vary training data from 2 weeks to 13 years; for the window type, we compare sliding vs. expanding. Our results show the effectiveness of different models heavily depends on the data length and the window type as well as characteristics of the food bank. Motivated by these findings, we investigate the effectiveness of employing an average of all predictions formed by considering all three factors at both monthly and weekly levels for both food banks. Our results show that this average of predictions significantly and consistently outperforms all classical models, deep learning, and BSTS for the donation prediction at both monthly and weekly levels for both food banks.",
+    "skip_reason": "The paper does not substantively engage with a developing-regions context as required by the rules for all topics except cs_fundamentals."
+  },
+  {
+    "title": "Ground Clutter Mitigation and Insect Signature Detection for Polarimetric C-Band Doppler Weather Radar",
+    "authors": "Fidele Maniraguha, Anthony Vodacek, Emmanuel Ndashimye, Gerard Rushingabigwi",
+    "year": 2021,
+    "link": "https://doi.org/10.1109/GHTC53159.2021.9612449",
+    "doi": "10.1109/GHTC53159.2021.9612449",
+    "abstract": "Weather radar returns can come from meteorological targets as well as non-meteorological targets. In general, radar echoes in clear air are caused by insects, dust, birds, and other particles large enough to return some power to the radar. Ground clutter, on the other hand, is a significant source of contamination for weather radar data and can prevent the extraction of relatively weak clear air echoes from insects, for example. To mitigate ground clutter contamination, this work demonstrates a Ground Clutter Mitigation Decision (GCMD) and scan strategy using topographic information from a digital elevation model (DEM) to determine beam blockage. The radar coverage area is classified into three categories: regions that are fully blocked, partially blocked, and unblocked. These regions are used to validate the GCMD algorithm and output clutter map pattern. With clutter mitigation, the potential for the Meteo Rwanda Polarimetric weather radar to detect and monitor insect signatures is discussed through analysis of polarimetric parameters (Z, ZDR and \u03c1HY) for clear area daytime case studies. Insect signatures are postulated for observations collected by Meteo Rwanda C-Band Polarimetric weather radar on 26\u201327 March 2021 after sunrise.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Escaping the Dead Zone: a Bottleneck in Humanitarian Ionospheric Radio Communications",
+    "authors": "Ben A. Witvliet",
+    "year": 2021,
+    "link": "https://doi.org/10.1109/GHTC53159.2021.9612415",
+    "doi": "10.1109/GHTC53159.2021.9612415",
+    "abstract": "High Frequency (HF) radio communications are used in humanitarian work in areas where local networks are non-existent, or destroyed by natural disaster or human conflict. Direct point-to-point communications are realized over long distances, independent of local networks, using the ionosphere as a natural high-altitude reflector. HF ionospheric radio is essential for humanitarian organizations delivering basic healthcare in poor and remote areas. Normally, with proper frequency planning, ionospheric radio will easily connect all field teams in a contiguous area with a radius of 200\u2013400 km. However, in recent years humanitarian organizations reported a \u201cDead Zone\u201d that occurs at a short distance from the base, with good reception at larger distances. This local communication blackout causes a security hazard to the field crews. This paper investigates the phenomenon, and makes an inventory of its possible causes and drivers.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "coreemu-lab: An Automated Network Emulation and Evaluation Environment",
+    "authors": "Lars Baumg\u00e4rtner, Tobias Meuser, Bastian Bloessl",
+    "year": 2021,
+    "link": "https://doi.org/10.1109/GHTC53159.2021.9612475",
+    "doi": "10.1109/GHTC53159.2021.9612475",
+    "abstract": "Developing new solutions for challenging communication environments requires extensive testing in various different scenarios. While discrete-event network simulators scale well, their main use is in evaluating specific algorithms and not necessarily assessing the real-world performance of an actual application. In contrast, full network emulation is a costly but more realistic way to perform an evaluation. These types of evaluation provide more valuable insights for both developers and users. Nevertheless, oftentimes the wheel is reinvented to provide a newly written simulation environment for a specific networking software or handwritten evaluation and reporting scripts for common metrics. Unfortunately, the downside of customized solutions is potential oversights regarding important metrics, and later finding out various problems when deploying the software in the field. In this paper, we present coreemu-lab, a novel framework that automates the process of orchestrating different monitoring services in an emulated, lightweight networking environment. This includes simulated mobility, automated data collection, and analysis of common metrics. It is specifically designed for the evaluation of resilient, decentralized communication software in challenging, mobile scenarios. Our evaluation shows the flexibility and ease of use of our proposed multi-platform, open-source solution.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Is Social Diversity Related to Misinformation Resistance? An Empirical Study on Social Communities",
+    "authors": "I Chang, Orion Sun, Jasper Sang Ahn, Yuhong Liu",
+    "year": 2021,
+    "link": "https://doi.org/10.1109/GHTC53159.2021.9612455",
+    "doi": "10.1109/GHTC53159.2021.9612455",
+    "abstract": "Online misinformation has become a pervasive issue that threatens to disrupt humanitarian efforts during times of crisis by overloading the public discourse with conflicting information and sowing distrust in credible sources. While every individual is susceptible to misinformation, social media groups tend to have clusters of individuals with similar levels of misinformation resistance. The goal of this research is to examine the correlation between the diversity characteristics of social media groups and the groups' misinformation resistance. This project utilizes the CrowdTangle API, a tool to gather data from Facebook groups, along with machine learning models, to generate quantitative measures of different types of diversity in Facebook groups and their correlation with misinformation resistance. We were able to find correlations between some diversity metrics with misinformation resistance, which may be useful knowledge for future research on ways to counteract the impact of misinformation.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Kashmiri Hamam: An Exploration of Technical Design Within Traditional Architecture and Culture",
+    "authors": "Sabahat Sakinah, Mahshida Hamid, Paarth Chopra, Afshan Anjum Baba, Asad H. Sahir, Daniel J. Sweeney",
+    "year": 2021,
+    "link": "https://doi.org/10.1109/GHTC53159.2021.9612496",
+    "doi": "10.1109/GHTC53159.2021.9612496",
+    "abstract": "Hamam is a culturally important architectural feature of homes and mosques in the Kashmir Valley of India that has deep roots in Islamic religion and culture. Culturally, Hamam is a gathering place for families and visitors, and a space for individuals to participate in prayer and purification rituals. Functionally, Hamam is a room within a home in which the subfloor is hollow and is comprised of a wood-fired furnace to generate heat which is conducted through the floor, warming the space and occupants in the Hamam. Trained Kashmiri artisans construct and maintain the Hamam according to longstanding traditions. The Hamam is one of several traditional means that Kashmiris use for space and self heating during the winter season. This paper investigates the needs and preferences of Hamam users through mixed-method interviews, computational modeling and physical measurement. The results of this research include household needs and preference regarding their Hamam, and measurements and MATLAB simulation to characterize the thermal behavior of Hamam. The methods used included installing specific temperature and humidity sensors to record the temperature and then comparing the results with the help of MATLAB.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "A theory of change for cleaner cooking: building a health belief model for service design starting with the slums of Kathmandu",
+    "authors": "Brita Fladvad Nielsen, Paras Khanal",
+    "year": 2021,
+    "link": "https://doi.org/10.1109/GHTC53159.2021.9612489",
+    "doi": "10.1109/GHTC53159.2021.9612489",
+    "abstract": "A new theory of change is needed for cleaner cooking. Indoor cooking on three stone fires is a practice that is harmful to both people and planet: causing an increasing number of fatalities and destroyed forests. Yet humanitarian, international, and national efforts to transition to cleaner fuels are so far unsuccessful. This short paper proposes a new and transdisciplinary approach; one that deeply seeks to understand the women end-user and community perspective and opportunity for change. We will start by investigating the link between quality of life indicators, health impact of indoor air pollutants and local strategies in the slums of Kathmandu. This data collection will contribute to the development of a Health Belief Model (HBM): a model that considers people own role in creating change. This combination of data collection and HBM can help us understand how women and communities can be approached to trigger the needed behavioral change. Describing the end user perspective in a more holistic manner will further contribute to create service blueprints showing how existing service systems can integrate stove introduction programs with existing public health programs. The model creation will be followed with stove introduction for clean and affordable fuel use.",
+    "skip_reason": "DUPLICATE of existing 'ghtc_2021_a_theory_of_change_for_cleaner' (score=1.00)"
+  },
+  {
+    "title": "Analysis of Agricultural Waste Briquettes as a Sustainable Charcoal Substitute in Kenyan Markets",
+    "authors": "Xiaochen Yuan, John Gershenson",
+    "year": 2021,
+    "link": "https://doi.org/10.1109/GHTC53159.2021.9612499",
+    "doi": "10.1109/GHTC53159.2021.9612499",
+    "abstract": "In Kenya, overdependence on wood has caused a deforestation ban to preserve natural resources, but this has put a strain on people's energy sources, especially for cooking charcoal. There is a need to manufacture a sustainable, clean burning, cheap, and appropriate charcoal-substitute to fill this market gap. Certain agricultural waste and byproducts such as sugarcane bagasse and corn cobs could be pyrolyzed to make a viable alternative charcoal briquette based on their fixed carbon values. The feasibility of a local venture producing these briquettes was analyzed for Kenya, and for other Sub-Saharan African countries. It was determined that only Eswatini's charcoal demand could be completely met with their agricultural waste. Although Kenya's charcoal demand could not be completely met with agricultural waste, various sectors within the market could be fulfilled, with restaurants and poultry farms being able to fully transition to bio-waste briquettes, 76% of rural households, 73% of schools, and 60% of urban households. An estimation of the cost of briquette production was performed with sugarcane bagasse as the only feedstock. While the briquettes cannot be priced as pre-deforestation ban levels of KSh 85, ventures can be profitable at an acceptable selling price of KSh 87.63 per 4 kg tin.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Micro-controllers, Sunlight, and Educators from Two Continents: The Genesis of Mutually Beneficial Techno-cultural Relations",
+    "authors": "Geraldine Light, Jorge Santiago-Aviles, Aavo Reinvald, Tashweena Herramun, Meredith Bolen, Promise Adebayo-Ige, Erin Brown",
+    "year": 2021,
+    "link": "https://doi.org/10.1109/GHTC53159.2021.9612412",
+    "doi": "10.1109/GHTC53159.2021.9612412",
+    "abstract": "To showcase the versatility of combining the use of a single-board computer with a microprocessor such as a Raspberry Pi device to access Open Educational Resources (OER) content provided by a Remote Area Community Hotspot for Education and Learning (RACHEL) server, LCDs, printers, and scanners, all of them powered by photovoltaic (PV) technology with energy stored in high energy density and safe LiFePO4 batteries, a group from various Academic Institutions in the United States embarked in the formation of a trans-national team composed of computer scientists, electrical engineers, experienced teachers, and academic administrators, to enable young Rwanda students to enjoy the same amount and quality of teaching of relevant information through versatile digital means as an equivalent group in the USA, but at a substantially reduced cost and sustainable in remote location.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "ClassRoute: An English to Punjabi Educational Video Translation Pipeline for Supporting Punjabi Mother-Tongue Education",
+    "authors": "Navid Shaghaghi, Smita Ghosh, Raghav Kapoor",
+    "year": 2021,
+    "link": "https://doi.org/10.1109/GHTC53159.2021.9612485",
+    "doi": "10.1109/GHTC53159.2021.9612485",
+    "abstract": "Information Communication Technology (ICT) permeates almost every aspect of our daily lives and has become one of the most important priorities for formal and informal education. However, many people particularly those in least developed countries, are unable to reap the benefits due to lack of access to ICT but also due to lack of access to quality educational material. Additionally, in Punjab India, due to a shortage of resources and lack of infrastructure, the education system suffers from massive gaps including high student to teacher ratios, shortage of qualified teachers, and poor teacher training programs. This all has also been further exacerbated due to the COVID19 Pandemic as schools shut down globally and all teaching/learning activities moved online where possible or were canceled otherwise. In an effort to help relieve some of the burden on the Punjabi education system, and motivated by the proven efficiency of mother-tongue based education as well as the importance of visual-based learning, this paper introduces a pipeline for translating English educational videos into Punjabi equivalents which seeks to go beyond simple translation and in future iterations take into consideration the cultural needs of the learners in order to better connect them with the topics being taught. This pipeline is among a series of under construction pipelines aimed at translating English educational videos into other languages, dubbed as ClassRoute.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Investigating the Economic Feasibility of Community-Scale Plastic Recycling Facilities",
+    "authors": "Susan Cheng, Laura Marsiglio, Kelly Mulvaney, Brian Slocum, Donald Morris, Ganesh Balasubramanian, Khanjan Mehta",
+    "year": 2021,
+    "link": "https://doi.org/10.1109/GHTC53159.2021.9612502",
+    "doi": "10.1109/GHTC53159.2021.9612502",
+    "abstract": "The increasing severity of global plastic waste crisis calls for the need to investigate the feasibility of alternate recycling approaches, particularly in low and middle-income countries such as the Philippines where people's livelihoods are reliant on affordable single-use goods. Low recycling rates in these countries illustrate the inability of their recycling infrastructure to handle the rate at which plastic waste is being generated. A new approach to recycling plastics, specifically community-scale plastic recycling facilities, has the potential to divert significant plastic waste from landfills and repurpose them into higher-value products that would be sold to boost the local economy. The community-scale approach investigated in this study is an attractive investment opportunity for entrepreneurs due to the short-term Return On Investment (ROI) with the potential return rate of 15.3% in one year, which is nearly double the rate a person would receive upon investing in the Philippines stock market. This study examines the economic feasibility of a community-scale recycling system in the setting of the Philippines with a focus on the manufacturing process and the scale of machinery.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Fuzzy Logic Based MPT Algorithm for Reconfigurable Photovoltaics",
+    "authors": "Rakeshkumar V. Mahto, Nate Ruppert, Aaron Nguyen, Gaurav Kalotra",
+    "year": 2021,
+    "link": "https://doi.org/10.1109/GHTC53159.2021.9612451",
+    "doi": "10.1109/GHTC53159.2021.9612451",
+    "abstract": "The number of fire-related incidents is increasing worldwide, which affects the local economy and environment. A terrestrial-based fire detection system that continuously monitors the essential environment parameters such as smoke, temperature, carbon monoxide, and others is one of the most effective ways to identify an occurrence of fire at infancy stages. A hybrid of battery and CMOS embedded photovoltaics (PV) will be an ideal candidate to power such a system. In this paper, fuzzy logic based model to reconfigure the PV module for maximum power transfer (MPT) to the battery is presented. To model and simulate the fuzzy logic system, we use Simulink MATLAB. The results of the system are shown to be effective in matching the load requirement with power generated, thereby maximizing the power transfer to the battery.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "A Prototype Small Utility-Scale Joint Vertical Axis Wind Turbine and Solar Energy System (VAWT/SES) to Provide Water Pumping in Remote Areas of Uganda",
+    "authors": "Jacquelynne Hern\u00e1ndez, Samuel Roberts-Baca, Gabriel Gurul\u00e9",
+    "year": 2021,
+    "link": "https://doi.org/10.1109/GHTC53159.2021.9612495",
+    "doi": "10.1109/GHTC53159.2021.9612495",
+    "abstract": "In the Republic of Uganda, it is estimated that nearly 28 million people lack access to clean and safe drinking water [1]. The authors developed a model by performing multiple linear regression using predictors air temperature, irradiance, and wind speeds in two rural areas to determine the suitability of a proposed system to assist. The system consists of a commercial grade vertical axis wind turbine (VAWT) with embedded solar cells capable of providing water pumping and small-scale electricity generation. A suite of equations was used alongside the regression models to determine how to adjust the mechanical properties of the turbine such that the solar and wind energy function as mutually redundant drivers for both a small-scale electricity generator and water pumping system. The results are consistent with the following: solar output variation of 20% (from 4.5 to 5.5 W/m2) [2], [3]; 3.7 m/s to 6m/sec require to operate the turbine; and water pumped at the rate of 3748.54 ft-lbs to 42314.72 ft-lbs per hour. The primary researcher for this project has applied for and received a provisional patent to advance the VAWT/SES technology. This year a utility patent was filed to move the complete energy renewal system toward commercialization.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Mobile Application to Distribute Water Quality and Weather Information in Rural Nicaragua",
+    "authors": "Angela Musurlian, Allan Baez Morales, Rachael Freitag, Alexa Grau, Justin Ling, Sarah Ortiz-Jones, Greta Seitz",
+    "year": 2021,
+    "link": "https://doi.org/10.1109/GHTC53159.2021.9612505",
+    "doi": "10.1109/GHTC53159.2021.9612505",
+    "abstract": "The ability to access accurate information about water quality and weather is something that many people take for granted, but in small, rural communities in northern Nicaragua this information is not easily accessible to everyone. Currently, weekly in-person meetings are held to distribute information such as water quality, weather conditions, and other important agricultural updates to the communities. However, technological limitations still prevent Nicaraguan farmers from getting updates in real-time. In this paper, we describe an Android app that allows the delivery of this kind of information to farmers in a real-time way. This mobile application has the potential to improve the lives of many local farmers and communities in northern rural Nicaragua.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  }
+]

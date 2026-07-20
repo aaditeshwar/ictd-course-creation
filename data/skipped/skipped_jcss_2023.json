@@ -1,0 +1,92 @@
+[
+  {
+    "title": "How Viable are Energy Savings in Smart Homes? A Call to Embrace Rebound Effects in Sustainable HCI",
+    "authors": "Christina Bremer, Harshit Gujral, Michelle P. Lin, Lily Hinkers, Christoph Becker, Vlad C. Coroama",
+    "year": 2023,
+    "link": "https://doi.org/10.1145/3608115",
+    "doi": "10.1145/3608115",
+    "abstract": "As part of global climate action, digital technologies are seen as a key enabler of energy efficiency savings. A popular application domain for this work is smart homes. There is a risk, however, that these efficiency gains result in rebound effects, which reduce or even overcompensate the savings. Rebound effects are well-established in economics, but it is less clear whether they also inform smart energy research in other disciplines. In this paper, we ask: to what extent have rebound effects and their underlying mechanisms been considered in computing, HCI and smart home research? To answer this, we conducted a literature mapping drawing on four scientific databases and a SIGCHI corpus. Our results reveal limited consideration of rebound effects and significant opportunities for HCI to advance this topic. We conclude with a taxonomy of actions for HCI to address rebound effects and help determine the viability of energy efficiency projects.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "VibWall: Smartphone's Vibration Challenge-response for Wall Crack Detection",
+    "authors": "Wei Sun",
+    "year": 2023,
+    "link": "https://doi.org/10.1145/3616387",
+    "doi": "10.1145/3616387",
+    "abstract": "As the building ages, the wall structure may become deteriorated (e.g., wall cracks, discontinuities, and corrosion) due to the variation of the environment (i.e., temperature and humidity). Moreover, these wall cracks, discontinuities, and corrosion will affect the living comfort and coziness. As such, the wall health diagnostic becomes crucial for the safety and comfort of modern buildings. However, the existing wall health detection techniques (e.g., UWB radars, acoustic sensing, and sensor embedding techniques) are high-cost, not ubiquitous, and not robust to the variation of the environment. In this article, we propose VibWall, a system that can use the smartphone\u2019s sensors (i.e., accelerometer, gyroscope, and vibrator) to detect the wall\u2019s structural health. Specifically, the wall cracks can be detected for living safety, comfort, and coziness. Our key idea is that the smartphone\u2019s vibration is absorbed, reflected, and propagated disparately based on the physical structure of the wall. To be specific, we employ a novel challenge-response scheme, where the challenge is a sequence of heterogeneous vibration patterns from the smartphone\u2019s vibrator, and the responses to these vibrations are sensed by the smartphone\u2019s gyroscope and accelerometer sensors. Then, the machine learning-based classifier (e.g., random forest classifier) will be used to discriminate between the healthy wall and the wall with cracks, discontinuities, or corrosion based on these responses. Our experimental results show good performance on the wall\u2019s structural health detection with the wall specimen and real-world walls.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Exploring the Barriers and Potential Opportunities of Technology Integration in Community-Based Social Service Organizations",
+    "authors": "Oghenemaro Anuyah, Ann-Marie Conrado, Clinton Carlson, Hope Gilbride, Ronald A. Metoyer",
+    "year": 2023,
+    "link": "https://doi.org/10.1145/3610720",
+    "doi": "10.1145/3610720",
+    "abstract": "Community-based social service organizations often face multifaceted challenges, including limited resources, inadequate staffing, funding constraints, and high demand for their services. These challenges are often exacerbated when serving vulnerable communities with complex social needs. Despite these difficulties, technology holds the potential to help bridge the service gap, enabling these organizations to respond more effectively to the diverse needs of their communities. In our work, we conducted 21 semi-structured interviews with representatives from different community-based social service organizations in a mid-sized city in Northern Indiana. This city struggles with high rates of poverty and homelessness in several of its neighborhoods. Our findings revealed that although these organizations faced numerous technological challenges, data and knowledge management was a particularly significant issue. Based on our findings, we offer design recommendations for empowering community-based social service organizations and the people they serve through technology. By leveraging the capabilities of technology, our study aims to promote social justice by assisting community-based organizations in better serving their communities.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "A First Look into Software Security Practices in Bangladesh",
+    "authors": "Ankit Shrestha, Tanusree Sharma, Pratyasha Saha, Syed Ishtiaque Ahmed, Mahdi Nasrullah Al-Ameen",
+    "year": 2023,
+    "link": "https://doi.org/10.1145/3616383",
+    "doi": "10.1145/3616383",
+    "abstract": "Software security practices are critical in minimizing vulnerabilities and protecting unauthorized access to the code and the system. However, software security practices outside Western countries need to be better understood. This need for understanding security practices is further necessitated by the increased outsourcing of software development that can result in vulnerabilities on a global scale. This article addresses this gap, focusing on Bangladesh, a country that represents a booming software industry in the Global South. In this study, we conducted semi-structured interviews with 15 developers to understand their security perceptions and identify the factors influencing software security practices in Bangladesh. Our findings unpack how security fits in the local software development life cycle and shed light on the challenges deterring security practices in Bangladesh. Based on our results, we provide recommendations for developing situated and sustainable strategies to support software security practices in the local context.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Designing for Educational Resilience to Reduce School Dropout: A Case Study of Namibian San Learners",
+    "authors": "Rosetha Kays, Naska Goagoses, Heike Winschiers-Theophilus",
+    "year": 2023,
+    "link": "https://doi.org/10.1145/3616389",
+    "doi": "10.1145/3616389",
+    "abstract": "School dropout amongst minority groups is a serious problem worldwide. Focusing on educational resilience can offer a novel beneficial approach to overcome the challenge. In this paper, we focus on San learners in Namibia, gaining a deeper understanding of the adversities they face resulting in school dropout, and identifying personal and environmental factors that promote the development of educational resilience. Narrative interviews were conducted with ten San who completed secondary school and ten who dropped out of school, to identify challenges and factors. Rich picture sessions with twelve primary learners were used to identify current challenges. Based on an in depth analysis of the local adversities, a mobile digital application was designed, deploying a role model approach with local content. This empirical study provides a contribution to local technology design for social and mental well-being as part of a holistic solution for resilience building among marginalized learners.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Flamingo: Environmental Impact Factor Matching for Life Cycle Assessment with Zero-shot Machine Learning",
+    "authors": "Bharathan Balaji, Venkata Sai Gargeya Vunnava, Nina Domingo, Shikhar Gupta, Harsh Gupta, Geoffrey Guest, Aravind Srinivasan",
+    "year": 2023,
+    "link": "https://doi.org/10.1145/3616385",
+    "doi": "10.1145/3616385",
+    "abstract": "Consumer products contribute to more than 75% of global greenhouse gas (GHG) emissions, primarily through indirect contributions from the supply chain. Measurement of GHG emissions associated with products is a crucial step toward quantifying the impact of GHG emission abatement actions. Life cycle assessment (LCA), the scientific discipline for measuring GHG emissions, estimates the environmental impact associated with each stage of a product from raw material extraction to its disposal. Scaling LCA to millions of products is challenging as it requires extensive manual analysis by domain experts. To avoid repetitive analysis, environmental impact factors (EIFs) of common materials and products are published for use by LCA experts. However, finding appropriate EIFs for even a single product under study can require hundreds of hours of manual work, especially for complex products. We present Flamingo, an algorithm that leverages natural language machine learning (ML) models to automatically identify an appropriate EIF given a text description. A key challenge in automation is that EIF databases are incomplete. Flamingo uses industry sector classification as an intermediate layer to identify when there are no good matches in the database. On a dataset of 664 products, our method achieves an EIF matching precision of 75%.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Characterizing Swiss Alpine Lakes: from Wikipedia to Citizen Science",
+    "authors": "Yuanhui Lin, Daniel Gatica-Perez",
+    "year": 2023,
+    "link": "https://doi.org/10.1145/3617128",
+    "doi": "10.1145/3617128",
+    "abstract": "Within the scope of a citizen science project that aims at understanding the ecological impact of climate change on bacteria communities in Swiss alpine lakes, we designed and implemented an interactive information platform using data collected from Wikipedia, project-specific data, and other sources. By presenting information about Swiss alpine lakes in an interactive way, the goal of the platform is to raise awareness among the public about the state of Swiss alpine lakes, and ultimately to contribute to the conservation of these ecosystems by engaging citizens. Volunteers were invited to use and assess the platform, by answering questions about alpine lake facts and platform usability. The results show that users can accurately extract factual information from the platform. User feedback was also used to improve the platform functionalities. Finally, an online crowdsourcing activity for lake polygon drawing was conducted to enrich the Swiss alpine lake database with this information. The results show that users can implement this task with high quality.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "A Friend in Need Is a Friend Indeed: Investigating the Quality of Training Data from Peers for Auto-generating Empathetic Textual Responses to Non-Sensitive Posts in a Cohort of College Students",
+    "authors": "Ravi Sharma, Jamshidbek Mirzakhalov, Pratool Bharti, Raj Goyal, Trine Schmidt, Sriram Chellappan",
+    "year": 2023,
+    "link": "https://doi.org/10.1145/3616382",
+    "doi": "10.1145/3616382",
+    "abstract": "Towards providing personalized care, digital mental-wellness apps today ask questions to learn about subjects. However, not all subjects using these apps will have mood problems; thus, they do not need follow-up questions. In this study, we investigate an alternate mechanism to handle such non-sensitive posts (i.e., those not indicating mood problems) in college settings. To do so, we generate and use training data provided by a cohort of peer college students so that responses to non-sensitive posts are contextual, emotionally aware, and empathetic while also being terminal (not asking follow-up questions). Using data from a real mental-wellness app used by students, we identify that AI models trained with our peer-provided dataset generate desirable responses to non-sensitive posts, while models trained with state-of-the-art (Facebook\u2019s) Empathetic Dataset yields responses that ask many follow-up questions, hence giving a perception of being intrusive. We believe that mental wellness apps today must not assume that any subject using these apps has mood problems. Perceptions of intrusiveness (i.e., apps asking many questions) must be a factor in design. We also believe that peer students can provide rich and reliable training datasets for college mental wellness apps, a topic that is not yet explored.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "\"What's the Point of Having This Conversation?\": From a Telephone Crisis Helpline in Bangladesh to the Decolonization of Mental Health Services",
+    "authors": "Ananya Bhattacharjee, Sharifa Sultana, Mohammad Ruhul Amin, Yeshim Iqbal, Syed Ishtiaque Ahmed",
+    "year": 2023,
+    "link": "https://doi.org/10.1145/3616381",
+    "doi": "10.1145/3616381",
+    "abstract": "Most of the HCI work on mental health is based on the Western metaphysical definition of mind that is less applicable outside the West. This article focuses on this issue and critically examines \u201cKaan Pete Roi\u201d (KPR), a suicide prevention and emotional support helpline in Bangladesh, through an interview study with 20 participants. We find that KPR\u2019s service, grounded in the \u201cbefriending\u201d model\u2014originating from the UK and emphasizing non-judgmental active listening without offering direct advice\u2014often struggles to ensure callers\u2019 safety, provide long-term support, and protect volunteers from harassment and distress. We argue that such failures are often rooted in some foundational ideas of the UK-born \u201cbefriending\u201d model that underpins the service. Building on Enrique Dussel\u2019s decolonial philosophy, we argue that \u201cbefriending\u201d model and its underpinning Western metaphysical ideation of mind carry a colonial impulse, and we discuss how community-based approaches may better address the mental health problems in the Global South.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Analysis of Performance Improvements and Bias Associated with the Use of Human Mobility Data in COVID-19 Case Prediction Models",
+    "authors": "Saad Mohammad Abrar, Naman Awasthi, Daniel Smolyak, Vanessa Fr\u00edas-Mart\u00ednez",
+    "year": 2023,
+    "link": "https://doi.org/10.1145/3616380",
+    "doi": "10.1145/3616380",
+    "abstract": "The COVID-19 pandemic has mainstreamed human mobility data into the public domain, with research focused on understanding the impact of mobility reduction policies as well as on regional COVID-19 case prediction models. Nevertheless, current research on COVID-19 case prediction tends to focus on performance improvements, masking relevant insights about when mobility data does not help, and more importantly, why, so that it can adequately inform local decision making. In this article, we carry out a systematic analysis to reveal the conditions under which human mobility data provides (or not) an enhancement over individual regional COVID-19 case prediction models that do not use mobility as a source of information. Our analysis\u2014focused on U.S. county-based COVID-19 case prediction models\u2014shows that (1) at most, 60% of counties improve their performance after adding mobility data; (2) the performance improvements are modest, with median correlation improvements of approximately 0.13; (3) improvements were lower for counties with higher Black, Hispanic, and other non-White populations as well as low-income and rural populations, pointing to potential bias in the mobility data negatively impacting predictive performance; and (4) different mobility datasets, predictive models, and training approaches bring about diverse performance improvements.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  }
+]

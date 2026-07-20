@@ -1,0 +1,400 @@
+[
+  {
+    "id": "education_smartphones_and_mobile_learning_for_teachers_and_rural_learners",
+    "name": "Smartphones and mobile learning for teachers and rural learners",
+    "areas": [
+      "education"
+    ],
+    "description": "This domain examines how smartphones are adopted and used by emergent and rural users in the Global South, including studies of usage patterns in India and the untapped potential of mobile learning in Ghana's secondary education. It explores the feasibility of introducing mobile technology into schools, such as Kenya's Competency Based Curriculum, and the challenges of integrating smartphones into teacher support programs.",
+    "topics_covered": [
+      "problem_discovery",
+      "cs_fundamentals",
+      "ethnographic_design",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "caste",
+      "social_capital_marginalization"
+    ],
+    "readings": [
+      "compass_2022_sophistication_with_limitation_understanding_smartphone_usage",
+      "ghtc_2023_the_feasibility_of_introducing_mobile_technology",
+      "ictd_2020_challenges_and_issues_integrating_smartphones_into",
+      "ictd_2024_a_decade_later_revisiting_the_untapped"
+    ],
+    "background_concepts": [
+      {
+        "concept": "Competency Based Curriculum (CBC), Kenya",
+        "why_needed": "The Kenyan feasibility study frames its mobile intervention around schools that 'utilize the Competency Based Curriculum,' assuming the reader knows what CBC replaced (the 8-4-4 system) and how its skills-focused, continuous-assessment design differs from content-based schooling.",
+        "suggested_resources": [
+          {
+            "title": "Demystifying Competency-Based Curriculum (CBC) \u2013 The Kenya Experience",
+            "url": "https://cardinalelementary.com/demystifying-cbc/",
+            "type": "primer"
+          },
+          {
+            "title": "7 Core Competencies of Kenya Competency-Based Curriculum",
+            "url": "https://cardinalelementary.com/7-core-competencies-of-kenya-competency-based-curriculum/",
+            "type": "primer"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "education_ai_ml_mapping_of_educational_access_and_vulnerability",
+    "name": "AI/ML mapping of educational access and vulnerability",
+    "areas": [
+      "education"
+    ],
+    "description": "This domain applies machine learning and satellite imagery to map educational access and socio-economic conditions, including large-scale school mapping through weakly supervised deep learning and temporal prediction of socio-economic indicators. It addresses identifying education deserts and 'last mile' school access in developing countries, as well as broader frameworks for mapping vulnerability among disadvantaged urban populations.",
+    "topics_covered": [
+      "cs_fundamentals",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "climate_change",
+      "gender",
+      "caste",
+      "social_capital_marginalization"
+    ],
+    "readings": [
+      "aaai_25_aisi_large_scale_school_mapping_using_weakly",
+      "aseth_publications_temporal_prediction_of_socio_economic_indicators",
+      "development_engineering_2021_the_last_mile_in_school_access",
+      "ijcai_2024_vulnerabilitymap_an_open_framework_for_mapping"
+    ],
+    "background_concepts": [
+      {
+        "concept": "Weakly supervised deep learning",
+        "why_needed": "The school-mapping paper's title and method hinge on 'weakly supervised' learning to train models without full pixel-level labels, but never explains what weak supervision is versus fully supervised learning.",
+        "suggested_resources": [
+          {
+            "title": "Weakly Supervised Learning | Baeldung on Computer Science",
+            "url": "https://www.baeldung.com/cs/ml-weakly-supervised-learning",
+            "type": "primer"
+          },
+          {
+            "title": "ECCV 2020 Tutorial on Weakly-Supervised Learning in Computer Vision",
+            "url": "https://hbilen.github.io/wsl-eccv20.github.io/",
+            "type": "course_module"
+          }
+        ]
+      },
+      {
+        "concept": "Satellite imagery poverty/socio-economic mapping (nighttime lights, transfer learning proxies)",
+        "why_needed": "These papers infer education deserts and socio-economic indicators from satellite imagery using proxies like nighttime light intensity and transfer learning, but assume familiarity with why remote-sensing proxies stand in for ground survey data.",
+        "suggested_resources": [
+          {
+            "title": "Using Machine Learning on Satellite Images to Map Poverty | Development Asia",
+            "url": "https://development.asia/insight/using-machine-learning-satellite-images-map-poverty",
+            "type": "primer"
+          },
+          {
+            "title": "Using Machine Learning to Map Poverty from Satellite Imagery | Geography Realm",
+            "url": "https://www.geographyrealm.com/using-machine-learning-map-poverty-satellite-imagery/",
+            "type": "primer"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "education_ai_tutoring_and_child_computer_interaction_for_learning",
+    "name": "AI tutoring and child-computer interaction for learning",
+    "areas": [
+      "education"
+    ],
+    "description": "This domain covers intelligent tutoring systems like AutoTutor and the use of generative AI to support marginalized and rural learners, including applications for equity between rural and urban areas in Brazil. It also examines child-computer interaction in the Global South and specialized AI tools such as sign language interpretation for Nigerian children.",
+    "topics_covered": [
+      "cs_fundamentals",
+      "ethnographic_design",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "readings": [
+      "2015_intelligent_tutoring_demo_1",
+      "2015_intelligent_tutoring_demo_2",
+      "aies_2025_part3_supporting_marginalized_learners_with_genai_extended",
+      "ictd_2024_ai_in_education_unplugged_support_equity",
+      "ijcai_2023_ai_driven_sign_language_interpretation_for",
+      "jcss_2025_exploring_ai_in_education_child_computer"
+    ],
+    "background_concepts": [
+      {
+        "concept": "Intelligent Tutoring System (ITS) architecture (student/learner model, expert model, tutor model)",
+        "why_needed": "The AutoTutor demos and related AI-in-education papers presume the ITS paradigm\u2014that a system tracks a learner model and adapts feedback\u2014without introducing the components (student model, expert model, pedagogical/tutor model) that distinguish ITS from ordinary courseware.",
+        "suggested_resources": [
+          {
+            "title": "Guiding (digital) learning paths: Intelligent tutoring systems (Lamarr Institute)",
+            "url": "https://lamarr-institute.org/blog/ai-education-intelligent-tutoring-systems/",
+            "type": "primer"
+          },
+          {
+            "title": "Intelligent Tutoring Systems | EBSCO Research Starters",
+            "url": "https://www.ebsco.com/research-starters/education/intelligent-tutoring-systems",
+            "type": "primer"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "education_digital_and_data_literacy_measurement_for_low_experience_populations",
+    "name": "Digital and data literacy measurement for low-experience populations",
+    "areas": [
+      "education"
+    ],
+    "description": "This domain focuses on developing and validating measures of digital literacy specifically for populations with limited internet experience. It also addresses conceptualizing data literacy as an essential competency for participating in an increasingly data-driven society.",
+    "topics_covered": [
+      "problem_discovery",
+      "cs_fundamentals",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "readings": [
+      "development_engineering_2023_validated_digital_literacy_measures_for_populations",
+      "wolff_data_literacy"
+    ],
+    "background_concepts": [
+      {
+        "concept": "Measurement validation / psychometric validity for survey instruments",
+        "why_needed": "The 'validated digital literacy measures' paper assumes the reader understands what makes a measurement instrument 'validated' (reliability, construct validity), which underpins the whole contribution but is treated as background.",
+        "suggested_resources": [
+          {
+            "title": "Reliability and Validity of Measurement (Research Methods in Psychology, open text)",
+            "url": "https://opentext.wsu.edu/carriecuttler/chapter/reliability-and-validity-of-measurement/",
+            "type": "course_module"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "education_one_device_per_learner_hardware_initiatives",
+    "name": "One-device-per-learner hardware initiatives",
+    "areas": [
+      "education"
+    ],
+    "description": "This domain covers initiatives that provide individual computing devices to learners, centered on the One Laptop Per Child (OLPC) mission's principles of child empowerment and the XO laptop's design for learning. It also considers sustainable approaches to hardware access, such as reusing landfill-bound computers to bridge the digital divide.",
+    "topics_covered": [
+      "cs_fundamentals",
+      "ethnographic_design",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "readings": [
+      "2015_one_laptop_per_child_demo_1",
+      "2015_one_laptop_per_child_demo_2",
+      "ghtc_2024_bridging_the_digital_divide_with_sustainability"
+    ],
+    "background_concepts": [
+      {
+        "concept": "Constructionism (Papert's learning theory)",
+        "why_needed": "The OLPC mission materials are built on Papert's constructionism\u2014learning through building shareable artifacts\u2014and invoke 'child empowerment' and 'design for learning' as if the underlying pedagogical theory is already known to the reader.",
+        "suggested_resources": [
+          {
+            "title": "Defining constructionist learning (pi-top)",
+            "url": "https://www.pi-top.com/blog/2018/11/06/defining-constructionist-learning",
+            "type": "primer"
+          },
+          {
+            "title": "Seymour Papert and Constructionism | EBSCO Research Starters",
+            "url": "https://www.ebsco.com/research-starters/religion-and-philosophy/seymour-papert-and-constructionism",
+            "type": "primer"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "education_teacher_centered_technology_support_and_collaboration",
+    "name": "Teacher-centered technology support and collaboration",
+    "areas": [
+      "education"
+    ],
+    "description": "This domain examines how teachers collaborate and are supported in technology use, including insights into teacher collaboration in West Kenya and design-based research bridging teacher aspirations and goal-setting. It also incorporates systematic review evidence on the factors affecting ICT use in classrooms by teachers.",
+    "topics_covered": [
+      "cs_fundamentals",
+      "ethnographic_design",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [],
+    "readings": [
+      "ghtc_2024_empowering_collaboration_insights_into_teacher_collaboration",
+      "itid_2018_systematic_reviews_srs_factors_affecting_the",
+      "jcss_2025_a_design_based_research_approach_to"
+    ],
+    "background_concepts": [
+      {
+        "concept": "Design-Based Research (DBR)",
+        "why_needed": "The teacher-aspirations paper announces a 'Design-Based Research approach' as its methodology but assumes readers know DBR's iterative, intervention-in-context cycle rather than treating it as a standard experiment.",
+        "suggested_resources": [
+          {
+            "title": "Design-Based Research (EdTechBooks \u2013 Foundations of Learning and Instructional Design Technology)",
+            "url": "https://edtechbooks.org/lidtfoundations/design_based_research",
+            "type": "course_module"
+          }
+        ]
+      },
+      {
+        "concept": "Systematic review methodology",
+        "why_needed": "The ITID reading is explicitly a 'Systematic Review' and assumes familiarity with the protocol-driven search/screening/synthesis process that distinguishes it from a narrative literature review.",
+        "suggested_resources": [
+          {
+            "title": "Systematic Reviews (University of Maryland Libraries research guide)",
+            "url": "https://lib.guides.umd.edu/SR",
+            "type": "agency_guide"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "education_women_s_empowerment_through_educational_and_vocational_technology",
+    "name": "Women's empowerment through educational and vocational technology",
+    "areas": [
+      "education"
+    ],
+    "description": "This domain explores technologies designed to empower rural and village women in developing countries, including participatory video and audio platforms using DVDs and IVR systems and smartphone-based empowerment. It features context-specific applications such as vocational education for seaweed farmers in Tamil Nadu and a user-centered seasonal calendar app for women in India.",
+    "topics_covered": [
+      "problem_discovery",
+      "ethnographic_design",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "climate_change",
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "readings": [
+      "aseth_publications_a_participatory_video_and_audio_platform",
+      "ghtc_2024_empowering_village_women_through_cvet_identifying",
+      "ghtc_2024_user_centered_design_of_a_seasonal",
+      "ictd_2022_the_world_is_in_my_hand"
+    ],
+    "background_concepts": [
+      {
+        "concept": "Interactive Voice Response (IVR) systems",
+        "why_needed": "The participatory video/audio platform relies on 'IVR systems' (and DVDs) as its delivery channel for low-literacy communities, but assumes the reader already knows how phone-based menu/voice-prompt systems work and why they suit low-connectivity populations.",
+        "suggested_resources": [
+          {
+            "title": "Understanding IVR: A Comprehensive Guide to Interactive Voice Response Systems",
+            "url": "https://www.ictinnovations.com/understanding-ivr-a-comprehensive-guide-to-interactive-voice-response-systems",
+            "type": "primer"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "education_system_scale_education_reform_and_equity_in_the_global_south",
+    "name": "System-scale education reform and equity in the Global South",
+    "areas": [
+      "education"
+    ],
+    "description": "This domain addresses large-scale education reform and equity efforts, including Teaching at the Right Level programs, barefoot movements, and bold plans to reach millions of out-of-school girls in India. It also engages methods for ensuring fairness and stability in access to education and strategies for fixing broken education systems without additional funding.",
+    "topics_covered": [
+      "problem_discovery",
+      "cs_fundamentals",
+      "ethnographic_design",
+      "impact_evaluation",
+      "operations_scale"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "readings": [
+      "2015_barefoot_movement_bunker_roy_ted",
+      "ghtc_2022_technology_applications_in_teaching_at_the",
+      "ijcai_2024_ensuring_fairness_stability_for_disentangling_social",
+      "ted_safeena_husain_girls_education",
+      "ted_seema_bansal_fixing_education_system"
+    ],
+    "background_concepts": [
+      {
+        "concept": "Teaching at the Right Level (TaRL)",
+        "why_needed": "The GHTC TaRL paper (and the reform TED talks) assume knowledge of Pratham's TaRL model\u2014assessing and grouping children by learning level rather than grade\u2014as the intervention being technologically augmented, without explaining the approach.",
+        "suggested_resources": [
+          {
+            "title": "Teaching at the Right Level to accelerate learning (J-PAL)",
+            "url": "https://www.povertyactionlab.org/evidence-effect/teaching-at-the-right-level",
+            "type": "agency_guide"
+          },
+          {
+            "title": "Teaching at the right level (TaRL) | UNICEF FLN Hub",
+            "url": "https://www.unicef.org/flnhub/teaching-right-level-tarl",
+            "type": "agency_guide"
+          }
+        ]
+      },
+      {
+        "concept": "Algorithmic fairness (fairness stability / disparate access)",
+        "why_needed": "The FAiRDAS paper presumes the reader is fluent in algorithmic-fairness terminology and the idea of enforcing fairness constraints over time ('fairness stability'), which it applies to disentangling social inequality in education access.",
+        "suggested_resources": [
+          {
+            "title": "Fairness (Google Machine Learning Crash Course)",
+            "url": "https://developers.google.com/machine-learning/crash-course/fairness/video-lecture",
+            "type": "course_module"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "education_ict_integration_in_resource_constrained_schools",
+    "name": "ICT integration in resource-constrained schools",
+    "areas": [
+      "education"
+    ],
+    "description": "This domain examines the integration of ICT in resource-limited educational settings, including mobile cloud remote learning platforms, digital content platforms for sustainable education and disaster resilience, and the constraining and enabling factors of ICT use in rural Nepali schools. It also covers digital technology for sustainable development and cybersecurity concerns in resource-constrained South African schools.",
+    "topics_covered": [
+      "problem_discovery",
+      "cs_fundamentals",
+      "ethnographic_design",
+      "impact_evaluation",
+      "operations_scale"
+    ],
+    "cross_cutting_axes": [
+      "climate_change",
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "readings": [
+      "ghtc_2023_design_and_development_of_an_ontology",
+      "ghtc_2024_digital_information_content_platform_for_sustainable",
+      "ifip_ict4d_2020_constraining_and_enabling_factors_in_the",
+      "ifip_ict4d_2024_part1_digital_technology_enabled_education_for_sustainable",
+      "ifip_ict4d_2024_part2_educators_perspectives_on_cybersecurity_case_of"
+    ],
+    "background_concepts": [
+      {
+        "concept": "Ontology-driven / semantic search",
+        "why_needed": "The GHTC search-engine paper builds an 'ontology driven search engine' for a mobile cloud remote-learning platform, assuming the reader knows what an ontology is in the semantic-web sense (formal concept/relationship model enabling machine inference) versus a keyword index.",
+        "suggested_resources": [
+          {
+            "title": "Introduction to the Semantic Web (GraphDB documentation)",
+            "url": "https://graphdb.ontotext.com/documentation/11.1/introduction-to-semantic-web.html",
+            "type": "course_module"
+          },
+          {
+            "title": "An Introduction to the OWL Web Ontology Language (Jeff Heflin, Lehigh)",
+            "url": "https://www.cse.lehigh.edu/~heflin/IntroToOWL.pdf",
+            "type": "lecture_notes"
+          }
+        ]
+      }
+    ]
+  }
+]

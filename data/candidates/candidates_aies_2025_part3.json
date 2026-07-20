@@ -1,0 +1,145 @@
+[
+  {
+    "id": null,
+    "title": "Same Stereotypes, Different Term? Understanding the \u201cGlobal South\u201d in AI Ethics",
+    "authors": "Evani Radiya-Dixit, Ang\u00e8le Christin",
+    "year": 2025,
+    "venue": "aies_2025_part3",
+    "areas": [],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [
+      "climate_change",
+      "gender",
+      "caste",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": true,
+    "source_course": "aies_2025_part3_venue_search",
+    "notes": "The paper engages with the concept of the 'Global South' which is relevant to understanding contexts in developing regions, including India, as per the rule for topic 'cs_fundamentals'.",
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/36697",
+    "abstract": "In recent years, the impact of artificial intelligence (AI) systems on global politics has received growing attention. However, much work remains to understand the connotations, usage, and contradictions of the term \"Global South\" within AI ethics. In this paper, we complicate existing conceptualizations of the \"Global South\" by interviewing 20 AI ethics scholars and practitioners who have engaged with global politics. We find a range of definitions for the \"Global South,\" from geographic regions to places with colonial legacies. We identify four key limitations of the term \"Global South\": (1) its tendency to homogenize countries with diverse political power and technological development, (2) its use as a proxy for underdeveloped in AI innovation and regulation, (3) its implication of technological illiteracy, and (4) its suggestion of unidirectional influence with AI technology marketed from centers to peripheries. The \"Global South\" can thus perpetuate an imperial gaze, similar to the terms \"Third World\" and \"developing countries.\" Despite these limitations, many participants we interviewed feel pressured to use the term \"Global South\" due to research and funding structures that reinforce the United States as a center of resources and knowledge production. Ultimately, rather than simply adopting another term that may inherit the same harmful stereotypes, we encourage scholars and practitioners to: (a) ground their work in specific regions and communities, (b) leverage particular analytical frameworks, such as anti-caste theories, when drawing connections across communities, and (c) make deeper changes to build alternative funding structures and foster solidarity among countries at the peripheries.",
+    "_matched_keywords": [
+      "LiDAR"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Collective Agency in Art-making: Towards Community-centric Design of Text-to-Image (T2I) AI Tools",
+    "authors": "Abdullah Hasan Safir, Noshin Tahsin, Pratyasha Saha, Dipannita Nandi, Zulkarin Jahangir, Cecily Morrison, Syed Ishtiaque Ahmed, Nusrat Jahan Mim",
+    "year": 2025,
+    "venue": "aies_2025_part3",
+    "areas": [
+      "media_information"
+    ],
+    "topics": [
+      "ethnographic_design",
+      "sociotechnical_dynamics",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "aies_2025_part3_venue_search",
+    "notes": "The paper engages with a developing-regions context (Bangladesh) and addresses issues of community-centric design and collective agency, which are pertinent to the sociotechnical dynamics and impact evaluation of ICT interventions.",
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/36710",
+    "abstract": "Text-to-image (T2I) AI tools are trained on vast datasets\nof existing images and artworks. We identify that existing\nethical standards and regulatory safeguards for these tools\nlargely lie within the Western neoliberal realm. They\nassume that artistic creativity originates from individuals\nrather than in collectives or social environments,\nownership is an individual concern rather than shaped by\ncommunities and shared cultural traditions, and\ncompensation should be based on individual claims rather\nthan acknowledging collective contributions to artistic\nknowledge. In this paper, we counter these assumptions by\ntheorizing \u2018collective agency\u2019 as a critical conceptual\nlens to rethink artists\u2019 community-centric roles in\nrelation to these tools. Drawing from our nine-month-long\nqualitative interventions with diverse Bangladeshi artist\ngroups, we find that these artists manifest cultural\nresonance, co-creation, and sense of recognition through\ntheir art-making practices which fosters collective agency\namong them. This empirically grounded account of collective\nagency in our study posits practical design and policy\nimplications, such as incorporating artists\u2019 solidarity,\ncommunity-centric data stewardship, and collective\nbargaining mechanisms in ethical development of T2I AI\ntools to reclaim artists' control over their creative\npractices in the AI age.",
+    "_matched_keywords": [
+      "LiDAR"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Toward Valid Measurement of (Un)fairness for Generative AI: A Proposal for Systematization Through the Lens of Fair Equality of Chances",
+    "authors": "Kimberly Le Truong, Annette Zimmermann, Hoda Heidari",
+    "year": 2025,
+    "venue": "aies_2025_part3",
+    "areas": [],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [],
+    "area_agnostic": true,
+    "source_course": "aies_2025_part3_venue_search",
+    "notes": "The paper focuses on the methodology of measuring fairness in AI systems, which can be adapted to a developing-regions context under the 'cs_fundamentals' topic rule.",
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/36736",
+    "abstract": "Disparities in the societal harms and impacts of Generative AI (GenAI) systems highlight the critical need for effective unfairness measurement approaches. While numerous benchmarks exist, designing valid measurements requires proper systematization of the unfairness construct. However, this process is often neglected, resulting in metrics that may mischaracterize unfairness by overlooking contextual nuances, thereby compromising the validity of the resulting measurements. Building on established (un)fairness measurement frameworks for predictive AI, this paper focuses on assessing and improving the validity of the measurement task. By extending existing conceptual work in political philosophy, we propose a novel framework for evaluating GenAI unfairness measurement through the lens of the Fair Equality of Chances framework. Our framework decomposes unfairness into three core constituents: the harm or benefit resulting from the system outcomes, morally arbitrary factors that should not lead to inequality in the distribution of harm or benefit, and the morally decisive factors, which distinguish subsets that can justifiably receive different treatments. By examining fairness through this structured lens, we integrate diverse notions of (un)fairness while accounting for the contextual dynamics that shape GenAI outcomes. We analyze factors contributing to each component and the appropriate processes to systematize and measure each in turn. This work establishes a foundation for developing more valid (un)fairness measurements for GenAI systems.",
+    "_matched_keywords": [
+      "inequality"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Supporting Marginalized Learners with GenAI (Extended Abstract)",
+    "authors": "Hamayoon Behmanush",
+    "year": 2025,
+    "venue": "aies_2025_part3",
+    "areas": [
+      "education"
+    ],
+    "topics": [
+      "ethnographic_design"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "aies_2025_part3_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context (Afghanistan) and focuses on marginalized learners, aligning with the 'education' area and 'ethnographic_design' topic.",
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/36767",
+    "abstract": "Access to quality education remains deeply unequal, particularly for learners in low-resource and socio-politically unstable contexts. Although Generative AI (GenAI) interventions have the potential to provide educational support, they are rarely designed and developed with marginalized communities, especially within challenging socio-political environments. My research addresses this gap by exploring, designing, and developing responsive GenAI interventions specifically tailored to support women in Afghanistan pursuing programming education despite substantial barriers. Through exploratory research, participatory design, and iterative evaluation, I aim to uncover how GenAI can effectively enhance learning outcomes and aspirations within this underserved community. Ultimately, my work contributes to more equitable AI development practices and actively supports marginalized communities by enabling access to meaningful education and the development of employable skills.",
+    "_matched_keywords": [
+      "learning outcomes",
+      "participatory design",
+      "marginalized communities",
+      "marginalized communities"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Algorithmic Recourse",
+    "authors": "Kshitij Kayastha",
+    "year": 2025,
+    "venue": "aies_2025_part3",
+    "areas": [],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [],
+    "area_agnostic": true,
+    "source_course": "aies_2025_part3_venue_search",
+    "notes": "The paper addresses the topic 'cs_fundamentals' as it applies strong computer science methods to a critical issue in automated decision-making systems, which can be adapted to a developing-regions context.",
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/36784",
+    "abstract": "With the rapid deployment of algorithms in high-stakes domains such as finance, healthcare, and justice, recourse has emerged as a critical tool in explainable AI. Algorithmic Recourse provides individuals with recommendations to reverse unfavorable outcomes, addressing the growing need for transparency and accountability in automated decision-making systems. My research investigates the design of recourse methods that are not only effective but also fair, robust, and grounded in ethical considerations.",
+    "_matched_keywords": [
+      "transparency and accountability"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Platform Vernaculars: How AI Image Generators Create New Forms of Visual Bias",
+    "authors": "Jinu K Varghese",
+    "year": 2025,
+    "venue": "aies_2025_part3",
+    "areas": [],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": true,
+    "source_course": "aies_2025_part3_venue_search",
+    "notes": "The paper engages with the topic 'cs_fundamentals' by applying computer science methods to understand AI-generated visual bias, which can be adapted to a developing-regions context.",
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/36799",
+    "abstract": "This study investigates how AI image generation plat-forms develop distinct platform vernaculars systematic visual languages with recognizable aesthetic signatures that create new forms of cultural bias. Through mixed-methods analysis combining content analysis of 306 AI-generated images, interviews with 16 visual professionals, and survey validation from 430 respondents, we document three key phenomena. First, platform choice ac-counts for 54% of variance in visual outcomes (\u03b7\u00b2 = 0.542, p < 0.001), with professionals achieving distinct recognition accuracy: Flux (82%), Midjourney (78%), Stable Diffusion (71%). Second, rather than displacement, 71.9% of professionals report AI enhances creative capabilities through strategic integration models. Third, systematic cultural bias manifests through 73% Western demographic defaults in neutral prompts, though professionals develop sophisticated mitigation strategies achieving 82% bias reduction effectiveness. These findings establish platform vernaculars as algorithmic aesthetic hierarchies that require new forms of visual literacy, challenging assumptions about AI homogenization while revealing persistent representational inequities demanding professional resistance strategies.",
+    "_matched_keywords": [
+      "content analysis"
+    ]
+  }
+]

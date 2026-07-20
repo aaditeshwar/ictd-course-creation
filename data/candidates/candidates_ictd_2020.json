@@ -1,0 +1,239 @@
+[
+  {
+    "id": null,
+    "title": "The Limits of Design in Ensuring Responsible Outcomes from Technology",
+    "authors": "Aaditeshwar Seth",
+    "year": 2020,
+    "venue": "ictd_2020",
+    "areas": [
+      "media_information"
+    ],
+    "topics": [
+      "ethnographic_design",
+      "sociotechnical_dynamics"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "ictd_2020_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context in rural India, focusing on the deployment of a voice-based community media platform.",
+    "link": "https://doi.org/10.1145/3392561.3394631",
+    "abstract": "Ensuring responsible outcomes from technology is a challenging goal, and several design methods have been proposed to embed ethical values into the technology itself. Based on a case-study of a voice-based community media platform running in rural India, we argue that design alone is not sufficient to prevent harmful effects and that careful management of the technology during its deployment is also essential. We identify several processes that can be useful to specifically manage digital platforms for information sharing among users. While this may not be a significant insight, we draw attention for researchers to understand the deployment management of technology, beyond its design, as an important area of research in technology and ethics.",
+    "_matched_keywords": [
+      "community media"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Gendered Gigs: Understanding the gig economy in New Delhi from a gendered perspective",
+    "authors": "Shruti Gupta",
+    "year": 2020,
+    "venue": "ictd_2020",
+    "areas": [
+      "labour"
+    ],
+    "topics": [
+      "problem_discovery",
+      "sociotechnical_dynamics",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "gender"
+    ],
+    "area_agnostic": false,
+    "source_course": "ictd_2020_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context (New Delhi, India) and explores gender inequality in the gig economy, which aligns with the 'labour' area and 'gender' cross-cutting axis.",
+    "link": "https://doi.org/10.1145/3392561.3394635",
+    "abstract": "I present findings from a semi-structured, qualitative research conducted with 20 beauticians and makeup artists on an on-demand services app in New Delhi. Through an understanding of the particularities of gender, class, caste and body labor in the labor market, I explore the futures of workers. The work illustrates the impact technologically-mediated work has on workers' employment relations and labor outcomes -- specifically the differentiated risks and vulnerabilities faced by women workers in the Global South in the gig economy. By linking economic rights and the social dimensions of development, I suggest ways in which more inclusive and fairer policies can be institutionalized to protect the interests of gig workers.",
+    "_matched_keywords": [
+      "gig work"
+    ]
+  },
+  {
+    "id": null,
+    "title": "From Greetings to Corruption: Politicians, Political Parties, and Tweeting in India",
+    "authors": "Lia Bozarth, Anmol Panda, Ceren Budak, Joyojeet Pal",
+    "year": 2020,
+    "venue": "ictd_2020",
+    "areas": [
+      "media_information"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "caste",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "ictd_2020_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context (India) and examines the use of social media by politicians, which is relevant to the media_information area.",
+    "link": "https://doi.org/10.1145/3392561.3394636",
+    "abstract": "We present an in-depth, language-centric, large-scale study of topical discussions on Twitter by 1,711 Indian politicians from 20 competing political parties in a 4-year timespan. We first show that politicians of all parties collectively indulge more in establishing personal branding through low-substance, personality-focused messaging as opposed to broadcasting policy stances. Additionally, compared to the party-in-power, opposition politicians collectively post more complex tweets and demonstrate higher negativity (e.g., using person-based attack hashtags) especially regarding the issue of corruption. Finally, through a contextual examination of the most retweeted messages from two key leaders---the prime minister and the leader of the largest opposition party, we find that there are qualitatively important distinctions between their styles---while the former focuses on positive-themed messaging, the latter employs confrontation and aggressive language with direct attacks on individuals and issues.",
+    "_matched_keywords": [
+      "corruption"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Challenges and Issues Integrating Smartphones into Teacher Support Programs in India",
+    "authors": "Rama Adithya Varanasi, Aditya Vashistha, Tapan Parikh, Nicola Dell",
+    "year": 2020,
+    "venue": "ictd_2020",
+    "areas": [
+      "education"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "ethnographic_design",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "ictd_2020_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context in India, focusing on education and technology integration in low-income schools.",
+    "link": "https://doi.org/10.1145/3392561.3394638",
+    "abstract": "Current ICTD best practices call on practitioner organizations that deploy technology interventions with marginalized communities to commit to long-term engagements and provide continuous support. This paper describes a qualitative study that examines the challenges and issues that arise for organizations that have tried to answer this call: a set of education-focused non-profit organizations in India that have invested heavily in building long-term relationships with low-income schools and that are deeply committed to providing ongoing support, both in-person and via technology. Interviews and observations with 71 participants (51 from eight organizations, and 15 teachers and five principals from 12 schools) reveal (1) the challenges and issues that arise as organizations integrate smartphones into teacher support programs, and (2) the strategies that teachers and organizations use to ease smartphone adoption in teacher support programs. Our findings uncover the effects of organizations' smartphone-oriented support programs on teachers' workloads, efficacy, and stress, and highlight opportunities for organizations to improve their programs and support structures.",
+    "_matched_keywords": [
+      "marginalized communities",
+      "marginalized communities"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Infrastructuring Hope: Solidarity, Leadership, Negotiation, and ICT among the Rohingya Refugees in Bangladesh",
+    "authors": "Faheem Hussain, Abdullah Hasan Safir, Dina Sabie, Zulkarin Jahangir, Syed Ishtiaque Ahmed",
+    "year": 2020,
+    "venue": "ictd_2020",
+    "areas": [
+      "governance",
+      "health",
+      "labour"
+    ],
+    "topics": [
+      "sociotechnical_dynamics",
+      "ethnographic_design"
+    ],
+    "cross_cutting_axes": [
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "ictd_2020_venue_search",
+    "notes": "The paper engages with a developing-regions context (Rohingya refugees in Bangladesh) and addresses socio-technical dynamics and ethnographic design principles.",
+    "link": "https://doi.org/10.1145/3392561.3394640",
+    "abstract": "Migration, forced mobility, and refugee studies in ICTD and related disciplines have been predominantly focused on the victims' immediate needs, including shelter, food, healthcare, language, and information. This line of work has mostly been devoid of the political background of migration and the victims' future hopes and aspirations, and hence fails to address many pressing issues associated with their long-term settlement. We address this gap in ICTD literature by drawing on our two years long ethnography with the Rohingya refugees in Bangladesh. We build on a rich body of literature on development sociology and philosophy to demonstrate how the refugees infrastructure their hope through various artful practices of solidarity, leadership, and negotiation, and how ICT plays an important role in and around each of these practices. We discuss how our study further contributes to the ongoing discourse in ICTD around aspiration, hope, design, and empowerment.",
+    "_matched_keywords": [
+      "LiDAR"
+    ]
+  },
+  {
+    "id": null,
+    "title": "We Need More Power to Stand Up: Designing to Combat Stigmatization of the Caregivers of Children with Autism in Urban Bangladesh",
+    "authors": "Abdul Kawsar Tushar, Iffat Jahan Antara, Dipto Das, Priyank Chandra, Tanjir Rashid Soron, Md Munirul Haque, Sheikh Iqbal Ahamed, Syed Ishtiaque Ahmed",
+    "year": 2020,
+    "venue": "ictd_2020",
+    "areas": [
+      "health"
+    ],
+    "topics": [
+      "ethnographic_design",
+      "sociotechnical_dynamics",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "ictd_2020_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context (urban Bangladesh) and addresses social justice issues through ICTD.",
+    "link": "https://doi.org/10.1145/3392561.3394643",
+    "abstract": "Stigma, a critical challenge for social justice, has not received much attention in ICTD literature. Most existing designs that aim to combat stigma draw on an 'information and awareness' approach that is often inadequate to address stigma's deeper roots. To address this gap, we have conducted an interview and design study in five special needs schools1 in Dhaka, Bangladesh, involving twenty-nine parents and nine teachers. Based on our study, we present how the primary caretakers of children with autism face the stigma associated with autism spectrum disorder (ASD) and how misogyny, economic apprehension, and misinformation generate this stigma. Drawing from a range of scholarly work in sociology and psychology, we demonstrate how those factors are rooted in the colonial history and contemporary social hierarchy of Bangladesh. Based on our participatory design sessions, we introduce and analyze potential design directions and connect our findings to the politics of inclusion and social justice in the context of the developing world.",
+    "_matched_keywords": [
+      "participatory design"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Women and the Sustainability of Rural Community Networks in the Global South",
+    "authors": "Nicola J. Bidwell",
+    "year": 2020,
+    "venue": "ictd_2020",
+    "areas": [
+      "media_information"
+    ],
+    "topics": [
+      "sociotechnical_dynamics"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "ictd_2020_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context, focusing on rural community networks in LMICs, which aligns with the 'media_information' area and 'sociotechnical_dynamics' topic.",
+    "link": "https://doi.org/10.1145/3392561.3394649",
+    "abstract": "Increased advocacy and support for Community networks (CNs), or locally owned and/or operated telecommunications, reflects hopes that CNs will compensate for telecom companies' failure to serve rural areas of low- and middle-income countries (LMICs). My study of six cases in Africa, Asia and Latin America responds to this political project. Rural populations in LMICs often comprise more women, and increasingly, older women; rural governance and the technoculture of CNs, however, have masculine biases. Discussions, interviews and observations involving 152 women and 172 men champions, operators, users and non-users showed that women are less likely than men to use CN services and be paid for their labour in CNs. Women manage their personal aspirations, identities and expectations about their labour in various ways, and younger women seek alternatives to connect, sometimes setting up independent enterprises. Thus, maintaining the commons ethos that sustains CNs requires attending to different women's approaches.",
+    "_matched_keywords": [
+      "community networks"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Initial Lessons from Building an IVR-based Automated Question-Answering System",
+    "authors": "Pranav Bhagat, Sachin Kumar Prajapati, Aaditeshwar Seth",
+    "year": 2020,
+    "venue": "ictd_2020",
+    "areas": [
+      "media_information"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "ethnographic_design"
+    ],
+    "cross_cutting_axes": [
+      "gender"
+    ],
+    "area_agnostic": false,
+    "source_course": "ictd_2020_venue_search",
+    "notes": "The paper engages with a developing-regions context through the use of IVR systems for less-literate populations, aligning with the Media & Information Ecosystems area.",
+    "link": "https://doi.org/10.1145/3392561.3397581",
+    "abstract": "With improvements in speech recognition and natural language processing capabilities, voicebot systems show promise to run interactive information services for less-literate populations in developing regions. In this context, we describe our initial experiences towards building an automated question-answering system in the domain of sexual and reproductive health and rights. This system is trained on data acquired from an IVR (Interactive Voice Response) platform on which users could record questions, which were then moderated and sent to an expert to get answers. Our goal is to now use this data to build an automated answer retrieval system so that questions can be answered in real time by retrieving an appropriate answer from the corpus of questions and answers available so far. Our insights are likely to be useful for several initiatives using IVR systems and looking to automate their search and retrieval functionality.",
+    "_matched_keywords": [
+      "IVR (interactive voice response)"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Does Gender and Accent of Voice Matter?: An Interactive Voice Response (IVR) experiment",
+    "authors": "Eman Mubarak, Tooba Shahid, Maryam Mustafa, Mustafa Naseem",
+    "year": 2020,
+    "venue": "ictd_2020",
+    "areas": [
+      "media_information"
+    ],
+    "topics": [
+      "problem_discovery",
+      "impact_evaluation",
+      "sociotechnical_dynamics"
+    ],
+    "cross_cutting_axes": [
+      "gender"
+    ],
+    "area_agnostic": false,
+    "source_course": "ictd_2020_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context, specifically low-literate and patriarchal communities, which aligns with the requirement for most topics.",
+    "link": "https://doi.org/10.1145/3392561.3397588",
+    "abstract": "We explore the impact of the gender and accent of the voice recording in Interactive Voice Response (IVR) systems in low-literate and patriarchal contexts. We conducted a small randomized control trial (RCT) with 62 participants, prompting them to identify myths and factual statements from a list of 10 prompts. One of four sets of recordings were randomized for each participant: Male formal (MF), Male Informal (MI), Female Formal (FF), and Female Informal (FI). We found that (a) male participants found male voices as providing more accurate information, (b) formal voice made myths seem accurate to male participants, (c) there was a significant impact of participant education level on correctly identifying myths, and (d) female participants were more knowledgeable about maternal health facts. Our study provides some basic guidelines on the potential characteristics of the voice used in IVR systems when deployment is in low-literate, and patriarchal communities.",
+    "_matched_keywords": [
+      "randomized control trial (RCT)"
+    ]
+  }
+]

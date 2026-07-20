@@ -1,0 +1,282 @@
+[
+  {
+    "title": "Effective High-order Graph Representation Learning for Credit Card Fraud Detection",
+    "authors": "Yao Zou, Dawei Cheng",
+    "year": 2024,
+    "link": null,
+    "abstract": "Credit card fraud imposes significant costs on both cardholders and issuing banks. Fraudsters often disguise their crimes, such as using legitimate transactions through several benign users to bypass anti-fraud detection. Existing graph neural network (GNN) models struggle with learning features of camouflaged, indirect multi-hop transactions due to their inherent over-smoothing issues in deep multi-layer aggregation, presenting a major challenge in detecting disguised relationships. Therefore, in this paper, we propose a novel High-order Graph Representation Learning model (HOGRL) to avoid incorporating excessive noise during the multi-layer aggregation process. In particular, HOGRL learns different orders of \\emph{pure} representations directly from high-order transaction graphs. We realize this goal by effectively constructing high-order transaction graphs first and then learning the \\emph{pure} representations of each order so that the model could identify fraudsters\u2019 multi-hop indirect transactions via multi-layer \\emph{pure} feature learning. In addition, we introduce a mixture-of-expert attention mechanism to automatically determine the importance of different orders for jointly optimizing fraud detection performance. We conduct extensive experiments in both the open source and real-world datasets, the result demonstrates the significant improvements of our proposed HOGRL compared with state-of-the-art fraud detection baselines. HOGRL\u2019s superior performance also proves its effectiveness in addressing high-order fraud camouflage criminals.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Wearable Sensor-Based Few-Shot Continual Learning on Hand Gestures for Motor-Impaired Individuals via Latent Embedding Exploitation",
+    "authors": "Riyad Bin Rafiq, Weishi Shi, Mark V. Albert",
+    "year": 2024,
+    "link": null,
+    "abstract": "Hand gestures can provide a natural means of human-computer interaction and enable people who cannot speak to communicate efficiently. Existing hand gesture recognition methods heavily depend on pre-defined gestures, however, motor-impaired individuals require new gestures tailored to each individual\u2019s gesture motion and style. Gesture samples collected from different persons have distribution shifts due to their health conditions, the severity of the disability, motion patterns of the arms, etc. In this paper, we introduce the Latent Embedding Exploitation (LEE) mechanism in our replay-based Few-Shot Continual Learning (FSCL) framework that significantly improves the performance of fine-tuning a model for out-of-distribution data. Our method produces a diversified latent feature space by leveraging a preserved latent embedding known as gesture prior knowledge, along with intra-gesture divergence derived from two additional embeddings. Thus, the model can capture latent statistical structure in highly variable gestures with limited samples. We conduct an experimental evaluation using the SmartWatch Gesture and the Motion Gesture datasets. The proposed method results in an average test accuracy of 57.0%, 64.6%, and 69.3% by using one, three, and five samples for six different gestures. Our method helps motor-impaired persons leverage wearable devices, and their unique styles of movement can be learned and applied in human-computer interaction and social communication. Code is available at: https://github.com/riyadRafiq/wearable-latent-embedding-exploitation.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "For the Misgendered Chinese in Gender Bias Research: Multi-Task Learning with Knowledge Distillation for Pinyin Name Gender Prediction",
+    "authors": "Xiaocong Du, Haipeng Zhang",
+    "year": 2024,
+    "link": null,
+    "abstract": "Achieving gender equality is a pivotal factor in realizing the UN\u2019s Global Goals for Sustainable Development. Gender bias studies work towards this and rely on name-based gender inference tools to assign individual gender labels when gender information is unavailable. However, these tools often inaccurately predict gender for Chinese Pinyin names, leading to potential bias in such studies. With the growing participation of Chinese in international activities, this situation is becoming more severe. Specifically, current tools focus on pronunciation (Pinyin) information, neglecting the fact that the latent connections between Pinyin and Chinese characters (Hanzi) behind convey critical information. As a first effort, we formulate the Pinyin name-gender guessing problem and design a Multi-Task Learning Network assisted by Knowledge Distillation that enables the Pinyin representations in the model to possess semantic features of Chinese characters and to learn gender information from Chinese character names. Our open-sourced method surpasses commercial name-gender guessing tools by 9.70% to 20.08% relatively, and also outperforms the state-of-the-art algorithms.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Self-Supervised Vision for Climate Downscaling",
+    "authors": "Karandeep Singh, Chaeyoon Jeong, Naufal Shidqi, Sungwon Park, Arjun Nellikkattil, Elke Zeller, Meeyoung Cha",
+    "year": 2024,
+    "link": null,
+    "abstract": "Climate change is one of the most critical challenges that our planet is facing today. Rising global temperatures are already affecting Earth\u2019s weather and climate patterns with an increased frequency of unpredictable and extreme events. Future projections for climate change research are based on computer models like Earth System Models (ESMs). Climate simulations typically run on a coarser grid due to the high computational resources required, and then undergo a lighter downscaling process to obtain data on a finer grid. This work presents a self-supervised deep learning model that does not require high resolution ground truth data for downscaling. This is realized by leveraging salient distribution patterns and the hidden dependencies between weather variables for an individual data point at runtime. We propose three climate-specific components that well represent the patterns of underlying weather variables and learn intricate inter-variable dependencies. Extensive evaluation with 2x, 3x, and 4x scaling factors demonstrates that our model obtains 8% to 47% performance gain over existing baselines while greatly reducing the overall runtime. The improved performance and no dependence on high resolution ground truth data make our method a valuable tool for future climate research.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Fuel-Saving Route Planning with Data-Driven and Learning-Based Approaches \u00e2\u0080\u0093 A Systematic Solution for Harbor Tugs",
+    "authors": "Shengming Wang, Xiaocai Zhang, Jing Li, Xiaoyang Wei, Hoong Chuin Lau, Bing Tian Dai, Binbin Huang, Zhe Xiao, Xiuju Fu, Zheng Qin",
+    "year": 2024,
+    "link": null,
+    "abstract": "In recent years, there are trends toward cleaner port environments through enforcement by imposed legislation. Transit optimisation of fuel-based port service boats like harbour tugs has emerged as a critical task to reduce fuel consumption and carbon emission. In this paper, an innovative learning-based method, comprising a Reinforcement Learning (RL) model together with a fuel consumption prediction model, was proposed to formulate fuel-saving transit routes. Firstly, an ensemble model is established by combining a Long Short-Term Memory (LSTM) model with a Multilayer Perceptron (MLP) model, predicting fuel use based on tugboat movement and environment factors. Subsequently, an innovative RL based on Deep Deterministic Policy Gradient (DDPG) framework is developed considering the characteristics and obstructions of waterway in Singapore as well as the environmental factors to learn the optimal transit strategy that minimizes fuel consumption. We also demonstrate the efficacy of the solution to generate routes from origin to destination terminals, exhibiting significantly reduced fuel consumption in comparison to real-world transit scenarios.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Automated Essay Scoring Using Discourse External Knowledge",
+    "authors": "Nisrine Ait Khayi, Vasile Rus",
+    "year": 2024,
+    "link": null,
+    "abstract": "The Automated Essay Scoring (AES) task is an important NLP research problem given its significance for the education ecosystem. Recently, researchers started to apply a hybrid approach to this task. This hybrid approach incorporates into a deep learning model expert features that assess a particular dimension of the essay. Motivated by these successes, we propose to automatically assess essays using a hybrid approach that relies on external discourse knowledge. Our proposed model consists of using transformer-based embeddings to generate semantic representations of essays. Then, we incorporate several discourse features into these representations. Finally, we apply a linear classifier to generate the final score. To evaluate the effectiveness of this approach, we have conducted extensive experiments using the Automated Student Assessment Prize dataset (ASAP). The performance of the proposed model has been evaluated using the Quadratic Weighted Kappa (QWK) metric. The experimental results demonstrate the effectiveness of this approach in comparison with several existing solutions in literature.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Revealing Hierarchical Structure of Leaf Venations in Plant Science via Label-Efficient Segmentation: Dataset and Method",
+    "authors": "Weizhen Liu, Ao Li, Ze Wu, Yue Li, Baobin Ge, Guangyu Lan, Shilin Chen, Minghe Li, Yunfei Liu, Xiaohui Yuan, Nanqing Dong",
+    "year": 2024,
+    "link": null,
+    "abstract": "Hierarchical leaf vein segmentation is a crucial but under-explored task in agricultural sciences, where analysis of the hierarchical structure of plant leaf venation can contribute to plant breeding. While current segmentation techniques rely on data-driven models, there is no publicly available dataset specifically designed for hierarchical leaf vein segmentation. \r\nTo address this gap, we introduce the HierArchical Leaf Vein Segmentation (HALVS) dataset, the first public hierarchical leaf vein segmentation dataset. HALVS comprises 5,057 real-scanned high-resolution leaf images collected from three plant species: soybean, sweet cherry, and London planetree. It also includes human-annotated ground truth for three orders of leaf veins, with a total labeling effort of 83.8 person-days. Based on HALVS, we further develop a label-efficient learning paradigm that leverages partial label information, i.e. missing annotations for tertiary veins. Empirical studies are performed on HALVS, revealing new observations, challenges, and research directions on leaf vein segmentation. Our dataset and code are available at https://github.com/WeizhenLiuBioinform/\r\nHALVS-Hierarchical-Vein-Segment.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "ReBandit: Random Effects Based Online RL Algorithm for Reducing Cannabis Use",
+    "authors": "Susobhan Ghosh, Yongyi Guo, Pei-Yao Hung, Lara Coughlin, Erin Bonar, Inbal Nahum-Shani, Maureen Walton, Susan Murphy",
+    "year": 2024,
+    "link": null,
+    "abstract": "The escalating prevalence of cannabis use, and associated cannabis-use disorder (CUD), poses a significant public health challenge globally. With a notably wide treatment gap, especially among emerging adults (EAs; ages 18-25), addressing cannabis use and CUD remains a pivotal objective within the 2030 United Nations Agenda for Sustainable Development Goals (SDG). In this work, we develop an online reinforcement learning (RL) algorithm called reBandit which will be utilized in a mobile health study to deliver personalized mobile health interventions aimed at reducing cannabis use among EAs. reBandit utilizes random effects and informative Bayesian priors to learn quickly and efficiently in noisy mobile health environments. Moreover, reBandit employs Empirical Bayes and optimization techniques to autonomously update its hyper-parameters online. To evaluate the performance of our algorithm, we construct a simulation testbed using data from a prior study, and compare against commonly used algorithms in mobile health studies. We show that reBandit performs equally well or better than all the baseline algorithms, and the performance gap widens as population heterogeneity increases in the simulation environment, proving its adeptness to adapt to diverse population of study participants.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Detecting AI-Generated Sentences in Human-AI Collaborative Hybrid Texts: Challenges, Strategies, and Insights",
+    "authors": "Zijie Zeng, Shiqi Liu, Lele Sha, Zhuang Li, Kaixun Yang, Sannyuya Liu, Dragan Gasevic, Guangliang Chen",
+    "year": 2024,
+    "link": null,
+    "abstract": "This study explores the challenge of sentence-level AI-generated text detection within human-AI collaborative hybrid texts (abbreviated as hybrid texts). Existing studies of AI-generated text detection for hybrid texts often rely on synthetic datasets. These typically involve hybrid texts with a limited number of boundaries, e.g., single-boundary hybrid texts that begin with human-written content and end with machine-generated continuations. We contend that studies of detecting AI-generated content within hybrid texts should cover different types of hybrid texts generated in realistic settings to better inform real-world applications. Therefore, our study utilizes the CoAuthor dataset, which includes diverse, realistic hybrid texts generated through the collaboration between human writers and an intelligent writing system in multi-turn interactions. We adopt a two-step, segmentation-based pipeline: (i) detect segments within a given hybrid text where each segment contains sentences of consistent authorship, and (ii) classify the authorship of each identified segment. Our empirical findings highlight (1) detecting AI-generated sentences in hybrid texts is overall a challenging task because (1.1) human writers\u2019 selecting and even editing AI-generated sentences based on personal preferences adds difficulty in identifying the authorship of segments; (1.2) the frequent change of authorship between neighboring sentences within the hybrid text creates difficulties for segment detectors in identifying authorship-consistent segments; (1.3) the short length of text segments within hybrid texts provides limited stylistic cues for reliable authorship determination; (2) before embarking on the detection process, it is beneficial to assess the average length of segments within the hybrid text. This assessment aids in deciding whether (2.1) to employ a text segmentation-based strategy for hybrid texts with longer segments, or (2.2) to adopt a direct sentence-by-sentence classification strategy for those with shorter segments.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "A Teacher Classroom Dress Assessment Method Based on a New Assessment Dataset",
+    "authors": "Ming Fang, Qi Liu, Yunpeng Zhou, Xinning Du, Qiwen Liang, Shuhua Liu",
+    "year": 2024,
+    "link": null,
+    "abstract": "Proper attire is a professional requirement for teachers and teachers\u2019 dress influence students\u2019 perceptions of teacher quality. Therefore, evaluating teacher attire can better regulate and improve the teacher\u2019s dress. However, the lack of a dataset on teacher attire hinders the development of this field. For this purpose, this paper constructs a Teachers\u2019 Classroom Dress Assessment (TCDA) dataset. To our knowledge, it is the first dataset focused on teacher attire. This dataset is entirely from the classroom environment, covering 25 teacher attributes, with a total of 11879 teacher dress samples and sufficient positive and negative examples. Therefore, the TCDA dataset is a challenging evaluation dataset with characteristics such as data diversity. In order to verify the effectiveness of the dataset, this paper systematically explores a new perspective on human attribute information and proposes for the first time a Teachers\u2019 Dress Assessment Method (TDAM), aiming to use predicted teacher attributes to scoring the overall attire of each teacher, thereby promoting the development of the teacher\u2019s classroom teaching field. The experimental results demonstrate the rationality of the TCDA dataset and the effectiveness of the TDAM method. The dataset and code can be openly obtained at https://github.com/MingZier/TCDA-dataset.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Down the Toxicity Rabbit Hole: A  Framework to Bias Audit Large Language Models with Key Emphasis on Racism, Antisemitism, and Misogyny",
+    "authors": "Arka Dutta, Adel Khorramrouz, Sujan Dutta, Ashiqur R. KhudaBukhsh",
+    "year": 2024,
+    "link": null,
+    "abstract": "This paper makes three contributions. First, it presents a generalizable, novel framework dubbed toxicity rabbit hole that iteratively elicits toxic content from a wide suite of large language models. Spanning a set of 1,266 identity groups, we first conduct a bias audit of PaLM 2 guardrails presenting key insights. Next, we report generalizability across several other models. Through the elicited toxic content, we present a broad analysis with a key emphasis on racism, antisemitism, misogyny, Islamophobia, homophobia, and transphobia. We release a massive dataset of machine-generated toxic content with a view toward safety for all. Finally, driven by concrete examples, we discuss potential ramifications.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Predicting Housing Transaction with Common Covariance GNNs",
+    "authors": "Jinjin Li, Bin Liu, Chengyan Liu, Hongli Zhang",
+    "year": 2024,
+    "link": null,
+    "abstract": "Urban migration is a significant aspect of a city\u2019s economy. The exploration of the underlying determinants of housing purchases among current residents contributes to the study of future trends in urban migration, enabling governments to formulate appropriate policies to guide future economic growth. This article employs a factor model to analyze data on residents\u2019 rentals, first-time home purchases, and subsequent housing upgrades. We decompose the factors influencing housing purchases into common drivers and specific drivers. Our hypothesis is that common drivers reflect universal social patterns, while personalized drivers represent stochastic elements. We construct a correlation matrix capturing the inter-resident relationships based on the common drivers of housing purchases. We then propose a graph neural network based on the correlation matrix to model housing predictions as a node classification problem. Our model addresses two critical questions. Firstly, we aim to identify which part of rental residents will engage in first-time home purchases in the future. Secondly, we seek to determine which group of residents, having completed rental and first-time home purchases, will opt for a second home purchase. The results of our testing on real-world datasets demonstrate that based solely on rental and home purchase records, we can achieve a sensitivity for housing predictions exceeding 80%.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Time-Evolving Data Science and Artificial Intelligence for Advanced Open Environmental Science (TAIAO) Programme",
+    "authors": "Yun Sing Koh, Albert Bifet, Karin Bryan, Guilherme Cassales, Olivier Graffeuille, Nick Lim, Phil Mourot, Ding Ning, Bernhard Pfahringer, Varvara Vetrova, Heitor Murilo Gomes",
+    "year": 2024,
+    "link": null,
+    "abstract": "New Zealand\u2019s unique ecosystems face increasing threats from climate change, impacting biodiversity and posing challenges to safety, livelihoods, and well-being. To tackle these complex issues,  advanced data science and artificial intelligence techniques can provide unique solutions. Currently, in its fourth year of a seven-year program, TAIAO focuses on methods for analyzing environmental datasets. Recognizing this urgency, the open-source TAIAO platform was developed. This platform enables new artificial intelligence research for environmental data and offers an open-access repository to enhance reproducibility in the field. This paper will showcase four environmental case studies, artificial intelligence research, platform implementation details, and future development plans.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Enhancing Sustainable Urban Mobility Prediction with Telecom Data: A Spatio-Temporal Framework Approach",
+    "authors": "ChungYi Lin, Shen-Lung Tung, Hung-Ting Su, Winston H. Hsu",
+    "year": 2024,
+    "link": null,
+    "abstract": "Traditional traffic prediction, limited by the scope of sensor data, falls short in comprehensive traffic management. Mobile networks offer a promising alternative using network activity counts, but these lack crucial directionality. Thus, we present the TeltoMob dataset, featuring undirected telecom counts and corresponding directional flows, to predict directional mobility flows on roadways. To address this, we propose a two-stage spatio-temporal graph neural network (STGNN) framework. The first stage uses a pre-trained STGNN to process telecom data, while the second stage integrates directional and geographic insights for accurate prediction. Our experiments demonstrate the framework\u2019s compatibility with various STGNN models and confirm its effectiveness. We also show how to incorporate the framework into real-world transportation systems, enhancing sustainable urban mobility.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "FairReFuse: Referee-Guided Fusion for Multi-Modal Causal Fairness in Depression Detection",
+    "authors": "Jiaee Cheong, Sinan Kalkan, Hatice Gunes",
+    "year": 2024,
+    "link": null,
+    "abstract": "Machine learning (ML) bias in mental health detection and analysis is becoming an increasingly pertinent challenge. Despite promising efforts indicating that  multimodal methods work better than unimodal methods, there is minimal work on multimodal fairness for depression detection. We  propose a causal multimodal framework which consists of two modules. Module 1 performs causal interventional debiasing via backdoor adjustment for each modality to achieve group fairness. Module 2 adaptively fuses the different modalities using a referee-based individual fairness guided fusion mechanism to address individual fairness. We conduct experiments and ablation studies on three depression datasets, D-Vlog, DAIC-WOZ and E-DAIC, and show that our framework improves classification performance as well as group and individual fairness compared to existing approaches.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "A Novel GAN Approach to Augment Limited Tabular Data for Short-Term Substance Use Prediction",
+    "authors": "Nguyen Thach, Patrick Habecker, Bergen Johnston, Lillianna Cervantes, Anika Eisenbraun, Alex Mason, Kimberly Tyler, Bilal Khan, Hau Chan",
+    "year": 2024,
+    "link": null,
+    "abstract": "Substance use is a global issue that negatively impacts millions of persons who use drugs (PWUDs). In practice, identifying vulnerable PWUDs for efficient allocation of appropriate resources is challenging due to their complex use patterns (e.g., their tendency to change usage within months) and the high acquisition costs for collecting PWUD-focused substance use data. Thus, there has been a paucity of machine learning models for accurately predicting short-term substance use behaviors of PWUDs. In this paper, using longitudinal survey data of 258 PWUDs in the U.S. Great Plains collected by our team, we design a novel GAN that deals with high-dimensional low-sample-size tabular data and survey skip logic to augment existing data to improve classification models\u2019 prediction on (A) whether the PWUDs would increase usage and (B) at which ordinal frequency they would use a particular drug within the next 12 months. Our evaluation results show that, when trained on augmented data from our proposed GAN, the classification models improve their predictive performance (AUROC) by up to 13.4% in Problem (A) and 15.8% in Problem (B) for usage of marijuana, meth, amphetamines, and cocaine, which outperform state-of-the-art generative models.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Energy-Efficient Missing Data Imputation in Wearable Health Applications: A Classifier-aware Statistical Approach",
+    "authors": "Dina Hussein, Taha Belkhouja, Ganapati Bhat, Janardhan Rao Doppa",
+    "year": 2024,
+    "link": null,
+    "abstract": "Wearable devices are being increasingly used in high-impact health applications including vital sign monitoring, rehabilitation, and movement disorders. Wearable health monitoring can aid in the United Nations social development goal of healthy lives by enabling early warning, risk reduction, and management of health risks. Health tasks on wearable devices employ multiple sensors to collect relevant parameters of user\u2019s health and make decisions using machine learning (ML) algorithms. The ML algorithms assume that data from all sensors are available for the health monitoring tasks. However, the applications may encounter missing or incomplete data due to user error, energy limitations, or sensor malfunction. Missing data results in significant loss of accuracy and quality of service. This paper presents a novel Classifier-Aware iMputation (CAM) approach to impute missing data such that classifier accuracy for health tasks is not affected. Specifically, CAM employs unsupervised clustering followed by a principled search algorithm to uncover imputation patterns that maintain high accuracy. Evaluations on seven diverse health tasks show that CAM achieves accuracy within 5% of the baseline with no missing data when one sensor is missing. CAM also achieves significantly higher accuracy compared to generative approaches with negligible energy overhead, making it suitable for wide range of wearable applications.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "An Embarrassingly Simple Approach to Enhance Transformer Performance in Genomic Selection for Crop Breeding",
+    "authors": "Renqi Chen, Wenwei Han, Haohao Zhang, Haoyang Su, Zhefan Wang, Xiaolei Liu, Hao Jiang, Wanli Ouyang, Nanqing Dong",
+    "year": 2024,
+    "link": null,
+    "abstract": "Genomic selection (GS), as a critical crop breeding strategy, plays a key role in enhancing food production and addressing the global hunger crisis. The predominant approaches in GS currently revolve around employing statistical methods for prediction. However, statistical methods often come with two main limitations: strong statistical priors and linear assumptions. A recent trend is to capture the non-linear relationships between markers by deep learning. However, as crop datasets are commonly long sequences with limited samples, the robustness of deep learning models, especially Transformers, remains a challenge. In this work, to unleash the unexplored potential of attention mechanism for the task of interest, we propose a simple yet effective Transformer-based framework that enables end-to-end training of the whole sequence. Via experiments on rice3k and wheat3k datasets, we show that, with simple tricks such as k-mer tokenization and random masking, Transformer can achieve overall superior performance against seminal methods on GS tasks of interest.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "RisQNet: Rescuing SMEs from Financial Shocks with a Novel Networked-Loan Risk Assessment",
+    "authors": "Zhaoyuan Lu, Taijun Li, Jingzhen Zhang, Moyang Liu, Xiang Li, Linyi Cui, Junqi Chen, Zhibin Niu",
+    "year": 2024,
+    "link": null,
+    "abstract": "In the face of economic downturns, Small and Medium-sized Enterprises (SMEs) within interconnected networked-loans are vulnerable to cascading debt crises, exacerbated by factors like social media-induced financial shocks. Traditional risk assessment models, which mainly rely on financial data, inadequately predict such crises, as evidenced by the collapse of Silicon Valley Bank in 2023. To address this issue, we developed RisQNet, a model that uses temporal graph networks to incorporate diverse risks, including real-time media influences. This approach not only advances risk prediction through news feature extraction and large language models but also enhances risk management strategies with intuitive visualization tools. Validated on a dataset with a total loan volume of USD 3 trillion, RisQNet outperforms the state-of-the-art baseline and achieves 87.1% of AUC. Our collaborative effort with financial regulators and the SME community underpins the model\u2019s development, aligning with the UN SDG 8. RisQNet represents a significant step forward in leveraging AI for financial stability, offering a promising approach to combat the propagation of debt crises in financial networks.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Streamflow Prediction with Uncertainty Quantification for Water Management: A Constrained Reasoning and Learning Approach",
+    "authors": "Mohammed Amine Gharsallaoui, Bhupinderjeet Singh, Supriya Savalkar, Aryan Deshwal, Ananth Kalyanaraman, Kirti Rajagopalan, Janardhan Rao Doppa",
+    "year": 2024,
+    "link": null,
+    "abstract": "Predicting the spatiotemporal variation in streamflow along with uncertainty quantification enables decision-making for sustainable management of scarce water resources. Process-based hydrological models (aka physics-based models) are based on physical laws, but use simplifying assumptions which can lead to poor accuracy. Data-driven approaches offer a powerful alternative, but they require large amount of training data and tend to produce predictions that are inconsistent with physical laws. This paper studies a constrained reasoning and learning (CRL) approach where physical laws represented as logical constraints are integrated as a layer in the deep neural network. To address  small data setting, we develop a theoretically-grounded training approach to improve the generalization accuracy of deep models. For uncertainty quantification, we combine the synergistic strengths of Gaussian processes (GPs) and deep temporal models by passing the learned latent representation as input to a standard distance-based kernel. Experiments on multiple real-world datasets demonstrate the effectiveness of both CRL and GP with deep kernel approaches over strong baseline methods.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Benchmarking Fish Dataset and Evaluation Metric in Keypoint Detection \u2013 Towards Precise Fish Morphological Assessment in Aquaculture Breeding",
+    "authors": "Weizhen Liu, Jiayu Tan, Guangyu Lan, Ao Li, Dongye Li, Le Zhao, Xiaohui Yuan, Nanqing Dong",
+    "year": 2024,
+    "link": null,
+    "abstract": "Accurate phenotypic analysis in aquaculture breeding necessitates the quantification of subtle morphological phenotypes. Existing datasets suffer from limitations such as small scale, limited species coverage, and inadequate annotation of keypoints for measuring refined and complex morphological phenotypes of fish body parts. To address this gap, we introduce FishPhenoKey, a comprehensive dataset comprising 23,331 high-resolution images spanning six fish species. Notably, FishPhenoKey includes 22 phenotype-oriented annotations, enabling the capture of intricate morphological phenotypes. Motivated by the nuanced evaluation of these subtle morphologies, we also propose a new evaluation metric, Percentage of Measured Phenotypes (PMP). It is designed to assess the accuracy of individual keypoint positions and is highly sensitive to the phenotype measured using the corresponding keypoints. To enhance keypoint detection accuracy, we further propose a novel loss, Anatomically-Calibrated Regularization (ACR), that can be integrated into keypoint detection models, leveraging biological insights to refine keypoint localization. Our contributions set a new benchmark in fish phenotype analysis, addressing the challenges of precise morphological quantification and opening new avenues for research in sustainable aquaculture and genetic studies. Our dataset and code are available at https://github.com/WeizhenLiuBioinform/FishPhenotype-Detect.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Predicting Carpark Availability in Singapore with Cross-Domain Data: A New Dataset and A Data-Driven Approach",
+    "authors": "Huaiwu Zhang, Yutong Xia, Siru Zhong, Kun Wang, Zekun Tong, Qingsong Wen, Roger Zimmermann, Yuxuan Liang",
+    "year": 2024,
+    "link": null,
+    "abstract": "The increasing number of vehicles highlights the need for efficient parking space management. Predicting real-time Parking Availability (PA) can help mitigate traffic congestion and the corresponding social problems, which is a pressing issue in densely populated cities like Singapore. In this study, we aim to collectively predict future PA across Singapore with complex factors from various domains. The contributions in this paper are listed as follows: (1) A New Dataset: We introduce the SINPA dataset, containing a year\u2019s worth of PA data from 1,687 parking lots in Singapore, enriched with various spatial and temporal factors. (2) A Data-Driven Approach: We present DeepPA, a novel deep-learning framework, to collectively and efficiently predict future PA across thousands of parking lots. (3) Extensive Experiments and Deployment: DeepPA demonstrates a 9.2% reduction in prediction error for up to 3-hour forecasts compared to existing advanced models. Furthermore, we implement DeepPA in a practical web-based platform to provide real-time PA predictions to aid drivers and inform urban planning for the governors in Singapore. We release the dataset and source code at https://github.com/yoshall/SINPA.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Spatio-Temporal Field Neural Networks for Air Quality Inference",
+    "authors": "Yutong Feng, Qiongyan Wang, Yutong Xia, Junlin Huang, Siru Zhong, Yuxuan Liang",
+    "year": 2024,
+    "link": null,
+    "abstract": "The air quality inference problem aims to utilize historical data from a limited number of observation sites to infer the air quality index at an unknown location. Considering the sparsity of data due to the high maintenance cost of the stations, good inference algorithms can effectively save the cost and refine the data granularity. While spatio-temporal graph neural networks have made excellent progress on this problem, their non-Euclidean and discrete data structure modeling of reality limits its potential. In this work, we make the first attempt to combine two different spatio-temporal perspectives, fields and graphs, by proposing a new model, Spatio-Temporal Field Neural Network, and its corresponding new framework, Pyramidal Inference. Extensive experiments validate that our model achieves state-of-the-art performance in nationwide air quality inference in the Chinese Mainland, demonstrating the superiority of our proposed model and framework.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Fitness Activity Recognition Using a Novel Pressure Sensing Mat and Machine Learning for the Future of Accessible Training",
+    "authors": "Katia Bourahmoune, Karlos Ishac, Marc Carmichael",
+    "year": 2024,
+    "link": null,
+    "abstract": "Physical inactivity is still a major problem contributing to a growing public health crisis despite a fast-expanding body of technological solutions and wellness research around fitness training. The inaccessibility of professional fitness training remains a leading cause of this gap for reasons encompassing socioeconomic factors, cultural and demographic barriers, and more recently the threat of global pandemics that disrupt traditional modes of staying physically active. Previous lines of work have explored using AI for fitness activity recognition from various sensing modalities such as computer vision, wearable sensors, and force and pressure sensors. However, these works are limited by their feasibility, deployability, and accessibility in real-world scenarios, in addition to the technical challenges faced by each modality for accurate and reliable activity recognition. In this paper, we propose an accessible system for gym activity recognition and correction focusing on foundational fitness activities using ML and a novel pressure sensing mat, and validate its deployability in a real-world use case in a natural gym setting. We present the detailed and previously under-investigated Centre of Pressure (COP) profile of four main gym activities in terms of several COP-related metrics specifically as targets for ML-based recognition tasks. Based on this, we identify COP displacement and COP balance measures as important features for ML-based recognition of these fitness activities for future research in this area. Furthermore, we compare the performance of several ML models in the activity recognition task, achieving 98.5% recognition accuracy using ML models suitable for real-time deployment. Finally, we demonstrate the feasibility of our system in a live real-world with use case in a natural gym environment.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Functional Graph Convolutional Networks: A Unified Multi-task and Multi-modal Learning Framework to Facilitate Health and Social-Care Insights",
+    "authors": "Tobia Boschi, Francesca Bonin, Rodrigo Ordonez-Hurtado, C\u00c3\u00a9cile Rousseau, Alessandra Pascale, John Dinsmore",
+    "year": 2024,
+    "link": null,
+    "abstract": "This paper introduces a novel Functional Graph Convolutional Network (funGCN) framework that combines Functional Data Analysis and Graph Convolutional Networks\r\nto address the complexities of multi-task and multi-modal learning in digital health and longitudinal studies. With the growing importance of health solutions to improve health care and social support, ensure healthy lives, and promote well-being at all ages, funGCN offers a unified approach to handle multivariate longitudinal data for multiple entities and ensures interpretability even with small sample sizes. Key innovations include task-specific embedding components that manage different data types, the ability to perform classification, regression, and forecasting, and the creation of a knowledge graph for insightful data interpretation. The efficacy of funGCN is validated through simulation experiments and a real-data application. funGCN source code is publicly available at https://github.com/IBM/funGCN.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Drug Overdose Vital-Signs Evaluator Using Machine Learning",
+    "authors": "Anush Niranjan Lingamoorthy, Abhishek Kumar Mishra, Suman Kumar, David Gordon, Jacob Brenner, Nagarajan Kandasamy, Amanda Watson",
+    "year": 2024,
+    "link": null,
+    "abstract": "Opioid overdose is an escalating global epidemic, affecting 16 million individuals. Lack of overdose detection and slower response times are the leading causes of overdose deaths. During a fatal opioid overdose, the user exhibits motionlessness, lack of breathing, and hypoxemia (oxygen saturation drops). In this paper, we discuss the development of a shoulder-based wearable overdose detection device that monitors hypoxemia, motion, and respiration. The device\u2019s design considers the underserved socio-economic population and their psychological contexts. However, conventional approaches to detecting an overdose typically focus on a single biomarker. To address this, we have developed a robust capsule networks based machine learning (ML) model, OxyCaps that integrates oxygen saturation, respiration rate, and motion to classify different levels of hypoxemia. This also helps improve patient adherence by decreasing the chances of false positive alerts. To determine a hypoxemic state, the model considers various features like skin tone, body physiology, motion, and photoplethysmography (PPG) signals. In the absence of real-world opioid overdose data, our research leverages data collected by our device from 19 patients experiencing sleep apnea, exploiting the parallels between overdose and apnea biomarkers. Our dataset provides a novel compilation of raw PPG and motion signals detected from the shoulder. Our model classifies 3 stages of hypoxemia with an average accuracy of 92%, specifically achieving a high recall of 0.98 for the critical hypoxemic state that is crucial in determining an overdose.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Empathy and AI: Achieving Equitable Microtransit for Underserved Communities",
+    "authors": "Eleni Bardaka, Pascal Van Hentenryck, Crystal Chen Lee, Christopher B. Mayhorn, Kai Monast, Samitha Samaranayake, Munindar P. Singh",
+    "year": 2024,
+    "link": null,
+    "abstract": "This paper describes a newly launched project that will produce a new approach to public microtransit for underserved communities. Public microtransit cannot rely on pricing signals to manage demand, and current approaches face the challenges of simultaneously being underutilized and overextended. This project conceives of the setting as a sociotechnical system. Its main idea is to engage users through AI agents in conjunction with platform constraints to find solutions that purely technical conceptions cannot find. The project was specified over an intense series of discussions with key stakeholders (riders, city government, and nongovernmental agencies) and brings together expertise in the disciplines of AI, Operations Research, Urban Planning, Psychology, and Community Development. The project will culminate in a pilot study, results from which will facilitate the transfer of its technology to additional communities.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "SUKHSANDESH: An Avatar Therapeutic Question Answering Platform for Sexual Education in Rural India",
+    "authors": "Salam Michael Singh, Shubhmoy Kumar Garg, Amitesh Misra, Aaditeshwar Seth, Tanmoy Chakraborty",
+    "year": 2024,
+    "link": null,
+    "abstract": "Sexual education aims to foster a healthy lifestyle in terms of emotional, mental and social well-being.  In countries like India, where adolescents form the largest demographic group, they face significant vulnerabilities concerning sexual health. Unfortunately, sexual education is often stigmatized, creating barriers to providing essential counseling and information to this at-risk population. Consequently, issues such as early pregnancy, unsafe abortions, sexually transmitted infections, and sexual violence become prevalent. Our current proposal aims to provide a safe and trustworthy platform for sexual education to the vulnerable rural Indian population, thereby fostering the healthy and overall growth of the nation. In this regard, we strive towards designing SUKHSANDESH, a multi-staged AI-based Question Answering platform for sexual education tailored to rural India, adhering to safety guardrails and regional language support. By utilizing information retrieval techniques and large language models, SUKHSANDESH will deliver effective responses to user queries.\r\nWe also propose to anonymise the dataset to mitigate safety measures and set AI guardrails against any harmful or unwanted response generation. Moreover, an innovative feature of our proposal involves integrating \"avatar therapy\" with SUKHSANDESH. This feature will convert AI-generated responses into real-time audio delivered by an animated avatar speaking regional Indian languages. This approach aims to foster empathy and connection, which is particularly beneficial for individuals with limited literacy skills. Partnering with Gram Vanni, an industry leader, we will deploy SUKHSANDESH to address sexual education needs in rural India.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "CGAP: Urban Region Representation Learning with Coarsened Graph Attention Pooling",
+    "authors": "Zhuo Xu, Xiao Zhou",
+    "year": 2024,
+    "link": null,
+    "abstract": "The explosion of massive urban data recently has provided us with a valuable opportunity to gain deeper insights into urban regions and the daily lives of residents. Urban region representation learning emerges as a crucial realm for fulfilling this task. Among deep learning approaches, graph neural networks (GNNs) have shown promise, given that city elements can be naturally represented as nodes with various connections between them as edges. However, many existing GNN approaches encounter challenges such as over-smoothing and limitations in capturing information from nodes in other regions, resulting in the loss of crucial urban information and a decline in region representation performance. To address these challenges, we leverage urban graph structure information and introduce a hierarchical graph pooling process called Coarsened Graph Attention Pooling (CGAP). CGAP features local attention units to create coarsened intermediate graphs and global features. Additionally, by incorporating urban region graphs and global features into a global attention layer, we harness relational information to enhance representation effectiveness. Furthermore, CGAP integrates region attributes such as Points of Interest (POIs) and inter-regional contexts like human mobility, enabling the exploitation of multi-modal urban data for more comprehensive representation learning. Experiments on three downstream tasks related to the UN Sustainable Development Goals validate the effectiveness of region representations learned by our approach. Experimental results and analyses demonstrate that CGAP excels in various socioeconomic prediction tasks compared to competitive baselines.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Unmasking Societal Biases in Respiratory Support for ICU Patients through Social Determinants of Health",
+    "authors": "Mira Moukheiber, Lama Moukheiber, Dana Moukheiber, Hyung-Chul Lee",
+    "year": 2024,
+    "link": null,
+    "abstract": "In critical care settings, where precise and timely interventions are crucial for health outcomes, evaluating disparities in patient outcomes is important. Current approaches often fall short in comprehensively understanding and evaluating the impact of respiratory support interventions on individuals affected by social determinants of health. Attributes such as gender, race, and age are commonly assessed and essential, but provide only a partial view of the complexities faced by diverse populations. In this study, we focus on two clinically motivated tasks: prolonged mechanical ventilation and successful weaning. We also perform fairness audits on the models\u2019 predictions across demographic groups and social determinants of health to better understand the health inequities in respiratory interventions in the intensive care unit. We also release a temporal benchmark dataset, verified by clinical experts, to enable benchmarking of clinical respiratory intervention tasks.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Deploying Mobility-On-Demand for All by Optimizing Paratransit Services",
+    "authors": "Sophie Pavia, David Rogers, Amutheezan Sivagnanam, Michael Wilbur, Danushka Edirimanna, Youngseo Kim, Philip Pugliese, Samitha Samaranayake, Aron Laszka, Ayan Mukhopadhyay, Abhishek Dubey",
+    "year": 2024,
+    "link": null,
+    "abstract": "While on-demand ride-sharing services have become popular in recent years, traditional on-demand transit services cannot be used by everyone, e.g., people who use wheelchairs. Paratransit services, operated by public transit agencies, are a critical infrastructure that offers door-to-door transportation assistance for individuals who face challenges in using standard transit routes. However, with declining ridership and mounting financial pressure, public transit agencies in the USA struggle to operate existing services. We collaborate with a public transit agency from the southern USA, highlight the specific nuances of paratransit optimization, and present a vehicle routing problem formulation for optimizing paratransit. We validate our approach using real-world data from the transit agency, present results from an actual pilot deployment of the proposed approach in the city, and show how the proposed approach comprehensively outperforms existing approaches used by the transit agency. To the best of our knowledge, this work presents one of the first examples of using open-source algorithmic approaches for paratransit optimization.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "From Pink and Blue to a Rainbow Hue! Defying Gender Bias through Gender Neutralizing Text Transformations",
+    "authors": "Gopendra Vikram Singh, Soumitra Ghosh, Neil Dcruze, Asif Ekbal",
+    "year": 2024,
+    "link": null,
+    "abstract": "In an era where language biases contribute to societal inequalities, this research focuses on gender bias in textual data, with profound implications for promoting inclusivity and equity, aligning with United Nations Sustainable Development Goals (SDGs) and upholding the principle of Leave No One Behind (LNOB). Leveraging advances in artificial intelligence, the study introduces the GEnder-NEutralizing Text Transformation (GENETT) framework, addressing gender bias in text through auto-encoders, vector quantization, and Neutrality-Infused Stylization. Furthermore, we present the first-of-its-kind corpus of GEnder Neutralized REvisions (GENRE) crafted from gender-stereotyped versions. This corpus serves a multifaceted utility, offering a resource for diverse downstream tasks in gender-bias analysis. Extensive experimentation on GENRE highlights the superiority of the proposed model over established baselines and state-of-the-art methods. Access the code and dataset at 1. https://www.iitp.ac.in/~ai-nlp-ml/resources.html#GNR, 2. https://github.com/Soumitra816/GNR.\r\n\r\nNote: Our research focuses on understanding cyber harassment conversations, especially in under-researched areas, with the exclusion of non-binary cases due to existing dataset limitations, not lack of sensitivity. We strive for inclusivity and plan to address this in future research with suitable datasets.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Guiding Clinical Reasoning with Large Language Models via Knowledge Seeds",
+    "authors": "Jiageng Wu, Xian Wu, Jie Yang",
+    "year": 2024,
+    "link": null,
+    "abstract": "Clinical reasoning refers to the cognitive process that physicians employ in evaluating and managing patients. This process typically involves suggesting necessary examinations, diagnosing patients\u2019 diseases, and selecting appropriate therapies, etc. Accurate clinical reasoning requires extensive medical knowledge and rich clinical experience, setting a high bar for physicians. This is particularly challenging in developing countries due to the overwhelming number of patients and limited physician resources, contributing significantly to global health inequity and necessitating automated clinical reasoning approaches. Recently, the emergence of large language models (LLMs) such as ChatGPT and GPT-4 have demonstrated their potential in clinical reasoning. However, these LLMs are prone to hallucination problems, and the reasoning process of LLMs may not align with the clinical decision pathways of physicians. In this study, we introduce a novel framework, In-Context Padding (ICP), to enhance LLMs reasoning with medical knowledge. Specifically, we infer critical clinical reasoning elements (referred to as knowledge seeds) and use these as anchors to guide the generation process of LLMs. Experiments on two clinical question datasets validate that ICP significantly improves the clinical reasoning ability of LLMs.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "LEEC for Judicial Fairness: A Legal Element Extraction Dataset with Extensive Extra-Legal Labels",
+    "authors": "Zongyue Xue, Huanghai Liu, Yiran Hu, Yuliang Qian, Yajing Wang, Kangle Kong, Chenlu Wang, Yun Liu, Weixing Shen",
+    "year": 2024,
+    "link": null,
+    "abstract": "An extensive label system is pivotal to facilitate judicial fairness and social justice. Prior empirical research and our interview with legal professionals underscore the importance of extra-legal factors in criminal trials. To help identify sentencing biases and facilitate downstream applications, we introduce the Legal Element ExtraCtion (LEEC) dataset comprising 15,919 judicial documents and 155 labels. This dataset was constructed through two main steps: First, designing the label system by legal experts based on prior empirical research which identified critical factors driving and processes generating sentencing outcomes in criminal cases; Second, employing legal knowledge to annotate judicial documents according to the label system and annotation guideline. LEEC represents the most extensive and domain-specific legal element extraction dataset for the Chinese legal system. Our experiments reveal that despite certain capabilities, both Document Event Extraction (DEE) models and Large Language Models(LLMs) face significant restrictions in legal element extraction tasks. Finally, our empirical analysis based on LEEC provides evidence for judicial unfairness in Chinese criminal sentencing and confirms the applicability of LEEC for future empirical research and other downstream applications. LEEC and related resources are available on https://github.com/THUlawtech/LEEC.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "CDSTraj: Characterized Diffusion and Spatial-Temporal Interaction Network for Trajectory Prediction in Autonomous Driving",
+    "authors": "Haicheng Liao, Xuelin Li, Yongkang Li, Hanlin Kong, Chengyue Wang, Bonan Wang, Yanchen Guan, KaHou Tam, Zhenning Li",
+    "year": 2024,
+    "link": null,
+    "abstract": "Trajectory prediction is a cornerstone in autonomous driving (AD), playing a critical role in enabling vehicles to navigate safely and efficiently in dynamic environments. To address this task, this paper presents a novel trajectory prediction model tailored for accuracy in the face of heterogeneous and uncertain traffic scenarios. At the heart of this model lies the Characterized Diffusion Module, an innovative module designed to simulate traffic scenarios with inherent uncertainty. This module enriches the predictive process by infusing it with detailed semantic information, thereby enhancing trajectory prediction accuracy. Complementing this, our Spatio-Temporal (ST) Interaction Module captures the nuanced effects of traffic scenarios on vehicle dynamics across both spatial and temporal dimensions with remarkable effectiveness. Demonstrated through exhaustive evaluations, our model sets a new standard in trajectory prediction, achieving state-of-the-art (SOTA) results on the Next Generation Simulation (NGSIM), Highway Drone (HighD), and Macao Connected Autonomous Driving (MoCAD) datasets across both short and extended temporal spans. This performance underscores the model\u2019s unparalleled adaptability and efficacy in navigating complex traffic scenarios, including highways, urban streets, and intersections.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  }
+]

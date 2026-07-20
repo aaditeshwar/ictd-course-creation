@@ -1,0 +1,288 @@
+[
+  {
+    "id": null,
+    "title": "Is Technology the Answer to Universal Energy Access?",
+    "authors": "Amalia Suryani, Maarten Appelman, Niek Moonen, Jelena Popovic",
+    "year": 2023,
+    "venue": "ghtc_2023",
+    "areas": [
+      "infrastructure"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "impact_evaluation",
+      "operations_scale"
+    ],
+    "cross_cutting_axes": [
+      "climate_change",
+      "gender",
+      "caste",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "ghtc_2023_venue_search",
+    "notes": "The paper engages with the infrastructure and connectivity area, specifically electricity access and reliability in remote rural areas, which is a developing-regions context.",
+    "link": "https://doi.org/10.1109/GHTC56179.2023.10355000",
+    "abstract": "Despite the concerted efforts to provide electricity through the deployment of distributed renewable energy-based technologies, the sustainability of these infrastructures remains uncertain. One plausible explanation is the inadequate operation and maintenance strategy throughout the system\u2019s lifetime. This paper describes the progress of rural electrification to address electrification challenges in remote rural areas and the failures that occurred. Data on the operational status of several off-grid solar systems in various countries are presented. The most recent reports on the subject were reviewed and critical sustainability concerns surrounding the topic were assessed. The paper concludes with an argument that while technology is a main ingredient in achieving universal energy access, there are nontechnical aspects to consider to ensure the sustainability of the technology.",
+    "_matched_keywords": [
+      "electrification"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Demonstrating the Value of Generating and Sharing Data on Off-Grid Energy Systems: A Case Study from Malawi",
+    "authors": "Damien F. Frame, Million Mafuta, Stuart J. Galloway, Aran Eales",
+    "year": 2023,
+    "venue": "ghtc_2023",
+    "areas": [
+      "infrastructure"
+    ],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [],
+    "area_agnostic": false,
+    "source_course": "ghtc_2023_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context (Malawi) and addresses infrastructure and connectivity issues, which aligns with the rule for topic 'cs_fundamentals'.",
+    "link": "https://doi.org/10.1109/GHTC56179.2023.10354879",
+    "abstract": "To achieve electricity access in sub-Saharan Africa, off-grid Distributed Energy Resource Systems, such as microgrids, are required. Sustainability of these systems requires improved business models and efficient maintenance and operations frameworks. However, a lack of technical and economic data from the existing installation base hampers the necessary learning and innovation. This paper describes a case study deployment of DER systems in Malawi, demonstrating the application and benefits of high levels of instrumentation and monitoring. A proposed classification of minimum, preferred and desirable levels of data gathering and sharing is offered as a key recommendation for future DER system deployments in Malawi.",
+    "_matched_keywords": [
+      "electricity access"
+    ]
+  },
+  {
+    "id": null,
+    "title": "The Feasibility of Introducing Mobile Technology in Kenyan Schools that Utilize the Competency Based Curriculum",
+    "authors": "Kayla Brown, Morgan Schnars, Adam Turk Karan, Isabel Ucar, John Gershenson",
+    "year": 2023,
+    "venue": "ghtc_2023",
+    "areas": [
+      "education"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "ethnographic_design",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "ghtc_2023_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context (Kenya) and applies computer science fundamentals to an educational challenge.",
+    "link": "https://doi.org/10.1109/GHTC56179.2023.10354692",
+    "abstract": "Competency Based Learning is an emerging curriculum in Kenya that provides students with a well-rounded education focused on learning both foundational and practical skills. The Competency Based Curriculum (CBC) was recently introduced but is not integrating well into the current system because there is a lack of instructor training and knowledge in the new educational program. The CBC incorporates digital literacy; however, it does not provide schools with the necessary technology. Through two experiments performed in Kisumu, Kenya, the time saved using a tablet as an assessment tool and time to learn an unfamiliar educational app were quantified. Instructor comfort level was also recorded. It was found that instructors were able to comfortably use multiple tablets to assess multiple students at the same time. Additionally, a tutorial video was sufficient for them learn to assess a student and perform basic tasks.",
+    "_matched_keywords": [
+      "digital literacy"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Towards a Geospatial Household Natural Hazard Resilience Model in Rwanda",
+    "authors": "Brian M. Tomaszewski, Timothy Scott, Jennifer Schneider, Rebekah Walker, Gaspard Rwanyiziri, Jean Francois Christian Kwizera, Anthony Vodacek",
+    "year": 2023,
+    "venue": "ghtc_2023",
+    "areas": [
+      "water_security",
+      "climate_change"
+    ],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [
+      "climate_change"
+    ],
+    "area_agnostic": false,
+    "source_course": "ghtc_2023_venue_search",
+    "notes": "The paper engages with a developing-regions context (Rwanda) and applies geospatial technology to understand household resilience to natural hazards, which aligns with the 'cs_fundamentals' topic and 'water_security' and 'climate_change' areas.",
+    "link": "https://doi.org/10.1109/GHTC56179.2023.10354787",
+    "abstract": "Household resilience to natural hazards is a critical issue facing society with the advent of climate change. In this work, we developed one of the first household natural hazard resilience geospatial models for Rwanda designed to understand household resilience at detailed spatial resolutions. We evaluated indicators within the model through empirical field work using an easy to deploy survey on Android tablets. To the best of our knowledge, the work presented here is innovative as it some of the first work to use geospatial technology-based surveys to conduct household-level natural disaster resilience surveys in Rwanda. Select results presented in this paper indicated that household vulnerabilities and subsequent resilience generally matched with existing district-level risk mapping of Rwanda. However, our work went beyond existing risk mapping to understand individual household perceptions of resilience. Respondents generally reported a mix of positive and negative drivers of household resilience. General security and economic situation was perceived as very insecure, healthcare and education were very secure, and utilities, food and water, and housing were generally perceived as insecure but not as insecure as economic situation and security. There is much more that can be understood in terms of household resilience as it relates to many factors of household resiliency in our model including physical vulnerabilities, financial capacity, information access, technological capacity, and most importantly, resilience perceptions.",
+    "_matched_keywords": [
+      "risk mapping",
+      "natural disaster resilience"
+    ]
+  },
+  {
+    "id": null,
+    "title": "A micro level investigation on urban underground water contamination",
+    "authors": "Suresh Aswathi, S. J. Sushanth",
+    "year": 2023,
+    "venue": "ghtc_2023",
+    "areas": [
+      "water_security"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "ethnographic_design"
+    ],
+    "cross_cutting_axes": [
+      "climate_change"
+    ],
+    "area_agnostic": false,
+    "source_course": "ghtc_2023_venue_search",
+    "notes": "The paper engages with a developing-regions context in India, specifically Trivandrum, Kerala, and addresses water security issues.",
+    "link": "https://doi.org/10.1109/GHTC56179.2023.10355034",
+    "abstract": "Groundwater contamination poses significant environmental and human health risks worldwide. Understanding the factors influencing contamination at a micro level is essential to develop comprehensive strategies for the protection and preservation of groundwater throughout the lifecycle of a building project. The rapid growth in urban built environment demands the architects and urban designers to develop sustainable strategies to protect underground water resources. This study intends to analyze the impacts of varying soil permeability, water table, and Angle of flow on groundwater contamination. The research adopts a multidisciplinary approach, combining environmental science and urban planning. A representative study area-Kazhakoottam ward of Trivandrum, Kerala is considered. Initially, soil permeability is assessed through laboratory testing and field investigations to develop a permeability gradient across the study area. This information is essential in understanding the movement and transport of contaminants through soil matrix. A design of experiment is done for 20 sample cases that were obtained through RSM Method. The higher soil permeability across contours results in higher seepage velocity and contamination. Among the parameters considered permeability has higher influence on seepage velocity followed by angle of flow. The water table is the least contributing factor among them. The combined effect of soil permeability and angle of flow has larger impact than permeability and water table. The outcome points to the need of considering micro level conditions rather than macro level in developing sustainable design strategies for urban ground water management and protection.",
+    "_matched_keywords": [
+      "groundwater",
+      "water table"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Capturing and Digitization of Indigenous Knowledge in Support of Community Resilience to Climate Change",
+    "authors": "Balu M. Menon, Vineeth Noble, Aswathi Padmavilochanan, Tarek Rashed, Rao R. Bhavani",
+    "year": 2023,
+    "venue": "ghtc_2023",
+    "areas": [
+      "water_security",
+      "forests_restoration",
+      "wildlife_conservation"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "ethnographic_design",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "climate_change",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "ghtc_2023_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context in rural India, focusing on indigenous knowledge and climate change resilience.",
+    "link": "https://doi.org/10.1109/GHTC56179.2023.10354562",
+    "abstract": "Traditional or Indigenous knowledge is a term that strikes chords when referring to the skills and philosophies developed by societies over the history of interactions with their surroundings. It plays a vital role in understanding ordinary people\u2019s decisions in fundamental aspects related to their daily activities. Indigenous knowledge (sometimes referred to as local or traditional knowledge) encompasses language, use of resources, spirituality, social interactions, and systems of classification that are unique to a given culture or community. Over the past few decades, the international community has witnessed an increasing interest in capturing and analyzing indigenous knowledge and practices as a foundation for local sustainable development. Coupled with the increasing popularity of participatory approaches to decision-making and grassroots movements, the cross-cultural understanding of indigenous knowledge systems has now become a cornerstone for charting climate change adaptation strategies, reducing hazard risks, and promoting biodiversity and conservation practices to support community resilience. This study focuses on the results of a case study from rural India, where seasonal calendars (a tool used to capture traditional knowledge with respect to seasonal changes as they relate to agricultural activities, income, etc.) were digitized and delivered through a mobile application.",
+    "_matched_keywords": [
+      "climate change adaptation"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Water Conservation and Rainwater Collection for Environmental and Economic Sustainability in Guatemala",
+    "authors": "Jacob Krebs, Lisa A. Shay",
+    "year": 2023,
+    "venue": "ghtc_2023",
+    "areas": [
+      "water_security"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "ethnographic_design",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [],
+    "area_agnostic": false,
+    "source_course": "ghtc_2023_venue_search",
+    "notes": "The paper engages with water conservation and rainwater collection, which are relevant to the 'water_security' area, even though it is set in Guatemala rather than India.",
+    "link": "https://doi.org/10.1109/GHTC56179.2023.10354644",
+    "abstract": "Research and experiments were conducted on the irrigation system at the Barbara Ford Peacebuilding Center, a non-governmental, non-profit institution founded in Quiche, Guatemala, by the Sisters of Charity of New York. Reducing irrigation pressure and frequency, collecting rainwater, and treating greywater for irrigation were found to feasibly conserve water, promote plant life, and mitigate electricity costs. A sustainable irrigation system design and watering schedule is outlined. Water tanks of various materials and magnitudes are compared on collection capabilities, initial costs, and investment break-even points.",
+    "_matched_keywords": [
+      "irrigation"
+    ]
+  },
+  {
+    "id": null,
+    "title": "The Value of a Systems Architecture for Disaster Risk Reduction",
+    "authors": "Neil H. Wasserman",
+    "year": 2023,
+    "venue": "ghtc_2023",
+    "areas": [
+      "water_security",
+      "infrastructure"
+    ],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [
+      "climate_change"
+    ],
+    "area_agnostic": false,
+    "source_course": "ghtc_2023_venue_search",
+    "notes": "The paper discusses the application of technologies like blockchain and AI to disaster risk reduction, which can be adapted to a developing-regions context, aligning with the cs_fundamentals topic rule.",
+    "link": "https://doi.org/10.1109/GHTC56179.2023.10354778",
+    "abstract": "The Sendai Framework Midterm Report (May 2023) recognizes that efforts to define processes for Disaster Risk Reduction (DRR) have had only limited success. This paper analyzes obstacles to achieving DRR objectives and proposes the development of an adaptive systems architecture for DRR. That structure points to further lines of research that can enable a more successful application of technologies like blockchain and AI to mitigate the future impact of floods, droughts, earthquakes, food shortages and other disaster events. This approach aims to focus on outcomes rather than process and enable componentized analysis of requirements, metrics, and resources allocation.",
+    "_matched_keywords": [
+      "drought",
+      "disaster risk"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Design and Development of an Ontology Driven Search Engine for a Mobile Cloud Asynchronous Remote Learning Platform",
+    "authors": "Xander Mari M. Cruz, J. L. E. Honrado, Andrei Coronel, Nathaniel J. C. Libatique, Gregory L. Tangonan",
+    "year": 2023,
+    "venue": "ghtc_2023",
+    "areas": [
+      "education"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "ethnographic_design",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "climate_change",
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "ghtc_2023_venue_search",
+    "notes": "The paper addresses the development of an ontology-driven search engine for remote learning, which can be adapted to a developing-regions context, especially in low-resource settings with bandwidth constraints.",
+    "link": "https://doi.org/10.1109/GHTC56179.2023.10354815",
+    "abstract": "In the face of a global pandemic, the digital divide has become apparent especially in bandwidth-constrained countries. As contactless remote services have become increasingly necessary in the face of limited human mobility, remote learning has become the norm. To support remote learning, the research team developed a resilient asynchronous remote learning and content distribution platform as a digital library. Collaborating with corresponding stakeholders, the scope of content for the initial iterations of the platform was curated to accommodate resources for STEM educational content.Among the initial feedback for the prototype, there is a need for a consolidated means of retrieving information and resources across content channels while adhering to the prescribed Philippine K-12 curriculum. As such, the researcher proposes an implementation of an ontology-driven search engine deployed on the remote learning platform. The search engine will use an ontology encompassing the K-12 curriculum and an index of curated content across the educational content-hosting services within the digital library. This study develops a system to reliably retrieve and recommend contextually relevant results with the use of semantic web annotations and semantic information retrieval techniques to improve upon classical information retrieval.",
+    "_matched_keywords": [
+      "digital divide"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Implementation of the STEAM method, through emerging technologies such as the metaverse, to motivate high school students to investigate and use technology to solve problems in their environment",
+    "authors": "Tito Alberto Nuncira, Normaris Rodriguez-Hdez, Gina Echeverry, Lucila Paramo, Jose Ramirez, Lisette Agosto Cintron, M\u00f3nica Andrea Lopez Gonzalez, Samuel Alejandro Nuncira, Yeison Javier Fonseca, Maria Eugenia Lambertinez",
+    "year": 2023,
+    "venue": "ghtc_2023",
+    "areas": [
+      "agriculture",
+      "education"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "ethnographic_design",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "climate_change"
+    ],
+    "area_agnostic": false,
+    "source_course": "ghtc_2023_venue_search",
+    "notes": "The paper engages with a developing-regions context in Colombia, focusing on agricultural challenges and technological solutions for rural high school students.",
+    "link": "https://doi.org/10.1109/GHTC56179.2023.10354883",
+    "abstract": "This research project originates in the municipality of S\u00e1chica -Boyac\u00e1, Colombia where the 30 participants were students at the school \"Institucion Educativa Nueva Generacion\". The vast majority of Sachica's people are dedicated to farming, mostly to the cultivation of onions and tomatoes, which is their main source of income. Due to the different climatic changes in this area, agricultural activity has decreased, causing shortages in these products.The majority of young people in the region hope to explore careers outside of the agriculture industry. Unfortunately, this reality reduces the workforce of people working the land. The purpose of this research was to give technological tools to students to help them seek solutions to farming problems and to reduce production losses, thus resulting in an increase in income. Several trainings were delivered implementing the STEAM method using microcontrollers to carry out intelligent control systems for greenhouses, weather stations, and automatic irrigation. The process of the different steps and systems, which captured the interest of the students, contributed to the technological and economic development of the municipality. This project used both quantitative and qualitative analysis with a questionnaire-based evaluation to assess student performance. The highest scores were in the areas of effort, tenacity, and skill acquisition. The highest score for project assessment was for its usefulness in solving problems.",
+    "_matched_keywords": [
+      "irrigation"
+    ]
+  },
+  {
+    "id": null,
+    "title": "A Workshop for Electricity Access Educators",
+    "authors": "Henry Louie, Pritpal Singh, Javier Urquizo, My-Loan Tran",
+    "year": 2023,
+    "venue": "ghtc_2023",
+    "areas": [
+      "infrastructure"
+    ],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [],
+    "area_agnostic": false,
+    "source_course": "ghtc_2023_venue_search",
+    "notes": "The paper discusses electricity access education, which can be adapted to developing regions, thus fitting the cs_fundamentals topic rule.",
+    "link": "https://doi.org/10.1109/GHTC56179.2023.10354700",
+    "abstract": "This paper summarizes and describes the discussions, outcomes, and survey results from a first-of-its-kind workshop that focused on electricity access education at the undergraduate engineering level in the United States. In this context, \"electricity access\" refers to the provision of electricity in under-resourced settings, usually in developing countries or under-served communities. The two-day workshop convened 24 university educators, industry and non-profit practitioners, government stakeholders, and students with the goal of expanding and enhancing the state of electricity access education in the United States. The workshop held targeted panel sessions on methods and best practices of incorporating electricity access themes into the classroom, student projects, undergraduate research, as well as a practitioner panel. Surveys of perceptions of the state of energy access education were conducted during the workshop. The surveys and discussion show a perceived opportunity to expand electricity access education at universities in the United States and the need for additional course materials, textbooks, and references.",
+    "_matched_keywords": [
+      "electricity access"
+    ]
+  }
+]

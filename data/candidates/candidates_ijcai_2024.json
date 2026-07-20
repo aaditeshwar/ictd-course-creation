@@ -1,0 +1,338 @@
+[
+  {
+    "id": null,
+    "title": "Safeguarding Sustainable Cities: Unsupervised Video Anomaly Detection through Diffusion-based Latent Pattern Learning",
+    "authors": "Menghao Zhang, Jingyu Wang, Qi Qi, Pengfei Ren, Haifeng Sun, Zirui Zhuang, Lei Zhang, Jianxin Liao",
+    "year": 2024,
+    "venue": "ijcai_2024",
+    "areas": [],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [],
+    "area_agnostic": true,
+    "source_course": "ijcai_2024_venue_search",
+    "notes": "The paper applies strong computer science methods (cs_fundamentals) that could be adapted to a developing-regions context for surveillance and community management.",
+    "link": null,
+    "abstract": "Sustainable cities requires high-quality community management and surveillance analytics, which are supported by video anomaly detection techniques. However, mainstream video anomaly detection techniques still require manually labeled data and do not apply to real-world massive videos. Without labeling, unsupervised video anomaly detection (UVAD) is challenged by the problem of pseudo-labeled noise and the openness of anomaly detection. In response, a diffusion-based latent pattern learning UVAD framework is proposed, called DiffVAD. The method learns potential patterns by generating different patterns of the same event through diffusion models. The detection of anomalies is realized by evaluating the pattern distribution. The different patterns of normal events are diverse but correlated, while the different patterns of abnormal events are more diffuse. This manner of detection is equally effective for unseen normal events in the training set. In addition, we design a refinement strategy for pseudo-labels to mitigate the effects of the noise problem. Extensive experiments on six benchmark datasets demonstrate the design\u2019s promising generalization ability and high efficiency. Specifically, DiffVAD obtains an AUC score of 81.9% on the ShanghaiTech dataset.",
+    "_matched_keywords": [
+      "diffusion models"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Safeguarding Fraud Detection from Attacks: A Robust Graph Learning Approach",
+    "authors": "Jiasheng Wu, Xin Liu, Dawei Cheng, Yi Ouyang, Xian Wu, Yefeng Zheng",
+    "year": 2024,
+    "venue": "ijcai_2024",
+    "areas": [],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [],
+    "area_agnostic": true,
+    "source_course": "ijcai_2024_venue_search",
+    "notes": "The paper applies strong computer science methods to a real-world problem, which can be adapted to a developing-regions context under the cs_fundamentals topic rule.",
+    "link": null,
+    "abstract": "Financial fraud is one of the most significant social issues and has caused tremendous property losses. Graph neural networks (GNNs) have been applied to anti-fraud practices and achieved decent results. However, recent researches have discovered flaws in the robustness of fraud-detection models based on GNNs, enabling fraudsters to mislead them through attacks like data poisoning. In addition, most existing attack-defense models tend to study on ideal settings and lose information during truncation or filtering, which lowers their performances in complicated financial fraud cases. Therefore, in this paper, we propose a novel robust anti-fraud GNN model. In particular, we first design an attack algorithm tampering with both features and structures of graph data to simulate fraudsters\u2019 attacking behaviors in real-life complex fraud scenarios. Then we apply singular value decomposition to the graph and learn the decomposed matrices in a GNN model with specifically designed joint losses. This enables our model to learn the graph patterns in low-rank subspaces without losing too much detailed information and fit the graph structure to characteristics including class-homophily and sparsity to guarantee robustness. The proposed approach is experimented on real-world fraud datasets, which demonstrates its advantages in fraud detection and robustness compared with the state-of-the-art baselines.",
+    "_matched_keywords": [
+      "homophily",
+      "homophily"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Transfer Learning Using Inaccurate Physics Rule for Streamflow Prediction",
+    "authors": "Tianshu Bao, Taylor Thomas Johnson, Xiaowei Jia",
+    "year": 2024,
+    "venue": "ijcai_2024",
+    "areas": [
+      "water_security"
+    ],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [],
+    "area_agnostic": false,
+    "source_course": "ijcai_2024_venue_search",
+    "notes": "The paper applies strong computer science methods to streamflow prediction, which is relevant to the 'cs_fundamentals' topic, even though it is not set in a developing region.",
+    "link": null,
+    "abstract": "Accurate streamflow prediction is critical for ensuring water supply and detecting floods, while also providing essential hydrological inputs for other scientific models in fields such as climate and agriculture.\r\nRecently, deep learning models have been shown to achieve state-of-the-art regionalization performance by building a global hydrologic model. These models predict streamflow given catchment physical characteristics and weather forcing data.\r\nHowever, these models are only focused on gauged basins and cannot adapt to ungaugaed basins, i.e., basins without training data. \r\nPrediction in Ungauged Basins (PUB) is considered one of the most important challenges in hydrology, as most basins in the United States and around the world have no observations. \r\nIn this work, we propose a meta-transfer learning approach by enhancing imperfect physics equations that facilitate model adaptation. \r\nIntuitively,  physical equations can often be used to regularize deep learning models to achieve robust regionalization performance under gauged scenarios, but they can be inaccurate due to the simplified representation of physics. \r\nWe correct such uncertainty in physical equation by residual approximation and let these corrected equations guide the model training process. We evaluated the proposed method for predicting daily streamflow on the catchment attributes and meteorology for large-sample studies (CAMELS) dataset. \r\nThe experiment results on hydrological data over 19 years demonstrate the effectiveness of the proposed method in ungauged scenarios.",
+    "_matched_keywords": [
+      "transfer learning"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Understanding Public Perception Towards Weather Disasters Through the Lens of Metaphor",
+    "authors": "Rui Mao, Qika Lin, Qiawen Liu, Gianmarco Mengaldo, Erik Cambria",
+    "year": 2024,
+    "venue": "ijcai_2024",
+    "areas": [
+      "water_security",
+      "wildlife_conservation"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "climate_change"
+    ],
+    "area_agnostic": false,
+    "source_course": "ijcai_2024_venue_search",
+    "notes": "The paper engages with a developing-regions context through its focus on public perception towards weather disasters, which is crucial for sustainable and resilient communities, especially in low-resource settings.",
+    "link": null,
+    "abstract": "Extreme weather can lead to weather-induced disasters. These have a profound impact on communities worldwide, causing loss of life, damage to properties and infrastructure, and disruption of daily activities. In alignment with the United Nations Sustainable Development Goals, addressing the increasing frequency and severity of these events, exacerbated by climate change, is imperative. Exploring public perception and responses to weather disasters becomes crucial for policymakers to formulate effective strategies that not only mitigate the impacts but also contribute to the goal of ensuring sustainable and resilient communities. Social media, as a pervasive and real-time communication platform, has gathered a large amount of public opinion. In this work, we analyze public perception towards weather disasters based on tweets and metaphors. Metaphor, as a linguistic device, plays a pivotal role in unraveling cognitive processes and understanding how individuals perceive and make sense of concepts. We focus on tweets related to four distinct types of weather disasters i.e., floods, hurricanes, tornadoes, and wildfires, aiming to extract nuanced insights regarding public perceptions, concerns, and attitudes towards these specific events. We also deliver constructive recommendations, based on the insights.",
+    "_matched_keywords": [
+      "extreme weather"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Using Causal Inference to Investigate Contraceptive Discontinuation in Sub-Saharan Africa",
+    "authors": "Victor Akinwande, Megan MacGregor, Celia Cintas, Ehud Karavani, Dennis Wei, Kush R. Varshney, Pablo Nepomnaschy",
+    "year": 2024,
+    "venue": "ijcai_2024",
+    "areas": [
+      "health"
+    ],
+    "topics": [
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "ijcai_2024_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context (Sub-Saharan Africa) and uses impact evaluation methods.",
+    "link": null,
+    "abstract": "Discontinuation rates vary by family planning method and across socio-economic contexts. Understanding these variations and their causes is paramount for developing and implementing policies aimed at curbing discontinuation rates. Randomized controlled trials (RCTs) are ideal for obtaining this information, but this design can be extremely expensive and logistically complex. The ongoing collection of comprehensive data sets, such as Demographic and Health Surveys (DHS data), when combined with machine learning methods, present an alternative and relatively cost-effective means of evidence gathering for policy development. Here, we use causal inference to estimate the effect of injectable contraceptive use on discontinuation over the 12-month period that follows its adoption.  To that aim, we use retrospective observational data from seven sub-Saharan African countries captured by the DHS\u2019 Contraceptive Calendar. We use machine learning methods to characterize data regions that share common covariate support. We find that the use of injectables increased the risk of discontinuation in four of the seven countries analyzed. Consistent with existing literature, we find that concerns with the side-effects of injectables appear to be the most frequent reason for discontinuation. However, these risks decreased after adjusting for socio-economic factors. As risk estimates may not apply uniformly within populations, we characterized the sub-populations for robust estimations by their geographical region, level of unmet needs, marital status, level of education, and age of first sex.",
+    "_matched_keywords": [
+      "causal inference"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Ensuring Fairness Stability for Disentangling Social Inequality in Access to Education: the FAiRDAS General Method",
+    "authors": "Eleonora Misino, Roberta Calegari, Michele Lombardi, Michela Milano",
+    "year": 2024,
+    "venue": "ijcai_2024",
+    "areas": [
+      "education"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "ijcai_2024_venue_search",
+    "notes": "The paper addresses fairness in AIEd, which can be adapted to a developing-regions context to promote educational equality and address sustainable development goals.",
+    "link": null,
+    "abstract": "Recent advancements in Artificial Intelligence in Education (AIEd) have revolutionized educational practices using machine learning to extract insights from students\u2019 activities and behaviours. Performance prediction, a key domain within AIEd, aims to enhance student achievement levels and address sustainable development goals related to education, health, gender equality, and economic growth. However, the potential of AIEd to contribute to these goals is hindered by the lack of attention to fairness in prediction algorithms, leading to educational inequality. To address this gap, we introduce FAiRDAS a general framework that models long-term fairness as an abstract dynamic system.  Our approach, illustrated through a case study in AIEd with real data, offers a customizable solution to promote long-term fairness while promoting the stability of mitigation actions over time.",
+    "_matched_keywords": [
+      "inequality"
+    ]
+  },
+  {
+    "id": null,
+    "title": "VulnerabilityMap: An Open Framework for Mapping Vulnerability among Urban Disadvantaged Populations in the United States",
+    "authors": "Lin Chen, Yong Li, Pan Hui",
+    "year": 2024,
+    "venue": "ijcai_2024",
+    "areas": [
+      "health",
+      "labour",
+      "governance",
+      "livelihood",
+      "education",
+      "water_security",
+      "infrastructure"
+    ],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "ijcai_2024_venue_search",
+    "notes": "The paper applies strong computer science methods to understand urban disadvantaged populations, which can be adapted to a developing-regions context under the 'cs_fundamentals' topic rule.",
+    "link": null,
+    "abstract": "Cities are crucibles of numerous opportunities, but also hotbeds of inequality. The plight of disadvantaged populations who are \u201cleft behind\u201d within urban environments has been an increasingly pressing concern, which poses substantial threats to the realization of the UN SDG agenda. However, a comprehensive framework for studying this urban dilemma is currently absent, preventing researchers from developing AI models for social good prediction and intervention. To fill this gap, we construct VulnerabilityMap, a framework to meticulously dissect the challenges faced by urban disadvantaged populations, unraveling their vulnerability to a spectrum of shocks and stresses that are categorized through the prism of Maslow\u2019s hierarchy of needs. Specifically, we systematically collect large-scale multi-sourced census and web-based data covering more than 328 million people in the United States regarding demographic features, neighborhood environments, offline mobility behaviors, and online social connections. These features are further related to vulnerability outcomes from short-term shocks such as COVID-19 and long-term physiological, social, and self-actualization stresses. Leveraging our framework, we construct machine learning models that exhibit strong performance in predicting vulnerability outcomes from various disadvantage features, which shows the promising utility of our framework to support targeted AI models. Moreover, we provide model-based explainability analysis to interpret the reasons underlying model predictions, shedding light on intricate social factors that trap certain populations inside vulnerable situations. Our constructed dataset is publicly available at https://github.com/LinChen-65/VulnerabilityMap/.",
+    "_matched_keywords": [
+      "inequality"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Domain Adaptation with Joint Loss for Consistent Regression and Ordinal Classification in the Proxy Means Test for Poverty Targeting",
+    "authors": "Siti Mariyah, Wayne Wobcke",
+    "year": 2024,
+    "venue": "ijcai_2024",
+    "areas": [],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [],
+    "area_agnostic": true,
+    "source_course": "ijcai_2024_venue_search",
+    "notes": "The paper applies a general-purpose methodology that could be adapted to a developing-regions context, fitting the cs_fundamentals topic rule.",
+    "link": null,
+    "abstract": "Previous domain adaptation methods are designed to work for a single task, either classification or regression. In this paper, the task of the learner is to produce both an estimation and an ordinal classification of instances that are consistent in that the classification of instances into quantiles is derived from the estimated values. We propose an extension of the boosting for transfer method (TrAdaBoost), Joint Quantile Loss Boosting Domain Adaptation (TrAdaBoost.JQL) for regression transfer learning, that aims to jointly minimize regression and ordinal classification errors. Motivated by the real-world problem of poverty targeting using the Proxy Means Test, we empirically show that TrAdaBoost.JQL can consistently reduce RMSE and inclusion and exclusion errors for estimating per capita household expenditure, across a wide variety of districts in Indonesia, compared to other reweighting-based and invariant feature representation-based domain adaptation methods. We design TrAdaBoost.JQL to be flexible as to the chosen eligibility (poor) threshold used in poverty targeting practice and as to whether estimation or ordinal classification accuracy is prioritized.",
+    "_matched_keywords": [
+      "transfer learning"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Remote Sensing for Water Quality: A Multi-Task, Metadata-Driven Hypernetwork Approach",
+    "authors": "Olivier Graffeuille, Yun Sing Koh, J\u00c3\u00b6rg Wicker, Moritz Lehmann",
+    "year": 2024,
+    "venue": "ijcai_2024",
+    "areas": [
+      "water_security"
+    ],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [],
+    "area_agnostic": true,
+    "source_course": "ijcai_2024_venue_search",
+    "notes": "The paper applies a general-purpose methodology that could be adapted to a developing-regions context, fitting the cs_fundamentals topic rule.",
+    "link": null,
+    "abstract": "Inland water quality monitoring is vital for clean water access and aquatic ecosystem management. Remote sensing machine learning models enable large-scale observations, but are difficult to train due to data scarcity and variability across many lakes. Multi-task learning approaches enable learning of lake differences by learning multiple lake functions simultaneously. However, they suffer from a trade-off between parameter efficiency and the ability to model task differences flexibly, and struggle to model many diverse lakes with few samples per task. We propose Multi-Task Hypernetworks, a novel multi-task learning architecture which circumvents this trade-off using a shared hypernetwork to generate different network weights for each task from small task-specific embeddings. Our approach stands out from existing works by providing the added capacity to leverage task-level metadata, such as lake depth and temperature, explicitly. We show empirically that Multi-Task Hypernetworks outperform existing multi-task learning architectures for water quality remote sensing and other tabular data problems, and leverages metadata more effectively than existing methods.",
+    "_matched_keywords": [
+      "remote sensing"
+    ]
+  },
+  {
+    "id": null,
+    "title": "DeepLight: Reconstructing High-Resolution Observations of Nighttime Light With Multi-Modal Remote Sensing Data",
+    "authors": "Lixian Zhang, Runmin Dong, Shuai Yuan, Jinxiao Zhang, Mengxuan Chen, Juepeng Zheng, Haohuan Fu",
+    "year": 2024,
+    "venue": "ijcai_2024",
+    "areas": [
+      "water_security",
+      "infrastructure"
+    ],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [
+      "climate_change"
+    ],
+    "area_agnostic": false,
+    "source_course": "ijcai_2024_venue_search",
+    "notes": "The paper applies strong computer science methods to reconstruct high-resolution nighttime light observations, which can be adapted to assess SDGs in developing regions, fitting the cs_fundamentals topic rule.",
+    "link": null,
+    "abstract": "Nighttime light (NTL) remote sensing observation serves as a unique proxy for quantitatively assessing progress toward meeting a series of Sustainable Development Goals (SDGs), such as poverty estimation, urban sustainable development, and carbon emission. However, existing NTL observations often suffer from pervasive degradation and inconsistency, limiting their utility for computing the indicators defined by the SDGs. In this study, we propose a novel approach to reconstruct high-resolution NTL images using multimodal remote sensing data. To support this research endeavor, we introduce DeepLightMD, a comprehensive dataset comprising data from five heterogeneous sensors, offering fine spatial resolution and rich spectral information at a national scale. Additionally, we present DeepLightSR, a calibration-aware method for multi-modality super-resolution. DeepLightSR integrates calibration-aware alignment, an auxiliary-to-main multi-modality fusion, and an auxiliary-embedded refinement to effectively address spatial heterogeneity, fuse diversely representative features, and enhance performance in \u00d78 super-resolution tasks. Extensive experiments demonstrate the superiority of DeepLightSR over 8 competing methods, as evidenced by improvements in PSNR (2.01 dB ~ 13.25 dB) and PIQE (0.49 ~ 9.32). Our findings underscore the practical significance of our proposed dataset and model in reconstructing high-resolution NTL data, supporting efficiently and quantitatively assessing the SDG progress. The code and data will be available at https://github.com/xian1234/DeepLight.",
+    "_matched_keywords": [
+      "remote sensing"
+    ]
+  },
+  {
+    "id": null,
+    "title": "A Survival Guide for Iranian Women Prescribed by Iranian Women: Participatory AI to Investigate Intimate Partner Physical Violence in Iran",
+    "authors": "Adel Khorramrouz, Mahbeigom Fayyazi, Ashiqur R. KhudaBukhsh",
+    "year": 2024,
+    "venue": "ijcai_2024",
+    "areas": [
+      "gender"
+    ],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [
+      "gender"
+    ],
+    "area_agnostic": false,
+    "source_course": "ijcai_2024_venue_search",
+    "notes": "The paper engages with a developing-regions context (Iran) and applies participatory AI to understand gender inequality and intimate partner violence, which fits the 'cs_fundamentals' topic rule.",
+    "link": null,
+    "abstract": "Intimate Partner Violence (IPV) is a global problem affecting more than 2 billion women worldwide. Our paper makes two key contributions. First, via a substantial corpus of 53,220 comments to 1,563 Intimate Partner Physical Violence (IPPV) posts gleaned from more than 10 million comments posted on 523,232 posts on a popular parental health website in Iran, we present the first-ever computational analysis of user comments on accounts of IPPV in Iran. We harness large language models and participatory AI and tackle extreme class imbalance and other linguistic challenges that arise from tackling low-resource languages to shed light on the gender struggles of a country with documented stark gender inequality. With active input from a woman with a history of advocacy for social rights and grounded in Iranian culture, we characterize comments on IPPV into three broad categories: empathy, confront, and conform, and analyze their distribution. Second, we release an important dataset of 3,400 comments on IPPV posts.",
+    "_matched_keywords": [
+      "inequality"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Long-term Detection and Monitory  of Chinese Urban Village Using Satellite Imagery",
+    "authors": "Yuming Lin, Xin Zhang, Yu Liu, Zhenyu Han, Qingmin Liao, Yong Li",
+    "year": 2024,
+    "venue": "ijcai_2024",
+    "areas": [
+      "urban_planning"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "problem_discovery"
+    ],
+    "cross_cutting_axes": [
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "ijcai_2024_venue_search",
+    "notes": "The paper applies a general-purpose methodology that could be adapted to a developing-regions context for problem discovery and solving with CS fundamentals, as per the rule for topic 'cs_fundamentals'.",
+    "link": null,
+    "abstract": "Urban villages are areas filled with rural-like improvised structures in Chinese cities, usually housing the most vulnerable groups. \r\nUnder the guidance of the Sustainable Development Goals (SDGs), the Chinese government initiated renewal and redevelopment projects, underscoring the meticulous mapping and segmentation of urban villages. \r\nSatellite imagery is advanced and efficient in identifying urban villages and monitoring changes, but traditional methods neglect the morphological diversity in season, shape, size, spacing, and layout of urban villages, which is not satisfying for long-term wide-range data. \r\nHere, we design a targeted approach based on Tobler\u2019s First Law of Geography, using curriculum labeling to solve morphological diversity and semi-automatically generate segmentation for urban village boundaries.\r\nSpecifically, we use manually labeled data as seeds for pre-trained SegFormer models and incrementally fine-tune the model based on geographical proximity. \r\nThe rigorous experimentation across five diverse cities substantiates the commendable efficacy of our methodology. IoU metric demonstrates a noteworthy improvement of over 119% to baseline.\r\nOur final results cover 265,050 urban villages across 433 cities in China over the past 10 years, and the analysis reveals the uneven redevelopment by geography and city scale. We further examine the within-city distribution and verify the urban scaling law associated with several socio-economic factors. \r\nOur method can be used nationwide to decide redevelopment priority and resource tilt, contributing to SDG 11.1 on affordable housing and upgrading slums. The code and dataset are available at https://github.com/tsinghua-fib-lab/LtCUV.",
+    "_matched_keywords": [
+      "satellite imagery"
+    ]
+  },
+  {
+    "id": null,
+    "title": "From Pixels to Progress: Generating Road Network from Satellite Imagery for Socioeconomic Insights in Impoverished Areas",
+    "authors": "Yanxin Xi, Yu Liu, Zhicheng Liu, Sasu Tarkoma, Pan Hui, Yong Li",
+    "year": 2024,
+    "venue": "ijcai_2024",
+    "areas": [
+      "infrastructure"
+    ],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [
+      "climate_change",
+      "gender",
+      "caste",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "ijcai_2024_venue_search",
+    "notes": "The paper applies computer science fundamentals to generate road networks in impoverished areas, which can be adapted to a developing-regions context in India or other low/middle-income countries.",
+    "link": null,
+    "abstract": "The Sustainable Development Goals (SDGs) aim to resolve societal challenges, such as eradicating poverty and improving the lives of vulnerable populations in impoverished areas. Those areas rely on road infrastructure construction to promote accessibility and economic development. Although publicly available data like OpenStreetMap is available to monitor road status, data completeness in impoverished areas is limited. Meanwhile, the development of deep learning techniques and satellite imagery shows excellent potential for earth monitoring. To tackle the challenge of road network assessment in impoverished areas, we develop a systematic road extraction framework combining an encoder-decoder architecture and morphological operations on satellite imagery, offering an integrated workflow for interdisciplinary researchers. Extensive experiments of road network extraction on real-world data in impoverished regions achieve a 42.7% enhancement in the F1-score over the baseline methods and reconstruct about 80% of the actual roads. We also propose a comprehensive road network dataset covering approximately 794,178 km2 area and 17.048 million people in 382 impoverished counties in China. The generated dataset is further utilized to conduct socioeconomic analysis in impoverished counties, showing that road network construction positively impacts regional economic development. The technical appendix, code, and generated dataset can be found at https://github.com/tsinghua-fib-lab/Road_network_extraction_impoverished_counties.",
+    "_matched_keywords": [
+      "satellite imagery"
+    ]
+  },
+  {
+    "id": null,
+    "title": "MuseCL: Predicting Urban Socioeconomic Indicators via Multi-Semantic Contrastive Learning",
+    "authors": "Xixian Yong, Xiao Zhou",
+    "year": 2024,
+    "venue": "ijcai_2024",
+    "areas": [
+      "urban_planning"
+    ],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [],
+    "area_agnostic": true,
+    "source_course": "ijcai_2024_venue_search",
+    "notes": "The paper applies strong computer science methods to predict socioeconomic indicators, which can be adapted to a developing-regions context under the 'cs_fundamentals' topic rule.",
+    "link": null,
+    "abstract": "Predicting socioeconomic indicators within urban regions is crucial for fostering inclusivity, resilience, and sustainability in cities and human settlements. While pioneering studies have attempted to leverage multi-modal data for socioeconomic prediction, jointly exploring their underlying semantics remains a significant challenge. To address the gap, this paper introduces a Multi-Semantic Contrastive Learning (MuseCL) framework for fine-grained urban region profiling and socioeconomic prediction. Within this framework, we initiate the process by constructing contrastive sample pairs for street view and remote sensing images, capitalizing on the similarities in human mobility and Point of Interest (POI) distribution to derive semantic features from the visual modality. Additionally, we extract semantic insights from POI texts embedded within these regions, employing a pre-trained text encoder. To merge the acquired visual and textual features, we devise an innovative cross-modality-based attentional fusion module, which leverages a contrastive mechanism for integration. Experimental results across multiple cities and indicators consistently highlight the superiority of MuseCL, demonstrating an average improvement of 10% in R2 compared to various competitive baseline models. The code of this work is publicly available at https://github.com/XixianYong/MuseCL.",
+    "_matched_keywords": [
+      "remote sensing"
+    ]
+  }
+]

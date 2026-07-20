@@ -1,0 +1,10 @@
+[
+  {
+    "name": "Satellite Imagery Analysis for Environmental and Socio-economic Monitoring",
+    "description": "This domain covers the application of computer vision and machine learning to satellite/remote-sensing imagery to quantify physical and social phenomena relevant to water and climate security, such as greenspace, land use/land cover, and socio-economic indicators. It spans methodological CS work (data augmentation, classifier design) as well as its use for impact evaluation and monitoring across diverse regions. Interventions typically aim to produce scalable, low-cost measurement where ground-truth data collection is difficult."
+  },
+  {
+    "name": "Computational Hydrology and Terrain Analysis Tooling",
+    "description": "This domain focuses on building computational algorithms and infrastructure for hydrological modeling, such as flow accumulation, drainage line extraction, and watershed delineation, often optimized for on-premise or resource-constrained deployment. It emphasizes the systems and performance engineering (e.g. GPU acceleration) needed to make water-resource analysis feasible in low-infrastructure settings."
+  }
+]

@@ -1,0 +1,686 @@
+[
+  {
+    "id": null,
+    "title": "Mobile Vaani: A Voice-based Community Media Network for Social Development",
+    "authors": "A. Seth",
+    "year": 2022,
+    "venue": "aseth_publications",
+    "areas": [
+      "media_information"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "ethnographic_design",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "aseth_publications_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context in India, focusing on rural community engagement through voice-based technology.",
+    "link": "https://doi.org/10.2139/ssrn.3517397",
+    "abstract": "Mobile Vaani is a mobile-based social media platform that uses no internet and connects rural India via community engagement through Interactive voice response (IVR). It is a product of Gram Vaani, a technology community launch by Aaditeshwar Seth, a Professor of IIT Delhi in the year 2009 with a tagline \"Social network for Rural India\". The aim is to assist communities that were deprived of economic or infrastructural access to technology. The IVR system allows people to dial a number and leave a message about their community, or tune in on to news left by communities. This new Information and Communication Technologies (ICT) media was India's answer to social communication such as YouTube/Face book/ Twitter etc. for the bottom of the pyramid (BoP) section. The study aims at discussing how ICT is addressing transformation in the rural sector of India via mobile-based media platforms and the application of enterprise models and persuades the method in which companies change their framework to meet the requirement placed upon them. A case study method has been using to collect and interpret the information. The case further highlights a few challenges that are currently faced by Mobile Vaani and how to overcome them with appropriate strategies.",
+    "_matched_keywords": [
+      "community media",
+      "Gram Vaani"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Beyond Flat Classifiers: Practical methodologies for regionally accurate and relevant land use and land cover classification using Landsat and Sentinel data",
+    "authors": "C. Bansal, A. Nandi, B. Ramachandran, C. Dsouza, D. Mittal, E. Bajaj, R. Kumar, S. Sachdeva, S. Vishnubhatla, V. Agarwal, and A. Seth",
+    "year": 2025,
+    "venue": "aseth_publications",
+    "areas": [
+      "agriculture",
+      "water_security"
+    ],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [
+      "climate_change"
+    ],
+    "area_agnostic": false,
+    "source_course": "aseth_publications_venue_search",
+    "notes": "The paper applies strong computer science methods to land use and land cover classification, which can be adapted to a developing-regions context, fitting the cs_fundamentals topic rule.",
+    "link": "https://doi.org/10.1145/3806393",
+    "abstract": "India\u2019s diverse agricultural landscapes demand a single Land Use and Land Cover (LULC) product integrating both intra-annually static (built-up, tree cover, barren land) and dynamic (water seasonality, cropping intensity) classes for sustainable Natural Resource Management (NRM). Existing LULC products suffer from limited thematic coverage of dynamic processes, imprecise delineation of fragmented smallholder features, limited reproducibility, and poor performance of monolithic classifiers on spectrally similar categories. We introduce a hierarchical decision-tree framework that breaks complex classification tasks into targeted sub-tasks, offering methodological improvements in detecting monsoon water, delineating tree-croplands, and classifying cropping intensity. Class-wise evaluations demonstrate superior performance: SAR water detection achieves an NRMSE of 0.33 (vs. baselines 0.53\u20130.75), tree-cropland macro-average of 0.94, and cropping intensity macro-average of 0.88 (vs. baseline 0.77). Crucially, this study ensures transparency and reproducibility in LULC mapping. We publicly release four curated datasets alongside the entire classification pipeline implemented on the Google Earth Engine commodity platform. The resulting pan-India output maps at 10m resolution are hosted on CoRE-Stack (digital public good) for easy accessibility and analysis [\n                    24\n                    ], already powering real-world applications in water-security planning [\n                    61\n                    ] and agricultural studies [\n                    50\n                    ].",
+    "_matched_keywords": [
+      "Landsat",
+      "Landsat"
+    ]
+  },
+  {
+    "id": null,
+    "title": "GPU-Accelerated Hydrology Algorithms for On-Prem Computation: Flow Accumulation, Drainage Lines, Watershed Delineation, Runoff Simulation",
+    "authors": "R. Kumar, V. Jingar, A. Jindal, and A. Seth",
+    "year": 2025,
+    "venue": "aseth_publications",
+    "areas": [
+      "water_security"
+    ],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [],
+    "area_agnostic": false,
+    "source_course": "aseth_publications_venue_search",
+    "notes": "The paper's methodology can be adapted to a developing-regions context for water security issues, aligning with the cs_fundamentals topic rule.",
+    "link": "https://doi.org/10.1145/3759536.3763805",
+    "abstract": "Critical hydrology related algorithms to trace the path of surface water flows, including flow accumulation, stream order, watershed delineation, and runoff simulation, can be difficult to execute for large aerial extents at fine spatial and temporal resolutions. Libraries like GDAL that use multi-threaded CPU-based implementations running on a single host may be slow, and distributed infrastructures like Google Earth Engine may not support the kind of computational primitives required by these algorithms. We have developed a GPU-accelerated framework that re-engineers these four algorithms and is able to process areas as large as river basins of 250,000 km2 on commodity GPU workstations. We express these algorithms in terms of easily parallelizable primitives of pixel independent (PI) and short-pixel (SP) operations, and iterative primitives of long-pixel (LP) operations. Each algorithm uses a different mix of the primitives which helps us ensure that the implementation is generic. We show that our implementation of these algorithms produces accurate outputs and is able to achieve significant performance benefits over alternative methods. Being able to execute the algorithms on a commodity GPU workstation paves the path to use on-prem infrastructure to produce national-scale outputs, and collaborate to pool multiple national-scale outputs together for global-scale analysis.",
+    "_matched_keywords": [
+      "runoff"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Temporal Prediction of Socio-economic Indicators Using Satellite Imagery",
+    "authors": "C. Bansal, A. Jain, P. Barwaria, A. Choudhary, A. Singh, A. Gupta, and A. Seth. CoDS-COMAD, 2020.",
+    "year": 2020,
+    "venue": "aseth_publications",
+    "areas": [
+      "governance",
+      "livelihood",
+      "education",
+      "water_security"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "climate_change",
+      "gender",
+      "caste",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "aseth_publications_venue_search",
+    "notes": "The paper applies machine learning methods using satellite data to predict socio-economic indicators, which can be adapted to a developing-regions context in India.",
+    "link": "https://doi.org/10.1145/3371158.3371167",
+    "abstract": "Machine learning models based on satellite data have been actively researched to serve as a proxy for the prediction of socio-economic development indicators. Such models have however rarely been tested for transferability over time, i.e. whether models learned on data for a certain year are able to make accurate predictions on data for another year. Using a dataset from the Indian census at two time points, for the years 2001 and 2011, we evaluate the temporal transferability of a simple machine learning model at sub-national scales of districts and propose a generic method to improve its performance. This method can be especially relevant when training datasets are small to train a robust prediction model. Then, we go further to build an aggregate development index at the district-level, on the lines of the Human Development Index (HDI) and demonstrate high accuracy in predicting the index based on satellite data for different years. This can be used to build applications to guide data-driven policy making at fine spatial and temporal scales, without the need to conduct frequent expensive censuses and surveys on the ground.",
+    "_matched_keywords": [
+      "satellite imagery"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Price Forecasting & Anomaly Detection for Agricultural Commodities in India",
+    "authors": "L. Madaan, A. Sharma, P. Khandelwal, S. Goel, P. Singla, and A. Seth",
+    "year": 2019,
+    "venue": "aseth_publications",
+    "areas": [
+      "agriculture"
+    ],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [],
+    "area_agnostic": false,
+    "source_course": "aseth_publications_venue_search",
+    "notes": "The paper engages with a developing-regions context (India) and applies computer science fundamentals to address agricultural market issues.",
+    "link": "https://doi.org/10.1145/3314344.3332488",
+    "abstract": "Fluctuations in food prices can cause distress among both consumers and producers, and are often exacerbated by trading networks especially in developing economies where marketplaces may not be operating under conditions of perfect competition for various contextual reasons. We look at onion and potato trading in India and present the evaluation of a price forecasting model, and an anomaly detection and classification system to identify incidents of hoarding of stock by the traders. Our dataset is composed of time series of wholesale prices and arrival volumes of the agricultural commodities at several village-level marketplaces, and retail prices of the commodities at the city centers. We also provide an in-depth qualitative analysis of the effect on these time series of events such as hoarding, weather disturbances, and external shocks. Our results are encouraging and point towards the possibility of building pricing models for agricultural commodities which can be used to reduce information asymmetries and to detect anomalies that can help regulate agricultural markets to operate more fairly.",
+    "_matched_keywords": [
+      "agricultural markets",
+      "hoarding",
+      "agricultural commodities"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Communication Infrastructure and Community Mobilization: The Case of Gram Vaani's COVID-19 Response Network for the Marginalized in India",
+    "authors": "H. Wang, A. Seth, M. Johri, E. Kalra, and A. Singhal. Journal of Development Communication, Dec 2021.",
+    "year": 2021,
+    "venue": "aseth_publications",
+    "areas": [
+      "media_information"
+    ],
+    "topics": [
+      "problem_discovery",
+      "ethnographic_design",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "social_capital_marginalization",
+      "gender",
+      "caste"
+    ],
+    "area_agnostic": false,
+    "source_course": "aseth_publications_venue_search",
+    "notes": "The paper engages with a developing-regions context in India, focusing on community mobilization during the COVID-19 pandemic.",
+    "link": "https://www.cse.iitd.ernet.in/~aseth/cit-community-media.pdf",
+    "abstract": null,
+    "_matched_keywords": [
+      "Gram Vaani"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Delivery of Social Protection Entitlements in India: Unpacking Exclusion, Grievance Redress, and the Relevance of Citizen-Assistance Mechanisms",
+    "authors": "A. Gupta, A. Narayanan, A. Bhutani, A. Seth, M. Johri, N. Kumar, S. Ahmad, M. Rahman, L. Enoch, D. Kumar, A. Sharma, A. Kumar, L.R. Pappu, and D. Pant. Azim Premji University COVID-19 Research Funding Programme, March 2021",
+    "year": 2021,
+    "venue": "aseth_publications",
+    "areas": [
+      "governance"
+    ],
+    "topics": [
+      "impact_evaluation",
+      "operations_scale"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "caste"
+    ],
+    "area_agnostic": false,
+    "source_course": "aseth_publications_venue_search",
+    "notes": "The paper engages with the governance area, specifically grievance redressal mechanisms, which is relevant to the Indian context and aligns with the governance area's focus on transparency and accountability mechanisms.",
+    "link": "https://doi.org/10.1596/29483",
+    "abstract": "This note provides guidance on how investors can provide effective remedies to affected parties who perceive that their rights have been adversely affected by business activities. A grievance redress mechanism (GRM) is a set of arrangements that enable local communities, employees, out growers, and other affected stakeholders to raise grievances with the investor and seek redress when they perceive a negative impact arising from the investor\u2019s activities. It is a key way to mitigate, manage, and resolve potential or realized negative impacts, as well as fulfill obligations under international human rights law and contribute to positive relations with communities and employees. GRMs have been operated with varying degrees of success. This noteprovides guidance and examples on how to improve the design and implementation of mechanisms for mutual benefit.",
+    "_matched_keywords": [
+      "social protection"
+    ]
+  },
+  {
+    "id": null,
+    "title": "The first 100 Days: How Has COVID-19 Affected Poor and Vulnerable Groups in India?",
+    "authors": "M. Johri, S. Agarwal, A. Khullar, D. Chandra, V.S. Pratap, and A. Seth. Health Promotion International, August 2020 (published May 2021). [ policy brief ]",
+    "year": 2020,
+    "venue": "aseth_publications",
+    "areas": [
+      "health",
+      "livelihood",
+      "education"
+    ],
+    "topics": [
+      "problem_discovery",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "caste",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "aseth_publications_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context in India, focusing on the impact of the COVID-19 pandemic on vulnerable populations.",
+    "link": "https://doi.org/10.1093/heapro/daab050",
+    "abstract": "Summary\n               In India, strict public health measures to suppress COVID-19 transmission and reduce burden have been rapidly adopted. Pandemic containment and confinement measures impact societies and economies; their costs and benefits must be assessed holistically. This study provides an evolving portrait of the health, economic and social consequences of the COVID-19 pandemic on vulnerable populations in India. Our analysis focuses on 100\u2009days early in the pandemic from 13 March to 20 June 2020. We developed a conceptual framework based on the human right to health and the UN Sustainable Development Goals (SDGs). We analysed people\u2019s experiences recorded and shared via mobile phone on the voice platforms operated by the Gram Vaani COVID-19 response network, a service for rural and low-income populations now being deployed to support India\u2019s COVID-19 response. Quantitative and visual methods were used to summarize key features of the data and explore relationships between factors. In its first 100\u2009days, the platform logged over 1.15 million phone calls, of which 793\u2009350 (69%) were outbound calls related largely to health promotion in the context of COVID-19. Analysis of 6636 audio recordings by network users revealed struggles to secure the basic necessities of survival, including food (48%), cash (17%), transportation (10%) and employment or livelihoods (8%). Themes were mapped to shortfalls in 10 SDGs and their associated targets. Pre-existing development deficits and weak social safety nets are driving vulnerability during the COVID-19 crisis. For an effective pandemic response and recovery, these must be addressed through inclusive policy design and institutional reforms.",
+    "_matched_keywords": [
+      "Gram Vaani"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Technologies that Disempower: Design Flaws in Technologies Used for the Delivery of Social Protection Measures in India",
+    "authors": "A. Seth. ACM Interactions, Nov 2020 [ shorter version",
+    "year": 2020,
+    "venue": "aseth_publications",
+    "areas": [
+      "governance"
+    ],
+    "topics": [
+      "ethnographic_design",
+      "sociotechnical_dynamics"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "caste",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "aseth_publications_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context in India, focusing on the design flaws in e-governance technologies used for social protection measures.",
+    "link": "https://doi.org/10.1145/3424686",
+    "abstract": "Paper-based bureaucratic procedures to access government services such as welfare measures can be user unfriendly and riddled with red tape In India, despite extensive work over the past decade in the digitization of such processes, government welfare services remain hard to access by low-income populations, causing significant distress among people during the Covid-19 pandemic These problems are systemic in nature, rooted in the design of e-governance technologies Here, Seth and Vaani focus on several design flaws that manifested themselves during the pandemic To curtail the rapid transmission of the virus, the Indian government imposed a stringent lockdown of approximately 75 days, during which millions of people lost their jobs and valuable sources of income The government announced several emergency relief measures with both cash and in-kind transfers, yet many people remained excluded because of technology-related issues They describe these issues and also briefly discuss why design errors continue to emerge with technologies deployed by the state",
+    "_matched_keywords": [
+      "social protection",
+      "e-governance"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Experiences from Running a Participatory Media Platform for Women and Led by Women in Rural North India",
+    "authors": "D. Chakraborty, S. Chatterjee, R. Tripathi, A. Gupta, and A. Seth. CSCW, 2024.",
+    "year": 2024,
+    "venue": "aseth_publications",
+    "areas": [
+      "media_information"
+    ],
+    "topics": [
+      "ethnographic_design",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "aseth_publications_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context in rural North India, focusing on gender and social capital issues.",
+    "link": "https://doi.org/10.1145/3653685",
+    "abstract": "Patriarchal practices and other socio-cultural norms in rural North India often prevent women from participating in digital platforms. In this paper we present a voice-based participatory community media platform that runs over simple voice-based phone calls. The platform is meant for women users and is led by women and has been used by 12,222 women users over the course of 20 months. We conduct a qualitative study and present several innovations, such as creating a safe space for women, which have contributed to more participation of women on the platform. We present a framework which can serve as a guidance for researchers and practitioners who want to set up digital platforms for women users.",
+    "_matched_keywords": [
+      "community media"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Development of an mHealth Behavior Change Communication Strategy: A Case-study from Rural Uttar Pradesh in India",
+    "authors": "M. Cielo P\u00e9rez Osorio, R. Singh, D. Pant, V. Ridde, A. Seth, and M. Johri",
+    "year": 2020,
+    "venue": "aseth_publications",
+    "areas": [
+      "health"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "ethnographic_design",
+      "impact_evaluation",
+      "operations_scale"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "aseth_publications_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context in rural Uttar Pradesh, India, focusing on an mHealth intervention for vulnerable populations.",
+    "link": "https://doi.org/10.1145/3378393.3402505",
+    "abstract": "Mobile health interventions are an innovative way to improve health outcomes and may play a powerful role in mitigating health disparities. However, their use poses special challenges and few articles have reported specifically on digital technology interventions for vulnerable populations. This article shares our experience from the Tika Vaani (\"vaccine voice\") Intervention which uses a combined face-to-face and mHealth strategy to educate and empower beneficiaries to improve immunization uptake and child health for a poor, low-literate population in rural Uttar Pradesh, India. Based on the mERA checklist, a guide to improve the completeness of reporting mHealth interventions, we provide information about the process of development, implementation and lessons for scaling up the Tika Vaani intervention. This study contributes to the literature to improve reporting on mHealth interventions and provide researchers with key points and actions to take during intervention development to serve hard-to-reach communities and improve health outcomes.",
+    "_matched_keywords": [
+      "mHealth"
+    ]
+  },
+  {
+    "id": null,
+    "title": "An Analysis of Impact Pathways Arising from a Mobile-based Community Media Platform in Rural India",
+    "authors": "A. Moitra, A. Kumar, and A. Seth. Manuscript, 2020.",
+    "year": 2020,
+    "venue": "aseth_publications",
+    "areas": [
+      "media_information"
+    ],
+    "topics": [
+      "impact_evaluation",
+      "ethnographic_design"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "aseth_publications_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context in rural India, focusing on a mobile-based community media platform.",
+    "link": "https://doi.org/10.1145/2909609.2909670",
+    "abstract": "It is well known that technology based interventions targeted towards development need to look beyond technology to be successful - cultural nuances, capability and intentions of the people, institutional linkages, financial sustainability, etc all need to fall in place to build a robust development program. Supporting this argument, we describe an interactive voice-based community media platform in rural India that works through mobile phones, and how several non-technological innovations in content management, community mobilization, and social impact processes were brought about to make the program an effective social development intervention. We believe that the challenges and insights described in this paper, which span over the last three years of functioning of the platform, will be useful for other researchers and practitioners involved in both mobile and non-mobile based community media projects around the world.",
+    "_matched_keywords": [
+      "community media"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Findings from a Civil Society Mediated and Technology Assisted Grievance Redressal Model in Rural India",
+    "authors": "D. Chakraborty, S. Ahmad, and A. Seth",
+    "year": 2017,
+    "venue": "aseth_publications",
+    "areas": [
+      "governance"
+    ],
+    "topics": [
+      "ethnographic_design",
+      "impact_evaluation",
+      "operations_scale"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "caste",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "aseth_publications_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context in India, focusing on governance and public service delivery issues.",
+    "link": "https://doi.org/10.1145/3136560.3136574",
+    "abstract": "Social welfare schemes and public infrastructure services often face implementation and last mile delivery challenges. Governments in India have set up phone helplines for beneficiaries to report irregularities but we find that it remains challenging for beneficiaries to realise positive outcomes through these helplines; without a personal follow-up with the concerned local government officials by experienced members from the civil society, the redressals done are often inadequate. To combine the scalability of centralised helplines with the effectiveness of decentralised mediation by civil society groups, we set up an IVR (Interactive Voice Response) system where beneficiaries can record their grievances, which are then delegated to a network of civil society volunteers who do the required local follow-ups for resolution of these grievances. Through this pilot, we analysed over 200 cases of redressal and document how volunteer networks operate and can plug accountability gaps in government services. We advocate for formalisation of this civil-society mediated and technology assisted model into the design of public welfare schemes to enable citizens to engage with government departments in productive ways.",
+    "_matched_keywords": [
+      "welfare schemes",
+      "grievance redressal",
+      "IVR (interactive voice response)"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Design Lessons from Creating a Mobile-based Community Media Platform in Rural India",
+    "authors": "A. Moitra, V. Das, A. Kumar, Gram Vaani, and A. Seth. ICTD 2016",
+    "year": 2016,
+    "venue": "aseth_publications",
+    "areas": [
+      "media_information"
+    ],
+    "topics": [
+      "ethnographic_design",
+      "impact_evaluation",
+      "operations_scale"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "aseth_publications_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context in rural India, focusing on the creation and management of a mobile-based community media platform.",
+    "link": "https://doi.org/10.1145/2909609.2909670",
+    "abstract": "It is well known that technology based interventions targeted towards development need to look beyond technology to be successful - cultural nuances, capability and intentions of the people, institutional linkages, financial sustainability, etc all need to fall in place to build a robust development program. Supporting this argument, we describe an interactive voice-based community media platform in rural India that works through mobile phones, and how several non-technological innovations in content management, community mobilization, and social impact processes were brought about to make the program an effective social development intervention. We believe that the challenges and insights described in this paper, which span over the last three years of functioning of the platform, will be useful for other researchers and practitioners involved in both mobile and non-mobile based community media projects around the world.",
+    "_matched_keywords": [
+      "community media"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Building Citizen Engagement into the Implementation of Welfare Schemes in Rural India",
+    "authors": "D. Chakraborty and A. Seth",
+    "year": 2015,
+    "venue": "aseth_publications",
+    "areas": [
+      "governance"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "ethnographic_design",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "caste",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "aseth_publications_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context in India, focusing on rural welfare schemes and citizen engagement through IVR tools.",
+    "link": "https://doi.org/10.1145/2737856.2738027",
+    "abstract": "Citizen feedback on the implementation of social welfare schemes can help fine tune their design, understand problems, and assess the benefits and impact from these schemes. Such feedback loops however are singularly missing in most schemes in India, and are conveyed only indirectly via civil society and social audit organisations that try to serve as a bridge between citizens and the government. We leverage the deep penetration of mobile phones in India to design a suite of IVR (Interactive Voice Response) tools that can help capture community perceptions, improve awareness of the people, and verify official records directly by the beneficiaries themselves. In the context of a rural employment guarantee scheme, we evaluate these tools in a few villages in the state of Haryana and demonstrate that there is good scope for using IVR tools to serve as a citizen engagement channel for welfare schemes. Our contribution lies in outlining several use-cases for technology interventions, and uncovering nuances that should be addressed if such systems are integrated into the implementation of social welfare schemes.",
+    "_matched_keywords": [
+      "welfare schemes",
+      "IVR (interactive voice response)"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Airavat: an automated system to increase transparency and accountability in social welfare schemes in India",
+    "authors": "V. Srinivasan, V. Vardhan, S. Kar, S. Asthana, R. Narayanan, P. Singh, D. Chakraborty, A. Singh, and A. Seth",
+    "year": 2013,
+    "venue": "aseth_publications",
+    "areas": [
+      "governance"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "ethnographic_design",
+      "impact_evaluation",
+      "operations_scale"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "caste",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "aseth_publications_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context in India, focusing on transparency and accountability in social welfare schemes.",
+    "link": "https://doi.org/10.1145/2517899.2517937",
+    "abstract": "Activist groups have taken up information dissemination and feedback collection as a means of rights advocacy in India. However, it is not easy given the difficulty in procuring and disseminating information at a large scale. Beneficiaries are often not able to help themselves as information systems are administration facing, because of poor literacy and the inability to access the Internet. Further, beneficiaries are not well informed of their rights and entitlements under different government schemes to know how and when to file grievances. We aim to solve these problems by designing and testing prototypes for information dissemination and feedback collection in various contexts. In our current prototype we describe an automated tool that sifts through the data on an MIS and conveys personalised information to the beneficiaries through voice calls. This is a work in progress, and our first exercise on providing MIS-extracted information to people through phone calls led to 70% of the beneficiaries who noticed a discrepancy in the data to agree to file a grievance on their behalf. We are continuing to scale the work, make it more automated, and run qualitative interviews with all stakeholders to understand causality linkages with transparency led grievance filing, assisted by appropriate ICTs, to increase accountability.",
+    "_matched_keywords": [
+      "welfare schemes",
+      "transparency and accountability"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Gram Vaani ASR Challenge on Spontaneous Telephone Speech Recordings in Regional Variations of Hindi",
+    "authors": "A. Bhanushali, G. Bridgman, Deekshitha G., P. Ghosh, P. Kumar, S. Kumar, A.R. Kolladath, N. Ravi, A. Seth, A. Seth, A. Singh, Vrunda N. Sukhadia, Umesh S., S. Udupa, Lodagala V.S., V. Durga Prasad. Interspeech, 2022.",
+    "year": 2022,
+    "venue": "aseth_publications",
+    "areas": [],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [],
+    "area_agnostic": true,
+    "source_course": "aseth_publications_venue_search",
+    "notes": "The paper applies strong computer science methods to a unique corpus of spontaneous telephone speech recordings in regional variations of Hindi, fitting the 'cs_fundamentals' topic rule.",
+    "link": "https://doi.org/10.21437/interspeech.2022-11371",
+    "abstract": "This paper describes the corpus and baseline systems for the Gram Vaani Automatic Speech Recognition (ASR) challenge in regional variations of Hindi. The corpus for this challenge comprises the spontaneous telephone speech recordings collected by a social technology enterprise, Gram Vaani . The regional variations of Hindi together with spontaneity of speech, natu-ral background and transcriptions with variable accuracy due to crowdsourcing make it a unique corpus for ASR on spon-taneous telephonic speech. Around, 1108 hours of real-world spontaneous speech recordings, including 1000 hours of un-labelled training data, 100 hours of labelled training data, 5 hours of development data and 3 hours of evaluation data, have been released as a part of the challenge. The efficacy of both training and test sets are validated on different ASR systems in both traditional time-delay neural network-hidden Markov model (TDNN-HMM) frameworks and fully-neural end-to-end (E2E) setup. The word error rate (WER) and character error rate (CER) on eval set for a TDNN model trained on 100 hours of labelled data are 29 . 7% and 15 . 1% , respectively. While, in E2E setup, WER and CER on eval set for a conformer model trained on 100 hours of data are 32 . 9% and 19 . 0% , respectively.",
+    "_matched_keywords": [
+      "Gram Vaani"
+    ]
+  },
+  {
+    "id": null,
+    "title": "A participatory video and audio platform for community interaction using DVDs and IVR systems",
+    "authors": "D. Chakraborty and A. Seth",
+    "year": 2013,
+    "venue": "aseth_publications",
+    "areas": [
+      "media_information",
+      "education",
+      "agriculture"
+    ],
+    "topics": [
+      "ethnographic_design",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "aseth_publications_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context in rural India, focusing on community interaction and information dissemination.",
+    "link": "https://doi.org/10.1145/2442882.2442925",
+    "abstract": "Community screenings in rural India through DVDs and projectors have had an impact in improving education [1], agricultural information dissemination [3] and community empowerment [4]. These methods have been successful primarily because local people and references are featured in the videos making the information contextual, and interactive sessions are held with the audience making the screenings engaging. Nonetheless, there are some challenges. First, sustaining the interest of the audience during a screening depends heavily on training the field staff to remember various discussion topics they should initiate to make the screenings interactive. Second, even though a significant number of people may show up at the screening, it is hard for the field staff to keep them engaged beyond the screenings to offer them continued information support and on-going learning.",
+    "_matched_keywords": [
+      "participatory video"
+    ]
+  },
+  {
+    "id": null,
+    "title": "A case study on the use of IVR systems by visually impaired people",
+    "authors": "P. Aggarwal, G. Luthra, Z. Koradia, A. Seth, P. Gadodia, G. Abraham, and N. Jain",
+    "year": 2013,
+    "venue": "aseth_publications",
+    "areas": [
+      "media_information"
+    ],
+    "topics": [
+      "problem_discovery"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "aseth_publications_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context by exploring the use of IVR systems for visually impaired people in India, which aligns with the 'media_information' area and 'problem_discovery' topic.",
+    "link": "https://doi.org/10.1145/2442882.2442926",
+    "abstract": "Interactive Voice Response Systems (IVRS) have been used extensively to engage with poorly literate populations in the context of public health, farming, community radio, citizen journalism, and other sectors [2--7]. The voice based medium on IVRS, and the easy to use phone interface, seem to have been useful to help poorly literate and non-IT savvy populations to interact with automated computerized systems. In this study, we explore the use of IVRS for visually impaired people. To the best of our knowledge, we have not come across the use of IVR systems as an assistive technology to engage with this segment, and we describe an initial experiment we did in India. Based on our results, we feel much potential lies in researching this further because equivalent systems such as SMS and the use of screen-reading software on phones [1] are available to only trained or educated or higher income users from among visually impaired people.",
+    "_matched_keywords": [
+      "community radio",
+      "citizen journalism"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Experiences of Deploying and Commercializing a Community Radio Automation System in India",
+    "authors": "Z. Koradia, Balachandran C, K. Dadheech, M. Shivam, and A. Seth",
+    "year": 2012,
+    "venue": "aseth_publications",
+    "areas": [
+      "media_information"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "ethnographic_design",
+      "impact_evaluation",
+      "operations_scale"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "aseth_publications_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context in India, focusing on the deployment and commercialization of a community radio automation system.",
+    "link": "https://doi.org/10.1145/2160601.2160612",
+    "abstract": "Community Radio (CR) stations are short range FM stations that seek to meet the needs of their listeners by involving them in content creation, feedback, and station management. In India, the community radio movement took off in 2008 when the first set of CR stations became operational. During that period we began design and development of the Gramin Radio Inter-Networking System (GRINS), an automation system designed to meet the ICT needs of CR stations. Over the last 2.5 years we have commercialized GRINS and deployed it at 19 CR stations in India and South Africa. In this paper, we present our experiences of software feature design, installation, training, technical support, and commercialization of GRINS in India.",
+    "_matched_keywords": [
+      "community radio"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Phonepeti: Exploring the Role of an Answering Machine System in a Community Radio Station in India",
+    "authors": "Z. Koradia and A. Seth. ICTD 2012 (poster)",
+    "year": 2012,
+    "venue": "aseth_publications",
+    "areas": [
+      "media_information"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "ethnographic_design"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "aseth_publications_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context in India, focusing on community radio and mobile phone integration.",
+    "link": "https://doi.org/10.1145/2160673.2160708",
+    "abstract": "Community Radio (CR) stations are short range radio stations that serve the local media needs of their surrounding communities. Community participation by way of helping set the station agenda, airing of people's voices, and providing them with a local communication medium, is the defining feature of CR. But this philosophy has been hard to execute in practice because of logistical difficulties, with station staff not being able to reach out to a listenership-base spread across several hundreds of square kilometers. In today's context though, the high penetration of mobile phones has made it easier for listeners to participate in the running of radio stations, but the potential of telephony and radio integration has been exploited only minimally.",
+    "_matched_keywords": [
+      "community radio"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Using ICTs to Meet the Operational Needs of Community Radio Stations in India",
+    "authors": "Z. Koradia, A. Premi, B. Chandrasekharan, and A. Seth",
+    "year": 2010,
+    "venue": "aseth_publications",
+    "areas": [
+      "media_information"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "ethnographic_design",
+      "operations_scale"
+    ],
+    "cross_cutting_axes": [],
+    "area_agnostic": false,
+    "source_course": "aseth_publications_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context in India, focusing on the operational needs of community radio stations.",
+    "link": "https://doi.org/10.1145/1926180.1926207",
+    "abstract": "Community Radio Stations are short range FM radio stations that attempt to meet the information needs of communities situated around them. While the concept of community radio is not new, the widespread proliferation of mobile phones has generated renewed interest in using phones in conjunction with radio for closer community engagement. Radio stations in developing regions are keenly looking for solutions to do this efficiently, as well as solve several other ICT challenges including content management, fault diagnosis, and reduced cost of setup. We have designed the Gramin Radio Inter Networking System (GRINS) to address these issues. In this paper, we describe the GRINS architecture, experimental setups to evaluate audio performance on low-cost commodity hardware, and a formally expressible framework to describe and diagnose radio station configurations. Our techniques and insights can serve to help other technological interventions meant for developing regions.",
+    "_matched_keywords": [
+      "community radio"
+    ]
+  },
+  {
+    "id": null,
+    "title": "First impressions on the state of cellular data connectivity in India",
+    "authors": "Z. Koradia, G. Mannava, A. Raman, G. Aggarwal, V. Ribeiro, A. Seth, S. Ardon, A. Mahanti, and S. Triukose",
+    "year": 2013,
+    "venue": "aseth_publications",
+    "areas": [
+      "infrastructure"
+    ],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [],
+    "area_agnostic": false,
+    "source_course": "aseth_publications_venue_search",
+    "notes": "The paper engages with a developing-regions context in India, focusing on cellular data connectivity which is crucial for ICT for Development.",
+    "link": "https://doi.org/10.1145/2537052.2537064",
+    "abstract": "Cellular penetration in India has grown tremendously in recent years and provides an opportunity to bridge the digital divide. However, there is little understanding of the state of cellular data connectivity in India. In this paper, we present first impressions on cellular data network performance in India. We present a measurement framework designed specifically for remote deployments and intermittent connectivity. Using this framework we evaluate three GSM based and one CDMA based cellular service providers through active measurements conducted at five rural, one semi-urban, and one urban locations. Through analysis of about 450 hours of measurement data collected over a 3-month period, we present the throughput and latency performance of cellular service providers and provide insights into the architecture of the service provider networks. Our analysis reveals aspects in cellular network design that interfere with standard protocols such as TCP, and suggests ways to improve performance.",
+    "_matched_keywords": [
+      "digital divide"
+    ]
+  },
+  {
+    "id": null,
+    "title": "2G/3G network measurements in rural areas of India",
+    "authors": "A. Chandele, Z. Koradia, V. Ribeiro, A. Seth, S. Triukose, S. Ardon, and A. Mahanti",
+    "year": 2013,
+    "venue": "aseth_publications",
+    "areas": [
+      "infrastructure"
+    ],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [],
+    "area_agnostic": false,
+    "source_course": "aseth_publications_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context in India, focusing on rural areas' cellular network performance.",
+    "link": "https://doi.org/10.1145/2442882.2442938",
+    "abstract": "Recent years have seen rapid cellular expansion in urban and rural India [1], providing an avenue to bridge the digital divide. However there is little understanding of the performance of cellular data connectivity in different geographies. We take a first step towards this. We are planning to characterize the performance of cellular data networks available across different locations, rural and urban, in India through a large scale experimental setup consisting of more than 50 measurement points across the country. We hope our findings will reveal capacity provisioning and network design characteristics that telecom operators follow in deploying 2G/3G connectivity in different areas.",
+    "_matched_keywords": [
+      "digital divide"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Motivation and Design of a Content Distribution Architecture for Rural Areas",
+    "authors": "A. Mahla, D. Martin, I. Ahuja, Q. Niyaz, and A. Seth",
+    "year": 2012,
+    "venue": "aseth_publications",
+    "areas": [
+      "media_information"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "ethnographic_design"
+    ],
+    "cross_cutting_axes": [
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "aseth_publications_venue_search",
+    "notes": "The paper engages with a developing-regions context by addressing the challenges of content distribution in rural areas with limited internet access, which is directly relevant to the 'media_information' area.",
+    "link": "https://doi.org/10.1145/2160601.2160610",
+    "abstract": "Decreasing prices of digital cameras, phones and video cameras have made these devices accessible to low-income communities and to development organizations working in these communities. As a result, the social media revolution around user generated content on YouTube and Facebook has found equivalents in rural areas; here, community radio, community video, and interactive voice based systems are used for social media instead of Internet websites to host user generated content. We observe that there is much benefit to be gained from sharing this content across different rural locations, but it is hard due to unavailable or flaky Internet access in these areas. In this paper, we analyze a 1000+ video content production and consumption dataset from a nonprofit organization that specializes in participatory video production about agricultural best practices, and observe that solutions to connectivity in rural areas could greatly benefit from caching of content since much production and consumption tends to be local. Based on this insight, we propose a delay tolerant network architecture for content distribution, that recognizes content objects as first class entities cachable at different nodes in the network, and uses an always-on control channel on GPRS/EDGE connections to assist in the routing of data. Finally, we simulate the dataset in accordance with our architectural design to study the performance of different routing and caching algorithms in terms of delivery latency and other metrics for 6 different districts. We find that our proposed architecture is suitable to provide content distribution services with minimal investments in IT infrastructure, and we plan to do a small-scale field deployment shortly.",
+    "_matched_keywords": [
+      "participatory video",
+      "community radio"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Design and Implementation of the KioskNet System",
+    "authors": "S. Guo, M. Derakhshani, M.H. Falaki, U. Ismail, R. Luk, E.A. Oliver, S. Ur Rahman, A. Seth, M.A. Zaharia, and S. Keshav. Computer Networks, 2011",
+    "year": 2011,
+    "venue": "aseth_publications",
+    "areas": [
+      "infrastructure"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "ethnographic_design",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [],
+    "area_agnostic": false,
+    "source_course": "aseth_publications_venue_search",
+    "notes": "The paper engages with a developing-regions context by addressing the technical challenges of deploying internet kiosks in rural areas, which is directly relevant to the 'infrastructure' area.",
+    "link": "https://doi.org/10.1109/ictd.2007.4937417",
+    "abstract": "Rural Internet kiosks in developing countries can cost-effectively provide communication and e-governance services to the poorest sections of society. Unfortunately, a variety of technical and non-technical issues have caused most kiosk deployments to be unsustainable [1]. KioskNet addresses the key technical problems underlying kiosk failure by using robust \u2018mechanical backhaul\u2019 for connectivity [2], and by using low-cost and reliable kiosk controllers to support services delivered from one or more recycled PCs. KioskNet also addresses related issues such as security, user management, and log collection. In this paper, we describe the KioskNet system and outline its hardware, software, and security architectures. We describe a pilot deployment, and how we used lessons from this deployment to re-design our initial prototype.",
+    "_matched_keywords": [
+      "e-governance"
+    ]
+  }
+]

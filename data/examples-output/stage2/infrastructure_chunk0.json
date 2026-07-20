@@ -1,0 +1,399 @@
+[
+  {
+    "domain_name": "Mobile phones and market efficiency in developing economies",
+    "reading_ids": [
+      "abraham_mobile_phones_fishing",
+      "miller_unpredictable_mobile_phone",
+      "steyn_kerala_fisherman_critique"
+    ],
+    "background_concepts": [
+      {
+        "concept": "Law of one price / market price dispersion",
+        "why_needed": "The fishing-market studies argue mobile phones reduce price dispersion across markets, invoking the economic 'law of one price' as the benchmark for market efficiency without explaining it.",
+        "suggested_resources": [
+          {
+            "title": "The Law of One Price (Corporate Finance Institute)",
+            "url": "https://corporatefinanceinstitute.com/resources/economics/law-of-one-price/",
+            "type": "primer"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "domain_name": "Community and small-scale cellular/network infrastructure",
+    "reading_ids": [
+      "heimerl_local_cellular_networks",
+      "compass_2023_community_networks_powered_by_community_currencies",
+      "compass_2021_investigating_measurement_scheduling_strategies_in_low"
+    ],
+    "background_concepts": [
+      {
+        "concept": "GSM cellular network architecture (base station, spectrum, backhaul)",
+        "why_needed": "The community cellular papers assume familiarity with how a GSM cell site works (base transceiver station, spectrum licensing, backhaul to the core network) when describing small-scale locally-run networks.",
+        "suggested_resources": [
+          {
+            "title": "How Cell Phones Work (U.S. FCC consumer guide)",
+            "url": "https://www.fcc.gov/consumers/guides/how-cell-phone-towers-work",
+            "type": "agency_guide"
+          },
+          {
+            "title": "Cellular Concepts and GSM Basics (NPTEL lecture notes)",
+            "url": "https://nptel.ac.in/courses/117104099",
+            "type": "lecture_notes"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "domain_name": "Rural electrification via microgrids and minigrids",
+    "reading_ids": [
+      "ghtc_2022_selection_of_multicriteria_decision_analysis_methods",
+      "ghtc_2023_power_electronic_loss_modeling_and_analysis",
+      "ghtc_2024_electricity_systems_design_for_standalone_minigrid",
+      "development_engineering_2022_cost_estimation_of_micro_hydropower_equipment"
+    ],
+    "background_concepts": [
+      {
+        "concept": "Microgrid / minigrid architecture and islanding",
+        "why_needed": "These engineering papers design standalone minigrids and DC microgrids assuming the reader knows what a microgrid is, its components (generation, storage, loads), and the concept of islanded vs. grid-connected operation.",
+        "suggested_resources": [
+          {
+            "title": "Microgrids (DOE Tribal Energy Guide)",
+            "url": "https://www.energy.gov/indianenergy/tribal-energy-guide/microgrids",
+            "type": "agency_guide"
+          },
+          {
+            "title": "Microgrid Conceptual Design Guidebook (Sandia National Laboratories)",
+            "url": "https://www.sandia.gov/app/uploads/sites/273/2022/05/ETI_SNL_Microgrid_Guidebook_2022_SAND2022-4842-R_FINAL.pdf",
+            "type": "agency_guide"
+          }
+        ]
+      },
+      {
+        "concept": "Multi-criteria decision analysis (MCDA)",
+        "why_needed": "The electrification-project selection paper is built entirely around choosing an MCDA method (weights, criteria, ranking of alternatives) but does not teach what MCDA is or how weighting/scoring works.",
+        "suggested_resources": [
+          {
+            "title": "An Introductory Guide to Multi-Criteria Decision Analysis (UK Government Analysis Function)",
+            "url": "https://analysisfunction.civilservice.gov.uk/policy-store/an-introductory-guide-to-mcda/",
+            "type": "agency_guide"
+          },
+          {
+            "title": "A Practical Guide to Multi-Criteria Decision Analysis (Victoria University of Wellington)",
+            "url": "https://www.wgtn.ac.nz/som/about/publications/mabinbeattie-v5_2-May-2006.pdf",
+            "type": "course_module"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "domain_name": "Electricity provision and the political economy of the grid",
+    "reading_ids": [
+      "baskaran_election_cycles_electricity",
+      "min_electoral_cycles_electricity_losses",
+      "klugman_gridwatch"
+    ],
+    "background_concepts": [
+      {
+        "concept": "Quasi-experiment / difference-in-differences identification",
+        "why_needed": "The election-cycle studies claim causal effects of political incentives on electricity supply using quasi-experimental designs (special elections, difference-in-differences) without explaining the identification strategy or parallel-trends assumption.",
+        "suggested_resources": [
+          {
+            "title": "Difference-in-Differences (World Bank DIME Wiki)",
+            "url": "https://dimewiki.worldbank.org/Difference-in-Differences",
+            "type": "primer"
+          },
+          {
+            "title": "Difference-in-Differences (Causal Inference: The Mixtape)",
+            "url": "https://mixtape.scunning.com/09-difference_in_differences",
+            "type": "course_module"
+          }
+        ]
+      },
+      {
+        "concept": "Distribution losses / aggregate technical & commercial (AT&C) losses",
+        "why_needed": "The electricity-loss paper measures 'line losses' as a manipulable political variable, assuming the reader understands technical vs. non-technical (theft/billing) distribution losses in a power grid.",
+        "suggested_resources": [
+          {
+            "title": "Electricity explained: How electricity is delivered (U.S. EIA)",
+            "url": "https://www.eia.gov/energyexplained/electricity/delivery-to-consumers.php",
+            "type": "agency_guide"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "domain_name": "Satellite/remote-sensing mapping of infrastructure and socioeconomic conditions",
+    "reading_ids": [
+      "ijcai25_igrass_infrastructure_networks",
+      "aaai_23_aisi_point_to_region_co_learning_for",
+      "aaai_24_aisi_uv_sam_adapting_segment_anything_model",
+      "ijcai_2024_deeplight_reconstructing_high_resolution_observations_of",
+      "ijcai_2024_from_pixels_to_progress_generating_road",
+      "ijcai_2024_vulnerabilitymap_an_open_framework_for_mapping",
+      "climate_change_ai_synthetic_imagery_aided_geographic_domain_adaptation",
+      "climate_change_ai_commercial_vehicle_traffic_detection_from_satellite",
+      "climate_change_ai_truck_traffic_monitoring_with_satellite_images"
+    ],
+    "background_concepts": [
+      {
+        "concept": "Semantic segmentation and object detection in imagery",
+        "why_needed": "These papers infer roads, buildings, and infrastructure from imagery using segmentation and detection architectures, assuming the reader knows pixel-level labeling, bounding boxes, and CNN-based vision pipelines.",
+        "suggested_resources": [
+          {
+            "title": "Beginner's Guide to Semantic Segmentation (V7 Labs)",
+            "url": "https://www.v7darwin.com/blog/semantic-segmentation-guide",
+            "type": "primer"
+          },
+          {
+            "title": "Semantic Segmentation (MathWorks)",
+            "url": "https://www.mathworks.com/solutions/image-processing-computer-vision/semantic-segmentation.html",
+            "type": "primer"
+          }
+        ]
+      },
+      {
+        "concept": "Nighttime lights as a socioeconomic proxy",
+        "why_needed": "The nighttime-light reconstruction and poverty-mapping papers treat satellite-measured night light as a proxy for economic activity and electrification without explaining the DMSP/VIIRS data or the light-GDP correlation.",
+        "suggested_resources": [
+          {
+            "title": "Nighttime Lights (NASA Earthdata)",
+            "url": "https://www.earthdata.nasa.gov/topics/human-dimensions/nighttime-lights",
+            "type": "agency_guide"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "domain_name": "AI for power systems modeling and grid resilience",
+    "reading_ids": [
+      "climate_change_ai_operator_learning_for_power_systems_simulation",
+      "climate_change_ai_real_time_risky_fault_chain_search",
+      "climate_change_ai_pf_a_benchmark_dataset_for_power",
+      "climate_change_ai_rl_for_mitigating_cascading_failures_targeted",
+      "climate_change_ai_learning_optimal_power_flow_with_infeasibility",
+      "climate_change_ai_the_grid_resilience_intelligence_platform_grip",
+      "climate_change_ai_data_driven_chance_constrained_programming_based",
+      "climate_change_ai_pymgrid_an_open_source_python_microgrid",
+      "climate_change_ai_smart_meter_data_analytics_practical_use"
+    ],
+    "background_concepts": [
+      {
+        "concept": "Optimal power flow (OPF) and power flow equations",
+        "why_needed": "Several papers learn or approximate OPF solutions and use power-flow benchmarks, assuming the reader knows AC/DC power flow equations, generator dispatch, and line-flow constraints.",
+        "suggested_resources": [
+          {
+            "title": "Introduction to Optimal Power Flow (TU Delft OpenCourseWare)",
+            "url": "https://ocw.tudelft.nl/course-readings/2-1-1-introduction-to-optimal-power-flow/",
+            "type": "course_module"
+          },
+          {
+            "title": "Lecture Notes on Optimal Power Flow (DTU, Chatzivasileiadis)",
+            "url": "https://arxiv.org/abs/1811.00943",
+            "type": "lecture_notes"
+          }
+        ]
+      },
+      {
+        "concept": "Cascading failures in power grids",
+        "why_needed": "The fault-chain search and cascading-failure mitigation papers assume understanding of how a single line/component overload propagates into a system-wide blackout.",
+        "suggested_resources": [
+          {
+            "title": "Tutorial: Cascading Failures (Graph-TIGER documentation)",
+            "url": "https://graph-tiger.readthedocs.io/en/latest/tutorials/tutorial-4.html",
+            "type": "course_module"
+          },
+          {
+            "title": "Grid Systems / Microgrids overview (U.S. DOE Office of Electricity)",
+            "url": "https://www.energy.gov/oe/grid-systems",
+            "type": "agency_guide"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "domain_name": "Solar energy forecasting and rooftop/asset assessment",
+    "reading_ids": [
+      "ijcai25_mcloudnet_pv_rural_china",
+      "climate_change_ai_solar_panel_mapping_via_oriented_object",
+      "climate_change_ai_self_supervised_learning_on_multispectral_satellite",
+      "climate_change_ai_predicting_the_solar_potential_of_rooftops"
+    ],
+    "background_concepts": [
+      {
+        "concept": "Photovoltaic energy conversion and system components",
+        "why_needed": "The solar forecasting and rooftop-potential papers assume familiarity with how PV cells/modules generate power, tilt/orientation, and factors (irradiance, shading, cloud cover) that drive output.",
+        "suggested_resources": [
+          {
+            "title": "How Does Solar Work? (U.S. DOE)",
+            "url": "https://www.energy.gov/cmei/systems/how-does-solar-work",
+            "type": "agency_guide"
+          },
+          {
+            "title": "Photovoltaics and electricity (U.S. EIA Energy Explained)",
+            "url": "https://www.eia.gov/energyexplained/solar/photovoltaics-and-electricity.php",
+            "type": "agency_guide"
+          }
+        ]
+      },
+      {
+        "concept": "Oriented object detection in remote sensing",
+        "why_needed": "The solar-panel mapping paper uses 'oriented' (rotated) bounding boxes rather than standard axis-aligned detection, a specialized variant the reader must understand.",
+        "suggested_resources": [
+          {
+            "title": "Beginner's Guide to Semantic Segmentation / object detection (V7 Labs)",
+            "url": "https://www.v7darwin.com/blog/semantic-segmentation-guide",
+            "type": "primer"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "domain_name": "Sensing and data-driven optimization of local energy demand and services",
+    "reading_ids": [
+      "fabini_electricity_demand_kenya",
+      "development_engineering_2021_estimating_hourly_lighting_load_profiles_of",
+      "development_engineering_2020_toilet_alarms_a_novel_application_of",
+      "climate_change_ai_bridging_the_temporal_gap_from_historical",
+      "climate_change_ai_reflexive_evidence_based_multimodal_learning_for"
+    ],
+    "background_concepts": [
+      {
+        "concept": "Electricity load profiles and demand modeling",
+        "why_needed": "These papers estimate hourly load profiles and induced residential demand, assuming the reader understands load curves, peak/base load, and load factor as characterizations of electricity demand.",
+        "suggested_resources": [
+          {
+            "title": "Electricity explained: Use of electricity / demand (U.S. EIA)",
+            "url": "https://www.eia.gov/energyexplained/electricity/use-of-electricity.php",
+            "type": "agency_guide"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "domain_name": "Disaster and climate risk detection for infrastructure resilience",
+    "reading_ids": [
+      "climate_change_ai_ai_based_waste_mapping_for_addressing",
+      "climate_change_ai_clustering_based_framework_for_assessing_transportation",
+      "climate_change_ai_mapping_housing_stock_characteristics_from_drone",
+      "climate_change_ai_attention_for_damage_assessment",
+      "climate_change_ai_interpretability_in_convolutional_neural_networks_for",
+      "climate_change_ai_learning_representations_to_predict_landslide_occurrences",
+      "ijcai25_deepshade_heat_simulation"
+    ],
+    "background_concepts": [
+      {
+        "concept": "Building/infrastructure damage assessment from imagery",
+        "why_needed": "The damage-assessment papers classify pre/post-disaster building damage from satellite imagery, assuming knowledge of remote-sensing classification pipelines and change detection.",
+        "suggested_resources": [
+          {
+            "title": "Beginner's Guide to Semantic Segmentation (V7 Labs)",
+            "url": "https://www.v7darwin.com/blog/semantic-segmentation-guide",
+            "type": "primer"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "domain_name": "Infrastructure and design in informal settlements",
+    "reading_ids": [
+      "development_engineering_2020_high_mast_lighting_as_an_adequate",
+      "development_engineering_2021_beyond_materials_the_construction_process_in"
+    ],
+    "background_concepts": []
+  },
+  {
+    "domain_name": "Rural telecenters and shared-access digital service delivery",
+    "reading_ids": [
+      "best_kumar_sustainability_failures_telecenters",
+      "compass_2024_blendnet_an_assisted_digital_distribution_platform"
+    ],
+    "background_concepts": []
+  },
+  {
+    "domain_name": "Telecom infrastructure and macroeconomic development",
+    "reading_ids": [
+      "waverman_telecom_growth"
+    ],
+    "background_concepts": [
+      {
+        "concept": "Growth regressions and network externalities",
+        "why_needed": "The macro study estimates telecom penetration's effect on GDP growth using cross-country growth regressions and invokes network externalities/critical mass, terms it does not define.",
+        "suggested_resources": [
+          {
+            "title": "Network Effects / Externalities (Corporate Finance Institute)",
+            "url": "https://corporatefinanceinstitute.com/resources/economics/network-effects/",
+            "type": "primer"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "domain_name": "Off-grid and mini-grid rural electrification",
+    "reading_ids": [
+      "ghtc_2021_a_rural_microgrid_field_pilot_in"
+    ],
+    "background_concepts": [
+      {
+        "concept": "Off-grid solar systems: storage sizing and business models",
+        "why_needed": "The field-pilot paper discusses battery storage, panel sizing, and pay-as-you-go/tariff business models for off-grid microgrids, assuming the reader understands these energy-access fundamentals.",
+        "suggested_resources": [
+          {
+            "title": "Microgrid Overview (U.S. DOE Grid Deployment Office fact sheet)",
+            "url": "https://www.energy.gov/sites/default/files/2024-02/46060_DOE_GDO_Microgrid_Overview_Fact_Sheet_RELEASE_508.pdf",
+            "type": "agency_guide"
+          },
+          {
+            "title": "Solar Photovoltaic System Design Basics (U.S. DOE)",
+            "url": "https://www.energy.gov/eere/solar/solar-photovoltaic-system-design-basics",
+            "type": "agency_guide"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "domain_name": "Power grid reliability monitoring and analytics",
+    "reading_ids": [
+      "climate_change_ai_leveraging_machine_learning_for_equitable_transition",
+      "climate_change_ai_learning_the_indicators_of_energy_burden"
+    ],
+    "background_concepts": [
+      {
+        "concept": "Energy burden and energy equity metrics",
+        "why_needed": "The energy-burden and equitable-transition papers center on 'energy burden' (share of household income spent on energy) as a policy metric without defining it.",
+        "suggested_resources": [
+          {
+            "title": "Low-Income Energy Affordability Data (LEAD) Tool & energy burden (U.S. DOE)",
+            "url": "https://www.energy.gov/scep/slsc/low-income-energy-affordability-data-lead-tool",
+            "type": "agency_guide"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "domain_name": "Rural and last-mile network connectivity measurement",
+    "reading_ids": [
+      "compass_2021_improving_emergency_preparedness_and_response_in"
+    ],
+    "background_concepts": []
+  },
+  {
+    "domain_name": "Digital inclusion for marginalized users and small organizations",
+    "reading_ids": [
+      "compass_2023_windhoek_smart_city_hunt_app_designing"
+    ],
+    "background_concepts": []
+  }
+]

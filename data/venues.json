@@ -1,0 +1,268 @@
+{
+  "metadata": {
+    "purpose": "List of credible venues (conferences, special tracks, and journals) at the intersection of computing and international development / sustainability / social impact, with links to each year's proceedings or issue index for roughly the last five years (2021-2026). This is a venue-level index, not a paper-level index -- the next step is to drill into each linked proceedings/issue page and pull individual papers into readings.json.",
+    "date_compiled": "2026-07-19",
+    "credibility_note": "Per instruction: any ACM-affiliated venue is treated as credible by default. IEEE venues are included only when clearly international in scope. Journals are included based on a combination of publisher reputation, editorial board affiliations (leading universities), and standing in the field, rather than impact factor alone. A few venues are flagged as broader/general venues that merely have a strong ICTD-relevant subset, rather than being dedicated ICTD venues -- for those, the main proceedings link is given but will need keyword/topic filtering to extract the relevant subset (same treatment as KDD and the AAAI main proceedings).",
+    "pipeline_note": "Proceedings/issue URLs below match src/venue_configs.py (the scrape targets used by run_pipeline.py). Where ACM DL or IEEE Xplore blocks bots, DBLP or publisher-native URLs are used instead.",
+    "coverage_caveats": [
+      "Some venues are not annual (e.g. ACM ICTD and IFIP ICT4D run roughly every 1-2 years). Years with no edition are simply omitted rather than padded.",
+      "For very high-volume general venues (KDD, CHI, CSCW, AAAI main proceedings, Climate Change AI workshop papers), the link given is to the venue/year index rather than to individual papers, because the development/sustainability-relevant subset is a small fraction of the total and needs manual or keyword-filtered drill-down -- flagged per-venue with 'needs_filtering': true.",
+      "AAAI's 'Special Track on AI for Social Impact' (AISI) is sometimes published as its own issue and sometimes folded into a combined 'Special Tracks' issue -- noted per year below."
+    ]
+  },
+
+  "venues": [
+    {
+      "id": "acm_compass",
+      "name": "ACM SIGCAS/SIGCHI Conference on Computing and Sustainable Societies (COMPASS)",
+      "type": "conference",
+      "sponsor": "ACM SIGCAS and SIGCHI",
+      "needs_filtering": false,
+      "homepage": "https://compass.acm.org/",
+      "dl_conference_page": "https://dl.acm.org/conference/compass",
+      "notes": "Direct successor to ACM DEV; explicitly interdisciplinary (CS, social sciences, environment, economics) and a core venue for ICTD/COMPASS-style work. Pipeline uses DBLP proceedings pages (ACM DL blocks bots).",
+      "years": [
+        {"year": 2021, "edition": "COMPASS '21 (4th)", "proceedings_url": "https://dblp.org/db/conf/dev/compass2021.html"},
+        {"year": 2022, "edition": "COMPASS '22 (5th)", "proceedings_url": "https://dblp.org/db/conf/dev/compass2022.html"},
+        {"year": 2023, "edition": "COMPASS '23 (6th)", "proceedings_url": "https://dblp.org/db/conf/dev/compass2023.html"},
+        {"year": 2024, "edition": "COMPASS '24 (7th)", "proceedings_url": "https://dblp.org/db/conf/dev/compass2024.html"},
+        {"year": 2025, "edition": "COMPASS '25 (8th)", "proceedings_url": "https://dblp.org/db/conf/dev/index.html", "note": "resolve via DBLP index when compass2025.html appears"}
+      ]
+    },
+    {
+      "id": "acm_ictd",
+      "name": "ACM International Conference on Information and Communication Technologies and Development (ICTD)",
+      "type": "conference",
+      "sponsor": "ACM (SIGCHI-affiliated)",
+      "needs_filtering": false,
+      "homepage": "https://ictd.org/",
+      "dl_conference_page": "https://dl.acm.org/conference/ictd/",
+      "notes": "The flagship ICTD conference; not held every year (roughly biennial in recent years -- 2020, 2022, 2024). No edition in 2021, 2023, or 2025. Pipeline uses DBLP proceedings pages.",
+      "years": [
+        {"year": 2020, "edition": "ICTD 2020 (11th)", "proceedings_url": "https://dblp.org/db/conf/ictd/ictd2020.html", "note": "just outside the 5-year window but included for continuity"},
+        {"year": 2022, "edition": "ICTD 2022 (12th)", "proceedings_url": "https://dblp.org/db/conf/ictd/ictd2022.html"},
+        {"year": 2024, "edition": "ICTD 2024 (13th)", "proceedings_url": "https://dblp.org/db/conf/ictd/ictd2024.html"}
+      ]
+    },
+    {
+      "id": "acm_jcss",
+      "name": "ACM Journal on Computing and Sustainable Societies (JCSS)",
+      "type": "journal",
+      "sponsor": "ACM",
+      "needs_filtering": false,
+      "homepage": "https://dl.acm.org/journal/acmjcss",
+      "issn": "2834-5533",
+      "notes": "New quarterly journal launched November 2023 as the journal counterpart to COMPASS/ICTD; editor Lakshminarayanan Subramanian (NYU). Pipeline uses DBLP journal volume pages.",
+      "years": [
+        {"year": 2023, "volume": 1, "toc_url": "https://dblp.org/db/journals/acmjcss/acmjcss1.html"},
+        {"year": 2024, "volume": 2, "toc_url": "https://dblp.org/db/journals/acmjcss/acmjcss2.html"},
+        {"year": 2025, "volume": 3, "toc_url": "https://dblp.org/db/journals/acmjcss/acmjcss3.html"}
+      ]
+    },
+    {
+      "id": "aaai_aisi",
+      "name": "AAAI Special Track on AI for Social Impact (AISI)",
+      "type": "conference_track",
+      "sponsor": "AAAI",
+      "needs_filtering": false,
+      "homepage": "https://aaai.org/conference/aaai/",
+      "notes": "Distinct review rubric from the AAAI main track, emphasizing fit between technique and a socially important problem rather than pure technical novelty. Pipeline scrapes the AISI section from the linked OJS issue pages.",
+      "years": [
+        {"year": 2022, "edition": "AAAI-22", "issue_note": "AISI combined into 'IAAI-22, EAAI-22, AAAI-22 Special Programs and Special Track' issue", "issue_url": "https://aaai.org/proceeding/11-iaai-22-eaai-22-aaai-22-special-programs-student-papers-demonstrations/"},
+        {"year": 2023, "edition": "AAAI-23", "issue_note": "AISI combined into 'AAAI-23 Special Tracks' issue (with Safe/Robust AI track)", "issue_url": "https://ojs.aaai.org/index.php/AAAI/issue/view/559"},
+        {"year": 2024, "edition": "AAAI-24", "issue_note": "Vol 38 No. 20: AAAI-24 Special Track AI for Social Impact, Senior Member Presentations, New Faculty Highlights, Journal Track", "issue_url": "https://ojs.aaai.org/index.php/AAAI/issue/view/595"},
+        {"year": 2025, "edition": "AAAI-25", "issue_note": "Vol 39 No. 27: AAAI-25 Special Track on AI for Social Impact, Senior Member Presentations, New Faculty Highlights, Journal Track", "issue_url": "https://ojs.aaai.org/index.php/AAAI/issue/view/650"},
+        {"year": 2026, "edition": "AAAI-26", "issue_note": "Vol 40 No. 45-46: AAAI-26 Special Track AI for Social Impact I and II", "issue_url": "https://ojs.aaai.org/index.php/AAAI/issue/view/727", "note": "just outside strict 5-year window but included since it is the newest edition"}
+      ],
+      "browse_by_year_alt": "https://papers.cool/venue/AAAI.{year}?group=Special+Track+on+AI+for+Social+Impact (unofficial aggregator, filterable by year 2021-2026)"
+    },
+    {
+      "id": "kdd",
+      "name": "ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD)",
+      "type": "conference",
+      "sponsor": "ACM SIGKDD",
+      "needs_filtering": true,
+      "homepage": "https://kdd.org/",
+      "dl_conference_page": "https://dl.acm.org/conference/kdd/proceedings",
+      "notes": "KDD does not currently have a separate ACM DL proceedings track specifically titled 'Social Impact' -- social-impact-themed work is published within the main Research/Applied Data Science (ADS) track proceedings. Pipeline uses DBLP proceedings pages; keyword/topic filtering still needed.",
+      "related_workshop": {
+        "name": "KDD Workshop on Data Science for Social Good (DSSG)",
+        "homepage": "https://kdd-dssg.github.io/"
+      },
+      "historic_call_reference": "https://www.kdd.org/kdd2019/Calls/view/social-impact-call-for-papers",
+      "years": [
+        {"year": 2021, "edition": "KDD '21 (27th)", "proceedings_url": "https://dblp.org/db/conf/kdd/kdd2021.html"},
+        {"year": 2022, "edition": "KDD '22 (28th)", "proceedings_url": "https://dblp.org/db/conf/kdd/kdd2022.html"},
+        {"year": 2023, "edition": "KDD '23 (29th)", "proceedings_url": "https://dblp.org/db/conf/kdd/kdd2023.html"},
+        {"year": 2024, "edition": "KDD '24 (30th)", "proceedings_url": "https://dblp.org/db/conf/kdd/kdd2024.html"},
+        {"year": 2025, "edition": "KDD '25 (31st), V.1 and V.2", "proceedings_url": "https://dblp.org/db/conf/kdd/index.html", "note": "multi-volume year; resolved from DBLP index"}
+      ]
+    },
+    {
+      "id": "facct",
+      "name": "ACM Conference on Fairness, Accountability, and Transparency (FAccT)",
+      "type": "conference",
+      "sponsor": "ACM",
+      "needs_filtering": false,
+      "homepage": "https://facctconference.org/",
+      "dl_conference_page": "https://dl.acm.org/conference/facct/proceedings",
+      "notes": "Formerly FAT*; core venue for algorithmic fairness, accountability, sociotechnical audit work. Pipeline uses DBLP proceedings pages.",
+      "years": [
+        {"year": 2021, "edition": "FAccT '21", "proceedings_url": "https://dblp.org/db/conf/fat/facct2021.html"},
+        {"year": 2022, "edition": "FAccT '22", "proceedings_url": "https://dblp.org/db/conf/fat/facct2022.html"},
+        {"year": 2023, "edition": "FAccT '23", "proceedings_url": "https://dblp.org/db/conf/fat/facct2023.html"},
+        {"year": 2024, "edition": "FAccT '24", "proceedings_url": "https://dblp.org/db/conf/fat/facct2024.html"},
+        {"year": 2025, "edition": "FAccT '25", "proceedings_url": "https://dblp.org/db/conf/fat/facct2025.html"}
+      ]
+    },
+    {
+      "id": "climate_change_ai",
+      "name": "Climate Change AI (CCAI) Workshop Papers",
+      "type": "paper_aggregator",
+      "sponsor": "Climate Change AI (non-profit; workshop papers hosted alongside ICML/NeurIPS/ICLR/AAAI)",
+      "needs_filtering": true,
+      "homepage": "https://www.climatechange.ai/papers",
+      "papers_url": "https://www.climatechange.ai/papers",
+      "notes": "Aggregates accepted papers from CCAI's 'Tackling Climate Change with Machine Learning' workshops. Filterable by venue and by subject area on the single page; no separate per-year URLs.",
+      "venues_covered_last_5_years": ["ICML 2021", "NeurIPS 2021", "AAAI FSS 2022", "NeurIPS 2022", "ICLR 2023", "NeurIPS 2023", "ICLR 2024", "NeurIPS 2024", "ICLR 2025", "NeurIPS 2025"]
+    },
+    {
+      "id": "aies",
+      "name": "AAAI/ACM Conference on AI, Ethics, and Society (AIES)",
+      "type": "conference",
+      "sponsor": "AAAI and ACM (jointly)",
+      "needs_filtering": false,
+      "homepage": "https://ojs.aaai.org/index.php/AIES/issue/archive",
+      "why_relevant": "Directly relevant to socio-technical dynamics / algorithmic harms topic; overlaps heavily with FAccT authorship community but AAAI/ACM co-sponsored.",
+      "notes": "Pipeline uses AAAI OJS issue pages. 2025 spans three parts; 2021-2023 issue URLs not yet in venue_configs.",
+      "years_archive_url": "https://ojs.aaai.org/index.php/AIES/issue/archive",
+      "years": [
+        {"year": 2024, "edition": "AIES '24", "issue_url": "https://ojs.aaai.org/index.php/AIES/issue/view/609"},
+        {"year": 2025, "edition": "AIES '25 (3 parts)", "part1_url": "https://ojs.aaai.org/index.php/AIES/issue/view/677", "part2_url": "https://ojs.aaai.org/index.php/AIES/issue/view/678", "part3_url": "https://ojs.aaai.org/index.php/AIES/issue/view/679"}
+      ],
+      "years_not_yet_configured": [2021, 2022, 2023]
+    },
+    {
+      "id": "ifip_ict4d",
+      "name": "IFIP WG 9.4 International Conference on the Implications of Information and Digital Technologies for Development (ICT4D)",
+      "type": "conference",
+      "sponsor": "International Federation for Information Processing (IFIP), Working Group 9.4",
+      "needs_filtering": false,
+      "homepage": "https://ifip94.wordpress.com/",
+      "publisher": "Springer, IFIP Advances in Information and Communication Technology (IFIP AICT) series",
+      "why_relevant": "The longest-running dedicated ICT4D conference series (running since 1989); explicitly focused on social implications of ICT in developing regions.",
+      "years": [
+        {"year": 2020, "location": "Manchester, UK", "toc_url": "https://link.springer.com/book/10.1007/978-3-030-65828-1#toc"},
+        {"year": 2022, "location": "Lima, Peru", "toc_url": "https://link.springer.com/book/10.1007/978-3-031-19429-0#toc"},
+        {"year": 2024, "location": "Cape Town, South Africa", "edition": "18th", "part1_url": "https://link.springer.com/book/10.1007/978-3-031-66982-8#toc", "part2_url": "https://link.springer.com/book/10.1007/978-3-031-66986-6#toc"},
+        {"year": 2026, "location": "Kathmandu, Nepal", "edition": "19th", "note": "upcoming; not yet published"}
+      ]
+    },
+    {
+      "id": "itid_journal",
+      "name": "Information Technologies & International Development (ITID)",
+      "type": "journal",
+      "needs_filtering": false,
+      "publisher": "USC Annenberg School (open access)",
+      "homepage": "https://itidjournal.org/",
+      "why_relevant": "Long-running (since 2003), open-access, closely tied to the ACM ICTD research community; frequently cross-published/cited alongside ICTD conference papers.",
+      "notes": "Pipeline uses legacy OJS 2 issue pages (table TOC). More recent issues still need lookup if wanted.",
+      "years_archive_url": "https://itidjournal.org/index.php/itid/issue/archive",
+      "years": [
+        {"year": 2017, "issue_url": "https://itidjournal.org/index.php/itid/issue/view/87.html"},
+        {"year": 2018, "issue_url": "https://itidjournal.org/index.php/itid/issue/view/88.html"},
+        {"year": 2019, "issue_url": "https://itidjournal.org/index.php/itid/issue/view/89.html"},
+        {"year": 2020, "issue_url": "https://itidjournal.org/index.php/itid/issue/view/90.html"}
+      ]
+    },
+    {
+      "id": "development_engineering",
+      "name": "Development Engineering: The Journal of Engineering in Economic Development",
+      "publisher": "Elsevier (UC Berkeley-founded)",
+      "type": "journal",
+      "needs_filtering": false,
+      "homepage": "https://www.journals.elsevier.com/development-engineering",
+      "why_relevant": "Founded by UC Berkeley (CEGA) specifically to bridge engineering and development economics; open access; strong editorial board.",
+      "status": "DISCONTINUED as of 2023 -- no new issues, but the 2015-2023 archive remains on ScienceDirect and is worth mining for problem_discovery / cs_fundamentals / impact_evaluation readings.",
+      "archive_url": "https://www.sciencedirect.com/journal/development-engineering/issues",
+      "notes": "Pipeline uses ScienceDirect volume supplement URLs; OpenAlex fallback when ScienceDirect blocks bots.",
+      "years": [
+        {"year": 2020, "volume": 5, "toc_url": "https://www.sciencedirect.com/journal/development-engineering/vol/5/suppl/C"},
+        {"year": 2021, "volume": 6, "toc_url": "https://www.sciencedirect.com/journal/development-engineering/vol/6/suppl/C"},
+        {"year": 2022, "volume": 7, "toc_url": "https://www.sciencedirect.com/journal/development-engineering/vol/7/suppl/C"},
+        {"year": 2023, "volume": 8, "toc_url": "https://www.sciencedirect.com/journal/development-engineering/vol/8/suppl/C"}
+      ]
+    },
+    {
+      "id": "ieee_ghtc",
+      "name": "IEEE Global Humanitarian Technology Conference (GHTC)",
+      "type": "conference",
+      "sponsor": "IEEE",
+      "needs_filtering": false,
+      "homepage": "https://ghtc.ieee.org/",
+      "why_relevant": "IEEE-sponsored, genuinely international (rotates across US/global sites), focused on humanitarian and development-relevant engineering -- meets the 'IEEE + international' credibility bar.",
+      "notes": "Pipeline uses DBLP proceedings pages (IEEE Xplore is JS-rendered).",
+      "all_proceedings_url": "https://ieeexplore.ieee.org/xpl/conhome/1800598/all-proceedings",
+      "years": [
+        {"year": 2021, "edition": "GHTC 2021", "proceedings_url": "https://dblp.org/db/conf/ghtc/ghtc2021.html"},
+        {"year": 2022, "edition": "GHTC 2022", "proceedings_url": "https://dblp.org/db/conf/ghtc/ghtc2022.html"},
+        {"year": 2023, "edition": "GHTC 2023", "proceedings_url": "https://dblp.org/db/conf/ghtc/ghtc2023.html"},
+        {"year": 2024, "edition": "GHTC 2024", "proceedings_url": "https://dblp.org/db/conf/ghtc/ghtc2024.html"}
+      ]
+    },
+    {
+      "id": "chi",
+      "name": "ACM CHI Conference on Human Factors in Computing Systems",
+      "type": "conference",
+      "sponsor": "ACM SIGCHI",
+      "needs_filtering": true,
+      "homepage": "https://dl.acm.org/conference/chi/proceedings",
+      "why_relevant": "Not a dedicated ICTD venue, but CHI publishes a substantial and growing volume of HCI4D / Global South work each year. Pipeline uses DBLP CHI index (resolves chiYYYY.html / chiYYYYa.html per year).",
+      "years": [
+        {"year": 2021, "edition": "CHI '21", "proceedings_url": "https://dblp.org/db/conf/chi/index.html"},
+        {"year": 2022, "edition": "CHI '22", "proceedings_url": "https://dblp.org/db/conf/chi/index.html"},
+        {"year": 2023, "edition": "CHI '23", "proceedings_url": "https://dblp.org/db/conf/chi/index.html"},
+        {"year": 2024, "edition": "CHI '24", "proceedings_url": "https://dblp.org/db/conf/chi/index.html"},
+        {"year": 2025, "edition": "CHI '25", "proceedings_url": "https://dblp.org/db/conf/chi/index.html"}
+      ]
+    },
+    {
+      "id": "cscw",
+      "name": "ACM Conference on Computer-Supported Cooperative Work and Social Computing (CSCW)",
+      "type": "conference",
+      "sponsor": "ACM SIGCHI",
+      "needs_filtering": true,
+      "homepage": "https://dl.acm.org/journal/pacmhci",
+      "why_relevant": "Published as part of PACM HCI (two issues/year, tagged CSCW1 and CSCW2); has a recurring Global South / ICTD-adjacent subset but is not dedicated to development. Pipeline uses DBLP PACM HCI volume pages with section filters.",
+      "years": [
+        {"year": 2021, "volume": 5, "toc_cscw1_url": "https://dblp.org/db/journals/pacmhci/pacmhci5.html", "toc_cscw2_url": "https://dblp.org/db/journals/pacmhci/pacmhci5.html", "section_cscw1": "CSCW1", "section_cscw2": "CSCW2"},
+        {"year": 2022, "volume": 6, "toc_cscw1_url": "https://dblp.org/db/journals/pacmhci/pacmhci6.html", "toc_cscw2_url": "https://dblp.org/db/journals/pacmhci/pacmhci6.html", "section_cscw1": "CSCW1", "section_cscw2": "CSCW2"},
+        {"year": 2023, "volume": 7, "toc_cscw1_url": "https://dblp.org/db/journals/pacmhci/pacmhci7.html", "toc_cscw2_url": "https://dblp.org/db/journals/pacmhci/pacmhci7.html", "section_cscw1": "CSCW1", "section_cscw2": "CSCW2"},
+        {"year": 2024, "volume": 8, "toc_cscw1_url": "https://dblp.org/db/journals/pacmhci/pacmhci8.html", "toc_cscw2_url": "https://dblp.org/db/journals/pacmhci/pacmhci8.html", "section_cscw1": "CSCW1", "section_cscw2": "CSCW2"},
+        {"year": 2025, "volume": 9, "toc_cscw1_url": "https://dblp.org/db/journals/pacmhci/pacmhci9.html", "toc_cscw2_url": "https://dblp.org/db/journals/pacmhci/pacmhci9.html", "section_cscw1": "Number 2, 2025", "section_cscw2": "Number 7, 2025"}
+      ]
+    },
+    {
+      "id": "ijcai_ai_social_good",
+      "name": "IJCAI Multi-Year Special Track on AI and Social Good",
+      "type": "conference_track",
+      "sponsor": "IJCAI (International Joint Conferences on Artificial Intelligence Organization)",
+      "needs_filtering": false,
+      "homepage": "https://2025.ijcai.org/track-description-ai-and-social-good/",
+      "notes": "Distinct review rubric emphasizing UN SDG relevance and civil-society collaboration. 2022 pipeline uses DBLP 'AI for Good' section; 2023-2024 use accepted-papers listing pages.",
+      "years": [
+        {"year": 2022, "edition": "IJCAI-ECAI 2022 (Vienna)", "track_name": "AI for Good", "proceedings_url": "https://dblp.org/db/conf/ijcai/ijcai2022.html", "section_heading": "AI for Good", "accepted_papers_url": "https://ijcai-22.org/special-track-on-ai-for-good-accepted-papers/"},
+        {"year": 2023, "edition": "IJCAI 2023 (Macao)", "track_name": "AI for Good", "accepted_papers_url": "https://ijcai-23.org/special-track-on-ai-for-good/index.html"},
+        {"year": 2024, "edition": "IJCAI 2024 (Jeju)", "track_name": "AI for Social Good", "accepted_papers_url": "https://ijcai24.org/ai-for-social-good-special-track-accepted-papers/index.html"},
+        {"year": 2025, "edition": "IJCAI 2025 (Montreal / Guangzhou satellite)", "track_name": "AI and Social Good", "accepted_papers_url": "https://2025.ijcai.org/special-track-on-ai-and-social-good-papers/", "guangzhou_satellite_url": "https://2025.ijcai.org/guangzhou-special-track-on-ai-and-social-good-papers/"}
+      ]
+    }
+  ],
+
+  "venues_considered_and_not_yet_researched": [
+    {
+      "name": "NeurIPS Datasets & Benchmarks track / general NeurIPS social-impact papers outside Climate Change AI workshop",
+      "reason": "Very high volume, general ML venue -- only the Climate Change AI workshop subset was scoped in this pass; a full NeurIPS sweep was judged too broad for this iteration."
+    }
+  ]
+}

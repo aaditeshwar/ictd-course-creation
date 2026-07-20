@@ -1,0 +1,242 @@
+[
+  {
+    "id": null,
+    "title": "Beyond Digital Financial Services: Exploring Mobile Money Agents in Tanzania as General ICT Intermediaries",
+    "authors": "Ananditha Raghunath, Innocent Ndubuisi-Obi, Hosea Mpogole, Richard Anderson",
+    "year": 2024,
+    "venue": "jcss_2024",
+    "areas": [
+      "livelihood"
+    ],
+    "topics": [
+      "operations_scale"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "jcss_2024_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context (Tanzania) and explores the role of ICT intermediaries in expanding digital financial services and other ICTs to rural areas, fitting the criteria for the 'operations_scale' topic.",
+    "link": "https://doi.org/10.1145/3616386",
+    "abstract": "Tanzanian mobile money and telecom agents (called wakala(s) in Swahili) have played a crucial role in expanding digital financial services (DFS) to rural areas. However, wakalas are losing their ability to financially sustain themselves providing intermediation services that their communities require. This work explores the potential for the wakala network to extend intermediation services to emerging information and communication technologies (ICTs) beyond the scope of commercial DFS by uncovering the social and institutional factors that currently shape wakala practices. First, we investigate how two different models of intermediation from information and communication technologies for development literature can inform broader strategies for intermediation through human infrastructures. We then complement this analysis with an on-the-ground quantitative survey and focus groups with community members and wakalas in Kagera, Tanzania. Our focus groups reveal that community members face challenges with new ICTs that require sustained intermediation and that wakalas encounter mounting financial instability and are thus receptive to intermediating for other ICTs. Finally, we present three factors that influence the broadening of the wakalas\u2019 role of general ICT intermediaries: (1) aligning incentives and addressing the limits of pro bono actions, (2) providing appropriate training and a suitable support infrastructure, and (3) fostering trust-building and reciprocity.",
+    "_matched_keywords": [
+      "mobile money",
+      "intermediaries"
+    ]
+  },
+  {
+    "id": null,
+    "title": "On the Frontline During the COVID-19 Pandemic: Gender Inequality and Experiences of Healthcare Workers in Pakistan",
+    "authors": "Rukhshan Haroon, Ayesha Naeem, Priya Fatima Sajjad, Zartash Afzal Uzmi",
+    "year": 2024,
+    "venue": "jcss_2024",
+    "areas": [
+      "health"
+    ],
+    "topics": [
+      "gender",
+      "problem_discovery",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "gender"
+    ],
+    "area_agnostic": false,
+    "source_course": "jcss_2024_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context (Pakistan) and addresses gender inequality in healthcare, which is a critical issue in low-income settings.",
+    "link": "https://doi.org/10.1145/3616862",
+    "abstract": "This mixed methods study investigates the experiences of healthcare workers (HCWs) along gender lines during the COVID-19 pandemic in Lahore, the second most populous city in Pakistan. In-person semi-structured interviews (n = 62) and researcher-administered surveys (n = 631) were conducted with doctors and nurses in five private and public hospitals. The findings reveal that male and female HCWs shared experiences related to increased working hours, psychological burdens, and adverse financial impacts. However, female HCWs struggled more than male HCWs, as their responsibilities at home and in the workplace increased. Additionally, more female HCWs than their male peers reported experiencing occupational stress due to transportation issues, working during pregnancy, and discriminatory attitudes of the patients toward them. Building on the results from our study, we propose several technological and policy initiatives that can be adopted by governments and organizations, especially in countries like Pakistan, where women account for most of the healthcare workforce but continue to bear a heavier burden when balancing work and family.",
+    "_matched_keywords": [
+      "inequality"
+    ]
+  },
+  {
+    "id": null,
+    "title": "A Characterization of Land-use Changes in the Proximity of Mining Sites in India",
+    "authors": "Shivani A. Mehta, Ashish, Mayur Solanki, Aaditeshwar Seth",
+    "year": 2024,
+    "venue": "jcss_2024",
+    "areas": [
+      "water_security",
+      "forests_restoration"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "sociotechnical_dynamics"
+    ],
+    "cross_cutting_axes": [
+      "climate_change",
+      "gender",
+      "caste",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "jcss_2024_venue_search",
+    "notes": "The paper engages with a developing-regions context in India, focusing on the socio-ecological impacts of mining.",
+    "link": "https://doi.org/10.1145/3624774",
+    "abstract": "For a growing economy like India, most of its energy resources are obtained through extractive processes such as mining of coal and other minerals. Mining can however have many negative social and ecological impacts if it is not well regulated. Illegal mining or inadequate reclamation of abandoned mines can amplify these impacts, emphasizing the need to develop methods that can monitor changes in the land-use patterns in and around mining sites. We develop a method using machine learning on freely available satellite data to monitor the extent of mines, and augment it with outputs from land use and land cover classification, deforestation detection, and PM2.5 particulate matter estimation from remote sensing data to track land-use and ecological changes taking place in the proximity of mining sites. We provide evaluation results of our mining delineation classifier, a feasibility check of this suite of tools to monitor mining areas over a period of four years, and a temporal characterization study over 628 mines in India that were granted a clearance for operations during the period 2006 to 2012. We further use this suite of monitoring tools to compare socio-economic development and health indicators across mining and non-mining areas, across various states in India, to study whether extractive processes of mining benefit the immediate population in their neighbourhood.",
+    "_matched_keywords": [
+      "deforestation detection",
+      "remote sensing"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Analyzing the Energy Usage of a Community and the Benefits of Energy Storage",
+    "authors": "John Wamburu, Stephen Lee, Srinivasan Iyengar, David Irwin, Prashant J. Shenoy",
+    "year": 2024,
+    "venue": "jcss_2024",
+    "areas": [
+      "infrastructure"
+    ],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [],
+    "area_agnostic": false,
+    "source_course": "jcss_2024_venue_search",
+    "notes": "The paper applies strong computer science methods to analyze energy usage and storage, which can be adapted to developing regions for sustainable development (cs_fundamentals topic rule).",
+    "link": "https://doi.org/10.1145/3637209",
+    "abstract": "Understanding the energy usage of a community is crucial for policymaking, energy planning, and achieving sustainable development. The advent of the smart grid has made it feasible to gather fine-grain energy usage data at large-scales, providing us with new opportunities to understand demand patterns at different spatial and temporal scales. In this paper, we conduct a large-scale empirical study of energy usage of 14,849 residential and commercial energy consumers from a small city in the United States. We conduct a wide ranging analysis of energy usage at multiple granularities\u2014citywide, transformer-level, and individual home levels. In doing so, we demonstrate how city-wide smart meter datasets can answer a variety of questions on energy consumption, such as the impact of weather on energy usage. For example, we show that extreme weather events significantly increase energy usage, e.g., by 36% and 11.5% on hot summer and cold winter days, respectively. As another example, we show 19.2% of transformers in the grid get overloaded during peak load periods. Finally, we evaluate the impact of incorporating varying amounts of energy storage within the distribution grid and the impact such deployments will have on the peak demand patterns seen by the grid as well as the ability to reduce overloads seen by distribution transformers during peak periods.",
+    "_matched_keywords": [
+      "extreme weather"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Roles of Technology for Risk Communication and Community Engagement in Bangladesh during COVID-19 Pandemic",
+    "authors": "Anik Sinha, Nova Ahmed, Md. Sabbir Ahmed, Ifti Azad Abeer, Rahat Jahangir Rony, Anik Saha, Syeda Shabnam Khan, Shajnush Amir, Shabana Khan",
+    "year": 2024,
+    "venue": "jcss_2024",
+    "areas": [
+      "health"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "ethnographic_design",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "jcss_2024_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context (Bangladesh) and addresses community engagement and technology use during the pandemic, fitting the criteria for the 'cs_fundamentals' topic.",
+    "link": "https://doi.org/10.1145/3648433",
+    "abstract": "The COVID-19 pandemic required clear communication of risk and community engagement. A gap is noted in scholarly studies portraying strong community engagement for risk handling, particularly in resource-constrained regions in the HCI community. This study covers community engagement and its use of technology during COVID-19 through a qualitative study of Bangladesh. The study looks at marginalized communities who have struggled through the pandemic yet handled the difficult time through their effective problem solving, working together as a community when there was not enough support from authorities. It is a qualitative study during the pandemic consisting of nine communities, including 58 participants (N = 58, Female = 33, Male = 23, Transgender = 2) across four divisions of Bangladesh covering urban, semi-urban, and rural regions. The study uncovers the challenges and close community structures. It also shows the enhanced and increased positive role of technology during the pandemic while also pointing out that a few communities were digitally disconnected and could benefit from digital connectivity in the future through increased awareness and support.",
+    "_matched_keywords": [
+      "marginalized communities",
+      "marginalized communities"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Mapping Opium Poppy Cultivation: Socioeconomic Insights from Satellite Imagery",
+    "authors": "Arogya Koirala, Suraj R. Nair, Xiao Hui Tai",
+    "year": 2024,
+    "venue": "jcss_2024",
+    "areas": [
+      "agriculture"
+    ],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [
+      "climate_change",
+      "gender",
+      "caste",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "jcss_2024_venue_search",
+    "notes": "The paper applies a general-purpose methodology that could be adapted to a developing-regions context, focusing on the use of satellite imagery for socioeconomic insights, which aligns with the 'cs_fundamentals' topic rule.",
+    "link": "https://doi.org/10.1145/3648435",
+    "abstract": "Over 30 million people globally consume illicit opiates. In recent decades, Afghanistan has accounted for 70\u201390% of the world\u2019s illicit supply of opium. This production provides livelihoods to millions of Afghans, while also funneling hundreds of millions of dollars to insurgent groups every year, exacerbating corruption and insecurity, and impeding development. Remote sensing and field surveys are currently used in official estimates of total poppy cultivation area. These aggregate estimates are not suited to study the local socioeconomic conditions surrounding cultivation. Few avenues exist to generate comprehensive, fine-grained data under poor security conditions, without the use of costly surveys or data collection efforts. Here, we develop and test a new unsupervised approach to mapping cultivation using only freely available satellite imagery. For districts accounting for over 90% of total cultivation, our aggregate estimates track official statistics closely (correlation coefficient of 0.76 to 0.81). We combine these predictions with other grid-level data sources, finding that areas with poppy cultivation have poorer outcomes such as infant mortality and education, compared to areas with exclusively other agriculture. Surprisingly, poppy-growing areas have better healthcare accessibility. We discuss these findings, the limitations of mapping opium poppy cultivation, and associated ethical concerns.",
+    "_matched_keywords": [
+      "corruption",
+      "remote sensing",
+      "satellite imagery"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Connecting in Crisis: Investigating Equitable Community Internet Access in the US During the COVID-19 Pandemic",
+    "authors": "Nora McDonald, Lydia Stamato, Foad Hamidi",
+    "year": 2024,
+    "venue": "jcss_2024",
+    "areas": [
+      "infrastructure"
+    ],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "jcss_2024_venue_search",
+    "notes": "The paper engages with the topic 'cs_fundamentals' by applying computer science methods to understand and improve internet access in a low-income context, which can be adapted to a developing-regions context.",
+    "link": "https://doi.org/10.1145/3677326",
+    "abstract": "Although internet access and affordability are increasingly at the center of policy decisions around issues of the \u201cdigital divide\u201d in the US, the complex nature of usage as it relates to structural inequality is not well-understood. We partnered with Project Waves, a community internet provider, to set up connectivity across the urban landscape of a city in the Eastern United States to study factors that impact the rollout of affordable broadband internet connectivity to low-income communities during the COVID-19 pandemic. The organization endeavored to meet structural challenges, provide community support for adoption, and stave off attendant privacy concerns. We present three dimensions of equitable use prioritized by the community internet provider: safety from COVID-19 through social distancing enabled by remote access, trusted connectivity, and private internet access. We use employee interviews and a phone survey of internet recipients to investigate how the provider prioritized these dimensions and who uses their service.",
+    "_matched_keywords": [
+      "digital divide",
+      "inequality"
+    ]
+  },
+  {
+    "id": null,
+    "title": "\"The Devil You Know\": Barriers and Opportunities for Co-Designing Microclimate Sensors, A Case Study of Manoomi",
+    "authors": "Eric Greenlee, Blaine Rothrock, Hyeonwook Kim, Ellen Zegura, Josiah D. Hester",
+    "year": 2024,
+    "venue": "jcss_2024",
+    "areas": [
+      "water_security",
+      "forests_restoration"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "ethnographic_design",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "climate_change"
+    ],
+    "area_agnostic": false,
+    "source_course": "jcss_2024_venue_search",
+    "notes": "The paper engages with the development of environmental sensing technology, which can be adapted to a developing-regions context for environmental monitoring and management.",
+    "link": "https://doi.org/10.1145/3685695",
+    "abstract": "Current environmental challenges have profound local consequences and often benefit from the collection of fine-grained microclimate data. Advances in wireless sensor networks and the Internet of Things have led to technologies nominally suited to support remote sensing; however, in practice long-running deployments of in-field environmental sensors are rare. Field conditions are often remote and culturally sensitive, with limited power, Internet, transportation, and human infrastructure; advances in device technology alone will not suffice. We ask how communities, Internet of Things researchers, government, and other interested parties can work together to co-design useful, low burden, sustainability-focused infrastructure. Toward this end, we conducted 11 semi-structured interviews with 13 experts who use or rely on environmental sensing technology. To complement our interview data, we engaged in three months of participant observation while immersed in organizations specifically working toward manoomin (wild rice) conservation. We make two primary contributions. First, we confirm and enrich a five-stage model, the microclimate sensor lifecycle, focusing on desired features and persistent challenges. Second, we outline a space for co-design of microclimate sensors with emphasis on the cost of experience, the generally unaddressed issue of technical usability in the messy field, and the opportunity for community engagement to improve technical design and outcomes. Furthermore, we discuss future design opportunities, recommendations, and challenges in the microclimate sensor design, deployment, and sustainability space.",
+    "_matched_keywords": [
+      "remote sensing",
+      "co-design"
+    ]
+  },
+  {
+    "id": null,
+    "title": "\"News has Various Shades\": Quantifying and Analyzing Media Bias at Aspect-level Granularity",
+    "authors": "Alapan Kuila, Somnath Jena, Sudeshna Sarkar, Partha Pratim Chakrabarti",
+    "year": 2024,
+    "venue": "jcss_2024",
+    "areas": [
+      "media_information"
+    ],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "caste",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "jcss_2024_venue_search",
+    "notes": "The paper substantively engages with the media ecosystem in India, applying a novel methodology to analyze media bias at aspect-level granularity.",
+    "link": "https://doi.org/10.1145/3698797",
+    "abstract": "This research presents a novel approach to dissecting media narratives, with a specific focus on aspect-level granularity and variance in addressing multifaceted news topics. Unlike previous studies, which often concentrate solely on ideological or political biases, our methodology delves deeper, exploring how diverse media outlets navigate the complexities of various news aspects. Through a detailed case study on Indian government policies, we uncover distinctive biases and variations in reporting between Indian and international media. Crucially, our methodology leverages Natural Language Inference (NLI) to identify news aspects and ascertain aspect-level sentiment from news text, enabling scalable and precise quantification of bias across diverse media narratives. Our findings illuminate the multifaceted layers of media coverage, revealing nuanced stances on different aspects of the same topic and the dynamic nature of biases over time. Importantly, our comprehensive framework quantifies media bias through data-driven quantitative evaluation, capturing both selection bias based on news aspect coverage and statement bias based on sentiment polarity. It is relevant to note that in our context, bias is not inherently favorable or unfavorable but rather serves as a quantitative metric to measure divergence in news presentation from the overall average. Thus, our contributions not only enhance understanding of media bias but also introduce a methodology distinguished for its comprehensive and scalable approach to analyzing media narratives, with substantial implications for future research and discussions in this domain.",
+    "_matched_keywords": [
+      "media bias"
+    ]
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "domain_name": "Satellite Imagery Analysis for Environmental and Socio-economic Monitoring",
+    "reading_ids": [
+      "jcss_2025_quantifying_greenspace_with_satellite_images_in"
+    ],
+    "background_concepts": [
+      {
+        "concept": "Vegetation indices (e.g., NDVI) for quantifying greenspace",
+        "why_needed": "The greenspace-quantification paper relies on spectral vegetation indices to distinguish and measure green cover from satellite imagery, but treats the underlying spectral reflectance and index math (NIR vs. red bands) as assumed knowledge rather than explaining it.",
+        "suggested_resources": [
+          {
+            "title": "NDVI FAQs: Frequently Asked Questions About The Index (EOS)",
+            "url": "https://eos.com/blog/ndvi-faq-all-you-need-to-know-about-ndvi/",
+            "type": "primer"
+          },
+          {
+            "title": "Vegetation indices and their interpretation: NDVI, GNDVI, MSAVI2, NDRE, and NDWI (Auravant)",
+            "url": "https://www.auravant.com/en/articles/precision-agriculture/vegetation-indices-and-their-interpretation-ndvi-gndvi-msavi2-ndre-and-ndwi/",
+            "type": "primer"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "domain_name": "Satellite Land Cover and Water Body Segmentation",
+    "reading_ids": [
+      "aseth_publications_beyond_flat_classifiers_practical_methodologies_for"
+    ],
+    "background_concepts": [
+      {
+        "concept": "Land use / land cover (LULC) classification from multispectral imagery",
+        "why_needed": "The 'Beyond Flat Classifiers' reading builds regionally accurate LULC classifiers and assumes familiarity with the basic supervised-classification workflow (spectral signatures, training samples, class taxonomies) without teaching what LULC classification is or how it works.",
+        "suggested_resources": [
+          {
+            "title": "ARSET - Land Cover Classification with Satellite Imagery (NASA Applied Sciences)",
+            "url": "http://appliedsciences.nasa.gov/join-mission/training/english/arset-land-cover-classification-satellite-imagery",
+            "type": "course_module"
+          },
+          {
+            "title": "Step-by-Step: Land Cover Change Detection through Supervised Classification (UN-SPIDER)",
+            "url": "https://www.un-spider.org/advisory-support/recommended-practices/recommended-practice-land-cover-change/step-by-step",
+            "type": "agency_guide"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "domain_name": "Computational Hydrology and Terrain Analysis Tooling",
+    "reading_ids": [
+      "aseth_publications_gpu_accelerated_hydrology_algorithms_for_on"
+    ],
+    "background_concepts": [
+      {
+        "concept": "Flow accumulation, flow direction (D8), and watershed delineation from DEMs",
+        "why_needed": "The GPU-accelerated hydrology paper accelerates flow accumulation, drainage-line, and watershed algorithms but assumes the reader already understands the D8 flow-routing model, DEM conditioning (sink filling), and how contributing area is computed.",
+        "suggested_resources": [
+          {
+            "title": "Hydrologic Analyses - Watershed Delineation (Utah State University Geospatial tutorials)",
+            "url": "https://www.usu.edu/geospatial/tutorials/advanced/hydrologic-analyses",
+            "type": "course_module"
+          },
+          {
+            "title": "Mastering Flow Accumulation in GIS",
+            "url": "https://www.numberanalytics.com/blog/mastering-flow-accumulation-in-gis",
+            "type": "primer"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "domain_name": "Satellite-Derived Socio-Economic & Vulnerability Mapping",
+    "reading_ids": [
+      "aseth_publications_temporal_prediction_of_socio_economic_indicators"
+    ],
+    "background_concepts": [
+      {
+        "concept": "Nighttime lights and satellite imagery as proxies for socio-economic activity",
+        "why_needed": "The temporal socio-economic prediction reading uses satellite imagery (and typically nighttime-light-style proxies) to estimate development indicators, assuming the reader knows why satellite signals correlate with wealth/economic activity and the limits of these proxies in poor areas.",
+        "suggested_resources": [
+          {
+            "title": "Applications of nighttime light data in international development research (3ie)",
+            "url": "https://www.3ieimpact.org/blogs/applications-nighttime-light-data-international-development-research",
+            "type": "primer"
+          },
+          {
+            "title": "Science: Predicting Poverty by Satellite (AAAS)",
+            "url": "https://www.aaas.org/news/science-predicting-poverty-satellite",
+            "type": "primer"
+          }
+        ]
+      }
+    ]
+  }
+]

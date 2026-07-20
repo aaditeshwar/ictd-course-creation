@@ -1,0 +1,127 @@
+[
+  {
+    "id": null,
+    "title": "Toilet alarms: A novel application of latrine sensors and machine learning for optimizing sanitation services in informal settlements",
+    "authors": "Nick Turman-Bryant, Taylor Sharpe, Corey Nagel, Lauren Stover, Evan Thomas",
+    "year": 2020,
+    "venue": "development_engineering_2020",
+    "areas": [
+      "infrastructure"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "ethnographic_design",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "development_engineering_2020_venue_search",
+    "notes": "The paper engages with a developing-regions context through its application in informal settlements, adhering to the rule that papers must substantively engage with a developing-regions context for most topics.",
+    "link": "https://doi.org/10.1016/j.deveng.2020.100052",
+    "abstract": "The cost-effectiveness and reliability of waste collection services in informal settlements can be difficult to optimize given the geospatial and temporal variability of latrine use. Daily servicing to avoid overflow events is inefficient, but dynamic scheduling of latrine servicing could reduce costs by providing just-in-time servicing for latrines. This study used cellular-connected motion sensors and machine learning to dynamically predict when daily latrine servicing could be skipped with a low risk of overflow. Sensors monitored daily latrine activity, and enumerators collected solid and liquid waste weight data. Given the complex relationship between latrine use and the need for servicing, an ensemble machine learning algorithm (Super Learner) was used to estimate waste weights and predict overflow events to facilitate dynamic scheduling. Accuracy of waste weight predictions based on sensor and historical weight data was adequate for estimating latrine fill levels (mean error of 20% and 22% for solid and liquid wastes), but there was greater accuracy in predicting overflow events (area under the receiver operating characteristic curve of 0.90). Although our simulations indicate that dynamic scheduling could substantially reduce costs for lower use latrines, we found that cost reduction was more modest for higher use latrines and that there was a significant gap between the simulated and implemented results.",
+    "_matched_keywords": [
+      "informal settlements"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Developing intermediate machines for high-land agriculture",
+    "authors": "Walter Franco, Filippo Barbera, Luigi Bartolucci, Tiziano Felizia, Federica Focanti",
+    "year": 2020,
+    "venue": "development_engineering_2020",
+    "areas": [
+      "agriculture"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "ethnographic_design"
+    ],
+    "cross_cutting_axes": [],
+    "area_agnostic": false,
+    "source_course": "development_engineering_2020_venue_search",
+    "notes": "The paper discusses appropriate technologies for small-scale farming in a mountainous region, which can be adapted to a developing-regions context in India or other low/middle-income countries.",
+    "link": "https://doi.org/10.1016/j.deveng.2020.100050",
+    "abstract": "Abstract The article analyzes the role of appropriate technologies for mechanization and innovation in small-scale farming in the mountainous and hilly areas of Italy's Piedmont region. Our approach to appropriate technologies focuses on mountain farmers whose needs have not been met by advances in agricultural mechanization, which have largely served the interests of lowland agribusiness. Mountain farmers' technological needs were determined using a specific methodology based on an in-depth analysis of the reference target and a field work using an open and inclusive process. The needs thus identified served as the starting point for designing appropriate and intermediate machines. In the conclusions, we present some general implications of appropriate technologies in terms of co-design for development.",
+    "_matched_keywords": [
+      "co-design"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Global health front-end medical device design: The use of prototypes to engage stakeholders",
+    "authors": "Marianna J. Coulentianos, Ilka Rodr\u00edguez-Calero, Shanna Daly, Kathleen H. Sienko",
+    "year": 2020,
+    "venue": "development_engineering_2020",
+    "areas": [
+      "health"
+    ],
+    "topics": [
+      "ethnographic_design"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "development_engineering_2020_venue_search",
+    "notes": "The paper engages with a developing-regions context by examining stakeholder engagement in medical device design for global health challenges, which aligns with the 'health' area and 'ethnographic_design' topic.",
+    "link": "https://doi.org/10.1016/j.deveng.2020.100055",
+    "abstract": "Availability, accessibility, affordability, and appropriateness are among several factors that significantly affect the adoption and diffusion of medical devices in low- and middle-income countries. Design processes that promote early and frequent engagement with stakeholders may increase the impact of medical devices aimed at addressing global health challenges by improving the uptake and sustained use of such devices. Prototypes are tools that can be leveraged to engage stakeholders during front-end design to define the problem, elicit requirements, and obtain feedback on early design concepts. Given the lack of literature that examines the practices for stakeholder engagement with prototypes during front-end design, this study was guided by the following research question: How do global health design practitioners approach stakeholder engagement with prototypes during front-end medical device design? Eleven design practitioners from industry were interviewed; transcripts were analyzed using thematic analysis to uncover prototyping behaviors. Transcript level counts of stakeholder groups, prototype forms, and strategies leveraged during stakeholder engagement with prototypes are reported. Based on the analysis of stakeholders, prototypes, and strategies, engagement events that reflect how the global health setting influenced decisions of stakeholder, prototype, and strategy are presented. Participants described challenges associated with: cross-cultural and remote design; the elicitation of contextual requirements; and limited access to resources. Participants devised approaches to overcome these challenges such as: engaging a wide range of stakeholders including proxy users and government stakeholders; developing long-term relationships with community partners; leveraging communication technologies; engaging stakeholders in the real use environment with physical prototypes; using prototypes to bridge the language barrier; \u2018polishing\u2019 prototypes; and inviting stakeholders to create and select prototypes. These results could impact approaches to practicing and teaching prototype usage during front-end design in a development setting.",
+    "_matched_keywords": [
+      "thematic analysis"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Data Classification for Secure Mobile Health Data Collection Systems",
+    "authors": "Marriette Katarahweire, Engineer Bainomugisha, Khalid A. Mughal",
+    "year": 2020,
+    "venue": "development_engineering_2020",
+    "areas": [
+      "health"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "development_engineering_2020_venue_search",
+    "notes": "The paper engages with a developing-regions context through its case studies of MHDCS platforms in low-resource settings, adhering to the rule that papers must substantively engage a developing-regions context for most topics.",
+    "link": "https://doi.org/10.1016/j.deveng.2020.100054",
+    "abstract": "Data collected in Mobile Health Data Collections Systems (MHDCS) are diverse, both in terms of type and value. This calls for different data protection measures to meet security goals of confidentiality, integrity, and availability. The majority of commonly used open-source MHDCS track and monitor individuals over a while. It is therefore important to have sensitive data defined and proper security measures identified. We propose a data classification model as a basis for secure design and implementation. Our method combines interviews with case studies. The case studies focused on three of the widely used MHDCS platforms in low-resource settings; that is Muzima, Open Data Kit (ODK), and District Health Information Software (DHIS) 2 Tracker Capture. Interviews with domain experts helped define the sensitivity of data in MHDCS. The proposed data classification model provides for three sensitivity levels: public, confidential, and critical. The model uses context information and multiple parameters as inputs to a classification scheme that maps data to sensitivity levels. The generated data classifications are intended to guide developers and users to build security into MHDCS starting from the early stages of the software development life cycle.",
+    "_matched_keywords": [
+      "open data"
+    ]
+  },
+  {
+    "id": null,
+    "title": "High-mast lighting as an adequate way of lighting pedestrian paths in informal settlements?",
+    "authors": "David Michael Kretzer",
+    "year": 2020,
+    "venue": "development_engineering_2020",
+    "areas": [
+      "infrastructure"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "ethnographic_design"
+    ],
+    "cross_cutting_axes": [
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "development_engineering_2020_venue_search",
+    "notes": "The paper engages with a developing-regions context by addressing the needs of informal settlement dwellers, which is a low-resource setting.",
+    "link": "https://doi.org/10.1016/j.deveng.2020.100053",
+    "abstract": "Lighting of pedestrian paths fulfils crucial needs for informal settlement dwellers. A common technological approach in some countries to address these needs is to provide high-mast luminaires. In this paper it is shown by computer simulation that those luminaires are not able to create adequate consistent lighting conditions in common forms of informal settlements. Illuminance uniformity requirements are not met within the entire pedestrian path network. Furthermore, a significant part of the light is emitted on the dwellings\u2019 roof and hence results in light pollution.",
+    "_matched_keywords": [
+      "informal settlements"
+    ]
+  }
+]

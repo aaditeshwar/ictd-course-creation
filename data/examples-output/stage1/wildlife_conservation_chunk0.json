@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Species Distribution Modeling from Remote Sensing & Citizen Science",
+    "description": "Research using machine learning to predict where species occur by combining satellite imagery, environmental covariates, and volunteer-collected observation data (e.g. iNaturalist, eBird). Spans method reviews (MaxEnt), deep and graph-based models, presence-only loss functions, and location/climate embeddings, along with debates over data quality and appropriate evaluation."
+  },
+  {
+    "name": "Biodiversity Data Quality & Labeling for Conservation AI",
+    "description": "Work examining how noisy, biased, or mislabeled training data (from crowdsourcing, ImageNet, camera traps, or annotation programs) undermines conservation ML, and methods to detect, clean, or annotate such data efficiently. Cuts across dataset curation, ground-truth uncertainty, distribution shift, and human-in-the-loop labeling."
+  },
+  {
+    "name": "Automated Wildlife Monitoring via Sensors & Bioacoustics",
+    "description": "Systems that detect, classify, and track animals in the field using camera traps, bioacoustic recorders, and edge devices, often under resource constraints. Includes energy-efficient on-device inference, agile modeling workflows, and long-term monitoring of populations and flocks."
+  },
+  {
+    "name": "Forest & Vegetation Monitoring from Satellite/UAV Imagery",
+    "description": "Remote-sensing pipelines for mapping tree canopy, species, floristic richness, deforestation, and fine-resolution vegetation dynamics. Includes segmentation, change detection of human-driven alterations, phenology prediction, and scalable satellite analysis frameworks."
+  },
+  {
+    "name": "Anti-Poaching & Illegal-Activity Detection",
+    "description": "Predictive and detection systems aimed at protecting wildlife from illegal exploitation, including poaching forecasting, rhino horn detection from multimodal imagery, and tracking illegal cattle ranching from satellite data. Combines optimization, active learning, and generative modeling to allocate scarce enforcement resources."
+  },
+  {
+    "name": "Phenology & Ecological Response to Climate",
+    "description": "Models predicting the timing of biological events (flowering, tree dormancy, green-up, range shifts) as a function of temperature and climate signals. Spans hybrid mechanistic-ML approaches, remote-sensing-driven phenology, and out-of-distribution detection of shifting species ranges."
+  },
+  {
+    "name": "Wildfire & Climate Hazard Prediction from Remote Sensing",
+    "description": "Detection, mapping, and short-term forecasting of wildfires and compound climate hazards (heatwaves, droughts) using satellite/SAR imagery and spatiotemporal deep learning. Includes burned-area datasets, semi-supervised domain adaptation, and disaster-management change detection."
+  },
+  {
+    "name": "Community-Engaged & Indigenous-Led Conservation",
+    "description": "Interventions that center local communities, Indigenous knowledge, and marginalized stakeholders in conservation practice, from rescuing captive wildlife to co-managing salmon rivers with expert- and community-in-the-loop AI. Emphasizes ethnographic grounding, social capital, and the sociotechnical fit of tools to human contexts."
+  },
+  {
+    "name": "Aquatic & Freshwater Ecosystem Conservation",
+    "description": "Modeling and monitoring of freshwater and marine ecosystems, including fish connectivity optimization for protected-area planning, seagrass ecosystem state prediction, and building datasets for aquatic invertebrates. Combines combinatorial optimization and ecological ML for underrepresented aquatic biodiversity."
+  },
+  {
+    "name": "Conservation Foundation Models & Transferable Representations",
+    "description": "Efforts to build general-purpose pretrained encoders, embeddings, and foundation models for ecological and geospatial tasks that transfer across regions and problems. Includes masked autoencoders, geographic location encoders, climatic implicit embeddings, and fine-tuned domain language/knowledge-graph models."
+  }
+]

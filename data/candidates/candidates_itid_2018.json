@@ -1,0 +1,179 @@
+[
+  {
+    "id": null,
+    "title": "An Analysis of Community Mobilization Strategies of a Voice-based Community Media Platform in Rural India",
+    "authors": "Aparna Moitra, Archna Kumar, Aaditeshwar Seth",
+    "year": 2018,
+    "venue": "itid_2018",
+    "areas": [
+      "media_information"
+    ],
+    "topics": [
+      "ethnographic_design",
+      "impact_evaluation",
+      "operations_scale"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "caste",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "itid_2018_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context in rural India, focusing on community mobilization strategies for a voice-based community media platform.",
+    "link": "https://itidjournal.org/index.php/itid/article/view/1598.html",
+    "abstract": "We define community mobilization as offline activities typically required in ICTD initiatives to train users and drive adoption for the sustained use of ICTs within the community. Community mobilization forms an important but under-discussed component of ICTD initiatives. In this article, we present a case study of a voice-based community media platform in rural central India and the experiments it has undergone with multiple community mobilization strategies over a period of five years. We analyze different phases of community mobilization and draw insights related to how technology platforms can be appropriated by specific actors to drive their own agendas, how organizational control can be imposed to prevent undesirable appropriation, yet give communities the flexibility to use the platform according to their needs, and how group structures and hybrid financial-social incentives can be created to build sustainable networks that can be replicated and scaled in a standardized manner. We use the Actor-Network Theory, along with Olson\u00e2\u0080\u0099s Theory of Groups and Incentives to explain our observations. Our methods can be generalized and applied by other ICTD initiatives to evaluate their own community mobilization strategies.",
+    "_matched_keywords": [
+      "community media"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Systematic Reviews (SRs) | Impact of Mobile Financial Services in Low- and Lower-Middle-Income Countries:   A Systematic Review",
+    "authors": "Erwin Alampay, Goodiel C. Moshi",
+    "year": 2018,
+    "venue": "itid_2018",
+    "areas": [
+      "livelihood"
+    ],
+    "topics": [
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "itid_2018_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context, focusing on the impact of mobile financial services in low- and lower-middle-income countries, which aligns with the 'livelihood' and 'financial inclusion' areas.",
+    "link": "https://itidjournal.org/index.php/itid/article/view/1511.html",
+    "abstract": "Considerable optimism exists regarding the potential of using mobile phones as a conduit for reaching the unbanked, given the ubiquity of mobile phones in developing countries and the development of mobile-phone-based \u00c2\u00aanancial services. As such, use of mobile \u00c2\u00aanancial services is seen as a strategy for increasing \u00c2\u00aanancial inclusion. This systematic review was conducted to determine the impact of mobile \u00c2\u00aanancial services in developing countries based on the most robust quantitative studies available. In particular, this systematic review looked at the impact of mobile financial services on the volume, frequency, and diversity of sources of remittances received by mobile money users; on household savings and consumption of goods and services; and on livelihoods and income.",
+    "_matched_keywords": [
+      "mobile money"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Systematic Reviews (SRs) | Tiny Impact of ICTs and Paucity of Rigorous Causal Studies: A Systematic Review of Urban MSMEs in the Developing World",
+    "authors": "P. Vigneswara Ilavarasan, Albert Otieno Orwa",
+    "year": 2018,
+    "venue": "itid_2018",
+    "areas": [
+      "livelihood"
+    ],
+    "topics": [
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [],
+    "area_agnostic": false,
+    "source_course": "itid_2018_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context, focusing on urban MSMEs in low- and middle-income countries.",
+    "link": "https://itidjournal.org/index.php/itid/article/view/1486.html",
+    "abstract": "This systematic review examines whether access to business-relevant information through networked devices enhances internal efficiency and business growth of urban micro, small, and medium enterprises (MSMEs) in low- and middle-income countries. Starting from 24,000-plus records, rigorous screening yielded a set of 10 research articles from which data were extracted and a meta-analysis conducted. All were observational studies; none used an experimental or quasi-experimental design. Only five reported a probability sampling method, and the sample size ranged from 100\u00e2\u0080\u00933,691. Except one, all had used self-reported data about ICT use. The review found: The numbers of business calls increase with the longer use of the mobile phones; ICT use and possession predict labor productivity; network devices improve operational support, strategic development, process improvement, and operational performance. Also, after the purchase of mobile phones, the number of customers increases. Higher ICT expenditure results in increased turnover. Profits increase with the use of mobile money. The quantitative meta-analysis shows that the impact on business growth and internal efficiency is statistically small. The research field lacks rigorous causal studies that link ICTs and MSME growth.",
+    "_matched_keywords": [
+      "mobile money"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Systematic Reviews (SRs)| Factors Affecting the Use of ICTs in the Classroom by Teachers: A Systematic Review of the Literature",
+    "authors": "Sujata N Gamage, Tushar Tanwar",
+    "year": 2018,
+    "venue": "itid_2018",
+    "areas": [
+      "education"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [],
+    "area_agnostic": false,
+    "source_course": "itid_2018_venue_search",
+    "notes": "The paper engages with the topic of ICT use in education, which is relevant to the 'education' area, even though it is not specifically set in a developing region.",
+    "link": "https://itidjournal.org/index.php/itid/article/view/1487.html",
+    "abstract": "ICT for education heralded much promise for improving learning outcomes, but results have not lived up to expectations. To understand why, researchers are increasingly exploring the factors that affect teachers\u00e2\u0080\u0099 acceptance and use of ICT in the classroom. This study adopts the systematic review approach used in clinical research to systematically search, screen, assess, and synthesize the literature on ICT use in classrooms and determine effect sizes, if any, of factors affecting teachers\u00e2\u0080\u0099 acceptance and use of ICT. We find that teachers\u00e2\u0080\u0099 perceptions about the usefulness of a particular technology are twice as important as their perceptions of the technology\u00e2\u0080\u0099s ease of use. We also find that two particular facilitating conditions\u00e2\u0080\u0094the provision of one laptop per child and on-site coaches\u00e2\u0080\u0094increased the use of technology by teachers by effect sizes ranging from 0.48 to 1.31.",
+    "_matched_keywords": [
+      "learning outcomes",
+      "one laptop per child"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Gender, Mobile, and Mobile Internet | Gender, Mobile, and Development: The Theory and Practice of Empowerment  \u00e2\u0080\u0094 Introduction",
+    "authors": "Savita Bailur, Silvia Masiero, Jo Tacchi",
+    "year": 2018,
+    "venue": "itid_2018",
+    "areas": [],
+    "topics": [
+      "gender"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "caste"
+    ],
+    "area_agnostic": false,
+    "source_course": "itid_2018_venue_search",
+    "notes": "The paper substantively engages with gender and ICT interventions in a developing-regions context, aligning with the caste and gender cross-cutting axes.",
+    "link": "https://itidjournal.org/index.php/itid/article/view/1555.html",
+    "abstract": "This introduction to the Special Section sets out the rationale for our focus on gender, mobile, and mobile Internet. We explain our aims in planning a dedicated section and introduce each of the four selected articles across different country contexts. We examine how these articles juxtapose the theory and practice of empowerment. Finally, w e raise issues with the way that empowerment is used and applied in ICTD work and we draw on Cornwall\u00e2\u0080\u0099s framework to support our view that access for women (an often-used variable) is not always accompanied by changes in law, policy, or men\u00e2\u0080\u0099s and women\u00e2\u0080\u0099s consciousness or practices; therefore, access does not de facto lead to empowerment. It is this space that we believe needs further exploration. A focus on access and digital literacy for women, while important, is not in itself a sufficiently meaningful criterion for empowerment through mobiles and mobile Internet.",
+    "_matched_keywords": [
+      "digital literacy"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Gender, Mobile, and Mobile Internet| Mother, May I? Conceptualizing the Role of Personal Characteristics and the Influence of Intermediaries on Girls\u00e2\u0080\u0099 After-School Mobile Appropriation in Nairobi",
+    "authors": "Ronda Zelezny-Green",
+    "year": 2018,
+    "venue": "itid_2018",
+    "areas": [
+      "media_information"
+    ],
+    "topics": [
+      "sociotechnical_dynamics"
+    ],
+    "cross_cutting_axes": [
+      "gender"
+    ],
+    "area_agnostic": false,
+    "source_course": "itid_2018_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context (Nairobi) and addresses gender and intermediaries, fitting the criteria for the 'media_information' area and 'sociotechnical_dynamics' topic.",
+    "link": "https://itidjournal.org/index.php/itid/article/view/1557.html",
+    "abstract": "Education interventions for girls in the Global South often seek to expand their present and future life choices. Increasingly, this goal is pursued by enhancing preexisting mobile phone access. Girls\u00e2\u0080\u0099 personal characteristics, particularly their age and gender, and adult intermediaries influence their mobile appropriation\u00e2\u0080\u0094and the outcomes they can realize when using their phones for any reason. Drawing on data from research with community members of a girls\u00e2\u0080\u0099 secondary school in Nairobi, this article seeks to understand how girls\u00e2\u0080\u0099 mobile appropriation during after-school hours is shaped. Building on Kleine\u00e2\u0080\u0099s Choice Framework as a capability approach operationalization, a schema is proposed to conceptualize additional considerations needed when engaging girls in mobile for development work. The aim is to demonstrate how and why girls\u00e2\u0080\u0099 after-school mobile use was influenced by the convergence of intermediaries in their lives, age, and gender. The analysis presents implications for mobile for development interventions with girl children.",
+    "_matched_keywords": [
+      "capability approach",
+      "mobile phone access",
+      "capability approach",
+      "choice framework",
+      "intermediaries"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Gender, Mobile, and Mobile Internet| Maintenance Affordances, Capabilities and Structural Inequalities: Mobile Phone Use By Low-Income Women",
+    "authors": "Becky Faith",
+    "year": 2018,
+    "venue": "itid_2018",
+    "areas": [
+      "gender"
+    ],
+    "topics": [
+      "sociotechnical_dynamics",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "gender"
+    ],
+    "area_agnostic": false,
+    "source_course": "itid_2018_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context, focusing on low-income women's mobile phone use and structural inequalities.",
+    "link": "https://itidjournal.org/index.php/itid/article/view/1556.html",
+    "abstract": "This article shows the impact of \u00e2\u0080\u009cmaintenance affordances\u00e2\u0080\u009d on women\u00e2\u0080\u0099s capabilities to use mobile phones to lead lives they value. Analysis of data from a qualitative study of mobile phone use by 30 young low-income women\u00e2\u0080\u0094including 15 who had no access to the Internet other than through their mobile phones\u00e2\u0080\u0094shows how maintaining mobile phones through charge, credit, and repair is a significant burden. These challenges were inextricably bound up with structural inequality experienced by respondents such as poor employment conditions and unaffordable housing. This study therefore proposes a new theoretical framework combining affordances and the capability approach, in which the maintenance affordances of a technology are seen to impact directly on individuals\u00e2\u0080\u0099 capability to use this resource to lead lives they value.",
+    "_matched_keywords": [
+      "capability approach",
+      "capability approach",
+      "inequality"
+    ]
+  }
+]

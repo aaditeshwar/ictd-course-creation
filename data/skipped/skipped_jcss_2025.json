@@ -1,0 +1,200 @@
+[
+  {
+    "title": "WiSleep: Smartphone-driven Sleep Population Monitoring with Unsupervised Learning",
+    "authors": "Priyanka Mary Mammen, Camellia Zakaria, Tergel Molom-Ochir, Amee Trivedi, Prashant J. Shenoy, Rajesh Balan",
+    "year": 2025,
+    "link": "https://doi.org/10.1145/3705722",
+    "doi": "10.1145/3705722",
+    "abstract": "With sleep deprivation being a public health concern, sleep monitoring technology, mainly through consumer-grade wearables, has shown value among users to better understand their most fundamental measure of health. Unfortunately, utilizing wearable technology is bound to the conditions of users owning these devices and using them at bedtime every night. While wearables can deliver highly personalized sleep insights to users, they inadvertently affect the ability of sleep monitoring solutions to reach unprivileged sections of society due to added costs and device accessibility. With our primary motivation to promote sleep monitoring for public health use cases at the population scale, we developed WiSleep, a sleep monitoring system that infers sleep duration from solely relying on a user\u2019s smartphone without requiring a wearable device. Unlike prior efforts that use supervised learning methods and require labeled training data to train sleep models, our method is based on unsupervised learning, which enables easy deployment to new population groups or new regions without a need for labeled data collection and training. Specifically, we employ the smartphone activity of the user, represented by time series of WiFi network event rates, as input data to infer the user\u2019s sleep duration (i.e., sleep time and wake time) through an unsupervised Bayesian change point detection ensemble model. Our evaluation shows WiSleep\u2019s efficacy in being a low-cost accessible sleep monitoring approach. We present results that yield comparable performance to prior techniques, particularly those requiring new users\u2019 labeled data to achieve model personalization. System evaluation from a user study achieved an average of 93.68% accuracy within 59 minutes of sleep time error, 31 minutes of wake time error, and 57 minutes of sleep duration error by utilizing coarse-grained time series data. We demonstrate the application of our technique to predict sleep for 1,000 anonymous users and enable population-scale analytics with low computational overhead.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Controlled Language Increases Comprehension of Law for People",
+    "authors": "Clement Guitton, Aurelia Tam\u00f2-Larrieux, Simon Mayer, Lukas Zumbrunn",
+    "year": 2025,
+    "link": "https://doi.org/10.1145/3711128",
+    "doi": "10.1145/3711128",
+    "abstract": "Law is written in a way that is not easily understandable by most people. This also hinders the translation into computer code, which would permit the creation of tools that increase access to the law. The use of controlled language in legal texts is a promising way to implement laws that are better comprehensible by people, and computer-executable at the same time. However, while the scholarship on controlled language has been concentrating on its translation into (logic) programs, the effects on people have not been investigated. We conducted an experiment to test the understandability, usability, and perceived open-texture (e.g., ambiguity, vagueness) of legal texts that are formulated in natural language and in controlled language. Among our 73 participants\u2014including members of parliament (MPs) and public servants\u2014we found that the use of controlled language increases understandability across legal domains but does not reduce the number of terms that are perceived as open-texture. We also found that public servants show higher comprehension of legal statutes but lower perception of open-texture than MPs, regardless of whether these are in controlled or natural language. We conclude that controlled language can therefore support a wider access to law, thereby bringing democratic societies closer to their underpinning ideals and principles.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Teens Online Behavior and Support Interventions in Bangladesh",
+    "authors": "Rahat Jahangir Rony, Nova Ahmed",
+    "year": 2025,
+    "link": "https://doi.org/10.1145/3704813",
+    "doi": "10.1145/3704813",
+    "abstract": "Teens are vulnerable online, and their risk behaviors and possible support for safe online space are studied in the Western context but unexplored in developing countries. Considering the cultural context and research gaps, we interviewed n = 28 teens in urban Bangladesh to investigate their unique online activities, experiences, and strategies for protecting online accounts and knowledge. They are involved in several risk-taking behaviors, including communicating with strangers without being aware of possible vulnerabilities, uncovering their lack of online safety knowledge, and being unaware of online journeys from the beginning. These teens have negative online experiences; some coping techniques, such as hiding information, changing profile settings, and unfollowing the unknowns, help them without seeking additional support. We propose design interventions regarding knowledge and awareness increment, implementing co-learning and policy, which will help teens become aware and knowledgeable at the beginning of their online usage, reducing their negative experiences in the future.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "FooDS: Ontology-based Knowledge Graphs for Forest Observatories",
+    "authors": "Naeima Hamed, Omer F. Rana, Pablo Orozco ter Wengel, Benoit Goossens, Charith Perera",
+    "year": 2025,
+    "link": "https://doi.org/10.1145/3707637",
+    "doi": "10.1145/3707637",
+    "abstract": "Wildlife research activities generate data on ecosystems and species interactions from varied independent projects. Forest Observatories are online platforms that curate, integrate, and analyze wildlife research data for forest monitoring. However, integrating data from disparate sources can be challenging due to data heterogeneity. This study, in collaboration with a research facility in the forest of Sabah, Malaysian Borneo, proposes a novel approach to integrate heterogeneous wildlife data for Forest Observatories. We used the Forest Observatory Ontology (FOO) to standardize wildlife data entities generated by sensors. Four semantically modeled wildlife datasets populated FOO, resulting in an ontology-based knowledge graph named FooDS (Forest Observatory Ontology Data Store). We evaluated FOO and FooDS using specialized open-source ontology scanners, domain experts\u2019 feedback, and applied use cases. This study contributes FooDS, the first ontology-based knowledge graph for Forest Observatories, which provides accurate query responses, reasoning about data, and granular data acquisition from diverse datasets. FOO in turtle format, FOO\u2019s documentation and FooDS in turtle format and their resource website are published at https://w3id.org/def/foo, https://w3id.org/def/fooDocs, https://w3id.org/def/fooDS, and https://ontology.forest-observatory.org.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Life Cycle Assessment of Edge Data Centers: Case Study in Presence of Renewable Energy and Refurbished Servers",
+    "authors": "Ismael Samaye, Georges Ouffou\u00e9, Abdoulaye Gamati\u00e9",
+    "year": 2025,
+    "link": "https://doi.org/10.1145/3724127",
+    "doi": "10.1145/3724127",
+    "abstract": "As the demand for computing power increases, the ecological footprint of data centers becomes a critical concern. Evaluating and mitigating this trend is essential to ensure a sustainable future for digital technologies. This article addresses the issue by comparing the environmental impacts of a solar-powered edge data center (SDC) with refurbished servers and a conventional edge data center (CDC). The comparison is conducted using a multicriteria life cycle assessment for both data center types, focusing on indicators such as climate change, depletion of abiotic resources, acidification, ionizing radiation, and particle emissions. Our results indicate that, under a reference data center design scenario, SDC achieves a reduction in environmental impact ranging from 11% to 60% compared to CDC. This advantage is maintained when scaling up both data centers. Further reductions, up to 92% for some indicators, are possible by leveraging SDC characteristics such as increased solar energy use, grid energy integration, and extended compute node lifetimes. Our analysis shows that the environmental overhead of replacing components during server refurbishment in SDC is minimal, ranging from 1% to 6%, thereby reinforcing the sustainability and reliability of SDC. This comparative study illustrates the potential for edge data centers to yield positive environmental outcomes. Finally, we discuss the limitations and potential improvements of this study, as well as the challenges associated with deploying SDC and CDC in specific environments and for particular tasks.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "A Framework for Measuring and Benchmarking Fairness of Generative Crowd-Flow Models",
+    "authors": "Jiaqi He, Apoorva Sheera, Jack W. McFarland, Feiyang Wang, Manurag Khullar, Sakshi Chavan, Bernease Herman, Ekin Ugurel, Afra Mashhadi",
+    "year": 2025,
+    "link": "https://doi.org/10.1145/3724409",
+    "doi": "10.1145/3724409",
+    "abstract": "Urban population growth has significantly complicated the management of mobility systems, demanding innovative tools for planning. Generative Crowd-Flow (GCF) models, which leverage machine learning to simulate urban movement patterns, offer a promising solution but lack sufficient evaluation of their fairness\u2013a critical factor for equitable urban planning. We present an approach to measure and benchmark the fairness of GCF models by developing a first-of-its-kind set of fairness metrics specifically tailored for this purpose. Using observed flow data, we employ a stochastic biased sampling approach to generate multiple permutations of Origin-Destination datasets, each demonstrating intentional bias. Our proposed framework allows for the comparison of multiple GCF models to evaluate how models introduce bias in outputs. Preliminary results indicate a tradeoff between model accuracy and fairness, underscoring the need for careful consideration in the deployment of these technologies. To this end, this study bridges the gap between human mobility literature and fairness in machine learning, with potential to help urban planners and policymakers leverage GCF models for more equitable urban infrastructure development.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Slower is Greener: Acceptance of Eco-feedback Interventions on Carbon Heavy Internet Services",
+    "authors": "Hyeonwook Kim, Sydney Young, Xuesi Chen, Udit Gupta, Josiah D. Hester",
+    "year": 2025,
+    "link": "https://doi.org/10.1145/3723038",
+    "doi": "10.1145/3723038",
+    "abstract": "The carbon emissions of modern information and communication technologies (ICT) present a significant environmental challenge, accounting for approximately 4% of global greenhouse gases, and are on par with the aviation industry. Modern internet services levy high carbon emissions due to the significant infrastructure resources required to operate them, owing to strict service requirements expected by users. One opportunity to reduce emissions is relaxing strict service requirements by leveraging eco-feedback. In this study, we explore the effect of the carbon reduction impact of allowing longer internet service response time based on user preferences and feedback. Across four services (i.e., Amazon, Google, ChatGPT, Social Media) our study reveals opportunities to relax latency requirements of services based on user feedback; this feedback is application-specific, with ChatGPT having the most favorable eco-feedback tradeoff. Further system studies suggest leveraging the reduced latency can bring down the carbon footprint of an average service request by 93.1%.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Implications of Mobile Financial Service Users' Adaptive Usage Behavior: The Vicious Cycle of Negative Experience, Social Construct, and Confidence",
+    "authors": "Ifti Azad Abeer, Anik Saha, Anik Sinha, Rahat Jahangir Rony, Gazi Fakhrul Islam, Shajnush Amir, Md. Sabbir Ahmed, Syeda Shabnam Khan, Nova Ahmed",
+    "year": 2025,
+    "link": "https://doi.org/10.1145/3723041",
+    "doi": "10.1145/3723041",
+    "abstract": "The COVID-19 pandemic increased the usage of Mobile Financial Services (MFSs) everywhere, including in developing countries such as Bangladesh. The increment of usage is paired with continuing misuse and abuse in several ways that impact users\u2019 MFS usage behaviors. This qualitative study aimed to understand users\u2019 adoptive MFS usage behaviors due to negative experiences and their implications among several communities. The study took place across all eight divisions in Bangladesh and did focus group discussions involving N = 313 participants (female = 203, male = 108, and transgender = 2) covering urban, suburban, and rural regions. Study findings present the ways participants limit their usage, delegate MFS operations, and rely on others to avoid misuse and abuse. The stories also indicate the inability of these measures to avoid monetary loss, which creates more negativity. We discuss the cyclic relationship between negative experiences, social constructs, and confidence. We suggest potential technology interventions to break the cycle.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "SpaceSense: Exploring the Use of Sensors Data to Understand Occupants' Behavior in Heterogeneous Study Space Types",
+    "authors": "Wael Alsafery, Omer Rana, Charith Perera",
+    "year": 2025,
+    "link": "https://doi.org/10.1145/3735143",
+    "doi": "10.1145/3735143",
+    "abstract": "Sensor technology in buildings aims to reduce costs and enhance resource efficiency. This study employed a mixed-methods approach, utilizing both qualitative and quantitative data, to investigate how people use various open-design spaces in a new university building. Initial workshops and interviews with students and facility managers clarified their preferences and operational needs. The sensor data provided valuable insights into student space usage, improving communication between students and facility managers by offering a clearer understanding of student behaviors and needs, which enhances the ability of facility managers to make more informed decisions. Follow-up interviews with facility managers provided additional perspectives on the effectiveness of sensor-based solutions in educational settings. The study identified patterns in space usage and discovered opportunities for improving educational facilities. It emphasizes the importance of monitoring both space usage and environmental conditions and highlights the potential to support more informed decision-making in facility management. Future research will explore predictive modeling to better manage space and expand environmental metrics to further enhance educational environments, promote sustainability, and contribute to sustainable societies.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Comprehensive Insights into the 'Khep' Phenomenon: Understanding the Full Spectrum from Companies to Commuters in Transforming Gig of Ride-Sharing",
+    "authors": "Aditto Baidya Alok, Fardin Huq, Shamsil Arafin Ullah, Riya Ghosh, Hasibul Sakib, Jannatun Noor",
+    "year": 2025,
+    "link": "https://doi.org/10.1145/3735142",
+    "doi": "10.1145/3735142",
+    "abstract": "In the face of escalating urbanization and traffic congestion, the emergence of ride-sharing applications has triggered a transformative shift in transportation and the gig economy, with \u201ckhep\u201d (a new form of contractual rides) emerging as a distinctive and popular ride-sharing phenomenon in Bangladesh. Having a lack of prior research on \u201ckhep\u201d phenomenon in the context of HCI and ICT4D, we conduct comprehensive research involving a two-phase data collection to unravel the intricacies of khep. We present the context from the perspectives of both companies and commuters, examining factors influencing the preference for contractual rides over conventional ride-sharing apps. Cultural norms, trust dynamics, affordability, and accessibility are scrutinized alongside the role of technology literacy, marketing strategies, and regulatory frameworks in shaping the adoption landscape. Through a blend of surveys and interviews in each phase, the study provides nuanced insights into utilization patterns, preferences, and challenges within the Bangladeshi ride-sharing industry, with a specific focus on the khep phenomenon. Aligned with HCI labor work, the study\u2019s implications transcend Bangladesh, offering valuable insights for ICT4D and HCI researchers, policymakers, transportation companies, and technology developers seeking a holistic understanding of the factors shaping the preference for contractual rides within the unique context of the khep phenomenon.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Tellings of the Pacific Ocean: A Landscape-based Approach for Multispecies Design and HCI",
+    "authors": "Maliheh Ghajargar",
+    "year": 2025,
+    "link": "https://doi.org/10.1145/3736651",
+    "doi": "10.1145/3736651",
+    "abstract": "Environmental disturbances induced by climate change have caused significant changes in our ecosystems and are threatening the health of our environments. As a response to this issue, a growing body of work has emerged in HCI and design, which seeks to foreground more-than-human stories in support of making more sustainable and just futures. This research contributes to this broad agenda by probing graphic novels as a multispecies storytelling method for design and HCI. Combining ideas from Anna Tsing\u2019s adventures of landscape and from HCI and design\u2019s use of sequential art (e.g., storyboards), we use landscape as the main protagonist of the story and show how graphic novel features, such as the use of panels and the ability to represent different perspectives across times, scales and geographies, affords tellings of multispecies stories. Through a critical engagement with the creation of the graphic novel as a research process and product, we offer an approach to challenge the human-centeredness and solution-orientedness of designs and stories.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Dynamic Incentive Allocation for City-Scale Deep Decarbonization",
+    "authors": "Anupama Sitaraman, Adam Lechowicz, Noman Bashir, Xutong Liu, Mohammad Hajiesmaili, Prashant J. Shenoy",
+    "year": 2025,
+    "link": "https://doi.org/10.1145/3736650",
+    "doi": "10.1145/3736650",
+    "abstract": "Greenhouse gas emissions from the residential sector represent a large fraction of global emissions and must be significantly curtailed to achieve ambitious climate goals. To stimulate the adoption of relevant technologies such as rooftop PV and heat pumps, governments and utilities have designed incentives that encourage adoption of decarbonization technologies. However, studies have shown that many of these incentives are inefficient since a substantial fraction of spending does not actually promote adoption. Further, these incentives are not equitably distributed across socioeconomic groups. In this article, we present a novel data-driven approach that adopts a holistic, emissions-based, and city-scale perspective on decarbonization. We propose an optimization model that dynamically allocates a total incentive budget to households to directly maximize the resultant carbon emissions reduction \u2013 this is in contrast to prior work, which focuses on metrics such as the number of new installations. We leverage techniques from the multi-armed bandits problem to estimate human factors, such as a household\u2019s willingness to adopt new technologies given a certain incentive. We apply our proposed dynamic incentive framework to a city in the Northeast U.S., using real household energy data, grid carbon intensity data, and future price scenarios. We compare our learning-based technique to two baselines, one \u201cstatus-quo\u201d baseline using incentives offered by a state and utility, and one simple heuristic baseline. With these baselines, we show that our learning-based technique significantly outperforms both the status-quo baseline and the heuristic baseline, achieving up to 37.88% higher carbon reductions than the status-quo baseline and up to 28.76% higher carbon reductions compared to the heuristic baseline. Additionally, our incentive allocation approach is able to achieve significant carbon reduction even in a broad set of environments, with varying values for electricity and gas prices, and for carbon intensity of the grid. Finally, we show that our framework can accommodate equity-aware constraints to preserve an equitable allocation of incentives across socioeconomic groups while achieving 83.34% of the carbon reductions of the optimal solution on average.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Sustainability Literacy and Repair: A Case Study of Effective Sustainability Pedagogy in Electrical and Computer Engineering",
+    "authors": "Esther Roorda, Emily Shilton, Sathish Gopalakrishnan",
+    "year": 2025,
+    "link": "https://doi.org/10.1145/3736647",
+    "doi": "10.1145/3736647",
+    "abstract": "Addressing the rapid increase in global e-waste production, and the embodied carbon of consumer electronics requires a shift towards a more sustainable computer engineering paradigm centered around \u201cslow consumption\u201d practices like repair. We argue that effective sustainability education is a critical part of effecting this change. Through surveys and interviews with students, repair experts, and community members, we investigate existing attitudes and levels of sustainability literacy among engineering students, and outline opportunities for meaningful teaching and learning. We develop, deliver, and evaluate a university-level course centered on electronic repair, drawing on evidence-based pedagogical strategies for meaningfully building sustainable development competencies. The aim of the course was to build both practical repair skills and critical sustainability competencies, and to bring students into conversations and longer term collaboration with the broader community. Our findings indicate that the course successfully resulted in shifts in student attitudes and that students reported a commitment to ongoing community engagement and personal action. The findings underscore the need for meaningful integration of environmental literacy into engineering curricula, through implementation of evidence-based pedagogical strategies, in order to train future engineers with an understanding of the relationship between their work and the environment.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "A Behavioral Finance Framework for Balancing AI Accuracy and Operational Carbon Emissions",
+    "authors": "Aggrey Muhebwa, Khalid K. Osman",
+    "year": 2025,
+    "link": "https://doi.org/10.1145/3736646",
+    "doi": "10.1145/3736646",
+    "abstract": "The increasing computational demands and related carbon emissions of Artificial Intelligence (AI) models necessitate careful consideration of their environmental impact. This concern is especially important when these models are trained in regions with energy shortages or carbon-intensive power grids (such as coal, natural gas, or oil), as their operational footprint can worsen environmental strain. To address this challenge, we develop a behavior-driven computational framework for selecting AI models that balance accuracy and environmental sustainability. To capture real-world decision-making under sustainability constraints, we propose a behavior-driven framework that analyzes tradeoffs between energy use, carbon emissions, and model performance using insights from Behavioral Portfolio Theory and Cumulative Prospect Theory. We quantify emissions from energy use during supervised fine-tuning across multiple model architectures and datasets, incorporating these results within a multi-objective decision model. Our framework provides actionable insights for selecting AI models that minimize environmental impact without sacrificing accuracy. By prioritizing models that balance performance and sustainability, we provide AI developers with practical tools to lower the carbon footprint of AI technologies.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Comprehensive Monitoring of Air Pollution Hotspots Using Sparse Sensor Networks",
+    "authors": "Ankit Bhardwaj, Ananth Balashankar, Shiva R. Iyer, Nita Soans, Anant Sudarshan, Rohini Pande, Lakshminarayanan Subramanian",
+    "year": 2025,
+    "link": "https://doi.org/10.1145/3748821",
+    "doi": "10.1145/3748821",
+    "abstract": "Urban air pollution hotspots pose significant health risks, yet their detection and analysis remain limited by the sparsity of public sensor networks. This article addresses this challenge by combining predictive modeling and mechanistic approaches to comprehensively monitor pollution hotspots. We enhanced New Delhi\u2019s existing sensor network with 28 low-cost sensors, collecting PM2.5 data over 30 months from May 1, 2018, to Nov 1, 2020. Applying established definitions of hotspots to this data, we found the existence of an additional 189 hidden monthly hotspots in addition to confirming the 660 detected by the public network. Using predictive techniques like Space-Time Kriging, we identified monthly hotspots with 95% precision and 88% recall with 50% sensor failure rate, and with 98% precision and 95% recall with 50% missing sensors. The projections of our predictive model were further compiled into policy recommendations for public authorities. Additionally, we developed a Gaussian Plume Dispersion Model to understand the mechanistic underpinnings of hotspot formation, incorporating an emissions inventory derived from local sources. Our mechanistic model is able to explain 65% of observed transient hotspots. Our findings underscore the importance of integrating data-driven predictive models with physics-based mechanistic models for scalable and robust air pollution management in resource-constrained settings.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Distribution-Free Uncertainty Quantification and Calibration for Energy Disaggregation",
+    "authors": "Haikoo Khandor, R. Yeeshu Dhurandhar, Dhairya Shah, Nipun Batra",
+    "year": 2025,
+    "link": "https://doi.org/10.1145/3748334",
+    "doi": "10.1145/3748334",
+    "abstract": "Buildings account for approximately one-third of global energy consumption. Research shows that providing an appliance-wise energy consumption breakdown can lead to up to 15% energy savings. Energy disaggregation or Non-Intrusive Load Monitoring (NILM) offers a scalable method by using machine learning to estimate individual appliance usage from total household energy consumption data. In this article, we investigate methods for uncertainty quantification and calibration in the context of energy disaggregation. We utilize homoscedastic and heteroscedastic likelihood for the state-of-the-art Sequence-to-Point (S2P) models and apply various distribution-dependent uncertainty quantification methods, including Monte Carlo (MC) Dropout, Deep Ensemble (DE) and Bootstrap (BS). To address distribution assumptions limitations, we introduce Quantile Regression as a distribution-free uncertainty quantification method for NILM. Additionally, we employ Conformal Prediction\u2014a novel approach for energy disaggregation\u2014and Isotonic Regression for uncertainty calibration. Our experiments are conducted on four publicly available datasets: REDD, Pecan Street, REFIT, and UK-DALE. Detailed analysis is provided for each uncertainty quantification and calibration method, including a comparison of time complexity for training, calibration, and inference. Conformal Prediction and Quantile Regression offer performance better than or comparable to other methods, while significantly reducing computational costs, with up to 10x faster training and 50x faster inference. The code to reproduce our results is available at https://github.com/haikookhandor/conformalNILM.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "FlexDisplay: An Optimized Smartphone Display Framework To Conserve Battery Power",
+    "authors": "Anshak Goel, Deeptorshi Mondal, Manavjeet Singh, Sahil Goyal, Navneet Aggarwal, Jian Xu, Mukulika Maity, Arani Bhattacharya",
+    "year": 2025,
+    "link": "https://doi.org/10.1145/3748822",
+    "doi": "10.1145/3748822",
+    "abstract": "Despite significant improvements, smartphones are still constrained by the limited capacity of their batteries. Modern smartphones tend to use organic light-emitting diode (OLED) displays, whose energy consumption depends both on the brightness and the color content. Since the display of smartphones is known to consume a significant portion of this energy, a number of prior systems have tried to reduce screen brightness, increase areas of dark zones on the screen or use colors that consume less energy to mitigate this problem. However, the amount of energy savings using these techniques are still limited, as the underlying compute required to render the content still consumes energy. In this work, we provide a framework FlexDisplay that disables the display of a limited portion of the app content, saves the underlying compute needed to render the content as well as the touch sensors in the corresponding display area. FlexDisplay supports disabling of content across multiple apps. We implement FlexDisplay on two different smartphones. We demonstrate it on 15 apps over different genres and show that the energy savings vary from 10%\u201347% of the total energy consumption of the smartphone, depending on the app and the disabled content. Furthermore, we show via user studies on 20 users that the changes made by FlexDisplay do not hurt their experience significantly.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Design for Digital Sufficiency: Understanding User Preferences for More Sustainable Data Centers",
+    "authors": "Harshit Gujral, Christina Bremer, Dushani Perera, Steve Easterbrook",
+    "year": 2025,
+    "link": "https://doi.org/10.1145/3747188",
+    "doi": "10.1145/3747188",
+    "abstract": "Digital sufficiency, an emerging concept from the sustainable computing literature, can inform interface design to better manage and potentially reduce energy consumption in data centers, which is intensifying due to AI and data growth, despite energy efficiency efforts. Since 26% of data center energy consumption stems from cloud storage and servers, this research integrates digital sufficiency with existing HCI guidelines to enable cloud providers to respond to demands for sustainable infrastructure and facilitate user reflection. We conducted an online survey to understand users\u2019 storage needs, awareness of climate impacts, and openness to sustainable storage. Our findings highlight the limited awareness among users of the carbon footprint associated with data centers and a strong demand for more sustainable storage options once they become aware. To empower users to reflect on climate impacts and align storage practices with their personal sustainability goals, we propose interface design recommendations that challenge the status quo.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Bibliometric Study of Digital Twin for Sustainable Cities and Society",
+    "authors": "Munish Bhatia, Vijay Kumar",
+    "year": 2025,
+    "link": "https://doi.org/10.1145/3748820",
+    "doi": "10.1145/3748820",
+    "abstract": "Digital twin (DT) technology accepts real-time data integration to build dynamic digital clones that support analysis alongside simulation and data-driven decision-making. The current bibliometric study investigates DT research development because of its escalating societal applications and its value for sustainable urban development. It centers on four essential elements: Architecture, Application, Middleware, and Tools. The analysis includes 2,260 papers retrieved from the Scopus database within the period 2015 to 2025 according to strict selection standards and performs visualizations with both VOSviewer and CiteSpace software. The research examines the development of DT through keyword co-occurrence network (KCN), country contributions, document co-citation network (DCN), and burst reference analysis. The research demonstrates significant research fields and shows different DT applications in multiple sectors while illustrating how DT affects sustainable cities. The current study establishes foundations for upcoming smart and resilient urban system advancement through intellectual mapping of DT and research gap identification.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Factors Associated with Problematic Mobile Phone Use among Sub-Saharan African Populations: Moderating Effect of Gender",
+    "authors": "Makuochi Nkwo, Aderonke Busayo Sakpere, Stephen B. Gilbert, Mona Alhasani, Rita Orji",
+    "year": 2025,
+    "link": "https://doi.org/10.1145/3759258",
+    "doi": "10.1145/3759258",
+    "abstract": "This article examines the relationship between problematic mobile phone use and factors including anxiety, depression, overuse, social identity, cyber-orientation, disturbance in daily life, materialism, need for touch, positive anticipation, tolerance, and withdrawal. This study also explores the moderating effect of gender. Participants include 751 mobile phone/smartphone users predominantly from Nigeria, Tanzania, Ghana, and South Africa. Data models revealed significant positive relationships between problematic mobile phone use and depression, disturbance in daily life, withdrawal, overuse, cyber-orientation, positive anticipation, and need for touch. Gender analysis reported significant positive relationships for men and women between problematic mobile phone use and cyber-orientation, depression, positive anticipation, and withdrawal. The men model found positive relationships with disturbance in daily life and need for touch. The women model revealed a significant association with overuse. Guided by the study findings, we provided design recommendations to facilitate the development of mobile technologies and behavior change interventions within the context of several African countries.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Reuse of ICT devices as commons: A property rights and governance model for collective access",
+    "authors": "Mireia Roura, Leandro Navarro, Roc Meseguer, Sergio F. Ochoa",
+    "year": 2025,
+    "link": "https://doi.org/10.1145/3770067",
+    "doi": "10.1145/3770067",
+    "abstract": "Understanding the role of property rights in managing Information and Communication Technology (ICT) devices, primarily computers, is fundamental to addressing resource waste and achieving digital inclusion and sustainability goals. Although the acquisition, use, and disposal of ICT devices are predominantly governed by private property, reuse ecosystems demonstrate significant benefits. In such ecosystems, diverse actors collaborate to recover discarded ICT devices, refurbish, maintain, and deliver them at minimal environmental and economic cost. Drawing on the Common-Pool Resources theory, this article proposes a model that employs property rights to govern ICT device reuse, using the bundle of rights as a structured language to organise reuse ecosystems. The model is based on the eReuse initiative, developed by researchers from the Technical University of Catalonia and the non-profit organisation Pangea, in Spain. It captures patterns of collective action, classifies actors by their roles, and maps the property rights underlying the interactions among these roles. The model was formalised to ease its application in Latin American contexts and evaluated in three regional reuse ecosystems to assess its suitability for replication. Results indicate that, although local adaptation is often needed, the eReuse model is considered suitable for informing the design of ad hoc models to manage the property rights of reused ICT devices in culturally aligned reuse ecosystems.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Corrigendum: Life Cycle Assessment of Edge Data Centers: Case Study in Presence of Renewable Energy and Refurbished Servers",
+    "authors": "Ismael Samaye, Georges Ouffou\u00e9, Abdoulaye Gamati\u00e9",
+    "year": 2025,
+    "link": "https://doi.org/10.1145/3764937",
+    "doi": "10.1145/3764937",
+    "abstract": "This is a corrigendum for the article \u201cLife Cycle Assessment of Edge Data Centers: Cash Study in Presence of Renewable Energy and Refurbished Services\u201d published in ACM J. Comput. Sustain. Soc. 3, 2, Article 9 (April 2025), 29 pages.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Remote Sensing Crop & Land Mapping",
+    "description": "Machine learning and satellite/aerial imagery pipelines to map crop types, field boundaries, cropland extent, and agricultural land cover. Includes benchmark datasets, deep learning architectures, transfer learning, and data augmentation approaches for scaling maps across geographies, especially for smallholder contexts."
+  },
+  {
+    "name": "Climate-Agriculture Forecasting & Impact Modeling",
+    "description": "Computational methods for predicting weather, crop yields, droughts, vegetation greenness, and climate-driven agricultural risks. Combines econometrics, physics-informed models, and ML to project how warming and climate variability affect farming systems and productivity."
+  },
+  {
+    "name": "Digital Agricultural Extension & Farmer Information Systems",
+    "description": "ICT interventions that deliver agricultural advice and knowledge to farmers via participatory video, voice forums, and recommendation systems. Spans ethnographic design, deployment studies, and causal evaluation of whether and how farmers adopt and benefit from these tools."
+  },
+  {
+    "name": "Agricultural Market Structure & Price Information",
+    "description": "Studies of rural markets (mandis), commercial intermediaries, smallholder market access, and crowd-sourced or online price data systems. Combines political economy and ethnographic understanding of trade with computational measurement of prices and market functioning."
+  },
+  {
+    "name": "Smallholder Farmer Livelihoods & Agrarian Crisis",
+    "description": "Problem-discovery and narrative accounts of the structural challenges facing small farmers, including farm size-productivity dynamics, debt, distress, social movements, and grassroots innovation. Grounds interventions in the lived realities and political economy of agrarian communities."
+  },
+  {
+    "name": "Groundwater, Soil & Sustainable Farming Practices",
+    "description": "Research on groundwater depletion, soil organic carbon, regenerative agriculture, and sustainable/precision farming practices, often using remote sensing and ML for measurement and verification. Focuses on the resource base and its management under climate stress."
+  },
+  {
+    "name": "Agricultural Measurement & Statistical Ground-Truthing",
+    "description": "Methods for improving the accuracy of agricultural data collection, such as GPS-based land area measurement versus self-reported estimates, and satellite-based yield mapping. Concerned with the quality and reliability of the underlying data used in agricultural analysis and policy."
+  }
+]

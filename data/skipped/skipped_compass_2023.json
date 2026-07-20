@@ -1,0 +1,164 @@
+[
+  {
+    "title": "Analysis of Elephant Movement in Sub-Saharan Africa: Ecological, Climatic, and Conservation Perspectives",
+    "authors": "Matthew Hines, Gregory Glatzer, Shreya Ghosh, Prasenjit Mitra",
+    "year": 2023,
+    "link": "https://doi.org/10.1145/3588001.3609357",
+    "doi": "10.1145/3588001.3609357",
+    "abstract": "The interaction between elephants and their environment has profound implications for both ecology and conservation strategies. This study presents an analytical approach to decipher the intricate patterns of elephant movement in Sub-Saharan Africa, concentrating on key ecological drivers such as seasonal variations and rainfall patterns. Despite the complexities surrounding these influential factors, our analysis provides a holistic view of elephant migratory behavior in the context of the dynamic African landscape. Our comprehensive approach enables us to predict the potential impact of these ecological determinants on elephant migration, a critical step in establishing informed conservation strategies. This projection is particularly crucial given the impacts of global climate change on seasonal and rainfall patterns, which could substantially influence elephant movements in the future. The findings of our work aim to not only advance the understanding of movement ecology but also foster a sustainable coexistence of humans and elephants in Sub-Saharan Africa. By predicting potential elephant routes, our work can inform strategies to minimize human-elephant conflict, effectively manage land use, and enhance anti-poaching efforts. This research underscores the importance of integrating movement ecology and climatic variables for effective wildlife management and conservation planning. Codebase available at https://github.com/shreyaghosh-2016/Elephant-movement",
+    "skip_reason": "The paper focuses on elephant movement in Sub-Saharan Africa and does not engage with a developing-regions context in India or other low/middle-income countries as required by the rules."
+  },
+  {
+    "title": "A simulated study exploring and testing Fuzzy Logic AI and IoT-enabled hydroponic dosing systems aimed at rural subsistence farmers in South Africa",
+    "authors": "Damion Joyner, Sarina Till",
+    "year": 2023,
+    "link": "https://doi.org/10.1145/3588001.3609358",
+    "doi": "10.1145/3588001.3609358",
+    "abstract": "This paper analyses the suitability of a Fuzzy Logic (FL) AI-trained machine learning model to assist IoT-based smart hydroponics for deployment with South African rural subsistence farmers. To answer these questions, a fuzzy logic model was developed to accurately determine and adjust outputs, based on inputs received from IoT sensors monitoring the nutrient solution and environment conditions in the hydroponics system. We conducted an initial evaluation of the FL-AI, followed by a real-world test based on an existing data set and finally conducted testing on simulated data to ensure that the AI can accurately determine crisp values to pass to a cloud based IoT platform accessed by a micro-controller which adjusts the environment variables of the hydroponics system. This approach was followed to ensure that we respect the time and availability of our research participants. We found that the system was able to accurately determine the necessary crisp values needed by the microcontroller. We further report on the suitability of FL-AI for rural subsistence farmers as the AI is less complex, reduces energy consumption, and resource waste, and the burden of manually monitoring and adjusting hydroponics systems, and is easy to use for first-time growers. We further discuss crucial lessons learned particularly in the South African and other Low to Middle Income Countries (LMIC) context, such as the necessity of solar power-enabled systems and local wifi networks rather than cloud-based IoT platforms.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Understanding Household Consumption Practices and their Motivations: Opportunities to Foster Sustainability Practices",
+    "authors": "Dushani Perera, Nervo Verdezoto Dias, Julie Gwilliam, Parisa Eslambolchilar",
+    "year": 2023,
+    "link": "https://doi.org/10.1145/3588001.3609360",
+    "doi": "10.1145/3588001.3609360",
+    "abstract": "Understanding household practices, beliefs, relationships among the members, and their preferences are often overlooked in the design of home-based interventions aiming to reduce consumption. We conducted a survey in the United Kingdom (22 responses) and a follow-up interview with 13 households to inform the design of interventions for reducing household consumption by: 1) understanding household consumption practices, and 2) identifying the concerns and challenges for household engagement with sustainability practices. Our findings highlight how the perspectives, understanding, and motives for consumption reduction actively shape household practices and their attempts to curtail consumption. Existing non-negotiable practices led to additional household consumption and we found different strategies households use to reach a shared-decision on food and energy use. Based on our findings, we provide opportunities for motivating and fostering engagement with sustainable practices at home.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "'Khep': Exploring Factors that Influence The Preference of Contractual Rides to Ride-Sharing Apps in Bangladesh",
+    "authors": "Aditto Baidya Alok, Hasibul Sakib, Shamsil Arafin Ullah, Fardin Huq, Riya Ghosh, Joyanta Jyoti Mondal, Md. Sadiqul Islam Sakif, Jannatun Noor",
+    "year": 2023,
+    "link": "https://doi.org/10.1145/3588001.3609361",
+    "doi": "10.1145/3588001.3609361",
+    "abstract": "With rapid urbanization and increasing traffic congestion in major cities, alternative modes of transportation have gained significant attention. The ride-sharing app revolution also has sparked a significant transformation in the transportation industry, along with \u201cKhep\u201d, an unusual ride-sharing approach where individuals negotiate fares directly with drivers personally, which has become a popular means of transportation. In this research, we investigate various factors that influence the preference for such unconventional contractual rides over ride-sharing apps, such as cultural norms, trust issues, affordability, and accessibility. Moreover, we explore the role of technology literacy, marketing strategies, and regulatory frameworks in shaping the adoption landscape. After conducting a survey and interviews, we conduct a thorough analysis to determine the expected findings and uncover meaningful insights regarding the utilization, preferences, and challenges within the ride-sharing industry in Bangladesh. The findings of this study reveal that cultural factors, such as the preference for bargaining and personal connections, strongly influence the popularity of contractual rides. Additionally, concerns related to safety, data privacy, and trust act as barriers to ride-sharing app adoption. Being associated with UN SDG Goals 11 and 9, the implications of this research extend beyond Bangladesh and can provide insights for policymakers, transportation companies, and technology developers seeking to understand the factors shaping the adoption of ride-sharing apps in similar contexts.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Adapting Forests to an Uncertain Climate: A Critical Technology Review",
+    "authors": "Max Kr\u00fcger, Felix Carros, Maximilian Brandt, D\u00e9bora de Castro Leal",
+    "year": 2023,
+    "link": "https://doi.org/10.1145/3588001.3609362",
+    "doi": "10.1145/3588001.3609362",
+    "abstract": "Forests across the world play a crucial role in the fight against the climate catastrophe as well as mass extinction that characterise the Anthropocene. However, they are also increasingly threatened by destructive human practices such as agriculture and mining, but also climate change itself. This article focuses on forests in Germany, which have been devastated in recent years by heat, drought and bark beetles. Hence, forests and associated forestry practices are in urgent need of adaptation to a different climate. Several digital applications have been developed to assist with this effort. Adaptation is complicated by the epistemological challenge of climate change, that the uncertainty of how exactly climate change will affect specific local sites, as well as future markets for forest products, poses. In this short paper we review how two applications address this uncertainty in their approach to supporting the climate adaptation of forests and draw out preliminary lessons for HCI research and design.",
+    "skip_reason": "The paper focuses on forests in Germany and does not substantively engage with a developing-regions context as required by the rules."
+  },
+  {
+    "title": "Pandemic, Hybrid Teaching & Stress: Examining Indian Teachers' Sociotechnical Support Practices in Low-income Schools",
+    "authors": "Akanksha Y. Gavade, Annie Sidotam, Rama Adithya Varanasi",
+    "year": 2023,
+    "link": "https://doi.org/10.1145/3588001.3609363",
+    "doi": "10.1145/3588001.3609363",
+    "abstract": "Support plays a vital role in the teaching profession. A good support system can empower teachers to regulate their emotions and effectively manage stress while working in isolation. The COVID-19 pandemic has ushered in a hybrid form of education, necessitating the acquisition of new skills by teachers and compelling them to adapt to remote teaching. This new development further amplifies the sense of isolation prevalent amongst the teaching community. Against this backdrop, our study investigates the availability of sociotechnical support infrastructures for teachers in low-income schools while also looking into the support practices embraced by this class of teachers following the pandemic. Through 28 qualitative interviews involving teachers, management and personnel from support organizations, we demonstrate how teachers have largely taken the initiative to establish their own informal support networks in the absence of formal support infrastructures. Smartphones have significantly augmented these support practices, serving as both a valuable source of support as well as a medium for facilitating support practices. However, in comparison to other forms of support received from these sources, the availability of emotion-focused support for teachers have proven to be inadequate, creating imbalances in their support seeking practices. Our paper provides different contextual ways to reduce these imbalances and improve the occupational well-being of teachers.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "FoodWise: Food Waste Reduction and Behavior Change on Campus with Data Visualization and Gamification",
+    "authors": "Yue Yu, Sophia Yi, Xi Nan, Leo Yu-Ho Lo, Kento Shigyo, Liwenhan Xie, Jeffry Wicaksana, Kwang-Ting Cheng, Huamin Qu",
+    "year": 2023,
+    "link": "https://doi.org/10.1145/3588001.3609364",
+    "doi": "10.1145/3588001.3609364",
+    "abstract": "Food waste presents a substantial challenge with significant environmental and economic ramifications, and its severity on campus environments is of particular concern. In response to this, we introduce FoodWise, a dual-component system tailored to inspire and incentivize campus communities to reduce food waste. The system consists of a data storytelling dashboard that graphically displays food waste information from university canteens, coupled with a mobile web application that encourages users to log their food waste reduction actions and rewards active participants for their efforts. Deployed during a two-week food-saving campaign at The Hong Kong University of Science and Technology (HKUST) in March 2023, FoodWise engaged over 200 participants from the university community, resulting in the logging of over 800 daily food-saving actions. Feedback collected post-campaign underscores the system\u2019s efficacy in elevating user consciousness about food waste and prompting behavioral shifts towards a more sustainable campus. This paper also provides insights for enhancing our system, contributing to a broader discourse on sustainable campus initiatives.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "How sustainable is your menu? Designing and assessing an interactive artefact to support chefs' sustainable recipe-planning practices",
+    "authors": "Aykut Coskun, H\u00fcseyin Ugur Gen\u00e7, Aysen Coskun",
+    "year": 2023,
+    "link": "https://doi.org/10.1145/3588001.3609366",
+    "doi": "10.1145/3588001.3609366",
+    "abstract": "Rising sustainability concerns in the food industry have driven the need for innovative approaches in culinary operations. Redesigning the menus and recipes from a sustainability perspective is a promising approach to reducing restaurants' environmental impact. Chefs, as crucial decision-makers in menu and recipe planning practices, play a vital role in promoting sustainable food services. However, the literature lacks insights into chefs' sustainable recipe planning practices and how information and communication technologies (ICTs) could support these practices. This paper addresses this gap by conducting individual interview sessions (n=10) and recipe generation workshops (n=10) with 20 chefs in total. It reveals four dimensions of sustainable recipes (locality, seasonality, frugality, and food quality) based on semi-structured interviews. It presents a novel interactive recipe planning concept called KNOBIE, which was designed to support chefs' sustainable recipe planning practices by using insights that gathered from the interviews. Lastly, based on an assessment of this concept through online recipe generation sessions with chefs, it provides five design implications for integrating ICTs into the sustainable menu and recipe planning practices to promote sustainable food services in restaurants.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Evaluating Mobile Banking Application Security Posture Using the OWASP's MASVS Framework",
+    "authors": "Trevor Henry Chiboora, Lenah Chacha, Theoneste Byagutangaza, Assane Gueye",
+    "year": 2023,
+    "link": "https://doi.org/10.1145/3588001.3609367",
+    "doi": "10.1145/3588001.3609367",
+    "abstract": "In the context of financial gain, hackers are motivated to exploit vulnerabilities that could result in financial or data loss. Therefore, it is crucial for financial applications to undergo thorough testing to identify and address such vulnerabilities. Regrettably, many financial institutions neglect proper testing procedures and sometimes even fail to establish a suitable security release baseline. This report presents an analysis of 18 mobile applications, each belonging to a different financial institution in Africa. The selection of these applications was carefully executed, considering institutions of varying sizes, to enable a comparative assessment of security practices across different organizational scales. The assessment was conducted by evaluating the sampled applications against the Mobile Application Security Verification Standard v2.0. This is a set of checklists and guidelines by the Open Web Application Security Project (OWASP) used as a baseline for mobile application security. Due to the extensive nature of the project, the testing scope was limited to the application itself, as experienced by the end user. This included examining the application\u2019s interaction with the back-end server and observing its behavior on the user\u2019s mobile device. It is important to note that this report does not provide a comprehensive analysis, as it excludes the assessment of the server-side API and testing of business logic that requires elevated privileges within the application. Furthermore, a survey was conducted to gain insights into why developers may neglect baseline security thereby introducing potential vulnerabilities in mobile applications. The findings of this survey are also included in a short summary at the end of this document.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "\"Do you collect data to give to the university or do you do the work to benefit people?\": Indigenous Data Sovereignty in Environmental Contexts",
+    "authors": "Amelia Lee Dogan, Danielle Wood",
+    "year": 2023,
+    "link": "https://doi.org/10.1145/3588001.3609368",
+    "doi": "10.1145/3588001.3609368",
+    "abstract": "This paper analyzes the current practices of Indigenous data sovereignty in environmental research and activism in the United States, as known by the settler government. The CARE principles are a widely adopted set of guidelines for Indigenous data sovereignty with guidelines being collective benefit, authority to control, respect and ethics, yet there exists little detail on current practices of operationalization and implementation of the CARE principles. This research specifically identified opportunities to further clarify how environmental data can be managed in accordance with the CARE principles. Using current literature, we examine how sustainability and Human-Computer Interaction (HCI) research could better incorporate Indigenous data sovereignty and governance. Through three interviews with Indigenous environmental practitioners, we use inductive and deductive analysis to understand current thoughts and practices. In a forestry analysis case study with the Penobscot Nation, we examine specifically how the CARE principles could be implemented into a research project. The interviews and case study reveal design considerations such as emphasizing roles in responsibility and ethics to be taken into future HCI research involving Indigenous data sovereignty in environmental contexts.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Collaborative Decision-Making Assistant for Healthcare Professionals: A Human-Centered AI Prototype Powered by Azure Open AI",
+    "authors": "Kenneth Yamikani Fukizi",
+    "year": 2023,
+    "link": "https://doi.org/10.1145/3588001.3609370",
+    "doi": "10.1145/3588001.3609370",
+    "abstract": "This paper presents a demonstration of a collaborative decision-making assistant designed to support healthcare professionals in making informed and personalized treatment decisions for their patients. The prototype highlights the integration of advanced AI algorithms, explainable AI techniques, and the utilization of mainly Microsoft related technology stacks, including ASP.Net Core and Azure Open AI services. The significance of this prototype lies in its contribution to the field of human-computer interaction, design and critical perspectives, specifically within the sub-domain of Human-centered AI. The prototype demonstration highlights innovation in the design, usage, sociotechnical context, and application of the prototype, and emphasizes commitment to ethical AI practices and responsible AI development, with considerations for fairness, transparency, and mitigating bias in AI algorithms, promoting the ethical use of AI in healthcare.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Multi-Objective Portfolio Optimization Towards Sustainable Investments",
+    "authors": "Yong Zheng, Kumar Neelotpal Shukla, Jasmine Xu, David Xuejun Wang, Michael O'Leary",
+    "year": 2023,
+    "link": "https://doi.org/10.1145/3588001.3609373",
+    "doi": "10.1145/3588001.3609373",
+    "abstract": "The process of financial portfolio optimization involves choosing the most suitable mix of assets to meet a particular investment goal. Conventional portfolio optimization primarily focuses on maximizing returns and minimizing risks while overlooking the importance of social responsibility or sustainability in financial investments. In this paper, we present a Python-based multi-objective portfolio optimization library for sustainable investments (MOPO-LSI). MOPO-LSI is able to take Environmental, Social and Governance (ESG) factors into consideration in financial portfolio, where investors\u2019 assets can be well allocated to mutual funds towards the ESG optimization along with their financial goals in the investment. MOPO-LSI is easy to be configured and used, and it is capable of production solutions in two scenarios \u2013 when client preferences are known or unknown. The developers can also easily customize the library to adapt it to their own financial objectives.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "The BALTO Toolkit - A New Approach to Ethical and Sustainable Data Collection for Equitable Public Transit",
+    "authors": "Vanessa Fr\u00edas-Mart\u00ednez, Saad Mohammad Abrar, Naman Awasthi, Sunyup Park, Jessica Vitak",
+    "year": 2023,
+    "link": "https://doi.org/10.1145/3588001.3609374",
+    "doi": "10.1145/3588001.3609374",
+    "abstract": "In most American cities commuters on public transit have disproportionately lower incomes than commuters who use automobiles. Given the proven link between geographic and economic mobility, it is critical to offer quality public transit to improve access to jobs, health care and education opportunities. Departments of Transportation (DOTs) routinely measure public transit performance and quality perceptions to assess the need for improvements in the transit systems. Nevertheless, the performance metrics used fail to capture the experiences of low-income individuals who often endure complex, lengthy trips, requiring several modes or transfers. We propose BALTO, a novel toolkit to characterize transit system performance and passenger\u2019s quality perceptions across all types of passengers and trips. We are designing the BALTO toolkit in collaboration with public housing residents from the Housing Authority of Baltimore City (HABC) and together with two local transit advocacy groups and the departments of transportation in Baltimore and in the state of Maryland.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Digital Public Goods Interoperability: A Low-Code Middleware Approach",
+    "authors": "Andrew Amstrong Musoke, Jean Paul Nishimirwe, Nafiu Lawal, Assane Gueye",
+    "year": 2023,
+    "link": "https://doi.org/10.1145/3588001.3609376",
+    "doi": "10.1145/3588001.3609376",
+    "abstract": "Digital Public Goods (DPGs) play a vital role in achieving the United Nations\u2019 Sustainable Development Goals (SDGs) in low-income and middle-income countries. However, the lack of interoperability among different DPGs could lead to duplication of efforts and/or lack of (inter)-functionality since one DPG is not able to benefit from the features of another. This paper illustrates the need for interoperability, the difficulty of retrofitting interoperability in the numerous mature DPG projects and introduces a middleware application as a solution. The middleware application is a lightweight, technology-agnostic, portable, and modular application which facilitates transactions between the integrating system and the integrated system. By customizing and deploying the middleware, integrating system developers can save time and costs, reducing barriers to prototyping and increasing the adoption rate of DPGs. Furthermore, developers do not need to provision or access a sandbox as the middleware supports mocking responses. A use case involving the integration of two DPGs, a digital identity system and a health information system, is illustrated. The paper also describes future enhancements to the generalizability of the middleware from 1-to-any to any-to-any as well as improving security resilience with WebAuthn and custom cyber-security hardening tools and procedures.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "The World Usability Initiative: Toward Inclusive and Usable Computing Technologies Worldwide",
+    "authors": "Elizabeth Rosenzweig, Shaimaa Y. Lazem, Susan Dray",
+    "year": 2023,
+    "link": "https://doi.org/10.1145/3588001.3609377",
+    "doi": "10.1145/3588001.3609377",
+    "abstract": "Usability is the key to making future technology useful to the world, yet it is often ignored. This workshop will introduce Usability, and brainstorm ways to incorporate it into UN SDGs. One example is our effort to add World Usability Day (WUD) to the UN calendar. We will explore implications for technology design for the Global South. We will also identify concrete next steps that we all can take to advance Usability worldwide.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Empowering Future Scholars: Coaching Workshop for Junior Researchers",
+    "authors": "Hafeni Mthoko, Joy Ming, Rama Adithya Varanasi",
+    "year": 2023,
+    "link": "https://doi.org/10.1145/3588001.3609379",
+    "doi": "10.1145/3588001.3609379",
+    "abstract": "In recent years, there has been a growing focus on HCI research in non-western contexts, attracting junior researchers from diverse backgrounds to actively engage in this global community. However, there are limited avenues for junior researchers to learn the unwritten practices and nuances of the research process. Our workshop addresses this need through a 3-hour coaching session where junior researchers are paired with experienced senior researchers to work on a concrete research task of the junior researcher\u2019s choice, providing valuable mentorship and guidance.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Approaches to leveraging digital higher education in Africa",
+    "authors": "Edward Peter Greenwood White, Jussi Okkonen, Reetta Oksa, Benjamin Ghansah, Christopher Yarkwah, Ephrem Kwaa-Aidoo, Issifu Yidana, Osafo Apeanti Wilson, Rosemary Twum",
+    "year": 2023,
+    "link": "https://doi.org/10.1145/3588001.3609380",
+    "doi": "10.1145/3588001.3609380",
+    "abstract": "ACM Reference Format: Edward, P.G. White, Benjamin Ghansah, Issifu Yidana, Jussi Okkonen, Christopher Yarkwah, Wilson Osafo Apeanti, Reeta Oksa, Ephrem KwaaAidoo, and Rosemary Twum. 2023. Approaches to leveraging digital higher education in Africa.. In ACM SIGCAS/SIGCHI Conference on Computing and Sustainable Societies (COMPASS \u201923), August 16\u201319, 2023, Cape Town, South Africa. ACM, New York, NY, USA, 3 pages. https://doi.org/10.1145/3588001. 3609380",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Effective Working Environment and Factor for A Software Engineer in Companies That Are Not ICT Based",
+    "authors": "Christianah Titilope Oyewale, Akintomiwa Mayowa Abolade, Olukunle Oyewumi",
+    "year": 2023,
+    "link": "https://doi.org/10.1145/3588001.3609381",
+    "doi": "10.1145/3588001.3609381",
+    "abstract": "Working as Software Engineer in the healthcare industry for four years. There were rules guiding the work environment of healthcare professionals but none for Software engineers, who tend to overwork. Such resulted in health issues. Not ICT-based organizations need an understanding of the working factors of the Software Engineer to make them effectively produce. The panelists will discuss this and give their recommendations.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  }
+]

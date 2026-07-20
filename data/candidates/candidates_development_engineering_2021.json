@@ -1,0 +1,76 @@
+[
+  {
+    "id": null,
+    "title": "The last mile in school access: Mapping education deserts in developing countries",
+    "authors": "Daniel Rodriguez-Segura, Brian Heseung Kim",
+    "year": 2021,
+    "venue": "development_engineering_2021",
+    "areas": [
+      "education"
+    ],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [],
+    "area_agnostic": false,
+    "source_course": "development_engineering_2021_venue_search",
+    "notes": "The paper engages with a developing-regions context (Guatemala) and applies CS fundamentals to address educational access issues, fitting the criteria for the 'cs_fundamentals' topic.",
+    "link": "https://doi.org/10.1016/j.deveng.2021.100064",
+    "abstract": "With recent advances in high-resolution satellite imagery and machine vision algorithms, fine-grain geospatial data on population are now widely available: kilometer-by-kilometer, worldwide. In this paper, we showcase how researchers and policymakers in developing countries can leverage these novel data to precisely identify \u201ceducation deserts\u201d \u2013 localized areas where families lack physical access to education \u2013 at unprecedented scale, detail, and cost-effectiveness. We demonstrate how these analyses could valuably inform educational access initiatives like school construction and transportation investments, and outline a variety of analytic extensions to gain deeper insight into the state of school access across a given country. We conduct a proof-of-concept analysis in the context of Guatemala, which has historically struggled with educational access, as a demonstration of the utility, viability, and flexibility of our proposed approach. We find that the vast majority of Guatemalan population lives within 3 km of a public primary school, indicating a generally low incidence of distance as a barrier to education in that context. However, we still identify concentrated pockets of population for whom the distance to school remains prohibitive, revealing important geographic variation within the strong country-wide average. Finally, we show how even a small number of optimally-placed schools in these areas, using a simple algorithm we develop, could substantially reduce the incidence of education deserts in this context. We make our entire codebase available to the public \u2013 fully free, open-source, heavily documented, and designed for broad use \u2013 allowing analysts across contexts to easily replicate our proposed analyses for other countries, educational levels, and public goods more generally.",
+    "_matched_keywords": [
+      "satellite imagery"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Estimating hourly lighting load profiles of rural households in East Africa applying a data-driven characterization of occupant behavior and lighting devices ownership",
+    "authors": "Cristina Dominguez, Kristina Orehounig, Jan Carmeliet",
+    "year": 2021,
+    "venue": "development_engineering_2021",
+    "areas": [
+      "infrastructure"
+    ],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [
+      "climate_change",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "development_engineering_2021_venue_search",
+    "notes": "The paper applies a data-driven methodology using machine learning to estimate electricity consumption in rural households, which can be adapted to a developing-regions context in India or other low/middle-income countries.",
+    "link": "https://doi.org/10.1016/j.deveng.2021.100073",
+    "abstract": "To design energy access solutions for rural households in developing countries it is important to have an accurate estimation of what their electricity consumption is. Studies reveal that they mainly use electricity to meet their lighting needs, as they cannot afford high power-consuming appliances. However, the scarce data availability and modeling complexity are a challenge to compute correctly the load profiles without collecting data on-site. This paper presents a methodology that computes the hourly lighting load profiles of rural households in East Africa requiring a small amount of publicly available input data. Combining data from household surveys, climate, and satellite imagery, the methodology applies machine learning for determining occupant behavior patterns, and lamps ownership for indoor and outdoor usage. For this, an average prediction accuracy of 80% is reached. After applying lighting requirement functions, load profiles are generated and then validated using measured data from 13 households in Kenya. Results show that the methodology is able to compute the load profiles with an average normalized root mean squared error of 0.7%, which is less compared to existing simulation approaches using on-site data. To demonstrate a broad application, the monthly lighting consumption is computed and projected geospatially for households in Kenya.",
+    "_matched_keywords": [
+      "satellite imagery"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Beyond materials: The construction process in space, time and culture in the informal settlement of Mathare, Nairobi",
+    "authors": "Giulia Celentano, Guillaume Habert",
+    "year": 2021,
+    "venue": "development_engineering_2021",
+    "areas": [
+      "infrastructure"
+    ],
+    "topics": [
+      "sociotechnical_dynamics",
+      "operations_scale"
+    ],
+    "cross_cutting_axes": [
+      "social_capital_marginalization",
+      "gender",
+      "caste"
+    ],
+    "area_agnostic": false,
+    "source_course": "development_engineering_2021_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context (informal settlements in Nairobi, Kenya), focusing on socio-technical dynamics and infrastructure issues.",
+    "link": "https://doi.org/10.1016/j.deveng.2021.100071",
+    "abstract": "The informal settlements in the Global South, mostly comprising of inadequate building solutions, are growing rapidly, therefore calling for more sustainable construction interventions and upgrading strategies. Within this context, this study considers that appropriate construction strategies are capable of engaging with the local economy, affected by endemic poverty, therefore contributing to the improvement of the settlement's socio-economic and physical conditions at once. A deeper understanding of the settlements construction process, actors, and key factors influencing material use, acceptance, and distribution, is therefore needed, and is here presented for the case of Mathare, in Nairobi. The study is based on field-based qualitative and quantitative data collection through semi-structured interviews and mapping, and through the adoption of methods as stakeholders analysis and supply chain mapping. The following insights have emerged from the study: 1) different client groups have access to different building materials; 2) the distribution of materials inside the settlement is strictly related to stores and building sites accessibility; 3) the local adoption of materials is highly impacted by the availability of space both at the supplier store and on the building site; 4) contextual cultural factors can have a major role in the construction organization. as for the case of ethnicity influencing roles distributions in the construction sector. The study insights are of relevance for the practice, specifically to inform project managers and policymakers involved in construction projects in the informal settlements about local material supply and demand constraints. Specifically, the study highlights the need to consider the availability of stocking space alongside the supply as well as on-site. Finally, it shows the validity of adopting a mixed-methods approach, looking at the settlements through a socio-technical approach.",
+    "_matched_keywords": [
+      "informal settlements"
+    ]
+  }
+]

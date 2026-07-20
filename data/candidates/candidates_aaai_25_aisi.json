@@ -1,0 +1,505 @@
+[
+  {
+    "id": null,
+    "title": "Generalizable Disaster Damage Assessment via Change Detection with Vision Foundation Model",
+    "authors": "Kyeongjin Ahn, Sungwon Han, Sungwon Park, Jihee Kim, Sangyoon Park, Meeyoung Cha",
+    "year": 2025,
+    "venue": "aaai_25_aisi",
+    "areas": [
+      "water_security",
+      "infrastructure"
+    ],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [
+      "climate_change"
+    ],
+    "area_agnostic": true,
+    "source_course": "aaai_25_aisi_venue_search",
+    "notes": "The paper applies strong computer science methods to disaster damage assessment, which can be adapted to developing regions for rapid and accurate damage assessment after natural disasters.",
+    "link": "https://ojs.aaai.org/index.php/AAAI/article/view/34994",
+    "abstract": "Abstract The increasing frequency and intensity of natural disasters call for rapid and accurate damage assessment. In response, disaster benchmark datasets from high-resolution satellite imagery have been constructed to develop methods for detecting damaged areas. However, these methods face significant challenges when applied to previously unseen regions due to the limited geographical and disaster-type diversity in the existing datasets. We introduce DAVI (Disaster Assessment with VIsion foundation model), a novel approach that addresses domain disparities and detects structural damage at the building level without requiring ground-truth labels for target regions. DAVI combines task-specific knowledge from a model trained on source regions with task-agnostic knowledge from an image segmentation model to generate pseudo labels indicating potential damage in target regions. It then utilizes a two-stage refinement process, which operate at both pixel and image levels, to accurately identify changes in disaster-affected areas. Our evaluation, including a case study on the 2023 T\u00fcrkiye earthquake, demonstrates that our model achieves exceptional performance across diverse terrains (e.g., North America, Asia, and the Middle East) and disaster types (e.g., wildfires, hurricanes, and tsunamis). This confirms its robustness in disaster assessment without dependence on ground-truth labels and highlights its practical applicability.",
+    "_matched_keywords": [
+      "satellite imagery"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Dust-Mamba: An Efficient Dust Storm Detection Network with Multiple Data Sources",
+    "authors": "Cong Bai, Zhonghao Lin, Jinglin Zhang, Shengyong Chen",
+    "year": 2025,
+    "venue": "aaai_25_aisi",
+    "areas": [
+      "water_security",
+      "climate_change"
+    ],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [
+      "climate_change"
+    ],
+    "area_agnostic": true,
+    "source_course": "aaai_25_aisi_venue_search",
+    "notes": "The paper applies strong computer science methods (cs_fundamentals) that could be adapted to a developing-regions context for environmental monitoring and disaster prediction.",
+    "link": "https://ojs.aaai.org/index.php/AAAI/article/view/34997",
+    "abstract": "Abstract Accurate detection of dust storms is challenging due to complex meteorological interactions. With the development of deep learning, deep neural networks have been increasingly applied to dust storm detection, offering better learning and generalization capabilities compared to traditional physical modeling. However, existing methods face some limitations, leading to performance bottlenecks in dust storm detection. From the task perspective, existing research focuses on occurrence detection while neglecting intensity detection. From the data perspective, existing research fails to explore the utilization of multi-source data. From the model perspective, most models are built on convolutional neural networks, which have an inherent limitation in capturing long-range dependencies. To address the challenges mentioned, this study proposes Dust-Mamba. To the best of our knowledge, this study is the first attempt to accomplish both the occurrence and intensity detection of dust storms with advanced deep learning technology. In Dust-Mamba, multi-source data is introduced to provide a comprehensive perspective, Mamba and attention are applied to boost feature selection while maintaining long-range modeling capability. Additionally, this study proposes Structure Sharing Transfer Learning Strategies for intensity detection, which further enhances the performance of Dust-Mamba with minimal time cost. As shown by experiments, Dust-Mamba achieves Dice scores of 0.963 for occurrence detection and 0.560 for intensity detection, surpassing several baseline models. In conclusion, this study offers valuable baselines for dust storm detection, with significant reference value and promising application potential.",
+    "_matched_keywords": [
+      "transfer learning"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Evaluating Index-based Treatment Allocation in Underresourced Communities",
+    "authors": "Niclas Boehmer, Yash Nair, Sanket Shah, Lucas Janson, Aparna Taneja, Milind Tambe",
+    "year": 2025,
+    "venue": "aaai_25_aisi",
+    "areas": [
+      "health"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "aaai_25_aisi_venue_search",
+    "notes": "The paper evaluates AI-powered allocation policies in underresourced communities, which can be adapted to developing regions' contexts, aligning with the cs_fundamentals topic rule.",
+    "link": "https://ojs.aaai.org/index.php/AAAI/article/view/35001",
+    "abstract": "Abstract In many applications of AI for Social Impact (e.g., when allocating spots in support programs for underserved communities), resources are scarce and an allocation policy is needed to decide who receives a resource. Before being deployed at scale, a rigorous evaluation of an AI-powered allocation policy is vital. In this paper, we introduce the methods necessary to evaluate index-based allocation policies, which allocate a limited number of resources to those who need them the most. Such policies create dependencies between agents, rendering standard statistical tests invalid and ineffective. Addressing the arising practical and technical challenges, we describe an efficient estimator and methods for drawing valid statistical conclusions. Our extensive experiments validate our methodology in practical settings while also showcasing its statistical power. We conclude by proposing and empirically verifying extensions of our methodology that enable us to reevaluate a past randomized control trial conducted with 10000 beneficiaries for a mHealth program for pregnant women. Our new methodology allows us to draw previously invisible conclusions when comparing two different ML allocation policies.",
+    "_matched_keywords": [
+      "mHealth"
+    ]
+  },
+  {
+    "id": null,
+    "title": "FoMo: Multi-Modal, Multi-Scale and Multi-Task Remote Sensing Foundation Models for Forest Monitoring",
+    "authors": "Nikolaos Ioannis Bountos, Arthur Ouaknine, Ioannis Papoutsis, David Rolnick",
+    "year": 2025,
+    "venue": "aaai_25_aisi",
+    "areas": [
+      "forests_restoration"
+    ],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [
+      "climate_change"
+    ],
+    "area_agnostic": false,
+    "source_course": "aaai_25_aisi_venue_search",
+    "notes": "The paper applies strong computer science methods to remote sensing data, which can be adapted to a developing-regions context for forest monitoring and management.",
+    "link": "https://ojs.aaai.org/index.php/AAAI/article/view/35002",
+    "abstract": "Abstract Forests are vital to ecosystems, supporting biodiversity and\nessential services, but are rapidly changing due to land use\nand climate change. Understanding and mitigating negative\neffects requires parsing data on forests at global scale from\na broad array of sensory modalities, and using them in diverse forest monitoring applications. Such diversity in data\nand applications can be effectively addressed through the\ndevelopment of a large, pre-trained foundation model that\nserves as a versatile base for various downstream tasks. However, remote sensing modalities, which are an excellent fit for\nseveral forest management tasks, are particularly challenging considering the variation in environmental conditions,\nobject scales, image acquisition modes and spatio-temporal\nresolutions, etc. With that in mind, we present the first unified Forest Monitoring Benchmark (FoMo-Bench), carefully\nconstructed to evaluate foundation models with such flexibility. FoMo-Bench consists of 15 diverse datasets encompassing satellite, aerial, and inventory data, covering a variety of geographical regions, and including multispectral, red-green-blue, synthetic aperture radar and LiDAR data with various temporal, spatial and spectral resolutions. FoMo-Bench includes multiple types of forest-monitoring tasks, spanning\nclassification, segmentation, and object detection. To enhance task and geographic diversity in FoMo-Bench, we introduce TalloS, a global dataset combining satellite imagery with ground-based annotations for tree species classification\nacross 1,000+ categories and hierarchical taxonomic levels.\nFinally, we propose FoMo-Net, a pre-training framework to\ndevelop foundation models with the capacity to process any\ncombination of commonly used modalities and spectral bands\nin remote sensing. This work aims to inspire research collaborations between machine learning and forest biology researchers in exploring scalable multi-modal and multi-task models for forest monitoring and beyond. All code, data and\nappendices are published in the repository and on ArXiv.",
+    "_matched_keywords": [
+      "remote sensing",
+      "satellite imagery",
+      "LiDAR",
+      "object detection"
+    ]
+  },
+  {
+    "id": null,
+    "title": "PrecipDiff: Leveraging Image Diffusion Models to Enhance Satellite-Based Precipitation Observations",
+    "authors": "Ting-Yu Dai, Hayato Ushijima-Mwesigwa",
+    "year": 2025,
+    "venue": "aaai_25_aisi",
+    "areas": [
+      "water_security"
+    ],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [
+      "climate_change"
+    ],
+    "area_agnostic": false,
+    "source_course": "aaai_25_aisi_venue_search",
+    "notes": "The paper applies computer science fundamentals that could be adapted to a developing-regions context, aligning with the cs_fundamentals topic rule.",
+    "link": "https://ojs.aaai.org/index.php/AAAI/article/view/35010",
+    "abstract": "Abstract A recent report from the World Meteorological Organization (WMO) highlights that water-related disasters have caused the highest human losses among natural disasters over the past 50 years, with over 91\\% of deaths occurring in low-income countries. This disparity is largely due to the lack of adequate ground monitoring stations, such as weather surveillance radars (WSR), which are expensive to install. For example, while the US and Europe combined possess over 600 WSRs, Africa, despite having almost one and half times their landmass, has fewer than 40.\nTo address this issue, satellite-based observations offer a global, near-real-time monitoring solution. However, they face several challenges like accuracy, bias, and low spatial resolution. \nThis study leverages the power of diffusion models and residual learning to address these limitations in a unified framework. We introduce the first diffusion model for correcting the inconsistency between different precipitation products. Our method demonstrates the effectiveness in downscaling satellite precipitation estimates from 10 km to 1 km resolution. Extensive experiments conducted in the Seattle region demonstrate significant improvements in accuracy, bias reduction, and spatial detail. Importantly, our approach achieves these results using only precipitation data, showcasing the potential of a purely computer vision-based approach for enhancing satellite precipitation products and paving the way for further advancements in this domain.",
+    "_matched_keywords": [
+      "diffusion models"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Data Augmentation Approaches for Satellite Imagery",
+    "authors": "Laurel M. Hopkins, Weng-Keen Wong, Hannah Kerner, Fuxin Li, Rebecca A. Hutchinson",
+    "year": 2025,
+    "venue": "aaai_25_aisi",
+    "areas": [
+      "agriculture",
+      "water_security",
+      "forests_restoration"
+    ],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [],
+    "area_agnostic": false,
+    "source_course": "aaai_25_aisi_venue_search",
+    "notes": "The paper applies strong computer science methods to data augmentation for satellite imagery, which can be adapted to a developing-regions context for tasks like land use monitoring and agricultural assessment.",
+    "link": "https://ojs.aaai.org/index.php/AAAI/article/view/35028",
+    "abstract": "Abstract Deep learning models commonly benefit from data augmentation techniques to diversify the set of training images. When working with satellite imagery, it is common for practitioners to apply a limited set of transformations developed for natural images (e.g., flip and rotate) to expand the training set without overly modifying the satellite images. There are many techniques for natural image data augmentation, but given the differences between the two domains, it is not clear whether data augmentation methods developed for natural images are well suited for satellite imagery. This paper presents an extensive experimental study on three classification and three regression tasks over four satellite image datasets. We compare common computer vision data augmentation techniques and propose three novel satellite-specific data augmentation strategies. Across tasks and datasets, we find that geometric transformations are beneficial for satellite imagery while color transformations generally are not. Additionally, our novel Sat-SlideMix, Sat-CutMix, and Sat-Trivial methods all exhibit strong performance across all tasks and datasets.",
+    "_matched_keywords": [
+      "satellite imagery"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Pre-trained Behavioral Model for Malicious User Prediction on Social Platform",
+    "authors": "Meng Jiang, Wenjie Wang, Shaofeng Hu, Kaishen Ou, Zhenjing Zheng, Fuli Feng",
+    "year": 2025,
+    "venue": "aaai_25_aisi",
+    "areas": [],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [],
+    "area_agnostic": true,
+    "source_course": "aaai_25_aisi_venue_search",
+    "notes": "The paper applies strong computer science methods that could be adapted to a developing-regions context, fitting the cs_fundamentals topic rule.",
+    "link": "https://ojs.aaai.org/index.php/AAAI/article/view/35032",
+    "abstract": "Abstract The proliferation of malicious users on social platforms poses significant financial and psychological threats, with activities ranging from scams to the dissemination of illicit content. Existing malicious user prediction comprises supervised and self-supervised learning methods. However, the former relies on extensive labeled malicious users for training, while the latter typically focuses on one form of malicious activity and depends heavily on manually crafted rules and features during pre-training. Moreover, existing pre-training methods fail to effectively capture the crucial repetitive and sporadic behavior patterns of malicious users. To address these limitations, we propose a Malicious User Behavior Pre-training framework (MaP) to build pre-trained behavior models. MaP integrates malicious pattern recognition with behavior consistency augmentation and local disruption augmentation strategies for contrastive learning to capture repetitive and sporadic malicious patterns, respectively. We instantiate MaP on a billion-level behavior pre-training scenario within an industry context. Both online and offline evaluations validate the superior performance of MaP in malicious user detection and classification.",
+    "_matched_keywords": [
+      "self-supervised learning"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Fields of The World: A Machine Learning Benchmark Dataset for Global Agricultural Field Boundary Segmentation",
+    "authors": "Hannah Kerner, Snehal Chaudhari, Aninda Ghosh, Caleb Robinson, Adeel Ahmad, Eddie Choi, Nathan Jacobs, Chris Holmes, Matthias Mohr, Rahul Dodhia, Juan M Lavista Ferres, Jennifer Marcus",
+    "year": 2025,
+    "venue": "aaai_25_aisi",
+    "areas": [
+      "agriculture"
+    ],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [],
+    "area_agnostic": false,
+    "source_course": "aaai_25_aisi_venue_search",
+    "notes": "The paper applies strong computer science methods to a problem relevant to global agriculture, which can be adapted to a developing-regions context in India.",
+    "link": "https://ojs.aaai.org/index.php/AAAI/article/view/35034",
+    "abstract": "Abstract Crop field boundaries are foundational datasets for agricultural monitoring and assessments but are expensive to collect manually. Machine learning (ML) methods for automatically extracting field boundaries from remotely sensed images could help realize the demand for these datasets at a global scale. However, current ML methods for field instance segmentation lack sufficient geographic coverage, accuracy, and generalization capabilities. Further, research on improving ML methods is restricted by the lack of labeled datasets representing the diversity of global agricultural fields. We present Fields of The World (FTW)---a novel ML benchmark dataset for agricultural field instance segmentation spanning 24 countries on four continents (Europe, Africa, Asia, and South America). FTW is an order of magnitude larger than previous datasets with 70,462 samples, each containing instance and semantic segmentation masks paired with multi-date, multi-spectral Sentinel-2 satellite images. We provide results from baseline models for the new FTW benchmark, show that models trained on FTW have better zero-shot and fine-tuning performance in held-out countries than models that aren't pre-trained with diverse datasets, and show positive qualitative zero-shot results of FTW models in a real-world scenario -- running on Sentinel-2 scenes over Ethiopia.",
+    "_matched_keywords": [
+      "Sentinel-2",
+      "semantic segmentation"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Context in Public Health for Underserved Communities: A Bayesian Approach to Online Restless Bandits",
+    "authors": "Biyonka Liang, Lily Xu, Aparna Taneja, Milind Tambe, Lucas Janson",
+    "year": 2025,
+    "venue": "aaai_25_aisi",
+    "areas": [
+      "health"
+    ],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "aaai_25_aisi_venue_search",
+    "notes": "The paper engages with a developing-regions context through its collaboration with an NGO in India and its application to maternal mHealth programs.",
+    "link": "https://ojs.aaai.org/index.php/AAAI/article/view/35039",
+    "abstract": "Abstract Public health programs often provide interventions to encourage program adherence, and effectively allocating interventions is vital for producing the greatest overall health outcomes, especially in underserved communities where resources are limited. Such resource allocation problems are often modeled as restless multi-armed bandits (RMABs) with unknown underlying transition dynamics, hence requiring online reinforcement learning (RL). We present Bayesian Learning for Contextual RMABs (BCoR), an online RL approach for RMABs that novelly combines techniques in Bayesian modeling with Thompson sampling to flexibly model the complex RMAB settings present in public health program adherence problems, namely context and non-stationarity. BCoR's key strength is the ability to leverage shared information within and between arms to learn the unknown RMAB transition dynamics quickly in intervention-scarce settings with relatively short time horizons, which is common in public health applications. Empirically, BCoR achieves substantially higher finite-sample performance over a range of experimental settings, including a setting using real-world adherence data that was developed in collaboration with ARMMAN, an NGO in India which runs a large-scale maternal mHealth program, showcasing BCoR practical utility and potential for real-world deployment.",
+    "_matched_keywords": [
+      "mHealth"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Data-driven Precipitation Nowcasting Using Satellite Imagery",
+    "authors": "Young-Jae Park, Doyi Kim, Minseok Seo, Hae-Gon Jeon, Yeji Choi",
+    "year": 2025,
+    "venue": "aaai_25_aisi",
+    "areas": [
+      "water_security"
+    ],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [
+      "climate_change"
+    ],
+    "area_agnostic": false,
+    "source_course": "aaai_25_aisi_venue_search",
+    "notes": "The paper proposes a general-purpose methodology that could be adapted to a developing-regions context for accurate precipitation forecasting, which is crucial for disaster early warnings in such regions.",
+    "link": "https://ojs.aaai.org/index.php/AAAI/article/view/35049",
+    "abstract": "Abstract Accurate precipitation forecasting is crucial for early warnings of disasters, such as floods and landslides. Traditional forecasts rely on ground-based radar systems, which are space-constrained and have high maintenance costs. Consequently, most developing countries depend on a global numerical model with low resolution, instead of operating their own radar systems. To mitigate this gap, we propose the Neural Precipitation Model (NPM), which uses global-scale geostationary satellite imagery. NPM predicts precipitation for up to six hours, with an update every hour. We input three key channels to discriminate rain clouds: infrared radiation (at a wavelength of 10.5 \u00b5m), upper- (6.3 \u00b5m), and lower- (7.3 \u00b5m) level water vapor channels. Additionally, NPM introduces positional encoders to capture seasonal and temporal patterns, reflecting variations in precipitation. Our experimental results demonstrate that NPM can predict rainfall in real-time with a resolution of 2 km.",
+    "_matched_keywords": [
+      "satellite imagery"
+    ]
+  },
+  {
+    "id": null,
+    "title": "ml4xcube: Machine Learning Toolkits for Earth System Data Cubes",
+    "authors": "Julia Peters, Anja Neumann, Marco Jaeger, Lukas Gienapp, Josefine Umlauft",
+    "year": 2025,
+    "venue": "aaai_25_aisi",
+    "areas": [
+      "water_security",
+      "climate_change"
+    ],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [
+      "climate_change"
+    ],
+    "area_agnostic": false,
+    "source_course": "aaai_25_aisi_venue_search",
+    "notes": "The paper applies strong computer science methods to environmental data analysis, which can be adapted to a developing-regions context for climate change and water security issues.",
+    "link": "https://ojs.aaai.org/index.php/AAAI/article/view/35051",
+    "abstract": "Abstract Rapidly changing climate conditions and the increase in extreme events are posing severe challenges to human life and infrastructure, requiring sophisticated analytical capabilities for hazard prediction and disaster risk management. Earth System Data Cubes (ESDCs) have become an essential tool in Earth System Sciences (ESS) by organizing large-scale, multivariate environmental datasets into a structured, scalable and analysis-ready format. However, modern machine learning techniques are not yet being utilized to their full potential on ESDCs. This is due to the lack of proper tooling, domain-specific challenges, and high barriers of entry for practitioners. We introduce ml4xcube, an open-source Python framework designed to assist ESS domain experts in applying ML techniques on ESDCs for advanced analysis and prediction of environmental variables and impacts. Through a comprehensive suite of tools, it addresses specific challenges associated with the nature of ESS data, such as the non-uniform data distribution due to dynamic gaps, or spatio-temporal autocorrelation of environmental variables. Due to its modular architecture, it covers the complete analysis process, from data exploration, and preparation, to model development, result interpretation and evaluation. With support for distributed computing, it handles large ESDC datasets efficiently. In order to ease the adoption it includes extensive documentation and tutorial notebooks. We demonstrate ml4xcube's capabilities through three examples, showcasing its potential and capabilities for integrating machine learning with ESDC data.",
+    "_matched_keywords": [
+      "disaster risk"
+    ]
+  },
+  {
+    "id": null,
+    "title": "SIDE: Socially Informed Drought Estimation Toward Understanding Societal Impact Dynamics of Environmental Crisis",
+    "authors": "Lanyu Shang, Bozhang Chen, Shiwei Liu, Yang Zhang, Ruohan Zong, Anav Vora, Ximing Cai, Na Wei, Dong Wang",
+    "year": 2025,
+    "venue": "aaai_25_aisi",
+    "areas": [
+      "water_security"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "climate_change"
+    ],
+    "area_agnostic": false,
+    "source_course": "aaai_25_aisi_venue_search",
+    "notes": "The paper addresses water security and climate change, which are relevant to developing regions through the lens of drought estimation and societal impact.",
+    "link": "https://ojs.aaai.org/index.php/AAAI/article/view/35057",
+    "abstract": "Abstract Drought has become a critical global threat with significant societal impact. Existing drought monitoring solutions primarily focus on assessing drought severity using quantitative measurements, overlooking the diverse societal impact of drought from human-centric perspectives. Motivated by the collective intelligence on social media and the computational power of AI, this paper studies a novel problem of socially informed AI-driven drought estimation that aims to leverage social and news media information to jointly estimate drought severity and its societal impact. Two technical challenges exist: 1) How to model the implicit temporal dynamics of drought societal impact. 2) How to capture the social-physical interdependence between the physical drought condition and its societal impact. To address these challenges, we develop SIDE, a socially informed AI-driven drought estimation framework that explicitly quantifies the societal impact of drought and effectively models the social-physical interdependency for joint severity-impact estimation. Experiments on real-world datasets from California and Texas demonstrate SIDE's superior performance compared to state-of-the-art baselines in accurately estimating drought severity and its societal impact. SIDE offers valuable insights for developing human-centric drought mitigation strategies to foster sustainable and resilient communities.",
+    "_matched_keywords": [
+      "drought"
+    ]
+  },
+  {
+    "id": null,
+    "title": "A Denoising Pre-training Framework for Accelerating Novel Material Discovery",
+    "authors": "Shuaike Shen, Ke Liu, Muzhi Zhu, Hao Chen",
+    "year": 2025,
+    "venue": "aaai_25_aisi",
+    "areas": [],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [
+      "climate_change"
+    ],
+    "area_agnostic": true,
+    "source_course": "aaai_25_aisi_venue_search",
+    "notes": "The paper applies strong computer science methods (cs_fundamentals) that could be adapted to a developing-regions context to accelerate material discovery for sustainable development goals.",
+    "link": "https://ojs.aaai.org/index.php/AAAI/article/view/35058",
+    "abstract": "Abstract Crystal materials play an important role in the development of society. The discovery of new materials is critical to achieving sustainable development goals (SDGs), such as climate change mitigation, affordable and clean energy, and fostering innovation in industry and infrastructure. Recent advances in deep learning for crystal property prediction have accelerated material discovery, but these methods typically rely on labeled data, which is often limited and varies across different properties. This limitation hinders the full utilization of the vast amount of unlabeled data in materials science. To overcome this challenge, we introduce an unsupervised Denoising Pre-training Framework (DPF) tailored for crystal structures. DPF trains a model to reconstruct the original crystal structure by recovering the masked atom types, perturbed atom positions, and perturbed crystal lattices. Through pre-training, models learn the intrinsic features of crystal structures and capture the key features influencing crystal properties. We pre-train models on a dataset of 380,743 unlabeled crystal structures and fine-tune them on downstream property prediction tasks. Extensive experiments demonstrate the effectiveness of our framework, showing its potential to significantly advance material science and contribute to the development of society by accelerating the discovery of materials crucial for sustainable technologies.",
+    "_matched_keywords": [
+      "climate change mitigation"
+    ]
+  },
+  {
+    "id": null,
+    "title": "FIDLAR: Forecast-Informed Deep Learning Architecture for Flood Mitigation",
+    "authors": "Jimeng Shi, Zeda Yin, Arturo Leon, Jayantha Obeysekera, Giri Narasimhan",
+    "year": 2025,
+    "venue": "aaai_25_aisi",
+    "areas": [
+      "water_security"
+    ],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [],
+    "area_agnostic": false,
+    "source_course": "aaai_25_aisi_venue_search",
+    "notes": "The paper applies strong computer science methods to a real-world problem, fitting the 'cs_fundamentals' topic rule.",
+    "link": "https://ojs.aaai.org/index.php/AAAI/article/view/35059",
+    "abstract": "Abstract In coastal river systems, floods, often during major storms or king tides, severely threaten lives and property. However, hydraulic structures such as dams, gates, pumps, and reservoirs exist in these river systems, and these floods can be mitigated or even prevented by strategically releasing water before extreme weather events. A standard approach used by local water management agencies is the \u201crule-based\u201d method, which specifies predetermined water prereleases based on historical human experience, but which tends to result in excessive or inadequate water release. Iterative optimization methods that rely on detailed physics-based models for prediction are an alternative approach. Whereas, such methods tend to be computationally intensive, requiring hours or even days to solve the problem optimally. In this paper, we propose a Forecast Informed Deep Learning Architecture, FIDLAR, to achieve rapid and near-optimal flood management with precise water prereleases. FIDLAR seamlessly integrates two neural network modules: one called the Flood Manager, which is responsible for generating water pre-release schedules, and another called the Flood Evaluator, which evaluates those generated schedules. The Evaluator module is pre-trained separately, and its gradient-based feedback is utilized to train the Manager model, ensuring near-optimal water pre-releases. We have conducted experiments with a flood-prone coastal area in South Florida. Results show that FIDLAR is several orders of magnitude faster than currently used physics-based approaches while outperforming baseline methods with improved water pre-release schedules.",
+    "_matched_keywords": [
+      "extreme weather"
+    ]
+  },
+  {
+    "id": null,
+    "title": "DivShift: Exploring Domain-Specific Distribution Shifts in Large-Scale, Volunteer-Collected Biodiversity Datasets",
+    "authors": "Elena Sierra, Lauren E. Gillespie, Salim Soltani, Moises Exposito-Alonso, Teja Kattenborn",
+    "year": 2025,
+    "venue": "aaai_25_aisi",
+    "areas": [
+      "wildlife_conservation"
+    ],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [
+      "climate_change"
+    ],
+    "area_agnostic": false,
+    "source_course": "aaai_25_aisi_venue_search",
+    "notes": "The paper applies strong computer science methods to address distribution shifts in large-scale biodiversity datasets, which can be adapted to a developing-regions context for species recognition and conservation efforts.",
+    "link": "https://ojs.aaai.org/index.php/AAAI/article/view/35060",
+    "abstract": "Abstract Large-scale, volunteer-collected datasets of community-identified natural world imagery like iNaturalist have enabled marked performance gains for fine-grained visual classification of species using machine learning methods. However, such data---sometimes referred to as citizen science data---are opportunistic and lack a structured sampling strategy. This volunteer-collected biodiversity data contains geographic, temporal, taxonomic, observers, and sociopolitical biases that can have significant effects on biodiversity model performance, but whose impacts are unclear for fine-grained species recognition performance. Here we introduce Diversity Shift (DivShift), a framework for quantifying the effects of domain-specific distribution shifts on machine learning model performance. To diagnose the performance effects of biases specific to volunteer-collected biodiversity data, we also introduce DivShift - North American West Coast (DivShift-NAWC), a curated dataset of almost 7.5 million iNaturalist images across the western coast of North America partitioned across five types of expert-verified bias. We compare species recognition performance across these bias partitions using a diverse variety of species- and ecosystem-focused accuracy metrics. We observe that these biases confound model performance less than expected from the underlying label distribution shift, and that more data leads to better model performance but the magnitude of these improvements are bias-specific. These findings imply that while the structure within natural world images provides generalization improvements for biodiversity monitoring tasks, the biases present in volunteer-collected biodiversity data can also affect model performance; thus these models should be used with caution in downstream biodiversity monitoring tasks.",
+    "_matched_keywords": [
+      "biodiversity monitoring",
+      "citizen science data"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Measuring Fine-Grained Urban Air Temperature with Satellite Imagery",
+    "authors": "Minhyuk Song, Sungwon Han, Seungeon Lee, Donghyun Ahn, Jihee Kim, Meeyoung Cha",
+    "year": 2025,
+    "venue": "aaai_25_aisi",
+    "areas": [
+      "climate_change"
+    ],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [
+      "climate_change"
+    ],
+    "area_agnostic": true,
+    "source_course": "aaai_25_aisi_venue_search",
+    "notes": "The paper proposes a general-purpose methodology using satellite data to measure urban air temperature, which can be adapted to a developing-regions context, aligning with the cs_fundamentals topic rule.",
+    "link": "https://ojs.aaai.org/index.php/AAAI/article/view/35061",
+    "abstract": "Abstract Recent studies on the urban heat island phenomenon reveal how rapid urbanization intensifies temperature disparities in urban cores, highlighting the need for sustainable urban planning solutions. Analyzing the problems caused by these effects requires high-resolution climate data; however, physical weather stations often lack sufficient regional coverage and resolution. Proposals for alternative methods have attempted to bridge this gap, but they fall short in capturing regional characteristics adequately or necessitate obtaining difficult-to-get input data. This research proposes to use satellite data, where the visual spectrum provides rich information about the degree of human development and is easy to obtain, to measure urban air temperature. Our model, UrbanHeat, uses multi-resolution satellite imagery and employs land surface temperature and global climate data as proxy labels to predict air temperature at a granular scale. The results show that the model provides predictions at a much finer scale while showing superior performance in measuring ordinal relationships between points by capturing both local and broad land cover details of the region. Our case studies demonstrate how predictions at high resolution can help protect vulnerable populations from extreme heat (e.g., elders or developing countries) and contribute to sustainable urban development worldwide.",
+    "_matched_keywords": [
+      "satellite imagery"
+    ]
+  },
+  {
+    "id": null,
+    "title": "DroughtSet: Understanding Drought Through Spatial-Temporal Learning",
+    "authors": "Xuwei Tan, Qian Zhao, Yanlan Liu, Xueru Zhang",
+    "year": 2025,
+    "venue": "aaai_25_aisi",
+    "areas": [
+      "water_security"
+    ],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [
+      "climate_change"
+    ],
+    "area_agnostic": false,
+    "source_course": "aaai_25_aisi_venue_search",
+    "notes": "The paper applies general-purpose methodology that could be adapted to a developing-regions context, fitting the cs_fundamentals topic rule.",
+    "link": "https://ojs.aaai.org/index.php/AAAI/article/view/35066",
+    "abstract": "Abstract Drought is one of the most destructive and expensive natural disasters, severely impacting natural resources and risks by depleting water resources and diminishing agricultural yields. Under climate change, accurately predicting drought is critical for mitigating drought-induced risks. However, the intricate interplay among the physical and biological drivers that regulate droughts limits the predictability and understanding of drought, particularly at a subseasonal to seasonal (S2S) time scale. While deep learning has demonstrated the potential to address climate forecasting challenges, its application to drought prediction has received relatively less attention. In this work, we propose a new dataset, DroughtSet, which integrates relevant predictive features and three drought indices from multiple remote sensing and reanalysis datasets across the contiguous United States (CONUS). DroughtSet specifically provides the machine learning community with a new real-world dataset to benchmark drought prediction models and more generally, time-series forecasting methods. Furthermore, we propose a spatial-temporal model SPDrought to predict and interpret S2S droughts. Our model learns from the spatial and temporal information of physical and biological features to predict three types of droughts simultaneously. Multiple strategies are employed to quantify the importance of physical and biological features for drought prediction. Our results provide insights for researchers to better understand the predictability and sensitivity of drought to biological and physical conditions. We aim to contribute to the climate field by proposing a new tool to predict and understand the occurrence of droughts and provide the AI community with a new benchmark to study deep learning applications in climate science.",
+    "_matched_keywords": [
+      "drought",
+      "remote sensing"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Large-Scale School Mapping Using Weakly Supervised Deep Learning for Universal School Connectivity",
+    "authors": "Isabelle Tingzon, Utku Can Ozturk, Ivan Dotu",
+    "year": 2025,
+    "venue": "aaai_25_aisi",
+    "areas": [
+      "education"
+    ],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [],
+    "area_agnostic": false,
+    "source_course": "aaai_25_aisi_venue_search",
+    "notes": "The paper applies a general-purpose methodology that could be adapted to a developing-regions context, focusing on school connectivity in low- and middle-income countries, which aligns with the 'cs_fundamentals' topic rule.",
+    "link": "https://ojs.aaai.org/index.php/AAAI/article/view/35067",
+    "abstract": "Abstract Improving global school connectivity is critical for ensuring inclusive and equitable quality education. To reliably estimate the cost of connecting schools, governments and connectivity providers require complete and accurate school location data \u2013 a resource that is often scarce in many low- and middle-income countries. To address this challenge, we propose a cost-effective, scalable approach to locating schools in high-resolution satellite images using weakly supervised deep learning techniques. Our best models, which combine vision transformers and convolutional neural networks, achieve AUPRC values above 0.96 across 10 pilot African countries. Leveraging explainable AI techniques, our approach can approximate the precise geographical coordinates of the school locations using only low-cost, classification-level annotations. To demonstrate the scalability of our method, we generate nationwide maps of school location predictions in African countries and present a detailed analysis of our results, using Senegal as our case study. Finally, we demonstrate the immediate usability of our work by introducing an interactive web mapping tool to streamline human-in-the-loop model validation efforts by government partners. This work successfully showcases the real-world utility of deep learning and satellite images for planning regional infrastructure and accelerating universal school connectivity.",
+    "_matched_keywords": [
+      "vision transformers"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Hybrid Phenology Modeling for Predicting Temperature Effects on Tree Dormancy",
+    "authors": "Ron van Bree, Diego Marcos, Ioannis N. Athanasiadis",
+    "year": 2025,
+    "venue": "aaai_25_aisi",
+    "areas": [
+      "forests_restoration",
+      "wildlife_conservation"
+    ],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [
+      "climate_change"
+    ],
+    "area_agnostic": false,
+    "source_course": "aaai_25_aisi_venue_search",
+    "notes": "The paper applies strong computer science methods to a specific problem, fitting the cs_fundamentals topic rule.",
+    "link": "https://ojs.aaai.org/index.php/AAAI/article/view/35068",
+    "abstract": "Abstract Biophysical models offer valuable insights into climate-phenology relationships in both natural and agricultural settings. However, there are substantial structural discrepancies across models which require site-specific recalibration, often yielding inconsistent predictions under similar climate scenarios. Machine learning methods offer data-driven solutions, but often lack interpretability and alignment with existing knowledge. We present a phenology model describing dormancy in fruit trees, integrating conventional biophysical models with a neural network to address their structural disparities. We evaluate our hybrid model in an extensive case study predicting cherry tree phenology in Japan, South Korea and Switzerland. Our approach consistently outperforms both traditional biophysical and machine learning models in predicting blooming dates across years. Additionally, the neural network's adaptability facilitates parameter learning for specific tree varieties, enabling robust generalization to new sites without site-specific recalibration. This hybrid model leverages both biophysical constraints and data-driven flexibility, offering a promising avenue for accurate and interpretable phenology modeling.",
+    "_matched_keywords": [
+      "phenology"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Fair Graph U-Net: A Fair Graph Learning Framework Integrating Group and Individual Awareness",
+    "authors": "Zichong Wang, Zhibo Chu, Thang Viet Doan, Shaowei Wang, Yongkai Wu, Vasile Palade, Wenbin Zhang",
+    "year": 2025,
+    "venue": "aaai_25_aisi",
+    "areas": [],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [],
+    "area_agnostic": true,
+    "source_course": "aaai_25_aisi_venue_search",
+    "notes": "The paper addresses a general-purpose methodology in computer science that could be adapted to a developing-regions context, aligning with the cs_fundamentals topic rule.",
+    "link": "https://ojs.aaai.org/index.php/AAAI/article/view/35071",
+    "abstract": "Abstract Learning high-level representations for graphs is crucial for tasks like node classification, where graph pooling aggregates node features to provide a holistic view that enhances predictive performance. Despite numerous methods that have been proposed in this promising and rapidly developing research field, most efforts to generalize the pooling operation to graphs are primarily performance-driven, with fairness issues largely overlooked: i) the process of graph pooling could exacerbate disparities in distribution among various subgroups; ii) the resultant graph structure augmentation may inadvertently strengthen intra-group connectivity, leading to unintended inter-group isolation. To this end, this paper extends the initial effort on fair graph pooling to the development of fair graph neural networks, while also providing a unified framework to collectively address group and individual graph fairness. Our experimental evaluations on multiple datasets demonstrate that the proposed method not only outperforms state-of-the-art baselines in terms of fairness but also achieves comparable predictive performance.",
+    "_matched_keywords": [
+      "U-Net"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Integrating Multi-Source Data for Long Sequence Precipitation Forecasting",
+    "authors": "Demin Yu, Wenzhi Feng, Kenghong Lin, Xutao Li, Yunming Ye, Chuyao Luo, Wenchuan Du",
+    "year": 2025,
+    "venue": "aaai_25_aisi",
+    "areas": [
+      "water_security",
+      "agriculture"
+    ],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [
+      "climate_change"
+    ],
+    "area_agnostic": false,
+    "source_course": "aaai_25_aisi_venue_search",
+    "notes": "The paper's methodology can be adapted to a developing-regions context for climate change-related applications, such as improving water security and agricultural planning.",
+    "link": "https://ojs.aaai.org/index.php/AAAI/article/view/35077",
+    "abstract": "Abstract Long-sequence precipitation forecasting is critical for both meteorological science and smart city applications. The primary objective of this task is to predict future radar echo sequences, which provide high resolution and timely references for atmospheric precipitation distribution based on current observations. However, the chaotic nature of precipitation systems poses significant challenges in extending reliable forecast horizons. Most existing methods struggle with accuracy and clarity when extended to long-sequence predictions, such as three-hour forecasts. This is primarily due to the insufficiency of spatio-temporal information within a single modality over time. In this paper, we propose a cascading forecasting framework that adaptively extracts and integrates multimodal spatio-temporal information to support accurate and realistic long-sequence radar forecasting. Our framework includes a temporal adaptive predictor and a flow-based precipitation distribution adaptor. The predictor utilizes a multi-branch encoder-decoder architecture. This design allows it to extract meteorological sequences from multiple sources at varying scales, resulting in an initial global precipitation estimate. The core component is a carefully designed cross-attention module with a temporal adaptive layer to enhance multi-modality alignment. The initial estimate is then refined by the flow-based adaptor, which adjusts the prediction to match the target precipitation distribution, enhancing local details and correcting extreme precipitation patterns. We validated our method using real multi-source dataset for long-sequence forecasting, and the experimental results demonstrate that our approach outperforms existing state-of-the-art methods.",
+    "_matched_keywords": [
+      "smart city"
+    ]
+  }
+]

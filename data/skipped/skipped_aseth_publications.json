@@ -1,0 +1,842 @@
+[
+  {
+    "title": "Initial Observations from Field Testing of a Digital Participatory Tool to Improve Water Security in Rural India",
+    "authors": "S.A. Mehta, A. Dutt, A, Tannirkulam, A.P. Singh, A. Verma, A. Singha, A. Sreenidhi, A. Nandi, Ankit, A. Kumar, A. Dabli, Athira P., B. Ramachandran, C. Bansal, C.S. Sheth, C. Dsouza, D. Kumar, D. Sharma, Harshita, J. Singh, K. Dadheech, K. Agrahari, O. Krishna, P. Prasad, P. Radhakrishnan, R. Sardana, R. Bhabak, R.S. Bodavula, S. Vishnubhatla, S. Haldar, S. Agrawal, S.P. Maurya, S. Kumari, Siddharth S., S. Kumari, V. Agarwal, Vishnu S., and A. Seth",
+    "year": 2024,
+    "venue": "ICTD",
+    "link": "https://www.cse.iitd.ernet.in/~aseth/commons-connect-ictd2024.pdf",
+    "doi": null,
+    "abstract": null,
+    "skip_reason": "ALREADY_IN_READINGS: duplicate of 'ictd_2024_initial_observations_from_field_testing_of' (score=1.00)"
+  },
+  {
+    "title": "Scalable Monitoring of Tree Canopy Density and Height in India at High Spatial Resolutions",
+    "authors": "D. Goyal, H.S. Chauhan, and A. Seth",
+    "year": 2024,
+    "venue": "ICTD",
+    "link": "https://www.cse.iitd.ernet.in/~aseth/forest-health-ictd2024.pdf",
+    "doi": null,
+    "abstract": null,
+    "skip_reason": "ALREADY_IN_READINGS: duplicate of 'ictd_2024_scalable_monitoring_of_tree_canopy_density' (score=1.00)"
+  },
+  {
+    "title": "An In-depth Analysis of Caste-based Inequity in Welfare Allocation of the National Rural Employment Guarantee Scheme in India",
+    "authors": "A. Mittal, C. Sheth, and A. Seth",
+    "year": 2024,
+    "venue": "ICTD",
+    "link": "https://www.cse.iitd.ernet.in/~aseth/caste-based-ictd2024.pdf",
+    "doi": null,
+    "abstract": null,
+    "skip_reason": "ALREADY_IN_READINGS: duplicate of 'ictd_2024_an_in_depth_analysis_of_caste' (score=1.00)"
+  },
+  {
+    "title": "Assessing the impact of farm ponds on agricultural productivity in Northern India",
+    "authors": "R. Kaur, K. Bansal, D. Garg, R. Sardana, S. Vishnubhatla, S. Agrawal, S. Kumari, P. Singla, and A. Seth",
+    "year": 2024,
+    "venue": "ACM COMPASS",
+    "link": "https://www.cse.iitd.ernet.in/~aseth/farm-ponds.pdf",
+    "doi": null,
+    "abstract": null,
+    "skip_reason": "ALREADY_IN_READINGS: duplicate of 'compass_2024_assessing_the_impact_of_farm_ponds' (score=1.00)"
+  },
+  {
+    "title": "Initial Experiments with a Scalable Machine Learning Based Approach for Downscaling the MOD16A2 Evapotranspiration Product",
+    "authors": "V. Jingar, S. Sahoo, Siddharth S., D. Sharma, S.A. Mehta, and A. Seth",
+    "year": 2024,
+    "venue": "ACM COMPASS",
+    "link": "https://www.cse.iitd.ernet.in/~aseth/et-downscaling.pdf",
+    "doi": null,
+    "abstract": null,
+    "skip_reason": "ALREADY_IN_READINGS: duplicate of 'compass_2024_initial_experiments_with_a_scalable_machine' (score=1.00)"
+  },
+  {
+    "title": "Community Consultations on Natural Resource Management: A Social-Ecological Approach",
+    "authors": "S. Chatterjee, A. Gupta, S.A. Mehta, A. Seth, P. Prasad, and A. Tannirkulam. Technical report, IIT Delhi, 2023.",
+    "year": 2023,
+    "venue": null,
+    "link": "https://www.cse.iitd.ernet.in/~aseth/community-consultations.pdf",
+    "doi": null,
+    "abstract": null,
+    "skip_reason": "ALREADY_IN_READINGS: duplicate of '2023_community_consultation_on_natural_resource_management_ed670f' (score=0.80)"
+  },
+  {
+    "title": "Tracking Socio-economic Development in Rural India Using Satellite Imagery",
+    "authors": "A. Gulgulia, A. Gupta, A.P. Sarashetti, A. Sinha, and A. Seth",
+    "year": 2023,
+    "venue": "ACM JCSS",
+    "link": "https://www.cse.iitd.ernet.in/~aseth/socio-econ-adi.pdf",
+    "doi": null,
+    "abstract": null,
+    "skip_reason": "ALREADY_IN_READINGS: duplicate of 'jcss_2023_tracking_socio_economic_development_in_rural' (score=1.00)"
+  },
+  {
+    "title": "AI-based Market Intelligence Systems for Farmer Collectives: A Case-study from India",
+    "authors": "R. Ladhar, S. Sharma, S. Tangirala, N. Gupta, A. Azeem, A. Jain, B.K. Katakam, A. Bommakanti, C. Sankariah, H.P. Paridi, K. Yadav, K. Vittalrao, M. Rahman, R. Chutani, R. Shah, R. Katepallewar, D. Chakraborty, and A. Seth",
+    "year": 2023,
+    "venue": "ACM JCSS",
+    "link": "https://www.cse.iitd.ernet.in/~aseth/market-intelligence-commodity-prices.pdf",
+    "doi": null,
+    "abstract": null,
+    "skip_reason": "ALREADY_IN_READINGS: duplicate of 'jcss_2023_ai_based_market_intelligence_systems_for' (score=1.00)"
+  },
+  {
+    "title": "A Characterization of Land-use Changes in the Proximity of Mining Sites in India",
+    "authors": "S.A. Mehta, Ashish, M. Solanki, and A. Seth",
+    "year": 2023,
+    "venue": "ACM JCSS",
+    "link": "https://www.cse.iitd.ernet.in/~aseth/mining-characterization.pdf",
+    "doi": null,
+    "abstract": null,
+    "skip_reason": "ALREADY_IN_READINGS: duplicate of 'jcss_2024_a_characterization_of_land_use_changes' (score=1.00)"
+  },
+  {
+    "title": "Role of the Mass Media in Monitoring and Influencing the Performance of Social Welfare Schemes in India",
+    "authors": "A. Mittal, S. Dahake, T. Patel, U. Deep, D. Prajapati, A. Gupta, V. Singh, A. Jain, and A. Seth",
+    "year": 2022,
+    "venue": "ACM COMPASS",
+    "link": "https://www.cse.iitd.ernet.in/~aseth/mis-politics-media.pdf",
+    "doi": null,
+    "abstract": null,
+    "skip_reason": "ALREADY_IN_READINGS: duplicate of 'compass_2022_role_of_the_mass_media_in' (score=1.00)"
+  },
+  {
+    "title": "IndiaSat: A Pixel-Level Dataset for Land-Cover Classification on Three Satellite Systems - Landsat-7, Landsat-8, and Sentinel-2",
+    "authors": "C. Bansal, H.O. Yadav, M. Jain, O. Prakash, S.A. Mehta, D. Singh, H. Baheti, S. Singh, and A. Seth",
+    "year": 2021,
+    "venue": "ACM COMPASS",
+    "link": "https://www.cse.iitd.ernet.in/~aseth/indiasat.pdf",
+    "doi": null,
+    "abstract": null,
+    "skip_reason": "ALREADY_IN_READINGS: duplicate of 'bansal_indiasat' (score=1.00)"
+  },
+  {
+    "title": "Characterizing the Evolution of Indian Cities using Satellite Imagery and Open Street Maps",
+    "authors": "C. Bansal, A. Singla, A.K. Singh, H.O. Ahlawat, M. Jain, P. Singh, P. Kumar, R. Saha, S. Taparia, and A. Seth. Best paper honourable mention ,",
+    "year": 2020,
+    "venue": "ACM COMPASS",
+    "link": "https://www.cse.iitd.ernet.in/~aseth/urbanization.pdf",
+    "doi": null,
+    "abstract": null,
+    "skip_reason": "ALREADY_IN_READINGS: duplicate of 'bansal_indian_cities_satellite_osm' (score=1.00)"
+  },
+  {
+    "title": "Analysis of Media Bias in Policy Discourse in India",
+    "authors": "A. Sen, D. Ghatak, S. Dhakate, K. Rekha, M. Gupta, G.S. Khanuja, K. Sharma, and A. Seth",
+    "year": 2022,
+    "venue": "ACM COMPASS",
+    "link": "https://www.cse.iitd.ernet.in/~aseth/media-bias.pdf",
+    "doi": null,
+    "abstract": null,
+    "skip_reason": "ALREADY_IN_READINGS: duplicate of 'compass_2022_analysis_of_media_bias_in_policy' (score=1.00)"
+  },
+  {
+    "title": "An Attempt at Using Mass Media Data to Analyze the Political Economy Around Some Key ICTD Policies in India",
+    "authors": "A. Sen, Priya, P. Aggarwal, S. Verma, D. Ghatak, P. Kumari, M. Singh, A. Guru, and A. Seth",
+    "year": 2019,
+    "venue": "ICTD",
+    "link": "https://www.cse.iitd.ernet.in/~aseth/ictdx-final68.pdf",
+    "doi": null,
+    "abstract": null,
+    "skip_reason": "ALREADY_IN_READINGS: duplicate of 'herman_chomsky_manufacturing_consent' (score=0.67)"
+  },
+  {
+    "title": "An Algorithmic Audit of Online Matrimonial Platforms in India: Biases in Matchmaking Recommendation Systems",
+    "authors": "S. Jain and A. Seth",
+    "year": 2025,
+    "venue": "ACM JCSS",
+    "link": "https://www.cse.iitd.ernet.in/~aseth/matrimonial-platforms-audit.pdf",
+    "doi": null,
+    "abstract": null,
+    "skip_reason": "ALREADY_IN_READINGS: duplicate of 'jcss_2025_an_algorithmic_audit_of_online_matrimonial' (score=1.00)"
+  },
+  {
+    "title": "The Limits of Design in Ensuring Responsible Outcomes from Technology",
+    "authors": "A. Seth",
+    "year": 2020,
+    "venue": "ICTD",
+    "link": "https://www.cse.iitd.ernet.in/~aseth/limits-of-design.pdf",
+    "doi": null,
+    "abstract": null,
+    "skip_reason": "ALREADY_IN_READINGS: duplicate of 'ictd_2020_the_limits_of_design_in_ensuring' (score=1.00)"
+  },
+  {
+    "title": "Ensuring Responsible Outcomes from Technology",
+    "authors": "A. Seth. Invited talk and paper . COMSNETS 2019. Presentation slides",
+    "year": 2019,
+    "venue": "Presentation slides",
+    "link": "https://www.cse.iitd.ernet.in/~aseth/processes-to-manage-technology.pdf",
+    "doi": null,
+    "abstract": null,
+    "skip_reason": "ALREADY_IN_READINGS: duplicate of 'ictd_2020_the_limits_of_design_in_ensuring' (score=1.00)"
+  },
+  {
+    "title": "Filter-in or Filter-out: Complexities and Implications of Content Moderation Processes in a Voice-based Participatory Media Platform in India",
+    "authors": "S. Jain, P. Panjal, S. Ahmed, R.A. Siddiqi, and A. Seth",
+    "year": 2024,
+    "venue": "ICTD",
+    "link": "https://www.cse.iitd.ernet.in/~aseth/moderation-processes-ictd2024.pdf",
+    "doi": null,
+    "abstract": null,
+    "skip_reason": "ALREADY_IN_READINGS: duplicate of 'ictd_2024_filter_in_or_filter_out_complexities' (score=1.00)"
+  },
+  {
+    "title": "An Analysis of Community Mobilization Strategies of a Voice-based Community Media Platform in Rural India",
+    "authors": "A. Moitra, A. Kumar, and A. Seth. ITID 2018",
+    "year": 2018,
+    "venue": null,
+    "link": "https://www.cse.iitd.ernet.in/~aseth/camera-ready-1598-4953-1-PB.pdf",
+    "doi": null,
+    "abstract": null,
+    "skip_reason": "ALREADY_IN_READINGS: duplicate of 'itid_2018_an_analysis_of_community_mobilization_strategies' (score=1.00)"
+  },
+  {
+    "title": "Robust OCR Pipeline for Automated Digitization of Mother and Child Protection Cards in India",
+    "authors": "D. Pant, D. Talukder, A. Seth, D. Pant, R. Singh, B. Dua, R. Pandey, S. Maruthi, M. Johri, and C. Arora",
+    "year": 2023,
+    "venue": "ACM JCSS",
+    "link": "https://www.cse.iitd.ernet.in/~aseth/ocr-mcp.pdf",
+    "doi": null,
+    "abstract": null,
+    "skip_reason": "ALREADY_IN_READINGS: duplicate of 'jcss_2023_robust_ocr_pipeline_for_automated_digitization' (score=1.00)"
+  },
+  {
+    "title": "Use of Metric Learning for the Recognition of Handwritten Digits, and its Application to Increase the Outreach of Voice-based Communication Platforms",
+    "authors": "D. Pant, D. Talukder, D. Kumar, P. Pandey, A. Seth, and C. Arora",
+    "year": 2022,
+    "venue": "ACM COMPASS",
+    "link": "https://www.cse.iitd.ernet.in/~aseth/smartforms.pdf",
+    "doi": null,
+    "abstract": null,
+    "skip_reason": "ALREADY_IN_READINGS: duplicate of 'compass_2022_use_of_metric_learning_for_the' (score=1.00)"
+  },
+  {
+    "title": "Costs and Benefits of Conducting Voice-based Surveys Versus Keypress-based Surveys on Interactive Voice Response Systems",
+    "authors": "A. Khullar, P. Hitesh, S. Rahman, D. Kumar, R. Pandey, P. Kumar, R. Tripathi, Prince, A.A. Jha, Himanshu, and A. Seth",
+    "year": 2021,
+    "venue": "ACM COMPASS",
+    "link": "https://www.cse.iitd.ernet.in/~aseth/data_collection.pdf",
+    "doi": null,
+    "abstract": null,
+    "skip_reason": "ALREADY_IN_READINGS: duplicate of 'compass_2021_costs_and_benefits_of_conducting_voice' (score=1.00)"
+  },
+  {
+    "title": "Early Results from Automating Voice-based Question-Answering Services Among Low-income Populations in India",
+    "authors": "A. Khullar, M. Santosh, P. Kumar, S. Rahman, R. Tripathi, D. Kumar, S. Saini, R. Pandey, and A. Seth",
+    "year": 2021,
+    "venue": "ACM COMPASS",
+    "link": "https://www.cse.iitd.ernet.in/~aseth/automated_question_answering.pdf",
+    "doi": null,
+    "abstract": null,
+    "skip_reason": "ALREADY_IN_READINGS: duplicate of 'compass_2021_early_results_from_automating_voice_based' (score=1.00)"
+  },
+  {
+    "title": "Initial Lessons from Building an IVR-based Automated Question-Answering System",
+    "authors": "P. Bhagat, S. Prajapati, and A. Seth",
+    "year": 2020,
+    "venue": "ICTD",
+    "link": "https://www.cse.iitd.ernet.in/~aseth/faq-retrieval.pdf",
+    "doi": null,
+    "abstract": null,
+    "skip_reason": "ALREADY_IN_READINGS: duplicate of 'ictd_2020_initial_lessons_from_building_an_ivr' (score=1.00)"
+  },
+  {
+    "title": "Gurgaon idol: a singing competition over community radio and IVRS",
+    "authors": "Z. Koradia, P. Aggarwal, G. Luthra, and A. Seth",
+    "year": 2013,
+    "venue": "ACM DEV (3)",
+    "link": "http://www.cse.iitd.ernet.in/%7Easeth/gurgaonidol.pdf",
+    "doi": null,
+    "abstract": null,
+    "skip_reason": "ALREADY_IN_READINGS: duplicate of 'koradia_gurgaon_idol' (score=1.00)"
+  },
+  {
+    "title": "A Governance Framework for Digital Public Infrastructure: Learning from the Indian Experience",
+    "authors": "A. Seth, L. Vitagliano, N. Udapa, P.J. Singh, R. Swamy, S. Singh, and V. Venugopal",
+    "year": 2023,
+    "venue": "T20 Policy Brief",
+    "link": "https://doi.org/10.1787/ff525dc8-en",
+    "doi": "10.1787/ff525dc8-en",
+    "abstract": "This paper explores digital public infrastructure (DPI), defined as shared digital systems that are secure and interoperable and that can support the inclusive delivery of and access to public and private services across society. Governments play a pivotal role in designing, developing and managing DPI, as well as in leveraging DPI systems to increase efficiency and coherence in the implementation of digital government policies. Key components of DPI include digital identity, payments, data sharing, digital post, and core government data registries. Building robust DPI requires addressing governance challenges such as funding, public-private collaboration, and robust safeguards including for privacy and security. As DPI becomes a global priority, enhanced cross-border co-operation is also vital to address issues like resilience and to ensure effective DPI across diverse economic contexts.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "The Missing Clarity Between Ends and Means in the ACM Code of Ethics and Professional Conduct",
+    "authors": "A. Seth",
+    "year": 2022,
+    "venue": "ACM Interactions",
+    "link": "https://doi.org/10.1145/3588003",
+    "doi": "10.1145/3588003",
+    "abstract": "avoid these harms. But understanding the goals of the system need not be a prerequisite for that. The ACM Code of Ethics and Professional Conduct (CEPC) largely focuses on the second question\u2014of uncovering harm, avoiding harm, and speaking out against harm\u2014but does not say much about defining the goals of systems built by computing professionals. CEPC at best prescribes broad goals such as building systems for the \u201cbenefit of society,\u201d or slightly more specific goals such as \u201cpromoting fundamental human rights\u201d or Two questions that are often encountered when evaluating the ethics of a technology project are Who is your product or service meant to benefit? and Is somebody being harmed by your product or service? These questions require different frameworks to answer them. The first question requires clarity on the objectives of the technology system and consequently helps understand whose needs these objectives are meant to serve. Answering the second question, however, does not require clarity on the goals of the system. If harms being caused by the system can be identified, then T What\u2019s Missing in the ACM Code of Ethics and Professional Conduct",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Seventeen Questions for Technologists to Build a Better World",
+    "authors": "A. Seth",
+    "year": 2022,
+    "venue": "Questions on Aristotle's Categories",
+    "link": "https://doi.org/10.2307/j.ctt7zsw80.22",
+    "doi": "10.2307/j.ctt7zsw80.22",
+    "abstract": null,
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Missing Publics in Digital Public Goods: The Need to Build Technologies for Communities",
+    "authors": "A. Seth",
+    "year": 2022,
+    "venue": "The India Forum",
+    "link": "https://doi.org/10.2307/jj.32726787.10",
+    "doi": "10.2307/jj.32726787.10",
+    "abstract": null,
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Scalable Mapping of Tree Traits to Study the Dynamics of Protected Forest Areas in India",
+    "authors": "D. Goyal and A. Seth",
+    "year": 2026,
+    "venue": "IJCAI",
+    "link": "https://www.cse.iitd.ernet.in/~aseth/tree-traits-classification.pdf",
+    "doi": null,
+    "abstract": null,
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "STACD: STAC Extension with DAGs for Geospatial Data and Algorithm Management",
+    "authors": "S. Laud, S. Joshi, T. Mangla, A. Jindal, and A. Seth",
+    "year": 2025,
+    "venue": "PROPL",
+    "link": "https://doi.org/10.1145/3759536.3763803",
+    "doi": "10.1145/3759536.3763803",
+    "abstract": "Geospatial datasets have complex lineages that are crucial for reproducibility and understanding data provenance, yet current metadata standards like STAC (SpatioTemporal Asset Catalog) provide limited support for capturing complete processing workflows. We propose STACD (STAC extension with DAGs), an extension to STAC specifications that incorporates Directed Acyclic Graph (DAG) representations along with defining algorithms and version changes in the workflows. We also provide a reference implementation on Apache Airflow to demonstrate STACD capabilities such as selective recomputation when some datasets or algorithms in a DAG are updated, complete lineage construction for a dataset, and opportunities for improved collaboration and distributed processing that arise with this standard.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Caste-based Inequities in MGNREGA Implementation: Precision Policy Advisory for Participatory Planning Processes",
+    "authors": "A. Mittal, C. Sheth, and A. Seth. Technical report, IIT Delhi, 2025. Presentation .",
+    "year": 2025,
+    "venue": "Presentation",
+    "link": "https://www.cse.iitd.ernet.in/~aseth/caste-based-ictd2024-field-report-precise-policy-recommendations.pdf",
+    "doi": null,
+    "abstract": null,
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "CoRE stack: Commoning for Resilience and Equality - Geospatial data layers",
+    "authors": "S.A. Mehta, A. Sinha, A. Dutt, A.P. Sarashetti, A.P. Singh, A. Gupta, A. Verma, A. Tannirkulam, A. Sreenidhi, A. Nandi, Ankit, A. Sharma, A. Singha, A. Gulgulia, A. Mittal, A. Dabli, Athira P., B. Ramachandran, C. Bansal, C.S. Sheth, C. Dsouza, D. Kumar, D. Sharma, Harshita, J. Singh, K. Dadheech, K. Agrahari, O. Krishna, P. Prasad, P. Radhakrishnan, R. Bhabak, R.S. Bodavula, R. Sardana, S. Vishnubhatla, S. Haldar, S. Agrawal, S. Kumari, Siddharth S., S. Kumari, Vishnu S., and A. Seth. Technical report, IIT Delhi, 2024. [ Updated version , 2025]",
+    "year": 2024,
+    "venue": "[ Updated version , 2025]",
+    "link": "https://www.cse.iitd.ernet.in/~aseth/core-stack-layers-apr-2024.pdf",
+    "doi": null,
+    "abstract": null,
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Exploring the Scope of Using News Articles to Understand Development Patterns of Districts in India",
+    "authors": "M. Gupta, S. Saifi, K. Verma, K. Rekha, and A. Seth. KDD Workshop on Data Science for Social Good, 2021.",
+    "year": 2021,
+    "venue": null,
+    "link": "https://www.cse.iitd.ernet.in/~aseth/explaining_development_patterns.pdf",
+    "doi": null,
+    "abstract": null,
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Towards Building a District Development Model for India Using Census Data",
+    "authors": "D. Goswami, S.B. Tripathi, S. Jain, S. Pathak, and A. Seth",
+    "year": 2019,
+    "venue": "ACM COMPASS",
+    "link": "https://doi.org/10.1145/3314344.3332491",
+    "doi": "10.1145/3314344.3332491",
+    "abstract": "Models for socio-economic development are useful for planners to build appropriate policies. Such models are ideally constructed based on empirical data, and we take up the problem of working towards a district development model for India by using two waves of census data. India has almost six hundred districts, diverse in terms of their social and economic development, and hence presents a unique natural experiment to understand how social and economic factors interplay with one another. In this paper, we present some interesting observations we are able to make from the analysis of census data from the years 2001 and 2011, and also raise some questions calling for the need for additional ethnographic and other surveys to be able to understand the underlying mechanisms that would have led to the observed patterns.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "AI for Climate Action: Community Participation in India",
+    "authors": "A. Seth. Position paper, Digital Futures Lab, 2023.",
+    "year": 2023,
+    "venue": "Oxfam International",
+    "link": "https://doi.org/10.21201/2024.000019",
+    "doi": "10.21201/2024.000019",
+    "abstract": "In 2024, all countries will be updating and submitting their Nationally Determined Contributions (NDCs). These national climate plans outline commitments towards tackling climate change. These plans impact all walks of life and must therefore be inclusive of the whole of society. By examining recent practices across 11 countries, Oxfam found that NDCs were not sufficiently inclusive, often failing to involve civil society and communities who bear the burden of climate change and the impact of climate transition plans. This paper explores who the main actors are in NDCs, which stakeholders have not been included, and why. In order to foster a sustainable, equitable, and inclusive social, economic, and political environment for climate action, the paper makes recommendations for the UN, governments, donors, international agencies and civil society.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Digital Participatory Tools for Water Resource Management in Rural Communities in India",
+    "authors": "A. Seth. Position paper, IIT Delhi, 2023.",
+    "year": 2023,
+    "venue": "Elsevier BV",
+    "link": "https://doi.org/10.2139/ssrn.5377010",
+    "doi": "10.2139/ssrn.5377010",
+    "abstract": null,
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Network Analysis of Indian Corporate Interlocks: Patterns, Players and Sectors",
+    "authors": "Y. Gupta, A. Seth, and S. Sukhija",
+    "year": 2024,
+    "venue": "ASONAM",
+    "link": "https://doi.org/10.1007/978-3-031-78554-2_2",
+    "doi": "10.1007/978-3-031-78554-2_2",
+    "abstract": null,
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Ideology Detection in the Indian Mass Media",
+    "authors": "A. Sharma, N. Kaur, A. Sen, and A. Seth",
+    "year": 2020,
+    "venue": "ASONAM",
+    "link": "https://doi.org/10.1109/asonam49781.2020.9381344",
+    "doi": "10.1109/asonam49781.2020.9381344",
+    "abstract": "Ideological biases in the mass media can shape public opinion. In this study, we aim to understand ideological bias in the Indian mass media, in terms of the coverage it provides to statements made by prominent people on key economic and technology policies. We build an end-to-end system that starts with a news article and parses it to obtain statements made by people in the article; on these statements, we apply a Recursive Neural Network based model to detect whether the statements express an ideological bias or not. The system then classifies the stance of the non-neutral statements. For economic policies, we determine if the statements express a pro or anti slant about the policy, and for technology policies, we determine if the statements are positive or skeptical about technology. The proposed research method can be applied to other domains as well and can serve as a basis to contrast social media self-expression by prominent people with how the mass media portrays them.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "What Drives Location Preference for CSR (Corporate Social Responsibility) Investments in India?",
+    "authors": "V. Pareek, R. Sharma, A. Sen, and A. Seth",
+    "year": 2020,
+    "venue": "ACM COMPASS",
+    "link": "https://doi.org/10.1145/3378393.3402263",
+    "doi": "10.1145/3378393.3402263",
+    "abstract": "Corporate Social Responsibility (CSR) is seen as a means for companies to contribute towards broader societal goals beyond their immediate industrial focus, and companies are known to donate a part of their profits to social development for education, health, and other sectors. In 2014, the Government of India made CSR mandatory for companies beyond a certain level of profitability. It was observed however that many geographies in need of financial assistance for social development actually did not receive much CSR funds. In this paper, we investigate what might be the reasons behind how companies choose the locations for their CSR investments. In particular, we examine political reasons where companies may use CSR to seek favours from politicians. We find several interesting patterns and show that there might be grounds for the government to regulate CSR to some extent.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Studying the Discourse on Economic Policies in India Using Mass Media, Social Media, and the Parliamentary Question Hour Data",
+    "authors": "A. Sen, D. Ghatak, K. Kumar, G. Khanuja, D. Bansal, M. Gupta, K. Rekha, S. Bhogale, P. Trivedi, and A. Seth",
+    "year": 2019,
+    "venue": "ACM COMPASS",
+    "link": "https://doi.org/10.1145/3314344.3332489",
+    "doi": "10.1145/3314344.3332489",
+    "abstract": "The parliament, media, and citizens, are key stakeholders in any democracy. We study their priorities pertaining to four economic policies in India - Demonetization, Aadhaar, GST, and Farmers' Protests - by examining the content of questions asked by politicians in the parliament, news articles published in the mass media, and data from social media. We find that the mass media covers stories about different constituencies (the poor, middle-class, corporates, etc.) but shows biases in terms of which constituencies it chooses to focus on for each policy. The parliament tends to focus on procedural aspects of the policies. We also find that the social media simply echoes the trends of whatever is emphasized more in the mass media, without much deviation in the attention placed by social media users on different issues. We further find out that instead of selecting issues of importance based on feedback from citizens, the parliamentarians mostly indulge in partisanship, and shape their questions based on party goals that change depending on whether their party is in power or not. Overall, we are able to use this analysis to comment on how representative and responsive the Indian democracy is to its citizens.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Leveraging Web Data to Monitor Changes in Corporate-Government Interlocks in India",
+    "authors": "A. Sen, A. Agarwal, A. Guru, A. Choudhuri, G. Singh, I. Mohammed, J. Goyal, K. Mittal, M. Singh, M. Goel, S. Gupta, S. Pathak, V. Madapur, and A. Seth",
+    "year": 2018,
+    "venue": "ACM COMPASS",
+    "link": "https://doi.org/10.1145/3209811.3209822",
+    "doi": "10.1145/3209811.3209822",
+    "abstract": "Corporate executives who are linked to politicians or administrative officials, or family members of public officials with links to corporate organizations, are known to build an interlocking social network that becomes a power structure of highly influential entities. Such power structures often lead to an inequitable distribution of resources and manipulation of policies. A deeper look at this power structure and the constituent interlocks can provide users with valuable insights on these influential connections, and eventually, on the shaping of socio-economic outcomes by the interlocked political economy. In this paper, we describe the design of a platform to empirically monitor the degree of corporate-government interlock in India over time, by making use of publicly available data on the web. We find that the interlock has strengthened over the last decade, and we report the kind of interconnections and structural changes that have happened during this time. We also describe the design of an application to present news articles about an event or topic alongside the interconnection network of entities referred to in the news articles, to help users get a quick view of the main actors involved in the event. We find that this news search application is able to highlight several interconnections between prominent entities in an event, which had not been reported in the media. Overall, we find it relevant to build a technology platform which can help researchers and journalists to monitor the extent of interlocks between powerful stakeholders in the corporate and government spheres.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Empirical Analysis of the Presence of Power Elite in Media",
+    "authors": "A. Sen, Priya, P. Aggarwal, A. Guru, D. Bansal, I. Mohammed, J. Goyal, K. Kumar, K. Mittal, M. Singh, M. Goel, S. Gupta, V. Madapur, V. Khatana, and A. Seth",
+    "year": 2018,
+    "venue": "ACM COMPASS",
+    "link": "https://doi.org/10.1145/3209811.3212702",
+    "doi": "10.1145/3209811.3212702",
+    "abstract": "Politicians, politically connected business persons, bureaucrats, celebrities, and highly placed government officials (collectively termed as the power elite in sociology literature) can influence national and regional policy for personal and organizational benefit, which may not always be in the best interests of the people. Media is a crucial tool to shape public opinion, and is used heavily by the power elite to bring legitimacy to their policy decisions. In this paper, we empirically analyze the coverage given to the power elite in mainstream media on Demonetization, a significant, recent policy event in India. We compare the extent of coverage given to the elite and non-elite, the policy slant expressed by them, and differences in coverage between seven of the largest news media organizations in India. We find that among the power elite, powerful politicians and political parties are given the maximum coverage in the media, with conspicuous negligence in coverage given to expert opinions. Sentiment analysis clearly reveals that opposing political factions express opposing views towards the policy, and there is variation across different news sources as well. We are applying our methods on other contentious policy events to be able to do a more systematic analysis of how media can aid the power elite to shape public opinion by giving them disproportionately large coverage and visibility.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "A Call to Technologists",
+    "authors": "A. Seth. Journal of Information, Communication and Ethics in Society, 2020. [ JICES link]",
+    "year": 2020,
+    "venue": "[ JICES link]",
+    "link": "https://doi.org/10.1108/9781803823935",
+    "doi": "10.1108/9781803823935",
+    "abstract": "This timely work draws attention to the varying factors by which technology often leads to disempowerment effects. Seth makes a call to technologists to burst the technology positivism bubble, build an ethos for taking greater responsibility in their work, and engage with the rest of society to strengthen democracy.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "A New Paradigm to Accommodate Ethical Foundations in the Design and Management of Digital Platforms",
+    "authors": "A. Seth. Working paper, 2019.",
+    "year": 2019,
+    "venue": "Digital Platforms - From Technical Foundations to Legal and Economic Implications",
+    "link": "https://doi.org/10.1007/978-3-032-07982-4_44",
+    "doi": "10.1007/978-3-032-07982-4_44",
+    "abstract": null,
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Local pdf.",
+    "authors": "aps in India\u0092s Social Protection Delivery Architecture - V. Viswanathan and A. Seth. The India Forum, Aug 2021. Local pdf.",
+    "year": 2021,
+    "venue": "Local pdf",
+    "link": "https://doi.org/10.1016/j.combustflame.2020.05.018",
+    "doi": "10.1016/j.combustflame.2020.05.018",
+    "abstract": "Abstract Turbulent non-premixed flames with local extinction and re-ignition exhibit multiple combustion modes including ignition waves, diffusion flames, partially premixed flames, and ignition-assisted partially premixed flames. The mechanisms of local extinction and re-ignition are not well understood and numerical modeling of multi-mode combustion is a challenging task. In this work, a specially designed swirl-burner was used to study local extinction and re-ignition of non-premixed turbulent methane/air flames. High speed Particle Image Velocimetry (PIV) and laser induced fluorescence of OH radicals (OH-PLIF) measurements along with Large Eddy Simulation (LES) were carried out to investigate the mechanisms of extinction and re-ignition processes in the burner. LES is based on a transported probability density function model within the framework of Eulerian Stochastic Fields (PDF-ESF). It is found that local extinction occurs when the scalar dissipation rate around the stoichiometric mixture fraction is high. The characteristic time scale for local extinction and re-ignition in the present flames is an order of magnitude longer than the characteristic time scale of diffusion/extinction of laminar flamelets. There are two mechanisms for flame hole re-ignition in the present flames. First, under low degree of local extinction conditions (i.e., for small flame holes surrounded by flames) the flame hole re-ignition is due to the mechanism of turbulent flame folding. Second, under high degree of extinction conditions (i.e., with large regions of extinction and lifted flames), re-ignition of the locally extinguished flame is due to the mechanism of ignition assisted partially premixed flame propagation. The results show that the PDF-ESF model is capable of simulating the quenching and re-ignition process found in the experiments.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "The Post-lockdown State of Labour",
+    "authors": "A. Seth. Gram Vaani Community Media, September 2020 [ shorter version",
+    "year": 2020,
+    "venue": "India Development Review ]",
+    "link": "https://doi.org/10.2139/ssrn.4133765",
+    "doi": "10.2139/ssrn.4133765",
+    "abstract": null,
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "NREGA as Social Protection and Beyond: A Shot at Dignity of Workers,",
+    "authors": "V. Visvanathan, S. Ahmad, and A. Seth. Gram Vaani Community Media, September 2020 [ shorter version",
+    "year": 2020,
+    "venue": "India Development Review ]",
+    "link": "https://doi.org/10.14217/9781848591516-en",
+    "doi": "10.14217/9781848591516-en",
+    "abstract": "We acknowledge the policy-makers, researchers and activists who were part of the October 2011 Commonwealth Roundtable on 'Sustaining gender-responsive social protection and economic resilience' (London, Commonwealth Secretariat), where the collective thinking towards a framework for anticipatory social protection took root. The Roundtable saw the launch of the publication, Who Cares? The Economics of Dignity, a research journey on unpaid work in HIV care in 11 countries. We owe an immense debt of gratitude to the unpaid carers who shared the realities of living with acute time poverty and without dignity. Their stories left us grappling with more questions about the human rights of those without social protection. Hopefully this volume provides some answers.",
+    "skip_reason": "The paper does not substantively engage with a developing-regions context or any of the specified areas and topics."
+  },
+  {
+    "title": "#NotStatusQuo: A Campaign to Fix the Broken Social Protection System in India",
+    "authors": "A. Seth, S. Ahmad, and O. Ruthven. Gram Vaani Community Media, August 2020.",
+    "year": 2020,
+    "venue": null,
+    "link": "https://www.cse.iitd.ernet.in/~aseth/notstatusquo-final-report.pdf",
+    "doi": null,
+    "abstract": null,
+    "skip_reason": "The title suggests a focus on social protection systems in India, but without an abstract, it's unclear if it substantively engages with a developing-regions context or applies specific methodologies to such contexts."
+  },
+  {
+    "title": "Whose Participation Counts? Towards Digitally Mediated Just and Participatory Future of Development Work",
+    "authors": "V. Sharma, S.A. Mehta, N. Kumar, and A. Seth. CSCW, 2024.",
+    "year": 2024,
+    "venue": "Proceedings of the ACM on Human-Computer Interaction",
+    "link": "https://doi.org/10.1145/3686979",
+    "doi": "10.1145/3686979",
+    "abstract": "Participatory approaches may empower community members toward their development; however, structural and identity-based factors may impede participation. It becomes imperative to critically examine the politics, dynamics, and rhetoric of participation in development contexts. We deconstruct the meaning, means, and need for participation by situating our study in the Indian government's growing efforts to digitalize a nationwide scheme implemented to support rural farmers' participation in natural resource management (NRM) to achieve secure employment and build climate change resilience. Capturing the situated essence through field studies that include observations, interviews, and focus groups, we systematically analyze challenges to participation in NRM and uncover the technological gaps affecting its workflow digitalization. We discuss sociotechnical considerations to meaningfully design and integrate digital technologies toward supporting equitable participation in achieving sustainable development.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "The Power of Narrative Persuation: How an Entertainment-Education Serial Drama Tackled Open Defecation and Promoted Contraceptive Use in India",
+    "authors": "H. Wang, A. Singhal, P. Muttreja, A. Vajpeyi, R. Laddha, S. Singh, P.D. Mazumdar, A. Srivastava, V. Rao, S. Saini, D. Rautela, and A. Seth. Journal of Development Communication, Volume 31(2), 2020.",
+    "year": 2020,
+    "venue": "Media of Serial Narrative",
+    "link": "https://doi.org/10.2307/j.ctv10crd8x.8",
+    "doi": "10.2307/j.ctv10crd8x.8",
+    "abstract": null,
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Reflections from Practical Experiences of Managing Participatory Media Platforms for Development",
+    "authors": "A. Seth, A. Gupta, A. Moitra, D. Kumar, D. Chakraborty, L. Enoch, O. Ruthven, P. Panjal, R.A. Siddiqi, R. Singh, S. Chatterjee, S. Saini, S. Ahmad, and V. Sai Pratap",
+    "year": 2020,
+    "venue": "ICTD",
+    "link": "https://doi.org/10.1145/3392561.3394632",
+    "doi": "10.1145/3392561.3394632",
+    "abstract": "The design of participatory media platforms can have many variations in terms of whether or not anonymous communication is allowed, what moderation policies are in use, the conversation model that is supported, etc. We use six case-studies of voice-based ICT4D participatory media platforms running in India to outline a typology of design axes that can be used to characterize these platforms. Such typologies can be useful for ICT4D practitioners to conceptualize suitable designs for their platforms in different contexts, and to reconfigure the platforms in case design changes are required. We also use this typology to discuss the design constraints and flexibilities allowed by Internet based social media platforms.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Development of Learning and a Shared Understanding in Participatory Media Environments",
+    "authors": "A. Seth. Manuscript, 2020.",
+    "year": 2020,
+    "venue": null,
+    "link": "https://www.cse.iitd.ernet.in/~aseth/collectivism-gram-vaani-case-study.pdf",
+    "doi": null,
+    "abstract": null,
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Experiences from a Mobile-based Behaviour Change Campaign on Maternal and Child Nutrition in Rural India",
+    "authors": "D. Chakraborty, A. Gupta, Gram Vaani Team, and A. Seth. ICTD 2019. Supplementary material",
+    "year": 2019,
+    "venue": "Supplementary material",
+    "link": "https://doi.org/10.1145/3287098.3287110",
+    "doi": "10.1145/3287098.3287110",
+    "abstract": "Social and behaviour change communication interventions are believed to gain from using mobile technology owing to the reach and rapid scaling promise of technology. In this paper we describe our experiences from the layering of an IVR based content platform for behaviour change in maternal and child nutrition practices in the state of Bihar in rural central India. We specifically show that being able to leverage technology effectively can be quite complex and needs a careful implementation design. We demonstrate that technology adoption takes time and has to be encouraged through offline mechanisms. We also demonstrate that diversification of content on the IVR platform can facilitate greater usage of the platform. We outline the technology assisted concurrent monitoring methods developed by us, and how the data analysis helps identify gaps to take timely corrective action. Finally, we discuss the pros and cons of different pathways to reach women users in rural areas. The insights derived from our work can serve as guidelines for designing technology-based behaviour change campaigns.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Fairness and Diversity in the Recommendation and Ranking of Participatory Media Content",
+    "authors": "Muskaan, M.P. Dhaliwal, and A. Seth. KDD workshop on Intelligent Information Feeds, 2019 and",
+    "year": 2021,
+    "venue": "ASONAM",
+    "link": "https://doi.org/10.1145/3487351.3488363",
+    "doi": "10.1145/3487351.3488363",
+    "abstract": "Online participatory media platforms that enable one-to-many communication among users, see a significant amount of user generated content and consequently face a problem of being able to recommend a subset of this content to its users. We address the problem of recommending and ranking this content such that different viewpoints about a topic get exposure in a fair and diverse manner. We build our model in the context of a voice-based participatory media platform running in rural central India, for low-income and less-literate communities, that plays audio messages in a ranked list to users over a phone call and allows them to contribute their own messages. In this paper, we describe our model and evaluate it using call-logs from the platform, to compare the fairness and diversity performance of our model with the manual editorial processes currently being followed. Our models are generic and can be adapted and applied to other participatory media platforms as well.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "A personalized credibility model for recommending messages in social participatory media environments",
+    "authors": "A. Seth, J, Zhang, and R. Cohen. World Wide Web, 2015",
+    "year": 2015,
+    "venue": "World Wide Web",
+    "link": "https://doi.org/10.1007/s11280-013-0244-2",
+    "doi": "10.1007/s11280-013-0244-2",
+    "abstract": null,
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Bayesian Credibility Modeling for Personalized Recommendation in Participatory Media",
+    "authors": "A. Seth, J, Zhang, and R. Cohen. UMAP, 2010",
+    "year": 2010,
+    "venue": "Lecture Notes in Computer Science",
+    "link": "https://doi.org/10.1007/978-3-642-13470-8_26",
+    "doi": "10.1007/978-3-642-13470-8_26",
+    "abstract": null,
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "A Subjective Credibility Model for Participatory Media",
+    "authors": "A. Seth, J. Zhang, and R. Cohen AAAI Workshop on Recommender Systems, 2008",
+    "year": 2008,
+    "venue": "Journal of Computer Applications",
+    "link": "https://doi.org/10.3724/sp.j.1087.2009.00874",
+    "doi": "10.3724/sp.j.1087.2009.00874",
+    "abstract": null,
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "A Social Network Based Approach to Personalized Recommendation of Participatory Media Content",
+    "authors": "A. Seth and J. Zhang. ICWSM, 2008",
+    "year": 2008,
+    "venue": "Proceedings of the International AAAI Conference on Web and Social Media",
+    "link": "https://doi.org/10.1609/icwsm.v2i1.18624",
+    "doi": "10.1609/icwsm.v2i1.18624",
+    "abstract": "Given the rapid growth of participatory media content such as blogs, there is a need to design personalized recommender systems to recommend only useful content to users. We believe that in addition to producing useful recommendations, certain insights from media research such as simplification and opinion diversity in recommendations should form the foundations of such recommender systems, so that the behavior of the systems can be understood more closely, and modified if necessary. We propose and evaluate such a system based on a Bayesian user-model. We use the underlying social network of blog authors and readers to model the preference features for individual users. The initial results of our proposed solution are encouraging, and set the agenda for future research.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Understanding Participatory Media Using Social Networks",
+    "authors": "A. Seth CS-2007-47, Technical Report, University of Waterloo, 2007",
+    "year": 2007,
+    "venue": "-47, Technical Report, University of Waterloo, 2007",
+    "link": "https://doi.org/10.5204/thesis.eprints.134413",
+    "doi": "10.5204/thesis.eprints.134413",
+    "abstract": "To help librarians understand the impact of emerging technologies on participatory service building, this study takes social media as an example to explore how to use different engagement strategies that social media provides to engage more users. This research provides three major contributions to the library system. The libraries can use the resultant engagement strategies to engage its users. Additionally, the best-fit strategy can be inferred and designed based on users' preferences. Lastly, the users' preferences can be understood based on data analysis of social media. Three such contributions have been put together to fully address the proposed question.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "SukhSandesh: An Avatar Therapeutic Question Answering Platform for Sexual Education in Rural India",
+    "authors": "S.M. Singh, S.K. Garg, A. Misra, A. Seth, and T. Chakraborty",
+    "year": 2024,
+    "venue": "IJCAI",
+    "link": "https://www.cse.iitd.ernet.in/~aseth/sukhsandesh.pdf",
+    "doi": null,
+    "abstract": null,
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Experiences with the Introduction of AI-based Tools for Moderation Automation of Voice-based Participatory Media Forums",
+    "authors": "A. Khullar, P. Panjal, R. Pandey, A. Burnwal, P. Raj, A.A. Jha, P. Hitesh, R.J. Reddy, Himanshu, and A. Seth. India HCI, 2021.",
+    "year": 2021,
+    "venue": "India HCI 2021",
+    "link": "https://doi.org/10.1145/3506469.3506473",
+    "doi": "10.1145/3506469.3506473",
+    "abstract": "Voice-based discussion forums where users can record audio messages which are then published for other users to listen and comment, are often moderated to ensure that the published audios are of good quality, relevant, and adhere to editorial guidelines of the forum. There is room for the introduction of AI-based tools in the moderation process, such as to identify and filter out blank or noisy audios, use speech recognition to transcribe the voice messages in text, and use natural language processing techniques to extract relevant metadata from the audio transcripts. We design such tools and deploy them within a social enterprise working in India that runs several voice-based discussion forums. We present our findings in terms of the time and cost-savings made through the introduction of these tools, and describe the feedback of the moderators towards the acceptability of AI-based automation in their workflow. Our work forms a case-study in the use of AI for automation of several routine tasks, and can be especially relevant for other researchers and practitioners involved with the use of voice-based technologies in developing regions of the world.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Usability, Tested?",
+    "authors": "N. Kumar, N. Karusala, B. Patra, and A. Seth. ACM Interactions 2017",
+    "year": 2017,
+    "venue": "Web Bloopers",
+    "link": "https://doi.org/10.1016/b978-155860840-5/50014-4",
+    "doi": "10.1016/b978-155860840-5/50014-4",
+    "abstract": null,
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Social Media Tools for the Bottom of the Pyramid",
+    "authors": "A. Seth, Z. Koradia, I. Ahuja, A. Mahla, D. Martin, A. Premi, and Balachandran C. Invited paper . CEWIT Korea, 2010",
+    "year": 2010,
+    "venue": "The Bottom Line",
+    "link": "https://doi.org/10.1108/bl-11-2020-0070",
+    "doi": "10.1108/bl-11-2020-0070",
+    "abstract": "Purpose\nThe purpose of this study is to examine the value co-creation at bottom of the pyramid (BOP) using social media and to investigate how it is impacted by age, gender and peer influence.\n\n\nDesign/methodology/approach\nA BOP approach provides sustainable profits by involving low-income producers and consumers by way of co-creating values. The focus of the BOP approach in the business environment in this study is to establish co-creation among the different stakeholders at the BOP level. With the help of a literature review and related theories, a conceptual model has been developed. The model has been tested statistically for validation using a survey by considering 314 usable respondents.\n\n\nFindings\nThis study has focused on the impact of different issues such as age, gender and peer influence concerning the consumers at BOP segments involving in co-creation activities. The study finds that people at BOP segments emphasize more social media usage compared to the influence of peers in the context of co-creating values.\n\n\nResearch limitations/implications\nCo-creation at BOP is a new approach. This study is unique research where it identifies the impact of gender, age and peer influence at the BOP level consumers for co-creation activities. The study also highlights the influence of social media on BOP consumers for co-creating values. The model so developed along with the findings of this study contribute to the overall body of knowledge in this area which has a wider theoretical and social implication.\n\n\nPractical implications\nThe proposed model in this study can help organizations to understand the impact of age, gender, peer influence on value co-creation activities at BOP using social media. This study can help managers of the organizations involved in co-creation at BOP to formulate an appropriate strategy to get engaged with the customers at BOP. Finally, this study can motivate customers to value co-creating and engaging with organizations.\n\n\nOriginality/value\nThis study has primarily identified the impact of age, gender and peer influence for the consumers at BOP segments and is involved in different co-creation activities. The study has been mainly conducted in India, an emerging economy. None of such studies has been conducted in the emerging markets. Thus, this study claims to have possessed its uniqueness.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Making a Case for Spoken Web as the Mobile Web for Developing Countries",
+    "authors": "S. Agarwal, A. Jain, A. Kumar, P. Manwani, A. Nanavati, N. Rajput, and A. Seth Mobile Web for Development (MW4D), 2009",
+    "year": 2009,
+    "venue": null,
+    "link": "http://www.cse.iitd.ernet.in/%7Easeth/spokenweb.pdf",
+    "doi": null,
+    "abstract": null,
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Mobile Internet Services in India: Quality of Service",
+    "authors": "Joint report with CUTS and IIT Delhi, foreword by Prof Krithi Ramamritham (IIT Bombay). Presented to TRAI, June 2016",
+    "year": 2016,
+    "venue": "Mobile Internet",
+    "link": "https://doi.org/10.1201/9780203499986-10",
+    "doi": "10.1201/9780203499986-10",
+    "abstract": null,
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Revisiting the State of Cellular Data Connectivity in India",
+    "authors": "A. Sharma, M. Kaur, Z. Koradia, R. Nishant, S. Pandit, A. Raman, and A. Seth. Invited paper. ACM DEV 2015",
+    "year": 2015,
+    "venue": "Proceedings of the 2015 Annual Symposium on Computing for Development",
+    "link": "https://doi.org/10.1145/2830629.2830649",
+    "doi": "10.1145/2830629.2830649",
+    "abstract": "The count of mobile Internet users in India has been growing at a rate of 27% annually and is expected to reach 300M by 2017. There is however limited understanding of whether this rapid growth is happening while also ensuring that good quality of service is provided to users. To find out, we deployed a measurement framework in 20 rural, semi-urban, and urban sites in North India and probed four leading 2G and 3G telecom providers to measure performance metrics such as availability, throughput and latency. We also observed some design and configuration aspects of cellular networks that affect the quality of service perceived by users. Our results point to many instances where misconfigurations or inadequate provisioning or poor monitoring of cellular networks led to significantly low performance provided to users. We are now using these results to argue for more robust QoS regulation in the country, and show how the current regulations for 2G and 3G services are not sufficient to hold providers accountable for the quality of service provided by them.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "A Comprehensive Data Management Framework for Opportunistic Communication on Mobile Phones",
+    "authors": "S. Doraswamy, A. Subramaniam, and A. Seth",
+    "year": 2013,
+    "venue": "ACM DEV (3)",
+    "link": "https://doi.org/10.1145/2442882.2442936",
+    "doi": "10.1145/2442882.2442936",
+    "abstract": "Several of our non-profit partners working in rural areas complain about poor data connectivity from their mobile phones. To instrument this, we deployed a simple application on Android mobile phones of two field staff located in the state of Jharkhand in India to continuously probe 2G GPRS EDGE connectivity across several days. We found that the connectivity was quite flaky and underwent frequent disruptions as the staff moved around for their work. This motivated us to develop a comprehensive data management framework that can run on mobile devices and help application developers cope with several issues including communication on flaky connections, data synchronization, support for transactions, and consistency management. Most previous work in the area of supporting communication in poorly connected regions has focused on connection management and session persistence across disconnections, while we focus more on data management challenges that arise in these scenarios. We have built and deployed an application for media transfer using this framework, and are now using this experience to improve the framework.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Policy Oriented Architecture for Opportunistic Communication on Heterogeneous Wireless Networks",
+    "authors": "A. Seth, M. Zaharia, S. Bhattacharya, S. Keshav Manuscript, University of Waterloo, 2006",
+    "year": 2006,
+    "venue": "2020 11th IEEE Annual Ubiquitous Computing, Electronics &amp; Mobile Communication Conference (UEMCON)",
+    "link": "https://doi.org/10.1109/uemcon51285.2020.9298126",
+    "doi": "10.1109/uemcon51285.2020.9298126",
+    "abstract": "Wireless capacity requirements continue to see significant growth each year due to an increasing number of wireless devices along with increasing per-device data demand. Network densification has historically driven the majority of wireless capacity gains; however, infrastructural constraints limit the ability to continue this trend of bringing base stations or access points (APs) closer to the user devices. Adding to this challenge is the wide range of contexts in which novel wireless devices are used. In particular, wireless devices vary greatly in terms of their typical translational and rotational motion. Highly directional optical wireless communications (OWC) offer excellent potential to provide high area spectral efficiency (ASE) while maintaining a practical distance between APs and user devices; but the technology is not optimal for highly mobile devices. In this paper, we introduce a novel relay architecture that connects stationary devices to an OWC AP and opportunistically uses these stationary devices as low power RF APs in a relay configuration. We present results for a single-cell instance of the architecture and demonstrate that the system not only adds the capacity of the OWC link; but also offers the flexibility to distribute the added capacity across different devices and improve the overall network fairness.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Opportunistic Scheduling in Ferry-Based Networks",
+    "authors": "S. Guo, M. Ghaderi, A. Seth, S.Keshav. QShine Workshop on Networking in Public Transport (WNEPT), 2006",
+    "year": 2006,
+    "venue": "Proceedings of the Second International Workshop on Mobile Opportunistic Networking",
+    "link": "https://doi.org/10.1145/1755743.1755774",
+    "doi": "10.1145/1755743.1755774",
+    "abstract": "We study the concept of Ferry based Wireless Local Area Network (FWLAN), in which a number of isolated nodes are scattered over some area and where communication between a node and the outer world, or communication between the nodes, are made possible via a message ferry. The Ferry travels in a predetermined cyclic path and collects/delivers messages from/to a node when it stops in the vicinity of the node. The radio conditions may change between successive visits of a station. We consider an opportunistic service in which the shuttle serves a node only if its radio conditions are good. Our analytical results are based on the theory of polling systems with rerouting.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Low-cost Communication for Rural Internet Kiosks Using Mechanical Backhauls",
+    "authors": "A. Seth, D. Kroeker, M. Zaharia, S. Guo, S. Keshav",
+    "year": 2006,
+    "venue": "ACM MOBICOM",
+    "link": "https://doi.org/10.1145/1161089.1161127",
+    "doi": "10.1145/1161089.1161127",
+    "abstract": "Rural kiosks in developing countries provide a variety of services such as birth, marriage, and death certificates, electricity bill collection, land records, email services, and consulting on medical and agricultural problems. Fundamental to a kiosk\u2019s operation is its connection to the Internet. Network connectivity today is primarily provided by dialup telephone, although Very Small Aperture Terminals (VSAT) or long-distance wireless links are also being deployed. These solutions tend to be both expensive and failure prone. Instead, we propose the use of buses and cars as \u2018mechanical backhaul \u2019 devices to carry data to and from a village and an internet gateway. Building on the pioneering lead of Daknet [15], and extending the Delay Tolerant Networking Research Group architecture [24], we describe a comprehensive solution, encompassing naming, addressing, forwarding, routing, identity management, application support, and security. We believe that this architecture not only meets the top-level goals of low cost and robustness, but also exposes fundamental architectural principles necessary for any such design. We also describe our experiences in implementing a prototype of this architecture.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Practical Security for Disconnected Nodes",
+    "authors": "A. Seth, S. Keshav. ICNP Workshop on Secure Network Protocols (NPSec), 2005 . A newer version is available too, co-authored with U. Hengartner.",
+    "year": 2005,
+    "venue": "A newer version is available too, co-authored with U",
+    "link": "https://doi.org/10.1109/npsec.2005.1532050",
+    "doi": "10.1109/npsec.2005.1532050",
+    "abstract": "Endpoints in a delay tolerant network (DTN) [K. Fall, 2003] must deal with long periods of disconnection, large end-to-end communication delays, and opportunistic communication over intermittent links. This makes traditional security mechanisms inefficient and sometimes unsuitable. We study three specific problems that arise naturally in this context: initiation of a secure channel by a disconnected user using an opportunistic connection, mutual authentication over an opportunistic link, and protection of disconnected users from attacks initiated by compromised identities. We propose a security architecture for DTN based on hierarchical identity based cryptography (HIBC) that provides efficient and practical solutions to these problems.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "An Architecture for Tetherless Communication",
+    "authors": "A. Seth, P. Darragh, S. Liang, Y. Lin, S. Keshav Discussed in Disruption Tolerant Networking, Dagstuhl, 2005",
+    "year": 2005,
+    "venue": "Proceedings of MILCOM '93 - IEEE Military Communications Conference",
+    "link": "https://doi.org/10.1109/milcom.1993.408671",
+    "doi": "10.1109/milcom.1993.408671",
+    "abstract": "The authors propose a tactical system architecture for the 21st century that will give tetherless communications to all users, with access to a switched network implemented in a satellite constellation. Early in the next century, when today's tactical mobile communications systems are outmoded, an all-wireless access system such as this will be feasible. Lessons learned in Desert Storm tell that mobility of communications is of the utmost importance to a fighting force; network access in this new architecture will be via a variety of personal mobile and portable terminals that extend complete mobility to all users. A terrestrial backbone network using many vehicles, LOS links, and much (frequency) planning will no longer be needed; the architecture discussed is a Land Mobile Satellite (LMS) system. Feasibility of such a tactical system architecture is argued and some promising technology options available to system architects and designers are identified.< <ETX xmlns:mml=\"http://www.w3.org/1998/Math/MathML\" xmlns:xlink=\"http://www.w3.org/1999/xlink\">&gt;</ETX>",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Mobility Decisions in Heterogeneous Wireless Access Networks",
+    "authors": "A. Seth, N. Ahmed, S. Keshav Manuscript, University of Waterloo, Fall 2004",
+    "year": 2004,
+    "venue": "Heterogeneous Wireless Access Networks",
+    "link": "https://doi.org/10.1007/978-0-387-09777-0_1",
+    "doi": "10.1007/978-0-387-09777-0_1",
+    "abstract": null,
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "The Rich and Middle Classes on Twitter: Are Popular Users Indeed Different from Regular Users",
+    "authors": "A. Ruhela, A. Bagchi, A. Mahanti, and A. Seth. Computer Communications 2015",
+    "year": 2015,
+    "venue": "Computer Communications",
+    "link": "https://doi.org/10.1016/j.comcom.2015.07.024",
+    "doi": "10.1016/j.comcom.2015.07.024",
+    "abstract": "Popular users tweet slightly earlier than ordinary users during the growth of Twitter eventsPopular users engage with a Twitter event for slightly longer than ordinary usersPopular users write more original tweets than retweets, while the trend is the reverse for ordinary usersTweets by popular users are retweeted more than tweets by ordinary usersPopular users are the quickest to retweet tweetsThe volume of tweeting by popular users is however not different from that of ordinary usersPopular users also do not seem to have an influence on the event growth ratesEventual popularity attained by an event is positively correlated with participation by popular users, but causality is hard to establish Online social networking (OSN) websites such as Twitter and Facebook are known to have a wide heterogeneity in the popularity of their users, which is counted typically in terms of the number of followers or friends of the users. We add to the large body of work on information diffusion on online social networking websites, by studying how the behavior of the small minority of very popular users on Twitter differs from that of the bulk of the population of ordinary users, and how these differences may impact information diffusion. Our findings are somewhat counter intuitive. We find that on aggregate metrics such as the tweeting volume and degree of participation on different topics, popular users and ordinary users seem similar to each other. We also find that although popular users do seem to command an influential position in driving the popularity of topics on Twitter, in practice they do not affect growth rates of user participation and the causality of popular users driving event popularity is hard to establish. Our observations corroborate the findings of other researchers who show that user popularity in terms of number of followers does not translate into driving event popularity, but that event popularity may be driven by extraneous factors to do with the importance of the event.",
+    "skip_reason": "The paper does not substantively engage with a developing-regions context as required by the rules for all topics except cs_fundamentals."
+  },
+  {
+    "title": "Spatio-temporal and Events Based Analysis of Topic Popularity in Twitter",
+    "authors": "S. Ardon, A. Bagchi, A. Mahanti, A. Ruhela, A. Seth, R. Tripathy, and S. Triukose. CIKM, 2013",
+    "year": 2013,
+    "venue": "Proceedings of the 22nd ACM international conference on Information &amp; Knowledge Management",
+    "link": "https://doi.org/10.1145/2505515.2505525",
+    "doi": "10.1145/2505515.2505525",
+    "abstract": "We present the first comprehensive characterization of the diffusion of ideas on Twitter, studying more than 5.96 million topics that include both popular and less popular topics. On a data set containing approximately 10 million users and a comprehensive scraping of 196 million tweets, we perform a rigorous temporal and spatial analysis, investigating the time-evolving properties of the subgraphs formed by the users discussing each topic. We focus on two different notions of the spatial: the network topology formed by follower-following links on Twitter, and the geospatial location of the users. We investigate the effect of initiators on the popularity of topics and find that users with a high number of followers have a strong impact on topic popularity. We deduce that topics become popular when disjoint clusters of users discussing them begin to merge and form one giant component that grows to cover a significant fraction of the network. Our geospatial analysis shows that highly popular topics are those that cross regional boundaries aggressively.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "The Scope for Online Social Network Aided Caching in Web CDNs",
+    "authors": "A. Ruhela, S. Triukose, S. Ardon, A. Bagchi, A. Mahanti, and A. Seth. ANCS, 2013",
+    "year": 2013,
+    "venue": "Architectures for Networking and Communications Systems",
+    "link": "https://doi.org/10.1109/ancs.2013.6665174",
+    "doi": "10.1109/ancs.2013.6665174",
+    "abstract": "With Online Social Networking (OSN) services coming to prominence as a major platform for the popularization of Web content, recent research has focused on using information gleaned from these services to improve the performance of Content Distribution Networks (CDN). In this paper we find that contrary to popular belief, the simple cache replacement policy LRU outperforms methods based on OSN input. To establish this we propose an OSN-assisted caching strategy which we evaluate using a large Twitter dataset and through simulation. Our results show that vanilla LRU mostly outperforms the OSN-aided mechanisms. We study the reasons for this and find that if at any time there is a large enough percentage of highly popular content, which becomes popular within a short enough time span, CDN can do well by just following an LRU principle. While we do not claim generalizability to other workloads, or other caching architectures on the Internet, our results are important as they apply to the common use-case and show that simple algorithms do quite well.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Towards the Use of Online Social Networks for Efficient Internet Content Distribution",
+    "authors": "A. Ruhela, R. Tripathi, S. Triukose, S. Ardon, A. Bagchi, and A. Seth",
+    "year": 2011,
+    "venue": "IEEE ANTS",
+    "link": "https://doi.org/10.1109/ANTS.2011.6163677",
+    "doi": "10.1109/ANTS.2011.6163677",
+    "abstract": "A large contributor to the growing Internet traffic is user generated content shared via online social networking websites. Our insight is that these websites can reveal valuable information that can be used in content delivery networks for better caching and pre-fetching performance. In this paper, we combine five different datasets from Twitter and other sources, and make several observations that can lead to helpful heuristics for better content placement. In particular, we study the temporal growth and decay, the geographical spread, and the social spread, of topics on the social network. We also describe in detail our methodologies for data collection, that can be useful for other researchers working in this space as well. In the future, we will use these observations to design heuristics for improved CDN performance.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Characterization of Social Media Response to Natural Disasters",
+    "authors": "S. Nagar, A. Joshi, and A. Seth. INSNA Sunbelt Social Networks Conference, 2012",
+    "year": 2012,
+    "venue": "Proceedings of the 21st International Conference on World Wide Web",
+    "link": "https://doi.org/10.1145/2187980.2188177",
+    "doi": "10.1145/2187980.2188177",
+    "abstract": "Online social networking websites such as Twitter and Facebook often serve a breaking-news role for natural disasters: these websites are among the first ones to mention the news, and because they are visited by millions of users regularly the websites also help communicate the news to a large mass of people. In this paper, we examine how news about these disasters spreads on the social network. In addition to this, we also examine the countries of the Tweeting users. We examine Twitter logs from the 2010 Philippines typhoon, the 2011 Brazil flood and the 2011 Japan earthquake. We find that although news about the disaster may be initiated in multiple places in the social network, it quickly finds a core community that is interested in the disaster, and has little chance to escape the community via social network links alone. We also find evidence that the world at large expresses concern about such largescale disasters, and not just countries geographically proximate to the epicenter of the disaster. Our analysis has implications for the design of fund raising campaigns through social networking websites.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "A Framework for Pre-processing of Social Media Feeds Based on an Integrated Knowledge Base",
+    "authors": "T. Kolajo, O. Daramola, A. Adebiyi, and A. Seth Information Processing and Management, 2020.",
+    "year": 2020,
+    "venue": "Information Processing &amp; Management",
+    "link": "https://doi.org/10.1016/j.ipm.2020.102348",
+    "doi": "10.1016/j.ipm.2020.102348",
+    "abstract": "Abstract Most of the previous studies on the semantic analysis of social media feeds have not considered the issue of ambiguity that is associated with slangs, abbreviations, and acronyms that are embedded in social media posts. These noisy terms have implicit meanings and form part of the rich semantic context that must be analysed to gain complete insights from social media feeds. This paper proposes an improved framework for pre-processing of social media feeds for better performance. To do this, the use of an integrated knowledge base (ikb) which comprises a local knowledge source (Naijalingo), urban dictionary and internet slang was combined with the adapted Lesk algorithm to facilitate semantic analysis of social media feeds. Experimental results showed that the proposed approach performed better than existing methods when it was tested on three machine learning models, which are support vector machines, multilayer perceptron, and convolutional neural networks. The framework had an accuracy of 94.07% on a standardized dataset, and 99.78% on localised dataset\u00a0when\u00a0used to extract sentiments from tweets. The improved performance on the localised dataset reveals the advantage of integrating the use of local knowledge sources into the process of analysing social media feeds particularly in interpreting slangs/acronyms/abbreviations that have contextually rooted meanings.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Jury: An Automation Framework for Protocolised Primary Healthcare Delivery",
+    "authors": "D. J. Mathew, A. Samarth, Z. Johar, and A. Seth",
+    "year": 2013,
+    "venue": "ACM DEV (4)",
+    "link": "https://doi.org/10.1145/2537052.2537059",
+    "doi": "10.1145/2537052.2537059",
+    "abstract": "It is often hard to get trained doctors as primary healthcare providers in rural India. In an emergent tiered model, clinicians trained in basic health practices are deployed at rural clinics, and instructed to follow structured clinical protocols. Medical records are maintained electronically and a regular medical audit is performed on the records by skilled doctors to ensure that the clinicians stationed in rural clinics provide high quality delivery of care. Manual audit of the medical records is however non-scalable and prone to error. We describe the development of Jury, a highly configurable and extensible framework for automation of clinical audit of electronic medical records (EMRs). Socio-economic complexities and paradigmatic differences between public health research and computer science throw up interesting challenges that were tackled on the way to arriving at a solution. A pilot implementation was done for the hypertension protocol. Our field partner ICTPH has evinced interest in integrating Jury into their regular workflow.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Geolocating IP Addresses in Cellular Data Networks",
+    "authors": "S. Triukose, S. Ardon, A. Mahanti, and A. Seth: PAM, 2012",
+    "year": 2012,
+    "venue": "Lecture Notes in Computer Science",
+    "link": "https://doi.org/10.1007/978-3-642-28537-0_16",
+    "doi": "10.1007/978-3-642-28537-0_16",
+    "abstract": null,
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Design of a Molecular Communication Framework for Nanomachines",
+    "authors": "A. Dubey, S. Tandon, and A. Seth COMSNETS 2012 (poster)",
+    "year": 2012,
+    "venue": "(poster)",
+    "link": "https://doi.org/10.1109/comsnets.2012.6151359",
+    "doi": "10.1109/comsnets.2012.6151359",
+    "abstract": "Nanomachines are tiny devices constructed out of molecular components, able to perform simple computation, sensing and actuation tasks. Despite their small size, nanomachines have far-reaching applications such as targeted drug delivery within organisms, forced degradation of unwanted materials from food items, bio-detection of items, etc [1].",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Achieving Privacy and Security in Radio Frequency Identification",
+    "authors": "A. Seth, M. Beg. Privacy, Security, Trust, 2006",
+    "year": 2006,
+    "venue": "Proceedings of the 2006 International Conference on Privacy, Security and Trust: Bridge the Gap Between PST Technologies and Business Services",
+    "link": "https://doi.org/10.1145/1501434.1501484",
+    "doi": "10.1145/1501434.1501484",
+    "abstract": "No abstract available.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  }
+]

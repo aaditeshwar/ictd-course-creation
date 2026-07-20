@@ -1,0 +1,191 @@
+[
+  {
+    "title": "Understanding the Strategies and Practices of Facebook Microcelebrities for Engaging in Sociopolitical Discourses",
+    "authors": "Dipto Das, A. K. M. Najmul Islam, S. M. Taiabul Haque, Jukka Vuorinen, Syed Ishtiaque Ahmed",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3572334.3572368",
+    "doi": "10.1145/3572334.3572368",
+    "abstract": "In this paper, we study popular microcelebrities from the Global South to understand their strategies and practices on Facebook. Unlike traditional celebrities who gain their reputation through different types of physical performance, these microcelebrities attain their status by presenting themselves in a favorable way to their online followers. We conducted interviews with 19 microcelebrities from Bangladesh and analyzed our data using actor-network theory (ANT) and Goffman\u2019s dramaturgical analysis (DA) of human interaction. We discuss the complex socio-technical ecosystem of the microcelebrity and the roles of non-human actors, such as platforms and local internet infrastructure along with human actors\u2019 practices. We explain the microcelebrities\u2019 experience with the process of microcelebritification\u2013the process of being a microcelebrity on social media through impression management, and becoming opinion leaders in local sociopolitical discourses as part of their online identity. Our paper contributes to the emerging literature on microcelebrities by highlighting the process viewed in the context of the Global South.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "On Inclusion: Video Analysis of Older Adult Interactions with a Multi-Modal Voice Assistant in a Public Setting",
+    "authors": "Andrea Cuadra, Hyein Baek, Deborah Estrin, Malte F. Jung, Nicola Dell",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3572334.3572371",
+    "doi": "10.1145/3572334.3572371",
+    "abstract": "Older adults around the world lack access to a wide range of potentially life-changing digital applications, services, and information that could be provided by voice assistants (such as Amazon\u2019s Alexa, Google\u2019s Assistant, or Apple\u2019s Siri). However, older adults\u2019 needs are underrepresented in the design of voice assistants. Because of this, we are missing opportunities for digital inclusion, and increasing risks of excluding older adults as these devices permeate public settings. In this work, we video record older adults (n=26) interacting with a multi-modal voice assistants while waiting in line at food pantries, and use Interaction Analysis to draw insights from these recordings. We find that by being agnostic to body language, audio-prosodic features, and other contextual factors, voice assistants fail to capture and react to some important aspects of interactions. We discuss design (e.g, interpreting users\u2019 posture as a cue to wake the device when they are leaning towards the device) and research (e.g., surveillance trade-offs) implications, and argue for the use of multi-modal inputs with attention to privacy. Designing and training voice assistants to take in and appropriately respond to non-verbal cues may increase their inclusivity, helping them fulfill important needs of our aging population.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Tackling Hate Speech in Low-resource Languages with Context Experts",
+    "authors": "Daniel Nkemelu, Harshil Shah, Michael L. Best, Irfan Essa",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3572334.3572372",
+    "doi": "10.1145/3572334.3572372",
+    "abstract": "Given Myanmar\u2019s historical and socio-political context, hate speech spread on social media have escalated into offline unrest and violence. This paper presents findings from our remote study on the automatic detection of hate speech online in Myanmar. We argue that effectively addressing this problem will require community-based approaches that combine the knowledge of context experts with machine learning tools that can analyze the vast amount of data produced. To this end, we develop a systematic process to facilitate this collaboration covering key aspects of data collection, annotation, and model validation strategies. We highlight challenges in this area stemming from small and imbalanced datasets, the need to balance non-glamorous data work and stakeholder priorities, and closed data-sharing practices. Stemming from these findings, we discuss avenues for further work in developing and deploying hate speech detection systems for low-resource languages.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Coyotes, Caravans, and Connectivity: Digital Practices among Honduran Irregular Migrants",
+    "authors": "Sylvia Darling, Kentaro Toyama",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3572334.3572373",
+    "doi": "10.1145/3572334.3572373",
+    "abstract": "As with irregular migrants elsewhere, Hondurans seeking to cross the border into the United States use digital technologies, particularly mobile phones. Based on participant observation and semi-structured interviews in Honduras with 26 irregular migrants, we explore how they relate to digital devices at the onset of their journey and throughout. Contrary to studies on migrants\u2019 experiences at or near their desired destination, we find that participants strongly prefer to use mobile phones to the extent allowed by their modes of migration \u2013 specifically, travel with human smugglers called coyotes, with caravans, or on their own. Irregular migrants encounter dangerous threats along their path, which they fear could be heightened by mobile phones. Nevertheless, despite their concerns, we find that their adaptive strategies are irrelevant or ineffective in preventing deportation and extortion. These findings lead to recommendations that consider a broader digital ecology beyond personal devices to support migrants\u2019 needs and dispel misinformation about the dangers of device access.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "The Reordering of Everyday Life through Digital technologies During the Covid-19 Pandemic",
+    "authors": "Hasib Ahsan, Lars Rune Christensen",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3572334.3572375",
+    "doi": "10.1145/3572334.3572375",
+    "abstract": "This paper offers an exploration of everyday life during the Covid-19 pandemic in Bangladesh with a focus on how it has been reordered through commonplace digital technologies and services. We present findings from a qualitative field study. Themes emerging from the findings suggest that digital technologies have been important to the reordering of everyday life during the pandemic: videoconferencing have been instrumental in allowing urban residents to work from home, digital money has enabled workers in rural areas to continue financial transactions, and social media has been a source of news and rumours during the pandemic. However, the benefits of the digital reordering of everyday life are unevenly distributed. The themes emerging are used to frame a discussion of the notion of reordering compared to the concept of resilience within ICTD.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Digital Platform Use for Refugee Crisis Response",
+    "authors": "Carleen F. Maitland, Marisol Wong-Villacres, Roberto Pereira, Elba del Carmen Valderrama Baham\u00f3ndez, Let\u00edcia Mara Peres, Rehema Baguma",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3572334.3572376",
+    "doi": "10.1145/3572334.3572376",
+    "abstract": "Increases in forced migration crises and the digitalization of humanitarian response require ongoing innovation in information management tools and processes. Our research-in-progress examines emergent data aggregation and data quality management methods enabled by a humanitarian data sharing platform from the Global North. Through an international and inter-regional comparison of this platform's use, our team of international faculty will generate insights for humanitarian informatics theory as well as practice. Specifically, our research examines the role of power and control in collaborative humanitarian operations. Given the neocolonial dimensions of the humanitarian system, we also explore potential North/South divides and their effects. Preliminary results provide insight into power exercised in national response, diversity in aggregation procedures related to technology and staff preferences, and the loss of data's meaning due to the centralization processes supported by data aggregation.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Toleration Factors: The Expectations of Decorum, Civility, and Certainty on Rural Social Media",
+    "authors": "Sharifa Sultana, Rokeya Akter, Zinnat Sultana, Syed Ishtiaque Ahmed",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3572334.3572378",
+    "doi": "10.1145/3572334.3572378",
+    "abstract": "This paper presents the understanding of the rural perception of toleration on Facebook by Bangladeshi users. In a three-year long ethnographic study with villagers in 12 rural areas in Jessore, Bangladesh, we investigated the three major aspects of toleration: decorum, civility, and certainty. Our findings informed that these factors influenced rural villagers\u2019 interaction on social media. We found that to address these concerns, rural people often adopt their own framework where they co-existed with their own opinion along with the parties whose opinions were disagreeable to them. Here, the major concerns were unpredictable behavior of social media algorithms, conflicts of ideologies and cultural values, and mismatching language skills while using Facebook collectively and collaboratively within the family. We also found that the practice of toleration and associated factors influenced users\u2019 interaction with other users both online and in the physical world. Building on our findings, we argue that understanding different conceptualizations of toleration is essential to have a safer digital space for marginalized rural communities. Our study contributes to HCI\u2019s and ICTD\u2019s understanding of disagreement and conflicts by bringing in the concept of toleration and helps design better appropriate Facebook experience for the users in rural Bangladesh and other similar communities.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Barriers and opportunities to improve renal outcomes in South Africa using AI technology for pediatric ultrasound interpretation",
+    "authors": "Lauren Erdman, Karen Milford, Zubrina Solomon, Mandy Rickard, Armando J. Lorenzo, Andrew Grieve, Anna Goldenberg",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3572334.3572379",
+    "doi": "10.1145/3572334.3572379",
+    "abstract": "Over 10% of the global population is affected by chronic kidney disease (CKD) and those without preventative care and early intervention are the worst impacted. Many childhood precursors to CKD such as hydronephrosis (HN) continue to be detected and treated late in low- and middle-income countries where prenatal and early-life ultrasound is less common. Artificial intelligence-based technology holds promise for improving some of this detection and treatment. In this work, we explore the barriers and opportunities of transferring an AI-based tool for early HN detection in pediatric ultrasound from Canada, where it was initially developed, to South Africa. We explore these challenges and opportunities at the health-system-, institutional-, and provider-levels. Our investigation is performed through interviews with clinicians at various levels, locations, and in different specialties. We find that the context of our tool\u2019s use will change in terms of both clinicians and patients, as the users of our tool in South Africa will have less access to pediatric sonography expertise and, for related reasons, patients will tend to be older when they receive an ultrasound imaging. These differences indicate that while the initial algorithm can be tested and fine-tuned in certain settings, there is a larger need for tools which make standardized ultrasound easier to acquire. The clinicians interviewed are eager for AI-based assistance in caring patients earlier and more effectively and believe algorithms of this kind will be useful for improving care.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Liberating Stories about a Terrorist Attack",
+    "authors": "Nova Ahmed, Zareen Tasnim",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3572334.3572380",
+    "doi": "10.1145/3572334.3572380",
+    "abstract": "In recent years, there has been a digital revolution in Bangladesh. We have explored digital storytelling among families as a way of sharing personal feelings, experiences regarding a terrorist attack that took place four years ago. Many of these feelings were not shared explicitly for various social, political reasons hampering freedom of expression. The goal of the work was to ensure social justice through ways to express feelings in a trusted platform. The research explored seventeen families over fifty stories using ethnographic study methods. Storytellers were able to express themselves through family-storytelling. We have used a simple tool named Golpokotha, a mobile application that enables secured storytelling that remains private unless the user prefers to share it with other family members. Contribution of this work lies in unveiling the overall picture exploring storytelling as a medium of expression from the trauma of a national crisis from a developing country perspective. We found that most of the participants went through silence, fear, humiliations, blame game, and stigma after the crisis which resisted expressing themselves through stories. Participants chose to overcome these barriers through their sense of responsibility, optimism, and social isolation. In the long run, their inspirations and reminiscence of innocent victims\u2019 contributions motivated them to return to their normal life before the attack. Overall, our findings suggest liberating stories, designs, and policies to combat challenging times.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "On a Mismatch Between Design and Social Change",
+    "authors": "Kentaro Toyama",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3572334.3572381",
+    "doi": "10.1145/3572334.3572381",
+    "abstract": "Social change projects, such as those undertaken under the banner of information & communication technologies for development (ICT4D), frequently address problems using a design-based approach and therefore inherit the values of what could be called \u201cclassical design.\u201d One of those values, as we demonstrate through an examination of popular design textbooks, is to accommodate people\u2019s needs, abilities, and behaviors. Accommodating people as they are, however, is very different from encouraging the internal changes in people \u2013 as either individuals or societies \u2013 that are required for meaningful social change. The inclinations of classical design are thus poorly matched to efforts intended to lead to social change. We flesh out this argument through an examination of classical design\u2019s underlying ethos, an articulation of the difference between social good and social change, case studies of three ICT4D design efforts, and analysis of the implications of \u201cgiving people what they want.\u201d We conclude with a call to draw a clear line between design for convenience or efficiency and innovation for social change in ICT4D pedagogy, research, and practice.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Information Systems Resilience: The Role of Flexibility and Stability",
+    "authors": "Johanne Thunes, Andrea Ulshagen, Vetle Alvenes Utvik",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3572334.3572382",
+    "doi": "10.1145/3572334.3572382",
+    "abstract": "This paper contributes to conceptualization of information system resilience. By building upon and extending the framework of Heeks and Ospina (2019), we argue that an information system\u2019s ability to be resilient lies in its balance between stability and flexibility. Based on empirical findings we suggest that a stable core and flexibility to change is crucial when a digital system is faced with unforeseen adversities. We hope to contribute to more theorizing of the information system resilience and inspire further research on this subject. The paper may also have practical value for stakeholders working with implementation of national information systems in the health sector. This is a qualitative case study conducted together with the Health Information Systems Programme (HISP) at the Institute of Informatics, University of Oslo. Our findings are based on empirical insights related to the DHIS2 software during the Covid-19 response.",
+    "skip_reason": "The paper does not substantively engage with a developing-regions context as required by the rules for all topics except cs_fundamentals."
+  },
+  {
+    "title": "Connecting Mental Health with Sustainable Development Goals: Insights from Call Data of a Telephone Crisis Helpline in Bangladesh",
+    "authors": "Ananya Bhattacharjee, Mohammad Ruhul Amin, Yeshim Iqbal, Syed Ishtiaque Ahmed",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3572334.3572384",
+    "doi": "10.1145/3572334.3572384",
+    "abstract": "Efficacy of the traditional individualistic viewpoint towards mental health is questionable, particularly in the context of the Global South countries. Past works in psychology have rarely incorporated people\u2019s background and surroundings in dealing with mental health. In contrast, we argue that many mental health problems of people living in the Global South countries are rooted in underdevelopment. Analyzing 1,000 call data of a telephone crisis helpline in Bangladesh, we found that 91% of the cases where callers shared their problems were impacted by failure to meet one of the 17 sustainable developed goals proposed by United Nations. Challenges towards ensuring gender equality, good health and well-being, quality education, and decent work and economic growth among a few others were causing mental health problems among callers. Our findings demonstrate the need to revise support behavior models followed by helplines in the Global South and advocate for a shift in viewing mental health problems from an individualistic to a social approach.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Son Mis Datos: Building Personal Data Literacies through Citizen Data Audits",
+    "authors": "Katherine Margaret Anne Reilly",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3572334.3572387",
+    "doi": "10.1145/3572334.3572387",
+    "abstract": "This paper reports the results of a pilot projct to build functional, reflexive, critical and tactical personal data literacies through citizen audits of corporate data practices in the digital economy. The project, called Son Mis Datos (It's My Data), leveraged the personal data access provisions of Peru's national data protection law to help participants access the personal data that private companies hold about them. The work was completed in collaboration with the Peruvian digital rights advocate HiperDerecho which built a website called http://www.SonMisDatos.pe to facilitate personal data requests. Once participants had requested their data, they were invited to conduct citizen data audits of corporate data practices. The project found that citizen data audits are an effective tool for building personal data literacies, and they also show promise for supporting a more engaged citizenry equipped to build a more citizen-centric data economy. However, the project also found that in order to realize this promise, it is important to confront the liberal and individualistic tendencies of privacy frameworks, and find ways to anchor both citizen data audits and personal data literacies in the criteria and local cognitive processes of the affected communities.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Rethinking Safe Mobility: The Case of Safetipin in India",
+    "authors": "Shubhangi Gupta, Sylvia Janicki, Pooja Casula, Nassim Parvin",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3572334.3572392",
+    "doi": "10.1145/3572334.3572392",
+    "abstract": "How do we make sense of the promises of digital technologies for safe mobility? Drawing on a case analysis of Safetipin, a mobile app that has garnered much praise in India, this paper examines the assumptions and promises of technologies designed for safe mobility. The contribution of this paper is twofold. First, we draw on feminist criticisms of safety technologies, defined broadly, to identify the main issues in their framing and efficacy. Second, we build upon initial interviews with users and makers of Safetipin to examine how the app addresses, or fails to address, the criticisms received by other safety technologies. We conclude by foregrounding key questions that ICTD designers can consider when designing for safe mobility in India and beyond.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Closed Ranks: The Discursive Value of Military Support for Indian Politicians on Social Media",
+    "authors": "Agrima Seth, Soham De, Arshia Arya, Steven Wilkinson, Sushant Singh, Joyojeet Pal",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3572334.3572395",
+    "doi": "10.1145/3572334.3572395",
+    "abstract": "Influencers play a crucial role in shaping public narratives through information creation and diffusion in the Global South. While public figures from various walks of life and their impact on public discourse have been studied, defence veterans as influencers of the political discourse have been largely overlooked. Veterans matter in the public spehere as a normatively important political lobby. They are also interesting because, unlike active-duty military officers, they are not restricted from taking public sides on politics, so their posts may provide a window into the views of those still in the service. In this work, we systematically analyze the engagement on Twitter of self-described defence-related accounts and politician accounts that post on defence-related issues. We find that self-described defence-related accounts disproportionately engage with the current ruling party in India. We find that politicians promote their closeness to the defence services and nationalist credentials through engagements with defence-related influencers. We briefly consider the institutional implications of these patterns and connections.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Understanding Online Harassment and Safety Concerns of Marginalized LGBTQ+ Populations on Social Media in Bangladesh",
+    "authors": "Fayika Farhat Nova, Pratyasha Saha, Shion Guha",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3572334.3572396",
+    "doi": "10.1145/3572334.3572396",
+    "abstract": "This note explores how various technology-mediated negative experiences and safety concerns of non-Western LGBTQ+ users, particularly from Bangladesh, hinder their continuing online interactions and self-presentation practices. Based on face-to-face and Skype semi-structured interviews (n=31), our initial results report that along with facing life-threatening harassing experiences online, Bangladeshi LGBTQ+ users also struggle with audience management and perceived privacy affordances that critically restrict their identity exploration and overall online participation, often forcing them to adopt fake/pseudo-identity online. These findings advocate for better design implications on safer social media participation, especially for LGBTQ+ users from non-Western contexts, and call for more attention to inclusive technologies.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "To Block or Not to Block: Accelerating Mobile Web Pages On-The-Fly Through JavaScript Classification",
+    "authors": "Moumena Chaqfeh, Muhammad Haseeb, Waleed Hashmi, Patrick Inshuti, Manesha Ramesh, Matteo Varvello, Lakshminarayanan Subramanian, Fareed Zaffar, Yasir Zaki",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3572334.3572397",
+    "doi": "10.1145/3572334.3572397",
+    "abstract": "The increasing complexity of JavaScript (JS) in modern mobile web pages has become a performance bottleneck for low-end mobile phone users, especially in developing regions. In this paper we propose SlimWeb, a novel approach that automatically derives lightweight versions of mobile web pages on-the-fly by eliminating non-essential JavaScript that does not impact the core page content and interactive functionality. SlimWeb consists of a JavaScript classification service powered by a supervised Machine Learning (ML) model that provides insights into each JavaScript element embedded in a web page. SlimWeb aims to improve the web browsing experience by predicting the class of each element, such that essential elements are preserved and non-essential elements are blocked by the browsers using the service. We motivate SlimWeb\u2019s core design via a preference survey where 306 users overwhelmingly preferred having faster page load times over fetching various categories of non-essential JavaScript. We evaluate SlimWeb across 500 popular web pages in a developing region on real cellular networks, along with a user experience study with 20 real-world users and a usage willingness survey of 588 users. Evaluation results show that SlimWeb achieves 50% reduction in page load time compared to the original pages, and more than 30% reduction compared to competing solutions, while achieving high similarity scores to the original pages measured via a qualitative evaluation study with 62 users. SlimWeb improves the overall user experience metric (defined by Google Lighthouse combining first contentful paint, time to interactive, speed index) by more than 60% compared to the original pages, while maintaining 90-100% of the visual and functional components of most pages.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "A Qualitative Difference: Integrating Qualitative Data into Humanitarian Response Operations",
+    "authors": "Carleen F. Maitland, Jean-Laurent Martin, Maria Gabriela Urgiles Bravo, Alex Bertram",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3572334.3572398",
+    "doi": "10.1145/3572334.3572398",
+    "abstract": "Recent developments in qualitative data analytics may generate helpful insights for humanitarian response. At the same time, humanitarian coordination efforts are embracing data sharing platforms to ease data flows. Combined, these two innovations could simultaneously offer operational insights across multiple humanitarian organizations. We pursue this potential through the QualMiner project, an18-month collaboration of the UN-led response to the Venezuelan forced migration crisis in Ecuador. In our efforts to integrate qualitative data, we developed applications with implications for local operations as well as platform features and analyzed data entry processes and information product designs. Our analysis finds the established quantitative system serves as an installed base enacting agency and generating three effects, namely framing, artifacts, and informing. We also find collaborative innovation with non-profit users results in direct and indirect factors shaping the data sharing platform's boundaries. Finally, our analysis provides a critical, yet depolarized [1], assessment of advanced analytics in the humanitarian context. These findings have implications for platform boundary theories and critical data studies in the humanitarian domain, as well as humanitarian information management practice.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Unpacking Tensions in Designing Annotation System for Public Toilets to Support Menstrual Mobilities",
+    "authors": "Gauri Bhatnagar, Pushpendra Singh, Neha Kumar, Anupriya Tuli",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3572334.3572399",
+    "doi": "10.1145/3572334.3572399",
+    "abstract": "Safe menstrual hygiene practices are central to maintaining good menstrual health. In addition to menstrual literacy, practicing safe menstrual hygiene requires access to menstrual products and a private, safe, and hygienic space for changing and cleaning. Access to such infrastructure, specifically functional public toilets, becomes even more crucial for menstruators when navigating public spaces while having periods. This work presents the learnings from the prototyping of MenstruSPACE, a toilet locator application offering an annotation system for public toilets towards supporting menstrual mobilities. Our design journey revealed a set of design tensions and open challenges to be considered when designing public infrastructure annotation systems to facilitate safe menstrual mobilities.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Commissioning Development: Grantmaking, Community Voices, and their Implications for ICTD",
+    "authors": "Manika Saha, Tom Bartindale, Sharifa Sultana, Gillian C. Oliver, Dan Richardson, Shakuntala Haraksingh Thilsted, Syed Ishtiaque Ahmed, Patrick Olivier",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3572334.3572402",
+    "doi": "10.1145/3572334.3572402",
+    "abstract": "While information and communication technology for development (ICTD) researchers have prioritized advocating for community voices in innovation design and development, we have limited insights into how community voices are incorporated by the high-level decision-makers who fund and initiate development projects and programs in the Global South. Indeed, understanding local communities\u2019 voices (expressions of needs, challenges, and priorities) in tailoring effective development projects for sustainable development is widely considered an unmet goal. Using a qualitative survey of eight decision-makers (including grantmaking donors, central governments and INGOs) we explored a number of key factors, including national and global political climates, insider-outsider interactions, and evidence-based approaches that influence the high-level decision making process, workflows, and perceptions of community voice in project commissioning within Bangladesh\u2019s public health nutrition development arena. Our findings reveal the tensions that arise among high-level decision-makers, and highlight the challenges associated with connecting with communities during development project design and implementation. We suggest broader implications and design opportunities for inventive project commissioning approaches to bridge the gap between communities and decision-makers. Our findings are of potential value for ICTD and HCI4D researchers interested in sustainable innovation and understanding and participating in the complex workflows of the project commissioning process in sustainable global development.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Long-Range Low-Cost Networking for Real-Time Monitoring of Rail Tracks in Developing Countries",
+    "authors": "Saiful Islam Salim, Uday Kamal, Adnan Quaium, Mainul Hossain, Masfiqur Rahaman, Md. Nazmul Hasan Sakib, Md Toki Tahmid, A. B. M. Alim Al Islam",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3572334.3581765",
+    "doi": "10.1145/3572334.3581765",
+    "abstract": "Derailments present a frequent phenomenon in several developing countries, which result in massive loss of property along with death tolls. For preventing derailments, a real-time automated system is needed to detect uprooted or faulty rail blocks. One of the solutions in this context is to sense the vibration of the rail track having an incoming train and transmit the information to the train notifying it about the condition of the rail track ahead. However, existing studies in this regard are yet to present a pragmatic solution that enables much-demanded long-distance networking to transmit the sensed data. The demand for long-distance network communication between the sensor nodes and the incoming train is unavoidable, as stopping the train after sensing an uprooted or faulty rail block ahead needs a considerable response time and distance. Therefore, in this paper, we develop a low-cost, long-range, and highly reliable mobile multi-hop networking scheme to successfully transmit data sensed from rail tracks to an approaching train at a distance of around 2000m. By considering the effect of Fresnel\u2019s Region in our study, we determine the suitable placement of the networking module on the rail track, which leads us to achieve a delivery ratio of more than 99%. We confirm this finding through rigorous experiments over a real testbed scenario enabling mobile multi-hop networking.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  }
+]

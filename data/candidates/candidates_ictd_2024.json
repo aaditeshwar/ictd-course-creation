@@ -1,0 +1,280 @@
+[
+  {
+    "id": null,
+    "title": "Scalable Monitoring of Tree Canopy Density and Height in India at High Spatial Resolutions",
+    "authors": "Dhruvi Goyal, Harsh Singh Chauhan, Aaditeshwar Seth",
+    "year": 2024,
+    "venue": "ictd_2024",
+    "areas": [
+      "forests_restoration"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "climate_change"
+    ],
+    "area_agnostic": false,
+    "source_course": "ictd_2024_venue_search",
+    "notes": "The paper engages with a developing-regions context in India, focusing on forest monitoring which is crucial for sustainability and environmental management.",
+    "link": "https://doi.org/10.1145/3700794.3700798",
+    "abstract": "Monitoring of trees in forests and plantations has become crucial to mitigate the adverse effects of climate change. We present a comprehensive study of building open-source remote sensing-based methods to estimate tree characteristics such as canopy density and tree height at a spatial resolution of 25m, monitored annually, to build indicators for improvement, degradation, afforestation, and deforestation in forests and plantations over time. Our models provide better accuracy compared to existing baseline models. We also provide a detailed analysis of tree changes across almost all the agro-climatic zones in India, over a five-year period (July 2017 - June 2022). The resulting maps and statistical analyses highlight regions that have experienced significant changes, and can assist civil society organizations, government departments, and village-level community institutions to track forests and restoration efforts.",
+    "_matched_keywords": [
+      "afforestation",
+      "remote sensing"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Filter-in or Filter-out: Complexities and Implications of Content Moderation Processes in a Voice-based Participatory Media Platform in India",
+    "authors": "Saurabh Jain, Paramita Panjal, Mohd Sultan Ahmad, Rafi Ahmad Siddiqi, Aaditeshwar Seth",
+    "year": 2024,
+    "venue": "ictd_2024",
+    "areas": [
+      "media_information"
+    ],
+    "topics": [
+      "ethnographic_design",
+      "impact_evaluation",
+      "operations_scale"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "caste",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "ictd_2024_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context in India, focusing on voice-based participatory media platforms in rural areas.",
+    "link": "https://doi.org/10.1145/3700794.3700804",
+    "abstract": "Participatory media platforms are digital technology platforms that enable users to participate in online communities and allow them to contribute content that helps in the exchange of views. Content contributions by community members result in diverse content, some of which may be illegal, harmful or hurtful to some community groups, obscene, or not aligned with platform policy, thus requiring the need to moderate this content. We study the content moderation policies of four voice-based participatory media platforms in rural India, namely \u2018Shramik Vaani\u2019, \u2018Meri Awaz Meri Pahchaan\u2019, \u2018Kahi Ankahi Baatein\u2019, and \u2018Jamui News (JNews)\u2019, which operate on a common underlying technology framework Mobile Vaani1 We address two research questions. First, we identify various complexities in the automation and people processes involved in content moderation on these platforms. Second, we explore the relationship between content moderation policies and user behavior. We study these platforms using a mixed-methods approach. We use a four-step research design that consists of thematic analysis, qualitative content analysis of accepted and rejected content, a user survey, and semi-structured interviews with the content moderation team to investigate the first research question. For the second research question, we use platform logs of user interactions to understand the impact of various moderation decisions on user engagement. This paper is a unique contribution to literature on content moderation, as it presents an insider view of content moderation policies on a popular voice-based participatory media platform in rural North India. We bring out deep complexities in the moderation process and highlight multiple concerns that platform moderators face in their decision making and tasks, the relevance of guiding users to contribute better content rather than simply reviewing the content, and the influence of having in-person field teams in the same communities that engage on the online platform. These findings will be relevant to other participatory and social media platforms to take such aspects into consideration in their own operations.",
+    "_matched_keywords": [
+      "content analysis",
+      "thematic analysis"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Beyond Digital Interventions: Human-Centered Design for Adolescents' Type 1 Diabetes Management in LMICs",
+    "authors": "Susan Wyche, Jennifer Olson, Mary Karanu, Lilian Mathu, Eric Omondi",
+    "year": 2024,
+    "venue": "ictd_2024",
+    "areas": [
+      "health"
+    ],
+    "topics": [
+      "ethnographic_design"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "ictd_2024_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context (Kenya) and applies human-centered design principles to address health issues, fitting the 'ethnographic_design' topic.",
+    "link": "https://doi.org/10.1145/3700794.3700808",
+    "abstract": "Human-centered design (HCD) centers users\u2019 perspectives in the technology design process. This approach is widely used in ICTD to develop digital interventions for people in low- and middle-income countries (LMICs), including mobile health (mHealth) applications. However, primarily using HCD to develop digital interventions limits understanding of how to design interventions for users who do not regularly use digital technologies, particularly smartphones. In this article, we contribute a case study documenting our collaboration with Kenyan adolescents and their caregivers to develop a prototype paper-based diary to support type 1 diabetes (T1D) management. We describe how outcomes from the project's user research and ideation phases\u2014in particular, findings from two design workshops\u2014contributed to the development of the diary. Our findings motivate a discussion about considering alternative HCD outcomes: in particular, non-digital interventions, new knowledge creation, and community-building",
+    "_matched_keywords": [
+      "mHealth",
+      "human-centered design (HCD)"
+    ]
+  },
+  {
+    "id": null,
+    "title": "AI in Education Unplugged Support Equity Between Rural and Urban Areas in Brazil",
+    "authors": "Carlos S. Portela, Paula T. Palomino, Geiser Chalco Challco, Alvaro Sobrinho, Thiago Damasceno Cordeiro, Rafael Ferreira Leite de Mello, Diego Dermeval, Ig Ibert Bittencourt, Seiji Isotani",
+    "year": 2024,
+    "venue": "ictd_2024",
+    "areas": [
+      "education"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "ictd_2024_venue_search",
+    "notes": "The paper engages with a developing-regions context (Brazil's rural and urban educational divide) and applies strong computer science methods (AI, NLP, Computer Vision) to address educational inequalities.",
+    "link": "https://doi.org/10.1145/3700794.3700810",
+    "abstract": "The AIED Unplugged concept leverages Artificial Intelligence (AI) technologies without requiring constant internet access or substantial infrastructure modifications, making it particularly suitable for underserved regions. This paper explores the implementation and impact of the AIED Unplugged solution in Brazil\u2019s elementary schools, focusing on its role in reducing educational inequalities between rural and urban areas. The implemented AIED solution has key features, such as offline functionality, compatibility with low-cost devices, and integration of handwriting recognition and text production assessment using Computer Vision and Natural Language Processing (NLP). Our impact analysis reveals that 8,238 schools adopted this technology, benefiting 164,545 students through personalized feedback and support to improve their writing skills. Data analysis shows that our AIED solution effectively supports students from rural and urban areas, with no significant differences in writing skill improvements, thus demonstrating its potential for equitable educational support. We noticed that automated pedagogical assessments, printable paper-based dashboards, and scalable AI techniques ensure that students, regardless of location, receive personalized support without overburdening teachers. The findings provide valuable insights for policymakers and educators striving to bridge the educational divide.",
+    "_matched_keywords": [
+      "natural language processing (NLP)"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Leaving No One Behind: An Agenda for Voice-based Engagement of Remote Communities",
+    "authors": "Md. Adnanul Islam, Patrick Olivier, Delvin Varghese",
+    "year": 2024,
+    "venue": "ictd_2024",
+    "areas": [
+      "media_information"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "ethnographic_design",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "ictd_2024_venue_search",
+    "notes": "The paper engages with a developing-regions context through the lens of community participation and digital divide, focusing on voice-based platforms for remote communities with limited digital literacy and internet access.",
+    "link": "https://doi.org/10.1145/3700794.3700812",
+    "abstract": "Voice-based digital platforms are increasingly recognized as powerful tools for fostering community participation and bridging digital divide. These platforms offer unique opportunities for engaging distributed communities, especially those with limited digital literacy and internet access. Despite their potential, the comprehensive impact of voice-based platforms is constrained by challenges concerning design inclusivity, sustainability, and stakeholder empowerment. This systematic review critically examines existing voice-based platforms, identifying key challenges and opportunities for enhancing their effectiveness. Our review reveals that innovative participation archetypes, when supported by inclusive design and robust policy frameworks, can significantly enhance community engagement. Additionally, sustainable business models and stakeholder empowerment are crucial for the long-term viability of these platforms. This study provides actionable insights and a research framework for ICTD researchers and practitioners, emphasizing the need for inclusive, sustainable, and contextually relevant design and development of voice-based solutions to drive sustainable social change and promote digital equity.",
+    "_matched_keywords": [
+      "digital literacy",
+      "voice-based platforms",
+      "digital divide"
+    ]
+  },
+  {
+    "id": null,
+    "title": "An In-depth Analysis of Caste-based Inequity in Welfare Allocation of the National Rural Employment Guarantee Scheme in India",
+    "authors": "Ashima Mittal, Chintan Sheth, Aaditeshwar Seth",
+    "year": 2024,
+    "venue": "ictd_2024",
+    "areas": [
+      "labour"
+    ],
+    "topics": [
+      "impact_evaluation",
+      "sociotechnical_dynamics"
+    ],
+    "cross_cutting_axes": [
+      "caste"
+    ],
+    "area_agnostic": false,
+    "source_course": "ictd_2024_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context in India, focusing on the National Rural Employment Guarantee Scheme (MGNREGS) and its impact on marginalized groups.",
+    "link": "https://doi.org/10.1145/3700794.3700815",
+    "abstract": "Abstract: Social welfare schemes are essential policy instruments to facilitate livelihood and development of vulnerable populations. To overcome historical patterns of discrimination against marginalized groups, arguments of social justice demand that welfare allocation should be equitable with a priority towards these groups. The rural employment guarantee scheme (MGNREGS) in India espouses such a view and states that scheduled caste (SC) and scheduled tribe (ST) groups should get preferential allocation. In this paper, we build a framework and conduct an (almost) pan-India analysis using publicly available MGNREGS data to determine disparate treatment and disparate impact of different types, towards SC/ST groups, and uncover the prevalence of different processes through which this discrimination may be operating. We introduce disparate treatment and impact metrics for MGNREGS related to the efficiency of scheme coverage, intensity of scheme uptake, and scheme demand. We also build a unique characterization of panchayats (local administrative units) in terms of whether SC/ST population is dominant in the panchayat, and distributed across the villages of the panchayat or concentrated in a few villages or most villages. Analysis of treatment and impact metrics in these different categories of panchayats helps point towards different processes through which discrimination could be operating, such as through local elite capture by dominant castes or through administrative apathy at higher bureaucratic levels. Our paper makes valuable contribution in being the first work to quantitatively analyze inequity in welfare scheme allocation in the largest public works scheme in the world, and in taking a unique approach to evaluate different treatment and impact metrics in different stylized settings. The results can be used to define precise policy actions at the state, district, and panchayat levels, to counter this inequity. Further, even the identification of disparity in welfare allocation can be used to trigger corrective action.",
+    "_matched_keywords": [
+      "welfare schemes"
+    ]
+  },
+  {
+    "id": null,
+    "title": "\"I wish I had the ability to vote to select my own leaders..\": Rohingya Refugees Quest for Democracy in the Digital Age",
+    "authors": "Faheem Hussain",
+    "year": 2024,
+    "venue": "ictd_2024",
+    "areas": [
+      "governance",
+      "media_information",
+      "social_capital_marginalization"
+    ],
+    "topics": [
+      "ethnographic_design",
+      "sociotechnical_dynamics",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "ictd_2024_venue_search",
+    "notes": "The paper engages with a developing-regions context (Rohingya refugees in Bangladesh) and addresses issues of technology access, governance, and social dynamics, aligning with multiple areas and topics.",
+    "link": "https://doi.org/10.1145/3700794.3700819",
+    "abstract": "This paper draws on a multi-year ethnography (November 2017-August 2022) examining the role of digital technologies in Rohingya refugees\u2019 lives within camps in Bangladesh's Cox's Bazar district. It aims to understand the grassroots technological innovations Rohingya refugees devise to advance their democratic self-determination, socio-political participation, and economic marginalization. Guiding the analyses are two key theories - Amartya Sen's Capability Approach evaluating technological impacts on displaced groups achieving well-being outcomes they value; and Andrew Feenberg's Critical Theory interrogating interests embedded in dominant technology systems, for this research that would be Information and Communication Technology (ICT). The primary research questions are: Can Rohingyas envision democratic and better futures through ICTs? Findings from this paper will shed newer light on ICTs for grassroots innovations and democratic participations within the context of human displacement. This study finds that the host community's law-enforcement agencies regularly use strong-handed approaches to enforce smart device bans inside the refugee camps and as a result, hinder the organic development of digital capabilities. Major gender disparities within the Rohingya society are constraining development and restricting women's autonomy. Despite prohibitive barriers, this research finds that many refugees leverage mobile phones and related applications to access pluralistic information, mobilize both online and offline, organize debate and consensus-building, and communicate their dissents. Their existing, non-political leadership also heavily depends on localized, offline networks through shops trading mobile data to meet daily needs. Despite marginalized infrastructure and other social challenges, Rohingyas, primarily the younger generation (men and women alike) have showcased the potential for coordinated collective action and dissent by exploiting ICTs creatively. Finally, this research highlights the need to formulate and implement of a range of intersecting regulatory, infrastructural, and community-based interventions. It recommends: 1) establishment of lawful and sustainable mobile and internet access network, 2) offering of effective digital literacy, 3) support for refugee-led collaborations on information sharing with diaspora involvement, and 4) facilitation of participatory field research on refugee tech. Such interventions will assist Rohingyas in rightly articulating their needs to expand technological access, capabilities, and democratic participation pathways during their exile in Bangladesh and other countries.",
+    "_matched_keywords": [
+      "capability approach",
+      "digital literacy",
+      "capability approach"
+    ]
+  },
+  {
+    "id": null,
+    "title": "From Exclusion to Inclusion: Digital Platforms as a Pathway for Hijra (Third Gender) Employment",
+    "authors": "Umme Fatema Lamia, Md. Alvi Islam Ratul, Anika Priodorshinee Mrittika, Jannatun Noor",
+    "year": 2024,
+    "venue": "ictd_2024",
+    "areas": [
+      "labour",
+      "gender"
+    ],
+    "topics": [
+      "problem_discovery",
+      "ethnographic_design",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "gender"
+    ],
+    "area_agnostic": false,
+    "source_course": "ictd_2024_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context (Bangladesh) and addresses gender inequality in employment.",
+    "link": "https://doi.org/10.1145/3700794.3700801",
+    "abstract": "The Hijra community in Bangladesh continues to face discrimination in nearly every aspect of life, despite being officially recognized as a separate gender by the government. This recognition has yet to translate into tangible benefits, such as employment in the formal job sector. Past efforts have primarily focused on education, financial aid, and informal work opportunities. This study examines the potential and challenges of integrating Hijras into the formal job market, with a specific focus on developing and evaluating a tailored digital platform to enhance employment opportunities for Hijras in domestic and caregiving roles. Data was gathered through qualitative interviews with 46 Hijra individuals and an online survey of 136 general participants. By analyzing perspectives from both Hijras and the general public, we identified possible solutions for their inclusion in the formal workforce. The data was analyzed using qualitative methods, including open coding and thematic analysis. The study sheds light on the difficult realities faced by Hijras and presents a strategic intervention aimed at improving their socioeconomic standing and promoting inclusivity. The findings underscore the importance of comprehensive approaches, such as policy reforms and targeted support systems, to close the gap between legal recognition and actual societal acceptance. These efforts would create formal employment opportunities for Hijras, fostering a society where they are not only visible but also valued. Collaboration between the general public and the Hijra community is crucial, with NGOs and government agencies playing a key role in driving these initiatives.",
+    "_matched_keywords": [
+      "thematic analysis"
+    ]
+  },
+  {
+    "id": null,
+    "title": "A Decade Later - Revisiting the Untapped Potential of Mobile Learning with Smartphones in Ghana's Higher Secondary Education",
+    "authors": "Paul Spiesberger, Anne Muchiri, Raoul Vallon, Margarete Grimus, Chlo\u00e9 Zimmermann, Wolfgang Slany, Thomas Grechenig",
+    "year": 2024,
+    "venue": "ictd_2024",
+    "areas": [
+      "education"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "ethnographic_design",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "ictd_2024_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context (Ghana's higher secondary education) and addresses the topic of ed-tech in a low-resource setting.",
+    "link": "https://doi.org/10.1145/3700794.3700800",
+    "abstract": "This research paper revisits the potential of mobile learning with smartphones in Ghana\u2019s higher secondary education, focusing on the changes and challenges over the past decade. Conducted in the Volta region, the study builds on previous research from 2013 to evaluate the adoption of mobile learning and the preparedness of the education system for new technologies. Through a Concurrent Transformative Mixed Methods approach involving observations, interviews, and a questionnaire, the study finds that while smartphone penetration (+173.33%) and internet access (+23.53%) among students have significantly increased, institutional support and infrastructure remain insufficient. The continued ban on mobile phones in high schools, lack of teacher training, and inadequate policy implementation hinder the effective use of mobile learning. The paper advocates for a shift in focus from procuring new hardware to enhancing existing infrastructure and developing tailored learning materials and teacher training programs. The findings underscore the need for sustainable and inclusive policies to harness the full potential of mobile learning in Ghana\u2019s education system.",
+    "_matched_keywords": [
+      "mobile learning"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Initial Observations from Field Testing of a Digital Participatory Tool to Improve Water Security in Rural India",
+    "authors": "Shivani A. Mehta, Aila Dutt, Ajay Tannirkulam, Akshay Pratap Singh, Aman Verma, Anamitra Singha, Ananda Sreenidhi, Ananjan Nandi, Ankit, Ankit Kumar, Atharv Dabli, Athira P, Balakumaran Ramachandran, Chahat Bansal, Chintan Sanjaybhai Sheth, Craig Dsouza, Deepak Kumar, Dharmisha Sharma, Harshita, Jaskaran Singh, Kapil Dadheech, Ksheetiz Agrahari, Om Krishna, Pooja Prasad, Priyadarshini Radhakrishnan, Ramita Sardana, Rittwick Bhabak, Ruptirumal Sai Bodavula, Saketh Vishnubhatla, Samitha Haldar, Sanjali Agrawal, Shiv Prakash Maurya, Shruti Kumari, Siddharth S, Sukriti Kumari, Vishnu S, Aaditeshwar Seth",
+    "year": 2024,
+    "venue": "ictd_2024",
+    "areas": [
+      "water_security"
+    ],
+    "topics": [
+      "ethnographic_design",
+      "impact_evaluation",
+      "operations_scale"
+    ],
+    "cross_cutting_axes": [
+      "climate_change",
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "ictd_2024_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context in India, focusing on water security and rural communities.",
+    "link": "https://doi.org/10.1145/3700794.3700816",
+    "abstract": "With almost half the Indian population facing water stress [42], likely to be aggravated with climate change [76, 122], an intersecting crises of environment, livelihood, and social justice can worsen the vulnerability of rural communities that are directly dependent upon water resources for their livelihood and sustenance. To address this challenge of rural water security especially for marginalized communities, MGNREGA is a public works and employment generation scheme in India that contributes towards the construction of water related assets such as farm ponds, checkdams, and trenches and bunds, to improve irrigation and climate resilience of rural communities. MGNREGA is a demand-driven scheme that solicits demands for water related assets through the local governance structure in India of village-level community meetings called Gram Sabhas. In many areas, Civil Society Organizations (CSOs) and community based institutions also play a significant role by coordinating participatory processes to build the capacity of rural community members to participate in local governance and demand such assets under MGNREGA. However, through multiple field visits, we observed a need to strengthen local processes with appropriate data and tools to support context-sensitive and evidence-based bottom-up planning. In this study, we adopt an approach of building a digital participatory tool, built on a technology stack that encapsulates different geospatial datasets, to answer key research questions of whether such technology artefacts can improve the participation of rural communities in water security planning and management, through, (1) community empowerment by building a data-driven understanding of water security, (2) ecological sustainability of water resources through scientific planning of assets, and (3) equity led participatory processes to improve fairness in the distribution of assets. We discuss here the design of the tool, Commons Connect, underlying datasets on which it is built, and findings from an initial field testing of the tool across four locations in India. We outline several improvements and open questions that remain, and highlight how such tools can be integrated into the MGNREGA operational workflow and improve the sustainability and resilience of rural social-ecological systems.",
+    "_matched_keywords": [
+      "farm ponds",
+      "irrigation",
+      "field testing",
+      "climate resilience",
+      "marginalized communities",
+      "marginalized communities"
+    ]
+  }
+]

@@ -1,0 +1,474 @@
+[
+  {
+    "id": null,
+    "title": "A usability study of an innovative optical device for the diagnosis of schistosomiasis in Nigeria",
+    "authors": "Michel Bengtson, Adeola Onasanya, Prosper Oyibo, Brice Meulah, Karl Tondo Samenjo, Ingeborg Braakman, Wellington Oyibo, Jan Carel Diehl",
+    "year": 2022,
+    "venue": "ghtc_2022",
+    "areas": [
+      "health"
+    ],
+    "topics": [
+      "ethnographic_design"
+    ],
+    "cross_cutting_axes": [
+      "climate_change",
+      "gender",
+      "caste",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "ghtc_2022_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context (Nigeria) and addresses usability and user-acceptance of a diagnostic tool, fitting under the 'ethnographic_design' topic.",
+    "link": "https://doi.org/10.1109/GHTC55712.2022.9911019",
+    "abstract": "Schistosomiasis is a neglected tropical disease that is predominantly diagnosed by conventional microscopy in SubSaharan Africa. However, effective diagnosis by conventional microscopy is limited by multiple technical and logistic barriers. Alternative diagnostic techniques are needed. The Schistoscope is a digital optical device that has been designed to support microscopists for the detection of schistosomiasis in endemic resource-limited settings. Aim: A user-centered design approach was used to assess the usability and user-acceptance of the Schistoscope compared to conventional microscopy in the Federal Capital Territory, Abuja, Nigeria. In this study, usability and acceptance are defined as being easy-to-use, efficient, and suitable in the daily workflow by end-users. Methods: Using a qualitative conventional context analysis approach, a mixed-methods questionnaire was used to elucidate themes related to the usability and user-acceptance of the device. Participants included trained microscopists and university students (n=17). Results: Participants answered both ranked and open questions. Overall the device\u2019s use was considered to be easy and acceptable in the routine workflow of a microscopist. The auto-scan feature was considered to have added value. Critical feedback regarding aesthetics of the device, particularly related to size, was noted by the participants. Conclusion: The usability approach used in this study elucidated valuable insights of end-users. The Schistoscope was very well perceived by both medical students and trained microscopists. Critical feedback will be used to further improve the next iterative design of the device.",
+    "_matched_keywords": [
+      "user-centered design"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Modular Methods for Oyster Mushroom Cultivation in Low-Resource Settings",
+    "authors": "William Yaeger, Muzammil Jawed, David Tauman, Philip Ho, Asgar Ali, Naakesh Gomanie, Khanjan Mehta",
+    "year": 2022,
+    "venue": "ghtc_2022",
+    "areas": [
+      "agriculture"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "problem_discovery",
+      "ethnographic_design",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "climate_change",
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "ghtc_2022_venue_search",
+    "notes": "The paper engages with a low-resource setting and applies computer science fundamentals to a problem in agriculture.",
+    "link": "https://doi.org/10.1109/GHTC55712.2022.9911008",
+    "abstract": "Food insecurity is a grave issue faced by millions of people across the globe and is growing in severity as a result of climate-related stressors on agricultural systems. Mushroom production, an agricultural approach that is profitable and scalable due to its low input requirements, short turnaround times, year-round viability, and utilization of agricultural byproducts, holds significant potential in contributing to food security. However, commercial mushroom production is difficult to pursue in low-resource settings due to a lack of capital and unreliable electricity access. After four years of research and experimentation in rural Sierra Leone, our team has developed a low-cost, low-tech, and reliable approach for commercial mushroom production. This article presents our highly modular process for spawn propagation, substrate pasteurization, inoculation, and harvest that allows entrepreneurs to build profitable and scalable production facilities. This standardized approach consistently yields 50% of the mass of inputted cereal straw substrate in fresh mushrooms 28 days after inoculation, which indicates its promise as a cost-effective and reliable method for contributing to food security in Sierra Leone and similar low-resource settings.",
+    "_matched_keywords": [
+      "electricity access"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Assessment of Emissions with Carbon-smart Farming Practices and Participatory Sensing in Rice",
+    "authors": "Rushikesh Kulat, Mariappan Sakkan, Prachin Jain, Sanat Sarangi, Srinivasu Pappula",
+    "year": 2022,
+    "venue": "ghtc_2022",
+    "areas": [
+      "agriculture"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "ethnographic_design",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "climate_change"
+    ],
+    "area_agnostic": false,
+    "source_course": "ghtc_2022_venue_search",
+    "notes": "The paper engages with a developing-regions context through its assessment of carbon-smart farming practices in agriculture, which is directly relevant to the 'agriculture' area.",
+    "link": "https://doi.org/10.1109/GHTC55712.2022.9910612",
+    "abstract": "Agriculture sector is a significant contributor to greenhouse gas (GHG) emissions especially in the conventional rice ecosystem with carbon-insensitive practices. In this study, we assess the carbon footprint of selected farms based on GHG emissions and carbon sequestration from recommended agricultural practices with a human participatory sensing approach. A set of ten selected farmers was split into two groups and asked to follow carbon-smart crop protocols (CSCP) called CSCP-1 and CSCP-2. With the digitally captured record of operations, process modelling was used to simulate the CSCP scenarios followed on the ground, and a classification model was developed to estimate the Nitrogen uptake to improve fertilizer utilization for farmers. For various potential scenarios involving variation in irrigation and fertilizer application, impact on GHG emissions and SOC dynamics was evaluated. Results showed that CSCP-1 farmers emitted more GHGs when compared to CSCP-2 farmers while they also sequestrated more carbon in comparison with no significant difference in Net GWP (Global Warming Potential). CSCP farmers with both flood irrigation and furrow irrigation sequestrated more carbon than farmers who would follow conventional practices. Net GWP of CSCP farmers was significantly lower than conventional farmers indicating carbon-smart practices can indeed make a significant difference in sustainability initiatives.",
+    "_matched_keywords": [
+      "irrigation",
+      "carbon sequestration"
+    ]
+  },
+  {
+    "id": null,
+    "title": "User-driven flood response & monitoring information - Key findings of the Data4Human project",
+    "authors": "Anne Schneibel, Nina Merkle, Marc Wieland, Konstanze Lechner, Seyemajid Azimi, Fabian Henkel, Corentin Henry, Ralph Kiefl, Xiangtian Yuan, Monika G\u00e4hler",
+    "year": 2022,
+    "venue": "ghtc_2022",
+    "areas": [
+      "water_security"
+    ],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [
+      "climate_change"
+    ],
+    "area_agnostic": false,
+    "source_course": "ghtc_2022_venue_search",
+    "notes": "The paper engages with a developing-regions context (Mozambique) and applies computer science fundamentals to a crisis-related problem, aligning with the 'cs_fundamentals' topic.",
+    "link": "https://doi.org/10.1109/GHTC55712.2022.9911021",
+    "abstract": "The provision of reliable and quick spatial information in case of a crisis event is still a crucial aspect regarding relief actions. Remote sensing data can be a source of large-scale and up-to-date information. Within the Data4Human project, researchers and users from NGOs jointly worked on crisis-related demand driven data provision. In the following paper, we take a closer look on two aspects of the project that provide users with access to i) a flood monitoring tool and ii) to a quick damage assessment AI methodology. Both approaches were developed for the flood event of cyclone Idai in Mozambique 2019 and are based on satellite data. However, the results are transferable to other regions. They show that the methods provide a reliable information source for first aid workers on the ground as well as for coordinators from humanitarian organizations. Furthermore, the methods and the results are easily accessible and can also partly be integrated automatically into the humanitarian organizations workflow.",
+    "_matched_keywords": [
+      "remote sensing"
+    ]
+  },
+  {
+    "id": null,
+    "title": "ULAT: Deployment of Dense and Nationwide Lightning Detection Network for Weather Forecasting in the Philippines",
+    "authors": "Glenn Vincent Lopez, Jerico Orejudos, Adrian Aristotle Dellagas",
+    "year": 2022,
+    "venue": "ghtc_2022",
+    "areas": [
+      "water_security"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "climate_change"
+    ],
+    "area_agnostic": false,
+    "source_course": "ghtc_2022_venue_search",
+    "notes": "The paper engages with a developing-regions context (the Philippines) and applies CS fundamentals to weather forecasting, which is crucial for disaster risk response.",
+    "link": "https://doi.org/10.1109/GHTC55712.2022.9911055",
+    "abstract": "The Philippines is exposed to a variety of natural hazards annually. With this, the government is continuously investing in research projects that will help supplement the current weather monitoring techniques of the country. For years, lightning occurrences have been known to have a significant correlation with weather disturbances. Thus, it can be explored for developing more enhanced weather forecasting systems, especially for disaster risk response efforts. The development and deployment of the Philippines\u2019 Dense and Nationwide Lightning Detection Network under the Understanding Lightning and Thunderstorms (ULAT) research-project is a current initiative of DOST-ASTI to traverse and study this proposition. These networks are composed of ULAT stations that will detect and gather weather and lightning data for further analysis in achieving short-term forecasting.",
+    "_matched_keywords": [
+      "disaster risk"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Detecting the Destruction of Populated Sites in Northeastern Nigeria from Sentinel-2 Satellite Imagery by EfficientNet",
+    "authors": "Yunya Gao",
+    "year": 2022,
+    "venue": "ghtc_2022",
+    "areas": [
+      "water_security",
+      "forests_restoration"
+    ],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [
+      "climate_change"
+    ],
+    "area_agnostic": false,
+    "source_course": "ghtc_2022_venue_search",
+    "notes": "The paper applies a general-purpose methodology (EfficientNet) that could be adapted to a developing-regions context, aligning with the cs_fundamentals topic rule.",
+    "link": "https://doi.org/10.1109/GHTC55712.2022.9911053",
+    "abstract": "The Boko Haram Insurgency, a religious conflict in northeastern Nigeria, has caused around 350000 deaths and destroyed numerous populated sites in the past decade. This research used Sentinel-2 data and point data of populated sites with their status information (Functional or Destroyed) collected by Copernicus Emergency Management Service as input to train an image classification model, EfficientNet, to detect the status of the populated sites in this region. The research tested the influence of two hyperparameters (patchsize and the number of neurons in a fully connected layer) and two types of preprocessed imagery data to explore the potential of this approach for this detecting task. The results turn out the developed approach produces the highest F1-score of 0.8197 for destroyed populated sites when the model is trained with NDVI data, the patchsize is 1100m, and the number of FC neurons is 512. The results prove this approach has a high potential for long-term peace monitoring and humanitarian operations in this region.",
+    "_matched_keywords": [
+      "satellite imagery",
+      "Sentinel-2"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Accelerating Mini-grid Feasibility Assessments with Rapid Engineering and Business Model Evaluation",
+    "authors": "Tam Kemabonta, Elena van Hove, Nathan G. Johnson, Abdulrahman Alsanad",
+    "year": 2022,
+    "venue": "ghtc_2022",
+    "areas": [
+      "infrastructure"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "operations_scale"
+    ],
+    "cross_cutting_axes": [],
+    "area_agnostic": false,
+    "source_course": "ghtc_2022_venue_search",
+    "notes": "The paper addresses infrastructure and connectivity issues in a developing region, specifically focusing on mini-grid feasibility assessments in Sierra Leone.",
+    "link": "https://doi.org/10.1109/GHTC55712.2022.9910609",
+    "abstract": "There are over 700 million people without access to electricity in the world today, most of which live in Sub-Saharan Africa. Due to the high cost of grid extension, off-grid mini-grids with renewable energy technologies have been considered to be a least cost option for providing electricity access for communities, with solar home systems common for isolated households. However, mini-grid feasibility assessments can be expensive, time consuming, and achieve limited accuracy with current planning tools and constraints. In this paper we develop new planning processes for off-grid mini-grid systems and demonstrate this approach for a mini-grid project for an off-grid community in Sierra Leone, with comparisons made to conventional planning steps. Results show a decrease in assessment time per site of over 75-80% when compared to conventional practices, and provide additional benefits including power engineering, costing of the distribution network, and more detailed cashflow and business model analysis.",
+    "_matched_keywords": [
+      "electricity access"
+    ]
+  },
+  {
+    "id": null,
+    "title": "The repurposing of nickel metal hydride hybrid electric vehicle batteries for solar energy storage applications in rural Pacific Island communities",
+    "authors": "Brandon Kim Simons, Pritpal Singh, Iain Hunt, Jordan Ermilio",
+    "year": 2022,
+    "venue": "ghtc_2022",
+    "areas": [
+      "water_security",
+      "infrastructure"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "problem_discovery",
+      "operations_scale"
+    ],
+    "cross_cutting_axes": [
+      "climate_change",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "ghtc_2022_venue_search",
+    "notes": "The paper engages with a developing-regions context (rural Pacific Island communities) and applies computer science fundamentals (data science and statistical analysis) to solve a problem of energy access.",
+    "link": "https://doi.org/10.1109/GHTC55712.2022.9911006",
+    "abstract": "With the transportation sector taking a significant proportion of global emissions, the production of hybrid electric vehicles has been increasing. These vehicles have begun to penetrate emerging economies that do not have battery recycling programs seen in developed economies. In Fiji, there are an estimated 15,000 spent Toyota Prius nickel metal hydride batteries in landfills that have a substantial environmental footprint that can be repurposed for off-grid rural solar applications. Using a sample of 62 used Prius modules, constant current tests were performed to characterize the modules and were sorted to develop packs suitable to deliver one day of the World Bank\u2019s Tier 2 electricity access. The packs can deliver the daily required 15.4Ah of power for rural households in Fiji and maintained Coulombic efficiencies between 85-95 percent. To pilot these systems, algorithms for a solar charge controller need to be developed using parameters determined in this study. Additionally, electrochemical impedance spectroscopy measurements should be made to create relationships between impedance, capacity, and state of health that will reduce the testing time to characterize modules. Utilizing these methodologies, a product life extension model can be implemented to reduce the batteries\u2019 environmental impact while providing cost-effective rural energy access.",
+    "_matched_keywords": [
+      "electricity access"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Use of Voluntary Cough Sounds and Deep Learning for Pulmonary Disease Screening in Low-Resource Areas",
+    "authors": "Ashley Mo, Emma Gui, Richard Rib\u00f3n Fletcher",
+    "year": 2022,
+    "venue": "ghtc_2022",
+    "areas": [
+      "health"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "problem_discovery"
+    ],
+    "cross_cutting_axes": [
+      "climate_change",
+      "gender",
+      "caste",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "ghtc_2022_venue_search",
+    "notes": "The paper engages with a developing-regions context by addressing the challenges of pulmonary disease screening in low-resource areas, which aligns with the health area and problem_discovery topic.",
+    "link": "https://doi.org/10.1109/GHTC55712.2022.9911027",
+    "abstract": "In low-resource areas, pulmonary diseases are often misdiagnosed or underdiagnosed due to a lack of trained clinical staff and diagnostic lab equipment (e.g. spirometry, DLCO). In these settings, traditional methods of pulmonary disease screening often include a lengthy questionnaire (>30 questions) and stethoscope auscultation. Unfortunately, such tools are not appropriate for general practitioner (GP) doctors or community health workers who have little time or experience diagnosing pulmonary disease. We propose a computer-based deep learning algorithm that could enable rapid screening of the most common pulmonary diseases (COPD, Asthma, and respiratory infection (COVID-19)) using voluntary cough sounds alone. Using a dataset of 348 cough recordings, raw cough recordings were segmented into individual coughs and converted to Mel Spectrogram images. We trained two types of models for comparison, binary and multi-class, using transfer learning with VGG19. The resulting Receiver Operating Characteristic (ROC) curves and the Area Under Curve (AUC) accuracy for each model was calculated to evaluate performance. Binary AUC accuracies were 0.73, 0.70, 0.87, and 0.70 for healthy, asthma, COPD, and COVID-19 respectively, while multi-class AUC accuracies were 0.78, 0.67, 0.95, 0.70. This demonstrates good potential for creating a simple low-cost screening tool that is fast to administer. Future versions of the model will use ongoing data collection to expand to more diseases including tuberculosis and pneumonia.",
+    "_matched_keywords": [
+      "transfer learning"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Mitigation Intermediary Transactions within Kenya's Agricultural Supply Chain",
+    "authors": "David Moyer, Megan Ostertag, John Gershenson",
+    "year": 2022,
+    "venue": "ghtc_2022",
+    "areas": [
+      "agriculture"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "ethnographic_design",
+      "impact_evaluation",
+      "operations_scale"
+    ],
+    "cross_cutting_axes": [
+      "climate_change",
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "ghtc_2022_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context, focusing on Kenya's agricultural supply chain and smallholder farmers.",
+    "link": "https://doi.org/10.1109/GHTC55712.2022.9910996",
+    "abstract": "Kenya\u2019s economy is composed of agriculture accounting for nearly a quarter of Kenya\u2019s GDP. Here, smallholder farmers, those who cultivate under four acres of land, are responsible for 80 percent of the country\u2019s food production [1]. However, these farmers only earn an average of ${\\$}$591.30 annually [19]. Limitations include climate change, limited information communication technologies (ICTs), failed agricultural extension services, and a supply chain fragmented by intermediary middlemen. Of these challenges, middlemen are the greatest limiting factor of economic growth for smallholder farms. Using qualitative conversations, we sought to understand the necessity of middlemen in this economy and examine existing supply chain models and technological enhancements from ICTs. We then explore possibilities to reduce the intermediary costs incurred by middlemen in Kenya\u2019s agricultural supply chain. Ultimately, we have concluded that through the addition of technological advancements used in conjunction with delivery type services can mitigate transaction costs of middlemen. Each supply chain solution is a viable improvement for small-scale farmers\u2019 profit margins yet does not achieve the goal of middlemen removal. Also, each solution is geographically dependent and can only be implemented with support from ICTs streamlining real time and transparent data regarding smallholder production, market demand, prices, and payments.",
+    "_matched_keywords": [
+      "smallholder farmers",
+      "agricultural extension"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Blockchain-based Data Access Environment for Disaster Risk Reduction 1 ",
+    "authors": "Neil H. Wasserman",
+    "year": 2022,
+    "venue": "ghtc_2022",
+    "areas": [
+      "disaster_risk_reduction"
+    ],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [
+      "climate_change"
+    ],
+    "area_agnostic": true,
+    "source_course": "ghtc_2022_venue_search",
+    "notes": "The paper can be adapted to a developing-regions context for disaster risk reduction, aligning with the cs_fundamentals topic rule.",
+    "link": "https://doi.org/10.1109/GHTC55712.2022.9910985",
+    "abstract": "This paper outlines an opportunity to apply blockchain technology to enhance access to the universe of data needed to assess risk and guide allocation of resources for Disaster Risk Reduction (DRR). The project aims to develop and implement a blockchain-based governance model, a Blockchain Based Data Access Environment (BDAE) for conditional data access and curation. A two-layered architecture creates an incentivized mechanism for data sharing and data quality services.",
+    "_matched_keywords": [
+      "disaster risk"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Technology Applications in Teaching at the Right Level Programs",
+    "authors": "Edward Amoah, Mumbe Mwangangi, Tanish Rastogi, Emily Snow, Lauren Werner, John Gershenson",
+    "year": 2022,
+    "venue": "ghtc_2022",
+    "areas": [
+      "education"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "ethnographic_design",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "ghtc_2022_venue_search",
+    "notes": "The paper engages with a developing-regions context (Kenya) and applies computer science fundamentals to improve education outcomes.",
+    "link": "https://doi.org/10.1109/GHTC55712.2022.9910613",
+    "abstract": "Around the world, inequality in education is creating difficulties for students as they learn how to read and write. Low resource and rural communities in East Africa, and Kenya specifically, are facing issues with students not achieving the national standards for literacy competence by the time they finish primary school, leaving them unequipped to progress in their education. Many groups have been combating this issue, with one particular methodology making a large impact in early childhood literacy and numeracy, known as Teaching at the Right Level (TaRL). By learning in small groups with interactive instruction, students\u2019 weak points are addressed before moving on to more difficult concepts. However, this methodology is traditionally carried out using only paper, increasing the time needed to collect and organize student results and data. To combat the inefficiencies of the traditional method, we have prototyped a digital platform that is able to accurately assess student literacy levels, seamlessly input and organize data as well as provide a library of learning activities to instructors. This platform will introduce students to using technology as an aide in learning as well as increase the efficiency of this learning process, hopefully leading to more students achieving higher learning outcomes.",
+    "_matched_keywords": [
+      "learning outcomes",
+      "inequality"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Smallholder farmer-centric integration of IoT and Chatbot for early Maize diseases detection and management in pre-visual symptoms phase",
+    "authors": "Theofrida Maginga, Jimmy Nsenga, Pierre Bakunzibake, Emmanuel Masabo",
+    "year": 2022,
+    "venue": "ghtc_2022",
+    "areas": [
+      "agriculture"
+    ],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "ghtc_2022_venue_search",
+    "notes": "The paper applies strong computer science methods to a problem relevant to smallholder farmers in a developing region, adhering to the cs_fundamentals topic rule.",
+    "link": "https://doi.org/10.1109/GHTC55712.2022.9911047",
+    "abstract": "Crop diseases are responsible for more than 50% of worldwide yield loss. Therefore, detecting crop diseases as soon as possible is important to limit both yield loss and costs involved in interrupting the disease cycles. Traditional disease detection sensors such as farmer eyes or crop imaging devices backed by Deep Neural Networks (DNN) models rely on visual symptoms which appear after the disease cycle has already undergone several asymptomatic phasing events such as inoculation, penetration, and so on. Recently, Internet of Things (IoT) sensors have been used to monitor other pre-visual abdominal signs generated by infected plants, like for instance emission of Volatile Organic Compound (VOC) or changes in soil nutrition consumption patterns. Considering the limited availability of extension officers to timely support farmers in early disease management, in this paper we propose an integrated framework that converges IoT sensing asymptomatic signs with natural language processing (NLP) chatbots to enable low literacy smallholder farmers of Maize crops in East-Africa to be completely autonomous in identifying and understanding their potential crop diseases prior to the apparition of visual symptoms.",
+    "_matched_keywords": [
+      "smallholder farmers",
+      "natural language processing (NLP)"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Experimental Design for Measuring the Effect of Soiling on Power Production of Solar Panels in Ghana",
+    "authors": "Takudzwa Kampira, Stewart Isaacs, Heather Rachel Beem",
+    "year": 2022,
+    "venue": "ghtc_2022",
+    "areas": [
+      "infrastructure"
+    ],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [],
+    "area_agnostic": false,
+    "source_course": "ghtc_2022_venue_search",
+    "notes": "The paper engages with a developing-regions context (Ghana) and applies computer science fundamentals to understand the impact of environmental factors on solar panel efficiency.",
+    "link": "https://doi.org/10.1109/GHTC55712.2022.9911014",
+    "abstract": "With rural electrification efforts failing to meet the rapid population growth in Africa, solar energy is seen as a viable way to achieve Sustainable Development Goal number 7. There is a need to understand how photovoltaic systems are affected by external factors such as dust particles. Dust soiling can severely affect the viability of PV systems resulting in substantial economic losses. Models for the relationship between soiling ratio and panel performance have been developed in different parts of the world, such as the Middle-East and the West, but little data has been collected on the African continent, where environmental conditions can deviate significantly. This paper presents the first iteration of an experimental setup that can be used to measure the effect of soiling on the power production of PV modules. The setup consists of a sensor suites embedded to an ESP32 microcontroller. Both dusty and clean panels are placed side by side with the clean panel serving as the control. Power performance data collected from the two panels alongside ambient temperature, humidity, and concentrations of PM2.5 and PM$_{2.5-10}$ particles can be posted and stored on a MySQL database for analysis. The data is also stored locally on an SD card acting as a backup.",
+    "_matched_keywords": [
+      "electrification"
+    ]
+  },
+  {
+    "id": null,
+    "title": "A Community Water System Mapping (CWSMap) Platform for Supporting Rural Water Operators",
+    "authors": "Andy Florian Irakoze, Flavio Esposito, Andrew Schranck, Lee Voth-Gaeddert",
+    "year": 2022,
+    "venue": "ghtc_2022",
+    "areas": [
+      "water_security"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "ethnographic_design",
+      "impact_evaluation",
+      "operations_scale"
+    ],
+    "cross_cutting_axes": [
+      "climate_change",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "ghtc_2022_venue_search",
+    "notes": "The paper engages with a developing-regions context by addressing the challenges faced by marginalized communities in managing community water systems in low-resource settings, adhering to the rule that papers must substantively engage with a developing-regions context.",
+    "link": "https://doi.org/10.1109/GHTC55712.2022.9911028",
+    "abstract": "Community water systems (CWSs) are critical for any community, but optimal management can be difficult. External pressures such as climate change and internal pressures such as a lack of finance or training can significantly affect the operation and maintenance of CWSs in low-resource settings. In addition, millions of CWSs remain unmapped and unanalyzed due to a lack of targeted digital technologies. While higher-income urban utilities can transition into a digital water system ecosystem, many marginalized communities are left behind. CWSMap aims to solve this problem by providing a simple, low-cost digital platform to map, analyze, and manage CWSs targeting volunteers and informally trained water operators. Water operators often face questions around over/under pressurization and flow rates, network expansion, water treatment installations, and maintenance prioritization. CWSMap can help democratize access to advanced digital technologies in marginalized communities to solve pressing local challenges.",
+    "_matched_keywords": [
+      "marginalized communities",
+      "marginalized communities"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Pedal 'n Spin Foot-cranked Washing Machine Innovation",
+    "authors": "Kai Goodall, David T. O. Oyedokun, Pitambar Jankee",
+    "year": 2022,
+    "venue": "ghtc_2022",
+    "areas": [
+      "livelihood"
+    ],
+    "topics": [
+      "ethnographic_design",
+      "operations_scale"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "ghtc_2022_venue_search",
+    "notes": "The paper addresses a low-income context and provides a practical solution for a developing region, aligning with the 'operations_scale' and 'ethnographic_design' topics.",
+    "link": "https://doi.org/10.1109/GHTC55712.2022.9910999",
+    "abstract": "Low-income households around the world suffer from the burdens of handwashing due to limited electricity supply and the high price tag of electric washing machines. Interest in renewable energy-based solutions for day-to-day energy needs is on the rise. We identified the need for a durable and low-cost foot-cranked washing machine to innovate in the renewable energy space, and to provide a functional alternative to handwashing for a wide range of users. In this paper, we present a foot-cranked washing machine named the Pedal \u2018n Spin. It is powered using a pedal-connected rod which drives a rotating drum to do the laundry. Pedal \u2018n Spin is user-friendly as it can be operated in a hands-free seated position. Rigorous rapid prototyping was implemented to achieve the optimal design. During field testing, users aging from 12 to 85 years old easily used the device without adjustments needed. Users commended the practicality of the low-cost design. This research implies that sustainable, low-cost, and environmental-friendly innovations allow rapid societal evolution and solve daily problems faced by society. We need to promote such social innovations. This innovation won the RS Components international design challenge in 2021.",
+    "_matched_keywords": [
+      "field testing"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Climate-Focused Field Research within the Kwajalein Atoll Sustainability Laboratory",
+    "authors": "Eric Rasmussen, Gregg Nakano, Kitlang Kabua, Alex Hatoum",
+    "year": 2022,
+    "venue": "ghtc_2022",
+    "areas": [
+      "water_security",
+      "climate_change"
+    ],
+    "topics": [
+      "problem_discovery",
+      "cs_fundamentals",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "climate_change"
+    ],
+    "area_agnostic": false,
+    "source_course": "ghtc_2022_venue_search",
+    "notes": "The paper engages with a developing-regions context, specifically the Marshall Islands, which is a low-income country facing significant climate change impacts.",
+    "link": "https://doi.org/10.1109/GHTC55712.2022.9911040",
+    "abstract": "The Kwajalein Atoll Sustainability Laboratory (KASL) is being established in Q3 2022 on a remote atoll in the northern Marshall Islands where research has already demonstrated evidence of significant disruption from climate alterations. KASL will be located on Ebeye, an island in the southeastern corner of Kwajalein Atoll in the Marshall Islands that sits less than three meters above sea level. It has been formed as a Marshallese non-governmental organization within the new campus of the College of the Marshall Islands on Ebeye and is designed to host field experiments that meet global criteria for social, political, technical, and economic sustainability. The Marshallese are aware of the environmental threats they face and wish to work with global scientists, engineers, and entrepreneurs to explore climate mitigation strategies that might help a poor and highly vulnerable population in the remote equatorial Pacific survive the coming decades.",
+    "_matched_keywords": [
+      "field experiments"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Installing Solar for Haitian Civil Society with Emphases on Maintenance and Empowerment",
+    "authors": "Brian Thomas, Kayla Garrett",
+    "year": 2022,
+    "venue": "ghtc_2022",
+    "areas": [
+      "infrastructure"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "operations_scale"
+    ],
+    "cross_cutting_axes": [],
+    "area_agnostic": false,
+    "source_course": "ghtc_2022_venue_search",
+    "notes": "The paper engages with a low-resource setting (Haiti) and addresses electricity access, which is relevant to the 'infrastructure' area.",
+    "link": "https://doi.org/10.1109/GHTC55712.2022.9911011",
+    "abstract": "Electricity access in Haiti has been limited historically and has further declined in 2021 as a result of political instability including the assassination of the president and gang violence. This paper is a case study of the operations of a nonprofit organization implementing projects to improve electricity access in northern Haiti. Eight projects utilizing solar photovoltaics ranging from 1.0 to 34.5 kWp, some with lithium ferro phosphate batteries, have been installed and are serving the medical community and other civil society organizations in this area. Ongoing maintenance is provided by a Haitian team and uses a computerized maintenance management system, remote monitoring, and in-person inspections. Job creation is achieved primarily during installations, but also by ongoing maintenance. This model shows promise for additional scaling and replication.",
+    "_matched_keywords": [
+      "electricity access"
+    ]
+  }
+]

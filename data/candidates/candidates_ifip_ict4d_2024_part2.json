@@ -1,0 +1,104 @@
+[
+  {
+    "id": null,
+    "title": "Bridging the Digital Divide: Securing Information and Computer Systems in an Unequal World",
+    "authors": "Acheampong, Daniel, Meso, Peter, Agyemang, Isaac Osei, Cudjoe, Joseph",
+    "year": 2024,
+    "venue": "ifip_ict4d_2024_part2",
+    "areas": [
+      "infrastructure"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "climate_change",
+      "gender",
+      "caste",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "ifip_ict4d_2024_part2_venue_search",
+    "notes": "The paper engages with the developing-regions context through its analysis of cybersecurity challenges in the Global South, adhering to the rule that papers must substantively engage with a developing-regions context for most topics.",
+    "link": "https://doi.org/10.1007/978-3-031-66986-6_6",
+    "abstract": "The study examines security challenges modeled by the digital divide, mainly focusing on how disparities in technological access and economic conditions impact cybersecurity readiness. Key questions addressed include: Does inequality contribute to security challenges in the digital world? What factors should guide the deployment of cybersecurity measures in the Global South? We hypothesize that the cybersecurity landscape significantly varies between developed and developing regions, influenced by distinct technological and socioeconomic factors. Utilizing the Global Cybersecurity Index (GCI) as a metric, our analysis reveals how advancements in Artificial Intelligence (AI) and disparities in income and digital infrastructure critically impact the efficacy of cybersecurity measures. The findings indicate that income inequality and inadequate digital infrastructure disproportionately increase security vulnerabilities, particularly in the Global South. The study accentuates the necessity for adaptive security strategies that are responsive to the varied needs of different regions to mitigate these vulnerabilities effectively. The results advocate for policy interventions that prioritize accessibility, enhance digital literacy, and foster international cooperation to achieve digital equity. Future research directions include exploring inclusive and culturally sensitive security solutions that bridge the digital divide more comprehensively, thereby enhancing global cybersecurity resilience.",
+    "_matched_keywords": [
+      "digital literacy",
+      "digital divide",
+      "inequality"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Educators\u2019 Perspectives on Cybersecurity: Case of Resource-Constrained Schools in South Africa",
+    "authors": "Magunje, Caroline, Bagui, Laban, Chigona, Wallace",
+    "year": 2024,
+    "venue": "ifip_ict4d_2024_part2",
+    "areas": [
+      "education"
+    ],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "ifip_ict4d_2024_part2_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context (South Africa) and addresses issues related to education and cybersecurity in resource-constrained schools, fitting the criteria for the 'education' area and 'cs_fundamentals' topic.",
+    "link": "https://doi.org/10.1007/978-3-031-66986-6_7",
+    "abstract": "Cybersecurity has become a global security priority in recent years. Many African countries have embarked on important efforts to improve their cybersecurity posture in all sectors, including education. \nThe increased use of information communication technologies by educators implies a greater exposure to cyber threats and risks prompting the need for cybersecurity to become a priority for schools. Cyber threats and risks have the potential to disrupt school operations and compromise the safety of learners, educators, administration staff, parents, and the surrounding community. The way respective stakeholders engage with cybersecurity and respond to cybersecurity intervention will, to an extent, depend on their perspective of the phenomena. There is paucity on literature on African educators\u2019 perspectives on cybersecurity as a starting point. This study aims at answering the question: What are perspectives on cybersecurity of educators in resource-constrained schools in South Africa? The study used a qualitative exploratory case study methodology. Data was collected through in-depth and semi-structured interviews from four schools in the Western Cape and Limpopo provinces; these represent an affluent and a rural province. It was analysed using thematic analysis based on the Social Cognitive Theory. Findings suggest that when it comes to cybersecurity, educators\u2019 self-efficacy is low, and their outcome expectancy is negative. Their socio-structural environment does not provide enough support to boost their confidence due to their exposure to ICTs, cybersecurity awareness, and available resources. The more a school is resource-constrained, the less educators prioritise cybersecurity. The study contributes to cybersecurity in education by shedding light on the cybersecurity perspectives of educators in resource-constrained schools in South Africa to pave the way for initiatives that cultivate a culture of cyber safety.",
+    "_matched_keywords": [
+      "thematic analysis"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Fake News in Developing Countries: Drivers, Mechanisms and Consequences",
+    "authors": "Masavah, Vincent Mwendwa, Turpin, Marita",
+    "year": 2024,
+    "venue": "ifip_ict4d_2024_part2",
+    "areas": [
+      "media_information"
+    ],
+    "topics": [
+      "problem_discovery",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "ifip_ict4d_2024_part2_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context, focusing on the spread and consequences of fake news in the Global South, which aligns with the requirement for papers to engage with low/middle-income country settings.",
+    "link": "https://doi.org/10.1007/978-3-031-66986-6_10",
+    "abstract": "Fake news has become a global problem. Drivers in the spread of fake news include the growth of the world wide web and the growth in the use of smartphones and social media. In the field of ICT4D, access to mobile phones and the internet has strongly been promoted in developing countries, for the sake of socio-economic development. However along with the availability and use of mobile technology, the Internet and social media in developing countries, the prevalence and risk of fake news have also increased. While many studies have been performed on fake news, most of these have been done in the Global North. This study attempts to address this gap by investigating the state of knowledge of fake news in the Global South. A systematic literature review is performed that focuses on the spreading and consequences of fake news in developing countries. A thematic analysis found that, like in the Global North, fake news in the Global South is predominantly spread by means of social media. The consequences of the spreading of fake news in developing countries include an increased mistrust in mainstream media, as well as a mistrust in various vaccines which leads to a health risk. Further, fake news has been shown to contribute to violent unrest and to worsen religious crises. Fake news poses the risk of undermining the benefits associated with increased connectivity in developing countries. This is a call for the ICT4D community to consider ways to address the risk of fake news.",
+    "_matched_keywords": [
+      "thematic analysis"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Complexity and Distress in Open-Source Health Information System Implementations in Countries with Developing Economies \u2013 The Case of Lesotho",
+    "authors": "Moeketsi, Kopano, Brown, Irwin",
+    "year": 2024,
+    "venue": "ifip_ict4d_2024_part2",
+    "areas": [
+      "health"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [],
+    "area_agnostic": false,
+    "source_course": "ifip_ict4d_2024_part2_venue_search",
+    "notes": "The paper engages with a developing-regions context (Lesotho) and addresses the challenges of implementing health information systems, which falls under the 'health' area.",
+    "link": "https://doi.org/10.1007/978-3-031-66986-6_15",
+    "abstract": "Many countries with developing economies (CDEs) are currently engaged in strengthening their national health information systems (HIS) through Free/Libre and open-source software (FLOSS). While open-source provides a cost-efficient means compared to the proprietary alternatives, there are many challenges to their successful implementation, thereby hindering the optimal leverage of these open-source products. Underestimation of complexity and distress are attributed to FLOSS-based HIS implementation failure. Complexity refers to how intricate and sophisticated a system is. The concept of distress is used in information systems (IS) to characterize a system that experiences challenges during its lifetime. Understanding HIS complexity is crucial to navigating the challenges that cause distress in HIS implementation. This research-in-progress aims to propose an investigation to identify underlying causal mechanisms that give rise to distress in FLOSS-based HIS implementations in CDEs. A critical realism (CR) case-based research lensed through a complex adaptive systems (CAS) theory with multiple sources of data will be employed. A purposefully chosen case will be abductively and retroductively analysed to develop new theoretical positions. Interviews, field observations, and focus group discussions will be used to collect data. A CR case-based approach to this research will lead to a novel theoretical explication of the complex interactions occurring within the HIS implementations, which can contribute to more effective strategies for mitigating distress and improving the HIS implementation processes. This study is important given the potential for IS to contribute to the improvement of health outcomes in CDEs.",
+    "_matched_keywords": [
+      "health information systems"
+    ]
+  }
+]

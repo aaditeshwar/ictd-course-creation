@@ -1,0 +1,440 @@
+[
+  {
+    "id": null,
+    "title": "The Six Conundrums of Building and Deploying Language Technologies for Social Good",
+    "authors": "Harshita Diddee, Kalika Bali, Monojit Choudhury, Namrata Mukhija",
+    "year": 2022,
+    "venue": "compass_2022",
+    "areas": [],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": true,
+    "source_course": "compass_2022_venue_search",
+    "notes": "The paper discusses the deployment of language technologies for social good, which can be adapted to a developing-regions context, fitting the cs_fundamentals topic rule.",
+    "link": "https://doi.org/10.1145/3530190.3534792",
+    "abstract": "Deployment of speech and language technology for social good (LT4SG), especially those targeted at the welfare of marginalized communities and speakers of low-resource and under-served languages, has been a prominent theme of research within NLP, Speech and the AI communities. Many researchers, especially those working in core NLP/Speech domains, rely on a combination of individual expertise, experiences or ad hoc surveys for prioritizing between language technologies that provide social good to the end-users. This has been criticized by several scholars who argue that it is critical to include the target community during the LT\u2019s design and development process. However, prioritization of communities, languages, technologies and design approaches presents a very large set of complex challenges to the technologists, for which there are no simple or off-the-shelf solutions. In this position paper, we distill our experiential insights into six fundamental conundrums that technologists face and must resolve while deciding which LT technology to build for which community, and by using what approach. We discuss that at the root of these conundrums lie certain fundamental ethical problems of a digital-divide that can be overcome only by resolving deeper ethical dilemmas of distributive justice. We urge the community to reflect on these conundrums and leverage shared experiential insights to reconcile the intent of broadly, any Technology for Social Good, with the ground realities of its deployment.",
+    "_matched_keywords": [
+      "marginalized communities",
+      "marginalized communities"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Analysis of Media Bias in Policy Discourse in India",
+    "authors": "Anirban Sen, Debanjan Ghatak, Gurjeet Khanuja, Kumari Rekha, Mehak Gupta, Sanket Dhakate, Kartikeya Sharma, Aaditeshwar Seth",
+    "year": 2022,
+    "venue": "compass_2022",
+    "areas": [
+      "media_information",
+      "governance"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "caste",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "compass_2022_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context (India) and addresses media bias, which is crucial for understanding information ecosystems and governance in such settings.",
+    "link": "https://doi.org/10.1145/3530190.3534798",
+    "abstract": "Many citizens consume information on government policies from the mass media. Consequently, biases existing in the policy discourse in media sources may influence citizens\u2019 understanding of the policies, about how they may affect diverse communities. These biases may also get amplified further through social media if it simply echoes the biases of mass media content. We build methods to quantify media bias in terms of preferred treatment given to certain issues corresponding to four economic policies, and alignment observed with the ideological stance of different political parties. We also examine how the social media community of followers of these media houses contribute to the policy discourse. Other than being one of the first large scale studies in the Indian context, our work contributes towards creating a standardized methodology to assess the ideological stance of a news-source, and its alignment with the social media discourse of its follower community. We find that the Indian mass media exhibits bias towards certain aspects or topics related to policy events. It also provides a significantly high coverage to aspects concerning the middle class and to political statements, neglecting the aspects directly relevant to the poor. Additionally, we find evidence of bias also in the representation provided to different political parties in the media. Social media seems to echo these biases rather than mitigate them. The tools and methods developed in this work can be useful for media watchdog institutions to call out biases in the media, and advocate for more complete coverage of issues across different news sources.",
+    "_matched_keywords": [
+      "media bias in policy discourse",
+      "media bias"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Role of the Mass Media in Monitoring and Influencing the Performance of Social Welfare Schemes in India",
+    "authors": "Ashima Mittal, Sahil Dahake, Tanmay Patel, Utsav Deep, Diwakar Prajapati, Akshay Gupta, Vivek Singh, Aadish Jain, Aaditeshwar Seth",
+    "year": 2022,
+    "venue": "compass_2022",
+    "areas": [
+      "governance"
+    ],
+    "topics": [
+      "media_information",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "caste",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "compass_2022_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context in India, focusing on the role of mass media in monitoring and influencing social welfare schemes.",
+    "link": "https://doi.org/10.1145/3530190.3534826",
+    "abstract": "Abstract: The mass media plays an important role in democratic societies to impose checks and balances on the functioning of various institutions of the state, and in shaping public opinion by informing people about the performance of these institutions. The agenda of the mass media can however be influenced by the government in power, especially if the media is dependent on the government for funding, or the government is powerful and can compromise the safety of media personnel. In this paper, we carefully examine the interactions between three factors: the performance in India of a social welfare scheme on rural employment guarantee (obtained from official records), the volume and sentiment of coverage of these factors in the mass media (obtained through an analysis of news articles of six English national newspapers), and the political alignment between the state governments in different states with the central government (obtained from election data). We construct a time series of these three datasets from 2014 to 2021, and show (a) how various performance factors of the welfare scheme are treated differently by the media in different states based on whether they are aligned or non-aligned with the Central government, and (b) whether coverage in the media is able to influence the performance of the welfare scheme. To the best of our knowledge, this is the first study of its kind to examine the interplay between media bias, government performance, and government influence, and helps uncover the complexities and nuances of these relationships.",
+    "_matched_keywords": [
+      "welfare schemes",
+      "media bias"
+    ]
+  },
+  {
+    "id": null,
+    "title": "A Descriptive Analysis of Cohesion within Virtual and Physical Small Groups of Mothers in Bandwidth-Constrained Communities in Cape Town",
+    "authors": "Sarah Dsane, Melissa Densmore, Yaseen Joolay",
+    "year": 2022,
+    "venue": "compass_2022",
+    "areas": [
+      "health"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "ethnographic_design",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "compass_2022_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context in Cape Town, focusing on maternal and child health through the use of technology in bandwidth-constrained communities.",
+    "link": "https://doi.org/10.1145/3530190.3534793",
+    "abstract": "Isolation contributes to deteriorating health outcomes during the first 1000 days of a child's life (the period from conception to two years). Mothers and their growing babies are at risk of pregnancy-related complications and malnutrition during this sensitive period due to inadequate information. This study describes how a faith-based organization (FBO) in Cape Town leverages available resources in both physical and virtual spaces to support mothers through antenatal classes. We observed seven small groups in their physical spaces, interviewed seven mothers and analyzed fifteen WhatsApp chat groups to understand the group structure, dynamics, and interactions. When the model was introduced to the mothers in the physical and virtual spaces simultaneously, cohesion was achieved and sustained. However, during the COVID-19 pandemic, where strong indications of stress and isolation were evident, a strange paradox was noted: all groups showed weak ties (with minimal communication among members). It was hard to explain the non-commitment despite efforts from the moderators to encourage sharing among mothers. We identified two underlying causes: a minimal sense of belonging to the group and bandwidth constraints. Further analysis showed that bandwidth constraints digitally excluded some mothers from active participation. These findings indicated the need for HCI and technology designers to design less bandwidth-intensive interactive platforms for inclusivity.",
+    "_matched_keywords": [
+      "weak ties",
+      "weak ties"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Understanding Power Differentials and Cultural Differences in Co-design with Marginalized Populations",
+    "authors": "Qinzhi Jiang, Mustafa Naseem, Jamie Lai, Kentaro Toyama, Panos Y. Papalambros",
+    "year": 2022,
+    "venue": "compass_2022",
+    "areas": [],
+    "topics": [
+      "sociotechnical_dynamics"
+    ],
+    "cross_cutting_axes": [
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": true,
+    "source_course": "compass_2022_venue_search",
+    "notes": "The paper engages with marginalized populations, which is relevant to the 'sociotechnical_dynamics' topic and the 'social_capital_marginalization' cross-cutting axis.",
+    "link": "https://doi.org/10.1145/3530190.3534819",
+    "abstract": "Co-design collects insights from multiple stakeholders collaboratively making it a powerful method to design with marginalized populations. In the latter context, stakeholders have varying levels of power causing asymmetry and possible suppression of one group over another. Such power differentials can hinder co-design\u2019s effectiveness. Through thirteen semi-structured interviews with co-design facilitators who have worked with marginalized communities in 43 different countries, we discovered that despite efforts to mitigate power differentials, significant disparities in educational and cultural backgrounds, language barriers, and gender imbalances prevent true collaboration. Tools for prototyping, analysis and evaluation often require literacy, advanced training, and resources. When these are inaccessible, co-design fails to materialize in the design analysis, implementation, and evaluation phases. We found this failure occurred with marginalized groups. We also found that experienced facilitators were aware of their own privilege as well as the power differentials of outside stakeholders such as donors, and they prioritized strategies to address them ahead of time.",
+    "_matched_keywords": [
+      "co-design",
+      "marginalized communities",
+      "marginalized communities"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Mobilizing Digital Volunteers to Support Underserved Communities in India During COVID-19 Lockdowns",
+    "authors": "Devansh Mehta, Vishnu Prasad, Tarun Chitta, Nenavath Srinivas Naik, Amit Prakash, Aditya Vashistha",
+    "year": 2022,
+    "venue": "compass_2022",
+    "areas": [
+      "media_information"
+    ],
+    "topics": [
+      "ethnographic_design",
+      "impact_evaluation",
+      "operations_scale"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "compass_2022_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context in India during the COVID-19 crisis, focusing on the use of digital volunteers to support underserved communities.",
+    "link": "https://doi.org/10.1145/3530190.3534827",
+    "abstract": "As community-driven organizations sought to support their constituents through the COVID-19 crisis, many drew on digital volunteers to expand their capacity and reach. However, coordinating the efforts of virtual volunteers is a challenging task with few empirical studies of the associated risks and best practices. In this paper, we report on the activities of CGNet Swara, a citizen journalism platform that published 401 distress calls from vulnerable communities stranded in India due to the imposition of a nationwide lockdown. CGNet mobilized 11 digital volunteers to help these contributors over a period of nearly 2 months. We found that a lack of proper guidance to digital volunteers and outdated organizational policies resulted in demonstrable harms to vulnerable communities. We discuss risks that are inherent in collaborations between organizations extending themselves to crisis response and emergent groups of digital volunteers, and how they can be mitigated by real-time monitoring and development of standard operating procedures relating to impact metrics, verification standards and disclosure policies.",
+    "_matched_keywords": [
+      "citizen journalism",
+      "CGNet Swara"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Phone Sharing and Cash Transfers in Togo: Quantitative Evidence from Mobile Phone Data",
+    "authors": "Emily L. Aiken, Viraj Thakur, Joshua Blumenstock",
+    "year": 2022,
+    "venue": "compass_2022",
+    "areas": [
+      "labour",
+      "livelihood"
+    ],
+    "topics": [
+      "problem_discovery",
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "compass_2022_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context (Togo) and addresses the use of technology in low-resource settings, aligning with the 'problem_discovery' and 'cs_fundamentals' topics.",
+    "link": "https://doi.org/10.1145/3530190.3534796",
+    "abstract": "Phone sharing is pervasive in many low- and middle-income countries, affecting how millions of people interact with technology and each other. Yet there is very little quantitative evidence available on the extent or nature of phone sharing in resource-constrained contexts. This paper provides a comprehensive quantitative analysis of demographic variation in phone sharing patterns in Togo, and documents how a large cash transfer program during the COVID-19 pandemic impacted sharing. We analyze mobile phone records from the entire Togolese mobile network to measure the movement of SIM cards between SIM card slots (often on different mobile devices). By matching phone sharing measures derived from SIM reshuffling to demographic data from a government-run cash transfer program covering hundreds of thousands of individuals, we find that phone sharing is most common among women, young people, and people in rural areas. We also leverage randomization in the cash transfer program to find that the delivery of cash aid via mobile money significantly increases phone sharing among beneficiaries. We discuss the limitations of measuring phone sharing with mobile network data and the implications of our results for future aid programs delivered via mobile money.",
+    "_matched_keywords": [
+      "mobile money"
+    ]
+  },
+  {
+    "id": null,
+    "title": "The Role of Intermediaries, Terrorist Assemblage, and Re-skilling in the Adoption of Cashless Transaction Systems in Bangladesh",
+    "authors": "Yasaman Rohanifar, Sharifa Sultana, Swapnil Nandy, Pratyasha Saha, Md. Jonayed Hossain Chowdhury, Mahdi Nasrullah Al-Ameen, Syed Ishtiaque Ahmed",
+    "year": 2022,
+    "venue": "compass_2022",
+    "areas": [
+      "labour",
+      "finance"
+    ],
+    "topics": [
+      "operations_scale",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "compass_2022_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context (Bangladesh) and discusses the adoption of cashless transaction systems, which is relevant to the 'operations_scale' and 'impact_evaluation' topics.",
+    "link": "https://doi.org/10.1145/3530190.3534810",
+    "abstract": "This work addresses the challenges associated with cashless transactions and Mobile Financial Services (MFS) in the Global South. In our 19-months long interview study in Dhaka, Bangladesh, we engaged with 38 participants, including everyday users, bank employees, and policymakers, and investigated their experiences and perspectives associated with financial services. Our findings reveal a wide range of factors, naming intermediaries, terrorist assemblage, and re-skilling the existing employees that impede the mass adoption of cashless transaction services in Bangladesh. The findings from this study contribute to the ongoing discourse on the challenges and opportunities offered by the digitization of financial systems in Bangladesh. Our recommendations aim to improve the integration of the cashless systems within the societal context of Bangladesh and, more broadly, the Global South.",
+    "_matched_keywords": [
+      "intermediaries"
+    ]
+  },
+  {
+    "id": null,
+    "title": "An Unsupervised Density Based Clustering Algorithm to Detect Election Anomalies : Evidence from Georgia's Largest County",
+    "authors": "Khurram Yamin, Matthew Oswald, Nima Jadali, Yao Xie, Ellen Zegura, Dima Nazzal",
+    "year": 2022,
+    "venue": "compass_2022",
+    "areas": [],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [],
+    "area_agnostic": true,
+    "source_course": "compass_2022_venue_search",
+    "notes": "The paper applies strong computer science methods to detect election anomalies, which can be adapted to developing regions for similar purposes, fitting the cs_fundamentals topic rule.",
+    "link": "https://doi.org/10.1145/3530190.3534799",
+    "abstract": "The 2020 election was fraught with allegations of fraud. To respond to a lack of a robust method to investigate these allegations, we propose a multi-step clustering based approach. We first solve a regression problem to find a group of influential variables, then cluster on these variables to get a set of precincts that should have similar election results. Re-clustering each cluster shows us the outliers. We then apply the approach to Fulton County, Georgia\u2019s largest county and an epicenter of allegations of corruption and fraud. We show that the level of fraud detected is not significant and would not be enough to change the election results in Georgia. In fact, the majority of the precincts that showed to be anomalous were ones where Trump received more votes than was expected. We also validate our analysis through application to the 2015 Argentina National Election.",
+    "_matched_keywords": [
+      "corruption"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Accelerated Design and Deployment of Low-Carbon Concrete for Data Centers",
+    "authors": "Xiou Ge, Richard T. Goodwin, Haizi Yu, Pablo Romero, Omar Abdelrahman, Amruta Sudhalkar, Julius Kusuma, Ryan Cialdella, Nishant Garg, Lav R. Varshney",
+    "year": 2022,
+    "venue": "compass_2022",
+    "areas": [
+      "infrastructure"
+    ],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [
+      "climate_change"
+    ],
+    "area_agnostic": false,
+    "source_course": "compass_2022_venue_search",
+    "notes": "The paper applies strong computer science methods to discover low-carbon concrete formulas, which can be adapted to developing regions for sustainable infrastructure projects.",
+    "link": "https://doi.org/10.1145/3530190.3534817",
+    "abstract": "Concrete is the most widely used engineered material in the world with more than 10 billion tons produced annually. Unfortunately, with that scale comes a significant burden in terms of energy, water, and release of greenhouse gases and other pollutants; indeed 8% of worldwide carbon emissions are attributed to the production of cement, a key ingredient in concrete. As such, there is interest in creating concrete formulas that minimize this environmental burden, while satisfying engineering performance requirements including compressive strength. Specifically for computing, concrete is a major ingredient in the construction of data centers. In this work, we use conditional variational autoencoders (CVAEs), a type of semi-supervised generative artificial intelligence (AI) model, to discover concrete formulas with desired properties. Our model is trained just using a small open dataset from the UCI Machine Learning Repository joined with environmental impact data from standard lifecycle analysis. Computational predictions demonstrate CVAEs can design concrete formulas with much lower carbon requirements than existing formulations while meeting design requirements. Next we report laboratory-based compressive strength experiments for five AI-generated formulations, which demonstrate that the formulations exceed design requirements. The resulting formulations were then used by Ozinga Ready Mix\u2014a concrete supplier\u2014to generate field-ready concrete formulations, based on local conditions and their expertise in concrete design. Finally, we report on how these formulations were used in the construction of buildings and structures in a Meta data center in DeKalb, IL, USA. Results from field experiments as part of this real-world deployment corroborate the efficacy of AI-generated low-carbon concrete mixes.",
+    "_matched_keywords": [
+      "open data",
+      "field experiments"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Use of Metric Learning for the Recognition of Handwritten Digits, and its Application to Increase the Outreach of Voice-based Communication Platforms",
+    "authors": "Devesh Pant, Dibyendu Talukder, Deepak Kumar, Rachit Pandey, Aaditeshwar Seth, Chetan Arora",
+    "year": 2022,
+    "venue": "compass_2022",
+    "areas": [
+      "health",
+      "media_information"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "ethnographic_design",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "compass_2022_venue_search",
+    "notes": "The paper engages with a developing-regions context in India, specifically using voice-based communication platforms for maternal and child health awareness.",
+    "link": "https://doi.org/10.1145/3530190.3534795",
+    "abstract": "Initiation, monitoring, and evaluation of development programmes can involve field-based data collection about project activities. This data collection through digital devices may not always be feasible though, for reasons such as unaffordability of smartphones and tablets by field-based cadre, or shortfalls in their training and capacity building. Paper-based data collection has been argued to be more appropriate in several contexts, with automated digitization of the paper forms through OCR (Optical Character Recognition) and OMR (Optical Mark Recognition) techniques. We contribute with providing a large dataset of handwritten digits, and deep learning based models and methods built using this data, that are effective in real-world environments. We demonstrate the deployment of these tools in the context of a maternal and child health and nutrition awareness project, which uses IVR (Interactive Voice Response) systems to provide awareness information to rural women SHG (Self Help Group) members in north India. Paper forms were used to collect phone numbers of the SHG members at scale, which were digitized using the OCR tools developed by us, and used to push almost 4 million phone calls. The data, model, and code have been released in the open-source domain.",
+    "_matched_keywords": [
+      "maternal and child health",
+      "IVR (interactive voice response)"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Detecting Hotspots of Human-Wildlife Conflicts in India using News Articles and Aerial Images",
+    "authors": "Gokhan Egri, Xinran Han, Zilin Ma, Priyanka Surapaneni, Sunandan Chakraborty",
+    "year": 2022,
+    "venue": "compass_2022",
+    "areas": [
+      "wildlife_conservation"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "ethnographic_design",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "compass_2022_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context in India, focusing on human-wildlife conflict issues.",
+    "link": "https://doi.org/10.1145/3530190.3534818",
+    "abstract": "Human-wildlife conflict (HWC) is one of the most pressing conservation issues at present, with incidents leading to human injury and death, crop and property damage, and livestock predation. Since acquiring real-time data and performing manual analysis on those incidents are costly, we propose to leverage machine learning techniques to build an automated pipeline to construct an HWC knowledge base from historical news articles. Our unsupervised and active learning methods are not only able to recognize the major causes of HWC such as construction, pollution, and farming, but can also classify an unseen news article into its major cause with 90% accuracy. Moreover, our interactive visualizations of the knowledge base illustrate the spatial and temporal trend of human-wildlife conflicts across India for index by cities and animals. Based on our findings that most conflict zones include areas where human settlements are near forested areas, we extend our study to include satellite imagery to identify such proximity zones. We conduct a case study to use this method to identify human-elephant conflict hotspots in northern and western parts of the Indian state of West Bengal. We expect that our findings can inform the public of HWC hotspots and help in much more informed policymaking.",
+    "_matched_keywords": [
+      "satellite imagery"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Sophistication with Limitation: Understanding Smartphone Usage by Emergent Users in India",
+    "authors": "Meghna Gupta, Devansh Mehta, Anandita Punj, Indrani Medhi-Thies",
+    "year": 2022,
+    "venue": "compass_2022",
+    "areas": [
+      "labour",
+      "livelihood",
+      "education"
+    ],
+    "topics": [
+      "problem_discovery",
+      "ethnographic_design"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "caste",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "compass_2022_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context in India, focusing on smartphone usage by emergent users from low-income communities.",
+    "link": "https://doi.org/10.1145/3530190.3534824",
+    "abstract": "India has been witnessing a steady increase in smartphone penetration since 2016 after Reliance Jio introduced inexpensive internet plans. Much of HCI research in the Global South has been conducted before smartphones became more widespread. More recent work on smartphone use in India has been either domain-focused or studied specific features. In this work, we investigate how emergent users from low-income communities in India currently use their smartphones, and what they use them for. We draw on semi-structured interviews with emergent smartphone users across rural and urban India demonstrating their experiences and challenges related to low- textual and digital literacy, infrastructure, privacy, and motivations of use. Our findings revealed that while there is a lack of understanding of basic features such as accounts and passwords, there is sophisticated use spanning user-generated media, remote education, skilling, etc. We close with recommendations for future research and design for emergent smartphone users.",
+    "_matched_keywords": [
+      "digital literacy"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Note: A Sociomaterial Perspective on Trace Data Collection: Strategies for Democratizing and Limiting Bias",
+    "authors": "Dipto Das, Arpon Podder, Bryan C. Semaan",
+    "year": 2022,
+    "venue": "compass_2022",
+    "areas": [],
+    "topics": [
+      "sociotechnical_dynamics"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": true,
+    "source_course": "compass_2022_venue_search",
+    "notes": "The paper engages with sociotechnical dynamics and considers marginalized communities, which is relevant to the sociotechnical dynamics topic and the cross-cutting axes of gender and social capital/marginalization.",
+    "link": "https://doi.org/10.1145/3530190.3534835",
+    "abstract": "Researchers heavily use online platforms for collecting trace data, i.e., data capturing user interaction on and with sociotechnical systems. Human-computer interaction scholars have highlighted the role of reflexivity while analyzing such data in the case of marginalized communities. Drawing on sociomaterial perspectives, we highlight how data collection approaches involving lists of search phrases and APIs can embed researchers\u2019 positionality, perspectives, and biases within the datasets. In this note, we reflect on the data collection approaches of two papers that studied the sociohistorically marginalized Bengali communities on the question-and-answer site Bengali Quora. We illustrate how recommendation systems and data labeling workers can be included in the data collection process to democratize and limit bias while broadening and contextualizing the trace datasets for research.",
+    "_matched_keywords": [
+      "marginalized communities",
+      "marginalized communities"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Note: Examining the Gender Digital Divide in ICT: A Closer Look at Ghana, South Africa, and India",
+    "authors": "Connie Liu, Kassie Wang, Miyuki Goay, Sofia (Hee Won) Yoon",
+    "year": 2022,
+    "venue": "compass_2022",
+    "areas": [],
+    "topics": [
+      "gender"
+    ],
+    "cross_cutting_axes": [
+      "gender"
+    ],
+    "area_agnostic": false,
+    "source_course": "compass_2022_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context, specifically India, and addresses gender inequality in ICT access and use, which is a cross-cutting axis.",
+    "link": "https://doi.org/10.1145/3530190.3534832",
+    "abstract": "Our project examines the relationship between the gender digital divide and associated ICT solutions, specifically in Ghana, South Africa, and India. Through literature review and interviews with organizations that develop ICT solutions, we then present a framework for current and future ICT implementations to effectively address and acknowledge the gender digital divide.",
+    "_matched_keywords": [
+      "digital divide"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Note: Image-based Prediction of House Attributes with Deep Learning",
+    "authors": "Weimin Huang, Alex Olson, Elias B. Khalil, Shoshanna Saxe",
+    "year": 2022,
+    "venue": "compass_2022",
+    "areas": [],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [],
+    "area_agnostic": true,
+    "source_course": "compass_2022_venue_search",
+    "notes": "The paper applies strong computer science methods (deep learning) which could be adapted to a developing-regions context for similar urban planning and policy evaluation purposes, fitting the cs_fundamentals topic rule.",
+    "link": "https://doi.org/10.1145/3530190.3534828",
+    "abstract": "We present an image dataset and a deep learning model that enable the prediction of attributes such as floor area for low-rise buildings (i.e., houses). The dataset consists of 34,600 images of 16,403 buildings in the city of Toronto, Canada, each of which is associated with floor area. The ability to predict such an attribute can facilitate accurate, automated city-scale analysis of the built environment, which can then serve as a basis for policy evaluation and recommendation. A deep convolutional neural network is devised for the task, achieving normalized root mean square error (NRMSE) of 34.24% for interior floor area.",
+    "_matched_keywords": [
+      "policy evaluation"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Incentive Compatible Mechanisms for Efficient Procurement of Agricultural Inputs for Farmers through Farmer Collectives",
+    "authors": "Mayank Ratan Bhardwaj, Azal Fatima, Inavamsi Enaganti, Yadati Narahari",
+    "year": 2022,
+    "venue": "compass_2022",
+    "areas": [
+      "agriculture"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "ethnographic_design",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "caste"
+    ],
+    "area_agnostic": false,
+    "source_course": "compass_2022_venue_search",
+    "notes": "The paper engages with a developing-regions context, specifically addressing the challenges faced by small and marginal farmers in emerging economies.",
+    "link": "https://doi.org/10.1145/3530190.3534842",
+    "abstract": "Sourcing the right quality and quantity of agricultural inputs such as seeds, fertilizers, and pesticides, constitutes a crucial aspect of agricultural input operations. This is a particularly challenging problem being faced by the small and marginal farmers in any emerging economy. Farmer collectives (FCs) which are cooperative societies of farmers, launched under Federal Government initiatives in many countries, offer the prospect of enabling cost-effective procurement of inputs with assured quality. We seek, in this work, sound and explainable mechanisms for the above important use-case. In particular, we propose the use of incentive compatible auction mechanisms that could be used by an FC to procure quality inputs in bulk. The idea is the following. An FC collects from the farmers their individual requirements for inputs and aggregates them into different buckets. For each bucket, the FC identifies suppliers who meet the quality criteria and engages them in a competitive procurement auction. We explore in this paper, two particular types of procurement auctions: volume discount auctions and combinatorial auctions in the framework of Vickrey-Clarke-Groves (VCG) mechanisms. These are explainable mechanisms that induce truthful bids from the suppliers as well as maximize the social welfare. We show their efficacy through carefully designed thought experiments. Our field studies of FCs give us the confidence that such mechanisms, if deployed systematically, can become a game changer, benefiting a massive community of smallholder farmers.",
+    "_matched_keywords": [
+      "smallholder farmers",
+      "procurement"
+    ]
+  }
+]

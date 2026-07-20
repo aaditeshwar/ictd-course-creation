@@ -1,0 +1,209 @@
+[
+  {
+    "title": "Deciphering Environmental Air Pollution with Large Scale City Data",
+    "authors": "Mayukh Bhattacharyya, Sayan Nag, Udita Ghosh",
+    "year": 2022,
+    "link": "https://doi.org/10.24963/ijcai.2022/698",
+    "doi": "10.24963/ijcai.2022/698",
+    "abstract": "Air pollution poses a serious threat to sustainable environmental conditions in the 21st century. Its importance in determining the health and living standards in urban settings is only expected to increase with time. Various factors ranging from artificial emissions to natural phenomena are known to be primary causal agents or influencers behind rising air pollution levels. However, the lack of large scale data involving the major artificial and natural factors has hindered the research on the causes and relations governing the variability of the different air pollutants. Through this work, we introduce a large scale city-wise dataset for exploring the relationships among these agents over a long period of time. We also introduce a transformer based model - cosSquareFormer, for the problem of pollutant level estimation and forecasting. Our model outperforms most of the benchmark models for this task. We also analyze and explore the dataset through our model and other methodologies to bring out important inferences which enable us to understand the dynamics of the casual agents at a deeper level. Through our paper, we seek to provide a great set of foundations for further research into this domain that will demand critical attention of ours in the near future.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "AggPose: Deep Aggregation Vision Transformer for Infant Pose Estimation",
+    "authors": "Xu Cao, Xiaoye Li, Liya Ma, Yi Huang, Xuan Feng, Zening Chen, Hongwu Zeng, Jianguo Cao",
+    "year": 2022,
+    "link": "https://doi.org/10.24963/ijcai.2022/700",
+    "doi": "10.24963/ijcai.2022/700",
+    "abstract": "Movement and pose assessment of newborns lets experienced pediatricians predict neurodevelopmental disorders, allowing early intervention for related diseases. However, most of the newest AI approaches for human pose estimation methods focus on adults, lacking publicly benchmark for infant pose estimation. In this paper, we fill this gap by proposing infant pose dataset and Deep Aggregation Vision Transformer for human pose estimation, which introduces a fast trained full transformer framework without using convolution operations to extract features in the early stages. It generalizes Transformer + MLP to high-resolution deep layer aggregation within feature maps, thus enabling information fusion between different vision levels. We pre-train AggPose on COCO pose dataset and apply it on our newly released large-scale infant pose estimation dataset. The results show that AggPose could effectively learn the multi-scale features among different resolutions and significantly improve the performance of infant pose estimation. We show that AggPose outperforms hybrid model HRFormer and TokenPose in the infant pose estimation dataset. Moreover, our AggPose outperforms HRFormer by 0.8 AP on COCO val pose estimation on average. Our code is available at github.com/SZAR-LAB/AggPose.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Forecasting Patient Outcomes in Kidney Exchange",
+    "authors": "Naveen Durvasula, Aravind Srinivasan, John P. Dickerson",
+    "year": 2022,
+    "link": "https://doi.org/10.24963/ijcai.2022/701",
+    "doi": "10.24963/ijcai.2022/701",
+    "abstract": "Kidney exchanges allow patients with end-stage renal disease to find a lifesaving living donor by way of an organized market. However, not all patients are equally easy to match, nor are all donor organs of equal quality---some patients are matched within weeks, while others may wait for years with no match offers at all. We propose the first decision-support tool for kidney exchange that takes as input the biological features of a patient-donor pair, and returns (i) the probability of being matched prior to expiry, and (conditioned on a match outcome), (ii) the waiting time for and (iii) the organ quality of the matched transplant. This information may be used to inform medical and insurance decisions. We predict all quantities (i, ii, iii) exclusively from match records that are readily available in any kidney exchange using a quantile random forest approach. To evaluate our approach, we developed two state-of-the-art realistic simulators based on data from the United Network for Organ Sharing that sample from the training and test distribution for these learning tasks---in our application these distributions are distinct. We analyze distributional shift through a theoretical lens, and show that the two distributions converge as the kidney exchange nears steady-state. We then show that our approach produces clinically-promising estimates using simulated data. Finally, we show how our approach, in conjunction with tools from the model explainability literature, can be used to calibrate and detect bias in matching policies.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "A Murder and Protests, the Capitol Riot, and the Chauvin Trial: Estimating Disparate News Media Stance",
+    "authors": "Sujan Dutta, Beibei Li, Daniel S. Nagin, Ashiqur R. KhudaBukhsh",
+    "year": 2022,
+    "link": "https://doi.org/10.24963/ijcai.2022/702",
+    "doi": "10.24963/ijcai.2022/702",
+    "abstract": "In this paper, we analyze the responses of three major US cable news networks to three seminal policing events in the US spanning a thirteen month period--the murder of George Floyd by police officer Derek Chauvin, the Capitol riot, Chauvin's conviction, and his sentencing. We cast the problem of aggregate stance mining as a natural language inference task and construct an active learning pipeline for robust textual entailment prediction. Via a substantial corpus of 34,710 news transcripts, our analyses reveal that the partisan divide in viewership of these three outlets reflects on the network's news coverage of these momentous events. In addition, we release a sentence-level, domain-specific text entailment data set on policing consisting of 2,276 annotated instances.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Monitoring Vegetation From Space at Extremely Fine Resolutions via Coarsely-Supervised Smooth U-Net",
+    "authors": "Joshua Fan, Di Chen, Jiaming Wen, Ying Sun, Carla P. Gomes",
+    "year": 2022,
+    "link": "https://doi.org/10.24963/ijcai.2022/703",
+    "doi": "10.24963/ijcai.2022/703",
+    "abstract": "Monitoring vegetation productivity at extremely fine resolutions is valuable for real-world agricultural applications, such as detecting crop stress and providing early warning of food insecurity. Solar-Induced Chlorophyll Fluorescence (SIF) provides a promising way to directly measure plant productivity from space. However, satellite SIF observations are only available at a coarse spatial resolution, making it impossible to monitor how individual crop types or farms are doing. This poses a challenging coarsely-supervised regression (or downscaling) task; at training time, we only have SIF labels at a coarse resolution (3km), but we want to predict SIF at much finer spatial resolutions (e.g. 30m, a 100x increase). We also have additional fine-resolution input features, but the relationship between these features and SIF is unknown. To address this, we propose Coarsely-Supervised Smooth U-Net (CS-SUNet), a novel method for this coarse supervision setting. CS-SUNet combines the expressive power of deep convolutional networks with novel regularization methods based on prior knowledge (such as a smoothness loss) that are crucial for preventing overfitting. Experiments show that CS-SUNet resolves fine-grained variations in SIF more accurately than existing methods.",
+    "skip_reason": "DUPLICATE of existing 'ijcai_2022_monitoring_vegetation_from_space_at_extremely' (score=1.00)"
+  },
+  {
+    "title": "Am I No Good? Towards Detecting Perceived Burdensomeness and Thwarted Belongingness from Suicide Notes",
+    "authors": "Soumitra Ghosh, Asif Ekbal, Pushpak Bhattacharyya",
+    "year": 2022,
+    "link": "https://doi.org/10.24963/ijcai.2022/704",
+    "doi": "10.24963/ijcai.2022/704",
+    "abstract": "The World Health Organization (WHO) has emphasized the importance of significantly accelerating suicide prevention efforts to fulfill the United Nations' Sustainable Development Goal (SDG) objective of 2030. In this paper, we present an end-to-end multitask system to address a novel task of detection of two interpersonal risk factors of suicide, Perceived Burdensomeness (PB) and Thwarted Belongingness (TB) from suicide notes. We also introduce a manually translated code-mixed suicide notes corpus, CoMCEASE-v2.0, based on the benchmark CEASE-v2.0 dataset, annotated with temporal orientation, PB and TB labels. We exploit the temporal orientation and emotion information in the suicide notes to boost overall performance. For comprehensive evaluation of our proposed method, we compare it to several state-of-the-art approaches on the existing CEASE-v2.0 dataset and the newly announced CoMCEASE-v2.0 dataset. Empirical evaluation suggests that temporal and emotional information can substantially improve the detection of PB and TB.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "AI Facilitated Isolations? The Impact of Recommendation-based Influence Diffusion in Human Society",
+    "authors": "Yuxuan Hu, Shiqing Wu, Chenting Jiang, Weihua Li, Quan Bai, Erin Roehrer",
+    "year": 2022,
+    "link": "https://doi.org/10.24963/ijcai.2022/705",
+    "doi": "10.24963/ijcai.2022/705",
+    "abstract": "AI recommendation techniques provide users with personalized services, feeding them the information they may be interested in. The increasing personalization raises the hypotheses of the \"filter bubble\" and \"echo chamber\" effects. To investigate these hypotheses, in this paper, we inspect the impact of recommendation algorithms on forming two types of ideological isolation, i.e., the individual isolation and the topological isolation, in terms of the filter bubble and echo chamber effects, respectively. Simulation results show that AI recommendation strategies severely facilitate the evolution of the filter bubble effect, leading users to become ideologically isolated at an individual level. Whereas, at a topological level, recommendation algorithms show eligibility in connecting individuals with dissimilar users or recommending diverse topics to receive more diverse viewpoints. This research sheds light on the ability of AI recommendation strategies to temper ideological isolation at a topological level.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Crowd, Expert & AI: A Human-AI Interactive Approach Towards Natural Language Explanation Based COVID-19 Misinformation Detection",
+    "authors": "Ziyi Kou, Lanyu Shang, Yang Zhang, Zhenrui Yue, Huimin Zeng, Dong Wang",
+    "year": 2022,
+    "link": "https://doi.org/10.24963/ijcai.2022/706",
+    "doi": "10.24963/ijcai.2022/706",
+    "abstract": "In this paper, we study an explainable COVID-19 misinformation detection problem where the goal is to accurately identify COVID-19 misleading posts on social media and explain the posts with natural language explanations (NLEs). Our problem is motivated by the limitations of current explainable misinformation detection approaches that cannot provide NLEs for COVID-19 posts due to the lack of sufficient professional COVID-19 knowledge for supervision. To address such a limitation, we develop CEA-COVID, a crowd-expert-AI framework that jointly exploits the common logical reasoning ability of online crowd workers and the professional knowledge of COVID-19 experts to effectively generate NLEs for detecting and explaining COVID-19 misinformation. We evaluate CEA-COVID using two public COVID-19 misinformation datasets on social media. Results demonstrate that CEA-COVID outperforms existing explainable misinformation detection models in terms of both explainability and detection accuracy.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Towards the Quantitative Interpretability Analysis of Citizens Happiness Prediction",
+    "authors": "Lin Li, Xiaohua Wu, Miao Kong, Dong Zhou, Xiaohui Tao",
+    "year": 2022,
+    "link": "https://doi.org/10.24963/ijcai.2022/707",
+    "doi": "10.24963/ijcai.2022/707",
+    "abstract": "Evaluating the high-effect factors of citizens' happiness is beneficial to a wide range of policy-making for economics and politics in most countries. Benefiting from the high-efficiency of regression models, previous efforts by sociology scholars have analyzed the effect of happiness factors with high interpretability. However, restricted to their research concerns, they are specifically interested in some subset of factors modeled as linear functions. Recently, deep learning shows promising prediction accuracy while addressing challenges in interpretability. To this end, we introduce Shapley value that is inherent in solid theory for factor contribution interpretability to work with deep learning models by taking into account interactions between multiple factors. The proposed solution computes the Shapley value of a factor, i.e., its average contribution to the prediction in different coalitions based on coalitional game theory. Aiming to evaluate the interpretability quality of our solution, experiments are conducted on a Chinese General Social Survey (CGSS) questionnaire dataset. Through systematic reviews, the experimental results of Shapley value are highly consistent with academic studies in social science, which implies our solution for citizens' happiness prediction has 2-fold implications, theoretically and practically.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "S2SNet: A Pretrained Neural Network for Superconductivity Discovery",
+    "authors": "Ke Liu, Kaifan Yang, Jiahong Zhang, Renjun Xu",
+    "year": 2022,
+    "link": "https://doi.org/10.24963/ijcai.2022/708",
+    "doi": "10.24963/ijcai.2022/708",
+    "abstract": "Superconductivity allows electrical current to flow without any energy loss, and thus making solids superconducting is a grand goal of physics, material science, and electrical engineering. More than 16 Nobel Laureates have been awarded for their contribution in superconductivity research. Superconductors are valuable for sustainable development goals (SDGs), such as climate change mitigation, affordable and clean energy, industry, innovation and infrastructure, and so on. However, a unified physics theory explaining all superconductivity mechanism is still unknown. It is believed that superconductivity is microscopically due to not only molecular compositions but also the geometric crystal structure. Hence a new dataset, S2S, containing both crystal structures and superconducting critical temperature, is built upon SuperCon and Material Project. Based on this new dataset, we propose a novel model, S2SNet, which utilizes the attention mechanism for superconductivity prediction. To overcome the shortage of data, S2SNet is pre-trained on the whole Material Project dataset with Masked-Language Modeling (MLM). S2SNet makes a new state-of-the-art, with out-of-sample accuracy of 92% and Area Under Curve (AUC) of 0.92. To the best of our knowledge, S2SNet is the first work to predict superconductivity with only information of crystal structures. This work is beneficial to superconductivity discovery and further SDGs. The code and datasets are available at https://github.com/supercond/S2SNet",
+    "skip_reason": "The paper does not engage with a developing-regions context and does not fit any of the specified areas or topics."
+  },
+  {
+    "title": "A Reliability-aware Distributed Framework to Schedule Residential Charging of Electric Vehicles",
+    "authors": "Rounak Meyur, Swapna Thorve, Madhav V. Marathe, Anil Vullikanti, Samarth Swarup, Henning S. Mortveit",
+    "year": 2022,
+    "link": "https://doi.org/10.24963/ijcai.2022/710",
+    "doi": "10.24963/ijcai.2022/710",
+    "abstract": "Residential consumers have become active participants in the power distribution network after being equipped with residential EV charging provisions. This creates a challenge for the network operator tasked with dispatching electric power to the residential consumers through the existing distribution network infrastructure in a reliable manner. In this paper, we address the problem of scheduling residential EV charging for multiple consumers while maintaining network reliability. An additional challenge is the restricted exchange of information: where the consumers do not have access to network information and the network operator does not have access to consumer load parameters. We propose a distributed framework which generates an optimal EV charging schedule for individual residential consumers based on their preferences and iteratively updates it until the network reliability constraints set by the operator are satisfied. We validate the proposed approach for different EV adoption levels in a synthetically created digital twin of an actual power distribution network. The results demonstrate that the new approach can achieve a higher level of network reliability compared to the case where residential consumers charge EVs based solely on their individual preferences, thus providing a solution for the existing grid to keep up with increased adoption rates without significant investments in increasing grid capacity.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "ADVISER: AI-Driven Vaccination Intervention Optimiser for Increasing Vaccine Uptake in Nigeria",
+    "authors": "Vineet Nair, Kritika Prakash, Michael Wilbur, Aparna Taneja, Corinne Namblard, Oyindamola Adeyemo, Abhishek Dubey, Abiodun Adereni, Milind Tambe, Ayan Mukhopadhyay",
+    "year": 2022,
+    "link": "https://doi.org/10.24963/ijcai.2022/712",
+    "doi": "10.24963/ijcai.2022/712",
+    "abstract": "More than 5 million children under five years die from largely preventable or treatable medical conditions every year, with an overwhelmingly large proportion of deaths occurring in under-developed countries with low vaccination uptake. One of the United Nations' sustainable development goals (SDG 3) aims to end preventable deaths of newborns and children under five years of age. We focus on Nigeria, where the rate of infant mortality is appalling. We collaborate with HelpMum, a large non-profit organization in Nigeria, to design and optimize the allocation of heterogeneous health interventions under uncertainty to increase vaccination uptake, the first such collaboration in Nigeria. Our framework, ADVISER: AI-Driven Vaccination Intervention Optimiser, is based on an integer linear program that seeks to maximize the cumulative probability of successful vaccination. Our optimization formulation is intractable in practice. We present a heuristic approach that enables us to solve the problem for real-world use-cases. We also present theoretical bounds for the heuristic method. Finally, we show that the proposed approach outperforms baseline methods in terms of vaccination uptake through experimental evaluation. HelpMum is currently planning a pilot program based on our approach to be deployed in the largest city of Nigeria, which would be the first deployment of an AI-driven vaccination uptake program in the country and hopefully, pave the way for other data-driven programs to improve health outcomes in Nigeria.",
+    "skip_reason": "DUPLICATE of existing 'ijcai_2022_adviser_ai_driven_vaccination_intervention_optimiser' (score=1.00)"
+  },
+  {
+    "title": "Ownership Concentration and Wealth Inequality in Russia",
+    "authors": "Kirill Polovnikov, Nikita Pospelov, Dmitriy Skougarevskiy",
+    "year": 2022,
+    "link": "https://doi.org/10.24963/ijcai.2022/713",
+    "doi": "10.24963/ijcai.2022/713",
+    "abstract": "Knowledge of beneficial owners of companies is key to monitoring and managing wealth inequality in any country. Here we propose a robust and scalable network-based algorithm to reveal hidden ultimate owners in public ownership data. Our approach is based on the idea of Katz centrality in complex networks and circumvents the problem of cyclic ownership used to obscure effective control\n\nthrough closed chains of intermediaries. When applied to a country-scale directed ownership network with 6 million nodes, the algorithm identifies ultimate holders of every organisation in 2021\u2019s Russia. The distribution of asset ownership in the country follows a power law, indicating strong wealth inequality with Gini index of 0.93. 51.7% of net assets of non-financial companies are ultimately held by the state and state-owned enterprises, 25.0% \u2014 by individuals (incl. 3.4% held by Forbes\u2013200-listed individuals), and 11.3% are owned by foreign entities (incl. 5.7% in tax havens).",
+    "skip_reason": "The paper does not substantively engage with a developing-regions context as required by the rules for all topics except 'cs_fundamentals'."
+  },
+  {
+    "title": "DiRe Committee : Diversity and Representation Constraints in Multiwinner Elections",
+    "authors": "Kunal Relia",
+    "year": 2022,
+    "link": "https://doi.org/10.24963/ijcai.2022/714",
+    "doi": "10.24963/ijcai.2022/714",
+    "abstract": "The study of fairness in multiwinner elections focuses on settings where candidates have attributes. However, voters may also be divided into predefined populations under one or more attributes.\u00a0The models that focus on candidate attributes alone may systematically under-represent smaller voter populations. Hence, we develop a model, DiRe Committee Winner Determination (DRCWD), which delineates candidate and voter attributes to select a committee by specifying diversity and representation constraints and a voting rule. We\u00a0analyze its computational complexity\u00a0and develop a heuristic algorithm, which finds the winning DiRe committee in under two minutes on 63% of the instances of synthetic datasets and on 100% of instances of real-world datasets. We also present an empirical analysis of\u00a0feasibility and utility traded-off.\u00a0\n\n\n\nMoreover, even when the attributes of candidates and voters coincide, it is important to treat them separately as diversity does not imply representation and vice versa. This is to say that having a female candidate on the committee, for example, is different from having a candidate on the committee who is preferred by the female voters, and who themselves may or may not be female.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "AgriBERT: Knowledge-Infused Agricultural Language Models for Matching Food and Nutrition",
+    "authors": "Saed Rezayi, Zhengliang Liu, Zihao Wu, Chandra Dhakal, Bao Ge, Chen Zhen, Tianming Liu, Sheng Li",
+    "year": 2022,
+    "link": "https://doi.org/10.24963/ijcai.2022/715",
+    "doi": "10.24963/ijcai.2022/715",
+    "abstract": "Pretraining domain-specific language models remains an important challenge which limits their applicability in various areas such as agriculture. This paper investigates the effectiveness of leveraging food related text corpora (e.g., food and agricultural literature) in pretraining transformer-based language models. We evaluate our trained language model, called AgriBERT, on the task of semantic matching, i.e., establishing mapping between food descriptions and nutrition data, which is a long-standing challenge in the agricultural domain. In particular, we formulate the task as an answer selection problem, fine-tune the trained language model with the help of an external source of knowledge (e.g., FoodOn ontology), and establish a baseline for this task. The experimental results reveal that our language model substantially outperforms other language models and baselines in the task of matching food description and nutrition.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "CounterGeDi: A Controllable Approach to Generate Polite, Detoxified and Emotional Counterspeech",
+    "authors": "Punyajoy Saha, Kanishk Singh, Adarsh Kumar, Binny Mathew, Animesh Mukherjee",
+    "year": 2022,
+    "link": "https://doi.org/10.24963/ijcai.2022/716",
+    "doi": "10.24963/ijcai.2022/716",
+    "abstract": "Recently, many studies have tried to create generation models to assist counter speakers by providing counterspeech suggestions for combating the explosive proliferation of online hate. However, since these suggestions are from a vanilla generation model, they might not include the appropriate properties required to counter a particular hate speech instance. In this paper, we propose CounterGeDi - an ensemble of generative discriminators (GeDi) to guide the generation of a DialoGPT model toward more polite, detoxified, and emotionally laden counterspeech. We generate counterspeech using three datasets and observe significant improvement across different attribute scores. The politeness and detoxification scores increased by around 15% and 6% respectively, while the emotion in the counterspeech increased by at least 10% across all the datasets. We also experiment with triple-attribute control and observe significant improvement over single attribute results when combining complementing attributes, e.g., politeness, joyfulness and detoxification. In all these experiments, the relevancy of the generated text does not deteriorate due to the application of these controls.",
+    "skip_reason": "The paper does not substantively engage with a developing-regions context as required by the rules for all topics except cs_fundamentals."
+  },
+  {
+    "title": "Scalable and Memory-Efficient Algorithms for Controlling Networked Epidemic Processes Using Multiplicative Weights Update Method",
+    "authors": "Prathyush Sambaturu, Marco Minutoli, Mahantesh Halappanavar, Ananth Kalyanaraman, Anil Vullikanti",
+    "year": 2022,
+    "link": "https://doi.org/10.24963/ijcai.2022/717",
+    "doi": "10.24963/ijcai.2022/717",
+    "abstract": "We study the problem of designing scalable algorithms to find effective intervention strategies for controlling stochastic epidemic processes on networks. This is a common problem arising in agent based models for epidemic spread.\n\nPrevious approaches to this problem focus on either heuristics with no guarantees or approximation algorithms that scale only to networks corresponding to county-sized populations, typically, with less than a million nodes. In particular, the mathematical-programming based approaches need to solve the Linear Program (LP) relaxation of the problem using an LP solver, which restricts the scalability of this approach. In this work, we overcome this restriction by designing an algorithm that adapts the multiplicative weights update (MWU) framework, along with the sample average approximation (SAA) technique, to approximately solve the linear program (LP) relaxation for the problem. To scale this approach further, we provide a memory-efficient algorithm that enables scaling to large networks, corresponding to country-size populations, with over 300 million nodes and 30 billion edges. Furthermore, we show that this approach provides near-optimal solutions to the LP in practice.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Forecasting the Number of Tenants At-Risk of Formal Eviction: A Machine Learning Approach to Inform Public Policy",
+    "authors": "Maryam Tabar, Wooyong Jung, Amulya Yadav, Owen Wilson Chavez, Ashley Flores, Dongwon Lee",
+    "year": 2022,
+    "link": "https://doi.org/10.24963/ijcai.2022/719",
+    "doi": "10.24963/ijcai.2022/719",
+    "abstract": "Eviction of tenants has reached a crisis level in the U.S. and its consequences pose significant challenges to society. To tackle this eviction crisis, policymakers have been allocating financial resources but a more efficient resource allocation would need an accurate forecast of the number of tenants at-risk of evictions ahead of time. To help enhance the existing eviction prevention/diversion programs, in this work, we propose a multi-view deep neural network model, named as MARTIAN, that forecasts the number of tenants at-risk of getting formally evicted (at the census tract level) n months into the future. Then, we evaluate MARTIAN\u2019s predictive performance under various conditions using real-world eviction cases filed across Dallas County, TX. The results of empirical evaluation show that MARTIAN outperforms an extensive set of baseline models in terms of predictive performance. Additionally, MARTIAN\u2019s superior predictive performance is generalizable to unseen census tracts, for which no labeled data is available in the training set. This research has been done in collaboration with Child Poverty Action Lab (CPAL), which is a pioneering non-governmental organization (NGO) working for tackling poverty-related issues across Dallas County, TX. The usability of MARTIAN is under review by subject matter experts. We release our codebase at https://github.com/maryam-tabar/MARTIAN.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Ranked Prioritization of Groups in Combinatorial Bandit Allocation",
+    "authors": "Lily Xu, Arpita Biswas, Fei Fang, Milind Tambe",
+    "year": 2022,
+    "link": "https://doi.org/10.24963/ijcai.2022/723",
+    "doi": "10.24963/ijcai.2022/723",
+    "abstract": "Preventing poaching through ranger patrols protects endangered wildlife, directly contributing to the UN Sustainable Development Goal 15 of life on land. Combinatorial bandits have been used to allocate limited patrol resources, but existing approaches overlook the fact that each location is home to multiple species in varying proportions, so a patrol benefits each species to differing degrees. When some species are more vulnerable, we ought to offer more protection to these animals; unfortunately, existing combinatorial bandit approaches do not offer a way to prioritize important species. To bridge this gap, (1) We propose a novel combinatorial bandit objective that trades off between reward maximization and also accounts for prioritization over species, which we call ranked prioritization. We show this objective can be expressed as a weighted linear sum of Lipschitz-continuous reward functions. (2) We provide RankedCUCB, an algorithm to select combinatorial actions that optimize our prioritization-based objective, and prove that it achieves asymptotic no-regret. (3) We demonstrate empirically that RankedCUCB leads to up to 38% improvement in outcomes for endangered species using real-world wildlife conservation data. Along with adapting to other challenges such as preventing illegal logging and overfishing, our no-regret algorithm addresses the general combinatorial bandit problem with a weighted linear objective.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Conversational Inequality Through the Lens of Political Interruption",
+    "authors": "Clay H. Yoo, Jiachen Wang, Yuxi Luo, Kunal Khadilkar, Ashiqur R. KhudaBukhsh",
+    "year": 2022,
+    "link": "https://doi.org/10.24963/ijcai.2022/724",
+    "doi": "10.24963/ijcai.2022/724",
+    "abstract": "We present a novel dataset of dialogues containing interruption with an aim to conduct a large-scale analysis of interruption patterns of people from diverse backgrounds in terms of gender, race/ethnicity, occupation, and political orientation. Our dataset includes 625,409 dialogues containing interruptions found in 275,420 transcripts from CNN, Fox News, and MSNBC spanning between January 2000 and July 2021. From this large, unlabeled pool of interruptions, we release an annotated dataset consisting of 2,000 dialogues with fine-grained interruption labels. We use this dataset to train an interruption classifier and predict the interruption type of a given dialogue. Our results reveal that male speakers (in our collected samples) tend to talk more than female speakers, while female speakers interrupt more. Moreover, people tend to use less intrusive interruptions when talking to others sharing the same political belief. This pattern becomes more pronounced among news media with stronger political bias.",
+    "skip_reason": "The paper does not substantively engage with a developing-regions context as required by the rules for all topics except cs_fundamentals."
+  },
+  {
+    "title": "Psychiatric Scale Guided Risky Post Screening for Early Detection of Depression",
+    "authors": "Zhiling Zhang, Siyuan Chen, Mengyue Wu, Kenny Q. Zhu",
+    "year": 2022,
+    "link": "https://doi.org/10.24963/ijcai.2022/725",
+    "doi": "10.24963/ijcai.2022/725",
+    "abstract": "Depression is a prominent health challenge to the world, and early risk detection (ERD) of depression from online posts can be a promising technique for combating the threat. Early depression detection faces the challenge of efficiently tackling streaming data, balancing the tradeoff between timeliness, accuracy and explainability. To tackle these challenges, we propose a psychiatric scale guided risky post screening method that can capture risky posts related to the dimensions defined in clinical depression scales, and providing interpretable diagnostic basis. A Hierarchical Attentional Network equipped with BERT (HAN-BERT) is proposed to further advance explainable predictions. For ERD, we propose an online algorithm based on an evolving queue of risky posts that can significantly reduce the number of model inferences to boost efficiency. Experiments show that our method outperforms the competitive feature-based and neural models under conventional depression detection settings, and achieves simultaneous improvement in both efficacy and efficiency for ERD.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Interactive concept-map based summaries for SEND children",
+    "authors": "Martina Galletti, Michael Anslow, Francesca Bianchi, Manuela Calanca, Donatella Tomaiuoli, Remi van Trijp, Diletta Vedovelli, Eleonora Pasqua",
+    "year": 2022,
+    "link": "https://doi.org/10.24963/ijcai.2022/727",
+    "doi": "10.24963/ijcai.2022/727",
+    "abstract": "Equitable and inclusive quality education is a human right. It is crucial to provide for the learning needs of every child, especially those with learning disabilities. Traditional approaches to learning propose education paths performed with speech therapists. One of the most efficient strategies to help children with reading comprehension difficulties is the creation of a ``concept map'', a structured summary of the written text in a graph structure. Online tools that offer students the possibility to manually create or automatically extract concept maps from text have been created over the years. However, there is still a shortage of software that are specifically designed for children at risk and which produce a concept map that is tailored to the clinical profiles of individuals. In this Project Collaboration, we want to tackle this gap by implementing a multi-modal, online and open-access Artificial-Intelligence powered tool that could help these children to make sense of written text by enabling them to interactively create concept maps. The expected output is threefold. We will implement a new model for concept-map-based document summarization and a clinically appropriate web interface. We will evaluate them in real-world settings through user studies performed by speech therapists.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Climate Bot: A Machine Reading Comprehension System for Climate Change Question Answering",
+    "authors": "Md. Rashad Al Hasan Rony, Ying Zuo, Liubov Kovriguina, Roman Teucher, Jens Lehmann",
+    "year": 2022,
+    "link": "https://doi.org/10.24963/ijcai.2022/729",
+    "doi": "10.24963/ijcai.2022/729",
+    "abstract": "Climate change has a severe impact on the overall ecosystem of the whole world, including humankind. This demo paper presents Climate Bot - a machine reading comprehension system for question answering over documents about climate change. The proposed Climate Bot provides an interface for users to ask questions in natural language and get answers from reliable data sources. The purpose of the climate bot is to spread awareness about climate change and help individuals and communities to learn about the impact and challenges of climate change. Additionally, we open-sourced an annotated climate change dataset CCMRC to promote further research on the topic. This paper describes the dataset collection, annotation, system design, and evaluation.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  }
+]

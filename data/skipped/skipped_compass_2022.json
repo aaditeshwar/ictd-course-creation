@@ -1,0 +1,443 @@
+[
+  {
+    "title": "6 Years Later: Examining Long-term Project Outcomes",
+    "authors": "Elijah Greisz, Philip Garrison",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3530190.3534825",
+    "doi": "10.1145/3530190.3534825",
+    "abstract": "ICTD authors often publish papers while their projects are still in progress. While valuable, this means that past conferences are full of projects with loose ends. In trying to learn from past research, we are missing much of the context\u2014what happens after publication\u2014despite it being necessary to fully understand a project\u2019s results. From the 15 full papers at ACM DEV 2016, we consider 11 projects that developed digital technologies. Of those, we conducted interviews with authors of 6 of the projects. This novel approach to systematic analysis of the literature adds data unavailable via a traditional literature review. With this, we learn the full trajectories of these projects, including what came after publication, and aggregate learnings from author reflections. This forms what we call a project lifecycle review: we look at both the pre-publication and post-publication lifecycles of ICTD projects in order to understand their end-results and how they got there.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Portrayals of Race and Gender: Sentiment in 100 Years of Children's Literature",
+    "authors": "Anjali Adukia, Callista Christ, Anjali Das, Ayush Raj",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3530190.3534811",
+    "doi": "10.1145/3530190.3534811",
+    "abstract": "The way that people of different identities are portrayed in children\u2019s books can send subconscious messages about how positively or negatively children should think about people with those identities. These messages can then shape the next generation\u2019s perceptions and attitudes about people, which can have important implications for belief formation and resource allocation. In this paper, we make two contributions: (1) we examine the depiction of race and gender in award-winning children\u2019s books from the last century, and (2) we examine how consumption of these books relates to local beliefs. First, we analyze the sentiment associated with the famous individuals mentioned in these books. While the sentiment surrounding women is positive overall, on average, we see that Black women are more often portrayed with negative sentiment in Mainstream books, while White women are more often portrayed with positive sentiment. Because children\u2019s books in the United States depict more White women overall, this disguises the more negative intersectional portrayals of Black women. Books that center underrepresented identities are more likely to portray all characters with more positive sentiment. A century ago, women were much less positively spoken about than men, but the average sentiment of females and males has converged over time. The difference in sentiment connected with Black people and White people has also decreased over time, but there still remains a substantial gap. Second, we then analyze the relationship between book purchases and local beliefs to understand the potential messages being transmitted to children in different parts of society. We see that more purchases of books with positive sentiment towards Black characters are associated with a larger proportion of individuals who believe that White people in the United States have certain advantages because of the color of their skin and who are angry that racism exists. Understanding the messages that may be implicitly \u2013 or explicitly \u2013 sent to children through highly influential books can lend insight into the factors that may shape children\u2019s beliefs and attitudes.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Reliable Energy Consumption Modeling for an Electric Vehicle Fleet",
+    "authors": "Millend Roy, Akshay Uttama Nambi, Anupam Sobti, Tanuja Ganu, Shivkumar Kalyanaraman, Shankar Akella, Jaya Subha Devi, S. A. Sundaresan",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3530190.3534803",
+    "doi": "10.1145/3530190.3534803",
+    "abstract": "Accurately predicting the energy consumption of an electric vehicle (EV) under real-world circumstances (such as varying road, traffic, weather conditions, etc.) is critical for a number of decisions like range estimation and route planning. A major concern for electric vehicle owners is the uncertain nature of the battery consumption. This results in the \u201crange anxiety\u201d and reluctance from users for mass adoption of EVs, since they are concerned about untimely drainage of battery. Even at the organizational level, a company running a fleet of electric vehicles must understand the battery consumption profiles accurately for tasks such as route and driver planning, battery sizing, maintenance planning, etc. In this paper, firstly, we highlight the challenges in modelling energy consumption and demonstrate the nature of data which is required to understand the energy consumption of electric vehicles under real-world conditions. Then, through a large and diverse dataset collected over 23,500 hours spanning \u2248 460,000 km with 27 vehicles, we demonstrate our two-stage approach to predict the energy consumption of an EV before the start of the trip. In our energy consumption modelling approach, apart from the primary features recorded directly before the trip, we also construct and predict secondary features through an extensive feature engineering process, both of which are then used to predict the energy consumption. We show that our approach outperforms Deep Learning based modelling for EV energy consumption prediction, and also provides explainable and interpretable models for domain experts. This novel method results in energy consumption modelling with of Mean Absolute Percentage Error (MAPE) on our dataset and significantly outperforms state-of-the-art results in EV energy consumption modeling.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Complexity of Factor Analysis for Particulate Matter (PM) Data: A Measurement Based Case Study in Delhi-NCR",
+    "authors": "Ismi Abidi, Sagar Ravi Gaddam, Saswat Kumar Pujari, Chinmay Shirish Degwekar, Rijurekha Sen",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3530190.3534808",
+    "doi": "10.1145/3530190.3534808",
+    "abstract": "Developing countries are home to the most polluted cities in the world. Particulate Matter (PM), one of the most serious air pollutants, needs to be measured at scale across urban areas in such countries. Factors potentially affecting PM like road traffic, green cover, industrial emissions etc., also need to be quantified, to enable fine-grained correlation analyses among PM and its causes. This paper presents an IoT platform with multiple sensors, latest deep neural network based edge-computing, local storage and communication support \u2013 to measure PM and its associated factors. Through real world deployments, the first in depth empirical analysis of a government enforced traffic control policy for pollution control, is presented as a use case of our IoT platform. We demonstrate the potential of IoT and edge computing in urban sustainability questions in this paper, especially in a developing region context. At the same time, we show how complex a real system like Particulate Matter\u2019s factor analyses can be, and urge environmentalists to use sensors networks and fine-grained empirical datasets as ours in future, for more nuanced and data-driven policy discussions.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Insights Into Incitement: A Computational Perspective on Dangerous Speech on Twitter in India",
+    "authors": "Saloni Dash, Rynaa Grover, Gazal Shekhawat, Sukhnidh Kaur, Dibyendu Mishra, Joyojeet Pal",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3530190.3534800",
+    "doi": "10.1145/3530190.3534800",
+    "abstract": "Dangerous speech on social media platforms can be framed as blatantly inflammatory, or be couched in innuendo. It is also centrally tied to who engages it \u2013 it can be driven by openly sectarian social media accounts, or through subtle nudges by influential accounts, allowing for complex means of reinforcing vilification of marginalized groups, an increasingly significant problem in the media environment in the Global South. We identify dangerous speech by influential accounts on Twitter in India around three key events, examining both the language and networks of messaging that condones or actively promotes violence against vulnerable groups. We characterize dangerous speech users by assigning Danger Amplification Belief scores and show that dangerous users are more active on Twitter as compared to other users as well as most influential in the network, in terms of a larger following as well as volume of verified accounts. We find that dangerous users have a more polarized viewership, suggesting that their audience is more susceptible to incitement. Using a mix of network centrality measures and qualitative analysis, we find that most dangerous accounts tend to either be in mass media related occupations or allied with low-ranking, right-leaning politicians, and act as \u201cbroadcasters\u201d in the network, where they are best positioned to spearhead the rapid dissemination of dangerous speech across the platform.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "\"We dream of climbing the ladder; to get there, we have to do our job better\": Designing for Teacher Aspirations in rural C\u00f4te d'Ivoire",
+    "authors": "Vikram Kamath Cannanure, Elo\u00edsa \u00c1vila-Uribe, Tricia Ngoon, Yves Thierry Adji, Sharon Wolf, Kaja Jasinska, Timothy X. Brown, Amy Ogan",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3530190.3534794",
+    "doi": "10.1145/3530190.3534794",
+    "abstract": "As governments in developing countries race to solve the global learning crisis, a key focus is on novel teaching approaches as taught in pedagogical programs. To scale, these pedagogical programs rely on government teacher training infrastructure. However, these programs face challenges in rural parts of Africa where there is a lack of advisor support, teachers are isolated and technology infrastructure is still emerging. Conversational agents have addressed some of these challenges by scaling expert knowledge and providing personalized interactions, but it is unclear how this work can translate to rural African contexts. To explore the use of such technology in this design space, we conducted two related studies. The first was a qualitative study with 20 teachers and ministry officials in rural C\u00f4te d\u2019Ivoire to understand opportunities and challenges in technology use for these stakeholders. Second, we shared a conversational agent probe over WhatsApp to 38 teachers for 14-weeks to better understand what we learned in the survey and to uncover realistic use cases from these stakeholders. Our findings were examined through a theoretical lens of aspirations to discover sustainable design directions for conversational agents to support teachers in low infrastructure settings.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Invisible Work in Two Frontline Health Contexts",
+    "authors": "Joy Ming, Srujana Kamath, Elizabeth Kuo, Madeline R. Sterling, Nicola Dell, Aditya Vashistha",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3530190.3534814",
+    "doi": "10.1145/3530190.3534814",
+    "abstract": "Frontline health workers provide essential services for their communities, but much of their work remains invisible\u2014undervalued and underappreciated. Examining this invisible work ensures new technologies do not amplify or reinforce inequitable power structures, especially as governments and organizations push to digitize health work processes. We build on a burgeoning conversation by studying how invisible work manifests and how this invisibility can be challenged in two contexts of frontline health: home health aides in New York City, USA and Accredited Social Health Activists (ASHAs) in Uttar Pradesh, India. We highlight three shared manifestations of invisible work: (1) work done outside of the workers\u2019 boundaries (2) work done to gain and share knowledge and (3) work done to manage relationships. These common categories are experienced differently in the two contexts, raising nuances to consider when designing technology for frontline health workers. We discuss these nuances and other tensions through concrete examples of how workers can escalate feedback and conflicts, quantify implicit expertise about patients, or build more awareness of their situation. Our paper guides the creation of technologies that take into account a more comprehensive understanding of the frontline health workers\u2019 processes and highlight more of their contributions.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "LoRaX: Repurposing LoRa as a Low Data Rate Messaging System to Extend Internet Boundaries",
+    "authors": "Morgan Vigil-Hayes, Md. Nazmul Hossain, Alexander K. Elliott, Elizabeth M. Belding, Ellen Zegura",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3530190.3534807",
+    "doi": "10.1145/3530190.3534807",
+    "abstract": "Globally, 43% of households lack Internet access, primarily in regions where deployment and/or service costs are prohibitive, including in the least developed countries, rural locations, and regions with high concentrations of ethnic minorities and low-income populations. Unfortunately, this lack of Internet access increasingly equates to a lack of access to essential services, such as healthcare, education, and economic opportunities. In an environment of marginal economics, creative and varied approaches to obtaining access have flourished, including Internet kiosks long popular in the Global South, libraries as public access in the Global North, parking lot use of open WiFi access points, and spectrum-based solutions such as TV whitespace links and citizen band radio. In the near future, local 5G and the deployment of satellite constellations promise yet additional options in the price/performance space for access. In this context we are interested in the following research question: How can the presence of multiple networks, with different price, performance, and geographic reach profiles, be best used in concert to improve access to critical services? We propose that a robust answer to this question bears a holistic, cross-layer examination of new communication paradigms, network architecture innovation, and application design. We make this concrete by running to ground a specific case study of two networks, one high performance yet limited in geographic scope and the other low performance yet pervasive. Specifically our LoRaX (LoRa eXtends the Internet) system combines high bandwidth but non-pervasive Internet access with a low data rate, low power, yet ubiquitious network made possible by IoT developments. By focusing on two networks with extreme differences, we explore a design space that offers users new opportunities for participating in Internet-based services\u2013even when high speed Internet connectivity is intermittent. We also reflect on the generality of the environment and our solution approach for future multi-network settings.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Towards operationalizing the communal production and management of public (open) data: a pedestrian network case study: A pedestrian network case study in operationalizing communal open data",
+    "authors": "Nicholas Bolten, Anat Caspi",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3530190.3534821",
+    "doi": "10.1145/3530190.3534821",
+    "abstract": "Data is an inseparable part of community management. Data openness and transparency has been a driver for change in government accountability and public engagement by providing unprecedented access to information. More prominently, there exists enthusiasm about the possibilities created by new and more extensive sources of data to improve our understanding and management of communities. This work examines a case study in collecting and operationalizing sustainable open data and specifically open government or civic data - information, public or otherwise, which anyone is free to access, analyze and re-use for any purpose - through a platform and community organizing effort in crowdsourcing open pedestrian network data. We outline a number of tensions or challenges in opening data, specifically in a number of realms where public interest stands to benefit from uses of the data, yet no single commercial or governmental entity is either liable or has a clear monetary interest associated with freely opening that data. In these specific cases, collection of these open data becomes a community-based challenge to undertake, which raises a number of additional socio-technical, political, and data provenance considerations. Beyond the technical contributions of our framework (in the open-source tools to support community activities, our case study contributes a number of insights and recommendations regarding community engagement, use of participatory co-design jointly with data collection tools, and planning for sustainable data stewardship in the involved communities.",
+    "skip_reason": "The paper does not substantively engage with a developing-regions context as required by the rules for all topics except cs_fundamentals."
+  },
+  {
+    "title": "A Large-scale Examination of \"Socioeconomic\" Fairness in Mobile Networks",
+    "authors": "Souneil Park, Pavol Mulinka, Diego Perino",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3530190.3534809",
+    "doi": "10.1145/3530190.3534809",
+    "abstract": "Internet access is a special resource of which needs has become universal across the public whereas the service is operated in the private sector. Mobile Network Operators (MNOs) put efforts for management, planning, and optimization; however, they do not link such activities to socioeconomic fairness. In this paper, we make a first step towards understanding the relation between socioeconomic status of customers and network performance, and investigate potential discrimination in network deployment and management. The scope of our study spans various aspects, including urban geography, network resource deployment, data consumption, and device distribution. A novel methodology that enables a geo-socioeconomic perspective to mobile network is developed for the study. The results are based on an actual infrastructure in multiple cities, covering millions of users densely covering the socioeconomic scale. We report a thorough examination of the fairness status, its relationship with various structural factors, and potential class specific solutions.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Characterizing Internet Access and Quality Inequities in California M-Lab Measurements",
+    "authors": "Udit Paul, Jiamo Liu, David Farias-llerenas, Vivek Adarsh, Arpit Gupta, Elizabeth M. Belding",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3530190.3534813",
+    "doi": "10.1145/3530190.3534813",
+    "abstract": "It is well documented that, in the United States (U.S.), the availability of Internet access is related to several demographic attributes. Data collected through end user network diagnostic tools, such as the one provided by the Measurement Lab (M-Lab) Speed Test, allows the extension of prior work by exploring the relationship between the quality, as opposed to only the availability, of Internet access and demographic attributes of users of the platform. In this study, we use network measurements collected from the users of Speed Test by M-Lab and demographic data to characterize the relationship between the quality-of-service (QoS) metric download speed, and various critical demographic attributes, such as income, education level, and poverty. For brevity, we limit our focus to the state of California. For users of the M-Lab Speed Test, our study has the following key takeaways: (1) geographic type (urban/rural) and income level in an area have the most significant relationship to download speed; (2) average download speed in rural areas is 2.5 times lower than urban areas; (3) the COVID-19 pandemic had a varied impact on download speeds for different demographic attributes; and (4) the U.S. Federal Communication Commission\u2019s (FCC\u2019s) broadband speed data significantly over-represents the download speed for rural and low-income communities compared to what is recorded through Speed Test.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Telechain: Bridging Telecom Policy and Blockchain Practice",
+    "authors": "Sudheesh Singanamalla, Apurv Mehra, Nishanth Chandran, Himanshi Lohchab, Seshanuradha Chava, Asit Kadayan, Sunil Bajpai, Kurtis Heimerl, Richard Anderson, Satya Lokam",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3530190.3534820",
+    "doi": "10.1145/3530190.3534820",
+    "abstract": "The use of blockchain in regulatory ecosystems is a promising approach to address challenges of compliance among mutually untrusted entities. In this work, we consider applications of blockchain technologies in telecom regulations. In particular, we address growing concerns around Unsolicited Commercial Communication (UCC aka. spam) sent through text messages (SMS) and phone calls in India. Despite several regulatory measures taken to curb the menace of spam it continues to be a nuisance to subscribers while posing challenges to telecom operators and regulators alike. In this paper, we present a consortium blockchain based architecture to address the problem of UCC in India. Our solution improves subscriber experiences, improves the efficiency of regulatory processes while also positively impacting all stakeholders in the telecom ecosystem. Unlike previous approaches to the problem of UCC, which are all ex-post, our approach to adherence to the regulations is ex-ante. The proposal described in this paper is a primary contributor to the revision of regulations concerning UCC and spam by the Telecom Regulatory Authority of India (TRAI). The new regulations published in July 2018 were first of a kind in the world and amended the 2010 Telecom Commercial Communication Customer Preference Regulation (TCCCPR), through mandating the use of a blockchain/distributed ledgers in addressing the UCC problem. In this paper, we provide a holistic account of of the projects\u2019 evolution from (1) its design and strategy, to (2) regulatory and policy action, (3) country wide implementation and deployment, and (4) evaluation and impact of the work. While the scope of the work presented in this paper is in the context of the UCC problem in India, we believe that the approach can be generalized to adopt blockchain based solutions to improve regulatory processes in other contexts and countries. We hope this account will serve as a useful case study for the stakeholders of the telecommunications ecosystem and regulators, and motivate countries across the world facing similar challenges to consider the viability of the technology, be convinced to establish it, continue efforts at addressing active research challenges, and scale the technology from our experiences.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Targeted Policy Recommendations using Outcome-aware Clustering",
+    "authors": "Ananth Balashankar, Samuel Fraiberger, Eric Deregt, Marelize Gorgens, Lakshminarayanan Subramanian",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3530190.3534797",
+    "doi": "10.1145/3530190.3534797",
+    "abstract": "Policy recommendations using observational data typically rely on estimating an econometric model on a sample of observations drawn from an entire population. However, different policy actions could potentially be optimal for different subgroups of a population. In this paper, we propose outcome-aware clustering, a new methodology to segment a population into different clusters and derive cluster-level policy recommendations. Outcome-aware clustering differs from conventional clustering algorithms across two basic dimensions. First, given a specific outcome of interest, outcome-aware clustering segments the population based on selecting a small set of features that closely relate with the outcome variable. Second, the clustering algorithm aims to generate near-homogeneous clusters based on a combination of cluster size-balancing constraints, inter and intra-cluster distances in the reduced feature space. We generate targeted policy recommendations for each outcome-aware cluster based on a standard multivariate regression of a condensed set of actionable policy features (which may partially overlap or differ from the features used for segmentation) from the observational data. We implement our outcome-aware clustering method on the Living Standards Measurement Study - Integrated Surveys on Agriculture (LSMS-ISA) dataset to generate targeted policy recommendations for improving farmers outcomes in sub-Saharan Africa. Based on a detailed analysis of the LSMS-ISA, we derive outcome-aware clusters of farmer populations across three sub-Saharan African countries and show that the targeted policy recommendations at the cluster level significantly differ from policies that are generated at the population level.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "PeakTK: An Open Source Toolkit for Peak Forecasting in Energy Systems",
+    "authors": "Phuthipong Bovornkeeratiroj, John Wamburu, David Irwin, Prashant J. Shenoy",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3530190.3534791",
+    "doi": "10.1145/3530190.3534791",
+    "abstract": "As the electric grid undergoes the transition to a carbon free future, many new techniques for optimizing the grid\u2019s energy usage and carbon footprint are being designed. A common technique used by many approaches is to reduce the energy usage of the grid\u2019s peak demand periods since doing so is beneficial for reducing the carbon usage of the grid. Consequently, the design of peak forecasting methods that predict when and how much peak demand will be seen is at the heart of many energy optimization approaches. In this paper, we present PeakTK, an open-source toolkit and reference datasets for peak forecasting in energy systems. PeakTK implements a range of peak forecasting methods that have been proposed recently and exposes them through well-defined interfaces and library modules. Our goal is to improve reproducibility of energy systems research by providing a common framework for evaluating and comparing new peak forecasting algorithms. Further, PeakTK provides libraries to enable researchers and practitioners to easily incorporate peak forecasting methods into their research when implementing higher level grid optimizations. We discuss the design and implementation of PeakTK and present case studies to demonstrate how PeakTK can be used for forecasting or quantitative comparisons of energy optimization methods.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Towards Continuous Streamflow Monitoring with Time-Lapse Cameras and Deep Learning",
+    "authors": "Amrita Gupta, Tony Chang, Jeffrey Walker, Benjamin H. Letcher",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3530190.3534805",
+    "doi": "10.1145/3530190.3534805",
+    "abstract": "Effective water resources management depends on monitoring the volume of water flowing through streams and rivers, but collecting continuous discharge measurements using traditional streamflow gages is prohibitively expensive. Time-lapse cameras offer a low-cost option for streamflow monitoring, but training models for predicting streamflow directly from images requires streamflow data to use as labels, which are often unavailable. We address this data gap by proposing the alternative task of Streamflow Rank Estimation (SRE), in which the goal is to predict relative measures of streamflow such as percentile rank rather than absolute flow. In particular, we use a learning-to-rank framework to train SRE models using pairs of stream images ranked in order of discharge by an annotator, obviating the need for discharge training data and thus facilitating monitoring streamflow conditions at streams without gages. We also demonstrate a technique for converting SRE model predictions to stream discharge estimates given an estimated streamflow distribution. Using data and images from six small US streams, we compare the performance of SRE with conventional regression models trained to predict absolute discharge. Our results show that SRE performs nearly as well as regression models on relative flow prediction. Further, we observe that the accuracy of absolute discharge estimates obtained by mapping SRE model predictions through a discharge distribution largely depends on how well the assumed discharge distribution matches the field observed data.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Samachar: Print News Media on Air Pollution in India",
+    "authors": "Karm Patel, Rishiraj Adhikary, Zeel B. Patel, Nipun Batra, Sarath Guttikunda",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3530190.3534812",
+    "doi": "10.1145/3530190.3534812",
+    "abstract": "Air pollution killed 1.67M people in India in 2019. Previous work has shown that accurate public perception can help people identify the health risks of air pollution and act accordingly. News media influence how the public defines a social problem. However, news media analysis on air pollution has been on a small scale and regional. In this work, we gauge print news media response to air pollution in India on a larger scale. We curated a dataset of 17.4K news articles on air pollution from two leading English daily newspapers spanning 11 years. We performed exploratory data analysis and topic modeling to reveal the news media response to air pollution. Our study shows that, although air pollution is a year-long problem in India, the news media limelight on the issue is periodic (temporal bias). News media prefer to focus on the air pollution issue of metropolitan cities rather than the cities which are worst hit by air pollution (geographical bias). Also, the air pollution source contributions discussed in news articles significantly deviate from the scientific studies. Finally, we analyze the challenges raised by our findings and suggest potential solutions as well as the policy implications of our work.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Exploring Community Needs for Disaster Shelters Using Cultural Probes",
+    "authors": "Aarjav Chauhan, Jasmine Yiyuan Qin, Jonathan Sury, Robert Soden",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3530190.3534822",
+    "doi": "10.1145/3530190.3534822",
+    "abstract": "During disasters, emergency shelters play a central role in emergency management, providing both a secure environment and centralized sites for the distribution of information, material relief supplies, and access to health and human services. Despite their importance, challenges such as physical access, public awareness, and peoples\u2019 willingness to relocate limit the impact of both shelters managed by emergency responders and informal locations created by affected communities. This paper presents research conducted as part of a long-term project aimed at designing digital tools to assist communities and formal responders plan and manage emergency shelters. Working with partners in Puerto Rico, we developed and distributed cultural probes in three communities with recent experience of hurricanes and earthquakes to better understand the needs and resources of disaster affected people related to shelter. This approach yielded novel insights that challenge and expand traditional views of emergency shelters and identified several areas where HCI research and design can contribute to the sector.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Landscape Optimization for Prescribed Burns in Wildfire Mitigation Planning",
+    "authors": "Weizhe Chen, Eshwar Prasad Sivaramakrishnan, Bistra Dilkina",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3530190.3534816",
+    "doi": "10.1145/3530190.3534816",
+    "abstract": "Wildfires have increased in extent and severity, and are posing a growing threat to people\u2019s well-being and the environment. Prescribed burns (burning on purpose parts of the landscape) are one of the key mitigation strategies available to reduce the potential damage of wildfires. However, where to conduct prescribed burns has long been a problem for domain experts. With the advancement of forest science, weather science, and computational modeling, there produced powerful fire simulators that can help inform how wildfires will start and grow. In this paper, we model the problem of selecting where to perform a set of prescribed burns across a large landscape into a multi-objective optimization problem. We build a surrogate objective function from simulation data and solve the multi-objective optimization problem with genetic algorithms. We name our solution as Spatial Multi-Objective for Prescribed Burn (SMO-PB). We also investigate three variants of the approach that further consider spatial fairness. With a case study of Dogrib, Canada, we show that our formulations can successfully provide solutions capable of real world deployment, and showed how fairness can be reached without diminishing the performance a lot.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Making AI Explainable in the Global South: A Systematic Review",
+    "authors": "Chinasa T. Okolo, Nicola Dell, Aditya Vashistha",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3530190.3534802",
+    "doi": "10.1145/3530190.3534802",
+    "abstract": "Artificial intelligence (AI) and machine learning (ML) are quickly becoming pervasive in ways that impact the lives of all humans across the globe. In an effort to make otherwise \u201dblack box\u201d AI/ML systems more understandable, the field of Explainable AI (XAI) has arisen with the goal of developing algorithms, toolkits, frameworks, and other techniques that enable people to comprehend, trust, and manage AI systems. However, although XAI is a rapidly growing area of research, most of the work has focused on contexts in the Global North, and little is known about if or how XAI techniques have been designed, deployed, or tested with communities in the Global South. This gap is concerning, especially in light of rapidly growing enthusiasm from governments, companies, and academics to use AI/ML to \u201csolve\u201d problems in the Global South. Our paper contributes the first systematic review of XAI research in the Global South, providing an early look at emerging work in the space. We identified 16 papers from 15 different venues that targeted a wide range of application domains. All of the papers were published in the last three years. Of the 16 papers, 13 focused on applying a technical XAI method, all of which involved the use of (at least some) data that was local to the context. However, only three papers engaged with or involved humans in the work, and only one attempted to deploy their XAI system with target users. We close by reflecting on the current state of XAI research in the Global South, discussing data and model considerations for building and deploying XAI systems in these regions, and highlighting the need for human-centered approaches to XAI in the Global South.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Devotees on an Astroturf: Media, Politics, and Outrage in the Suicide of a Popular FilmStar",
+    "authors": "Syeda Zainab Akbar, Ankur Sharma, Dibyendu Mishra, Ramaravind Kommiya Mothilal, Himani Negi, Sachita Nishal, Anmol Panda, Joyojeet Pal",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3530190.3534801",
+    "doi": "10.1145/3530190.3534801",
+    "abstract": "The death of Indian film star Sushant Singh Rajput at the peak of the COVID lockdown triggered chaos on the news cycle in India with a range of conspiracy theories that led to a witch hunt of sorts, and the hounding of several entertainers and public figures in the months that followed. Using data from Twitter, YouTube, and an archive of debunked misinformation stories, we examine the drivers and consequences of social media outrage in this case. We analyse these patterns from the framework of conspiracy and astroturfing and contextualize our findings to the socio-political background currently prevalent in India. Primarily, retweet rates on Twitter suggest that commentators benefited from talking about the case, which got higher engagement than other topics. Moreover, we report evidence of political hands in the way the discourse has shaped online, but more importantly that the story bears warnings for the shape and impact of witch-hunts in the backdrop of a fractured media environment. In conclusion, we consider the effects of Rajput\u2019s outsider status as a small-town implant in the film industry within the broader narrative of systemic injustice, as well as the gendered aspects of mob justice that have taken aim at his former partner in the months since.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Social Agriculture: Examining the Affordances of Social Media for Agricultural Practices",
+    "authors": "Emrys Schoemaker, Reem Talhouk, Catherine Kamanu, Eoghan McDonaugh, Chris McDonaugh, Eliza Casey, Adam Wills, Finn Richardson, Jonathan Donner",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3530190.3534806",
+    "doi": "10.1145/3530190.3534806",
+    "abstract": "This paper examines the experiences and perspectives of Kenyans who use social media platforms as part of their agricultural livelihoods. Through a mixed-methods study of 324 survey respondents and 81 interviews, we present data that demonstrates the significance and shape of \u201csocial agriculture\u201d in the Kenyan agricultural landscape. We complement previous ICT4D/HCI4D literature that has primarily focused on purpose-built agricultural platforms through a novel focus on farmers\u2019 appropriation of existing social media platforms to enter the agricultural sector and diversify agricultural livelihoods. Our study highlights new insights into the growing phenomenon of using social media platforms for agriculture practice, including how these platforms afford particular practices around the buying and selling of produce and information on social media platforms. We also identify challenges around trust and online abuse and describe the strategies employed by participants to counter them. Lastly, we build on our findings to highlight the affordances and constraints of using social media platforms, thus contributing to the field an initial conceptualization of social agriculture as a space of commerce. We offer eight design considerations for both technology designers and international development stakeholders to strengthen the potential for social platforms to afford social agricultural practices that enrich individual lives and livelihoods.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Revealing Influences of Socioeconomic Factors over Disease Outbreaks",
+    "authors": "S. Mahmudul Hasan, Alabi Mehzabin Anisha, Rudaiba Adnin, Ishrat Jahan Eliza, Ishika Tarin, Sadia Afroz, A. B. M. Alim Al Islam",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3530190.3534804",
+    "doi": "10.1145/3530190.3534804",
+    "abstract": "The recent Covid-19 pandemic elucidates the need for a better disease outbreak analysis and surveillance system, which can harness state-of-the-art data mining and machine learning techniques to produce better forecasting. In this regard, understanding the correlation between disease outbreaks and socioeconomic factors should pave the way for such systems by providing useful indicators, which are yet to be explored in the literature to the best of our knowledge. Therefore, in this study, we accumulated data on 72 infectious diseases and their outbreaks all over the globe over a period of 23 years as well as corresponding different socioeconomic data. We, then, performed point-biserial and spearman correlation analysis over the collected data. Our analysis of the obtained correlations demonstrates that various disease outbreak attributes are positively and negatively correlated with different socioeconomic indicators. For example, indicators such as lifetime risk of maternal death, adolescent fertility rate, etc., are positively correlated, while indicators such as life expectancy at birth, measles immunization, etc., are negatively correlated, with disease outbreaks that affect the digestive organ system. In this paper, we find and summarize the correlations between 126 outbreak attributes derived from the characteristics of the 72 diseases in consideration and 192 socioeconomic factors which is a novel contribution to the field of disease outbreak analysis and prediction.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "DynCNN: Application Dynamism and Ambient Temperature Aware Neural Network Scheduler in Edge Devices for Traffic Control",
+    "authors": "Omais Shafi, Sachin Kumar Chauhan, Gayathri Ananthanarayanan, Rijurekha Sen",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3530190.3534823",
+    "doi": "10.1145/3530190.3534823",
+    "abstract": "Road traffic congestion increases vehicular emissions and air pollution. Traffic rule violation causes road accidents. Both pollution and accidents take tremendous social and economic toll worldwide, and more so in developing countries where the skewed vehicle to road infrastructure ratio amplifies the problems. Automating traffic intersection management to detect and penalize traffic rule violations and reduce traffic congestion, is the focus of this paper, using state-of-the-art Convolutional Neural Network (CNN) on traffic camera feeds. There are however non-trivial challenges in handling the chaotic, non-laned traffic scenes in developing countries. Maintaining high throughput is one of the challenges, as broadband connectivity to remote GPU servers is absent in developing countries, and embedded GPU platforms on roads need to be low cost due to budget constraints. Additionally, ambient temperatures in developing country cities can go to 45-50 degree Celsius in summer, where continuous embedded processing can lead to lower lifetimes of the embedded platforms. In this paper, we present DynCNN, an application dynamism and ambient temperature aware controller for Neural Network concurrency. DynCNN effectively uses processor heterogeneity to control the number of threads and frequencies on the accelerator to manage application utility under strict thermal and power thresholds. We evaluate the efficiency of DynCNN on three different commercially available embedded GPUs (Jetson TX2TM, Xavier NXTM and Xavier AGXTM) using a real traffic intersection\u2019s 40 days\u2019 dataset. Experimental results show that in comparison to all existing state-of-the art- GPU governors for two different CPU settings, DynCNN reduces the average temperature and power by ~12\u00b0C and 68.82% respectively for one CPU setting (Baseline1) and similarly, it improves the performance by around 31.2% compared to the other CPU setting (Baseline2).",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Algorithmic Waste Reduction",
+    "authors": "Julius Ceasar Aguma, Michael Demirev",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3530190.3534815",
+    "doi": "10.1145/3530190.3534815",
+    "abstract": "Motivated by a desire for waste reduction through surplus redistribution, we explore the paradox of overproduction of resources that are wasted at several levels of the supply chain and the concurrent lack of access to, in most cases, overproduced basic resources by low income socioeconomic classes to whom resource access is normally only available through donation centers. To that end, we contrast two surplus redistribution solutions to this paradox. (1) Local independent donations between producers and donation centers. (2) Redistribution by way of a global redistributor (what we will call a core redistributor) who collects donations from all available producers and redistributes the surplus to all donation centers respective of their demanded quantities. We mathematically show that an optimal allocation of the surplus that minimizes waste and maximizes social welfare is only possible with a core redistributor. As this is a deeply social and economic problem rather than mathematical, we also qualitatively study two cases; (1) food waste and food insecurity in the UK, and (2) Los Angeles County\u2019s project RoomKey: a pandemic effort to house covid-vulnerable unhoused persons in vacant hotels and motels. Both case studies give more support for a core redistribution as a solution to waste from overproduction and lack of access to essential resources.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Note: Importance of Digital Profile Pictures on Social Media Perceived by Different Groups",
+    "authors": "Dipto Das, Malay Bhattacharyya, Laura S. Gayt\u00e1n-Lugo, Ebtisam Abdullah Alabdulqader, Nova Ahmed",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3530190.3534853",
+    "doi": "10.1145/3530190.3534853",
+    "abstract": "Nowadays much of human interaction are taking place online and on social networking sites. These platforms often encourage people to use profile pictures as parts of their profiles. To understand digital identity construction across various user communities and to foster inclusive, diverse, and sustainable online interactions among them, it is imperative to understand the perception of different users groups about digital profile pictures (DPP). In order to explore this, we conducted a cross-border analysis on different social media platforms. Based on a quantitative study on more than 500 responses from a two-week survey of social media users from 29 different countries, we observed how people from various demographic groups perceive the importance of DPPs. Our results suggest that the perception is significantly different across some social factors and social media usage behavior.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Note: Picking Sides: The influencer-driven #HijabBan discourse on Twitter",
+    "authors": "Soham De, Anmol Panda, Joyojeet Pal",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3530190.3534841",
+    "doi": "10.1145/3530190.3534841",
+    "abstract": "Social Media is increasingly central to culture wars, and in recent years has been at the center of debates around the weaponization of peoples\u2019 opinions in polarized situations. We examine one such issue, an attempt to allow schools and junior colleges to ban girls from wearing Hijab in India in the southern state of Karnataka, India, by studying Twitter messaging related to the issue in early 2022, when it was in the news. We find that the narrative supporting the ban of the Hijab on Twitter is primarily driven by a minority of highly-influential individuals who are predominantly male and polarised in favour of the ruling party, while the discourse against the ban relies largely on influencers from within the Muslim community. Our findings show that social media can be a useful tool to craft the contours of politically-motivated escalation in the Global South.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Note: Studying Sustainable Practices of Appalachian Trail Community based on Reddit Topic Modelling Analysis",
+    "authors": "Morva Saaty, Jaitun V. Patel, Norhan Abdelgawad, Jeffrey Marion, D. Scott McCrickard, Shalini Misra, Kris Wernstedt",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3530190.3534848",
+    "doi": "10.1145/3530190.3534848",
+    "abstract": "Thru-hiking the Appalachian Trail (AT) is an adventure of a lifetime that necessitates long-term planning and knowledge of challenges and practices in the outdoors. One important but oft-ignored step is to establish awareness about sustainable practices captured in Leave No Trace (LNT) principles for minimizing the impact on the trail. This paper seeks to understand practices of hikers with regards to trail sustainability and LNT. Since hikers often leverage virtual communities on social media for asking questions and sharing resources, we analyzed Reddit top-level comments on /r/AppalachianTrail to understand AT hiking discussions and explore their connections with sustainable practices in the outdoors. The findings will inform AT stakeholders and researchers in the field about the hikers\u2019 practices and the role of social media platforms in supporting sustainable trail management.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Note: Urbanization and Literacy as factors in Politicians' Social Media Use in a largely Rural State: Evidence from Uttar Pradesh, India",
+    "authors": "Asmit Kumar Singh, Jivitesh Jain, Lalitha Kameswari, Ponnurangam Kumaraguru, Joyojeet Pal",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3530190.3534845",
+    "doi": "10.1145/3530190.3534845",
+    "abstract": "With Twitter growing as a preferred channel for outreach among major politicians, there have been focused efforts on online communication, even in election campaigns in primarily rural regions. In this paper, we examine the relationship between politicians\u2019 use of social media and the level of urbanization and literacy by compiling a comprehensive list of Twitter handles of political party functionaries and election candidates in the run-up to the 2022 State Assembly elections in Uttar Pradesh, India. We find statistically significant relationships between political Twitter presence and levels of urbanization and with levels of literacy. We also find a strong correlation between vote share and Twitter presence in the winning party, a relationship that is even stronger in urban districts. This provides empirical evidence that social media is already a central part of electoral outreach processes in the Global South, but that this is still selectively more relevant to voters in, and politicians standing for elections from urban and higher-educated regions.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Note: Evaluating Trust in the Context of Conversational Information Systems for new users of the Internet",
+    "authors": "Anurag Aribandi, Divyanshu Agrawal, Dipanjan Chakraborty",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3530190.3534852",
+    "doi": "10.1145/3530190.3534852",
+    "abstract": "Most online information sources are text-based and in Western Languages like English. However, many new and first time users of the Internet are in contexts with low English proficiency and are unable to access vital information online. Several researchers have focused on building conversational information systems over voice for this demographic, and also highlighted the importance of building trust towards the information source. In this work we develop four versions of a voice based chat-bot on the Google Assistant platform in which we vary the gender, friendliness and personalisation of the bot. We find that the users rank the female version of the bot with more personalisations over the others; however when rating the bots individually, the ratings depend on the ability of the bot to understand the users\u2019 spoken query and respond accurately.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Note: Leveraging Artificial Intelligence to build a Data Catalog and support research on the Sustainable Development Goals",
+    "authors": "Andy Spezzatti, Elham Kheradmand, Kartik Gupta, Marie Peras, Roxaneh Zaminpeyma",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3530190.3534829",
+    "doi": "10.1145/3530190.3534829",
+    "abstract": "The Sustainable Development Goals (SDGs) are the framework adopted by the global community to encourage taking actions on the multiple challenges facing the world today to ensure environmental protection, health and well-being, and economic prosperity. This framework provides a detailed list of indicators that are interconnected and cover a holistic view on sustainable development. The goals were defined by the United Nations General Assembly in 2015 and expected to be achieved by 2030. Since the release of this agenda, the research community has begun to intensify work in these areas, yet these efforts seem to be relatively limited. This is especially true about the employment of data and artificial intelligence (AI), which are not widely engaged in SDGs related topics. The AI-based research on SDGs and further developments depends heavily on the availability and accessibility of related real-world data collected by the community. However, there is no central, structured, and holistic database of datasets and metadata associated with the SDGs, which prevents large-scale collaboration on these topics. In this paper, we present the SDG Data Catalog, a global open-source database indexing SDG-related datasets, associated metadata, and research networks. We describe the construction of this catalog, which relies on state-of-the-art natural language processing models with human supervision. The catalog breaks down data silos and helps sustainability researchers navigate the data sea to initiate effective collaborations.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Note: Towards Community-Empowered Network Data Action",
+    "authors": "Beatriz Palacios Abad, Elizabeth M. Belding, Morgan Vigil-Hayes, Ellen Zegura",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3530190.3534836",
+    "doi": "10.1145/3530190.3534836",
+    "abstract": "The Federal Communications Commission (FCC) has recently released official technical requirements for its Broadband Data Collection (BDC) processes, with the purpose of improving the accuracy of broadband coverage data in the United States. A key process in the BDC establishes the opportunity for communities to crowdsource Internet measurements that may dispute coverage data maintained by Internet service providers. This process outlines complex requirements that may provide a substantial barrier to community participation. In this poster we share the design of a network measurement tool suite and the requirements for a community coordination tool to support community-led efforts to challenge official reports. Our design is based on \u201ccounter-data action\u201d principles, which call unethical and authoritative uses of data into question.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Note: Cheating and Morality Problems in the Tertiary Education Level: A COVID-19 Perspective in Bangladesh",
+    "authors": "Md Ulfat Tahsin, Ifti Azad Abeer, Nova Ahmed",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3530190.3534834",
+    "doi": "10.1145/3530190.3534834",
+    "abstract": "COVID-19 pandemic has impacted every sphere of students\u2019 life along with forcing the transition to online education which brought a significant change in the learning habits of students. Different options like using file-sharing websites, online solvers etc. for cheating were exploited by the students in the tertiary education level. We explored the driving factors of cheating by the university students (Female = 17, Male = 28). We found that the stress during the pandemic; easy availability of online materials; and competitive nature of students impelled them to cheat. The students asserted that adapting these ways of cheating has affected their various significant skills as students. The conversations show that appropriate measures to motivate students to stop cheating must be taken. Our study contributes to the research community by exploring the different factors of cheating in online exams in Bangladesh.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "\"I Use YouTube Now in COVID\": Understanding Technology Adoption of Indigenous Communities during COVID-19 Pandemic in Bangladesh",
+    "authors": "Rahat Jahangir Rony, Anik Sinha, Shajnush Amir, Syeda Shabnam Khan, Anik Saha, Ifti Azad Abeer, Nova Ahmed",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3530190.3534847",
+    "doi": "10.1145/3530190.3534847",
+    "abstract": "Indigenous communities in Bangladesh are comparatively disadvantaged and face several barriers regarding rights. Access to technology and ICT can help indigenous communities open new economic, political, and social dimensions. The recent COVID-19 pandemic necessitated technology adoption for routine use, which is equally important for indigenous communities, but their technology adoption scenario remains unexplored in HCI research. Considering the research gap, we interviewed n=36 (Female 26 and Male 10) indigenous people from six different indigenous communities in Chattogarm and Sylhet divisions in Bangladesh. We found that they are strongly connected in communities, have independent technology access, and have no gender differences. They have a strong interest and eagerness to learn available technologies that help them in their professions, enrich their technical skills, communication, social participation, and expand the business. The study also revealed some challenges while using technology, but that did not negatively impact their usage. The study also discussed the community-centric strengths that helped them fight against the COVID-19 crisis and work for their development. This research impacts HCI literature, revealing the technology adoption scenarios of Indigenous communities in Bangladesh.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Note: Learn Online: High School Students' Adoption of Online Learning in Bangladesh during COVID-19 Pandemic",
+    "authors": "Rudaiba Adnin, Sadia Afroz, Sadia Sharmin",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3530190.3534839",
+    "doi": "10.1145/3530190.3534839",
+    "abstract": "Online learning is playing a significant role, especially during the COVID-19 pandemic. In this study, we perform an interview study through in-depth interviews with 22 high school students of a developing country (Bangladesh) to find out about their experience and practices with online learning during the pandemic. Our findings reveal several usage strategies, challenges of the conventional usage of online learning, workarounds students adopt to address those challenges. Through the adaptability lens, we find that many students are adapting to online learning despite being in favor of it.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Note: ReGNL: Rapid Prediction of GDP during Disruptive Events using Nightlights",
+    "authors": "Rushabh Musthyala, Rudrajit Kargupta, Hritish Jain, Dipanjan Chakraborty",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3530190.3534849",
+    "doi": "10.1145/3530190.3534849",
+    "abstract": "Policymakers often make decisions based on GDP, unemployment rate, industrial output, etc. The primary methods to obtain or estimate such information are resource-intensive. In order to make timely and well-informed decisions, it is imperative to come up with proxies for these parameters, which can be sampled quickly and efficiently, especially during disruptive events like the COVID-19 pandemic. We explore the use of remotely sensed data for this task. The data has become cheaper to collect than surveys and can be available in real-time. In this work, we present Regional GDP-NightLight (ReGNL), a neural network trained to predict GDP given the nightlights data and geographical coordinates. Taking the case of 50 US states, we find that ReGNL is disruption-agnostic and can predict the GDP for both normal years (2019) and years with a disruptive event (2020). ReGNL outperforms time-series ARIMA methods for prediction, even during the pandemic.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "NOTE: Unavoidable Service to Unnoticeable Risks: A Study on How Healthcare Record Management Opens the Doors of Unnoticeable Vulnerabilities for Rohingya Refugees",
+    "authors": "Fariha Tasmin Jaigirdar, Carsten Rudolph, Rayhan Rashed, Md. Nahiyan Uddin, Chris Bain, A. B. M. Alim Al Islam",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3530190.3534846",
+    "doi": "10.1145/3530190.3534846",
+    "abstract": "Secure management of healthcare records in dynamic contexts requires an understanding of the overall infrastructure of record flows and poses more challenges for vulnerable environments such as amongst the Rohingya refugees in Bangladesh. Understanding the overall infrastructure of how health clinics are providing medical treatments and how they are collecting and storing patient records is crucial as any changes or mismanagement in these records enables misuse or deliberate misinterpretations of medical data on various levels amongst individuals and Rohingya communities. Through an extensive field study in the Rohingya refugee camps in Bangladesh, we explored the management of healthcare records in different organizations. Over the course of our fieldwork, we interviewed 22 medical service providers from nine healthcare organizations connected to the Rohingya camps. Based on our findings, we design an abstract record management model and analyze it using a data provenance approach to identify the limitations of the existing record management. Our study shows vulnerabilities in ID management and security practices in healthcare record management. We further illustrate potential exploitation of these vulnerabilities through political, financial, and social lenses. To the best of our knowledge, this study is the first to discuss vulnerabilities in Rohingya refugees\u2019 medical record management from political, social and economic views.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Poster: Leveraging Question Answering to Understand Context Specific Patterns in Fact Checked Articles in the Global South",
+    "authors": "Arshia Arya, Saloni Dash, Syeda Zainab Akbar, Joyojeet Pal, Anirban Sen",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3530190.3534838",
+    "doi": "10.1145/3530190.3534838",
+    "abstract": "Propagation of misinformation on various social media platforms is a common occurrence, especially around political events, religious beliefs, and public health. Fact checked articles, which investigate the credibility of dubious claims online, provide a reliable source of debunked misinformation. However, existing (older) fact checked articles remain an underutilized resource for understanding patterns in fake stories. We propose the use of Question Answering (QA) for analysing fact checked articles for systematically extracting metadata, potentially useful for downstream tasks such as misinformation detection, using a range of simple to nuanced questions. We find that the method gives us a context-specific understanding of common patterns and themes in misinformation, which is especially important in the Global South, where misinformation is layered with propagandist underpinning. Our findings suggest that this method can be extended by fine tuning on any event specific data set of fact checked articles to yield more robust and accurate results.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Note: Towards Devising an Efficient VQA in the Bengali Language",
+    "authors": "S. M. Shahriar Islam, Riyad Ahsan Auntor, Minhajul Islam, Mohammad Yousuf Hossain Anik, A. B. M. Alim Al Islam, Jannatun Noor",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3530190.3534837",
+    "doi": "10.1145/3530190.3534837",
+    "abstract": "Designing and implementing visual question answering tasks using Bengali datasets and native VQA based smart systems are important, as a huge number of people speak in Bengali who are relatively less advanced to technology adoption due to the language barrier. The important designing and implementing tasks are little explored in the literature. Therefore, we attempt to investigate the tasks in depth in this study. To do so, we follow a step-by-step procedure for overcoming different barriers encountered while adopting datasets as well as creating our own Bengali CLEVR and Bengali VQA. We perform different sets of experiments to demonstrate the efficacy of our proposed approach. Various VQA-based smart systems for Bengali speakers covering virtual doctors, navigation systems, smart glasses for the visually-impaired people, and so on can be benefited from this study through making the applications usable and understandable to those who are not fluent in a foreign language such as English.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Understanding the Role of Technology-mediated Solutions for Women's Safety in Urban India",
+    "authors": "Jasmeet Kaur, Meghna Gupta, Pushpendra Singh",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3530190.3534843",
+    "doi": "10.1145/3530190.3534843",
+    "abstract": "Women\u2019s safety in public spaces has become a prime concern in India. Much of the academic and non-academic efforts have focused on developing technology-mediated solutions such as mobile apps and helplines for combating harassment experiences. However, there is an acute understanding of women\u2019s perceptions and desires around these technological solutions. In this work, we investigate women\u2019s perceptions around technological interventions dedicated to safety, the nature of support they seek from technology, and the characteristics they desire technology to embody to offer support. We draw on interviews with women across urban areas of India, demonstrating how they currently navigate unsafe experiences and also unpack their desires around technological solutions encompassing precautionary, reactionary, and healing support for navigating public spaces in the future. Finally, we conclude with implications focusing on the need for embedded technological solutions and going beyond victim-centric approaches to design technology for safety.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Note: Assessing Cancer Patient Usability of a Mobile Distress Screening App",
+    "authors": "Alyssa Donawa, Christian D. Powell, Rong Wang, Ming-Yuan Chih, Eliah Aronoff Spencer, Corey E. Baker",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3530190.3534833",
+    "doi": "10.1145/3530190.3534833",
+    "abstract": "Despite the increase of accessibility and availability of technology in recent years, equality and access to health-related technology remains limited to certain demographics. In particular, patients who are older or from rural communities represent a large segment of people who are currently not utilizing electronic health solutions; and are considered medically underserved. Rural communities commonly have a higher rate of chronic disease and reduced access to providers; therefore, rural patients could benefit from the adoption of electronic health solutions such as mobile health apps. This pilot study explores the usability of the mobile iOS application, Assuage; designed for remote symptom monitoring in rural cancer patients and built using Apple\u2019s ResearchKit, CareKit, and HealthKit frameworks. Two different interfaces for reporting symptoms are assessed using the System Usability Scale by fifteen (15) current and/or post surgery cancer patients.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Note: CORONOSIS: Corona Prognosis via a Global Lens to Enable Efficient Policy-making Both at Global and Local Levels",
+    "authors": "Ishrat Jahan Eliza, Md. Hasibul Husain Hisham, Mohammad Nuwaisir Rahman, Ajwad Akil, Abir Mohammad Turza, Fahim Morshed, Nazmus Sakib, Sriram Chellappan, A. B. M. Alim Al Islam",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3530190.3534831",
+    "doi": "10.1145/3530190.3534831",
+    "abstract": "Epidemics and pandemics have been affecting human lives since time, and have sometimes altered the course of history. At this very moment, Coronavirus (COVID-19) pandemic has been the defining global health crisis. Now, perhaps for the first time in history, humanity as a whole has undergone major disruptions to life and some form of lockdown. New policies need to be forged by policy-makers for various sectors such as trading, banking, education, etc., to lessen losses and to heal quickly. For efficient policy-making, in turn, some prerequisites needed are historical trend analysis on the pandemic spread, future forecasting, the correlation between the spread of the disease and various socio-economic and environmental factors, etc. Besides, all of these need to be presented in an integrated manner in real-time to facilitate efficient policy-making. Therefore, in this work, we developed a web-based integrated real-time operational dashboard as a one-stop decision support system for COVID-19. In our study, we conducted a detailed data-driven analysis based on available data from multiple authenticated sources to predict the upcoming consequences of the pandemic through rigorous modeling and statistical analyses. We also explored the correlations between disease spread and diverse socio-economic as well as environmental factors. Furthermore, we presented how the outcomes of our work can facilitate both contemporary and future policy-making.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Note: \"Fear is Grounded in Reality\": The Impact of the COVID-19 Pandemic on Refugees' Access to Health and Accessibility Resources in the United States",
+    "authors": "Foad Hamidi, Zulekha Karachiwalla",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3530190.3534851",
+    "doi": "10.1145/3530190.3534851",
+    "abstract": "The COVID-19 pandemic continues to have a significant impact on people's lives worldwide. Research has shown that these impacts are distinct for different populations and often exasperate existing inequities and challenges. Within this landscape, the experiences of refugees with disabilities and mental health challenges are understudied. There is a need to better understand the challenges that refugees with disabilities and their families face in host countries during the pandemic and investigate strategies used to overcome them to inform future inclusive pandemic preparedness efforts. In this paper, we report findings from interviews conducted during the first year of the COVID-19 pandemic with four experts who serve refugees in the US. Participants described the impact of the pandemic on refugees, explained challenges that the prevailing political conditions of the time added to refugees\u2019 experiences, and identified several strategies for resilience they experienced in the communities they serve.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Note: Plant Leaf Disease Network (PLeaD-Net): Identifying Plant Leaf Diseases through Leveraging Limited-Resource Deep Convolutional Neural Network",
+    "authors": "Joyanta Jyoti Mondal, Md. Farhadul Islam, Sarah Zabeen, A. B. M. Alim Al Islam, Jannatun Noor",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3530190.3534844",
+    "doi": "10.1145/3530190.3534844",
+    "abstract": "Agriculture is the fundamental source of revenue and Gross Domestic Product (GDP) in many countries where economically developing countries; especially the Global South are no exception. Various types of plant-based diseases are strongly intertwined with the everyday lives of those who are connected with agriculture. Among the diseases, most of them can be diagnosed by leaves. However, due to the variety of illnesses, identifying and classifying any plant leaf disease is difficult and time-consuming. Besides, late identifications of diseases cause losses for the farmers on a large scale, which in turn affects their financial state. Therefore, to overcome this problem, we present a lightweight approach (called PLeaD-Net) to accurately recognize and categorize plant leaf diseases in this paper. Here, leveraging a limited-resource deep convolutional network (Deep CNN) model, we extract information from sick sections of a leaf to accurately identify locations of disease. In comparison to existing deep learning methods and other prior research, our proposed approach achieves a much higher performance using fewer parameters as per our experimental results. In our study and experimentation, we develop and implement an architecture based on Deep CNN. We test our architecture on a publicly available dataset that contains different types of plant leaves images and backgrounds.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Note: Using Causality to Mine Sj\u00f6gren's Syndrome related Factors from Medical Literature",
+    "authors": "Pranav Dhananjay Gujarathi, Sai Krishna Reddy Gopi Reddy, Venkata Mani Babu Karri, Ananth Reddy Bhimireddy, Anushri Singh Rajapuri, Manohar Reddy, Mounika Sabbani, Biju Cheriyan, Jack VanSchaik, Thankam Thyvalikakath, Sunandan Chakraborty",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3530190.3534850",
+    "doi": "10.1145/3530190.3534850",
+    "abstract": "Research articles published in medical journals often present findings from causal experiments. In this paper, we use this intuition to build a model that leverages causal relations expressed in text to unearth factors related to Sj\u00f6gren\u2019s syndrome. Sj\u00f6gren\u2019s syndrome is an auto-immune disease affecting up to 3.1 million Americans. The uncommon nature of the disease, coupled with common symptoms with other autoimmune conditions make the timely diagnosis of this disease very hard. A centralized information system with easy access to common and uncommon factors related to Sj\u00f6gren\u2019s syndrome may alleviate the problem. We use automatically extracted causal relationships from text related to Sj\u00f6gren\u2019s syndrome collected from the medical literature to identify a set of factors, such as \u201csigns and symptoms\u201d and \u201cassociated conditions\u201d, related to this disease. We show that our approach is capable of retrieving such factors with a high precision and recall values. Comparative experiments show that this approach leads to 25% improvement in retrieval F1-score compared to several state-of-the-art biomedical models, including BioBERT and Gram-CNN.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Note: Campus Plate: Reducing Food Waste and Food Insecurity on College Campuses using Smartphones",
+    "authors": "Brian Krupp, Franklin Lebo",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3530190.3534840",
+    "doi": "10.1145/3530190.3534840",
+    "abstract": "Food waste and food insecurity are prevalent challenges on college campuses. Studies show that approximately 30-40% of students are food insecure while over 22 million pounds of food on college campuses is wasted. Food waste also contributes to global warming where methane is produced in landfills and has a higher global warming potential than carbon dioxide. Several technical solutions have been proposed to reduce both food waste and food insecurity, however, there has been less focus on solving this challenge within college campuses. In this work, we present Campus Plate, a platform that allows members of the campus community to quickly identify and retrieve excess food from dining services and campus events. We describe the technical implementation and the people and partnerships that were established to ensure Campus Plate was successfully implemented on our campus where in a short period, over one thousand food items have been retrieved. Through Campus Plate, we are able to reduce food waste and food insecurity and contribute to a more sustainable college campus.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Note: Home Location Detection from Mobile Phone Data: Evidence from Togo",
+    "authors": "Rachel B. Warren, Emily L. Aiken, Joshua Blumenstock",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3530190.3534830",
+    "doi": "10.1145/3530190.3534830",
+    "abstract": "Algorithms for home location inference from mobile phone data are frequently used to make high-stakes policy decisions, particularly when traditional sources of location data are unreliable or out of date. This paper documents analysis we performed in support of the government of Togo during the COVID-19 pandemic, using location information from mobile phone data to direct emergency humanitarian aid to individuals in specific geographic regions. This analysis, based on mobile phone records from millions of Togolese subscribers, highlights three main results. First, we show that a simple algorithm based on call frequencies performs reasonably well in identifying home locations, and may be suitable in contexts where machine learning methods are not feasible. Second, when machine learning algorithms can be trained with reliable and representative data, we find that they generally out-perform simpler frequency-based approaches. Third, we document considerable heterogeneity in the accuracy of home location inference algorithms across population subgroups, and discuss strategies to ensure that vulnerable mobile phone subscribers are not disadvantaged by home location inference algorithms.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Demo: The DIMPACT Tool for Environmental Assessment of Digital Services",
+    "authors": "Daniel Schien, Paul Shabajee, James Wickenden, William Picket, Glynn Roberts, Chris Preist",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3530190.3542932",
+    "doi": "10.1145/3530190.3542932",
+    "abstract": "We present the DIMPACT /dimp\u00e6kt/ tool for environmental assessments of digital services. The tool enables digital media providers to calculate energy consumption and associated environmental impact across the entire product system, including datacentres, networks and user devices. It is based on accepted standard methodologies and applies state-of-the-art research. The DIMPACT tool is used by major media organisations for environmental reporting and to support development of strategies to reduce environmental impact. It has significantly advanced the knowledge of carbon emissions of video streaming. The tool is part of the wider DIMPACT project of companies that collaborate to exchange knowledge, engage suppliers and expand the scope of the tool. In this text we provide an overview of workings of tool and its methodological foundation.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Demo: The EAM Environmental Modelling and Assessment Toolkit",
+    "authors": "Daniel Schien, Paul Shabajee, James Wickenden, Tristan Warren, Chris Preist",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3530190.3542933",
+    "doi": "10.1145/3530190.3542933",
+    "abstract": "We present the EAM toolkit for life cycle modelling and impact analysis in environmental assessments. The open source toolkit was specifically designed to support maintainability and verification of models within integrated assessments, and has been used in research and industry. The tool offers features to support complex Life Cycle Assessment, including dynamic and scenario modelling, uncertainty and sensitivity analysis, a flexible domain specific modelling language and a visual editor. In this introduction we present the main features of the toolkit, summarise the high-level components and illustrate its use.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Demo: Visualizing USSD and IVR Usage Data with Icicle Charts",
+    "authors": "Matt Ziegler, Galen Weld, Ewin Tang, Maureen Daum",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3530190.3542934",
+    "doi": "10.1145/3530190.3542934",
+    "abstract": "Software designers in many parts of the world rely on Interactive Voice Response (IVR) and Unstructured Supplementary Service Data (USSD) to create applications that work universally on basic mobile phones. In this work, we demonstrate our use of hierarchical visualizations like icicle charts to explore the usage data generated by IVR and USSD applications, helping designers understand user behavior and evaluate the efficacy of the applications\u2019 different components. By adding interactive elements, a viewer could zoom down to to see details about users\u2019 behavior from a certain screen, or filter users by different demographics.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  }
+]

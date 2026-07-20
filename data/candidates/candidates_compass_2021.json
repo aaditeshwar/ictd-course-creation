@@ -1,0 +1,343 @@
+[
+  {
+    "id": null,
+    "title": "Improving Emergency Preparedness and Response in Rural Areas",
+    "authors": "Karyn Doke, Habib O. Affinnih, Qianli Yuan, Mila Gasc\u00f3-Hern\u00e1ndez, J. Ram\u00f3n Gil-Garc\u00eda, Petko Bogdanov, Mariya Zheleva",
+    "year": 2021,
+    "venue": "compass_2021",
+    "areas": [
+      "governance",
+      "infrastructure"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "ethnographic_design",
+      "sociotechnical_dynamics"
+    ],
+    "cross_cutting_axes": [
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "compass_2021_venue_search",
+    "notes": "The paper engages with a developing-regions context by addressing the unique socio-economic structure of rural communities and their vulnerability to emergencies, which is relevant to the governance and infrastructure areas.",
+    "link": "https://doi.org/10.1145/3460112.3471944",
+    "abstract": "The unique socio-economic structure of rural communities makes them particularly vulnerable to emergencies. However, rural emergency preparedness and response (EPR) significantly lag behind their urban counterparts. A key obstacle to timely dissemination of emergency information is limited broadband, which in turn limits agencies\u2019 abilities to (i) disseminate preparedness and response information to residents and (ii) coordinate in the face of a disaster. We aim to improve rural EPR services by aggregating information from national, state and county-based sources and disseminating it in rural communities with limited broadband by leveraging first responders\u2019 and residents\u2019 mobility. To this end, we co-design and develop an emergency smartphone app (EApp) in collaboration with a rural community in New York State. We study EApp\u2019s performance in the lab and through deployments, focusing on energy use, required socio-physical interactions and timeliness of information access. Our findings elucidate critical limitations of off-the-shelf Android platforms to support hands-free opportunistic networks. To address these limitations, we design protocols on top of Wi-Fi direct enabling near 100% success rate in peer-to-peer (P2P) information exchange. Our results inform an optimal end-to-end design and deployment of a rural P2P information dissemination platform.",
+    "_matched_keywords": [
+      "co-design"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Early Results from Automating Voice-based Question-Answering Services Among Low-income Populations in India",
+    "authors": "Aman Khullar, M. Santosh, Praveen Kumar, Shoaib Rahman, Rajeshwari Tripathi, Deepak Kumar, Sangeeta Saini, Rachit Pandey, Aaditeshwar Seth",
+    "year": 2021,
+    "venue": "compass_2021",
+    "areas": [
+      "media_information"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "ethnographic_design",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "compass_2021_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context in India, focusing on rural and less-literate users.",
+    "link": "https://doi.org/10.1145/3460112.3471946",
+    "abstract": "Question-answering systems where users can ask questions based on emergent needs which are then answered by experts or peers, have emerged as an important information seeking modality on digital platforms. Automating this process has been an active area of research since many years, to identify relevant answers from pre-existing question-answer databases. We report on the feasibility of running automated question-answering systems in the context of rural and less-literate users in India, accessed through IVR (Interactive Voice Response) systems. We use commercial speech recognition APIs to convert audio questions asked by users into their equivalent transcripts in real time, in Hindi, and use deep-learning based architectures to retrieve corresponding candidate answers which are instantly played to the users. We report several insights from an earlier phase of running question-answering programmes through a manual operation, to how it was transitioned to an automated setup, and document the user experiences during this journey.",
+    "_matched_keywords": [
+      "IVR (interactive voice response)"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Abstract - Challenges and Opportunities in Accessing Mobile Phone Data for COVID-19 Response in Developing Countries",
+    "authors": "Sveta Milusheva, Anat Lewin, Tania Begazo Gomez, Dunstan Matekenya, Kyla Reid",
+    "year": 2021,
+    "venue": "compass_2021",
+    "areas": [
+      "health"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "climate_change",
+      "gender",
+      "caste",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "compass_2021_venue_search",
+    "notes": "The paper engages with a developing-regions context by discussing the use of mobile phone data in resource-constrained countries for public health responses.",
+    "link": "https://doi.org/10.1145/3460112.3471948",
+    "abstract": "As countries, communities and individuals around the world have grappled with the unprecedented challenges presented by COVID-19, governments, public health experts and the development community have urgently sought innovative ways to respond to the pandemic. A key driver for understanding the transmission of COVID-19 is population mobility. New big data sources have made it possible to measure mobility at a higher frequency than traditional, costly surveys. In particular, mobile network operators\u2019 (MNOs) aggregated Call Detail Records (CDR) data can, despite some limitations of low-level mobile phone penetration in certain geographies or demographic groups, offer proxy indicators for mobility and density and strengthen responses in resource-constrained countries where alternative data sources may not be readily available. This paper documents lessons learned from the experience of an initiative to develop standardized, anonymized and aggregated mobility",
+    "_matched_keywords": [
+      "call detail records (CDR)"
+    ]
+  },
+  {
+    "id": null,
+    "title": "SatDash: An Interactive Dashboard for Assessing Land Damage in Nigeria and Mali",
+    "authors": "Morgan Briggs",
+    "year": 2021,
+    "venue": "compass_2021",
+    "areas": [
+      "governance"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "ethnographic_design",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "climate_change",
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "compass_2021_venue_search",
+    "notes": "The paper applies computer science fundamentals (cs_fundamentals) to a problem in developing regions, adhering to the rule that this topic can be set in a general context but must be adaptable to developing regions.",
+    "link": "https://doi.org/10.1145/3460112.3471949",
+    "abstract": "Major humanitarian organizations face the crucial challenge of estimating land damage from conflict in developing countries. A lack of on the ground data collection motivates the use of satellite imagery to meet this challenge. However, existing analysis methods involving satellite imagery are time-consuming, require special expertise, or lack automation. To mitigate these obstacles, SatDash was designed using Sentinel-2 images and ACLED data to provide a classification of areas that have undergone land damage due to conflict in northwestern Nigeria and Mali. SatDash was constructed using free and publicly available images and is accompanied by a user-friendly dashboard that allows domain experts to train their own data and export it for future use. The dashboard was created for a humanitarian organization, referred to as the DAAO, Damage Assessment and Aid Organization, and the design process adhered to four primary recommendations for a successful AI for Social Good (AI4SG) partnership that are further detailed in this paper. Within this paper, I draw attention to the context of CHI4Good research, detailing how the deployment phases of such systems often have their own set of potential barriers, along with describing ethical challenges that arise with this type of research. This paper focuses primarily on the design process and responses to both the constraints mentioned in literature and those presented by the DAAO. I acknowledge that AI applications, especially in development contexts, require close attention and context-specific awareness, and this is reflected through the conscious decision to include domain experts and ensure that the tool is only used for its intended purpose. When designing SatDash, the primary aim was to think critically about the involvement of local context and spur the conversation about inclusive design of similar systems in a large organization such as the DAAO. This research affirms that satellite imagery data can be used to assist humanitarian aid organizations with land change detection and demonstrates how human-in-the-loop systems can aid these organizations with identification of communities negatively impacted by hunger and recurring conflict.",
+    "_matched_keywords": [
+      "satellite imagery",
+      "Sentinel-2"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Opaque Obstacles: The Role of Stigma, Rumor, and Superstition in Limiting Women's Access to Computing in Rural Bangladesh",
+    "authors": "Sharifa Sultana, Ilan Mandel, Shaid Hasan, S. M. Raihanul Alam, Khandaker Reaz Mahmud, Zinnat Sultana, Syed Ishtiaque Ahmed",
+    "year": 2021,
+    "venue": "compass_2021",
+    "areas": [
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "topics": [
+      "problem_discovery",
+      "ethnographic_design",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "compass_2021_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context, specifically rural Bangladesh, focusing on socio-cultural barriers to women's access to ICT.",
+    "link": "https://doi.org/10.1145/3460112.3471960",
+    "abstract": "Marginalized communities\u2019 access to and use of ICT have long been a concern in HCI4D and social computing. Many works in this domain have pointed out that the challenges to access to ICT often go beyond limited computing resources and skills and frequently include many other socio-cultural factors. In this paper, we report three of the factors that arose while studying rural Bangladeshi women\u2019s access to ICT: stigma, rumor, and superstition. Through an eight-month-long mix-method study with 23 rural women in Jessore, we explored the forms of fear and resistance to use computing devices prevalent among this population, particularly among the women we studied. We report how their stigma, rumors and superstitions often entangled with each other and created a gender-specific resistance to women\u2019s ICT use. This paper further discusses how this resistance was connected to a weak economy and insufficient legal and educational infrastructure in the rural community. We extend the discussion to implications for design, policy, patriarchy, and other social practices to address these human factors in HCI4D and social sustainability scholarship.",
+    "_matched_keywords": [
+      "marginalized communities",
+      "marginalized communities"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Costs and Benefits of Conducting Voice-based Surveys Versus Keypress-based Surveys on Interactive Voice Response Systems",
+    "authors": "Aman Khullar, Priyadarshi Hitesh, Shoaib Rahman, Deepak Kumar, Rachit Pandey, Praveen Kumar, Rajeshwari Tripathi, Prince, Ankit Akash Jha, Himanshu, Aaditeshwar Seth",
+    "year": 2021,
+    "venue": "compass_2021",
+    "areas": [
+      "media_information"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "ethnographic_design",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "gender"
+    ],
+    "area_agnostic": false,
+    "source_course": "compass_2021_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context in India, focusing on data collection among rural women using IVR systems.",
+    "link": "https://doi.org/10.1145/3460112.3471963",
+    "abstract": "Recent improvements through machine learning in speech technologies and natural language processing has prompted active interest in the development of conversational agents for various tasks. We look at the area of data collection in low-resource settings among rural women in North India, and explore the feasibility of using voice-based surveys conducted through IVR (Interactive Voice Response) systems where users may speak their responses in a conversational manner through natural speech. Through an iterative design process and detailed user feedback, we describe several nuances in running voice-based surveys, and compare their accuracy of data collection through equivalent keypress-based surveys. We find strong user preferences for voice-based surveys, and comparable performance with keypress-based surveys for most types of questions. Our results suggest that voice-based conversational interfaces may hold significant potential to build interactive applications for low-income and less-literate populations. Our findings are likely to be useful for other researchers and practitioners using ICTs (Information and Communication Technologies) in developing regions.",
+    "_matched_keywords": [
+      "IVR (interactive voice response)"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Low-cost In-ground Soil Moisture Sensing with Radar Backscatter Tags",
+    "authors": "Colleen Josephson",
+    "year": 2021,
+    "venue": "compass_2021",
+    "areas": [
+      "agriculture"
+    ],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [],
+    "area_agnostic": false,
+    "source_course": "compass_2021_venue_search",
+    "notes": "The paper applies strong computer science methods to a problem in agriculture, which can be adapted to a developing-regions context.",
+    "link": "https://doi.org/10.1145/3460112.3472326",
+    "abstract": "Despite decades of research confirming the benefits, most farms do not incorporate soil moisture sensing into their irrigation practices. Soil moisture sensing can be broken into two broad approaches, both of which have drawbacks. In situ sensors are installed in the ground, tend to be difficult to deploy and maintain, and have high costs. Remote-sensing based approaches use radars to infer soil moisture from surface reflection properties. While completely wireless, remote sensing suffers from lower resolution and accuracy compared to in situ sensing. We propose a hybrid approach that combines the advantages of both. This paper introduces the idea of using inexpensive in situ backscatter tags with above-ground radars, which enables completely wireless soil moisture measurements with high-accuracy and high-resolution. Our key idea is introducing a simple, power efficient modulation scheme that enables commodity radars to easily detect and range the underground tag. We have benchmarked our approach against oven-based, industry-standard ground-truth measurements and demonstrated that, at a realistic depth and across several types of soil, we achieve a 90th percentile error of 3.4%, which is the same accuracy as state-of-the-art in situ sensors. We also demonstrate that our approach works with similar accuracy at a real farm.",
+    "_matched_keywords": [
+      "irrigation",
+      "remote sensing"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Species Distribution Modeling for Machine Learning Practitioners: A Review",
+    "authors": "Sara Beery, Elijah Cole, Joseph Parker, Pietro Perona, Kevin Winner",
+    "year": 2021,
+    "venue": "compass_2021",
+    "areas": [
+      "wildlife_conservation"
+    ],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [],
+    "area_agnostic": false,
+    "source_course": "compass_2021_venue_search",
+    "notes": "The paper provides a review of species distribution modeling using machine learning, which is relevant to the wildlife conservation area and can be adapted to a developing-regions context.",
+    "link": "https://doi.org/10.1145/3460112.3471966",
+    "abstract": "Conservation science depends on an accurate understanding of what\u2019s happening in a given ecosystem. How many species live there? What is the makeup of the population? How is that changing over time? Species Distribution Modeling (SDM) seeks to predict the spatial (and sometimes temporal) patterns of species occurrence, i.e. where a species is likely to be found. The last few years have seen a surge of interest in applying powerful machine learning tools to challenging problems in ecology [2, 5, 8]. Despite its considerable importance, SDM has received relatively little attention from the computer science community. Our goal in this work is to provide computer scientists with the necessary background to read the SDM literature and develop ecologically useful ML-based SDM algorithms. In particular, we introduce key SDM concepts and terminology, review standard models, discuss data availability, and highlight technical challenges and pitfalls.",
+    "_matched_keywords": [
+      "species distribution modeling"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Poster: Mapping rural marketplaces and tracking their activity using satellite imagery",
+    "authors": "Tillmann von Carnap",
+    "year": 2021,
+    "venue": "compass_2021",
+    "areas": [
+      "agriculture"
+    ],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [],
+    "area_agnostic": false,
+    "source_course": "compass_2021_venue_search",
+    "notes": "The paper develops a method that could be adapted to a developing-regions context to understand agricultural market integration, which is relevant to the 'agriculture' area.",
+    "link": "https://doi.org/10.1145/3460112.3471970",
+    "abstract": "Smallholder farmers in developing countries are often poorly integrated into broader agricultural markets. It is widely believed that their participation in the market economy would pave the way to agricultural intensification, specialization and development of institutional capacity to address farmers\u2019 specific needs. However, research aiming to understand this transition faces an intrinsic data problem: few developing countries have the institutional capacity to systematically collect information on the agricultural sector, such as on input choices, production, or trading of outputs. I develop a novel method to detect and monitor rural marketplaces using satellite imagery. Using daily images since 2016, I exploit the facts that (i) markets typically occur at a regular periodicity and (ii) have a distinct reflectance pattern in high-resolution optimal imagery. The algorithm extracts the market\u2019s perimeter and measures activity within it based on the density of pixels with characteristic reflectance patterns. I detect up to 80% of known markets from ground-truthed reference locations. The activity indicators display intuitive variation, including the effects of Covid-19-related lockdowns. The method will allow me to provide a previously unavailable mapping of rural marketplaces across countries, with a current focus on East Africa.",
+    "_matched_keywords": [
+      "smallholder farmers",
+      "agricultural markets",
+      "satellite imagery",
+      "institutional capacity"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Poster - Mapping Opium Poppy Cultivation in Afghanistan Using Satellite Imagery",
+    "authors": "Xiao Hui Tai, Suraj R. Nair, Shikhar Mehra",
+    "year": 2021,
+    "venue": "compass_2021",
+    "areas": [
+      "agriculture"
+    ],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "caste",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "compass_2021_venue_search",
+    "notes": "The paper applies strong computer science methods to a specific problem in a developing region, adhering to the cs_fundamentals topic rule.",
+    "link": "https://doi.org/10.1145/3460112.3472308",
+    "abstract": "Afghanistan is the world\u2019s largest supplier of illicit opium, accounting for an estimated 70-80% of supply. In 2019, this generated an estimated income of $1.2-$2.1 billion domestically, or around 10% of Afghanistan\u2019s gross domestic product. The illicit drug economy has provided livelihoods to millions of Afghans, but has also had numerous negative effects, including funding insurgent groups, exacerbating corruption and insecurity, and contributing to high domestic levels of drug addiction. From 2002 to 2017, the U.S. government spent over $8 billion on counter-narcotics efforts in Afghanistan, achieving little long-term success. The lack of reliable data has contributed to this failure; the robustness and interpretation of top-line estimates of area under cultivation have been questioned and criticized. Counter-narcotics efforts have focused on reducing total cultivation area, rather than trying to understand local socioeconomic or political conditions. The lack of granularity in official cultivation statistics has also impeded efforts by aid agencies to evaluate the impact of various interventions aimed at transitioning farmers away from poppy. Currently, official statistics on poppy cultivation are released annually by the United Nations Office on Drugs and Crime (UNODC) at a district level.1 These are produced using commercial high-resolution (0.5m \u00d7 0.5m) imagery, manually annotated by analysts and verified with ground imagery. In districts with substantial cultivation, a limited number of sites are sampled for labeling, while in other districts, all known cultivation areas are annotated. Only aggregate district-level cultivation figures are published and no detailed maps are available. The UNODC also conducts in-person surveys to characterize socioeconomic conditions. These methods, while undoubtedly valuable, are costly and difficult to undertake under poor security conditions. Furthermore, reports are released after long delays, with the government being suspected of blocking publication in some years. This paper investigates the possibility of using publicly available satellite imagery to generate poppy cultivation maps at high resolution. Some advantages of this source of data include its timeliness and cost-effectiveness, easy availability of data, and high level of granularity. These maps can then be combined with other data sources, such as grid-level data on climate, population, and healthcare, to further our quantitative understanding of the socioeconomic circumstances associated with poppy cultivation, a complex and persistent development challenge. This work complements official estimates, as well as related work that relies on commercial high-resolution satellite imagery, manual labelers, expert knowledge or qualitative methods. In developing these methods, we build on work using automated methods and spectral imagery to classify opium poppy, wheat, as well as other agricultural crops. In initial work, we limit our analysis to H",
+    "_matched_keywords": [
+      "corruption",
+      "satellite imagery"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Demo: A WhatsApp Bot for Citizen Journalism in Rural India",
+    "authors": "Priyanka Verma, Ananya Saxena, Alok Sharma, Bill Thies, Devansh Mehta",
+    "year": 2021,
+    "venue": "compass_2021",
+    "areas": [
+      "media_information"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "ethnographic_design",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "compass_2021_venue_search",
+    "notes": "The paper substantively engages a developing-regions context in rural India, focusing on citizen journalism and the use of WhatsApp for community media.",
+    "link": "https://doi.org/10.1145/3460112.3471981",
+    "abstract": "Increasing penetration of Internet-enabled smartphones in low-resource areas makes them an attractive platform for engaging emerging users. In this paper, we demonstrate how a voice forum for citizen journalism in rural India\u2013 previously accessible via an Interactive Voice Response (IVR) system\u2013 can be naturally supported and enriched using a chatbot. Implemented using the WhatsApp Business API, the bot enables submission of both audio (with or without image) and video stories. Following review by moderators, stories are published on a website and social media sites, and can also be browsed interactively using the WhatsApp bot. This multi-way, intermediated model of communication expands the scope and functionality of typical WhatsApp groups while offering significant cost savings relative to IVR systems. In the first 9 weeks of a long-term deployment, the bot demonstrated high usability and acceptance and resulted in 218 published stories from 27 users.",
+    "_matched_keywords": [
+      "citizen journalism"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Poster: A Scoping Review of Alternative Credit Scoring Literature",
+    "authors": "Rebecca Njuguna, Karen Sowon",
+    "year": 2021,
+    "venue": "compass_2021",
+    "areas": [
+      "livelihood"
+    ],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "caste",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "compass_2021_venue_search",
+    "notes": "The paper discusses the application of AI and ML to financial inclusion, which can be adapted to a developing-regions context, fitting the cs_fundamentals topic rule.",
+    "link": "https://doi.org/10.1145/3460112.3471972",
+    "abstract": "This paper covers a scoping review to establish the breadth of alternative credit scoring literature. The field is nascent and gaining popularity due to the crucial role alternative data is playing to accelerate financial inclusion. Historically, evaluating creditworthiness required availability of past financial activity such as loan repayment. Such stringent requirements rendered people with little or no financial history \u2018credit invisible\u2019. Advancements in Artificial Intelligence and Machine Learning have enabled scoring algorithms to work with non-financial data such as digital footprints from mobile devices and psychometric data to compute credit scores. Although the largest portion of \u2018credit invisibles\u2019 are in developing economies, research in the area is predominantly originating from developed economies and most alternative credit scoring models are trained with data from developed economies. There is need for more research from developing contexts and utilization of alternative data from populations with a smaller digital footprint.",
+    "_matched_keywords": [
+      "financial inclusion",
+      "credit scoring",
+      "creditworthiness"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Investigating Measurement Scheduling Strategies in Low Resource Networks (Poster)",
+    "authors": "Taveesh Sharma, Josiah Chavula",
+    "year": 2021,
+    "venue": "compass_2021",
+    "areas": [
+      "infrastructure"
+    ],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [],
+    "area_agnostic": false,
+    "source_course": "compass_2021_venue_search",
+    "notes": "The paper engages with a developing-regions context by focusing on community networks in rural and remote areas, which aligns with the infrastructure and connectivity area.",
+    "link": "https://doi.org/10.1145/3460112.3472310",
+    "abstract": "Community networks have been proposed by many networking experts and researchers as a way to bridge connectivity gaps in rural and remote areas of the world. Many community networks are built with low-capacity computing devices and low-capacity links. Such community networks are examples of low resource networks. The design and implementation of computer networks using limited hardware and software resources has been studied extensively in the past, but scheduling strategies for conducting measurements on these networks remains an important area to be explored. In this study, the design of a Quality of Service monitoring system is proposed, focusing on performance of scheduling of network measurement jobs in a low-resource network. In this paper, we present a testbed for conducting performance evaluation of two measurement scheduling algorithms and present an analysis of trends in their performance with varying experiment profiles.",
+    "_matched_keywords": [
+      "connectivity gap",
+      "community networks"
+    ]
+  }
+]

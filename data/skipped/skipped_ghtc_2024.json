@@ -1,0 +1,461 @@
+[
+  {
+    "title": "A Review on the Feasibility of AI-Supported Education Platforms in Afghanistan: Addressing Barriers to Women and Girls' Education",
+    "authors": "Aziz Ullah Karimy, Juma Rasuli, P. Chandrasekhar Reddy, Musa Joya, Ali Juma Hamdard, Hassan Rahnaward Ghulami",
+    "year": 2024,
+    "link": "https://doi.org/10.1109/GHTC62424.2024.10771581",
+    "doi": "10.1109/GHTC62424.2024.10771581",
+    "abstract": "Access to education is a fundamental human right; however, girls and women in Afghanistan face numerous restrictions and barriers imposed by the Taliban regime. Despite these issues, employing technologies, particularly Artificial Intelligence (AI), provides convenient solutions to facilitate education and empower Afghan girls and women. In this paper, we explore how AI-supported educational platforms can assist in providing quality education to Afghan girls and women. It analyzes current digital delivery approaches with incorporated AI technology, including generative AI, Intelligent Tutoring System (ITS), chatbots, and SMS-based learning platforms, that are accessible on low-cost devices, and do not rely heavily on high-speed internet connections, and outlines suitable pathways to overcome the existing restrictions. By employing AI technology, a personalized learning environment can be created to deliver quality education based on the individual needs of Afghan girls and women. A survey was conducted to explore the feasibility of implementing an AI-supported educational platform in Afghanistan, considering challenges such as internet connectivity, availability of electric-ity, access to digital devices, and time constraints. Based on successfully implemented programs in another region, we listed recommendations for policymakers, NGOs, and stakeholders to introduce customized AI-supported educational platforms for Afghan girls and women.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Welcome from the Technical Program Chairs",
+    "authors": "Toby Cumberbatch, John Gershenson",
+    "year": 2024,
+    "link": "https://doi.org/10.1109/GHTC62424.2024.10771526",
+    "doi": "10.1109/GHTC62424.2024.10771526",
+    "abstract": "Welcome to the 14th Annual IEEE Global Humanitarian Technology Conference (GHTC) in Philadelphia. GHTC brings together researchers and practitioners to share practical technology-enabled solutions that address the needs of underserved populations worldwide.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Reimagining Wearables to Bolster Sustainable Development in Low-Resource Settings",
+    "authors": "Lauren Hamamoto, Olivia Meyer, Priya Natarajan, Meghan Young, Annly John, Khanjan Mehta",
+    "year": 2024,
+    "link": "https://doi.org/10.1109/GHTC62424.2024.10771560",
+    "doi": "10.1109/GHTC62424.2024.10771560",
+    "abstract": "Wearable devices have become increasingly popular over the past decade, driven by their wide range of applications and integration into everyday life. Positioned at the nexus of technology, convenience, and lifestyle, these devices present a flourishing area for research and innovation. This paper critically examines the potential of wearable technology for advancing sustainable development in low-resource settings, with an emphasis on reimagining and optimizing low-cost, commercially available devices. The analysis identifies several existing products with significant capability for repurposing. Furthermore, the study delves into the construction of basic wearables, exploring the essential components such as materials, sensors, power sources, and operating systems required for their functionality. To contextualize the design and functionality of wearables in resource-limited environments, the concept of frugal innovation is proposed as a guiding principle. Ultimately, this paper argues that innovative and creative reimagination of wearable devices can significantly enhance the development trajectory in low-resource settings.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Mobile Virtual Reality Design for Healthcare Training in Low Resource Settings",
+    "authors": "Matthew Cook, Rachel Umoren, Sara Berkelhamer, Chinyere Ezeaka, Joseph Fisher, Malik Raji, Cyril Engmann, Ime Asangansi",
+    "year": 2024,
+    "link": "https://doi.org/10.1109/GHTC62424.2024.10771568",
+    "doi": "10.1109/GHTC62424.2024.10771568",
+    "abstract": "Poor quality newborn care, mostly during the period around delivery, accounts for nearly 1 million neonatal deaths each year globally. Many of these deaths occur in low and low-middle income countries where healthcare professionals may lack the skills to provide newborn resuscitation and care. This study focused on the development of mobile virtual reality simulations to support continuing education for health professionals in low resource settings on essential newborn care. As part of the prototyping process, the study team developed a dedicated usability test application for experimenting with the mechanics and user interface elements required to perform a variety of actions required to develop virtual simulations on essential newborn care (vENC). This study leveraged iterative testing and user feedback to design intuitive and engaging mobile virtual simulations for healthcare users in a low-middle income country setting in sub-Saharan Africa. This paper shares the lessons learned on mobile virtual reality design for users in low resource settings.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Next-Gen Safety Training: ICT Solutions for Informal Workers in Colombia",
+    "authors": "Gregorio E. Puello-Socarr\u00e1s",
+    "year": 2024,
+    "link": "https://doi.org/10.1109/GHTC62424.2024.10771514",
+    "doi": "10.1109/GHTC62424.2024.10771514",
+    "abstract": "This paper explores the utilization of Information and Communication Technology (ICT) solutions to address safety training concerns among informal workers in Colombia. The informal sector, particularly prevalent in industries like mining, presents unique challenges regarding occupational health and safety. By leveraging next-generation ICT tools, such as virtual reality (VR), augmented reality (AR), and mobile applications, this study aims to enhance safety training effectiveness and accessibility for informal workers in Colombia. Drawing upon existing literature and case studies, the paper evaluates the potential of ICT solutions to bridge gaps in traditional safety training methods, offering tailored, interactive, and immersive experiences. Additionally, it discusses the integration of culturally sensitive content and user-friendly interfaces to ensure maximum engagement and knowledge retention. Through a comprehensive analysis of current practices and emerging technologies, this paper underscores the transformative impact of ICT solutions in fostering a safer work environment for informal workers in Colombia.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Use of AI to Augment Multilingual Content in Cyberspace for Development - An Indian Case Study",
+    "authors": "Vijayalakshmi B, Kondapur Aneesh Deshpande, Nishkarsh Krishan",
+    "year": 2024,
+    "link": "https://doi.org/10.1109/GHTC62424.2024.10771552",
+    "doi": "10.1109/GHTC62424.2024.10771552",
+    "abstract": "India, the most populous country in the world, is endowed with a rich and diverse linguistic culture and heritage. Meeting the aspirations and information needs of such a diverse population is a herculean task. Given the importance of information access to fuel development, the barriers of divides need to be bridged, for which technology is a transformational tool. This paper discusses the experiences of using Artificial Intelligence (AI) enabled tools to augment content authoring, digitization, translation, review, discovery and delivery of pro-development information in Indian languages through the collaborative knowledge sharing platform of Vikaspedia.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Reducing Emissions from Taxis in the Galapagos Islands Using a Mobile Phone Application",
+    "authors": "Ryan Barnwell, William Purcell, Matthew Specht, Catherine Dudrear, Jenny Smith, Pritpal Singh",
+    "year": 2024,
+    "link": "https://doi.org/10.1109/GHTC62424.2024.10771554",
+    "doi": "10.1109/GHTC62424.2024.10771554",
+    "abstract": "The Galapagos Islands typically use diesel-fueled trucks as taxis. The emissions from these vehicles can have a profoundly deleterious effect on the pristine environment of the Galapagos Islands. Working with the local municipality on Santa Cruz Island, a solution to better understand how to optimize taxi journeys on the island was considered. The developed solution was to mandate a mobile phone application that could collect data while taxi drivers were on drives to track their key routes and hours in service. The mobile application developed employs GPS tracking plus data input by the driver for number of passengers transported, cargo transported, etc. using a user-friendly interface. This mobile application will be implemented in a pilot study for a few taxis on Santa Cruz Island in May 2024 and will be used to inform route optimization planning and resource allocation.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "A Low-Cost Datalogging and Telemetry IoT Platform for Remote Water Monitoring and Control",
+    "authors": "James Peyton-Jones",
+    "year": 2024,
+    "link": "https://doi.org/10.1109/GHTC62424.2024.10771537",
+    "doi": "10.1109/GHTC62424.2024.10771537",
+    "abstract": "This paper describes the development of a new low-cost datalogging and telemetry hardware platform for remote water monitoring and control. The new system connects to a variety of analog, or digital sensors and can communicate with smart devices over SDI-12, RS 485, Serial UART, or I2C. The resulting data are automatically transmitted to a Cloud-based back-end data repository over a WiFi or Cellular network, and/or stored locally as backup or for manual collection over Bluetooth. The device can be powered from a variety of sources and consumes less than 1mA except during sampling or reporting instants.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Design and Fabrication of a Semi-Autonomous Tilling Machine",
+    "authors": "Jadis A. Aganda, Kofi S. Amosah, Stephen K. Armah",
+    "year": 2024,
+    "link": "https://doi.org/10.1109/GHTC62424.2024.10771536",
+    "doi": "10.1109/GHTC62424.2024.10771536",
+    "abstract": "The world continues to experience immense technological transformations. Despite this, the field of Agriculture in many African countries has not seen much progress with regard to agricultural mechanization. Where progress has been made, many farmers have been unable to benefit due to cost constraints, among other issues. While pushing for more agricultural production through improved mechanization, it is important to factor in the cost and environmental factors. This project succeeds in developing a semi-autonomous tilling machine that performs secondary tillage and seedbed preparation activities. The machine has an average weight of 135 kg, much lighter than tractors that weigh about 2300 kg. An average tillage depth of 10.33 cm was recorded and the controller is easy to use with an average training time requirement of 3.33 minutes.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "An Indoor Low-Power Hydroponics System for Urban Spaces",
+    "authors": "Xiahro Joan Tabios, Hannah Chzarmayne Natividad, John Richard E. Hizon, Marc D. Rosales, Jessica Rey, Paul Jason Co",
+    "year": 2024,
+    "link": "https://doi.org/10.1109/GHTC62424.2024.10771505",
+    "doi": "10.1109/GHTC62424.2024.10771505",
+    "abstract": "Innovating an IoT hydroponics farming system in a cabinet setup offers a more manageable and accessible system, which addresses manpower, space, and agricultural issues. Wireless Mesh Network (WMN) improves system communication, resiliency, and efficiency, reducing the complexity and high power consumption. The project implemented a hydroponics system in a cabinet setup using a Wireless Mesh Network (WMN) with Time Slotted Channel Hopping (TSCH) to address high power consumption issues and ensure reliability and scalability of sensor nodes in conducting remote system monitoring and maintenance. The system used a Raspberry Pi mi-crocontroller, Texas Instruments LPSTK-CC1352R1 and CC1352R, sensors, and actuators to monitor and maintain the health and growth of lettuce and developed through the Contiki-NG platform. TSCH is shown to outperform CSMA in terms of energy consumption and radio duty cycle (RDC). Furthermore, it is also advantageous for large-scaling in terms of Packet Delivery Ratio (PDR) compared to CSMA with more packet losses as the number of nodes increases. Wireless sensor network of 7 sensor nodes deployed using TSCH MAC setting vastly reduced the power consumption by 73.89%.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Measuring the Efficacy of a Locally Manufactured Face Shield",
+    "authors": "Frederick Acquah, Gabriel M. Owusu, Jeremiah Takyi, Danyuo Yiporo, Heather Rachel Beem",
+    "year": 2024,
+    "link": "https://doi.org/10.1109/GHTC62424.2024.10771503",
+    "doi": "10.1109/GHTC62424.2024.10771503",
+    "abstract": "The need for growth in Africa's manufacturing ecosystem was highlighted by the COVID-19 pandemic as personal protective equipment (PPE) had to largely be imported. This paper presents the design, fabrication and testing of a face shield produced using locally available materials and methods in Ghana. User research with medical professionals and other PPE users revealed issues with existing commercial face shields such as high cost, poor durability, and discomfort. An improved face shield design was developed, leveraging fabrication methods employed by local tailors. An elastic/foam band made from African fabric was integrated with a plastic sheet, the former being reusable and the latter being disposable. A series of flow visualization experiments were used to determine the efficacy of this shield against that of the commercial counterpart. Particle count and velocity flow field results revealed superior performance of the local design in terms of particle blocking. This study underscores the potential for decentralized manufacturing in Africa, providing a model for creating effective, affordable and accessible PPE using indigenous resources and simple production techniques.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Network of Village Universities for Development of India's Rural Sector",
+    "authors": "Ranjan K. Sen, Bulbul Sen",
+    "year": 2024,
+    "link": "https://doi.org/10.1109/GHTC62424.2024.10771520",
+    "doi": "10.1109/GHTC62424.2024.10771520",
+    "abstract": "Seventy percent of India's population lives in her villages. But, rural share of the national economy is less than twenty percent. There is a huge potential for business in services such as healthcare, sanitation and clean water in addition to industries in food and agriculture. But, in spite of significant investments by the government, growth in rural sector has been slow. We believe, an integrated educational approach at community level is necessary for ushering responsible participation of the people and boost growth. A few decades ago, Seva-Bharati, a society for education and rural development, demonstrated that significant socioeconomic upturn is possible through a constantly evolving life-based education. This paper presents the historic work of Seva-Bharati. Then, a discussion of their educational experiments are presented. Seva-Bharati created the concept of a model village university that fits in very well with the recommendations of India's new National Education Policy. In general, a village university may be implemented as a Higher Education Institute as a hub of education using existing educational infrastructure. The paper proposes a national framework for integrated education and development through a network of village universities across the nation.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Open Know-How and an Open Source Hardware Registry as a Unifying Discoverability Mechanism for Open Source Hardware Humanitarian Engineering Projects",
+    "authors": "Robert L. Read, Christina A. Cole, Victoria Jaqua, Andrew Lamb",
+    "year": 2024,
+    "link": "https://doi.org/10.1109/GHTC62424.2024.10771512",
+    "doi": "10.1109/GHTC62424.2024.10771512",
+    "abstract": "At least five organizations maintain libraries of open source humanitarian engineering projects designed to support rapid distribution and manufacturing, with the potential to alleviate suffering globally. However, these projects are described using various data formats, making them difficult for the general public to discover and access. Additionally, only the leadership of these disparate libraries can add new projects, further limiting accessibility. To address these challenges, we present the Open Source Hardware (OSH) registry modeled on the Arduino Library system. This unified registry endeavors to standardize project metadata, enhance discoverability, and improve the global response to humanitarian crises.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Electricity Systems Design for Standalone, Minigrid, Grid-Connected Configurations with Domestic and Flexible Irrigation Loads: A Case Study in Tigray, Ethiopia",
+    "authors": "Yuezi Wu, Terence Conlon, Vijay Modi",
+    "year": 2024,
+    "link": "https://doi.org/10.1109/GHTC62424.2024.10771582",
+    "doi": "10.1109/GHTC62424.2024.10771582",
+    "abstract": "Irrigation is critical for increasing food production in Sub-Saharan Africa (SSA), but the lack of electricity in rural areas is a significant barrier. This paper investigates electricity system solutions for a cluster of irrigated smallholder farms in Tigray, Ethiopia, detected by a previous advanced model. These areas have suitable conditions for irrigation and clear existing energy demands, making electricity systems likely to succeed. Irrigation loads have flexibility, allowing them to align with solar energy availability and utilize soil water storage over several days. However, irrigation seasonality and the minimum pump power requirements potentially reduce electricity system utilization rates. We used an existing network design model and developed a generation system design model to examine standalone, minigrid, and grid-connected systems. Results show that shared solar systems and the flexibility of irrigation loads are crucial in maintaining low electricity costs. Small-scale minigrids connecting nearby farms ensure efficient system utilization and avoid the high costs associated with constructing regional networks using medium voltage wires and transformers, enhancing their viability under current conditions. These findings can guide infrastructure investments for rural electrification with irrigation loads in SSA.",
+    "skip_reason": "DUPLICATE of existing 'ghtc_2024_electricity_systems_design_for_standalone_minigrid' (score=1.00)"
+  },
+  {
+    "title": "Design, Economic, and Environmental Analysis of a Stand-Alone Solar Photovoltaic System for a Tailoring Business in Burundi",
+    "authors": "AniekanAbasi Ekanem, Pritpal Singh",
+    "year": 2024,
+    "link": "https://doi.org/10.1109/GHTC62424.2024.10771541",
+    "doi": "10.1109/GHTC62424.2024.10771541",
+    "abstract": "Access to affordable and reliable energy in rural parts of Burundi can significantly improve its socio-economic development and contribute to the reduction of greenhouse gas emissions. Stand-alone solar photovoltaic (PV) systems are a safe, efficient, and environmentally friendly solution for providing energy to underserved regions. Hence, this paper presents a stand-alone PV system designed to power a tailoring business in a small rural village in Burundi. The system design consists of solar PV arrays, batteries, a charge controller, inverter, and cable connections. The building has an estimated load of 11.99 kWh/day, requiring 22PV modules of 280W capacity, 48 batteries (12V, 100Ah), a 7.6 kW inverter, and a 12A charge controller. The design uses copper wires with cross-sectional areas of 1.13mm2 and 4.84mm2 to install and connect PV panels, batteries, inverter, charge controller, and load. The solar system's estimated life cycle cost is $15,334.39. Furthermore, it offsets or mitigates over 34 tons of CO2e emissions from diesel generator use. The insights from this paper can guide and encourage the Burundi government and interested stakeholders to adopt PV system designs to address electricity shortage.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Characterizing Teacher Struggles and Problem Solving Across Kenyan School Categories",
+    "authors": "Aayod Kaul, Arushi Singh, George Bodenschatz, John Gershenson",
+    "year": 2024,
+    "link": "https://doi.org/10.1109/GHTC62424.2024.10771521",
+    "doi": "10.1109/GHTC62424.2024.10771521",
+    "abstract": "Following the change from the 8-4-4 Education System in Kenya to the CBC Curriculum, teachers in Kenya are facing new and unique problems. This paper provides a glimpse into the multifaceted challenges encountered by K-12 teachers across various types of schools in Kenya. Through a series of focused and insightful focus group discussions in Kisumu, we explored the experiences of K-12 teachers representing a cross-section of school types. Our research unveiled a range of common challenges, as well as those unique to each school category. Teachers grapple with issues of inadequate resources, overcrowded classrooms, and limited access to teaching materials. Furthermore, they face challenges related to curriculum implementation, including keeping pace with frequent changes and adapting to diverse student needs. Teachers have developed creative ways to enhance students' education based on the situation they are currently in. We found that although some of the problems they face can be different, depending on the school category, most of their solutions revolve around a reliance on the community around them. With our findings, we believe that further research should be done on the development of better tools for teachers to use.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Health Science, Engineering and the Arts to Address Maternal Health Disparities: Mothers of Sierra Leone",
+    "authors": "MJ Le Vu, Olivia Hauck, Sophie Ritzler, Ellen Murray, Constance Mulligan, Sofia Rousseau",
+    "year": 2024,
+    "link": "https://doi.org/10.1109/GHTC62424.2024.10771530",
+    "doi": "10.1109/GHTC62424.2024.10771530",
+    "abstract": "Mothers of Sierra Leone uses mixed methods research to validate documentaries as a medium for health education and identify ongoing issues surrounding maternal health in Sierra Leone.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Science on Wheels: Transforming Education with Agastya's Mobile Science Labs",
+    "authors": "Angelina Patel, Faatiha Kalam, Natesh Appaya, Shrishail Dhanawade, Asha Marwaha, Jahid Omar Hossain, Angelina Penza, Eric Obeysekare, Khanjan Mehta",
+    "year": 2024,
+    "link": "https://doi.org/10.1109/GHTC62424.2024.10771510",
+    "doi": "10.1109/GHTC62424.2024.10771510",
+    "abstract": "Education is not a privilege; it's a right. However, many lower-economic communities lack the proper resources, making quality education a privilege. Mobile Science Labs (MSLs) provide lower-income communities with hands-on learning activities to further develop their understanding of scientific concepts. MSLs have emerged as a powerful tool in addressing the sustainability and scalability of science education in underserved communities. This case study presents a comprehensive analysis of the MSLs implemented by Agastya International Foundation in rural and urban areas of India. This study draws on previous case studies, qualitative and quantitative research, and programmatic data to examine the innovative strategies employed by Agastya to deliver hands-on science education directly to government school students. Furthermore, the paper evaluates the effectiveness of MSLs in enhancing student engagement, improving academic outcomes, and fostering socio-economic development in the target communities. It explores the challenges and opportunities encountered during the deployment of MSLs and offers insights into the scalability and sustainability of this model for science education interventions worldwide. Overall, this paper validates Agastya's MSLs and provides valuable insights for advancing educational impact and equity for students lacking access to academic resources.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "A Novel, Voice-Activated Smart Home Assistant Using a Large Language Model for Nutrition Assistance",
+    "authors": "Jay Bhardwaj, Hugo Carducci, Kenneth Clark, Nicholas Kennedy, Dylan Smith, Tim Thai, Emily Francis, Ramana Reddy",
+    "year": 2024,
+    "link": "https://doi.org/10.1109/GHTC62424.2024.10771529",
+    "doi": "10.1109/GHTC62424.2024.10771529",
+    "abstract": "Malnutrition is a prevelant issue in older adults, as it can lead to adverse health effects such as heart disease, high blood pressure, and diabetes. To address this concerning issue, we propose a novel smart home assistant using Google's Gemini to provide nutritional guidance to a user. Results find that the proposed system can provide the user more in-depth answers - specifically in the case of recipe assistance - than Amazon Alexa and Google Nest. This indicates the potential for the proposed system to assist in combating malnutrition, by providing conversational answers to smart home inquiries.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Towards Low-Sodium Diets: Low-Cost, Small-Scale Approaches to Food Reformulation and Salt Substitution",
+    "authors": "Daniel Weir, Shane Haycock, Joseph A. Menicucci, Khanjan Mehta",
+    "year": 2024,
+    "link": "https://doi.org/10.1109/GHTC62424.2024.10771583",
+    "doi": "10.1109/GHTC62424.2024.10771583",
+    "abstract": "This paper explores low-cost, small-scale food reformulation and salt substitution strategies, assessing their effectiveness, applicability, and cost across various sectors. These strategies are categorized into two main areas: less advanced reformulation techniques and straightforward salt substitution methods, evaluated at both industrial and commercial levels. The review highlights the potential of methods such as inhomogeneous sodium distribution, bio-preservation, and microbial enzymatic technology, which, while cost-effective and less technologically complex, face challenges in widespread adoption and consistency in results. The paper will compare these strategies in terms of efficiency, ease of implementation, and overall impact on public health, emphasizing where one approach may hold advantages over another in practical applications.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Towards Low-Sodium Diets: Educational and Policy Approaches",
+    "authors": "Ella Sokich, Asher Mendelson, Daniel Weir, Umid Abdullayev, Joseph A. Menicucci, Khanjan Mehta",
+    "year": 2024,
+    "link": "https://doi.org/10.1109/GHTC62424.2024.10771538",
+    "doi": "10.1109/GHTC62424.2024.10771538",
+    "abstract": "This paper explores public education, dietary counseling, and informative labeling as cost-effective approaches to enhance public awareness and promote healthier eating habits. Although the success of these strategies depends heavily on sustained support from public and policy initiatives, they represent viable options to combat excessive sodium consumption. Additionally, transparent and accessible labeling on packaged food products is discussed as a crucial method to facilitate informed consumer choices, contributing significantly to sodium reduction efforts.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "EasyEat: Personalized Healthy Eating Coach",
+    "authors": "Renzo D'Ambrosio, Josefina Gallinal, Santiago Souto, Cristina Mayr",
+    "year": 2024,
+    "link": "https://doi.org/10.1109/GHTC62424.2024.10771570",
+    "doi": "10.1109/GHTC62424.2024.10771570",
+    "abstract": "Easy Eat is an application designed to contribute to dietary health in Uruguay. It consists of a mobile application aimed at the general population or patients and a web platform intended for nutrition professionals, characterized by a simple and friendly user experience. The proposed solution helps users determine which products are suitable for consumption, collaborates with the interaction between them and their nutritionist, helps them monitor their diet and generates product recommendations that are healthier alternatives. Computer Vision technologies are used to process images of the nutritional composition table of packaged foods and Machine Learning techniques to make personalized recommendations.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Strengthening Last Mile Health Education Using Amazon Alexa-Enabled Devices: A Preliminary Case Study",
+    "authors": "Sof\u00eda Espinoza-Hern\u00e1ndez, Omar Hossain, Zavier R. Urbaez, Eric Yang, Elif Ozturk, Aabiskar Thapa Kshetri, Rachel Platt, Eric Obeysekare, Khanjan Mehta",
+    "year": 2024,
+    "link": "https://doi.org/10.1109/GHTC62424.2024.10771513",
+    "doi": "10.1109/GHTC62424.2024.10771513",
+    "abstract": "This paper presents a preliminary case study on the design of an Amazon Alexa-based system, termed \u201cAI Strengthening Healthcare Access\u201d (AISHA). AISHA leverages voice-activated artificial intelligence to enhance healthcare accessibility in Sierra Leone. This article explores the design of the AISHA system in a healthcare setting, emphasizing its potential integration within hospitals and peripheral health units. Key features of the AISHA system include four use cases: AISHA Answers, Lessons, Patient Tracker, and Medication Tracker. These use cases aim to provide healthcare workers and patients with easy access to updated healthcare information while creating a new channel of health dissemination. This preliminary case study recounts AISHA's performance in periurban Sierra Leone and underscores the potential of Conversational AI for transforming healthcare delivery, highlighting both the benefits and challenges of such implementations.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Leveraging AI Face-Tracking and Gesture Recognition for Hands-Free Computing: Bridging the Gap for Users with Physical Disabilities",
+    "authors": "Michael Ruocco, Jack Duggan, Chetan Jaiswal, Brian O'Neill, Karen Majeski",
+    "year": 2024,
+    "link": "https://doi.org/10.1109/GHTC62424.2024.10771580",
+    "doi": "10.1109/GHTC62424.2024.10771580",
+    "abstract": "This paper introduces AccessiMove, an innovative software solution designed to empower users with limited hand mobility by providing hands-free interaction with a computer system. Through the combined use of AI-based facial tracking and gesture recognition technologies, AccessiMove enables precise and intuitive mouse control through the analysis of facial positioning and eye events (blinks). Users can manipulate the on-screen cursor, facilitating a natural and responsive computing experience without reliance on traditional input devices. Moreover, the incorporation of gesture recognition technology allows users to execute actions and key presses by performing specific gestures, further enhancing the range of hands-free interactions. The software boasts a user-friendly interface with customizable settings, catering to individual preferences and varying degrees of motor abilities. AccessiMove's adaptability extends to diverse applications, encompassing general computing tasks, multimedia consumption, and even entertainment. To validate the efficacy of AccessiMove, this paper presents results from a pilot usability study with a prototype version of the software, highlighting the software's positive impact on enhancing computer accessibility. The findings underscore AccessiMove's potential to empower individuals with physical impairments, promoting greater independence and engagement in the digital realm. Keywords-Facial gestures, Gesture recognition, Assistive technology, accessible computing",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Enhancing Child Safety and Security Through Integrated Technology for Urban Areas",
+    "authors": "Aditya Narayan, K. P. Sarang, K. Viswajith, M. R. Kowshik, P. M. Nagarajan, Sundararaman Gopalan",
+    "year": 2024,
+    "link": "https://doi.org/10.1109/GHTC62424.2024.10771557",
+    "doi": "10.1109/GHTC62424.2024.10771557",
+    "abstract": "Child abduction poses a significant and growing threat to children's safety worldwide, with an alarming rise in reported cases. This research project addresses this issue by developing an innovative alert system that leverages machine learning and embedded systems. Utilizing techniques such as convolutional neural networks (CNNs) for image recognition and Haar-Cascade classifiers for real-time video detection, our system examines instances of children being found alone and processes real-time data to detect potential abductions. By generating timely alerts for authorities and caregivers, the system enables proactive identification and response. In addition, the system manages datasets by matching missing and found children, informing guardians when a match is detected. By integrating with existing CCTV infrastructure, our system enhances the effectiveness of surveillance methods, providing a comprehensive solution to mitigate the risks associated with child abduction.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Enhancing Type 1 Diabetes Management Through Machine Learning",
+    "authors": "Anav Bordia",
+    "year": 2024,
+    "link": "https://doi.org/10.1109/GHTC62424.2024.10771574",
+    "doi": "10.1109/GHTC62424.2024.10771574",
+    "abstract": "Type 1 diabetes (T1D) is an autoimmune condition where carbohydrate metabolism is disrupted due to insufficient insulin secretion. In the pursuit of metabolism, it is important to maintain tight glycemic control. Current insulin pumps require user input for dose adjustments, leading to suboptimal glycemic control and artificial pancreas are expensive and fail to account for various factors. This study investigates the application of machine learning (ML) for insulin delivery in T1D patients. The purpose is to support underserved T1D patients with an ML control solution for better diabetic management and better health. We propose regression models utilizing time to predict insulin dosages based on a large patient dataset. To apply to patients across the world an app was built that implements this algorithm with insulin dosage suggestions that continuously learn through a feedback loop. The optimal regression model was an LSTM model trained on data from only one patient. The model achieved a root mean squared error of 1.0055. In addition to the model, a feedback loop was implemented for the model to adapt to the specific patient who is using the app for insulin dosage suggestions. This has yet to be tested out in a study.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Human Rights and Ethics Guiding Human-Machine Teaming",
+    "authors": "Lubna Dajani, Angelo Ferraro, Fumihiro Maruyama, Yuchang Cheng",
+    "year": 2024,
+    "link": "https://doi.org/10.1109/GHTC62424.2024.10771558",
+    "doi": "10.1109/GHTC62424.2024.10771558",
+    "abstract": "Human-machine teaming (HMT) is defined as \u201cintegration of human interaction with machine intelligence capabilities\u201d in ISO/IEC 22989:2022. The discussion begins with an overview and examples where humans and machines such as AI systems and robots collaboratively solve problems. The HMT organizational framework is presented in five relationship types, depending on the hierarchical relationship between human and machines. Its ethical challenge created by HMT and the role the machine performs, and how information flows between human and machine. It is useful in analyzing the technical and ethical human-machine teaming issues. The paper includes a simple case study which employed HMT in the preparation of this discussion and identified challenges and risks associated with its use. The paper concludes with emphasis on the risks to Human Rights and how humanity will surmount the new reality.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Robust Estimation of Plucking Points Across Seasonal Flushes in Tea with UAV Imaging",
+    "authors": "Sanket Junagade, Sanat Sarangi, Swagatam Bose Choudhury, Ruturaj Patil, Dineshkumar Singh, Srinivasu Pappula",
+    "year": 2024,
+    "link": "https://doi.org/10.1109/GHTC62424.2024.10771579",
+    "doi": "10.1109/GHTC62424.2024.10771579",
+    "abstract": "Seasonal flushes of the tea crop represent different periods of the year during which leaves are picked for manu-facturing. A significant component of the quality and flavour of tea produced in India is associated with the flush type, where each flush has distinct characteristics. Using overhead images captured with Unmanned Aerial Vehicles (UAVs), we propose in this paper deep learning-based models for (a) robust plucking points in tea and (b) classifying them into flush types. Our approach was developed and tested with drone-based data gathered for a garden in the north-eastern tea-growing belt of the country over an entire season from late-February to mid-November. An mAP score of 0.91 was obtained for the detection of plucking points, and flush-type classification was achieved with an accuracy of 87%. Results showed that the UAVs integrated with tea operations can be quite effective for precision surveillance to help guide field decisions for better harvest and production efficiencies.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "On Digital Twin for a High Yielding Soybean Variety Towards Optimal Field Recommendations",
+    "authors": "Swagatam Bose Choudhury, Rushikesh Kulat, Ruturaj Patil, Abhishek Kumar, Sanat Sarangi, Nandan Rajpoot, Ajay Mittal, Dineshkumar Singh, Srinivasu Pappula",
+    "year": 2024,
+    "link": "https://doi.org/10.1109/GHTC62424.2024.10771522",
+    "doi": "10.1109/GHTC62424.2024.10771522",
+    "abstract": "Soybean in India is pivotal for its nutritional value and as livestock feed. Its cultivation faces challenges like pests, diseases, and adverse weather, impacting yields and farmer incomes. Sustainable soybean production can enhance farmer livelihoods and ensure long-term agricultural viability. Creating a digital twin of the crop which models how it matures under specific conditions and operations can be an effective way to understand the yield outputs and environmental impact. For a high-yielding soybean variety KDS 992 (Phule Durva), we present a digital twin based model for monitoring sustainability practices and crop health, validated with a field study over a Kharif (monsoon) season in India. Results showed that measured yield for the selected variety aligned well with the model's predicted yield. With organic practices, soil health improved with a net increase of 1.50 $\\mathbf{tCO}_{2}\\mathbf{e}/\\mathbf{ha}$ in soil organic carbon (SOC). As a contrast, the model projected an SOC loss of 5.88 $\\mathbf{tCO}_{2}\\mathbf{e}/\\mathbf{ha}$ with conventional practices. AI-driven models integrated with the framework detected and contained soybean stress timely, boosting crop health. We believe the integrated digital insights would assist in giving specific recommendations to farmers planting soybean in general and the variety in particular.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Effective Regional Prediction for Potato Stress Conditions Across Rabi Seasons",
+    "authors": "Rushikesh Kulat, Swagatam Bose Choudhury, Vidit Patil, Sanat Sarangi, Dineshkumar Singh, Srinivasu Pappula",
+    "year": 2024,
+    "link": "https://doi.org/10.1109/GHTC62424.2024.10771524",
+    "doi": "10.1109/GHTC62424.2024.10771524",
+    "abstract": "West Bengal is a major potato belt in India where the crop is grown typically in the Rabi season. Stress conditions such as Late Blight, Stem Rot, and Thrips significantly impact crop output. Cultivating the crop in a given region follows certain seasonal patterns. However, variations in components like environment, climate-change effects, evolving crop history, and management practices are observed across seasons. Forecasting models developed for a given season in a region need to exhibit robustness for subsequent seasons by quickly learning relatively stationary factors and adapting quickly to dynamic ones. We propose and evaluate prominent forecasting models and strategies across the Rabi seasons of 2020\u201321 and 2021\u201322 in West Bengal. The emphasis here is to assess model performance for the subsequent season after it has seen the previous one. We propose a model to forecast the incident pattern envelope using a supervised learning component for which ANN, XGBoost, and Random Forest (RF) are evaluated. RF-based model is found to perform better when compared to the other models, and it could be useful for taking macro-level decisions related to agricultural input planning on the ground. This approach is then used to generate results for other stress conditions to assess overall benefits.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Monitoring the Impacts of Disruption Events on Agriculture Through Irrigation Detection with Remote Sensing",
+    "authors": "Hasan Siddiqui, Vijay Modi",
+    "year": 2024,
+    "link": "https://doi.org/10.1109/GHTC62424.2024.10771556",
+    "doi": "10.1109/GHTC62424.2024.10771556",
+    "abstract": "Adoption of irrigation even on a small scale requires access to suitable soils, sourcing seeds and fertilizers, meeting crop water requirements, energy and infrastructure needed for pumping water and access to markets. Therefore monitoring irrigation over time provides key insight on the effectiveness of policy decisions, infrastructure successes and more importantly, disruptions caused by events such as conflicts, the COVID pandemic etc. All of these have a direct impact on food security. However most of the irrigation maps including coarse global irrigation cropland layers are created for a certain time period and do not reflect changes in the landscape over time. This study presents a simplified alternative to a dry season irrigation detection methodology developed for the Ethiopian highlands that can be implemented using Google Earth Engine's built in classifiers to create irrigation maps for each year of interest. The original methodology and the proposed simplified approach are compared for a sample region in Oromia to discuss the trade-offs of the simplifications. It is then applied to Southern Tigray across five years from 2019 to 2023 to show how the monitoring technique can be used to visualize the effects of disruptions such as the Tigray War on irrigated agriculture and the recovery efforts after.",
+    "skip_reason": "DUPLICATE of existing 'ghtc_2024_monitoring_the_impacts_of_disruption_events' (score=1.00)"
+  },
+  {
+    "title": "Non-Human Primate Monitoring System: Early Alert System Against Crop Raids for Farms in Nepal",
+    "authors": "Daniil Slutskiy, Zach Jacques, Nuno Bazarian, Saurav M. S. Basnet, Amir Poudel, Prakash Manandhar",
+    "year": 2024,
+    "link": "https://doi.org/10.1109/GHTC62424.2024.10771533",
+    "doi": "10.1109/GHTC62424.2024.10771533",
+    "abstract": "The ongoing shift of populations from rural villages to urban centers in Nepal has led to farmland abandonment, drawing wildlife, particularly rhesus macaques, closer to human settlements. This proximity has resulted in frequent crop raids, causing substantial agricultural damage, and affecting the wellbeing of farmers. Traditional non-lethal deterrent methods, including noisemakers and netting, have proven ineffective. To address this issue, the described project aimed to develop a surveillance system using AI technology and IoT modules to detect macaque raids and alert farmers promptly. The system comprises a Raspberry Pi equipped with a camera and microphone, designed to detect motion and process live video feeds for monkey detection. Audio data is also recorded for future model training. Unlike solutions requiring extensive infrastructure, this system is costeffective and deployable in remote areas without specialized transceivers. Initial tests indicate the system's potential to protect crops and enhance farmers\u2019 quality of life, fostering a harmonious coexistence between humans and wildlife in Nepal.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Making on the Move: Bringing Mobile Makerspaces to Under-Resourced Communities",
+    "authors": "Jahid Omar Hossain, Angelina Penza, Asha Marwaha, Angelina Patel, Faatiha Kalam, Eric Obeysekare, Khanjan Mehta",
+    "year": 2024,
+    "link": "https://doi.org/10.1109/GHTC62424.2024.10771544",
+    "doi": "10.1109/GHTC62424.2024.10771544",
+    "abstract": "The maker movement, characterized by hands-on experiential learning methods, is gaining traction in various educational settings worldwide. The didactic attention on creative making has led to the emergence of makerspaces, which have been further developed into mobile makerspaces (MMS). This paper presents a narrative review of the current landscape of MMS, guided by underlying learning theories that emphasize hands-on, experiential learning. This paper examines peer-reviewed articles, reports, and case studies across diverse educational systems and settings worldwide, focusing on their design features, implementation strategies, and outcomes. The findings suggest that MMS have the potential to significantly enhance Science, Technology, Engineering, and Mathematics (STEM) education by providing hands-on, experiential learning opportunities. However, challenges such as sustainability, funding, and logistics persist. The review highlights the critical need for developing and applying well defined approaches, curriculum adherence, and business models in the implementation and assessment of MMS to maximize their benefits. This paper offers targeted recommendations for optimizing the design, impact, and integration of MMS, ensuring they meet educational objectives while also boosting agency, instilling confidence, and fostering creative problem-solving skills in students.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Investigating Community Engagement Practices in Short-Term Humanitarian Engineering Projects",
+    "authors": "Arooj Masood, Grace Burleson",
+    "year": 2024,
+    "link": "https://doi.org/10.1109/GHTC62424.2024.10771518",
+    "doi": "10.1109/GHTC62424.2024.10771518",
+    "abstract": "It is well known that community engagement is critical for the success of humanitarian engineering (HE) projects. Short-term HE projects require special attention to community contexts and capacity to ensure solutions solve particular needs and can be maintained long after implementation. This manuscript contributes to our team's long-term goal of improving community engagement across all stages of professional volunteer led short-term HE projects, including the development of more granular recommendations and metrics for community engagement evaluation and volunteer accountability. In this study, we evaluated 43 projects that received grants in 2022 from a large HE organization for groups of volunteers to implement short-term projects. While most projects (70%) engaged communities through training sessions after implementation, our analysis identified critical gaps in community engagement during early project stages, and only three projects (7%) described engaging with their community throughout all stages. We identified an opportunity for volunteer teams to expand the community members and stakeholders they engage during a project, as most projects focused on one community partner rather than considering those who may be directly impacted by the project. Overall, our findings indicate critical opportunities for support and incentives for professional volunteers to increase community engagement during HE projects.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "User-Centered Design of a Seasonal Calendar App for Women: Insights from a Case Study in India",
+    "authors": "Balu M. Menon, Aiswarya K. Nampoothiri, Festa Lovin K. F, Gokul Dev B, Bhavani R. Rao",
+    "year": 2024,
+    "link": "https://doi.org/10.1109/GHTC62424.2024.10771573",
+    "doi": "10.1109/GHTC62424.2024.10771573",
+    "abstract": "This study examines the potential of mobile tech-nology to support and enhance the livelihoods of rural women in India by focusing on the user-centric design and evaluation of a Seasonal Calendar mobile application. Drawing on a case study from two villages in Kerala, India, this research highlights the importance of incorporating traditional knowledge and user feedback in the development of digital tools for marginalized communities. The Seasonal Calendar app, a digitized version of a traditional agricultural planning tool, was found to be well-received by rural women, who appreciated its user-friendly interface, accessibility, and alignment with local seasonal patterns. The app's ability to convey seasonal information and facilitate decision-making was also positively evaluated. The findings underscore the potential of technology to bridge the gap between traditional knowledge and modern tools, ultimately contributing to the empowerment and well-being of rural women in India. This study offers valuable insights for future research and development of digital interventions that effectively address the unique needs and challenges faced by women in agricultural communities.",
+    "skip_reason": "DUPLICATE of existing 'ghtc_2024_user_centered_design_of_a_seasonal' (score=1.00)"
+  },
+  {
+    "title": "Viability of Applying Large Language Models to Indoor Climate Sensor and Health Data for Scientific Discovery",
+    "authors": "Aidan Chen, Jonathan Du, Aaron Rodriguez, Ryan Rodriguez, Jack Higgins, Robin Podmore, Ryan Liu, Emin Ilao, Sam Degilla, James Bibiano, Candice Chan, Annalicia Pickering, Mary Showstark, Jarone Lee, Milton Chen",
+    "year": 2024,
+    "link": "https://doi.org/10.1109/GHTC62424.2024.10771517",
+    "doi": "10.1109/GHTC62424.2024.10771517",
+    "abstract": "In partnership with IEEE Smart Village, the VSee team developed an indoor climate monitoring system deployed to homes in polluted areas of the Philippines. We collected participants' medical records including smoking history and methods of cooking, as well as measuring their heart and lung health via electrocardiogram and spirometer tests. We found that indoor temperatures can exceed published macroclimate temperatures by 9 degrees, indoor pollution is just as detrimental to health as secondhand smoke, CO2 levels in high-end hotels in the USA may be comparable to the low-income homes next to large trash landfills in Manila, and that the air quality on airplanes and trains is often borderline unhealthy. Additionally, we trained several large language models (LLMs) on our pollution and medical records data to explore the viability of using LLMs to accelerate scientific discoveries by analyzing patterns in largescale datasets. We then tested 3 AI systems-GPT4 (OpenAI), Gemini 1.5 Pro (Google), Claude 3 Opus (Anthropic)-and found that Anthropic's model has a slight edge over that of OpenAI and Google on our datasets, and that modern LLMs in general are just as good as human physicians and scientists in formulating research hypotheses and selecting subjects for experiments.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Enabling Socio-Ecological Linkages for Rural River Restoration Through Human-Nature Connection",
+    "authors": "Rondine Twist, J. Sophie von Lieres, Sneha S. Anil, M. V. Arya, G. S. Krishna, Rao R. Bhavani",
+    "year": 2024,
+    "link": "https://doi.org/10.1109/GHTC62424.2024.10771542",
+    "doi": "10.1109/GHTC62424.2024.10771542",
+    "abstract": "In countries like India with large rural populations, the restoration of rural rivers addresses challenges related to water security and biodiversity. Efforts to restore rural rivers also present unique opportunities for improving the socioecological linkages that connect people with nature. Communityled initiatives offer alternatives to heavily engineered water projects associated with high environmental, economic, and social costs. An understanding of the socio-ecological and human-river relations within the community helps to identify appropriate measures that can restore local rivers and restore the human-river relations that have been lost over time. This study is a preliminary attempt to apply the Connectedness to Nature Scale (CNS) as a measure of human-nature connectedness to explore the socio-ecological dynamics within and among river communities. The mean CNS scores of four communities provide a basis for comparisons using ANOVA, that when supplemented with qualitative data, may offer insights into strategies and sustainable technologies to restore rural rivers and improve human-river dynamics.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Does a Standards-First Infrastructure Design Neglect Community Context?",
+    "authors": "Emily Lawson-Bulten, Ann-Perry Witmer",
+    "year": 2024,
+    "link": "https://doi.org/10.1109/GHTC62424.2024.10771569",
+    "doi": "10.1109/GHTC62424.2024.10771569",
+    "abstract": "Engineers acknowledge the necessity of considering the community context for long-lasting, sustainable water infrastructure designs. Contextual Engineering contends that designs cannot simply consider the economic, political, cultural, educational, and mechanical influences of a community but must develop from the local context before any technical decision making. This work-in-progress illustrates the significance that considering international standards before the local context has on a rural community water system design. This research offers an ethical comparison of technical outcomes by directly comparing a contextual engineer's design with the community and a senior engineering team's design consulting to the community through an organizational proxy. Preliminary results illustrate that not only are the design outcomes significantly different in components, the standards-first team could not adequately adjust their designs to consider the long-term maintenance and local constraints of the project.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Enablers and Barriers to Improved Drinking Water Sources and Safe Water Practices in Rural India",
+    "authors": "Reshma Ramesh, Sithara GS, Reshma R. Nair, Geethu S. Gireesh, Athul Ajay, J. Sophie von Lieres, Rao R. Bhavani",
+    "year": 2024,
+    "link": "https://doi.org/10.1109/GHTC62424.2024.10771572",
+    "doi": "10.1109/GHTC62424.2024.10771572",
+    "abstract": "The United Nations Sustainable Development Goal (SDG) 6.1 seeks to ensure safe and affordable drinking water for all by 2030. Critical to this goal are access to improved water sources on-site and the adoption of house-hold safe storage and treatment practices (HWTS). In rural India, various barriers and facilitators impact the adoption of HWTS and improved water source choices among communities. This study employed qualitative methods, engaging rural women in Karnataka, India through semi-structured interviews and focus group discussions to explore these factors. Additionally, eight women were trained to use low-cost sensors and a mobile application to monitor household water quality. The study identified barriers, including lack of knowledge and awareness, traditional beliefs, financial constraints, and preference for unsafe water sources due to convenience, proximity, and established habits. Despite these challenges, the training provided to women facilitated improvements in monitoring water quality and promoting safe water practices. The findings underscore the need for strategies that enhance the role of women in water management through ongoing support, better access to information, and tailored community awareness initiatives. Effective awareness, affordable water treatment technologies, safe storage techniques, and reliable feedback mechanisms are recommended to improve water quality, promote HWTS adoption, and contribute to sustainable development and public health in rural settings.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Examining Income and Cost Dynamics of Motorcycle Taxi Drivers in Western Kenya",
+    "authors": "Purva Gupta, Lauren Wagner, Dorcas Owinoh, John Gershenson",
+    "year": 2024,
+    "link": "https://doi.org/10.1109/GHTC62424.2024.10771555",
+    "doi": "10.1109/GHTC62424.2024.10771555",
+    "abstract": "Boda-bodas, motorcycle taxis prevalent in East Africa, serve as vital components of flexible and cost-effective public transit. While offering accessible transportation, boda drivers face economic challenges, earning minimal income per ride. This paper explores the dynamics of the boda-boda industry, emphasizing the significance of registered groups and bases in fostering community support and financial opportunities for drivers. The study delves into the economic challenges faced by drivers, including low earnings and operational costs, while also addressing social stigma and educational limitations perpetuating poverty cycles. The average daily earnings of boda drivers barely surpass the extreme poverty line earning $0.50 - 0.60 USD per ride. The COVID-19 pandemic further intensified their struggles, with reduced demand, limited working hours, and increased operational challenges. Social stigmatization, often stemming from a lack of formal education and the nature of their work, poses additional barriers to breaking the cycle of poverty. The study concludes by advocating for businesses to address financial challenges and explore additional income avenues while creating a supportive environment for boda drivers. By doing so, it suggests that the overall well-being of boda-boda drivers can be improved, contributing to long-term economic growth within the community. Future research is recommended to explore different business models working with boda drivers and their impact on overall economic development.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Single-Use Plastics: The Life and Afterlife of Sachets in the Philippines",
+    "authors": "Evan Woodward, Fernanda Sena, Jackson Kramp, Sophie Lin, Avery Nudell-Cook, Eric Obeysekare, Khanjan Mehta",
+    "year": 2024,
+    "link": "https://doi.org/10.1109/GHTC62424.2024.10771525",
+    "doi": "10.1109/GHTC62424.2024.10771525",
+    "abstract": "The Philippines ranks as the world's third-largest plastic polluter, a consequence of widespread consumerism and lack of funding and initiative by succeeding presidents in the establishment of new waste management policies. Sachet plastic, sold in \u201csari-sari\u201d stores due to its economic appeal and deep-rooted presence in Filipino culture, exacerbates the issue. The government established Material Recovery Facilities (MRFs) for waste sorting and recycling to address waste issues. However, most MRFs struggle to recycle sachet plastic due to its complex composition, being made of polymers, metals, and paper. In addition to MRFs, informal businesses called \u201cJunk shops\u201d play a vital role in plastic collection, though they choose to avoid sachets due to their low economic value. Unfortunately, sachets not collected by MRFs or junk shops along the plastic stream end up in landfills and dumpsites, posing health risks, particularly for low-income Filipino communities. This article delves into the life cycle of sachet plastic, from manufacturing to its environmental impact, shedding light on the challenges and implications for Filipino society. We also expand on potential solutions and future outcomes that can act as a beacon of hope for the Philippines.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Implementation and Evaluation of LLM-Based Conversational Systems on a Low-Cost Device",
+    "authors": "Koga Sakai, Yuji Uehara, Shigeru Kashihara",
+    "year": 2024,
+    "link": "https://doi.org/10.1109/GHTC62424.2024.10771565",
+    "doi": "10.1109/GHTC62424.2024.10771565",
+    "abstract": "The rapid evolution of artificial intelligence (AI) technologies has highlighted the potential of generative AI, particularly large language models (LLMs), to revolutionize various sectors by automating content creation, enhancing personalized education, supporting medical diagnostics, and creating immersive entertainment experiences. However, deploying these advanced models often requires substantial computational resources, posing a challenge in resource-limited environments. This paper explores implementing LLM-based conversational systems on a low-cost device, specifically the Raspberry Pi. We designed and implemented a conversational system utilizing four LLMs, ChatGPT, Bard, Llama, and Rinna, and evaluated their performance in terms of execution time and computational resource usage. Our findings reveal that API-based models (ChatGPT and Bard) are more efficient in processing time and resource consumption, making them suitable for real-time applications. In contrast, locally-run models (Llama and Rinna) provide the advantage of offline operation despite higher computational demands.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Implementation of an Open Hardware and Web Platform for Citizen Science Air Quality Monitoring",
+    "authors": "Ryan Jonathan Blanco, Joize Barbie E. dela Cruz, Ira Nicole J. Santos, Jaybie A. de Guzman, Marc D. Rosales, Paul Jason Co, John Jairus D. P. Eslit, Percival Magpantay, John Richard E. Hizon",
+    "year": 2024,
+    "link": "https://doi.org/10.1109/GHTC62424.2024.10771528",
+    "doi": "10.1109/GHTC62424.2024.10771528",
+    "abstract": "Air quality monitoring (AQM) systems have been on the rise in recent years, but implementations are still constrained because the public has limited capability and resources to construct and configure these. As such, data points have been limited and inaccessible, lessening involvement and urgency for air pollution problems. This study developed an Open-Source AQM system consisting of an open hardware node and a web platform. The hardware was tested and deployed to check the air quality of its surroundings. Results show that the designed hardware was able to measure the chosen parameters for monitoring and the data uploaded can be viewed using the user's account on the web platform. The citizens can be contributors to data gathering by creating their own accounts on the web platform and building their own hardware node following the given design specifications. The effectiveness of the system as an open-source and citizen science project are also discussed in this paper.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Real Time Air Quality Sensor System for E-Trikes",
+    "authors": "Martina Meg Bayani, Erin Julianne Mariano, Sanroe Estabillo, Rylee Abi\u00f1o, Anna Margarita Chua, Aaron Tolentino, Miguel Carlos Menguito, Paul Jason Co, Jaybie A. de Guzman, Marc D. Rosales, John Richard E. Hizon",
+    "year": 2024,
+    "link": "https://doi.org/10.1109/GHTC62424.2024.10771559",
+    "doi": "10.1109/GHTC62424.2024.10771559",
+    "abstract": "Air pollution from vehicle emissions poses significant health risks, while the Philippines' fixed air quality monitoring stations fail to provide commuters with sufficient exposure data. This study implemented sensor systems on electric tricycles (e-trikes), both inside and outside, to monitor air quality in Public Utility Vehicles (PUVs). Pollutants measured include PM2.5, carbon dioxide equivalent (eCO2), and total volatile organic compounds (VOCs). A campaign at UP Diliman revealed high eCO2 levels around residential halls and college buildings, and significant PM2.5 near jeepney waiting sheds, indicating health risks to commuters. The deployment demonstrated an opportunity to cover a larger area around the campus, which currently lacks a distributed air quality monitoring network. This project highlights the potential of mobile systems, emphasizing the need for further studies on pollutant sources and contributing to better air quality management,",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Generator Efficiency Testing: Gasoline vs. Propane in the Haitian Context",
+    "authors": "Brian Thomas, Daniel Chang, Ashton McCutcheon, Claudia Oggs, Jacob Webb",
+    "year": 2024,
+    "link": "https://doi.org/10.1109/GHTC62424.2024.10771506",
+    "doi": "10.1109/GHTC62424.2024.10771506",
+    "abstract": "Propane for small scale electricity production in Haiti has significant advantages over gasoline with respect to pricing and availability. This work compares the efficiency of a 1.8 kW inverter/generator using two fuels: gasoline and propane. Using an after-market conversion kit, the efficiency using propane is higher, a result that further solidifies propane's superiority as a fuel type for electricity generation at small scale.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "The Development of a Drone Capable of Transporting Humanitarian Aid During an Emergency",
+    "authors": "Mohamed Zied Chaari, Gilroy Philbert Pereira, Fawwad Daroge, Mohamed Abdelfath, Otman Aghzout",
+    "year": 2024,
+    "link": "https://doi.org/10.1109/GHTC62424.2024.10771509",
+    "doi": "10.1109/GHTC62424.2024.10771509",
+    "abstract": "Drones are highly effective at assessing disaster damage and revolutionizing the impact on disaster response. Due to various economic and social factors, the use of drones is becoming more common among civilians and corporations. With improvements in drone technology, drones are expected to spread throughout the transportation sector, which will also help disaster relief efforts. In times of crisis, it is essential to move humanitarian aid quickly from one place to another. Drones will be capable of providing aid to disaster victims due to their solid and durable build, relatively low costs, high payload capacity, and minimal need for infrastructure. This work aims to build a drone from scratch capable of transporting humanitarian aid from one place to another. An autonomous delivery drone capable of delivering upto ten kilograms and navigating with the help of a Global Positioning System (GPS) is designed. This paper describes our choice of components, design decisions, and mission (flight) planning.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "On the Feasibility of Digital VHF Communications in Crisis Scenarios",
+    "authors": "Michi Hermann, Bastian Bloessl",
+    "year": 2024,
+    "link": "https://doi.org/10.1109/GHTC62424.2024.10771549",
+    "doi": "10.1109/GHTC62424.2024.10771549",
+    "abstract": "Communication is key, especially during a crisis. In case of larger incidents, existing infrastructure often faces outages, making it difficult - if not impossible - to communicate. While first responders have communication solutions for these cases, civilians remain disconnected. To avoid such stressful situations, we study Rattlegram, a novel communication solution that uses acoustic coupling of smartphones with VHF/UHF handheld radios to transmit digital information. We compare it to existing protocols for the VHF/UHF band and evaluate its performance in simulations and field tests. We demonstrate its applicability, showing that even a cheap handheld radio can be used to establish communication up to a distance of over 18km in rural and close to 1 km in urban environments. The results highlight that Rattlegram is a viable technology that can be the base for affordable, infrastructure-less emergency communication for the masses.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Online Guided Integrated Amrita Meditation (IAM\u00ae) to Improve Mental Well-Being and Reduce Perceived Stress During COVID-19 in India",
+    "authors": "M. Bavani, J. Sophie von Lieres, C. S. Sowndaram, Rajiv Prasad",
+    "year": 2024,
+    "link": "https://doi.org/10.1109/GHTC62424.2024.10771539",
+    "doi": "10.1109/GHTC62424.2024.10771539",
+    "abstract": "This study evaluated the impact of Integrated Amrita Meditation (IAM\u00ae) sessions conducted online through a video conferencing platform on decreasing mental distress (measured with the General Health Questionnaire) and perceived stress (measured with the Perceived Stress Scale) in Tamil Nadu during the COVID-19 pandemic. The research design was quasi-experimental and compared the outcome variables of an intervention and a control group at baseline and follow-up. The intervention group showed a significantly larger decrease in mental distress than the control group at follow-up, and another follow-up at four months showed that the improvement in mental health remained constant. Therefore, conducting online IAM\u00ae classes is an effective intervention to improve mental health and reduce stress levels. Conducting such interventions through an online mode using digital technology is as effective as conducting it directly. Thus, it should be offered to a larger population to sustain mental well-being and reduce stress, not only during a pandemic.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Integrated Amrita Meditation (IAM\u00ae): Towards Sustainable Rehabilitation in Prisons Using Digital Mental Well-Being Intervention",
+    "authors": "M. Bavani, J. Sophie von Lieres, Sundararaman Gopalan, Rajiv Prasad",
+    "year": 2024,
+    "link": "https://doi.org/10.1109/GHTC62424.2024.10771548",
+    "doi": "10.1109/GHTC62424.2024.10771548",
+    "abstract": "This quasi-experimental study evaluates the impact of a three-month digital Integrated Amrita Meditation (IAM)\u00ae technique intervention program on the perceived stress levels of incarcerated populations. The availability of adequate mental healthcare in prison settings tends to be extremely limited, leading to a number of adverse effects on prisoners pre- and post-release and putting an already vulnerable segment of society at increased risk. In addition to reducing stress levels and positively affecting general mental well-being, offering IAM\u00ae sessions as a digital programme has been shown to reach greater population numbers. Such programmes could also increase the long-term accessibility and adherence to mental health promotion programmes postrelease, which has been correlated with decreased rates of recidivism and a more sustained constructive engagement in society.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Is Humanitarian Aid Funding Fair and Square? Correlating Social Justice to Humanitarian aid Utilisation",
+    "authors": "Zikambiyani Haanyika, Nina Trauernicht, Alberto Martinetti, Eric Lutters",
+    "year": 2024,
+    "link": "https://doi.org/10.1109/GHTC62424.2024.10771547",
+    "doi": "10.1109/GHTC62424.2024.10771547",
+    "abstract": "The majority of aid funding is directed to international organizations with very little going directly to local actors. This takes decision-making power away from local communities. Yet principles of humanitarian engineering emphasize socially just practices. Failure to consider these principles leads to the design of inappropriate technologies. This study investigates how the highest recipients of aid make decisions, and whether social justice is considered. Financial Tracking Service (FTS) data is analysed to determine which organizations are receiving the most funding. Needs assessment guidelines followed by these organizations are reviewed against a proposed social justice criteria. It has been found that the needs assessment guidelines emphasize participatory rights-based approaches, however, this is not reflected within their step-by-step frameworks. It is recommended to incorporate strategies of capacity sharing, trust building and genuine participation that reflects the criteria for social justice.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Investigating Professional Volunteering Experiences in Humanitarian Engineering Projects",
+    "authors": "Sabrina Bradford, Emma Balevic, Grace Burleson",
+    "year": 2024,
+    "link": "https://doi.org/10.1109/GHTC62424.2024.10771585",
+    "doi": "10.1109/GHTC62424.2024.10771585",
+    "abstract": "The goal of this work is to gain a broad understanding of the motivations, barriers, and career impacts for professional engineers participating in humanitarian engineering projects. Utilizing a survey and interview methodology, our study team is exploring the experiences of professional volunteers who have participated in Humanitarian Engineering (HE) programs. We anticipate findings to provide an improved understanding for how professional volunteer programs can better support, train, and incentivize professional engineers in carrying out humanitarian engineering work effectively.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  }
+]

@@ -1,0 +1,336 @@
+[
+  {
+    "id": "labour_gig_platform_labour_precarity_and_worker_agency",
+    "name": "Gig/platform labour precarity and worker agency",
+    "areas": [
+      "labour"
+    ],
+    "description": "This domain examines the precarious conditions faced by gig and platform workers, particularly ride-hailing and delivery workers across the Global South, as seen in studies of UberGo drivers, Cape Town ride-hailing, and delivery workers in urban India. It attends to how gendered inequalities shape the gig economy in places like New Delhi, how AI management affects worker pay and motivation, and how workers exercise agency through gamification and risk-mitigation strategies. It also considers pathways for facilitating gig work opportunities, especially for youth in developing countries.",
+    "topics_covered": [
+      "problem_discovery",
+      "cs_fundamentals",
+      "ethnographic_design",
+      "sociotechnical_dynamics",
+      "impact_evaluation",
+      "operations_scale"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "caste",
+      "social_capital_marginalization"
+    ],
+    "readings": [
+      "aies_2025_part1_experimental_evidence_that_ai_managed_workers",
+      "compass_2024_unveiling_two_fold_gamification_exploring_the",
+      "ictd_2020_gendered_gigs_understanding_the_gig_economy",
+      "ictd_2022_driven_to_the_brink_understanding_digital",
+      "ifip_ict4d_2020_risks_and_risk_mitigation_strategies_of",
+      "ifip_ict4d_2022_gendered_inequality_on_digital_labour_platforms",
+      "ifip_ict4d_2024_part1_facilitating_gig_work_opportunities_for_youth"
+    ],
+    "background_concepts": [
+      {
+        "concept": "Algorithmic management",
+        "why_needed": "These ethnographic studies of ride-hailing and delivery workers assume the reader understands algorithmic management\u2014how platforms delegate task allocation, monitoring, and discipline to algorithms rather than human managers\u2014without defining it.",
+        "suggested_resources": [
+          {
+            "title": "Gig Work, Algorithmic Technologies, and the Uncertain Future of Work (open chapter)",
+            "url": "https://link.springer.com/chapter/10.1007/978-3-031-31494-0_4",
+            "type": "primer"
+          }
+        ]
+      },
+      {
+        "concept": "Gamification (points, badges, leaderboards)",
+        "why_needed": "The 'two-fold gamification' study analyzes how delivery-platform incentive design manipulates worker behavior, but assumes familiarity with game-design elements (points, badges, leaderboards, extrinsic vs. intrinsic motivation) as applied to non-game contexts.",
+        "suggested_resources": [
+          {
+            "title": "What is Gamification? \u2014 Interaction Design Foundation",
+            "url": "https://ixdf.org/literature/topics/gamification",
+            "type": "primer"
+          },
+          {
+            "title": "Gamification and Game-Based Learning \u2014 University of Waterloo CTE",
+            "url": "https://uwaterloo.ca/centre-for-teaching-excellence/catalogs/tip-sheets/gamification-and-game-based-learning",
+            "type": "course_module"
+          }
+        ]
+      },
+      {
+        "concept": "Capability approach / freedom-based development",
+        "why_needed": "The 'freedom-based inclusion' framing in the gendered-inequality paper draws directly on Amartya Sen's capability approach (functionings, agency, substantive freedoms) without explaining this theoretical foundation.",
+        "suggested_resources": [
+          {
+            "title": "Sen's Capability Approach \u2014 Internet Encyclopedia of Philosophy",
+            "url": "https://iep.utm.edu/sen-cap/",
+            "type": "primer"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "labour_algorithmic_fairness_interventions_for_platform_workers",
+    "name": "Algorithmic fairness interventions for platform workers",
+    "areas": [
+      "labour"
+    ],
+    "description": "This domain focuses on designing technical and algorithmic interventions to improve labour conditions for platform workers. The readings address creating dynamic checklists through Bayesian case-based reasoning to promote decent work and developing scheduling mechanisms that guarantee fair wages for food delivery workers.",
+    "topics_covered": [
+      "cs_fundamentals",
+      "ethnographic_design",
+      "impact_evaluation",
+      "operations_scale"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "caste",
+      "social_capital_marginalization"
+    ],
+    "readings": [
+      "ijcai_2022_creating_dynamic_checklists_via_bayesian_case",
+      "ijcai_2022_gigs_with_guarantees_achieving_fair_wage"
+    ],
+    "background_concepts": [
+      {
+        "concept": "Algorithmic management / work allocation on platforms",
+        "why_needed": "These CS system-design papers propose fair-wage scheduling and dynamic safety checklists as interventions layered onto platform work-allocation systems; they assume the reader knows how baseline algorithmic task/wage allocation on gig platforms functions.",
+        "suggested_resources": [
+          {
+            "title": "The Algorithmic-Human Manager: work allocation and wage determination (open primer sections)",
+            "url": "https://arxiv.org/pdf/2606.19975",
+            "type": "primer"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "labour_mgnrega_public_employment_guarantee_as_climate_and_welfare_infrastructure",
+    "name": "MGNREGA / public employment guarantee as climate and welfare infrastructure",
+    "areas": [
+      "labour"
+    ],
+    "description": "This domain explores India's MGNREGA public employment guarantee scheme as a dual mechanism for welfare provision and climate resilience. The readings cover tools like CRISP-M for climate-resilient planning, pro-poor climate support through social protection and small-scale infrastructure, and the carbon sequestration co-benefits achievable through MGNREGS activities. Together they frame public works employment as an infrastructure linking poverty alleviation with environmental mitigation.",
+    "topics_covered": [
+      "problem_discovery",
+      "cs_fundamentals",
+      "ethnographic_design",
+      "sociotechnical_dynamics",
+      "impact_evaluation",
+      "operations_scale"
+    ],
+    "cross_cutting_axes": [
+      "climate_change"
+    ],
+    "readings": [
+      "bharadwaj_crisp_m_mgnrega",
+      "fischer_pro_poor_climate_mgnrega",
+      "ravindranath_murthy_mgnrega_carbon_1",
+      "ravindranath_murthy_mgnrega_carbon_2"
+    ],
+    "background_concepts": [
+      {
+        "concept": "MGNREGA (rural employment guarantee scheme)",
+        "why_needed": "All these papers presuppose knowledge of MGNREGA's institutional mechanics\u2014100 days of guaranteed wage work, demand-driven design, Gram Panchayat implementation, and the water/soil/afforestation asset works that generate climate co-benefits.",
+        "suggested_resources": [
+          {
+            "title": "MGNREGS \u2014 Drishti IAS government schemes guide",
+            "url": "https://www.drishtiias.com/important-government-schemes/ministry-of-rural-development/mahatma-gandhi-national-rural-employment-guarantee-scheme-mgnrega",
+            "type": "agency_guide"
+          },
+          {
+            "title": "MGNREGA case study \u2014 UCLG-CISDP observatory (PDF)",
+            "url": "https://uclg-cisdp.org/sites/default/files/observatory/files/2021-06/IndiaMGNREA_EN.pdf",
+            "type": "agency_guide"
+          }
+        ]
+      },
+      {
+        "concept": "Soil carbon sequestration",
+        "why_needed": "The carbon co-benefit papers quantify carbon sequestered by MGNREGA's land/water/afforestation works but assume the reader understands the physical process by which atmospheric CO2 is transferred into soil organic carbon and biomass.",
+        "suggested_resources": [
+          {
+            "title": "Soil Carbon Sequestration\u2014Fundamentals \u2014 Ohio State Ohioline",
+            "url": "https://ohioline.osu.edu/factsheet/AEX-510",
+            "type": "primer"
+          },
+          {
+            "title": "Soil Carbon Sequestration \u2014 FAO Soils Portal",
+            "url": "https://www.fao.org/soils-portal/soil-management/soil-carbon-sequestration/en/",
+            "type": "agency_guide"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "labour_welfare_allocation_equity_and_datafication_of_marginalized_workers",
+    "name": "Welfare allocation equity and datafication of marginalized workers",
+    "areas": [
+      "labour"
+    ],
+    "description": "This domain investigates equity and discrimination in the distribution of social protection benefits, particularly in India's National Rural Employment Guarantee Scheme. The readings analyze caste-based inequities in welfare allocation, the datafication encounters that reproduce discrimination for marginalized workers, and the broader structural challenges of India's social protection system.",
+    "topics_covered": [
+      "problem_discovery",
+      "ethnographic_design",
+      "sociotechnical_dynamics",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "caste",
+      "social_capital_marginalization"
+    ],
+    "readings": [
+      "2022_challenges_with_social_protection",
+      "ictd_2022_inheriting_discrimination_datafication_encounters_of_marginalized",
+      "ictd_2024_an_in_depth_analysis_of_caste"
+    ],
+    "background_concepts": [
+      {
+        "concept": "Caste system and Scheduled Castes/Scheduled Tribes",
+        "why_needed": "The caste-inequity analyses assume the reader understands India's caste hierarchy, the constitutional Scheduled Caste/Scheduled Tribe categories, and reservation policy that structure how welfare discrimination is measured.",
+        "suggested_resources": [
+          {
+            "title": "An introduction to the basic elements of the caste system of India \u2014 Frontiers",
+            "url": "https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2023.1210577/full",
+            "type": "primer"
+          },
+          {
+            "title": "Scheduled Caste \u2014 INSIGHTS IAS explainer",
+            "url": "https://www.insightsonindia.com/social-justice/issues-related-to-sc-st/scheduled-caste/",
+            "type": "primer"
+          }
+        ]
+      },
+      {
+        "concept": "Aadhaar and Direct Benefit Transfer (DBT)",
+        "why_needed": "Studies of datafied welfare allocation and 'datafication encounters' assume knowledge of India's Aadhaar biometric ID and DBT infrastructure through which benefits are digitally targeted and can encode exclusion of marginalized workers.",
+        "suggested_resources": [
+          {
+            "title": "Aadhaar for Direct Benefit Transfer (DBT) \u2014 UIDAI (Government of India)",
+            "url": "https://uidai.gov.in/en/contact-support/have-any-question/309-english-uk/faqs/direct-benefit-transfer-dbt/about-dbt.html",
+            "type": "agency_guide"
+          },
+          {
+            "title": "Direct Benefit Transfer & the JAM Trinity explained",
+            "url": "https://indiapolicyhub.in/2026/03/16/what-is-direct-benefit-transfer-dbt-in-india-a-complete-explainer-of-the-jam-trinity/",
+            "type": "primer"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "labour_digital_traces_for_labour_market_and_migration_measurement",
+    "name": "Digital traces for labour market and migration measurement",
+    "areas": [
+      "labour"
+    ],
+    "description": "This domain examines how digital data sources can be used to measure labour market dynamics and human mobility. The readings demonstrate using social media to track labour market flows and unemployment, mobile phone call records to infer internal migration in Rwanda, and phone data to study cash transfers and phone sharing in Togo, alongside survey-based analysis of India's labour market changes.",
+    "topics_covered": [
+      "problem_discovery",
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "readings": [
+      "antenucci_social_media_labour_flows",
+      "blumenstock_migration_rwanda",
+      "compass_2022_phone_sharing_and_cash_transfers_in",
+      "llorente_social_media_unemployment",
+      "thomas_india_labour_market_2000s"
+    ],
+    "background_concepts": [
+      {
+        "concept": "Call Detail Records (CDRs)",
+        "why_needed": "The Rwanda migration inference and Togo phone-sharing papers derive mobility and labour proxies from CDRs, assuming the reader knows what these mobile-operator records contain (caller/callee, time, duration, cell-tower location) and how tower data approximates location.",
+        "suggested_resources": [
+          {
+            "title": "Making the Most of Mobility Data (CDRs): A Guide for Policymakers \u2014 MIT GOV/LAB",
+            "url": "https://mitgovlab.org/resources/making-the-most-of-mobility-data-cdrs-a-guide-for-policymakers/",
+            "type": "agency_guide"
+          },
+          {
+            "title": "How Analysis of Call Detail Records Provides Information for Development \u2014 ALNAP",
+            "url": "https://alnap.org/help-library/resources/mobile-phone-network-data-for-development-how-analysis-of-call-detail-records-cdrs/",
+            "type": "primer"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "labour_digital_platforms_for_social_protection_and_inclusive_employment_access",
+    "name": "Digital platforms for social protection and inclusive employment access",
+    "areas": [
+      "labour"
+    ],
+    "description": "This domain explores how digital technologies and platforms can expand access to social benefits and employment for marginalized and disadvantaged populations. The readings cover smartphone usage among emergent users in India, cashless transaction adoption in Bangladesh, technology-enabled benefit access for seasonal migrant workers, and digital pathways to employment for Hijra (third gender) communities. It also includes frameworks like VulnerabilityMap for identifying and mapping vulnerable urban populations.",
+    "topics_covered": [
+      "problem_discovery",
+      "cs_fundamentals",
+      "ethnographic_design",
+      "impact_evaluation",
+      "operations_scale"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "caste",
+      "social_capital_marginalization"
+    ],
+    "readings": [
+      "compass_2022_sophistication_with_limitation_understanding_smartphone_usage",
+      "compass_2022_the_role_of_intermediaries_terrorist_assemblage",
+      "ghtc_2024_leveraging_technology_for_equitable_access_to",
+      "ictd_2024_from_exclusion_to_inclusion_digital_platforms",
+      "ijcai_2024_vulnerabilitymap_an_open_framework_for_mapping"
+    ],
+    "background_concepts": [
+      {
+        "concept": "Hijra / third-gender communities in South Asia",
+        "why_needed": "The Hijra employment-pathway paper assumes familiarity with hijra as a recognized third-gender community in South Asia and their historically marginalized socio-economic position, which shapes the inclusion intervention.",
+        "suggested_resources": []
+      },
+      {
+        "concept": "Direct Benefit Transfer / Aadhaar-linked social protection",
+        "why_needed": "Papers on connecting marginalized groups to social benefits assume the reader knows India's Aadhaar-linked DBT welfare-delivery infrastructure that civil-society intermediaries help populations navigate.",
+        "suggested_resources": [
+          {
+            "title": "Aadhaar for Direct Benefit Transfer (DBT) \u2014 UIDAI (Government of India)",
+            "url": "https://uidai.gov.in/en/contact-support/have-any-question/309-english-uk/faqs/direct-benefit-transfer-dbt/about-dbt.html",
+            "type": "agency_guide"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "labour_migrant_and_refugee_worker_safety_and_ict_mediated_support",
+    "name": "Migrant and refugee worker safety and ICT-mediated support",
+    "areas": [
+      "labour"
+    ],
+    "description": "This domain addresses how information and communication technologies support the safety, solidarity, and resilience of migrant and refugee workers in crisis situations. The readings examine ICT use and hope-building among Rohingya refugees in Bangladesh, Indian migrant workers navigating ICTs during the pandemic, and advocacy efforts toward social safety for migrant workers.",
+    "topics_covered": [
+      "problem_discovery",
+      "ethnographic_design",
+      "sociotechnical_dynamics",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "caste",
+      "social_capital_marginalization"
+    ],
+    "readings": [
+      "ictd_2020_infrastructuring_hope_solidarity_leadership_negotiation_and",
+      "ictd_2022_navigating_crisis_navigating_icts_a_study",
+      "ted_ashif_shaikh_migrant_worker_safety"
+    ],
+    "background_concepts": []
+  }
+]

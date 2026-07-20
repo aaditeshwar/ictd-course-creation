@@ -1,0 +1,250 @@
+[
+  {
+    "domain_name": "Mobile phones and market efficiency in developing economies",
+    "reading_ids": [
+      "ifip_ict4d_2024_part1_overcoming_marginalization_mobile_payment_domestication_by"
+    ],
+    "background_concepts": [
+      {
+        "concept": "Mobile money / digital financial services (agent networks, USSD, digital wallets)",
+        "why_needed": "The paper analyzes microentrepreneurs adopting mobile payment systems but assumes familiarity with how mobile money works (agents, wallets, feature-phone access via USSD) rather than teaching it.",
+        "suggested_resources": [
+          {
+            "title": "Mobile money: an industry primer (Cerillion)",
+            "url": "https://www.cerillion.com/blog/mobile-money-an-industry-primer/",
+            "type": "primer"
+          },
+          {
+            "title": "MFS 001 - A Beginner's Guide to Mobile Financial Services",
+            "url": "https://www.linkedin.com/pulse/mfs-001-beginners-guide-mobile-financial-services-hawas-matta",
+            "type": "primer"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "domain_name": "Rural electrification via microgrids and minigrids",
+    "reading_ids": [
+      "ghtc_2022_accelerating_mini_grid_feasibility_assessments_with",
+      "ghtc_2024_applying_social_practice_theory_to_understand"
+    ],
+    "background_concepts": [
+      {
+        "concept": "Levelized Cost of Electricity (LCOE) / net present cost in mini-grid feasibility",
+        "why_needed": "The feasibility-assessment reading evaluates business models and system sizing using LCOE and net-present-cost metrics without explaining these financial concepts.",
+        "suggested_resources": [
+          {
+            "title": "Levelized Cost of Energy Calculation (arXiv intro sections)",
+            "url": "https://arxiv.org/pdf/1610.07289",
+            "type": "lecture_notes"
+          },
+          {
+            "title": "Mini Grids for Half a Billion People \u2014 Handbook (ESMAP/World Bank)",
+            "url": "https://sdgs.un.org/sites/default/files/2021-05/Mini%20Grids%20For%20Half%20A%20Billion%20People%20-%20Market%20Outlook%20And%20Handbook%20For%20Decision%20Makers.pdf",
+            "type": "agency_guide"
+          }
+        ]
+      },
+      {
+        "concept": "Social Practice Theory (materials\u2013competences\u2013meanings triad)",
+        "why_needed": "The microgrid demand paper applies Shove et al.'s three-element social practice framework as its analytic lens but presumes the reader already knows the theory.",
+        "suggested_resources": [
+          {
+            "title": "Social Practice Theory (University of Bristol workshop notes)",
+            "url": "https://www.bristol.ac.uk/sps/gettingthingschanged/archive/workshops/socialpractice/",
+            "type": "lecture_notes"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "domain_name": "Electricity provision and the political economy of the grid",
+    "reading_ids": [
+      "ghtc_2023_is_technology_the_answer_to_universal",
+      "ghtc_2023_a_workshop_for_electricity_access_educators"
+    ],
+    "background_concepts": [
+      {
+        "concept": "Energy access tiers / universal electrification frameworks (SDG7)",
+        "why_needed": "These readings frame universal energy access in terms of policy targets and access tiers without introducing the underlying institutional framing.",
+        "suggested_resources": [
+          {
+            "title": "Technical and Economic Assessment of Off-grid, Mini-grid and Grid Electrification Technologies (ESMAP)",
+            "url": "https://www.esmap.org/sites/default/files/esmap-files/Technical%20and%20Economic%20Assessment%20of%20Off-grid,%20Minigrid%20and%20Grid%20Electrification%20Technologies_Report%2012107.pdf",
+            "type": "agency_guide"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "domain_name": "Satellite/remote-sensing mapping of infrastructure and socioeconomic conditions",
+    "reading_ids": [
+      "jcss_2023_tracking_socio_economic_development_in_rural"
+    ],
+    "background_concepts": [
+      {
+        "concept": "Nighttime lights (DMSP-OLS / VIIRS) as a proxy for economic activity",
+        "why_needed": "The reading tracks socioeconomic development from satellite imagery, relying on the established use of nighttime radiance and remote-sensing pixel data as development proxies without explaining these fundamentals.",
+        "suggested_resources": [
+          {
+            "title": "Illuminating Economic Growth (IMF Finance & Development)",
+            "url": "https://www.imf.org/en/publications/fandd/issues/2019/09/satellite-images-at-night-and-economic-growth-yao",
+            "type": "primer"
+          },
+          {
+            "title": "Applications of nighttime light data in international development research (3ie)",
+            "url": "https://www.3ieimpact.org/blogs/applications-nighttime-light-data-international-development-research",
+            "type": "primer"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "domain_name": "Solar energy forecasting and rooftop/asset assessment",
+    "reading_ids": [
+      "ghtc_2022_experimental_design_for_measuring_the_effect",
+      "ghtc_2022_installing_solar_for_haitian_civil_society"
+    ],
+    "background_concepts": [
+      {
+        "concept": "Photovoltaic effect, solar irradiance, and soiling losses",
+        "why_needed": "The soiling-experiment paper measures how dust reduces panel power output, assuming knowledge of the photovoltaic effect, irradiance (W/m\u00b2), and Standard Test Conditions.",
+        "suggested_resources": [
+          {
+            "title": "How Does Solar Work? (US DOE)",
+            "url": "https://www.energy.gov/eere/solar/how-does-solar-work",
+            "type": "agency_guide"
+          },
+          {
+            "title": "Solar Radiation Basics (US DOE)",
+            "url": "https://www.energy.gov/eere/solar/solar-radiation-basics",
+            "type": "agency_guide"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "domain_name": "Sensing and data-driven optimization of local energy demand and services",
+    "reading_ids": [
+      "jcss_2024_analyzing_the_energy_usage_of_a",
+      "ghtc_2022_the_repurposing_of_nickel_metal_hydride",
+      "ghtc_2023_demonstrating_the_value_of_generating_and"
+    ],
+    "background_concepts": [
+      {
+        "concept": "Energy storage economics and load/peak-shifting",
+        "why_needed": "These readings analyze community energy usage and repurposed batteries for storage, assuming the reader understands storage sizing, load profiles, and cost per kWh over a system lifetime.",
+        "suggested_resources": [
+          {
+            "title": "Levelized Cost of Energy Calculation for Energy Storage Systems (arXiv intro)",
+            "url": "https://arxiv.org/pdf/1610.07289",
+            "type": "lecture_notes"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "domain_name": "Disaster and climate risk detection for infrastructure resilience",
+    "reading_ids": [
+      "ghtc_2023_the_value_of_a_systems_architecture",
+      "ghtc_2024_digital_information_content_platform_for_sustainable"
+    ],
+    "background_concepts": [
+      {
+        "concept": "Disaster risk reduction frameworks (Sendai Framework, hazard/exposure/vulnerability)",
+        "why_needed": "The systems-architecture-for-DRR paper presumes familiarity with the institutional vocabulary of disaster risk reduction \u2014 priorities, the hazard\u2013vulnerability\u2013exposure decomposition, and early-warning targets.",
+        "suggested_resources": [
+          {
+            "title": "What is the Sendai Framework for Disaster Risk Reduction? (UNDRR)",
+            "url": "https://www.undrr.org/implementing-sendai-framework/what-sendai-framework",
+            "type": "agency_guide"
+          },
+          {
+            "title": "6 facts on the Sendai Framework (United Nations University)",
+            "url": "https://unu.edu/ehs/article/6-facts-sendai-framework-disaster-risk-reduction",
+            "type": "primer"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "domain_name": "Rural telecenters and shared-access digital service delivery",
+    "reading_ids": [
+      "itid_2017_inclusive_capitalism_and_development_case_studies",
+      "aseth_publications_design_and_implementation_of_the_kiosknet"
+    ],
+    "background_concepts": [
+      {
+        "concept": "Delay/disruption-tolerant networking and store-and-forward",
+        "why_needed": "KioskNet is built on store-and-forward, delay-tolerant networking to serve intermittently-connected rural kiosks, assuming the reader understands DTN and the bundle/mechanical-backhaul model.",
+        "suggested_resources": [
+          {
+            "title": "Delay- and Disruption-Tolerant Networks: A Tutorial (NASA)",
+            "url": "https://www.nasa.gov/wp-content/uploads/2023/09/dtn-tutorial-v3.2-0.pdf",
+            "type": "agency_guide"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "domain_name": "Power grid reliability monitoring and analytics",
+    "reading_ids": [
+      "ghtc_2024_natural_language_processing_reveals_core_issues"
+    ],
+    "background_concepts": [
+      {
+        "concept": "Topic modeling / Latent Dirichlet Allocation (LDA)",
+        "why_needed": "The Uganda grid-outage paper uses NLP topic modeling on outage records to surface recurring issues but assumes the reader knows how techniques like LDA extract latent topics from text.",
+        "suggested_resources": [
+          {
+            "title": "Introduction to Topic Modelling in NLP (DigitalOcean)",
+            "url": "https://www.digitalocean.com/community/tutorials/introduction-to-topic-modelling",
+            "type": "primer"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "domain_name": "Rural and last-mile network connectivity measurement",
+    "reading_ids": [
+      "aseth_publications_first_impressions_on_the_state_of",
+      "aseth_publications_2g_3g_network_measurements_in_rural"
+    ],
+    "background_concepts": [
+      {
+        "concept": "Cellular signal metrics (RSSI, Ec/Io, RSCP, throughput) for 2G/3G",
+        "why_needed": "These measurement studies report signal strength and quality using metrics like RSSI and Ec/Io and cellular-generation terminology without defining them.",
+        "suggested_resources": [
+          {
+            "title": "Understanding RSSI, RSRP, and RSRQ (5Gstore)",
+            "url": "https://5gstore.com/blog/2021/04/08/understanding-rssi-rsrp-and-rsrq/",
+            "type": "primer"
+          },
+          {
+            "title": "Beyond Signal Bars: Understanding RSSI, RSRP, SINR & Other Key Metrics (Teltonika)",
+            "url": "https://www.teltonika-networks.com/newsroom/beyond-signal-bars-understanding-rssi-rsrp-sinr-and-other-key-metrics",
+            "type": "primer"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "domain_name": "Digital inclusion for marginalized users and small organizations",
+    "reading_ids": [
+      "jcss_2023_focusing_on_the_unfocused_corresponding_perspectives",
+      "jcss_2024_connecting_in_crisis_investigating_equitable_community",
+      "ifip_ict4d_2024_part2_bridging_the_digital_divide_securing_information"
+    ],
+    "background_concepts": []
+  }
+]

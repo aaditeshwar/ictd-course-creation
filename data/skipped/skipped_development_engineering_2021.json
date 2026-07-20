@@ -1,0 +1,236 @@
+[
+  {
+    "title": "Tracking economic activity in response to the COVID-19 crisis using nighttime lights \u2013 The case of Morocco",
+    "authors": "Mark Roberts",
+    "year": 2021,
+    "link": "https://doi.org/10.1016/j.deveng.2021.100067",
+    "doi": "10.1016/j.deveng.2021.100067",
+    "abstract": "Over the past decade, nighttime lights have become a widely used proxy for measuring economic activity. This paper examines the potential for high frequency nighttime lights data to provide \"near real-time\" tracking of the economic impacts of the COVID-19 crisis in Morocco. At the national level, there exists a statistically significant correlation between quarterly movements in Morocco's overall nighttime light intensity and movements in its real GDP. This finding supports the cautious use of lights data to track the economic impacts of the COVID-19 crisis at higher temporal frequencies and at the subnational and city levels, for which GDP data are unavailable. Relative to its pre-COVID-19 trend growth path of lights, Morocco experienced a large drop in the overall intensity of its lights in March 2020 following the country's first COVID-19 case and the introduction of strict lockdown measures, from which it has subsequently struggled to recover. At the subnational and city levels, while all regions and cities examined shared in March's national decline in nighttime light intensity, some suffered much larger declines than others. Since then, the relative effects of the COVID-19 shock across regions and cities appear to have largely persisted. Notwithstanding these findings, however, further research is required to ascertain the exact causes of the observed changes in light intensity and to fully verify that the results are driven by anthropogenic causes.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Factors leading to sustainable social impact on the affected communities of engineering service learning projects",
+    "authors": "Andrew Armstrong, Christopher A. Mattson, Randy S. Lewis",
+    "year": 2021,
+    "link": "https://doi.org/10.1016/j.deveng.2021.100066",
+    "doi": "10.1016/j.deveng.2021.100066",
+    "abstract": "University engineering programs across the USA engage in service learning projects. These projects involve student teams designing and implementing products or solutions for communities in need, often in developing nations. There has been much research done relating to pedagogy and the impact of these programs on student learning. However, less research has been done on measuring the impact of these programs on the affected communities. This paper examines factors that practitioners believe are related to successfully delivering a desirable and transferable solution to affected communities. The authors identified 49 distinct factors from the literature that implicitly or explicitly are suggested to contribute to successful project outcomes. Formed as postulates in this paper, these 49 factors have been separated into 5 categories to assist understanding and implementing these factors into service learning programs. Lastly, different methods of analyzing and measuring project success and impact are discussed. Future methods for proving the viability of the 49 postulates are discussed as well.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Extended exergy sustainability analysis comparing environmental impacts of disposal methods for waste plastic roof tiles in Uganda",
+    "authors": "Paige Balcom, Juliana Mora Cabrera, Van P. Carey",
+    "year": 2021,
+    "link": "https://doi.org/10.1016/j.deveng.2021.100068",
+    "doi": "10.1016/j.deveng.2021.100068",
+    "abstract": "The world is facing an increasingly dire plastic waste crisis that affects people in developing countries disproportionately more than those in industrialized nations . To compare the environmental effects of end of life disposal and recycling options for plastic/sand roof tiles in Uganda, we use an extended exergy analysis (EEA) to quantify the resources used in the disposal process, the resources saved from replaced virgin materials by recycling, and any additional resources needed to bring the tiles, byproducts, and pollutants to an environmentally acceptable end state. We evaluated disposing of waste plastic/sand roof tiles through open burning, burying, landfilling, pyrolyzing, incinerating in cement kilns , mixing into asphalt to pave roads, and recycling into plastic pavers. With a net exergy avoided of 16,462 MJ/tonne of tiles, mixing the waste plastic/sand tiles into asphalt roads proved to be the best option followed by pyrolysis with 11,303 MJ/tonne of net exergy avoided (including remediation). Recycling the tiles into pavers also saved net exergy while burying, landfilling, and incinerating all had negative net exergy values showing that inputting some thermal energy to recycle waste can add value and save net resources. We determined it is not practically feasible to bring all of the pollutants from open burning to an environmentally acceptable end state with the limited technology available in Uganda. However, the method we recommend for remediating CO 2 by planting trees requires only 0.7% of the exergy used in CO 2 scrubbers currently used in developed countries . Such an empirical study focusing specifically on plastic products and disposal options feasible in developing countries has not been done before, so our paper can be useful to policy makers, multilateral organizations, and NGOs making decisions about solid waste management practices in less-industrialized nations. The results from this paper are valid for HDPE , LDPE, and PP plastics but not for PET or PVC .",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Ingredients for growth: Examining electricity consumption and complementary infrastructure for Small and Medium Enterprises in Kenya",
+    "authors": "Bob Muhwezi, Nathaniel J. Williams, Jay Taneja",
+    "year": 2021,
+    "link": "https://doi.org/10.1016/j.deveng.2021.100072",
+    "doi": "10.1016/j.deveng.2021.100072",
+    "abstract": "In Kenya, between 2010 and 2015, the number of Small and Medium Enterprises (SMEs) connected to the grid increased by over 60%. Despite this substantial increase, little is known about the behavioural patterns or conditions that contribute to increased electricity consumption among these SMEs. This study addresses the problem through a longitudinal analysis of monthly electricity bills for over 179,000 grid connected SMEs in Kenya. We then leverage multiple publicly available geospatial datasets to estimate how complementary infrastructural variables (such as access to roads, markets, financial services, and macro/micro-economic conditions) correlate with sustained electricity consumption growth by SMEs. Results from our longitudinal analysis indicate that newly electrified SMEs in urban areas have higher median consumption than their older counterparts while in rural areas, more newly connected SMEs appear to have lower median consumption. We find the effects of complementary infrastructure on SME electricity consumption to be more pronounced in rural areas than urban areas. For example, SMEs located in rural neighborhoods with close proximity to roads, markets or financial service providers are associated with a 10% to 16% increase in electricity consumption while in urban areas, we only observe about a 2% increment in electricity consumption for SMEs within close proximity to roads. All other infrastructural variables are either statistically insignificant or negatively correlated with urban SME electricity consumption.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "A glimpse into real-world kitchens: Improving our understanding of cookstove usage through in-field photo-observations and improved cooking event detection (CookED) analytics",
+    "authors": "Evan Coffey, Elise Mesenbring, Maxwell Ayindenaba Dalaba, Desmond Agao, Rex Alirigia, Taylor Begay, Ali Moro, Abraham Oduro, Zachary Brown, Katherine L. Dickinson, Michael Hannigan",
+    "year": 2021,
+    "link": "https://doi.org/10.1016/j.deveng.2021.100065",
+    "doi": "10.1016/j.deveng.2021.100065",
+    "abstract": "The combustion of solid fuels in residential cookstoves is a global health and climate issue, and expanded use of improved cookstoves could have significant benefits locally and globally. Evaluating impacts of improved cookstove programs requires more accurately measuring stove use patterns. This work builds on and improves existing stove use monitoring methods. First, we introduce and describe a novel, in-field photo-observation sampling method designed to capture near-continuous, real-world, ground-truth stove usage information. These measurements are used to validate predictions made by electronic stove use monitors (SUMs). Second, we present Cooking Event Detector (CookED), a SUM algorithm that translates stove-temperature measurements into classifications of cooking or not-cooking. The predictive performance of the new algorithm is evaluated using results from the photo-observations and compared to existing algorithms. CookED demonstrates considerable improvement over some methods for all five types of improved and traditional stoves monitored in the study. Overall minute-level predictive accuracy of CookED ranges from 95.6% to 98.4%, depending on the stove type, while Matthews correlation coefficients range from 72.8% to 88.3%. Comparisons between predicted and observed average cooking event durations show high correlation (Pearson's r = 0.85). These methods can be applied in a wide variety of applications, including research studies linking behavior, technology, exposure, and human and environmental health, as well as operational programs that aim to scale up improved cookstove adoption and quantify benefits.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "A techno-economic and environmental assessment of residential rooftop solar - Battery systems in grid-connected households in Lagos, Nigeria",
+    "authors": "Chukwudi Udeani, Paulina Jaramillo, Nathaniel J. Williams",
+    "year": 2021,
+    "link": "https://doi.org/10.1016/j.deveng.2021.100069",
+    "doi": "10.1016/j.deveng.2021.100069",
+    "abstract": "We developed a techno-economic model to simulate the performance of residential solar-battery systems as a means of reducing the reliance on backup generators in grid connected households in Lagos, Nigeria. We compared the economic and environmental performance of solar-battery systems to the technology options in households that may currently rely on backup generators to supplement unreliable grid service. Our analysis shows that solar-battery systems are economically profitable for households who rely on their backup generators to ensure at least 8-h of reliable service daily. We also show that the solar-battery systems could offer a cost-effective alternative for households intending to increase the level of the electricity services they receive without greater demand from backup generators. Finally, installing the solar-battery system lowers annual air emissions from households by 15 %\u201387 %. The paper proposes that policymakers provide access to low interest loans to improve the economic attractiveness of solar-battery systems across all the reliability preference levels.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Modified strip tillage blades for two-wheel tractor seed drills improves maize crop establishment under conservation agriculture",
+    "authors": "Muhammad Arshadul Hoque, Mahesh K. Gathala, Md. Mosharraf Hossain, A. T. M. Ziauddin, Timothy J. Krupnik",
+    "year": 2021,
+    "link": "https://doi.org/10.1016/j.deveng.2021.100061",
+    "doi": "10.1016/j.deveng.2021.100061",
+    "abstract": "Two-wheel tractors (2WTs) are widely used by resource-poor farmers to prepare land in the Eastern Indo-Gangetic Plains (EIGP). This paper demonstrates that improved tillage blade design can enhance maize crop establishment under strip tillage, which falls under the rubric of conservation agriculture (CA). In order to achieve this aim, it is necessary to identify appropriate blade design and rotational speed for power tiller operated seeders, or PTOS, which can be attached to 2WTs and that are increasingly popular in the EIGP. We conducted experiments over two years in two locations in the EIGP within Bangladesh with loam and clay loam soils, respectively. Four blades designed with varying tip angles and five levels of rotational speed were compared with commercially available C-shaped blades sold with 2WTs. Torque and power requirements for strip tillage decreased with decreasing blade tip angle and rotational speed. The best combination of blade design and rotational speed was found with a 15\u00b0 blade tip angle at 320 RPM. This combination resulted in higher furrow cross sectional area, more soil backfill with appropriately sized soil aggregates, and better seeding depth than C-shaped and 45\u00b0 tip angle blades. These characteristics also facilitated improved crop establishment on both soil types. Our results indicate that strip-till maize establishment can be improved in Bangladesh by substituting commercially-available C-shaped blades with a 15\u00b0 blade tip angle at appropriate 320 RPM, though machinery operators will require educational efforts to learn how to fine-tune RPM to improve crop establishment and achieve more sustainable crop establishment systems.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Design of remote data collection devices for social impact indicators of products in developing countries",
+    "authors": "Bryan J. Stringham, Christopher A. Mattson",
+    "year": 2021,
+    "link": "https://doi.org/10.1016/j.deveng.2021.100062",
+    "doi": "10.1016/j.deveng.2021.100062",
+    "abstract": "Social impact indicators provide one effective way to measure the social impacts of products in developing countries and ensure that engineering design is producing positive impacts on individuals. Remote data collection devices enable the use of sensors to collect user data required to calculate social impact indicators remotely, continuously, and potentially less expensively than other methods that require direct interaction with users. However, many key decisions and questions must be considered during the development and use of such devices to avoid risk of failure. To provide a systematic way for researchers and engineers to consider critical device development questions, the parts of device development and use can be decomposed into Data Identification, Device Design, and Device Deployment. This paper discusses the key decisions within each part of development along with critical questions, common options, and considerations that should be addressed during each part of device development, thus increasing the likelihood of success. A sensor development canvas outlining the key decisions is also provided as a design tool to easily identify deficiencies in the device during development. Considering these critical questions while developing and deploying data collection devices can help researchers and engineers successfully collect social impact indicator data that may be used to ensure engineered products are producing desired positive impacts on individuals.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Geospatial mapping of biomass supply and demand for household energy management in Nepal",
+    "authors": "Narayan Prasad Adhikari, R.C. Adhikari",
+    "year": 2021,
+    "link": "https://doi.org/10.1016/j.deveng.2021.100070",
+    "doi": "10.1016/j.deveng.2021.100070",
+    "abstract": "This paper presents a geospatial mapping model for assessing spatial distribution and demand of biomass sources for household energy use in Nepal. In the context of rural households, correlation between supply and demand of biomass is crucial for designing effective rural energy programs. Three districts were considered to represent the country's main topographical regions: lowlands, hills, and mountains, where geospatial distribution and demand of biomass are different. The supply potential of fuelwood was assessed using Geographical Information System (GIS) tool, and the potential of crop residues and dung and household energy demands were determined by field surveys and experiments. The results showed that households with secure access to biomass sources in lowlands, hills and mountains were 57%, 50% and 3% respectively. In lowlands, crop residues and dung were extensively used due to lack of forest biomass, whereas forest biomass was extensively used in hills and mountains, with negligible use of crop residues and animal dung. The results indicate that use of improved cooking stoves and biogas was negligible and thus cleaner biomass energy conversion and cooking technologies are needed to achieve universal target of clean cooking for all. The GIS model provided better estimation of biomass energy supply potential in the communities, which is crucial in the design of energy policies for sustainable clean cooking solutions. It is anticipated that this geospatial mapping model is also applicable to the cases of other developing countries, which have dominant biomass consumption for household energy use.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Nitrile cup seal robustness in the India Mark II/III hand pump system",
+    "authors": "Hans Ottosson, Christopher A. Mattson, Oliver K. Johnson, Thomas A. Naylor",
+    "year": 2021,
+    "link": "https://doi.org/10.1016/j.deveng.2021.100060",
+    "doi": "10.1016/j.deveng.2021.100060",
+    "abstract": "Accessing clean water is a persistent and life-threatening challenge for millions of people in the world. Each hour, 400 children under the age of five die because of the lack of clean water. To help people get access to clean ground water, mechanical hand pumps are often used. Among the most ubiquitous is the India Mark II/III hand pump system, of which there are more than 4 million installed across the world. These are estimated to serve between 600 million and 1 billion people. But as with most mechanical systems, they degrade over time\u2013leading to pumps becoming dysfunctional due to lack of required service. The pump's nitrile cup seals are the most common cause of dysfunctionality. The purpose of this paper is to analyze the robustness of the cup seals in the India Mark II/III hand pump system. In this paper, 110 off-the-shelf nitrile cup seals purchased by the authors in Uganda were tested and characterized. Leak and pump performance tests were performed in both static and dynamic settings and the correlations between performance and geometry and material properties of the cup seals were determined. This important baseline evaluation for the seals supports our future work to improve the longevity and robustness of the India Mark II/III hand pump system, with a focus on the cup seals. We believe that by finding the baseline of a product, engineers and designers will be able to improve its performance.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Product representations in conjoint analysis in an LMIC setting: Comparing attribute valuation when three-dimensional physical prototypes are shown versus two-dimensional renderings",
+    "authors": "Marianna J. Coulentianos, Mojtaba Arezoomand, Suzanne Chou, Jesse Austin\u2010Breneman, Achyuta Adhvaryu, Kowit Nambunmee, Richard L. Neitzel, Kathleen H. Sienko",
+    "year": 2021,
+    "link": "https://doi.org/10.1016/j.deveng.2021.100063",
+    "doi": "10.1016/j.deveng.2021.100063",
+    "abstract": "Conjoint experiments (CEs) provide designers with insights into consumer preferences and are one of several user-based design approaches aimed at meeting users\u2019 needs. Traditional CEs require participants to evaluate products based on two-dimensional (2D) visual representations or written lists of attributes. Evidence suggests that product representations can affect how participants perceive attributes, an effect that might be exacerbated in a Low- and Middle-Income Country setting where CEs have seldom been studied. This study examined how physical three-dimensional (3D) prototypes and 2D renderings with written specifications of attribute profiles generated differences in estimated utilities of a CE about a hypothetical new tool for electronic-waste recycling, among workers in North-Eastern Thailand. Two independent CEs were performed with each representation form. Ninety participants across both experiments each ranked three sets of five alternative tool concept solutions from most to least preferred. The results of the conjoint analysis guided the design of a tool optimized for user preferences, which was then distributed to half of the sample through a Becker-DeGroot-Marschak auction experiment. One month after the auction, participants completed an endline survey. The results point toward potential differences in relative importance of different product attributes based on product representation. Price was found to have no significant impact on the valuation of tools in either experiment. The differences in relative importance of product attributes may have been explained by the limitations of 2D renderings for conveying sizes. Further research is needed to understand the impact of product representation on preferences in this context. We recommend careful consideration for product representations \u2013 specifically, how well the representations convey all product attributes being evaluated \u2013 in CEs. Using a combination of 2D renderings and 3D product features might have satisfied both the speed and low-cost advantages of renderings while enabling participants to have a better sense of product features.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Using solar panels for business purposes: Evidence based on high-frequency power usage data",
+    "authors": "Christoph Weisser, Friederike Lenel, Yao Lu, Krisztina Kis\u2010Katos, Thomas Kneib",
+    "year": 2021,
+    "link": "https://doi.org/10.1016/j.deveng.2021.100074",
+    "doi": "10.1016/j.deveng.2021.100074",
+    "abstract": "Access to electricity is typically the main benefit associated with solar panels, but in economically less developed countries, where access to electricity is still very limited, solar panel systems can also serve as means to generate additional income and to diversify income sources. We analyze high-frequency electricity usage and repayment data of around 70,000 households in Tanzania that purchased a solar panel system on credit, in order to (1) determine the extent to which solar panel systems are used for income generation, and (2) explore the link between the usage of the solar system for business purposes and the repayment of the customer credit that finances its purchase. Based on individual patterns of energy consumption within each day, we use XGBoost as a supervised machine learning model combined with labels from a customer survey on business usage to generate out-of-sample predictions of the daily likelihood that customers operate a business. We find a low average predicted business probability; yet there is considerable variation across households and over time. While the majority of households are predicted to use their system primarily for private consumption, our findings suggest that a substantial proportion uses it for income generation purposes occasionally. Our subsequent statistical analysis regresses the occurrence of individual credit delinquency within each month on the monthly average predicted probability of business-like electricity usage, relying on a time-dependent proportional hazards model. Our results show that customers with more business-like electricity usage patterns are significantly less likely to face repayment difficulties, suggesting that using the system to generate additional income can help to alleviate cash constraints and prevent default.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "The future of development engineering - Our vision for the next generation of publications in DevEng",
+    "authors": "Susan Amrose, Amy M. Bilton, Berber Kramer",
+    "year": 2021,
+    "link": "https://doi.org/10.1016/j.deveng.2021.100059",
+    "doi": "10.1016/j.deveng.2021.100059",
+    "abstract": "Engineering plays an important role in advancing the Sustainable Development Goals (SDGs). It contributes to a wide range of innovations, from the development of vital technologies such as solar water treatment systems (Mac Mahon and Gill, 2018a) or cookstoves (Wilson et al., 2018a), and new tools to assess progress towards the SDGs (Kipf et al., 2016a), to innovations in the design of decision-making environments and systems-level thinking on how development is achieved. Many researchers, aid agencies, and NGOs are currently involved in designing, implementing and evaluating engineering-based innovations, taking promising technologies and policies from controlled laboratory environments to the field. Along the way, they gain tremendous insights into the innovation process. However, these insights are often left in the realm of best practices, published in domain-specific journals that are not accessible to the development community, or disappear in appendices of manuscripts that are published years after the innovation was tested or prototyped. As a result, subsequent teams often do not build upon the lessons learned by other teams, and are left to develop their own innovation processes. Moreover, these processes often fail due to technologies not being vetted well enough, field tests not being comprehensive, and evaluations lacking rigour. Unfortunately, the most vulnerable pay the price when we so often produce ineffective solutions to poverty, and when we cannot produce new solutions without re-inventing the wheel.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Erratum to \u201cDeveloping intermediate machines for high-land agriculture\u201d [Dev. Eng. 5 (2020) 100050]",
+    "authors": "Walter Franco, Filippo Barbera, Luigi Bartolucci, Tiziano Felizia, Federica Focanti",
+    "year": 2021,
+    "link": "https://doi.org/10.1016/j.deveng.2021.100084",
+    "doi": "10.1016/j.deveng.2021.100084",
+    "abstract": null,
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Erratum to \u201cInsulated Solar Electric Cooking \u2013 Tomorrow's healthy affordable stoves?\u201d [Dev. Eng. 2 (2017) 47\u201352]",
+    "authors": "T. Watkins, P. Arroyo, Robert J. Perry, R. Wang, Omar Arriaga, Mark E. Fleming, Christopher O'Day, I. Stone, J. Sekerak, D. Mast, Niall Hayes, P. Keller, Peter Schwartz",
+    "year": 2021,
+    "link": "https://doi.org/10.1016/j.deveng.2021.100080",
+    "doi": "10.1016/j.deveng.2021.100080",
+    "abstract": null,
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Erratum to \u201cHot diodes!: Dirt cheap cooking and electricity for the global poor?\u201d [Dev. Eng. 4 (2019) 100044]",
+    "authors": "Grace Gius, Matthew Walker, Andre Li, Nicholas J. Adams, Robert Van Buskirk, Pete Schwartz",
+    "year": 2021,
+    "link": "https://doi.org/10.1016/j.deveng.2021.100082",
+    "doi": "10.1016/j.deveng.2021.100082",
+    "abstract": null,
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Erratum to \u201cThe double-edged sword of mobilizing citizens via mobile phone in developing countries\u201d [Dev. Eng. 3 (2018) 34\u201346]",
+    "authors": "Aaron Erlich, Danielle F. Jung, James D. Long, Craig McIntosh",
+    "year": 2021,
+    "link": "https://doi.org/10.1016/j.deveng.2021.100077",
+    "doi": "10.1016/j.deveng.2021.100077",
+    "abstract": null,
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Erratum to \u201cReal-time indoor measurement of health and climate-relevant air pollution concentrations during a carbon-finance-approved cookstove intervention in rural India\u201d [Dev. Eng. 3 (2018) 125\u2013132]",
+    "authors": "Makoto Kelp, Andrew P. Grieshop, Conor C. O. Reynolds, Jill Baumgartner, Grishma Jain, Karthik Sethuraman, Julian Marshall",
+    "year": 2021,
+    "link": "https://doi.org/10.1016/j.deveng.2021.100076",
+    "doi": "10.1016/j.deveng.2021.100076",
+    "abstract": null,
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Erratum to \u201cNatural gas to improve energy security in Small Island Developing States: A techno-economic analysis\u201d [Dev. Eng. 2 (2017) 92\u201398]",
+    "authors": "Pravesh Raghoo, Dinesh Surroop, Franziska Wolf",
+    "year": 2021,
+    "link": "https://doi.org/10.1016/j.deveng.2021.100085",
+    "doi": "10.1016/j.deveng.2021.100085",
+    "abstract": null,
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Erratum to \u201cFeasibility study of an electrodialysis system for in-home water desalination in urban India\u201d [Dev. Eng. 2 (2017) 38\u201346]",
+    "authors": "Kishor G. Nayar, Prithiviraj Sundararaman, Catherine L. O\u2019Connor, Jeffrey D. Schacherl, Michael L. Heath, Mario Orozco Gabriel, Sahil Shah, Natasha C. Wright, Amos G. Winter",
+    "year": 2021,
+    "link": "https://doi.org/10.1016/j.deveng.2021.100086",
+    "doi": "10.1016/j.deveng.2021.100086",
+    "abstract": null,
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Erratum to \u201cRadio frequency (un)identification: Results from a proof-of-concept trial of the use of RFID technology to measure microenterprise turnover in Sri Lanka\u201d [Dev. Eng. 1 (2015) 4\u201311]",
+    "authors": "Suresh de Mel, Dammika Herath, David McKenzie, Yuvraj Pathak",
+    "year": 2021,
+    "link": "https://doi.org/10.1016/j.deveng.2021.100087",
+    "doi": "10.1016/j.deveng.2021.100087",
+    "abstract": null,
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Erratum to \u201cAdoption of energy-efficient televisions for expanded off-grid electricity service\u201d [Dev. Eng. 2 (2017) 107\u2013113]",
+    "authors": "Won Young Park, Amol Phadke",
+    "year": 2021,
+    "link": "https://doi.org/10.1016/j.deveng.2021.100078",
+    "doi": "10.1016/j.deveng.2021.100078",
+    "abstract": null,
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Erratum to \u201cSustainability of novel water treatment technologies in developing countries: Lessons learned from research trials on a pilot continuous flow solar water disinfection system in rural Kenya\u201d [Dev. Eng. 3 (2018) 47\u201359]",
+    "authors": "Joanne Mac Mahon, Laurence Gill",
+    "year": 2021,
+    "link": "https://doi.org/10.1016/j.deveng.2021.100083",
+    "doi": "10.1016/j.deveng.2021.100083",
+    "abstract": null,
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Erratum to \u201cAssessing the productivity and profitability of the Solar Market Garden\u201d [Dev. Eng. 3 (2018) 60\u201371]",
+    "authors": "Jennifer Burney, Sandra Phillips, Jeff Lahl",
+    "year": 2021,
+    "link": "https://doi.org/10.1016/j.deveng.2021.100075",
+    "doi": "10.1016/j.deveng.2021.100075",
+    "abstract": null,
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Erratum to \u201cMulti-objective optimization and scenario-based robustness analysis of the Money Maker Hip Pump\u201d [Dev. Eng. 3 (2018) 23\u201333]",
+    "authors": "Christopher McComb, Nathan G. Johnson, Pablo S. Santaeufemia, Brandon T. Gorman, Brent Kolste, Alexander Mobley, Kenji Shimada",
+    "year": 2021,
+    "link": "https://doi.org/10.1016/j.deveng.2021.100079",
+    "doi": "10.1016/j.deveng.2021.100079",
+    "abstract": null,
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Erratum regarding missing Declaration of Competing Interest statements in previously published articles",
+    "authors": null,
+    "year": 2021,
+    "link": "https://doi.org/10.1016/j.deveng.2021.100088",
+    "doi": "10.1016/j.deveng.2021.100088",
+    "abstract": null,
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  }
+]

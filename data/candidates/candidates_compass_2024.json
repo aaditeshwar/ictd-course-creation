@@ -1,0 +1,366 @@
+[
+  {
+    "id": null,
+    "title": "BlendNet: An Assisted Digital Distribution Platform for Underserved Populations",
+    "authors": "Apurv Mehra, Vishali Sairam, Kashish Mittal",
+    "year": 2024,
+    "venue": "compass_2024",
+    "areas": [
+      "media_information",
+      "infrastructure"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "ethnographic_design",
+      "operations_scale"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "caste",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "compass_2024_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context in India, focusing on the adoption of digital services in remote and rural areas.",
+    "link": "https://doi.org/10.1145/3674829.3675056",
+    "abstract": "In resource-constrained environments, the adoption of digital services faces formidable barriers. To address these challenges, we introduce BlendNet, an innovative platform designed to foster intermediated adoption of digital services in remote and rural areas. BlendNet harnesses satellite and intelligent edge technologies and creates a reliable and cost-effective channel for intermediaries to distribute digital content and services in remote areas. The key technology component of the system is the \u2018Blendnet Hub\u2019, a small satellite connected hardware device placed in the local kirana stores, facilitating seamless access to users without incurring data expenses, thereby addressing access, awareness, and affordability issues. We conducted a pilot study in Bihar, signing up 258 retailers who reached over 68,000 users in three months, demonstrating the crucial role of intermediaries in digital service adoption. This paper offers detailed insights into BlendNet\u2019s design and the pilot study\u2019s outcomes, emphasizing user and retailer engagement and adoption of services. It explores the platform\u2019s potential as a scalable and financially viable solution.",
+    "_matched_keywords": [
+      "intermediaries"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Rapid poverty estimation using ready-to-use mobile phone data: An application to C\u00f4te d'Ivoire",
+    "authors": "Sveta Milusheva, Oscar Barriga-Cabanillas, Oumaima Makhlouk, Ruiwen Zhang",
+    "year": 2024,
+    "venue": "compass_2024",
+    "areas": [
+      "poverty_estimation"
+    ],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [
+      "poverty"
+    ],
+    "area_agnostic": false,
+    "source_course": "compass_2024_venue_search",
+    "notes": "The paper engages with a developing-regions context (C\u00f4te d'Ivoire) and applies computer science fundamentals to estimate poverty, which aligns with the 'cs_fundamentals' topic.",
+    "link": "https://doi.org/10.1145/3674829.3675061",
+    "abstract": "Targeting the poor is an integral part of social program design in low-income countries. Geographical targeting gives priority to areas with high concentrations of poverty. However, traditional data sources, such as household surveys often lack the spatial resolution to estimate poverty at a highly disaggregated level and are costly to collect on a regular basis. We leverage the proliferation of big data obtained from mobile devices and satellites to generate poverty measures at a highly disaggregated spatial level in a new country context. Previous applications rely on computationally intensive methods to extract information from raw cellphone transaction data. We show how similar levels of prediction accuracy can be achieved by using key performance indicators (KPIs) that Mobile Network Operators produce regularly as part of their operations, lowering the financial and data access barriers to estimate and update prediction models. This can help to facilitate the use of these data for policy in low- and middle-income contexts.",
+    "_matched_keywords": [
+      "targeting the poor",
+      "geographical targeting"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Quantifying the role of maternal recall in estimates of routine immunisation rates in India: a large-scale sub-national Bayesian modelling study",
+    "authors": "Ritika Singh, Sumeet Agarwal, Alex De Figueiredo, Misha Mishra, Devyani Agarwal",
+    "year": 2024,
+    "venue": "compass_2024",
+    "areas": [
+      "health"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "compass_2024_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context in India, focusing on public health systems and maternal and child health.",
+    "link": "https://doi.org/10.1145/3674829.3675062",
+    "abstract": "Childhood vaccinations are vital for protecting children from preventable disease and improving overall public health. However, generating reliable estimates of routine immunisation uptake, essential for appropriate policy planning and resource allocation is complicated by various data challenges. A specific challenge in estimating coverage with household surveys such as the National Family Health Survey is that the presence of vaccination is obtained via maternal recall if a health-based record is absent. This study examines the extent to which estimates of childhood immunisation coverage derived using depend on maternal recall: a mother\u2019s ability to correctly identify which vaccines a child has received. In this study, we leverage spatial Bayesian models to estimate routine childhood immunisation rates at sub-national resolutions in 2015 and 2020 using various assumptions about the accuracy of maternal recall. This modelling approach and explicit consideration of maternal recall allows us to identify local regions whose previous estimates of vaccine coverage rates may be overstated due to low rates of the presence of health-based records. We create detailed vaccination coverage maps to analyze the models with and without maternal recall data. By highlighting vaccination \u201ccoldspots\u201d and their change over time, this study reveals the potential benefits or limitations of using maternal recall in generating vaccine coverage estimates and provides a basis for more informed decision-making for immunization interventions in India and similar contexts.",
+    "_matched_keywords": [
+      "vaccination"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Fluxbot: The Next Generation - Design and Validation of a Wireless, Open-Source Mechatronic CO2 Flux Sensing Chamber",
+    "authors": "Connor Pan, Vatsal V. Patel, Jonathan Gewirtzman, Ian Richardson, Ravish Dubey, Kelly K. Caylor, Aaron M. Dollar, Elizabeth Forbes",
+    "year": 2024,
+    "venue": "compass_2024",
+    "areas": [
+      "water_security",
+      "forests_restoration",
+      "climate_change"
+    ],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [
+      "climate_change"
+    ],
+    "area_agnostic": false,
+    "source_course": "compass_2024_venue_search",
+    "notes": "The paper applies strong computer science methods to develop a low-cost, autonomous CO2 flux sensing system, which can be adapted to a developing-regions context for climate change research.",
+    "link": "https://doi.org/10.1145/3674829.3675063",
+    "abstract": "Precision gas analyzers are widely used in ecological research for manual measurement of soil carbon flux, a key metric used in the study of climate change. We present a generational update to the first low-cost, autonomous, closed-chamber style soil CO2 flux sensors (Fluxbots). Fluxbot 2.0 is the first such low-cost autonomous flux chamber capable of real-time wireless data transmission, which enables ecologists conducting in situ soil carbon flux surveys to set up their own wireless sensor arrays, reporting carbon flux data in real time at a very high level of temporal resolution. The system\u2019s low cost (less than 500 USD per unit) and long-range cellular data transmission capabilities also allow for greatly improved spatial resolution. Additionally, the updated system consumes significantly less power, resulting in the ability to be deployed for longer than 10 \u00d7 the battery lifetime of the original version on a single charge.",
+    "_matched_keywords": [
+      "carbon flux"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Unveiling Two-Fold Gamification: Exploring the Agency Of DeliveryWorkers in Urban India",
+    "authors": "Tanmay Goyal, Nimmi Rangaswamy",
+    "year": 2024,
+    "venue": "compass_2024",
+    "areas": [
+      "labour"
+    ],
+    "topics": [
+      "sociotechnical_dynamics",
+      "ethnographic_design"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "compass_2024_venue_search",
+    "notes": "The paper engages with the labour dynamics of gig/platform work in urban India, which is a relevant topic for the course.",
+    "link": "https://doi.org/10.1145/3674829.3675066",
+    "abstract": "The evolving landscape of gig labor, particularly within food delivery platforms, has been influenced by a shift towards algorithmic management, emphasizing performance metrics as a daily burden to be carried through delivery work. Through a study of Indian food delivery agents, our paper suggests an emerging gamification culture between delivery platforms and workers. Agents gradually yet consistently adapt to stringent algorithmic management to overcome everyday work\u2019s precarity. Despite the challenges of performance pressure on food delivery labor, we capture the daily rhythms and routines of delivery work punctuated by flashes of agenting, revealing small capacities to make choices and influence work outcomes. By employing a qualitative research framework, we uncover the mechanisms through which delivery platforms manipulate labor, simultaneously exploring delivery agents\u2019 tactics to extract agency and exploit the platforms\u2019 rules. We develop the notion of \u2018agency\u2019 to disentangle the idea of \u2018gamification by agents\u2019 as a socio-technical derivative governing food delivery agents in urban India. The findings highlight the potential of platform work empowering, albeit with limits, delivery agents with agency and decision-making authority.",
+    "_matched_keywords": [
+      "platform work"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Initial Experiments with a Scalable Machine Learning Based Approach for Downscaling the MOD16A2 Evapotranspiration Product",
+    "authors": "Vatsal Jingar, Stitiprajna Sahoo, Siddharth S, Dharmisha Sharma, Shivani A. Mehta, Aaditeshwar Seth",
+    "year": 2024,
+    "venue": "compass_2024",
+    "areas": [
+      "water_security"
+    ],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [
+      "climate_change"
+    ],
+    "area_agnostic": false,
+    "source_course": "compass_2024_venue_search",
+    "notes": "The paper applies machine learning methods to estimate evapotranspiration in India, a developing region, which fits the 'cs_fundamentals' topic rule.",
+    "link": "https://doi.org/10.1145/3674829.3675068",
+    "abstract": "In countries like India which have historically been reliant on rainfed agriculture, the increasing need of water for irrigation to support greater cropping intensity and shifts towards horticulture, has largely been supported through groundwater based irrigation. Cheap electricity has enabled a rapid increase in borewells almost across the country, which to some extent has enabled more equitable access to water than other irrigation approaches like canals, but has also led to groundwater stress in many regions. One way to indirectly estimate groundwater abstraction is to estimate evapotranspiration from cropping areas as a proxy for crop water consumption. Remote sensing based methods have been used to estimate evapotranspiration but existing open data products largely have a low spatial resolution which is not adequate to support local decision making for water use. In this study, we build machine learning methods to develop downscaled data outputs of evapotranspiration at fine spatial scales. Our approach uses satellite data, meteorological variables, and land surface characteristics as input features to obtain field-scale fortnightly time-series of evapotranspiration. We validate the results results across multiple geographic locations and also study its correlation with in situ evapotranspiration measurements. We find that our method is not able to accurately match in situ data but is able to successfully provide relative differences in evapotranspiration. We make our trained models available on the Google Earth Engine platform for use by other researchers and practitioners to obtain evapotranspiration outputs for their areas of interest. Our research contributes a scalable and adaptable solution to address the growing demand for fine-resolution hydro-climatic information.",
+    "_matched_keywords": [
+      "open data",
+      "groundwater",
+      "irrigation",
+      "remote sensing"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Design Opportunities to Facilitate Tangible Play and Promote Healthy Nutrition in Low-resource Healthcare Settings in Peru: Co-designing Low-fidelity Prototypes with Caregivers and Healthcare Workers",
+    "authors": "Deysi Helen Ortega, Rosario Bartolini, Rossina Pareja, Katarzyna Stawarz, Hilary M. Creed-Kanashiro, Michelle Holdsworth, Emily Rousham, Nervo Verdezoto",
+    "year": 2024,
+    "venue": "compass_2024",
+    "areas": [
+      "health"
+    ],
+    "topics": [
+      "problem_discovery",
+      "ethnographic_design"
+    ],
+    "cross_cutting_axes": [
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "compass_2024_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context (low-resource healthcare settings in Peru) and addresses problem discovery and ethnographic design.",
+    "link": "https://doi.org/10.1145/3674829.3675071",
+    "abstract": "Complementary feeding is crucial to promote healthy nutrition in infant and young children (IYC) and prevent malnutrition. Mothers, families, and healthcare professionals (HCPs) are crucial in helping IYC develop healthy eating habits. However, limited access to adequate nutritional information and health services impacts children\u2019s nutrition, especially in low-resource settings. Technology opens up opportunities to address these challenges and potentially improve IYC feeding practices. Taking a co-design approach, we conducted low-fidelity prototyping workshops with caregivers and HCPs to explore the potential of tangible interfaces to facilitate play and promote healthy nutrition for IYC in two low-resource healthcare settings in Peru. Participants envisioned diverse tangible objects and interactions that could augment the waiting spaces of the healthcare centres, encouraging play and enhancing children\u2019s and caregivers\u2019 experiences, while promoting healthy nutrition and dietary diversity. We outline design opportunities to facilitate tangible play, shared playful experiences, and promote healthy nutrition in low-resource healthcare settings.",
+    "_matched_keywords": [
+      "co-design"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Towards Improved Sustainability in The Textile Lifecycle with Deep Learning",
+    "authors": "Danika Gupta, Atul Dubey",
+    "year": 2024,
+    "venue": "compass_2024",
+    "areas": [],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [],
+    "area_agnostic": true,
+    "source_course": "compass_2024_venue_search",
+    "notes": "The paper applies strong computer science methods to a global problem that could be adapted to a developing-regions context, fitting the cs_fundamentals topic rule.",
+    "link": "https://doi.org/10.1145/3674829.3675077",
+    "abstract": "The garment industry is one of the world\u2019s largest carbon and waste polluters, expected to produce 150 billion garments per year in the next decade, while currently recycling about 1%. The lack of reliable fabric identification limits scalable recycling. Without traceability, governments cannot enforce circular economy legislation. We propose solutions to both issues that leverage low cost hardware and deep learning. Using microscope fabric images and Convolutional Neural Networks, we demonstrate classification accuracy of over 90% for 14 fabric classes. By marking fabrics with a UV-visible code readable via YOLOv8 object detection, we demonstrate an mAP of over 0.98, retaining up to 0.93 after wash cycles while remaining resilient to fabric-unique challenges such as creasing. These methods can be implemented worldwide at low cost to enable fabric identification and traceability for a textile circular economy. We demonstrate a prototype reader application and discuss pathways to impact. We also provide three new datasets for future research.",
+    "_matched_keywords": [
+      "object detection"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Evaluation of computer vision pipeline for farm-level analytics: A case study in Sugarcane",
+    "authors": "Sambal Shikhar, Rajiv Ranjan, Aman Sa, Anshika Srivastava, Yash Srivastava, Dinesh Kumar, Shashank Tamaskar, Anupam Sobti",
+    "year": 2024,
+    "venue": "compass_2024",
+    "areas": [
+      "agriculture"
+    ],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [],
+    "area_agnostic": false,
+    "source_course": "compass_2024_venue_search",
+    "notes": "The paper applies computer vision techniques to agricultural imagery for farm-level analytics in a developing region, India, adhering to the cs_fundamentals topic rule.",
+    "link": "https://doi.org/10.1145/3674829.3675079",
+    "abstract": "Analyzing agricultural imagery for farm level insights has been an active area of research in the recent times. For providing the necessary information to stakeholders - be it farmers, financial institutions or governments, various computer vision tasks have to come together. For example, to provide information to a farmer about crop stress in their farm, accurate localization of the farm, identification of the crop type and a monitoring of the field\u2019s micro-climate must be done together. In this work, we set performance benchmarks for three computer vision tasks - farm boundary detection, crop classification and sub-field stress estimation with different modalities of images - Sentinel2, PlanetScope and Drone Imagery. We use public dataset benchmarks for farm boundaries and crop classification and do a controlled field study on a large sugarcane farm in Uttar Pradesh, India for the stress estimation. Our work benchmarks farm boundary detection for small farms with state of the art deep learning algorithms achieving a dice score of 67%, improves the sugarcane classification accuracy by 10% coming to 98% and demonstrates an accuracy of 72% for water and nitrogen stress estimation.",
+    "_matched_keywords": [
+      "crop classification"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Demo: A Low-Cost Honeynet Infrastructure For Smishing Data Collection",
+    "authors": "Bernard Odartei Lamptey, Assane Gueye, Mohammed Seidu, Edith Luhanga, Karen Sowon",
+    "year": 2024,
+    "venue": "compass_2024",
+    "areas": [
+      "labour"
+    ],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "compass_2024_venue_search",
+    "notes": "The paper addresses a specific challenge in the African context, which is a developing region, and its methodology could be adapted to other low-resource settings.",
+    "link": "https://doi.org/10.1145/3674829.3675080",
+    "abstract": "Research on mobile money smishing is hindered, especially in the African context, as there is a lack of data. The absence of datasets and the fact that Mobile Network Operators don\u2019t maintain such data pose a significant challenge. Additionally, the absence of a data collection infrastructure further complicates the data acquisition process. In response to this challenge, we developed a scalable and cost-effective honeynet infrastructure tailored for the efficient collection of organic Short Message Service (SMS) messages. The innovative approach involves harnessing the capabilities of Raspberry Pi units, USB multipliers, SIM cards from MNOs and GSM modems to create a scalable and adaptable solution. This aims to enhance smishing data collection, facilitating more efficient research into mobile money smishing.",
+    "_matched_keywords": [
+      "mobile money"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Developing and Deploying AI and IoT-enabled hydroponic grow tents with subsistence farmers in South Africa",
+    "authors": "Yusuf Ismail, Sarina Till",
+    "year": 2024,
+    "venue": "compass_2024",
+    "areas": [
+      "agriculture"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "ethnographic_design",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "climate_change",
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "compass_2024_venue_search",
+    "notes": "The paper engages with a developing-regions context (South Africa) and applies strong computer science methods to address agricultural challenges faced by subsistence farmers.",
+    "link": "https://doi.org/10.1145/3674829.3675081",
+    "abstract": "South Africa is experiencing extreme weather conditions, often resulting in failed crops. The country has many subsistence farmers who rely on small-scale farming for food security and livelihoods. This paper presents [project name omitted to ensure anonymity], an Artificial Intelligence (AI), and Internet of Things (IoT) hydroponic grow tent implementing the Nutrient Film Technique (NFT) approach for leafy green plant production. The system uses a Random Forest Classifier (RFC) and various sensors for the real-time, accurate management of nutrient levels, pH, light, temperature, and humidity to provide an optimal environment for crop growth, in most cases, regardless of the weather patterns outside of the tent. The system further includes a mobile application that allows farmers to interject and manage all the elements in the tent. This paper reports on the design, development, and first deployment of [project name omitted to ensure anonymity] with rural subsistence farmers in South Africa. We found that South African farmers are keen to explore new agricultural technologies and were able to co-farm using [project name omitted to ensure anonymity] to grow crops that are no longer successfully cultivated due to the erratic weather conditions in South Africa.",
+    "_matched_keywords": [
+      "extreme weather"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Assessing the impact of farm ponds on agricultural productivity in Northern India",
+    "authors": "Ramneek Kaur, Kshitiz Bansal, Devang Garg, Ramita Sardana, Saketh Vishnubhatla, Sanjali Agrawal, Shruti Kumari, Parag Singla, Aaditeshwar Seth",
+    "year": 2024,
+    "venue": "compass_2024",
+    "areas": [
+      "agriculture",
+      "water_security"
+    ],
+    "topics": [
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "climate_change"
+    ],
+    "area_agnostic": false,
+    "source_course": "compass_2024_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context in India, focusing on the impact of farm ponds on agricultural productivity under the MGNREGA scheme.",
+    "link": "https://doi.org/10.1145/3674829.3675085",
+    "abstract": "Government welfare schemes such as the Mahatma Gandhi National Rural Employment Guarantee Act (MGNREGA) in India fund the creation of assets for natural resource management in rural villages to support farmers for their agricultural and livelihoods-based needs. With most agriculture in India being rain-fed, structures such as farm ponds, checkdams, trenches and bunds play a crucial role in supporting groundwater recharge and providing critical lifesaving irrigation in times of dry spells and droughts. In this study, we investigate the impact of farm ponds built under the MGNREGA scheme in Northern India as a source of protective irrigation for cropping areas in their immediate neighbourhood. We assess the impact of farm ponds on the following aspects: (i) we study their impact on agricultural productivity for up to five years since their construction, (ii) we separately study their impact in drought years during this period, (iii) we study the extent to which they are able to to reduce the sensitivity to droughts of sites having farm ponds. A causal analysis framework was designed by identifying control sites that did not have farm ponds, and the treatment effect of having farm ponds was computed using the difference-in-differences approach. Remote sensing data was processed to compute changes in vegetation indices around the treated and control locations before and after the construction of farm ponds. Our results indicate that farm ponds were instrumental in improving the agricultural productivity during the monsoon season in general. The impact during the monsoon season in drought years is also positive and significant. Furthermore, farm ponds also facilitated in reducing drought sensitivity during the monsoon season. The impact during the post-monsoon season was found to be lower, and the impact during the summer agricultural season was found to be the least.",
+    "_matched_keywords": [
+      "farm ponds",
+      "welfare schemes",
+      "groundwater",
+      "irrigation",
+      "drought",
+      "remote sensing",
+      "difference-in-differences"
+    ]
+  },
+  {
+    "id": null,
+    "title": "A Proposed Systematic Framework and Guideline of Birth Declaration in Rural Last-Mile Bangladesh: Aimed at Reducing Child Marriage",
+    "authors": "Shabab Intishar Rahman, Priom Deb, Md. Ishmam Tasin, Md. Sadiqul Islam Sakif, Jannatun Noor",
+    "year": 2024,
+    "venue": "compass_2024",
+    "areas": [
+      "health",
+      "governance"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "ethnographic_design",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "compass_2024_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context (rural Bangladesh) and addresses issues related to birth registration and child marriage, which are pertinent to the health and governance areas.",
+    "link": "https://doi.org/10.1145/3674829.3675086",
+    "abstract": "This research study proposes a social framework for birth declaration in rural Bangladesh, utilizing cloud storage technology and ad hoc models, based on interviews with Community Healthcare Workers (n=13). The traditional process of birth registration in rural areas of Bangladesh is paper-based and often subject to errors, leading to incomplete or inaccurate data. The proposed framework addresses this issue by providing a secure and efficient system with minimal hardware requirements for recording and storing birth information in resource-constrained settings. In this study, we integrate HCI principles into a cloud-based solution for rural communities, addressing infrastructure and usability concerns, in line with HCI\u2019s focus on technology in societal contexts. Furthermore, we tackle the digital literacy gap in rural areas, designing our solution with HCI to effectively bridge this divide. We leverage existing infrastructure to introduce three progressive execution models, each constituting modular components within the overarching solution framework. The initial step in mitigating child marriage rates is securing accurate and easily retrievable birth data since paper trails are prone to manipulation, destruction, and fraud. Therefore, our study advocates for the implementation of the primary and pivotal measures to combat the vulnerable exploitation of children.",
+    "_matched_keywords": [
+      "digital literacy"
+    ]
+  },
+  {
+    "id": null,
+    "title": "The Devil is in the deployment: Lessons learned while deploying an AI and IoT-enabled hydroponics grow tent with rural subsistence farmers in South Africa",
+    "authors": "Taryn Wilson, Hafeni Mthoko, Yusra Adnan, Sarina Till",
+    "year": 2024,
+    "venue": "compass_2024",
+    "areas": [
+      "agriculture"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "ethnographic_design",
+      "sociotechnical_dynamics"
+    ],
+    "cross_cutting_axes": [
+      "climate_change"
+    ],
+    "area_agnostic": false,
+    "source_course": "compass_2024_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context (South Africa) and applies computer science fundamentals to a real-world problem.",
+    "link": "https://doi.org/10.1145/3674829.3675090",
+    "abstract": "Hydroponic farming is a sustainable alternative to traditional agriculture, allowing farmers to grow crops more efficiently. This type of farming involves growing plants in water without needing soil. There is increasing agreement that this agricultural approach should be utilized to mitigate food insecurity, particularly considering the fluctuating and unpredictability of weather conditions. However, this approach requires technical expertise in addition to consistent monitoring. Existing research has focused on applying The Internet of Things (IoT) and Artificial Intelligence (AI) technologies to the automation and monitoring of hydroponic farming systems. However, limited work tested the viability of these systems in the field with farmers. This study focused on including rural subsistence farmers in farming alongside a seven-month and ongoing deployment of an AI and IoT-enabled hydroponics system following a qualitative approach that entailed focus groups with the farmers and observations of the hydroponic systems. This paper discusses the lessons learned regarding unpredictable and uncontrollable extreme weather conditions, equipment failure, choices in nutrient solutions, and pest infestations, which often all have unplanned and unintended consequences for these systems and farmers. We argue that more deployments are needed to better understand how these systems function in real-world settings.",
+    "_matched_keywords": [
+      "extreme weather"
+    ]
+  }
+]

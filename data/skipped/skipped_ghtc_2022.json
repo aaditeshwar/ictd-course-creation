@@ -1,0 +1,587 @@
+[
+  {
+    "title": "Ageism and Its Impact on Information and Communications Technology Usage and Design",
+    "authors": "Kim Thu Nguyen",
+    "year": 2022,
+    "link": "https://doi.org/10.1109/GHTC55712.2022.9911051",
+    "doi": "10.1109/GHTC55712.2022.9911051",
+    "abstract": "This study sought to understand how adults 65 years and older use Information and Communications Technology (ICT), the barriers and difficulties they experience when using ICT, and how ICT could be improved for older adults. ICT is a vast field, and for this study, ICT was limited to broadband internet, laptop or desktop computers, smartphones, and tablets. A convenience sampling approach was used to identify study participants. Data were gathered in 2021 through 15 qualitative interviews with adults ranging in age from 65 to 87; all resided in the United States. Interviews were conducted via phone and video conferencing technology. Bronfenbrenner\u2019s ecological systems model was the overarching conceptual framework used to understand system influences that help explain older adults\u2019 relationship with ICT and how this may change over time due to environmental forces and factors. Other models and theories considered in this study were the relative deprivation theory and the technology readiness and acceptance model.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "The Challenge and Value of Dashboard Development During the COVID-19 Pandemic",
+    "authors": "Kenny Meesters, Joris Wijnen, Mats Visser, Kees Boersma",
+    "year": 2022,
+    "link": "https://doi.org/10.1109/GHTC55712.2022.9910610",
+    "doi": "10.1109/GHTC55712.2022.9910610",
+    "abstract": "Decision makers in crisis situations need relevant, accurate and complete information. Today, technologies provide a plethora of options for generating, accumulating and processing information. Technologies also enable that information to be managed and presented through dashboards. Recent emergencies have precipitated a surge in the use of dashboards, a prime example of these developments. In particular, for the duration of the crisis, the availability of large quantities of information and the demand for a more holistic approach to emergency responses incentivized the development of(digital) dashboards. However, the design of such dashboards requires costly investments, especially during when resources are scarce during crises. In this paper, we examine the development of dashboards as part of the response to COVID19 in the Netherlands. We explore the motivation for developing different dashboards and the added value that accrues to emergency services in times of crisis.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "EcoRealms: Improving Well-being and Enhancing Productivity Through Incorporating Nature Into the Workplace",
+    "authors": "Evy M. Rahmey, Giavanna Gast, Sebastian R. Wick, Tram U. H. Vo, Margaret A. McLaughlin, Jonathan Osika, Brian Slocum, Nicholas Sawicki, Khanjan Mehta",
+    "year": 2022,
+    "link": "https://doi.org/10.1109/GHTC55712.2022.9911004",
+    "doi": "10.1109/GHTC55712.2022.9911004",
+    "abstract": "Work-induced stress is a large problem that has only been exacerbated by the coronavirus pandemic. Nature has beneficial effects on psychological and physiological well-being, with an abundance of scientific literature demonstrating the ability of greenery to reduce stress. As such, the fusion of nature-based design into the work and academic environments has the potential to greatly decrease student and employee stress. Primary methods of incorporating greenery indoors include living walls and potted plants. However, these methods fall short of creating an immersive environment that maximizes the positive impact on worker well-being, and additionally, barriers such as maintenance, costs, and extensive construction limit implementation. This paper outlines a new method to integrate nature into the work environment through \u201cEcoRealms,\u201d which are immersive, natural spaces created by modular and self-maintaining \u2018living partitions.\u2019 These low-cost, easy-to-install partitions act as design elements to create a flexible space that serves worker well-being and enhances productivity. Discussed are prototypes that demonstrate the design\u2019s technical feasibility and results from a self-reported questionnaire that validate the positive impacts of the EcoRealm on wellbeing.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Brilliance Bias in GPT-3",
+    "authors": "Juliana Shihadeh, Margareta Ackerman, Ashley Troske, Nicole Lawson, Edith Gonzalez",
+    "year": 2022,
+    "link": "https://doi.org/10.1109/GHTC55712.2022.9910995",
+    "doi": "10.1109/GHTC55712.2022.9910995",
+    "abstract": "Language has a profound impact on how we perceive the world. With GPT-3\u2019s rise in popularity, as of latest utilized in 300 applications averaging 4.5 billion words per day, it is critical to identify and correct biases in its generations. A variety of biases have been identified in generative language models, spanning biases based on gender, race, and religion. In this paper, we pioneer the study of the Brilliance Bias for generative models. This implicit, yet powerful bias imposes the idea that \u201cbrilliance\u201d is a male trait and in turn, sets back women\u2019s achievements starting as early as ages 5-7. We perform an analysis of two GPT-3 models, the base GPT-3 model (davinci) and InstructGPT (text-davinici-002), focusing on adjectives, verbs and lexicons found in their generations. Our analysis reveals the presence of substantial Brilliance Bias across both models.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "A gender-smart simulator to reduce the financing gap for female entrepreneurs in emerging markets",
+    "authors": "Misha Rawal, Jona Repishti",
+    "year": 2022,
+    "link": "https://doi.org/10.1109/GHTC55712.2022.9911038",
+    "doi": "10.1109/GHTC55712.2022.9911038",
+    "abstract": "Accessing capital for entrepreneurs in emerging markets can be a challenging process; however, for female entrepreneurs, this can often be even more difficult due to predispositions of gender bias, cultural norms, and other stereotypes commonly held by society. Given that funding is often necessary for founders to be able to scale their ventures, accelerators play an essential role in helping entrepreneurs secure it. However, the disparity between the funding that male entrepreneurs are able to secure as compared to female entrepreneurs is significant, even after enrolling in accelerators. Although these accelerators usually provide female entrepreneurs with the financial skills needed to navigate the fundraising process, they need to not only focus on investment readiness but also to better equip them with the necessary tools to mitigate investor bias. This would enable accelerators to better serve female founders in the unique challenges that only they face. This paper details MIT D-Lab\u2019s collaboration with Strategy Tools to design the first gender-smart investment readiness tool designed to help female entrepreneurs navigate the complex challenges of fundraising for equity.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Multiple disciplinary research collaboration in an academic environment: the university as a driver for frugal innovation",
+    "authors": "Tine Van Lommel, Herman Bruyninckx",
+    "year": 2022,
+    "link": "https://doi.org/10.1109/GHTC55712.2022.9910980",
+    "doi": "10.1109/GHTC55712.2022.9910980",
+    "abstract": "This study investigates the contribution of multiple disciplinary research and collaboration in an academic environment to frugal innovation. A methodology for evaluation of multiple disciplinary collaboration is put forward. Two frugal innovation case studies of KU Leuven (Belgium) are selected to determine a common ground in terms of multiple disciplinary collaboration in an academic context. This study shows that within universities multiple technological developments can contribute to valuable frugal innovation practices. In addition, these frugal innovations could lead to concrete applications for research carried out within the university. Recommendations are made on how universities can improve the design and process of frugal innovation. Since this study is based on the analysis of two frugal innovation case studies in one university, further validation in other contexts would be desirable.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Comparing the robustness of U-Net, LinkNet, and FPN towards label noise for refugee dwelling extraction from satellite imagery",
+    "authors": "Yunya Gao, Stefan Lang, Dirk Tiede, Getachew Workineh Gella, Lorenz Wendt",
+    "year": 2022,
+    "link": "https://doi.org/10.1109/GHTC55712.2022.9911036",
+    "doi": "10.1109/GHTC55712.2022.9911036",
+    "abstract": "Extracting footprints of refugee dwellings from satellite imagery supports dedicated humanitarian operations. Recently, deep-learning-based approaches have been proved to be effective for this task. However, such research is still limited due to the lack of cleaned labels for supervised-learning-based models. This research compares the performance of noisy labels from past humanitarian operations and cleaned labels by manual annotation in three classical deep learning architectures (U-Net, LinkNet and Feature Pyramid Network (FPN)) and twelve backbones (VGG16, VGG19, ResNet-18, ResNet-34, DenseNet-121, DenseNet-169, Inception-v3, InceptionResnet-v2, MobileNet-v1, MobileNet-v2, EfficientNet-B0, EfficientNet-B1). The results turn out that even though cleaned labels outperform noisy labels, the noisy labels have a high potential to replace cleaned labels because producing cleaned labels requires much more time, and predicted footprints of models trained with noisy labels are promising in humanitarian applications. Besides, the performance of the selected architectures and backbones is similar in general. Overall, FPN with VGG16, LinkNet with DenseNet-121, and U-Net with EfficientNet-B0 outperform other combinations. If considering both accuracy and training time, U-Net with VGG16 and LinkNet with ResNet-18 could be two alternatives for future research.",
+    "skip_reason": "DUPLICATE of existing 'ghtc_2022_comparing_the_robustness_of_u_net' (score=1.00)"
+  },
+  {
+    "title": "Determining which Carbon Capture Method and Application are Most Beneficial for Social Entrepreneurs in Kenya",
+    "authors": "Matthew Costanzo, Zara Meyer, John Gershenson",
+    "year": 2022,
+    "link": "https://doi.org/10.1109/GHTC55712.2022.9911025",
+    "doi": "10.1109/GHTC55712.2022.9911025",
+    "abstract": "Air pollution in Kenya is at dangerously high levels. It is the leading cause of heart disease, respiratory distress, and stroke in Kenya. Social entrepreneurs are looking at carbon capture to mitigate this problem. There are three methods of carbon capture: collecting from the atmosphere, collecting from industrial sources, and collecting from vehicular sources. Each collection method has a different social impact, environmental impact, and economic feasibility. This paper evaluates the carbon collection methods with respect to these three criteria. The carbon that is collected can then be made into a variety of carbon-based products such as pencils, ink, paint, tiles, diamonds, activated charcoal, and graphene reinforced bricks. Assuming that each product is made sustainably, each carbon-based product has a different social impact and economic feasibility. This paper evaluates the carbon-based products with respect to these two criteria. The carbon capture methods each have a different social impact based on their ability to spread awareness about air pollution. Collecting carbon from the atmosphere and from vehicles creates the most social impact. Collecting from the atmosphere makes a statement within the community because the towers used are large and impeding, whereas, collecting from vehicles has an individual impact with each driver. Collecting carbon from industrial sources creates less of a social impact because there is no clear statement being made to the general public. The environmental impact of collecting from industrial and vehicular sources is higher than collecting from the atmosphere because collecting from industrial and vehicular sources prevents the pollution from entering the atmosphere in the first place. Finally, collecting from industrial and vehicular sources is more economically feasible than collecting from the atmosphere. Collecting from the atmosphere is extremely expensive to maintain unlike other collection sources. Therefore, based on the three criteria, capturing carbon from vehicular sources is the most impactful. All of the carbon-based products have the potential to create a large social impact if they are marketed well. Products such as pencils, ink, paint, and diamonds will reach wider groups of people and make a large impact that way. Other products such as activated charcoal and graphene reinforced bricks won\u2019t reach as many people but will be more impactful products for the people who need them. More research needs to be done to determine which carbon-based product is the most economically feasible to produce as this technology is relatively new and there haven\u2019t been many studies regarding it.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Motorcycle and Vehicle Detection for Applications in Road Safety and Traffic Monitoring Systems",
+    "authors": "Gerson Gerard L. Cruz, Aaron Litonjua, Alysia Noreen P. San Juan, Nathaniel J. C. Libatique, Marion Ivan L. Tan, Jaime Luis E. Honrado",
+    "year": 2022,
+    "link": "https://doi.org/10.1109/GHTC55712.2022.9910992",
+    "doi": "10.1109/GHTC55712.2022.9910992",
+    "abstract": "Motorcycles are becoming increasingly common in middle to low-income countries as cheaper alternatives to fourwheeled vehicles. The reliance on motorcycle-based services has also seen a substantial increase in popularity, leading to a greater proportion of motorcycles on the road. The increase in motorcycle reliance necessitates a need for motorcycle-inclusive road information generation as motorcycles are the most susceptible to fatal road crashes. We report the results of our application of the You Only Look Once (YOLOv4) algorithm to count and classify vehicles and motorcycles in traffic videos obtained by our group over a three-month period along Katipunan Avenue Southbound (KAS), Metro Manila. This has been made to run in real-time with video and is able to process a video output with its annotations and a counter for both classes. These results show that a motorcycle and vehicle detection and counting system can be feasibly considered for data-driven road safety and traffic monitoring systems.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Social Media Data-Driven Sentiment Analysis for COVID-19 and COVID-19 Vaccines",
+    "authors": "Ghaida S. Alorini, Danda B. Rawat",
+    "year": 2022,
+    "link": "https://doi.org/10.1109/GHTC55712.2022.9911056",
+    "doi": "10.1109/GHTC55712.2022.9911056",
+    "abstract": "In this paper, we analyze social media data (e.g., tweets) related to coronavirus disease 2019 (COVID-19) and COVID-19 vaccines. The main objective is to explore daily COVID-19 cases and vaccine rates in addition to analyzing sentiments and discussions related to COVID-19 vaccination on social media, e.g., Twitter. During the early days of the pandemic, there were rapid developments of vaccines that can prevent the novel COVID-19. However, the potential hurdles of developing COVID-19 vaccines faster than any other conventional vaccine has made some people apprehensive about taking the COVID-19 vaccine. Since social media keeps individuals connected locally and globally, Twitter as a social networking platform is a great way to collect information on tweets related to the coronavirus vaccine. Specifically, this paper studies various data analytic tools that can help study the changes in users\u2019 opinions and emotions related to coronavirus vaccines, as well as studying the coronavirus cases and vaccine rates globally. Furthermore, this study will enable individuals to get real-time insights into the sentiments of COVID-19 vaccines based on social media tweets.",
+    "skip_reason": "The paper does not substantively engage with a developing-regions context as required by the rules for all topics except cs_fundamentals."
+  },
+  {
+    "title": "Deep Learning-Based Path Loss Prediction Model for 5G mmWave",
+    "authors": "Simon K. Hinga, Oluwaseun T. Ajayi, Tokunbo Ogunfunmi",
+    "year": 2022,
+    "link": "https://doi.org/10.1109/GHTC55712.2022.9911009",
+    "doi": "10.1109/GHTC55712.2022.9911009",
+    "abstract": "The proliferation of wireless devices that utilize the 5G mmWave technology continues to stir several design requirements for optimizing performance. However, mitigating the underlying constraints posed by path loss remains a challenging task. The use of empirical methods and heuristic techniques have only provided one-shot solution. We adopt a reusable learning-based method to alleviate the complexity in path loss prediction. Our method involves the design of a deep classifier and a regression model which learn relevant network parameters from data and uses such knowledge to differentiate different classes of path loss in a practical 5G radio environment. We show that deep learning can alleviate the path loss modelling complexity in the optimization of 5G networks.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Massive RF Simulation Applied to School Connectivity in Malawi",
+    "authors": "Ermanno Pietrosemoli, Marco Rainone, Marco Zennaro, Chomora Mikeka",
+    "year": 2022,
+    "link": "https://doi.org/10.1109/GHTC55712.2022.9910987",
+    "doi": "10.1109/GHTC55712.2022.9910987",
+    "abstract": "Providing Internet connectivity to schools has been identified as paramount for development, for instance in the Giga project, cosponsored by ITU and UNICEF, with the goal of connecting every school to the Internet by 2030. For a country wide deployment, it is imperative to perform a thorough planning of the whole installation, using radio frequency (RF) propagation models. While statistical models based on empirical RF propagation data gathered in different scenarios can be employed, for point to point links at microwave frequencies the existence of a clear line of sight (LOS) is normally a prerequisite. The Irregular terrain model which makes use of digital elevation maps (DEM) has proved quite effective for simulating point to point links, but its application to a great number of links becomes time consuming, so we have developed an automated framework to perform this task. As a case study we have applied this framework in the planning of a project mired at providing connectivity to primary and secondary schools all over the country of Malawi.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "RuralSync: Providing Digital Content to Remote Communities in the Philippines through Opportunistic Spectrum Access",
+    "authors": "Julian N. Eballa, Philip A. Martinez, Jean Jay J. Quitayen, Ramon Vann Cleff B. Raro",
+    "year": 2022,
+    "link": "https://doi.org/10.1109/GHTC55712.2022.9911043",
+    "doi": "10.1109/GHTC55712.2022.9911043",
+    "abstract": "RuralSync is a proof-of-concept project aimed to investigate the feasibility of data broadcasting (datacasting) in distributing digital educational materials and other e-learning tools to remote communities in the Philippines through opportunistic spectrum access. Particularly, it explored the datacasting feature of the Integrated Services Digital Broadcasting-Terrestrial (ISDB-T), the digital TV standard adopted by the Philippines. An end-to-end link was tested: a modified ISDB-T transport stream, which carries the content for test broadcast along with a sample PDF file, was broadcast through a Software Defined Radio (SDR) configured as a low-power ISDB-T TV transmitter. The stream was then received and decoded by an ISDB-T receiver connected to a computer. Preliminary tests show that the file may be extracted from the modified stream satisfactorily, thereby presenting an opportunity for an alternative file sending system to be developed, suitable in areas where the internet infrastructure is unreliable or unavailable.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Quantifying cost-benefit in emergency telecommunications investments: How pre-disaster preparedness pays",
+    "authors": "Ria Sen, Sudhir Kumar",
+    "year": 2022,
+    "link": "https://doi.org/10.1109/GHTC55712.2022.9911018",
+    "doi": "10.1109/GHTC55712.2022.9911018",
+    "abstract": "In a world increasingly characterized by uncertainty, emergency preparedness is a powerful way to improve the capacity of communities and countries to withstand disasters. Investment in emergency preparedness builds resilience, thereby limiting the loss of life and protecting infrastructure. Successful disaster management relies on resilient infrastructure, not least telecommunications. The Emergency Telecommunications Cluster (ETC), led by the World Food Programme (WFP), has developed the first-of-its-kind mathematical evidence-based model for assessing the benefits of investment in emergency telecommunication preparedness, with the aim of generating empirical evidence and ultimately encouraging stakeholders to build disaster-resilient telecommunications. The return on investment (ROI) model presented aims to quantify and qualify the benefits of investments in emergency telecommunications preparedness, particularly in terms of:",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "A Smart Prevention Management in Gestational Diabetes Mellitus",
+    "authors": "Nattacha Palawat, Supaporn Kiattisin, Theeraya Mayakul",
+    "year": 2022,
+    "link": "https://doi.org/10.1109/GHTC55712.2022.9911041",
+    "doi": "10.1109/GHTC55712.2022.9911041",
+    "abstract": "Gestational Diabetes Mellitus (GDM) is a high blood glucose level during pregnancy. Patients have frequent follow-ups throughout pregnancy. The concept of health technology enables the accessibility and efficiency of therapy in terms of time-saving and promotes adherence, especially during Covid-19. The study conducts the predictive of GDM risk using a data classification model, which has high accuracy (more than 90%). The model is used for improving the patient's self-awareness through the color notification feature. In addition, we design the GDM's system, including the electronic health information exchange, to ensure interoperability, improve service accessibility and increase patient participation. Finally, this prototype is evaluated by medical staff using the Technology Acceptance Model. The results are satisfactory and accepted because the data technology and standard are incorporated to deliver high performance. Besides, this system is expected to reduce workload and provide convenience.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Towards Generating Contextual and Empathetic Response for Covid-related Queries",
+    "authors": "Sowmya Rasipuram, Anutosh Maitra, Bishal Shaw, Sriparna Saha",
+    "year": 2022,
+    "link": "https://doi.org/10.1109/GHTC55712.2022.9910984",
+    "doi": "10.1109/GHTC55712.2022.9910984",
+    "abstract": "This work addresses the vital need of keeping people informed with relevant, correct and essential information during the pandemic. Advanced NLP and machine learning mechanisms have been leveraged to generate responses to user queries through contextual conversation. In order to help people be discerning about what information they receive, a conversational system is proposed that identifies the correct intent of the query and a reinforcement Learning based generation model is used to proceed with conversation. We propose an end-to-end real-time text generation model that can respond to users queries on covid19. We created a new dataset with 1200+ covid-related questions from various sources and pre-processed them for a brief and direct answer. The dataset has also been manually observed to identify depressed questions and the responses are converted to be more empathetic. The dataset has been used to fine-tune DailoGPT, a GPT2-based transformer model to generate the responses related to COVID. COVID-related queries are bucketed into 15 categories to identify the exact intent of people. Our model generated both contextual and empathetic responses and achieved a human evaluation score of 3.48 (on a scale of 5) in terms of contextual relevance and a score of 2.12 (on a scale of 3).",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "A Comparative Analysis of Regression Algorithms with Genetic Algorithm In The Prediction of Breast Cancer Tumors",
+    "authors": "Joyce Ayoola, Tokunbo Ogunfunmi",
+    "year": 2022,
+    "link": "https://doi.org/10.1109/GHTC55712.2022.9911033",
+    "doi": "10.1109/GHTC55712.2022.9911033",
+    "abstract": "Over the last few decades, breast cancer has become a major health concern worldwide, particularly in the women community, as its root cause is not always known and most times it is diagnosed in advanced stages which leads to high death rate. In more recent times, machine learning techniques have been employed as computer-aided diagnosis tools for breast cancer prediction These machine learning techniques have the capacity to classify and predict this cancer into benign or malignant. The main contribution of this study is to find a model which is most suitable for predicting this kind of tumor cell. Genetic Algorithm is applied as Feature Selection method to the Wisconsin Breast Cancer dataset to select the subsets of input features that are most relevant to the target variable. We compared five machine learning regression classifiers were considered, Linear regression, Logistic regression, Random Forest, Decision Tree and Support Vector Regression. The Random Forest classifier obtained the best precision and performance accuracy. This study contributes towards the enhancement of medical technology for prediction of breast cancer, which will not only improve the well-being and health of the female community but also reduce mortality rate related to breast cancer.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "quEASY: A tilting interface to alleviate vehicle-induced motion sickness in passengers",
+    "authors": "Vinitha Erusu, Sebastian Kuhn, Manasa Reddy Sama, Soojin Hwang, John Raiti",
+    "year": 2022,
+    "link": "https://doi.org/10.1109/GHTC55712.2022.9911015",
+    "doi": "10.1109/GHTC55712.2022.9911015",
+    "abstract": "Motion sickness in vehicles is elevated when passengers perform visual tasks. These tasks include reading, messaging, and navigating; while the increase in the number of autonomous vehicles liberates people from driving, today\u2019s busy lifestyles create a need for passengers to perform these tasks during their commute. quEASY is a tilting software interface that helps reduce passengers\u2019 motion sickness while they perform tasks on their digital devices. The concept of tilting the user\u2019s head in sync with the car\u2019s lateral acceleration proves to be effective in reducing motion sickness. Our prototype pushes lateral acceleration values (Y-axis g-force, from an Adafruit board) to a Python application that converts the obtained data into a tilt angle incorporated into the interface. User-testing proved that the concept holds true, while it points to issues in the user adapting to the new design changes in the usage of a novel interface. While further testing is needed, quEASY has the potential to be a significant relief for those who experience motion sickness while in a moving vehicle.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Finite State Automata for Real-Time Health Electronic Record Update: A survey",
+    "authors": "Jose M. Ruiz Mejia, Atul Rawal, Danda B. Rawat",
+    "year": 2022,
+    "link": "https://doi.org/10.1109/GHTC55712.2022.9911007",
+    "doi": "10.1109/GHTC55712.2022.9911007",
+    "abstract": "The sudden exodus of healthcare worker has left many healthcare organizations with limited capabilities to provide efficient and continuous care for long-term patients. When the COVID-19 pandemic arose, society has witnessed the lack of sophisticated medical systems. An abundance of acute patients in long term care needing consistent monitoring has left the healthcare workforce to dwindle due to strict monitoring protocols and fatigue. Due to these global events, it has become apparent that more advanced methods of automated e-health processes should be implemented to relieve the distress within the workforce. As Internet of Things (IoT) becomes prominent within major commercial and military sectors, the interoperability between devices is increasing significantly. Intelligent medical devices and network connectivity in major healthcare organizations have been using IoT and cloud computing to maximize productivity and minimize workforce fatigue. Currently, the limitations of health monitoring systems and smart devices are data interoperability and human intervention errors. In this survey, we will review the selected Finite State Automata that are able to be implemented for real-time update to assist the major issues based on human intervention errors and a framework for updating e-health records.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Market demand analysis and validation of Ace Aquatec Seal Detection system for protecting salmonids from predation in fish farms",
+    "authors": "Arif Reza Anwary, Arnina I. Goodlad, Donald Sutherland, Nathan Pyne-Carter, Amir Hussain",
+    "year": 2022,
+    "link": "https://doi.org/10.1109/GHTC55712.2022.9911024",
+    "doi": "10.1109/GHTC55712.2022.9911024",
+    "abstract": "Ace Aquatec Ltd develops products that tackles problems in aquaculture, while ensuring all animal\u2019s welfare, including predators. Seals are a prevalent predator of fish, breaching the cage leading to increased stress and mortality. To address such issues, a market demand analysis was conducted to understand the key priorities in preventative measures. Based on this analysis, a seal trigger camera system was developed which detects and tracks seals, before triggering deterrent systems. To ensure that all market demand criteria was met, a trial was conducted considering different scenarios such as time, lighting and movement, to show the efficacy of the system to rigorously test the software. The system achieved up to 99% confidence with coverage of a circular area up to 125664m2 for detecting seals. The respondents were presented with the system and asked for their feedback. Most respondents believed this would be an effective system which addressed all their primary concerns. Our system will save the industry time and money, while protecting salmon, the environment and other species. It will also fulfill the Sustainable Development Goals of Agriculture and Food Security (SDG2) which will contribute towards Good Health and Wellbeing (SDG3).",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Micronutrient-Fortified Drinks: Commercial Products and Compelling opportunities",
+    "authors": "David Tauman, Philip Ho, Naakesh Gomanie, William Yaeger, Muzammil Jawed, Khanjan Mehta",
+    "year": 2022,
+    "link": "https://doi.org/10.1109/GHTC55712.2022.9910608",
+    "doi": "10.1109/GHTC55712.2022.9910608",
+    "abstract": "Micronutrients are vitamins and minerals needed by the body in small amounts to produce enzymes and hormones necessary for normal development. Children and pregnant women in developing countries bear a disproportionate burden of micronutrient deficiencies that lead to severe and life-threatening conditions. Besides educating families about nutrition and consuming balanced diets from locally-available foods, food fortification and supplementation are necessary. The majority of fortified food products are solid foods and the literature on fortifying liquids is sparse. The growing popularity of energy drinks, carbonated beverages, and colorful flavored drinks presents new opportunities for fortified drink products. This article provides a narrative review of micronutrient-fortified drink products that are 1) commercially-available, and 2) under research and development (R&D). A total of three commercial products, all of which are sold in powdered form for the customer to dissolve in water, were studied. The commonly targeted micronutrients were vitamins A, B, C, iron, zinc, and calcium. The four R&D products identified through an exhausting literature search were all liquids, with a particular emphasis on delivering Vitamin A to children. The paper concludes with practical recommendations on socio-cultural, economic, and health considerations for social entrepreneurs seeking to introduce fortified drink products in emerging markets.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Peanut maturity classification by features extracted from selected hyperspectral components",
+    "authors": "Sree Nirmillo Biswash Tushar, Soma Sarker, William Stapleton, Damian Valles",
+    "year": 2022,
+    "link": "https://doi.org/10.1109/GHTC55712.2022.9911049",
+    "doi": "10.1109/GHTC55712.2022.9911049",
+    "abstract": "Effective evaluation of the maturity of seed is critical information to ensure the quality of the crops and provide better economic returns. The traditional assessment method requires manual exocarp removal for color evaluation. This assessment is limited by the observer\u2019s color assessment skill and requires significant time for exocarp removal without damaging the seed. Standard RGB imaging has been proven insignificant in distinguishing peanut maturity. Therefore, Hyperspectral images with a relatively complex linear unmixing-based optimization have been used for the peanut maturity classification with many wavelength channels. To make it affordable to the farmers, cost needs to be minimized as much as we can. Therefore, this paper deals with reducing the number of wavelengths in the hyperspectral camera by feature selection techniques, and input memory storage for classification with a simpler random forest model while maintaining the same efficiency as the linear unmixing model.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Design and Testing of a Low-Cost Wheel-Driven Crop Sprayer",
+    "authors": "Tatenda Cecil Mashongedza, Heather Rachel Beem",
+    "year": 2022,
+    "link": "https://doi.org/10.1109/GHTC55712.2022.9910607",
+    "doi": "10.1109/GHTC55712.2022.9910607",
+    "abstract": "Agriculture in Africa is an essential economic activity, employing about two-thirds of the continent\u2019s working population. Much of the agricultural activities are confined to small-scale farming. The machinery available to most of these small-scale farmers requires significant manual labor, causing them to accumulate health problems and experience low production capacity. Small-scale farmers engaged in crop spraying rely on backpack sprayers, which leads to many of them citing back problems. High costs of alternatives, such as drone sprayers, prohibit their adoption. Here, the design, fabrication, and testing of a low-cost crop spraying device is presented. The device reduces the load-carrying effort required, as the user manually pushes a single-wheel frame carrying a tank and allows a gear-chain system to automatically operate the pump\u2019s lever. The performance of the prototype is characterized by experimental testing, revealing that the device can carry a 50-liter tank while requiring a push effort equivalent to 32% of the load under firm mud conditions and staying below the design limit (50% of the load) for loose sand. Appropriate gear sizing was confirmed to enable an optimum flow rate of 1.2 L/min while the user walks with a regular gait, e.g., an operational speed of 1.45 m/s.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "IEEE Smart Village Testbed Micro-grids and Sensors",
+    "authors": "Shultz Augustus Hartgrove, Kellen Kennedy, Zane McMorris, Brad Oren, Sam Siemer, Alan Rolf Mickelson",
+    "year": 2022,
+    "link": "https://doi.org/10.1109/GHTC55712.2022.9911032",
+    "doi": "10.1109/GHTC55712.2022.9911032",
+    "abstract": "In this work, the present configuration of the IEEE Smart Village (ISV) Testbed is described. Previous publications have described earlier realizations of the Testbed. The motivation for present modifications to the remote station micro-grids of the Testbed is discussed. A near future ISV project is described in which continuous monitoring of water quality parameters will be necessary. The manner in which modularity of Testbed microgrid hardware can accommodate the number of data streams necessary for water quality monitoring is overviewed. The present data logging structure of the Testbed is reviewed. Examples of the use of the gigabytes of previously collected data files of system operation are given to illustrate the efficacy of the data management approach. Discussion is given to extension of the present data management system to include the collection of the increased quantity of data when sensor collection comes online. In an appendix, the modular micro-grid configuration is detailed sufficiently for system reconstruction.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "SEMFI: A Software-Based and Real-Time Energy Monitoring Platform for WiFi IoT Devices",
+    "authors": "Aastha Chawla, Nidusha Kannan, Sreya Goyalia, Vikram K. Ramanna, Jaykumar Sheth, Behnam Dezfouli",
+    "year": 2022,
+    "link": "https://doi.org/10.1109/GHTC55712.2022.9911022",
+    "doi": "10.1109/GHTC55712.2022.9911022",
+    "abstract": "Many WiFi-based Internet of Things (IoT) devices rely on limited energy resources such as a battery. Although monitoring and studying the energy consumption of these devices is essential, the use of external, hardware-based energy measurement tools is costly, non-scalable, and introduces many challenges regarding the connectivity of such tools with devices. In this paper, we propose Software-based Energy Management Tool for WiFi (SEMFI), a novel tool to collect, analyze, and monitor the power cycles of IoT devices without the need for any external tools. The basic idea is to modify the WiFi Access Point (AP)\u2019s software to keep track of the power status of devices reported in packets. SEMFI also includes back-end and front-end components for data storage, analysis, and visualization. We demonstrate the effectiveness and features of SEMFI via empirical evaluations.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "A Machine Learning-Based Automatic Feedback System to Teach Cybersecurity Principles to K-12 and College Students",
+    "authors": "Eric M. Dillon, Craig Carpenter, John Cook, Thomas D. Wills, Husnu S. Narman",
+    "year": 2022,
+    "link": "https://doi.org/10.1109/GHTC55712.2022.9910998",
+    "doi": "10.1109/GHTC55712.2022.9910998",
+    "abstract": "Feedback is an essential part of education to help students understand and learn from their mistakes. However, while students learn new content, there is mostly no live person to provide feedback, especially in a virtual environment. Therefore, there are many software for automated code reviews to provide feedback to programming language learners. However, there are no available auto command review tools for security tools except for each tool itself and operating system suggestions. There is also no feedback tool that constructively provides feedback according to learners\u2019 experiences in security subjects while learners practice with commands. Therefore, we developed an automatic feedback system that uses machine learning to create customized student feedback on cybersecurity topics. The foundation of the software was completed and tested in 2 undergraduate introductory computer science courses. Survey results collected from users indicate that the automatic feedback system improved the learning experience of 46% of successful participants and that 77% of successful participants were interested in the continued development of the system. 88% of successful participants felt that the system taught basic command-line skills effectively.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "The Cybersecurity Packet Control Simulator: CSPCS",
+    "authors": "Neil Loftus, Cameron Green, Husnu S. Narman",
+    "year": 2022,
+    "link": "https://doi.org/10.1109/GHTC55712.2022.9911042",
+    "doi": "10.1109/GHTC55712.2022.9911042",
+    "abstract": "Games have been used as a learning tool for centuries. Through game-based learning, students actively learn and practice the right way to do things. A project team at Marshall University created a web-based application to visually represent networking and cybersecurity concepts by using \u201cgamification\u201d techniques such as linear levels and visualization. The goal of this project is to assist the instruction of Computer Science students in internetworking and cybersecurity subjects through game-based learning and measure its effectiveness. The application has users control a simulated network environment and direct computer messages to explain internetworking and cybersecurity concepts. An experiment was conducted with a test group taking a pre-test and post-test after using the applications. These two sets of data were compared and analyzed to measure the effectiveness of the application. Testing results shown that the application improved the self-evaluated confidence of students by approximately 45%, regardless of the students\u2019 self-reported learning style.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "How WhatsApp is Transforming Healthcare Services and Empowering Health Workers in Low-and Middle-Income Countries",
+    "authors": "Noah Weaver, Anneke Roy, Skyler Martinez, Naakesh Gomanie, Khanjan Mehta",
+    "year": 2022,
+    "link": "https://doi.org/10.1109/GHTC55712.2022.9911048",
+    "doi": "10.1109/GHTC55712.2022.9911048",
+    "abstract": "WhatsApp, a well-known and versatile mobile instant-messaging platform, has found increasing application in healthcare settings in Low-and Middle-Income Countries (LMICs). From coordinating schedules and sharing clinical insights to patient follow-up care, healthcare practitioners such as doctors, nurses, midwives, and community health workers (CHWs) alike use WhatsApp to improve their services. While the informal use of WhatsApp in healthcare settings has grown exponentially, the literature is sparse on use cases, challenges, and opportunities in developing countries. Based on a comprehensive literature review that includes a variety of application scenarios from around the world, this article describes three major application areas for WhatsApp. For each application area, this article presents a brief description, several examples and mini case studies, and an in-depth analysis of opportunities and challenges. This article culminates with a discussion of common implementation challenges, best practices, and gaps in the extant ecosystem.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Enhancing Stress Prediction Models for Rice with Ambient and Field Data in Rabi 2019-20",
+    "authors": "Prachin Jain, Swagatam Bose Choudhury, Sanat Sarangi, Srinivasu Pappula",
+    "year": 2022,
+    "link": "https://doi.org/10.1109/GHTC55712.2022.9911035",
+    "doi": "10.1109/GHTC55712.2022.9911035",
+    "abstract": "Every crop needs optimum environment conditions to grow and provide good yield. Similarly, pests and diseases for a given crop require conducive ambient conditions to start proliferating thereby interfering with the yield and increasing management costs for the crop. For farmers to timely respond to crop damage, precisely predicting the likelihood of pest and disease stress conditions for a given region of interest is paramount to take early action. Rice is major crop in India grown over Kharif and Rabi seasons. For a key state Andhra Pradesh and associated major stress conditions in Rabi 2019-20, we present localised prediction models that use ambient micro-climatic conditions and ground reported data to forecast trends for major pests and diseases such as Stem Borer, Leaf Folder, Leaf Blast, and Bacterial Blight. For effective localisation, images reported from the fields for these conditions are validated with AI based detection models before getting processed further. A major contribution of the work is to realise an integrated system that continuously adapts to pest and disease stress conditions on the ground and offers precise risk prediction advisory to the farmer ecosystem for effective management. The approach has been demonstrated to work well with in-season farm surveillance activities at scale.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Prioritizing emergency evacuations under compounding levels of uncertainty",
+    "authors": "Lisa J. Einstein, Robert J. Moss, Mykel J. Kochenderfer",
+    "year": 2022,
+    "link": "https://doi.org/10.1109/GHTC55712.2022.9910611",
+    "doi": "10.1109/GHTC55712.2022.9910611",
+    "abstract": "Well-executed emergency evacuations can save lives and reduce suffering. However, decision makers struggle to determine optimal evacuation policies given the chaos, uncertainty, and value judgments inherent in emergency evacuations. We propose and analyze a decision support tool for pre-crisis training exercises for teams preparing for civilian evacuations and explore the tool in the case of the 2021 U.S.-led evacuation from Afghanistan. We use different classes of Markov decision processes (MDPs) to capture compounding levels of uncertainty in (1) the priority category of who appears next at the gate for evacuation, (2) the distribution of priority categories at the population level, and (3) individuals\u2019 claimed priority category. We compare the number of people evacuated by priority status under eight heuristic policies. The optimized MDP policy achieves the best performance compared to all heuristic baselines. We also show that accounting for the compounding levels of model uncertainty incurs added complexity without improvement in policy performance. Useful heuristics can be extracted from the optimized policies to inform human decision makers. We opensource all tools to encourage robust dialogue about the trade-offs, limitations, and potential of integrating algorithms into high-stakes humanitarian decision-making.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Terrorism Detection and Approaches to Fairness: A Brief Literature Review",
+    "authors": "Cesa Salaam, Danda B. Rawat",
+    "year": 2022,
+    "link": "https://doi.org/10.1109/GHTC55712.2022.9910986",
+    "doi": "10.1109/GHTC55712.2022.9910986",
+    "abstract": "With the expansion of social media platforms (Facebook, Twitter, and other online forums), the internet has become a highway for terrorist activity. It is essential to develop models that can automate the detection of various forms of terrorist activity. However, with the increase in the use of algorithms for decision-making, there is an increase in the risk that these algorithms may promote human biases in the data sets because of social relationships captured in the data. Additionally, the decision-making algorithm themselves can be shown to be biased even with unbiased data. In this paper, we survey SOTA algorithms for terrorist activity detection. Additionally, we survey SOTA techniques for fairness bias mitigation. We end by proposing future work based on gaps found in our survey.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Connecting the Gold Supply Chain and SDGs: Communal Processing Plants as Sociotechnical Ensembles to Reduce Mercury Pollution and Empower Artisanal Gold Mining Communities",
+    "authors": "Mateo Rojas, Juan C. Lucena, Oscar Jaime Restrepo, Jessica M. Smith, Thomas J. Phelan",
+    "year": 2022,
+    "link": "https://doi.org/10.1109/GHTC55712.2022.9911001",
+    "doi": "10.1109/GHTC55712.2022.9911001",
+    "abstract": "Artisanal and small-scale gold mining (ASGM) has received increased attention in recent years from international organizations seeking to reduce the 2000 tons of mercury emitted yearly by this sector. Miners do not have the resources to buy gold processing equipment, so they bring their ore to processing plants to recover their gold at a low cost. Tailings that miners leave behind for payment, which usually contain most of the gold, are processed by the plant owners using cyanidation. The pollution from this process harms the environment and leads to the disempowerment of miners, important themes that the SDGs seek to address. It is well documented, however, that ASGM can make positive contributions to almost all SDGs. The goal of this paper is to analyze how communal processing plants, a model where miners have ownership over their own clean processing methods, can make positive contributions to the SDGs. We will show the inadequacy of one-dimensional interventions aimed at improving gold processing practice and dissect the lessons learned from our fieldwork about the failure of these models in Colombia. This method of assessing humanitarian technologies with respect to SDGs can be applied to technologies with complex relationships to the environment and humans.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Community Capacity Building: A Renewable Energy Workshop as an Investment in Sustainable Businesses in the Galapagos Islands",
+    "authors": "Viviana Villavicencio, Javier Urquizo, Pritpal Singh, David Lansdale, C\u00e9sar A. Martin",
+    "year": 2022,
+    "link": "https://doi.org/10.1109/GHTC55712.2022.9910988",
+    "doi": "10.1109/GHTC55712.2022.9910988",
+    "abstract": "With renewable energy penetration rapidly increasing worldwide in response to climate change concerns, efforts must also consider teaching and educating communities about its principles and how they can take advantage of these resources. This paper aims to show how building local capacity in renewable energy and developing a renewable energy program can provide education and training to students and youth in the Galapagos Islands. The goal will be to train the youth, starting with basic electrical principles and culminating with how to design and install renewable energy systems on the islands and build productive enterprises using these resources. The program was designed to reach the youth in the Galapagos Archipelago. High school students and young people interested in renewable energy were the primary target recruitment for the program. Twenty Santa Cruz Island students participated in the program\u2019s first iteration. The design and implementation of workshops are described in this paper. Two surveys were conducted before and after the workshop to evaluate the knowledge improvement related to renewable energy and off-grid PV solar systems. The survey results show that the participants initially had a limited understanding of renewable energy technologies. Thus, educating the community about renewable energy and solar PV systems contributed to promoting environmental awareness and building capacity towards clean and sustainable electricity generation and solar energy resources in the Galapagos Islands.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Save Tuba: A Gamified App for Children to Explore Environmental Issues and Develop Sustainable Behaviors",
+    "authors": "Allan F. Santana, Trevor A. Lachman, Dariia Tyshchenko, Samir Hassan, Arlan J. Dawdy, Artur Poole, Nada Stojanovic, Naakesh Gomanie, Ekaterina Abramova, Tamirlan Kabetov, Karina Kabiyeva, Yuliana Kolossova, Rumilya Kurbanova, Karina Kadyrbulat, Aigerim Muratbekova, Khanjan Mehta",
+    "year": 2022,
+    "link": "https://doi.org/10.1109/GHTC55712.2022.9911044",
+    "doi": "10.1109/GHTC55712.2022.9911044",
+    "abstract": "Like many other countries, Kazakhstan has committed to carbon neutrality but is burdened by a fossil fuel-dependent economy that is particularly vulnerable to climate change. The net impact of various policy, technology, and business innovations aimed at transitioning to a greener economy are limited by the knowledge and behaviors of the populace. Integrating environmental education into the schooling system is underway but progress on behavioral change is glacial. Gamification and inquiry-based learning are transformative pedagogical tools that leverage students\u2019 natural creativity to reinforce fundamental concepts while encouraging deeper engagement. This article describes \u201cSave Tuba,\u201d a mobile game application designed for second through fifth grade students to help them explore environmental issues and develop sustainable behaviors. Children build an emotional connection with Tuba, a saiga antelope whose natural habitat on the vast Kazakh steppes is threatened by humans, as they embark on a series of exciting and meaningful adventures. The article discusses the app\u2019s creation journey, narrative structure, pedagogical foundations, human-centered design processes, and curricular content.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Design and Deployment of Content Stacks and Portable Asynchronous Learning Platforms for Socially Distanced Learning in a Pandemic or Post Disaster Situation",
+    "authors": "Joselito Christian Paulus M. Villanueva, Mark Anthony V. Melendres, Catherine Genevieve B. Lagunzad, Nathaniel Joseph C. Libatique, Carlos M. Oppus, Jaime Luis E. Honrado, Gregory L. Tangonan, Mikaella M. Salud, Martin Jose M. Arandia, Paul Raphael M. Libatique",
+    "year": 2022,
+    "link": "https://doi.org/10.1109/GHTC55712.2022.9911050",
+    "doi": "10.1109/GHTC55712.2022.9911050",
+    "abstract": "During the time of the Covid-19 pandemic, access to worthwhile educational resources has been a necessity. During this time, students and other stakeholders in the community challenged by poor internet connection or non-existent internet infrastructure are put at a disadvantage. This paper describes the design and deployment of a community-based portable asynchronous content distribution through a mobile cloud network. The system was installed in a school and a community center with stakeholders given access to preloaded content via an offline mobile cloud network. Initial tests of the mobile cloud showed good network performance and Quality of Service indicating its potential as an alternative modality in asynchronous content distribution to facilitate learning.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Mobile based social networking platform for remote school ecosystem in resource-constrained areas - An Indian case study",
+    "authors": "B. Vijayalakshmi",
+    "year": 2022,
+    "link": "https://doi.org/10.1109/GHTC55712.2022.9910982",
+    "doi": "10.1109/GHTC55712.2022.9910982",
+    "abstract": "Quality elementary education is a right of every citizen in India. Efficient networking of all stakeholders is essential to ensure effective delivery of educational services at the grassroots. There are several challenges in networking stakeholders especially in remote, rural and scattered service delivery points. In such a scenario, frugal Information Communication Technologies have better acceptability, utility and effectiveness among stakeholders. This paper discusses the experiences in piloting a simple mobile based social networking platform for the primary education stakeholders of a remote district in India that has been effective in promoting quality educational service delivery in multiple ways.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "The Impact of Social Media Use on Young Adults' Quality of Life During the COVID-19 Pandemic in South India",
+    "authors": "J. Sophie von Lieres, Gopakumar Cauvery",
+    "year": 2022,
+    "link": "https://doi.org/10.1109/GHTC55712.2022.9910989",
+    "doi": "10.1109/GHTC55712.2022.9910989",
+    "abstract": "During the COVID-19 pandemic, the use of social media increased. Social media was shown to have both positive and negative effects on users. Social media use can negatively affect mental health and it can also lead to addiction. On the other hand, using social networks has helped people stay connected with friends and family during the COVID-19 pandemic. To analyze the impact of social media use among young adults during the COVID-19 pandemic, an online survey was conducted with 231 university students in South India. It was explored which type of social media use, such as using social media to connect with family and friends, as compared to other uses, was associated with an increased quality of life (QoL). However, there was a positive association between QoL and using social media to obtain information and for news. The intensity of use was not associated with the level of QoL.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "On-Device Prediction for Chronic Kidney Disease",
+    "authors": "Alex Whelan, Soham Phadke, Alessandro Bellofiore, David C. Anastasiu",
+    "year": 2022,
+    "link": "https://doi.org/10.1109/GHTC55712.2022.9910606",
+    "doi": "10.1109/GHTC55712.2022.9910606",
+    "abstract": "The number of people diagnosed with advanced stages of kidney disease has been rising every year. Although early diagnosis and treatment can slow, if not stop, the progression of the disease, many lower income individuals are unable to afford the high cost of frequent testing necessary to keep the disease progression at bay. To address this issue, we designed a kidney health monitoring system that allows for affordable and quick testing through the use of inexpensive test strips and a mobile application. Moreover, the application serves as a research framework for testing and improving detection models for the disease. In this paper, we describe the application we developed and several preliminary machine learning models we trained to classify the severity of the kidney disease as normal, intermediate risk, or kidney failure. We thoroughly evaluated the effectiveness of our models and found that our histogram of colors-based boosted tree method outperformed alternatives and exhibited good overall prediction performance (F1-score > 90%).",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "The Impact of Ebola and COVID on the Provider-Patient Relationship in Sierra Leone's Maternal Health Care System: Cues for Technology Innovation",
+    "authors": "Masuma Moravej, Isabelle Glazer, Naakesh Gomanie, Khanjan Mehta",
+    "year": 2022,
+    "link": "https://doi.org/10.1109/GHTC55712.2022.9911005",
+    "doi": "10.1109/GHTC55712.2022.9911005",
+    "abstract": "Sierra Leone has one of the highest maternal mortality rates in the world. In 2010, a new initiative was implemented to provide free healthcare to pregnant women, breastfeeding mothers, and children under the age of five. While this well-intentioned initiative strengthened maternal health in some respects, it added additional dynamics to the complex patient-provider relationships at various levels of the referral-based public health infrastructure. The genesis of these observations and the subsequent research into the complexities of these relationships can be traced to the authors\u2019 work over the past five years in championing the integration of a low-cost diagnostic device for pregnant women across 56 rural health clinics. Based on a comprehensive review of the literature, this article describes the complexities of the various types of patient-provider relationships and the role that technology innovations might play in strengthening them. There is a specific emphasis on the impact of the Ebola epidemic in 2014-2016 and the COVID-19 pandemic on patient-provider relationships. This article is of particular interest to technology innovators seeking to integrate novel diagnostic and therapeutic interventions in rural settings in low-resource countries such as Sierra Leone.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "A Narrative Review of Demand Generation Strategies For Family Planning in Low-and Middle-Income Countries",
+    "authors": "Matthew Rivera, Kayla Miller, Naakesh Gomanie, Khanjan Mehta",
+    "year": 2022,
+    "link": "https://doi.org/10.1109/GHTC55712.2022.9911034",
+    "doi": "10.1109/GHTC55712.2022.9911034",
+    "abstract": "In low-and middle-income countries LMICs, unmet need for sexual and reproductive health (SRH) and family planning (FP) contributes directly to many unwanted or unintended pregnancies and unsafe abortion. In turn, women and children experienced increased health problems, mortality, and socioeconomic challenges. Modern distribution programs have mitigated access and affordability issues, leaving psychosocial and sociocultural factors as the most prominent reasons for contraceptive nonuse among sexually active, non-married women. Successful interventions, therefore, aim to educate women about sexual health to address gaps in knowledge, myths, and misconceptions that drive nonuse. To identify specific strategies that create demand this way, a thorough search of relevant primary literature and supplemental secondary literature was conducted, followed by a qualitative analysis. For demand creation programs in LMICs, the following were identified as distinct yet interrelated components with unique strategies: mass media, social media, counseling and education, community outreach, and social marketing. Most successful or larger-scale interventions utilized a combination of these strategies, especially focusing on community involvement to ensure self-sustainability and extension into rural locales. The findings of the literature were then synthesized to generate theories, inferences, and frameworks regarding the effective use of demand-creation strategies, pointing out gaps in the data and analytical limitations.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Gaia VR: A Virtual Reality-based Neuro and Biofeedback Meditation Application",
+    "authors": "Szu-Yun Wang, Hyeonseok Bang, Yiding Liu, Minjee Kim, John Raiti",
+    "year": 2022,
+    "link": "https://doi.org/10.1109/GHTC55712.2022.9910614",
+    "doi": "10.1109/GHTC55712.2022.9910614",
+    "abstract": "Meditation and mindfulness are practices that can reduce psychological stress and stress-related health problems during times of crisis such as the current global pandemic caused by COVID-19. Promoting well-being at all ages is essential to sustainable development, and in this study, we proposed a neuro and biofeedback meditation virtual reality application and heart rate band called Gaia VR to make meditation fun, measurable, and personalized. This system could also potentially reduce the stress people have been experiencing in the pandemic. By implementing data such as heart rate variability and Alpha brainwaves, users can get feedback on their daily stress level and interact with the virtual reality environment through their meditation based on how relaxed they are through the process.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Remote Crop Disease Detection Using Deep Learning with IoT",
+    "authors": "Ivy Chung, Anoushka Gupta, Tokunbo Ogunfunmi",
+    "year": 2022,
+    "link": "https://doi.org/10.1109/GHTC55712.2022.9910991",
+    "doi": "10.1109/GHTC55712.2022.9910991",
+    "abstract": "Agriculture is such a vital part of our society, and according to the United Nations\u2019 Food and Agricultural Organization (FAO), plant diseases are considered one of the two main causes of decreasing food availability. This paper explores not only the methods and findings of building a CNN disease detection model, but that of building a deployable remote crop disease detection system incorporating IoT technology, a task that has not been published before. By using transfer learning with AlexNet, we were able to predict with 89.8% accuracy tomato plant images into one of the ten pre-defined disease classes. Our proposed system tracks plant health throughout the day by using a microprocessor and a camera to automatically capture images, diagnose the plant, and report results. The system is a proof of concept of a technology that can significantly help increase crop yield, reduce food waste, and automate the tasks of detecting and caring for diseased crops.",
+    "skip_reason": "DUPLICATE of existing '2023_zhang_x_han_l_han_l_c94928' (score=0.67)"
+  },
+  {
+    "title": "Empowering Middle-Aged Women to Bolster Food Security in their Communities",
+    "authors": "Maya Neumann, Ella Varano, Shreya Chawla, Naakesh Gomanie, Khanjan Mehta",
+    "year": 2022,
+    "link": "https://doi.org/10.1109/GHTC55712.2022.9911023",
+    "doi": "10.1109/GHTC55712.2022.9911023",
+    "abstract": "Much of the world exists in a state of hunger crisis. There is an absence of public infrastructure, economic resources, and opportunities for communities struggling against poverty to find assistance. In the Philippines, there is a considerable divide between urban resources and those of their rural counterparts. Gender-based discrimination leads to a shortage of aid in the agricultural and business sectors Organizations are working towards effectively identifying women without economic power and engaging them in careers that simultaneously grow natural resources for health and economic stability. However, many localities are still trapped in poverty despite the existing ecosystem of aid. A team of researchers at Lehigh University has created the Zero Hunger College, based in the Philippines, to address the challenges of malnutrition and lack of community outreach. It is a residential school that aims to address malnutrition and community economic growth from the ground up. This initiative allows middle-aged women to travel to metropolitan Manila and work alongside fellow students and knowledgeable professionals to combine Indigenous knowledge in agriculture and modern agri-technology. Upon attending this four-month program, these women can return to their communities with the ability to lead their community members out of poverty and into lives of greater food security with fewer problems caused by malnutrition.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "UAV-assisted Multi-modal Detection and Severity Assessment for Red Spider Mites in Tea",
+    "authors": "Swagatam Bose Choudhury, Sanket Junagade, Sanat Sarangi, Srinivasu Pappula",
+    "year": 2022,
+    "link": "https://doi.org/10.1109/GHTC55712.2022.9911039",
+    "doi": "10.1109/GHTC55712.2022.9911039",
+    "abstract": "India is the second largest producer of tea next to China and a key supplier of quality tea to the world market. In order to maintain a consistent yield with rising operational costs, tea growers constantly look for ways to upgrade their management practices where technology presents interesting opportunities to improve quality of interventions with lower overheads. A key challenge in tea is to minimize the impact and damage caused by pests and diseases where Red Spider Mite (RSM) is a prominent pest leading to significant yield losses. We present how Unmanned Aerial Vehicle (UAV) assisted spotting of RSM infestation coupled with participatory sensing on the ground can be an efficient approach to detect the severity of infestation. This helps achieve a multi-fold benefit in terms of precise utilization of manpower for stress identification while also giving a view of the extent of curative measures that would be required to overcome the stress. Both the measures would help in limiting costs on resources and agri-inputs thereby driving the operational efficiencies up.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Promoting Inclusive Work with Digital Assistance Systems: Experiences of Cognitively Disabled Workers with In-Situ Assembly Support",
+    "authors": "Mario Heinz-Jakobs, Anja Gro\u00dfe-Coosmann, Carsten R\u00f6cker",
+    "year": 2022,
+    "link": "https://doi.org/10.1109/GHTC55712.2022.9910994",
+    "doi": "10.1109/GHTC55712.2022.9910994",
+    "abstract": "Digital work assistance systems have the potential to promote inclusive work by supporting people with disabilities to carry out manual work processes independently, thereby contributing to a greater degree of personal autonomy. However, the question arises whether people with cognitive disabilities would accept digital assistance systems in the professional environment. In this paper, we present a user study with workers with intellectual and mental disabilities from a sheltered workshop organization to investigate their experiences using projection-based assembly assistance systems. Our results show that people with cognitive disabilities generally have positive experiences using projection-based assistance systems to carry out manual assembly processes. Furthermore, the participants showed a positive emotional connection to the assistance system and reported no to low health symptoms while using the system.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "A sociotechnical analysis of interventions to promote safer working conditions in informal e-waste recycling settings",
+    "authors": "Sofia Schlezak, Juan Lucena, Alina Handorean, Luciana Antolini, Richard Neitzel, Oscar Restrepo Baena",
+    "year": 2022,
+    "link": "https://doi.org/10.1109/GHTC55712.2022.9910976",
+    "doi": "10.1109/GHTC55712.2022.9910976",
+    "abstract": "Informal recycling of electrical and electronic waste is a significant source of income for some families in the Global South. When workers implement unsafe practices, they are potentially exposed to hazardous chemicals that can negatively impact the environment and their health. Although this is a problem that has been studied for years, technological interventions that aim to reduce risks in informal contexts are rarely analyzed in light of social criteria. In this paper we evaluate intervention strategies through a model built on the Engineering and Sustainable Community Development (ESCD) criteria. We find that, in general the interventions lack a thorough process of workers\u2019 participation since the early stages of design, which could inform projects, minimize harm within the communities, and promote long-term sustainability of interventions. In light of these findings, we recommend that future technological interventions implemented in informal e-waste recycling settings be designed based on the model presented.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "LATAM Intelligent Filter for Education (LIFE): A Modular Water Purification and STEM Education Tool",
+    "authors": "Linnea Rothi, Nicole Mossing, Emily Nakata, Jordyn Quesenberry, Cinthya Jauregui, Andrew Lemus, Daniel McCann-Sayles, Jonathan Woo, Edison Yang, Michele T. Parker, Jes Kuczenski, Kourosh Pahlavan",
+    "year": 2022,
+    "link": "https://doi.org/10.1109/GHTC55712.2022.9911037",
+    "doi": "10.1109/GHTC55712.2022.9911037",
+    "abstract": "In Latin America (LATAM), primary and secondary students are 2.5 years behind the OECD average, with lower performance in reading, mathematics, and science. To increase access to STEM education, we have created a modular intelligent water filter with learning modules in an accompanying mobile application on a wireless tablet. Through the assembly of the intelligent filter, students will gain hands-on physics and engineering experience. Students will filter water and collect sensor data on contaminants. The health education modules teach topics in physiology and disease prevention, placing an emphasis on clean water and public health. Working with community partners in low-resource schools in eight countries across LATAM, this project aligns with three of the United Nations Sustainable Development Goals (SDGs): Good Health and Well Being (SDG3), Quality Education (SDG4), and Clean Water and Sanitation (SDG6).",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Implementation of the STEAM Method to motivate and inspire primary and secondary school students in Colombia to pursue space science research, NASA Human Exploration Rover Challenge (HERC) 2020, 2021, 2022 Project Case study",
+    "authors": "Tito Alberto Nuncira Gacharna, Erick David Daleman Amaya, John Alvaro Rueda Forero, Joaquin Jose Avila Pallares, Wendy Lorena Avila Daza, Miguel Alejandro Reyes Parra, Catalina Marcela Rodriguez, Leidy Johana Soler Arias, Yeison Javier Fonseca Rojas, Fanhor Esteban Navia Forero, Nicolas Daniel Carvajal Restrepo, Augusto Andres Cubillos Cuadros, Manuel Arturo Gonzalez Parra, Ruben Dario Lozano Quecan, Nelson Alberto Forero Rincon, Juan Pablo Morales Arias, Julio Andres Salgado Reyes, Manuel Amezquita Pulido, Samuel Nuncira Lopez, Maria Eugenia Lambertinez Rivera",
+    "year": 2022,
+    "link": "https://doi.org/10.1109/GHTC55712.2022.9910977",
+    "doi": "10.1109/GHTC55712.2022.9910977",
+    "abstract": "This research project is part of the participation in NASA\u2019s Human Exploration Rover Challenge. The project seeks to inspire primary and secondary school students to pursue research. A group of students and professors from ECCI University carried out in-person and virtual workshops with children from different schools in Colombia, where they created robotic space prototypes with homemade materials. Activities such as the Space Mission at Home, where about 2000 children participated, were carried out. As a result of this event, the research group created a video tutorial titled \u201carma tu propio rover perseverance en casa\u201d, which was published on the NASA website ciencia.nasa.gov. The video now has over 32,000 views on YouTube. An exciting outcome of this project was winning first place in the 2020 NASA Human Exploration Rover Challenge in the STEM Engagement category, which had 105 universities competing from around the world.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Sant\u00e9 le Match: A mobile health game application to educate the youth of Senegal",
+    "authors": "Shelby Tadaki, Reha Shah, Michele T. Parker, Krizia Araracap, Evan Chou, Matthew Tolosa, Silvia Figueira, Carly Kellner, Kristina Yin",
+    "year": 2022,
+    "link": "https://doi.org/10.1109/GHTC55712.2022.9910978",
+    "doi": "10.1109/GHTC55712.2022.9910978",
+    "abstract": "In Senegal, 41% of children ages 6-11 are out of school and are not receiving formal health education. The most prevalent diseases among children in Senegal can be combatted through improved sanitation practices and education in preventative measures. We are creating a mobile application game that educates and empowers children with the basic knowledge of WASH, healthy nutrition, and common disease prevention in Senegal. The mobile application will be distributed in schools through our partnership with Skin-is-Skin. Targeting ages 4-8, the game has a spiral curriculum structure, with increasing topic complexity to promote active engagement and participation. To maximize effectiveness and reach additional populations, the game can be translated into different languages, does not rely on internet connectivity, and can accept new educational content to improve relevance and sustainability.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Deep learning-based models combined with different optimization methods for the automatic diagnosis of melanoma skin cancer",
+    "authors": "Radhika Goyal",
+    "year": 2022,
+    "link": "https://doi.org/10.1109/GHTC55712.2022.9911046",
+    "doi": "10.1109/GHTC55712.2022.9911046",
+    "abstract": "Melanoma is one of the deadliest forms of skin cancer. Early diagnosis and treatment of this disease can significantly improve the chances of survival. Differentiating between a malignant (cancerous) and benign (non-cancerous) skin mole is a time-consuming task for humans, therefore necessitating an automatic classification system. Our work aims to build the most accurate system to classify skin mole images in an existing image dataset. First, we used data augmentation methods to increase the number of images. Then, we built four different deep learning-based models to classify these images into malignant and benign categories. Our first model is a trained from scratch convolutional neural network (CNN) with batch normalization added to improve the classification accuracy. The other three models use VGG19, ResNet50, and InceptionV3 models as the base for transfer learning with modifications in the last layers. We also incorporated three different optimization methods \u2013 Adam, Stochastic Gradient Descent (SGD), and RMSprop in the architecture of the four models to find the most accurate system. We found that our CNN model with the SGD optimizer resulted in the highest accuracy, followed by our CNN with the Adam optimizer.",
+    "skip_reason": "The paper does not substantively engage with a developing-regions context as required by the rules for the 'cs_fundamentals' topic exception."
+  },
+  {
+    "title": "Animalogy: Learning through Analogy and Technology",
+    "authors": "Dries Rutten, Syed Jaffar Mujtaba, Naomi-Tida Essers",
+    "year": 2022,
+    "link": "https://doi.org/10.1109/GHTC55712.2022.9911003",
+    "doi": "10.1109/GHTC55712.2022.9911003",
+    "abstract": "The idea for our project came about when we decided to join the Product Innovation Project (PiP) program at Belgium\u2019s top research university, KU Leuven. PiP is a course unit at the university where an interdisciplinary team of students empathize over a societal challenge presented by an external sponsor. Through the course of the academic year, we tried to devise and work out a solution using the design-thinking method. We were presented with a challenge by an Indian NGO, Destiny, which works on rescuing and rehabilitating women and young girls that have been trafficked into sex work. This challenge was even unique for PiP since it was the first time that an organization outside Europe participated. After the project we decided to move forward with the collaboration with Destiny, and so far, we have enjoyed the journey getting to where we are now: close to starting a social enterprise where we will be using modern technology to educate children from all social backgrounds.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Empowering Women in Low-income Communities in Colombia by Recycling Construction and Demolition Waste",
+    "authors": "Jaime Styer, Juan Lucena, Lori Tunstall, Elizabeth Reddy, Jason H. Ideker",
+    "year": 2022,
+    "link": "https://doi.org/10.1109/GHTC55712.2022.9911020",
+    "doi": "10.1109/GHTC55712.2022.9911020",
+    "abstract": "Construction and demolition (C&D) waste is becoming an increasing concern worldwide due to the rise of construction practices in the face of population and urban expansion. Despite this, there has been a lack of significant advancements in community-based approaches for managing this waste. Through this research, we hope to contribute to gender equality and women empowerment by utilizing community-based research methods to analyze how women in low-income communities in Colombia can find safe and meaningful work by gaining skills in extracting value from C&D wastes, business administration, and leadership. In this presentation, we will discuss the importance of utilizing community-based research to develop just and sustainable technologies for the empowerment of women by using our research on recycling C&D waste in the context of low-income communities as a guide. It is important to note that this research is in its preliminary phases and will not be completed until March 2023, thus the final outcomes and conclusions are currently unknown.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Design, Fabrication, and Aerodynamic Testing of a Vertical Axis Wind Turbine (VAWT) for Berekuso, Ghana",
+    "authors": "Trish A. Maduche, Heather Rachel Beem",
+    "year": 2022,
+    "link": "https://doi.org/10.1109/GHTC55712.2022.9911030",
+    "doi": "10.1109/GHTC55712.2022.9911030",
+    "abstract": "The abundant supply of sustainable, reliable, and cost-effective electricity is crucial to Ghana\u2019s socio-economic development. Hence it is essential to venture into renewable energy. This paper details the design, fabrication, and testing of a low-cost wind turbine prototype for Berekuso, a small town in Ghana. Lean research was undertaken to determine the Berekuso residents\u2019 needs, which informed the selection of a suitable type of turbine. Three different materials and fabrication methods were used to construct the rotor blades on the authors\u2019 campus. Each was tested to determine the blade with the best lift-to-drag ratio. The aerodynamic performance of the wind turbine was tested experimentally and through numerical simulation. The results reveal that the blades perform similarly, with a stall angle of 150, but have different lift-to-drag ratios because of the difference in surface smoothness. Also, the prototype\u2019s experimental performance matches the results of the numerical simulation.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Water Access in the Unhoused Setting of Portland, Oregon: Overlooked and Impactful",
+    "authors": "Emma Chapman",
+    "year": 2022,
+    "link": "https://doi.org/10.1109/GHTC55712.2022.9910979",
+    "doi": "10.1109/GHTC55712.2022.9910979",
+    "abstract": "This work is the beginning of a master\u2019s thesis assessing water access in the houseless community of Portland, Oregon, and alleviating the burden of homelessness on those experiencing it. To discover the influence of water access on perpetuated houselessness, the city must understand the extent of water access to these vulnerable communities, how they treat the water they presume to be unsafe, and how they prioritize their water consumption.Through participatory and community-based research methods, student researchers will collect data on these topics between June and July of 2022. The data collected through interviews, surveys, and participatory mapping will be compiled into a GIS map of water access to compare to national standards, a list of water treatment methods employed by unhoused individuals, and a list of the prioritization of water use. These deliverables will be translated to be understood by audiences with varying literacy levels.",
+    "skip_reason": "The paper does not substantively engage a developing-regions context as required by the RULE for all topics except cs_fundamentals."
+  },
+  {
+    "title": "M3MLF: Mapping, Measuring and Monitoring Using the Machine Learning Framework for Dynamic Water Source Classification",
+    "authors": "S. Amritanand, Ashwin Shenoy, C. Megha Dev, A. S. Reshma, P. Rekha",
+    "year": 2022,
+    "link": "https://doi.org/10.1109/GHTC55712.2022.9911054",
+    "doi": "10.1109/GHTC55712.2022.9911054",
+    "abstract": "Water is the most valuable natural resource for all living organisms. Ever-increasing population, climatic variability, and anthropogenic activities are exacerbating the world\u2019s water crisis. However, the community members and local administration lack the knowledge of dynamically varying water contamination levels and public health impacts due to this change. The proposed work is aimed to design an IoT system for real-time monitoring of water quality in geographically separated heterogeneous water sources. Support vector-based classification is implemented to understand the dynamic water quality variability of spatially distributed heterogeneous water resources from Thiruvananthapuram, Kerala, India. The sources were mapped into any of the three classes such as Good, Poor, and Unsuitable, and SVM based classification is performed. The results show very good precision and recall in predicting the water quality index class for the test data. To enhance community empowerment, a public portal is developed for easy visualization and information dissemination to multiple stakeholders. The portal provides spatial trends, temporal trends for an area or a particular location, area-wise prevalence of selected parameters, determination of water quality index, classification of specific sources based on water quality index, and proposing the required treatments for the sources based on its water quality index.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Design of an affordable lower limb bionic prosthesis",
+    "authors": "Maximiliano Palay, Rafael Sotelo",
+    "year": 2022,
+    "link": "https://doi.org/10.1109/GHTC55712.2022.9910993",
+    "doi": "10.1109/GHTC55712.2022.9910993",
+    "abstract": "This paper presents the work in progress for designing and manufacturing a prototype of a mechatronic lower limb prosthesis for above-knee amputees. The purpose of this project is to bring the high availability of electronic components, fabrication techniques and development platforms together to create a prototype of a bionic prosthesis while keeping costs relatively low, with the target being under one thousand US dollars. The components used are hobby-grade, some with minor modifications, and the main structural components are 3D printed. The results should serve as ground for future development of affordable bionic limbs that can improve life quality of above-knee amputees.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Detection and Low-Latency Notification of Improper Backpack Posture using Deep Learning",
+    "authors": "Hsin-Ya Hung, Garrett Millaway, Saif Mustafa, Haonan Peng, Avi Geiger, John Raiti",
+    "year": 2022,
+    "link": "https://doi.org/10.1109/GHTC55712.2022.9910981",
+    "doi": "10.1109/GHTC55712.2022.9910981",
+    "abstract": "Research shows that school children often carry overweight backpacks which make them perform improper posture, leading to thousands of musculoskeletal injuries each year. Key elements of carrying packs properly include that the pack\u2019s weight should be no more than 15% of a child\u2019s body weight, the pack\u2019s weight should be distributed evenly, and children should walk upright without leaning side to side or bending front or back due to any form of weight compensation. This study focuses on combining force-sensitive resistors, accelerometers, and load cells to detect children\u2019s posture and give feedback on whether the pack is overweight or whether the child walks properly when carrying the pack. This study uses supervised machine learning for posture detection and successfully obtains a high accuracy of 90.71% in posture classification. The prototype aims to be a building block to a more accessible and affordable package in developing nations.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "A Wearable Device For Postoperative Breast Cancer Rehabilitation With Machine Learning For Motion Tracking",
+    "authors": "Yunfan Zhao, Carl-Michael Adams, Tantai Davis, Jiaxin Zhao, Niall O'Rourke, Haonan Peng, Avi Geiger, John Raiti",
+    "year": 2022,
+    "link": "https://doi.org/10.1109/GHTC55712.2022.9910983",
+    "doi": "10.1109/GHTC55712.2022.9910983",
+    "abstract": "The FuschiaBand prototype is a wearable device designed to assist breast cancer patients during physical therapy rehabilitation following a major surgical procedure. Its overall purpose is to enable and track physical therapy exercises within the homes of breast cancer patients to reduce the associated costs to travel to physical therapy facilities. Reducing costs and travel time for these patients is the principal goal that led to creation of this device. The space of wearable technology today fixates on maximizing the embedded features within but disregards the convenience and practicality across specific user populations. This prototype was developed as a term project by graduate students at the University of Washington, Global Innovation Exchange\u2019s Technology Innovation program. The prototype is built on a single-board Arduino microcontroller platform base and enclosed within a 3D printed case to form a wearable device.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "A Gamified Approach to Cognitive Assessment with Machine Learning Based Predictions",
+    "authors": "Alexander Simpson, Yongjie An, Jacob Estep, Abhijeet Saraf, John Raiti",
+    "year": 2022,
+    "link": "https://doi.org/10.1109/GHTC55712.2022.9910615",
+    "doi": "10.1109/GHTC55712.2022.9910615",
+    "abstract": "Cognitive Assessment is an important method for identifying cognitive impairment in individuals, and diagnosing diseases such as Alzheimer\u2019s disease. However, it is usually performed using paper-based assessment, which can be frustrating and unengaging for patients. Low engagement can lead to inaccuracies and anomalous results. This paper aims to address this issue by taking a gamified approach to cognitive assessment. Using a physical prototype of a wack-a-mole inspired game, we accurately predicted cognitive ability of players using an SVR Machine Learning model. This model used inputs from participants playing the game including reaction times, in-game scores and heart rate, achieving an R-squared of 0.689 (3sf).",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Assisted Mobility: an application to help the blind to use public transport",
+    "authors": "Stephanie Mendon\u00e7a, Valentina Kunze, Victoria Tejera, Cristina Mayr",
+    "year": 2022,
+    "link": "https://doi.org/10.1109/GHTC55712.2022.9911013",
+    "doi": "10.1109/GHTC55712.2022.9911013",
+    "abstract": "\u201cAssisted Mobility\u201d is a mobile application that facilitates the use of public transport for people with different disabilities, mainly blind or visually impaired people. It allows the user to request information to get from an origin to a destination through voice commands. To make a trip, options are presented where the user selects one, considering the expected waiting and travel time, and the bus stop location. After confirming a trip, directions are given to get to the bus stop and once there, the proximity of the bus is informed periodically. During the journey, the application notifies the user of the proximity to the final stop and gives directions to reach the destination. Trips can be scheduled, and the user is notified when to leave to start the trip. The information of a trip can be shared with a contact person, who receives updates on the user\u2019s trip through text messages.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Slums in Smart Cities - Rethink the Standard",
+    "authors": "John Friesen, Martin Pietsch",
+    "year": 2022,
+    "link": "https://doi.org/10.1109/GHTC55712.2022.9911052",
+    "doi": "10.1109/GHTC55712.2022.9911052",
+    "abstract": "Smart cities are often seen as a good way to meet the challenges of our time, such as population growth or climate change. The concepts to be developed in this context are often based on the assumption that the urban population is highly networked and adequately provided with infrastructure. At the same time, about one in four urban dwellers worldwide lives in a slum. Based on a literature review, we examine approaches that think smart cities and slums together. We show that smart cities approaches often do not take slums into account and that the standards assumed in these concepts should be rethought.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Extraction of Reliable and Actionable Information from Social Media During Emergencies",
+    "authors": "Mohammadbagher Fotouhi, Haixun Wang, Payman Arabshahi, Wei Cheng",
+    "year": 2022,
+    "link": "https://doi.org/10.1109/GHTC55712.2022.9910997",
+    "doi": "10.1109/GHTC55712.2022.9910997",
+    "abstract": "Communities have been shown to coordinate among themselves using public forums such as Twitter and Facebook during disastrous events, and utilize even sparse telecommunication infrastructure to communicate. In this work we design a framework for text mining that will extract crisis situation and location information from tweets about individuals in need. Using these extracted data, we develop a community source map of the disaster. There have been previous efforts to develop real-time disaster maps, but these are limited to manual entry whereas we use AI to create such maps. While much of the prior work focuses on densely populated urban scenarios, we also consider sparsely populated rural contexts where social network updates may be infrequent. We have experimented our proposed solution on around 20 different disaster related tweet databases from different part of the world. The primary results show ~81 percent accuracy in crisis situation information extraction and ~92 percent accuracy in location extraction.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Selection of multicriteria decision analysis methods for electrification projects in rural Sub-Sahara Africa - A case study in Niger",
+    "authors": "Julian Huwer, Georg Frey, Ramchandra Bhandari",
+    "year": 2022,
+    "link": "https://doi.org/10.1109/GHTC55712.2022.9911026",
+    "doi": "10.1109/GHTC55712.2022.9911026",
+    "abstract": "Electrification of rural areas is seen as an important step to reach sustainable development goals (SDG) in Sub-Sahara Africa to support the worldwide holistic equality by an independent and higher technical life standard. This project supports the electrification of rural areas in Niger by the establishment of a standardized decentralized energy concept by optimization of an imminent decentralized energy system (DES) by a multicriteria decision analysis (MCDA) in terms of energetic, economic, environmental, and social aspects. This concept will motivate private and public investors to fund upcoming DES. The proposed method is a combination of Analytic Hierarchy Process (AHP) for structuring and weighting the elements and Technique for Order Preference by Similarity to Ideal Solution (TOPSIS) to rank the predefined alternatives and to find the most suitable alternative from the set of alternatives in consideration of fuzzy numbers for uncertain input data. Both introduced methods are commonly used in energy studies.",
+    "skip_reason": "DUPLICATE of existing 'ghtc_2022_selection_of_multicriteria_decision_analysis_methods' (score=1.00)"
+  },
+  {
+    "title": "Optimizing Renewable Energy Share in Remote Areas Microgrids and Its Trade-off to Cost",
+    "authors": "Ilman Sulaeman, Amalia Suryani, Niek Moonen, Jelena Popovic, Frank Leferink",
+    "year": 2022,
+    "link": "https://doi.org/10.1109/GHTC55712.2022.9911017",
+    "doi": "10.1109/GHTC55712.2022.9911017",
+    "abstract": "Energy access, renewable energy share and energy efficiency are the indicators of the Sustainable Development Goal 7 for universal access to energy in 2030. This can be supported by implementing microgrids with renewable sources in remote areas. One of the issues is system oversizing, which could result in an inefficient system and high production costs. Therefore, system sizing is often correlated with cost optimization. Focusing on the other indicator, this paper investigates renewable energy share and system oversizing through power balance calculation. The study was conducted on a system with PV panels, battery energy storage system and diesel generators. It shows a nonlinear correlation between the capacity of PV, battery and the renewable energy share. Furthermore, higher load factor, higher power rating of the battery storage system and implementation of supercapacitor could increase the renewable energy share. It could also partially address the oversizing issue by reducing the curtailed power.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Design of a Dust Cleaning Machine to Reduce Dust Soiling on Solar PV Panels in Ghana",
+    "authors": "Issahaku Walaman-i, Stewart Isaacs, Heather Rachel Beem",
+    "year": 2022,
+    "link": "https://doi.org/10.1109/GHTC55712.2022.9911012",
+    "doi": "10.1109/GHTC55712.2022.9911012",
+    "abstract": "The emergence of Renewable Energy (RE) is a welcome remedy to mitigate the harmful effects of global warming due to the use of fossil fuels. Renewable Energy Technologies (RETs) facilitate the use of RE, especially using solar photovoltaic panels. However, natural events such as the deposition of dust onto the surfaces of mounted solar panels tend to reduce their power output and subsequently reduce their efficiency. Cleaning solutions are therefore vital in improving the efficiency of solar panels. This paper seeks to design and implement a dust-cleaning machine for solar panels to improve efficiency. The paper methodically sequences from the design requirements through major design decisions and prototyping the proposed remedy to the dust soiling problem, a combined wet and dry brush-based cleaning approach. Implementing such a dust-cleaning mechanism for solar panels will improve panel efficiency and reduce maintenance costs and safety risks associated with manual solar panel cleaning.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  }
+]

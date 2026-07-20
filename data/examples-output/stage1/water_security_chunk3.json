@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Satellite/Remote-Sensing ML for Water & Land Monitoring",
+    "description": "Research applying deep learning to satellite, LiDAR, and aerial imagery to map irrigation, land use/land cover, water infrastructure, mining, and urban growth. These studies focus on computer vision pipelines, benchmark datasets, and geospatial prediction at regional-to-planetary scale, often under data-limited conditions."
+  },
+  {
+    "name": "ML-Based Weather, Climate & Hydrological Forecasting",
+    "description": "Data-driven forecasting of weather, streamflow, droughts, floods, and climate variables using neural networks, LSTMs, GANs, and statistical dependency models. Spans benchmark creation, downscaling, subseasonal prediction, and incorporation of physical rules to improve extreme-event and hydrological forecasts."
+  },
+  {
+    "name": "Flood & Disaster Risk Mapping and Response Systems",
+    "description": "Interventions that detect, monitor, and respond to floods, landslides, and other natural hazards through geospatial modeling, mobility analysis, community profiling, and disaster-risk-reduction system architectures. Combines predictive modeling with operational response tools for vulnerable populations."
+  },
+  {
+    "name": "Rural Water Supply Infrastructure Monitoring & Operations",
+    "description": "Deployment of electronic sensors, mapping platforms, and community operator tools to track functionality, usage, and management of rural water systems. Emphasizes long-term operations, maintenance, and the sociotechnical realities of keeping water infrastructure running at scale."
+  },
+  {
+    "name": "Drinking Water Quality, Safety & Contamination Interventions",
+    "description": "Studies addressing contamination (arsenic, groundwater pollution) and safe drinking water through willingness-to-pay analysis, point-of-use monitoring, water generation/harvesting technologies, and community empowerment. Combines technical solutions with behavioral and societal embedding of safe-water practices."
+  },
+  {
+    "name": "Community-Based & Indigenous Knowledge Climate Resilience",
+    "description": "Participatory and ethnographic work that digitizes indigenous knowledge, co-designs sensors and tools, and builds community resilience to climate change in rural and marginalized settings. Frequently spans problem discovery, ethnographic design, and impact evaluation with attention to gender and marginalization."
+  },
+  {
+    "name": "Rainwater Harvesting & Off-Grid Water/Agriculture Systems",
+    "description": "Design and deployment of rainwater collection, farm ponds, automated irrigation, and integrated agriculture-water systems for food and water security in resource-constrained communities. Combines mechatronic/engineering design with field validation and livelihood impact assessment."
+  },
+  {
+    "name": "Gender, Empowerment & Marginalization in Water Programs",
+    "description": "Interventions centering women and marginalized groups as agents in water security\u2014training rural women to monitor water quality, empowerment through river restoration, and equity-focused participatory tools. Focuses on how water technologies intersect with social axes of gender, caste, and marginalization."
+  },
+  {
+    "name": "Satellite-Derived Socio-Economic & Vulnerability Mapping",
+    "description": "Use of remote sensing (including nighttime lights and time-series imagery) to estimate poverty, socio-economic development, and vulnerability among disadvantaged urban and rural populations. Bridges CS methods with development measurement and environmental justice concerns."
+  }
+]

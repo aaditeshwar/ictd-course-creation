@@ -1,0 +1,82 @@
+[
+  {
+    "domain_name": "AI-based human-wildlife conflict monitoring",
+    "reading_ids": [
+      "compass_2022_detecting_hotspots_of_human_wildlife_conflicts"
+    ],
+    "background_concepts": [
+      {
+        "concept": "Human-wildlife conflict (HWC)",
+        "why_needed": "The paper treats HWC as its central phenomenon to detect and map, assuming the reader understands its definition, drivers, and why it matters for conservation and human livelihoods, rather than teaching it.",
+        "suggested_resources": [
+          {
+            "title": "Human-wildlife conflict - IUCN Issues Brief",
+            "url": "https://iucn.org/resources/issues-brief/human-wildlife-conflict",
+            "type": "agency_guide"
+          },
+          {
+            "title": "What Is Human-Wildlife Conflict and How Can We Solve It? (WWF)",
+            "url": "https://www.worldwildlife.org/resources/explainers/what-is-human-wildlife-conflict-and-why-is-it-more-than-just-a-conservation-concern/",
+            "type": "agency_guide"
+          }
+        ]
+      },
+      {
+        "concept": "Named Entity Recognition (NER) / information extraction from news text",
+        "why_needed": "The pipeline mines news articles to detect conflict events, relying on NLP information-extraction techniques like NER to pull out species, locations, and event mentions, which the paper uses without explaining the underlying method.",
+        "suggested_resources": [
+          {
+            "title": "A Beginner's Introduction to NER (Named Entity Recognition)",
+            "url": "https://www.analyticsvidhya.com/blog/2021/11/a-beginners-introduction-to-ner-named-entity-recognition/",
+            "type": "primer"
+          },
+          {
+            "title": "Understanding Named Entity Recognition in NLP (course module)",
+            "url": "https://codesignal.com/learn/courses/collecting-and-preparing-textual-data-for-classification/lessons/understanding-named-entity-recognition-in-nlp",
+            "type": "course_module"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "domain_name": "Digitizing indigenous ecological knowledge for climate resilience",
+    "reading_ids": [
+      "ghtc_2023_capturing_and_digitization_of_indigenous_knowledge"
+    ],
+    "background_concepts": [
+      {
+        "concept": "Traditional / Indigenous Ecological Knowledge (TEK)",
+        "why_needed": "The paper's entire premise is capturing and digitizing this body of knowledge, assuming the reader knows what TEK is, how it is transmitted, and why it is distinct from Western scientific knowledge.",
+        "suggested_resources": [
+          {
+            "title": "Traditional Ecological Knowledge: An Introduction (U.S. Fish & Wildlife Service)",
+            "url": "https://www.fws.gov/sites/default/files/documents/Traditional-Ecological-Knowledge-an-Introduction.pdf",
+            "type": "agency_guide"
+          },
+          {
+            "title": "Overview - Indigenous Knowledge and Traditional Ecological Knowledge (U.S. National Park Service)",
+            "url": "https://www.nps.gov/subjects/tek/description.htm",
+            "type": "agency_guide"
+          }
+        ]
+      },
+      {
+        "concept": "Indigenous data sovereignty and the CARE Principles",
+        "why_needed": "Digitizing community-held knowledge raises data ownership and marginalization concerns; the reading assumes familiarity with governance frameworks (like CARE and data sovereignty) that dictate ethical stewardship of Indigenous data without explaining them.",
+        "suggested_resources": [
+          {
+            "title": "The CARE Principles for Indigenous Data Governance (Global Indigenous Data Alliance)",
+            "url": "https://www.gida-global.org/careprinciples",
+            "type": "agency_guide"
+          },
+          {
+            "title": "CARE Principles for Indigenous Data Governance (ARDC guide)",
+            "url": "https://ardc.edu.au/resource/the-care-principles/",
+            "type": "agency_guide"
+          }
+        ]
+      }
+    ]
+  }
+]

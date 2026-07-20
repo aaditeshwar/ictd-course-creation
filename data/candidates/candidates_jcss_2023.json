@@ -1,0 +1,191 @@
+[
+  {
+    "id": null,
+    "title": "Focusing on the Unfocused: Corresponding Perspectives on Connectivity among Small-scale Non-profit Organizations Working for Street Children in Bangladesh and Their Donors",
+    "authors": "Rudaiba Adnin, Ishita Haque, Sadia Afroz, Alvi Md. Ishmam, Sakil Sarkar, Md. Kafi Khan, Afsana Mimi, Sriram Chellappan, A. B. M. Alim Al Islam",
+    "year": 2023,
+    "venue": "jcss_2023",
+    "areas": [
+      "infrastructure",
+      "media_information"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "ethnographic_design",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "jcss_2023_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context (Bangladesh) and addresses connectivity issues faced by small-scale non-profit organizations, which is relevant to the 'infrastructure' and 'media_information' areas.",
+    "link": "https://doi.org/10.1145/3605150",
+    "abstract": "Non-profit organizations (NPOs) serve marginalized communities, such as street children. Their success highly depends on donation raising and their connections with donors, where online platforms (e.g., social media, individual websites, messaging applications, etc.) play a significant role. However, small-scale NPOs face several challenges due to their resource constraints while connecting with their donors and potential donors using existing online platforms. Therefore, we performed a mixed-method study to investigate the connectivity settings among such NPOs, donors, and potential donors. Consequently, we performed semi-structured interviews with seven NPOs working for street children and 21 current donors and conducted an online survey of 42 potential donors in a developing country (Bangladesh). The findings of our study reveal influential factors pertinent to the non-profit work contexts and gaps in connectivity among the stakeholders (small-scale NPOs, donors, and potential donors). We discover that, although having an online presence positively impacts the credibility of small-scale NPOs to the donors by introducing familiarity, possessing such an online presence is challenging for the resource-constrained small-scale NPOs. We further provide several design implications for improving the connectivity settings, especially in terms of online connectivity, among the stakeholders by focusing on their essential roles and reduction of their encountered challenges.",
+    "_matched_keywords": [
+      "marginalized communities",
+      "marginalized communities"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Robust OCR Pipeline for Automated Digitization of Mother and Child Protection Cards in India",
+    "authors": "Devesh Pant, Dibyendu Talukder, Aaditeshwar Seth, Dinesh Pant, Rohit Singh, Brejesh Dua, Rachit Pandey, Srirama Maruthi, Mira Johri, Chetan Arora",
+    "year": 2023,
+    "venue": "jcss_2023",
+    "areas": [
+      "health"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "ethnographic_design",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "jcss_2023_venue_search",
+    "notes": "The paper engages with a developing-regions context in India, focusing on the automation of digitization for health records, which is directly related to the health area.",
+    "link": "https://doi.org/10.1145/3608114",
+    "abstract": "The Universal Immunization Programme in India has a mandate to fully vaccinate all of India\u2019s 27 million children born annually. The vaccination doses are recorded by frontline health workers on standardized paper-based Mother and Child Protection (MCP) cards, which are manually digitized by data entry operators, resulting in poor data quality, delays, and significant time and resources. In our article, we focus on Optical Character Recognition\u2013 (OCR) based automated digitization of MCP card images captured through a smartphone application developed by us. By utilizing a standardized template for the MCP cards, which is available a priori, we register the card images and perform OCR on the extracted region of interest (ROIs). Since the cards with curvature or torn edges had poor ROIs, we built a global\u2013local alignment technique that first approximates the ROI using global homography and then refines using a local homography resulting in improved accuracy. Our pipeline gives a character level accuracy of 98.73% on our dataset against 75.02% by Google Cloud Vision and 79.26% by Azure OCR. We also describe our field testing experience, where the digitized MCP card images were used to provide useful features on the smartphone application for health workers to conduct vaccination sessions.",
+    "_matched_keywords": [
+      "vaccination",
+      "mother and child protection cards",
+      "field testing"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Pixel Perfect: Using Vision Transformers to Improve Road Quality Predictions from Medium Resolution and Heterogeneous Satellite Imagery",
+    "authors": "Aggrey Muhebwa, Gabriel Cadamuro, Jay Taneja",
+    "year": 2023,
+    "venue": "jcss_2023",
+    "areas": [
+      "infrastructure"
+    ],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [],
+    "area_agnostic": true,
+    "source_course": "jcss_2023_venue_search",
+    "notes": "The paper applies strong computer science methods to predict road quality from satellite imagery, which can be adapted to developing regions for infrastructure monitoring.",
+    "link": "https://doi.org/10.1145/3608112",
+    "abstract": "Critical infrastructure, such as roads and electricity, are core systems that enable economic development. However, these crucial systems are frequently under-monitored in developing regions, resulting in lost opportunities for growth. Recent advances in remote sensing and machine learning have enabled monitoring and measurement of infrastructure faster and more frequently than traditional methods. However, ground data are often unavailable, resulting in a disconnect between labels and remotely sensed data. Furthermore, data from industrialized regions can only sometimes be transferred to regions with sparse data due to differences in the concept of quality between regions. Additionally, inconsistency in data and the complexity of ML models can introduce bias due to learned characteristics across diverse regions, leading to inaccurate predictions and recommendations for action. In this study, we train and compare traditional neural networks and vision transformers to predict road quality from medium-resolution satellite imagery and apply them to realistic data conditions: heterogeneous temporal-spatial resolutions. The best models (vision transformers) achieve AUROC scores of 0.934 and 0.685 for binary and five-class classification tasks, respectively, exhibiting results appealing for inference in otherwise unmeasured areas. Furthermore, these experiments and results showed that proper training techniques could produce accurate models from limited, heterogeneous, and low-resolution data.",
+    "_matched_keywords": [
+      "remote sensing",
+      "satellite imagery",
+      "vision transformers"
+    ]
+  },
+  {
+    "id": null,
+    "title": "AI-based Market Intelligence Systems for Farmer Collectives: A Case Study from India",
+    "authors": "Ronak Ladhar, Sourav Sharma, Srikant Tangirala, Nishant Gupta, Abdul Azeem, Arjav Jain, Bhuvan Chand Katakam, Aditya Bommakanti, C. Sankaraiah, Hari Prasad Piridi, Kaushalendra Yadav, Kumra Vittalrao, Matiur Rahman, Rashul Chutani, Rishi Shah, Rohan Katepallewar, Dipanjan Chakraborty, Aaditeshwar Seth",
+    "year": 2023,
+    "venue": "jcss_2023",
+    "areas": [
+      "agriculture"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "ethnographic_design",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "caste"
+    ],
+    "area_agnostic": false,
+    "source_course": "jcss_2023_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context in India, focusing on small and marginal farmers and their market challenges.",
+    "link": "https://doi.org/10.1145/3609262",
+    "abstract": "Small and marginal farmers are unable to get a good price for their produce, because they face several challenges in market participation. Aggregation of produce via farmer cooperatives and the ability to delay sales (for non-perishable crops) to when market prices are high has emerged as a useful strategy to improve farmer incomes. We work with a network of farmer cooperatives in India growing soyabean and explore the potential of developing a machine learning\u2013based price forecasting and sales recommendation system that produces suggestions on the best dates when harvested soyabean crops should be sold, e.g., whether to sell right away (if prices are likely to fall in the future) or to wait (if prices are likely to rise). We present an evaluation of different methods for price forecasting and a prospect theory\u2013based method to produce sales recommendations. Experiments on historical data indicate that we can provide modest gains to farmers, and we build and field test an Android application for this purpose. Early results indicate positive feedback. Our methods can be generalized to other agricultural commodities that can be stored for several months and help farmer cooperatives to compete effectively in agricultural markets.",
+    "_matched_keywords": [
+      "agricultural markets",
+      "agricultural commodities",
+      "cooperatives"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Community and Facility Health Information System Integration in Malawi: A Comparison of Machine Learning and Probabilistic Record Linkage Methods",
+    "authors": "Anna Dixon, Limbani Thengo, Emmanuel Kitsao, Kondwani Matiya, Mourice Barasa, Revelation Nyirongo, Jennifer Muli, Funny Kamanga, Chiyembekezo Kachimanga, Fabien Munyaneza, Phillip Ngari, Henry Makungwa, Jones Chimpukuso, Mercy Amulele, Elijah Karari, Simon Mbae",
+    "year": 2023,
+    "venue": "jcss_2023",
+    "areas": [
+      "health"
+    ],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "jcss_2023_venue_search",
+    "notes": "The paper engages with a developing-regions context (Malawi) and applies machine learning methods to health information systems, fitting the 'cs_fundamentals' topic rule.",
+    "link": "https://doi.org/10.1145/3624773",
+    "abstract": "Accurate and efficient record linkage methods are essential to link patients between community health worker digital health apps and an EMR system, facilitating information flow and improving coordination of care. This study presents the eTrace workflow as an illustrative example, highlighting the benefits of enhanced coordination of care for patients in antiretroviral and non-communicable disease programs in rural Neno district, Malawi. This research focuses on the following major contributions: (1) development of a machine learning-based record linkage model for electronic health information systems, (2) comparison between the machine learning-based and probabilistic approaches to record linkage and (3) a concrete evaluation of our approach on real data for the eTrace workflow. A review of the standard record linkage architecture and its application to health information exchange systems is also presented. An empirical comparison conducted of logistic regression and the Fellegi-Sunter algorithms for this use case reveals comparable results. Both classifiers demonstrate an average precision of 0.86, while logistic regression achieves a higher recall at a fixed 0.90 precision of 0.74.",
+    "_matched_keywords": [
+      "health information systems"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Tracking Socio-Economic Development in Rural India over Two Decades Using Satellite Imagery",
+    "authors": "Anant Gulgulia, Aman Gupta, Akshay P. Sarashetti, Aaditya Sinha, Aaditeshwar Seth",
+    "year": 2023,
+    "venue": "jcss_2023",
+    "areas": [
+      "water_security",
+      "infrastructure"
+    ],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [
+      "climate_change"
+    ],
+    "area_agnostic": false,
+    "source_course": "jcss_2023_venue_search",
+    "notes": "The paper uses satellite imagery to track socio-economic development in rural India over two decades, which fits the 'cs_fundamentals' topic as it applies strong computer science methods to a specific problem context.",
+    "link": "https://doi.org/10.1145/3615361",
+    "abstract": "Longitudinal analysis of socio-economic development at sub-national scales can reveal valuable insights about which areas tend to develop faster than others and why. However, such analysis is difficult to conduct with traditional data sources such as censuses and surveys which are not repeated frequently and may require assumptions for imputation of values at non-surveyed locations. Indicators of socio-economic development based on satellite data have emerged as a proxy to track development at fine spatial and temporal scales. We build a model using daytime and nightlights satellite data to estimate an index of socio-economic development at the village level in India. We evaluate our model for temporal robustness and use it to produce estimates at three time points over a two-decade period. We then use these estimates to understand the effect on village-level development of factors such as the geographic distance of a village to hubs of economic activity and the inequality of development in the district. Our findings provide evidence of the possible impact that policy changes during this period have had on village development.",
+    "_matched_keywords": [
+      "inequality",
+      "satellite imagery"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Evaluation of Dependency Structure for Multivariate Weather Predictors Using Copulas",
+    "authors": "Samuel C. Maina, Dorcas Gicuku Mwigereri, Jonathan A. Weyn, Lester Mackey, Millicent Ochieng",
+    "year": 2023,
+    "venue": "jcss_2023",
+    "areas": [
+      "water_security",
+      "climate_change"
+    ],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [
+      "climate_change"
+    ],
+    "area_agnostic": false,
+    "source_course": "jcss_2023_venue_search",
+    "notes": "The paper engages with the developing-regions context through its focus on the Global South and its application to weather prediction in three African locations, which is relevant to the water_security and climate_change areas.",
+    "link": "https://doi.org/10.1145/3616384",
+    "abstract": "In the Global South, the effects of climate change have resulted in more frequent and severe weather events such as droughts, floods, and storms, leading to crop failures, food insecurity, and job loss. These effects are expected to increase in intensity in the future, further disadvantaging already marginalized communities and exacerbating existing inequalities. Hence, the need for prevention and adaptation is urgent, but accurate weather forecasting remains challenging, despite advances in machine learning and numerical modeling, due to complex interaction of atmospheric and oceanic variables. This research aims to explore the potential of vine copulas in explaining complex relationships of different weather variables in three African locations. Copulas separate marginal distributions from the dependency structure, offering a flexible way to model dependence between random variables for improved risk assessments and simulations. Vine copulas are based on a variety of bivariate copulas, including Gaussian, Student\u2019s t, Clayton, Gumbel, and Frank copulas, and they are effective in high-dimensional problems and offer a hierarchy of trees to express conditional dependence. In addition, we propose how this framework can be applied within the subseasonal forecasting models to enhance the prediction of different weather events or variables.",
+    "_matched_keywords": [
+      "drought",
+      "marginalized communities",
+      "marginalized communities"
+    ]
+  }
+]

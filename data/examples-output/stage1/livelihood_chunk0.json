@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Satellite & Mobile-Data Poverty Mapping",
+    "description": "Research using machine learning on satellite imagery, mobile phone call detail records, and other digital traces to estimate poverty, wealth, and economic activity at fine geographic scales. Spans CS methods (transfer learning, object detection, land-cover classification), fairness/representation concerns in the resulting maps, and questions of how and when such prediction models should be validated, updated, and deployed for targeting development interventions."
+  },
+  {
+    "name": "Mobile Money & Digital Financial Inclusion",
+    "description": "Studies of mobile-money, mobile payments, and state- or market-led financial inclusion schemes in low-income settings, including randomized evaluations and systematic reviews of their welfare impacts. Covers adoption and domestication by underserved microentrepreneurs, risk-sharing after shocks, phone sharing dynamics, and the gendered patterns of who benefits."
+  },
+  {
+    "name": "Microfinance & Alternative Credit Provision",
+    "description": "Interventions and research on microfinance institutions, borrower creditworthiness and selection, alternative/algorithmic credit scoring, and consumer-credit marketing in emerging financial markets. Ranges from problem-discovery accounts (Grameen, Kiva, sector reports) through field experiments to CS work on data-driven scoring and its fairness implications."
+  },
+  {
+    "name": "Mobile Phones for Livelihoods & Market Information",
+    "description": "Work examining how basic and smartphone access reshapes economic outcomes for specific occupational groups (fisherfolk, livestock keepers, micro business owners), including the classic Kerala fisherman evidence and its contextual critiques. Emphasizes market-information effects, emergent-user usage patterns, and gendered adoption gaps."
+  },
+  {
+    "name": "Digital Tools for Women's Economic Empowerment",
+    "description": "User-centered design, deployment, and evaluation of smartphones, apps, and digital-literacy interventions aimed at empowering rural and micro-entrepreneur women. Combines ethnographic design of tools (seasonal calendars, business apps), impact evaluation of empowerment outcomes, and vocational/skill training initiatives."
+  },
+  {
+    "name": "Climate Resilience & Community Natural Resource Management",
+    "description": "Participatory tools and assessments for climate vulnerability, natural-resource commons management, and resilience of semi-arid farming systems, largely from practitioner handbooks and field studies. Blends ethnographic/community-consultation design with problem discovery and landscape-ecology planning under a climate-change lens."
+  },
+  {
+    "name": "Smallholder Agriculture & Rural Innovation Livelihoods",
+    "description": "Research on smallholder farmers' productivity, social-movement strategies, grassroots invention, and rural innovation/entrepreneurship, often coupled with appropriate-technology and livelihood-enhancement interventions. Spans problem discovery about farm size and social organizing through effectuation-based studies of rural enterprise."
+  },
+  {
+    "name": "Data & Analytics for Aid and SDG Tracking",
+    "description": "Computational approaches to measuring and monitoring international aid flows, SDG progress, and poverty/vulnerability at scale, including norm-optimization and multifaceted longitudinal modeling. Connects open-data transparency in aid with algorithmic classification and vulnerability mapping of disadvantaged populations."
+  }
+]

@@ -1,0 +1,213 @@
+[
+  {
+    "id": null,
+    "title": "Deploying Kalahok 1.0: Profiling Disaster-Stricken Communities Towards Intervention Initiatives",
+    "authors": "Joseph Marvin Imperial, Manolito V. Octaviano, Jesvir Zuniega",
+    "year": 2021,
+    "venue": "ghtc_2021",
+    "areas": [
+      "water_security",
+      "labour"
+    ],
+    "topics": [
+      "problem_discovery",
+      "ethnographic_design"
+    ],
+    "cross_cutting_axes": [
+      "climate_change",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "ghtc_2021_venue_search",
+    "notes": "The paper engages with a low-resource setting (disaster-stricken communities in the Philippines) and applies a participatory toolkit for intervention initiatives, aligning with the 'problem_discovery' and 'ethnographic_design' topics.",
+    "link": "https://doi.org/10.1109/GHTC53159.2021.9612470",
+    "abstract": "In this paper, we present the initial deployment of Kalahok 1.0 - a customizable, multilingual, and deliberative web-based participatory toolkit towards informed and data-driven intervention initiatives for disaster-stricken communities in Marawi City, Philippines. A total of 1,168 participants from 9 local communities responded to the survey. Thematic analysis using Biterm Topic Modeling revealed that the needs of the communities can be classified into relief goods, potable water, housing, and employment. The timely feedback to the community partner allowed them to formulate interventions related to the immediate needs, and to plan in addressing the long-term targets.",
+    "_matched_keywords": [
+      "thematic analysis"
+    ]
+  },
+  {
+    "id": null,
+    "title": "A Rural Microgrid Field Pilot in India Ensuring Reliable Electricity Supply and Social Upliftment",
+    "authors": "Shiv Kumar Singh, Ankush Sharma, Santanu Mishra, S. C. Srivastava, Deep Mukherjee, Anurag Srivastava, Noel N. Schulz",
+    "year": 2021,
+    "venue": "ghtc_2021",
+    "areas": [
+      "infrastructure"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "ethnographic_design",
+      "impact_evaluation",
+      "operations_scale"
+    ],
+    "cross_cutting_axes": [
+      "climate_change",
+      "gender",
+      "caste",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "ghtc_2021_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context in India, focusing on rural electrification and social upliftment.",
+    "link": "https://doi.org/10.1109/GHTC53159.2021.9612517",
+    "abstract": "This paper reports the development of a village microgrid in India, currently in an advanced stage of implementation as part of the UI-ASSIST (US-India collAborative for Smart diStribution System wIth STorage) project. Two microgrids are being set up, one each in two hamlets of a village in Kanpur district, Uttar Pradesh (UP) state, India, and are interconnected via converter interfaced link for the bidirectional power flow between hamlets. These have been planned based on results from a socio-economic survey and local resource assessment, and consist of adequately sized Solar PV system, Lithium-Ion Batteries Energy Storage System (BESS), Hybrid biomass system, and microgrid Energy Management System (\u03bcEMS). In addition, six solar pumps are installed to meet the irrigation requirements. A unique community-based management model for operation and maintenance of the microgrids has been conceived and number of agro-processing industries are planned to provide additional local employment.",
+    "_matched_keywords": [
+      "irrigation"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Ecosystem approach to sustainable aquaculture for smallholder farmers",
+    "authors": "Nataraj Kuntagod, Sanjay Podder, Rambhau Eknath Rote, Satya Sai Srinivas Abbabathula, Neelkanth Mishra, Ayush Chopra",
+    "year": 2021,
+    "venue": "ghtc_2021",
+    "areas": [
+      "agriculture"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "ethnographic_design",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "climate_change",
+      "gender",
+      "caste",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "ghtc_2021_venue_search",
+    "notes": "The paper engages with a developing-regions context in India, focusing on sustainable aquaculture for smallholder farmers.",
+    "link": "https://doi.org/10.1109/GHTC53159.2021.9612446",
+    "abstract": "With large areas of water and diverse fish species, India could strengthen fishery-based livelihood systems for billions of its people. Current levels of fish productivity could be doubled by enhancing management practices and bringing small and seasonal ponds into fish production systems. The challenges for developing fisheries and aquaculture in India is lack of knowledge on innovative, locally suitable technologies and better management practices (BMPs); limited supplies of locally produced quality fish seed; low manpower for fish seed production/fish farming; lack of capital and insufficient credit facilities/private sector investments; and problems in scaling. In this paper, we propose a digital solution to address the unavailability of standardized and reliable data at the production point, one of the key set of data items in enabling an ecosystem approach and make a case for an open data exchange platform for the fisheries sector to strengthen the value chain.",
+    "_matched_keywords": [
+      "smallholder farmers",
+      "open data"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Innovating Solar Charging Kiosks For Shambatek's Agricultural Business In Kenya",
+    "authors": "Dane Nicklaus, John Gershenson",
+    "year": 2021,
+    "venue": "ghtc_2021",
+    "areas": [
+      "agriculture"
+    ],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [
+      "climate_change"
+    ],
+    "area_agnostic": false,
+    "source_course": "ghtc_2021_venue_search",
+    "notes": "The paper engages with a developing-regions context (Kenya) and addresses issues relevant to smallholder farming and irrigation, which aligns with the 'agriculture' area and 'cs_fundamentals' topic.",
+    "link": "https://doi.org/10.1109/GHTC53159.2021.9612498",
+    "abstract": "The ShambaTek kiosk vends solar charged battery-powered water pumps. Low-cost electric irrigation would allow small Kenyan farmers to grow their crops during the dry season. By renting out battery-powered pumps at the ShambaTek kiosk, farmers will be able to use the device to pump water from the river to their farm for irrigation. ShambaTek will provide low-cost irrigation services to farmers all over Kenya, first starting in Wath Onger, by continually building and expanding kiosks to serve different counties. These kiosks will grow in size, along with their ability to service more farmers as demand grows, and irrigation becomes more widely practiced over time. As a company, ShambaTek seeks to make irrigation more widely accessible to smallholder farmers who currently cannot afford it. ShambaTek's low-cost services allows farmers to ultimately pull themselves out of poverty, with newfound income which can then be devoted towards leisure, or for reinvestment on attributes such as better seeds, fertilizer, improving crop yield, and increasing the diversity in what they grow, along with decreasing food scarcity across Kenya.",
+    "_matched_keywords": [
+      "smallholder farmers",
+      "irrigation"
+    ]
+  },
+  {
+    "id": null,
+    "title": "GrapeSense: A Grape Aging Classifier Using Residual Transfer Learning On Drone Images",
+    "authors": "Maanit Sharma, Navid Shaghaghi",
+    "year": 2021,
+    "venue": "ghtc_2021",
+    "areas": [
+      "agriculture"
+    ],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [],
+    "area_agnostic": false,
+    "source_course": "ghtc_2021_venue_search",
+    "notes": "The paper applies strong computer science methods (cs_fundamentals) that could be adapted to a developing-regions context, focusing on efficiency in agricultural practices.",
+    "link": "https://doi.org/10.1109/GHTC53159.2021.9612459",
+    "abstract": "As not all grapes on a vine ripen at the same time, harvesting in vineyards involves difficult and laborious monitoring of grape growth and ripeness to enable the picking of grapes during their optimal ripeness phase. GrapeSense, employs an aerial drone and a residual transfer learning Deep Convolutional Neural Network (DCNN) to enable image capture and classification of different stages of grape aging for green and purple grapes. Images were taken daily over a 3-week period, which allowed for the inclusion of images of various stages of grape aging past ripeness, in the dataset; and a modified ResNet50 DCNN was utilized to classify those various aging stages. GrapeSense achieved classification of four different grape aging stages past ripeness for both green and purple grapes with 96.9% and 93.8% respective accuracy. Automated detection of various stages of grape aging using GrapeSense will help add efficiency to grape harvesting, thus help smaller farmers especially to harvest more effectively by reducing the number of grapes that are wasted due to having been harvested too late.",
+    "_matched_keywords": [
+      "transfer learning"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Design and ideation workshop for ejector-based refrigeration system with disaster relief applications",
+    "authors": "Kartik V. Bulusu",
+    "year": 2021,
+    "venue": "ghtc_2021",
+    "areas": [
+      "infrastructure"
+    ],
+    "topics": [
+      "problem_discovery",
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [],
+    "area_agnostic": false,
+    "source_course": "ghtc_2021_venue_search",
+    "notes": "The paper engages with a developing-regions context through disaster relief applications in Puerto Rico, which fits the criteria for the 'problem_discovery' and 'cs_fundamentals' topics.",
+    "link": "https://doi.org/10.1109/GHTC53159.2021.9612492",
+    "abstract": "In this paper a design approach to address the social impact of a novel ejector-refrigeration technology is presented. The potential to address a humanitarian cause offered a unique opportunity to recast the technology for its tremendous social impact value in disaster-prone regions like Puerto Rico. The problem statement was originally developed using engineering principles with a \u201cdesign-for\u201d approach. A design and ideation (DI) group comprising of two high school students and one undergraduate student along with the author used storytelling and problem framing activities to recast the problem toward a \u201cdesign-with\u201d approach. The DI group democratized the idea generation processes in the attempt to unlock the social impact potential of the ejector-based refrigeration technology for the disaster relief applications.",
+    "_matched_keywords": [
+      "problem framing"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Guidelines for the design of digital knowledge: Empowering Bangladeshi communities to improve their water safety",
+    "authors": "Nayantara E. Thomas, Annemarie Mink, Abhigyan Singh, Bilqis Amin Hoque, Doris Van Halem, Jan Carel Diehl",
+    "year": 2021,
+    "venue": "ghtc_2021",
+    "areas": [
+      "water_security"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "ethnographic_design",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "climate_change",
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "ghtc_2021_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context (Bangladesh) and addresses water safety, which is relevant to the 'water_security' area.",
+    "link": "https://doi.org/10.1109/GHTC53159.2021.9612419",
+    "abstract": "Bangladesh has the largest proportion of people exposed to arsenic contamination in water. Studies have shown that awareness campaigns have positively influenced communities regarding their choice of safe water sources. In order to reach and engage communities in adopting safe water supply systems, there is scope in using smartphones to help in monitoring, operation and maintenance and bringing awareness around water safety. The Tapp-BDP app is being developed to tackle this. Its desired functionalities are: water quality field testing, service delivery, payment, interaction, and a knowledge domain on water safety. Specific to the knowledge domain of the app, the challenge is to digitally convey a complex topic in an understandable manner to improve trust within the water supply system and to empower the stakeholders to take charge of their own water supply. ICT provides the opportunity to quickly convey knowledge in new, attractive ways, but is not always inclusive to all. Through the investigation of the complex water safety context, the attributes of the target group as well as using smartphones as a communication channel the outcomes of this project resulted in a set of guidelines that support the development of digital knowledge.",
+    "_matched_keywords": [
+      "field testing"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Design and development of Air to Water Generator for the Village in Kerala, India",
+    "authors": "P. Harish Chandra, R. Sayee Shankhar, S. Pranesh, Sumedh Degaonkar, Sara Kaya, Omar Kiwan, Renjith Mohan, C. S. Sowndaram",
+    "year": 2021,
+    "venue": "ghtc_2021",
+    "areas": [
+      "water_security"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "ethnographic_design",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "climate_change"
+    ],
+    "area_agnostic": false,
+    "source_course": "ghtc_2021_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context in India, focusing on a water security issue in Kerala.",
+    "link": "https://doi.org/10.1109/GHTC53159.2021.9612480",
+    "abstract": "Wayanad, a district in India's southwestern state of Kerala is known for its forest cover, has been impacted by changing precipitation patterns, decreased annual rainfall, and water shortfall. The water crisis's impact on society and the economy are extensively discussed. The various alternatives to provide access to water were evaluated to determine their cost-effectiveness. The human-centered design approach was used to identify the actual problems with active participation from the community. Subsequently, solutions were co-designed with the indigenous population, keeping in mind their cultural and socio-economic conditions. A laboratory-scale prototype air-to-water generation system was fabricated and tested based on the design parameters. The prototype works on the dehumidification principle, extracting moisture from the air. The village's high humidity, viability and environmental friendliness, ease of government approval, and ability to provide distinct units for each house or group of locations contributed to the plan's selection. We quantified and analyzed the effects of process parameters such as relative humidity, ambient temperature, operating time, and water quality. Finally, test results were discussed in terms of the system's impact on meeting the water requirements of the community.",
+    "_matched_keywords": [
+      "co-design"
+    ]
+  }
+]

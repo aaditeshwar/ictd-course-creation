@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Satellite/remote sensing for agricultural land and resource mapping",
+    "description": "Uses satellite imagery (Sentinel, Landsat) and deep learning to map and monitor agricultural land features such as irrigation methods, crop types, tillage residue, vegetation health, and land use/land cover classification. These interventions span methodological CS work through deployment for monitoring climate adaptation, disruption events, and food security at regional scales."
+  },
+  {
+    "name": "In-field IoT and sensing for precision agriculture",
+    "description": "Deploys low-cost sensors, IoT devices, and forecasting models to measure and predict on-farm conditions such as soil moisture, crop disease, and microclimate. Ranges from novel sensing hardware and time-series modeling to farmer-facing deployments integrating IoT with chatbots and grow systems."
+  },
+  {
+    "name": "Digital agricultural market information and price intelligence",
+    "description": "Builds platforms and models that give smallholder farmers access to market prices, demand information, and anomaly/price forecasting so they can make better selling decisions. Includes accessibility-focused market info services for low-literate users and AI-based market intelligence for farmer collectives."
+  },
+  {
+    "name": "Agricultural supply chain intermediaries and procurement mechanisms",
+    "description": "Studies and designs mechanisms to improve efficiency, fairness, and transparency in agricultural input procurement and output supply chains, often involving intermediary transactions and incentive-compatible market design. Spans mechanism design, ethnographic study of supply chains, and impact evaluation of interventions on farmer welfare."
+  },
+  {
+    "name": "Digital agricultural extension and advisory services",
+    "description": "Delivers agricultural knowledge, advice, and behavior-change support to farmers through digital channels such as IVR, participatory video, discussion support tools, and data-driven adoption diagnostics. Focuses on cost-effectiveness, accessibility for marginalized users, and driving practice adoption."
+  },
+  {
+    "name": "Human-centered design of low-cost agricultural tools and machines",
+    "description": "Applies human-centered and participatory design to develop appropriate, low-cost mechanical tools and intermediate machines for smallholder and high-land farming contexts. Emphasizes ethnographic engagement with local users and adaptation to resource-constrained settings."
+  },
+  {
+    "name": "Climate-smart farming practices and carbon/emissions in agriculture",
+    "description": "Focuses on measuring, optimizing, and incentivizing agricultural practices that reduce emissions or sequester carbon, including soil carbon management, participatory sensing of rice emissions, and RL-based management optimization. Combines modeling with participatory measurement and adoption of low-emission practices."
+  },
+  {
+    "name": "Water and irrigation infrastructure for food/water security",
+    "description": "Designs and evaluates water-management interventions such as rainwater harvesting, off-grid automated irrigation, and farm ponds to improve agricultural productivity and resilience in water-stressed regions. Combines appropriate technology deployment with impact evaluation of productivity outcomes."
+  },
+  {
+    "name": "Alternative and diversified livelihood cultivation systems for smallholders",
+    "description": "Develops low-resource cultivation systems for alternative crops and food sources such as oyster mushrooms, aquaculture, and hydroponics to enhance smallholder livelihoods and food security. Typically integrates problem discovery, ethnographic design, and impact evaluation with marginalized farming communities."
+  }
+]

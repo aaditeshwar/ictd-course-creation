@@ -1,0 +1,376 @@
+[
+  {
+    "id": null,
+    "title": "Time Series of Satellite Imagery Improve Deep Learning Estimates of Neighborhood-Level Poverty in Africa",
+    "authors": "Markus B. Pettersson, Mohammad Kakooei, Julia Ortheden, Fredrik D. Johansson, Adel Daoud",
+    "year": 2023,
+    "venue": "ijcai_2023",
+    "areas": [
+      "water_security",
+      "agriculture",
+      "health"
+    ],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [
+      "climate_change",
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "ijcai_2023_venue_search",
+    "notes": "The paper applies strong computer science methods to infer neighborhood-level poverty using satellite imagery, which can be adapted to a developing-regions context in India or other low/middle-income countries.",
+    "link": null,
+    "abstract": "To combat poor health and living conditions, policymakers in Africa require temporally and geographically granular data measuring economic well-being. \r\nMachine learning (ML) offers a promising alternative to expensive and time-consuming survey measurements by training models to predict economic conditions from freely available satellite imagery. However,  previous efforts have failed to utilize the temporal information available in earth observation (EO) data, which may capture developments important to standards of living. In this work, we develop an EO-ML method for inferring neighborhood-level material-asset wealth using multi-temporal imagery and recurrent convolutional neural networks. Our model outperforms state-of-the-art models in several aspects of generalization, explaining  72% of the variance in wealth across held-out countries and 75%  held-out time spans. Using our geographically and temporally aware models, we created spatio-temporal material-asset data maps covering the entire continent of Africa from 1990 to 2019, making our data product the largest dataset of its kind. We showcase these results by analyzing which neighborhoods are likely to escape poverty by the year 2030, which is the deadline for when the Sustainable Development Goals (SDG) are evaluated. List of keywords AI for Good -> Machine Learning AI for Good -> Computer Vision",
+    "_matched_keywords": [
+      "satellite imagery"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Customized Positional Encoding to Combine Static and Time-varying Data in Robust Representation Learning for Crop Yield Prediction",
+    "authors": "Qinqing Liu, Fei Dou, Meijian Yang, Ezana Amdework, Guiling Wang, Jinbo Bi",
+    "year": 2023,
+    "venue": "ijcai_2023",
+    "areas": [
+      "agriculture"
+    ],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [
+      "climate_change"
+    ],
+    "area_agnostic": false,
+    "source_course": "ijcai_2023_venue_search",
+    "notes": "The paper applies strong computer science methods to crop yield prediction, which is relevant to the 'cs_fundamentals' topic and can be adapted to a developing-regions context.",
+    "link": null,
+    "abstract": "Accurate prediction of crop yield under the conditions of climate change is crucial to ensure food security. Transformers have shown remarkable success in modeling sequential data and hold the potential for improving crop yield prediction. To understand how weather and meteorological sequence variables affect crop yield, the positional encoding used in Transformers is typically shared across different sample sequences. We argue that it is necessary and beneficial to differentiate the positional encoding for distinct samples based on time-invariant properties of the sequences. Particularly, the sequence variables influencing crop yield vary according to static variables such as geographical locations. Sample data from southern areas may benefit from more tailored positional encoding different from that for northern areas. We propose a novel transformer based architecture for accurate and robust crop yield prediction, by introducing a Customized Positional Encoding (CPE) that encodes a sequence adaptively according to static information associated with the sequence. Empirical studies demonstrate the effectiveness of the proposed novel architecture and show that partially lin-\r\nearized attention better captures the bias introduced by side information than softmax re-weighting. The resultant crop yield prediction model is robust to climate change, with mean-absolute-error reduced by up to 26% compared to the best baseline model in extreme drought years. List of keywords AI for Good -> Machine Learning AI for Good -> Multidisciplinary Topics and Applications",
+    "_matched_keywords": [
+      "drought"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Optimizing Crop Management with Reinforcement Learning and Imitation Learning",
+    "authors": "Ran Tao, Pan Zhao, Jing Wu, Nicolas Martin, Matthew T. Harrison, Carla Ferreira, Zahra Kalantari, Naira Hovakimyan",
+    "year": 2023,
+    "venue": "ijcai_2023",
+    "areas": [
+      "agriculture"
+    ],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [],
+    "area_agnostic": false,
+    "source_course": "ijcai_2023_venue_search",
+    "notes": "The paper applies strong computer science methods to crop management, which can be adapted to a developing-regions context in India or other low/middle-income countries, aligning with the cs_fundamentals topic rule.",
+    "link": null,
+    "abstract": "Crop management has a significant impact on crop yield, economic profit, and the environment. Although management guidelines exist, finding the optimal management practices is challenging. Previous work used reinforcement learning (RL) and crop simulators to solve the problem, but the trained policies either have limited performance or are not deployable in the real world. In this paper, we present an intelligent crop management system that optimizes nitrogen fertilization and irrigation simultaneously via RL, imitation learning (IL), and crop simulations using the Decision Support System for Agrotechnology Transfer (DSSAT). We first use deep RL, in particular, deep Q-network, to train management policies that require a large number of state variables from the simulator as observations (denoted as full observation). We then invoke IL to train management policies that only need a few state variables that can be easily obtained or measured in the real world (denoted as partial observation) by mimicking the actions of the RL policies trained under full observation. Simulation experiments using the maize crop in Florida (US) and Zaragoza (Spain) demonstrate that the trained policies from both RL and IL techniques achieved more than 45\\% improvement in economic profit while causing less environmental impact compared with a baseline method. Most importantly, the IL-trained management policies are directly deployable in the real world as they use readily available information. List of keywords AI for Good -> Multidisciplinary Topics and Applications AI for Good -> Machine Learning",
+    "_matched_keywords": [
+      "irrigation"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Towards Gender Fairness for Mental Health Prediction",
+    "authors": "Jiaee Cheong, Selim Kuzucu, Sinan Kalkan, Hatice Gunes",
+    "year": 2023,
+    "venue": "ijcai_2023",
+    "areas": [
+      "health"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "gender"
+    ],
+    "area_agnostic": false,
+    "source_course": "ijcai_2023_venue_search",
+    "notes": "The paper addresses gender fairness in mental health prediction, which is relevant to the 'gender' cross-cutting axis and can be adapted to a developing-regions context.",
+    "link": null,
+    "abstract": "Mental health is becoming an increasingly prominent health challenge. Despite a plethora of studies analysing and mitigating bias for a variety of tasks such as face recognition and credit scoring, research on machine learning (ML) fairness for mental health has been sparse to date. In this work, we focus on gender bias in mental health and make the following contributions. First, we examine whether bias exists in existing mental health datasets and algorithms. Our experiments were conducted using Depresjon, Psykose and D-Vlog. We identify that both data and algorithmic bias exist. Second, we analyse strategies that can be deployed at the pre-processing, in-processing and post-processing stages to mitigate for bias and evaluate their effectiveness. Third, we investigate factors that impact the efficacy of existing bias mitigation strategies and outline recommendations to achieve greater gender fairness for mental health. Upon obtaining counter-intuitive results on D-Vlog dataset, we undertake further experiments and analyses, and provide practical suggestions to avoid hampering bias mitigation efforts in ML for mental health. List of keywords AI for Good -> AI Ethics, Trust, Fairness AI for Good -> Humans and AI AI for Good -> Multidisciplinary Topics and Applications",
+    "_matched_keywords": [
+      "credit scoring"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Planning Multiple Epidemic Interventions with Reinforcement Learning",
+    "authors": "Anh Mai, Nikunj Gupta, Azza Abouzied, Dennis Shasha",
+    "year": 2023,
+    "venue": "ijcai_2023",
+    "areas": [
+      "health"
+    ],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [
+      "climate_change",
+      "gender",
+      "caste",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "ijcai_2023_venue_search",
+    "notes": "The paper applies strong computer science methods to a problem that could be adapted to a developing-regions context, fitting the cs_fundamentals topic rule.",
+    "link": null,
+    "abstract": "Combating an epidemic entails finding a plan that describes when and how to apply different interventions, such as mask-wearing mandates, vaccinations, school or workplace closures. An optimal plan will curb an epidemic with minimal loss of life, disease burden, and economic cost. Finding an optimal plan is an intractable computational problem in realistic settings. Policy-makers, however, would greatly benefit from tools that can efficiently search for plans that minimize disease and economic costs especially when considering multiple possible interventions over a continuous and complex action space given a continuous and equally complex state space. We formulate this problem as a Markov decision process. Our formulation is unique in its ability to represent multiple continuous interventions over any disease model defined by ordinary differential equations. We illustrate how to effectively apply state-of-the-art actor-critic reinforcement learning algorithms (PPO and SAC) to search for plans that minimize overall costs. We empirically evaluate the learning performance of these algorithms and compare their performance to hand-crafted baselines that mimic plans constructed by policy-makers. Our method outperforms baselines. Our work confirms the viability of a computational approach to support policy-makers. List of keywords AI for Good -> Machine Learning",
+    "_matched_keywords": [
+      "vaccination"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Disentangling Societal Inequality from Model Biases: Gender Inequality in Divorce Court Proceedings",
+    "authors": "Sujan Dutta, Parth Srivastava, Vaishnavi Solunke, Swaprava Nath, Ashiqur R. KhudaBukhsh",
+    "year": 2023,
+    "venue": "ijcai_2023",
+    "areas": [
+      "gender"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "sociotechnical_dynamics"
+    ],
+    "cross_cutting_axes": [
+      "gender"
+    ],
+    "area_agnostic": false,
+    "source_course": "ijcai_2023_venue_search",
+    "notes": "The paper engages with gender inequality in a developing region context, specifically India, through the lens of divorce court proceedings, which is a substantive engagement with a low-resource setting.",
+    "link": null,
+    "abstract": "Divorce is the legal dissolution of a marriage by a court. Since this is usually an unpleasant outcome of a marital union, each party may have reasons to call the decision to quit which is generally documented in detail in the court proceedings. Via a substantial corpus of 17,306 court proceedings, this paper investigates gender inequality through the lens of divorce court proceedings. To our knowledge, this is the first-ever large-scale computational analysis of gender inequality in Indian divorce, a taboo-topic for ages. While emerging data sources (e.g., public court records made available on the web) on sensitive societal issues hold promise in aiding social science research, biases present in cutting-edge natural language processing (NLP) methods may interfere with or affect such studies. A thorough analysis of potential gaps and limitations present in extant NLP resources is thus of paramount importance. In this paper, on the methodological side,  we demonstrate that existing NLP resources required several non-trivial modifications to quantify societal inequalities. On the substantive side, we find that while a large number of court cases perhaps suggest changing norms in India where women are increasingly challenging patriarchy, AI-powered analyses of these court proceedings indicate striking gender inequality with women often subjected to domestic violence. List of keywords AI for Good -> Natural Language Processing AI for Good -> Machine Learning",
+    "_matched_keywords": [
+      "inequality",
+      "natural language processing (NLP)"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Confidence-based Self-Corrective Learning: An Application in Height Estimation Using Satellite LiDAR and Imagery",
+    "authors": "Zhili Li, Yiqun Xie, Xiaowei Jia",
+    "year": 2023,
+    "venue": "ijcai_2023",
+    "areas": [
+      "water_security",
+      "climate_change"
+    ],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [
+      "climate_change"
+    ],
+    "area_agnostic": false,
+    "source_course": "ijcai_2023_venue_search",
+    "notes": "The paper applies strong computer science methods to address environmental challenges, which can be adapted to a developing-regions context for climate change mitigation and adaptation.",
+    "link": null,
+    "abstract": "Widespread, and rapid, environmental transformation is underway on Earth driven by human activities. Climate shifts such as global warming have led to massive and alarming loss of ice and snow in the high-latitude regions including the Arctic, causing many natural disasters due to sea-level rise, etc. Mitigating the impacts of climate change has also become a United Nations\u2019 Sustainable Development Goal for 2030. The recent launch of the ICESat-2 satellites target on heights in the polar regions. However, the observations are only available along very narrow scan lines, leaving large no-data gaps in-between. We aim to fill the gaps by combining the height observations with high-resolution satellite imagery that have large footprints (spatial coverage). The data expansion is a challenging task as the height data are often constrained on one or a few lines per image in real applications, and the images are highly noisy for height estimation. Related work on image-based height prediction and interpolation relies on specific types of images or does not consider the highly-localized height distribution. We propose a spatial self-corrective learning framework, which explicitly uses confidence-based pseudo-interpolation, recurrent self-refinement, and truth-based correction with a regression layer to address the challenges. We carry out experiments on different landscapes in the high-latitude regions and the proposed method shows stable improvements compared to the baseline methods. List of keywords AI for Good -> Computer Vision AI for Good -> Machine Learning AI for Good -> Multidisciplinary Topics and Applications AI for Good -> Uncertainty in AI",
+    "_matched_keywords": [
+      "satellite imagery",
+      "LiDAR"
+    ]
+  },
+  {
+    "id": null,
+    "title": "On Optimizing Model Generality in AI-based Disaster Damage Assessment: A Subjective Logic-driven Crowd-AI Hybrid Learning Approach",
+    "authors": "Yang Zhang, Ruohan Zong, Lanyu Shang, Huimin Zeng, Zhenrui Yue, Na Wei, Dong Wang",
+    "year": 2023,
+    "venue": "ijcai_2023",
+    "areas": [],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [],
+    "area_agnostic": true,
+    "source_course": "ijcai_2023_venue_search",
+    "notes": "The paper focuses on a general-purpose methodology that could be adapted to a developing-regions context, aligning with the cs_fundamentals topic rule.",
+    "link": null,
+    "abstract": "This paper focuses on the AI-based damage assessment (ADA) applications that leverage state-of-the-art AI techniques to automatically assess the disaster damage severity using online social media imagery data, which aligns well with the \u201ddisaster risk reduction\u201d target under United Nations\u2019 Sustainable Development Goals (UN SDGs). This paper studies an ADA model generality problem where the objective is to address the limitation of current ADA solutions that are often optimized only for a single disaster event and lack the generality to provide accurate performance across different disaster events. To address this limitation, we work with domain experts and local community stakeholders in disaster response to develop CollabGeneral, a subjective logic-driven crowd-AI collaborative learning framework that integrates AI and crowdsourced human intelligence into a principled learning framework to address the ADA model generality problem. Extensive experiments on four real-world ADA datasets demonstrate that CollabGeneral consistently outperforms the state-of-the-art baselines by significantly improving the ADA model generality across different disasters. List of keywords AI for Good -> Humans and AI AI for Good -> Multidisciplinary Topics and Applications",
+    "_matched_keywords": [
+      "disaster risk"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Limited Resource Allocation in a Non-Markovian World: The Case of Maternal and Child Healthcare",
+    "authors": "Panayiotis Danassis, Shresth Verma, Jackson A. Killian, Aparna Taneja, Milind Tambe",
+    "year": 2023,
+    "venue": "ijcai_2023",
+    "areas": [
+      "health"
+    ],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "ijcai_2023_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context through its application to maternal health awareness programs in India, adhering to the rule for topic 'cs_fundamentals'.",
+    "link": null,
+    "abstract": "The success of many healthcare programs depends on participants\u2019 adherence. We consider the problem of scheduling interventions in low resource settings (e.g., placing timely support calls from health workers) to increase adherence and/or engagement. Past works have successfully developed several classes of Restless Multi-armed Bandit (RMAB) based solutions for this problem. Nevertheless, all past RMAB approaches assume that the participants\u2019 behaviour follows the Markov property. We demonstrate significant deviations from the Markov assumption on real-world data on a maternal health awareness program from our partner NGO, ARMMAN. Moreover, we extend RMABs to continuous state spaces, a previously understudied area. To tackle the generalised non-Markovian RMAB setting we (i) model each participant\u2019s trajectory as a time-series, (ii) leverage the power of time-series forecasting models to learn complex patterns and dynamics to predict future states, and (iii) propose the Time-series Arm Ranking Index (TARI) policy, a novel algorithm that selects the RMAB arms that will benefit the most from an intervention, given our future state predictions. We evaluate our approach on both synthetic data, and a secondary analysis on real data from ARMMAN, and demonstrate significant increase in engagement compared to the SOTA, deployed Whittle index solution. This translates to 16.3 hours of additional content listened, 90.8% more engagement drops prevented, and reaching more than twice as many high dropout-risk beneficiaries. List of keywords AI for Good -> Agent-based and Multi-agent Systems AI for Good -> Planning and Scheduling",
+    "_matched_keywords": [
+      "maternal and child health"
+    ]
+  },
+  {
+    "id": null,
+    "title": "GreenPLM: Cross-Lingual Transfer of Monolingual Pre-Trained Language Models at Almost No Cost",
+    "authors": "Qingcheng Zeng, Lucas Garay, Peilin Zhou, Dading Chong, Yining Hua, Jiageng Wu, Yikang Pan, Han Zhou, Rob Voigt, Jie Yang",
+    "year": 2023,
+    "venue": "ijcai_2023",
+    "areas": [],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [
+      "climate_change",
+      "gender",
+      "caste",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": true,
+    "source_course": "ijcai_2023_venue_search",
+    "notes": "The paper addresses a general-purpose methodology that could be adapted to a developing-regions context, aligning with the cs_fundamentals topic rule.",
+    "link": null,
+    "abstract": "Large pre-trained models have revolutionized natural language processing (NLP) research and applications, but high training costs and limited data resources have prevented their benefits from being shared equally amongst speakers of all the world\u2019s languages. To address issues of cross-linguistic access to such models and reduce energy consumption for sustainability during large-scale model training, this study proposes an effective and energy-efficient framework called GreenPLM that uses bilingual lexicons to directly \u201ctranslate\u201d pre-trained language models of one language into another at almost no additional cost. We validate this approach in 18 languages\u2019 BERT models and show that this framework is comparable to, if not better than, other heuristics with high training costs. In addition, given lightweight continued pre-training on limited data where available, this framework outperforms the original monolingual language models in six out of seven tested languages with up to 200x less pre-training efforts. Aiming at the Leave No One Behind Principle (LNOB), our approach manages to reduce inequalities between languages and energy consumption greatly. We make our codes and models publicly available at https://github.com/qcznlp/GreenPLMs. List of keywords AI for Good -> Natural Language Processing AI for Good -> AI Ethics, Trust, Fairness",
+    "_matched_keywords": [
+      "natural language processing (NLP)"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Find Rhinos without Finding Rhinos: Active Learning with Multimodal Imagery of South African Rhino Habitats",
+    "authors": "Lucia Gordon, Nikhil Behari, Samuel Collier, Elizabeth Bondi-Kelly, Jackson A. Killian, Catherine Ressijac, Peter Boucher, Andrew Davies, Milind Tambe",
+    "year": 2023,
+    "venue": "ijcai_2023",
+    "areas": [
+      "wildlife_conservation"
+    ],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [],
+    "area_agnostic": false,
+    "source_course": "ijcai_2023_venue_search",
+    "notes": "The paper applies strong computer science methods to a conservation problem, fitting the 'cs_fundamentals' topic rule.",
+    "link": null,
+    "abstract": "Much of Earth\u2019s charismatic megafauna is endangered by human activities, particularly the rhino, which is at risk of extinction due to the poaching crisis in Africa. Monitoring rhinos\u2019 movement is crucial to their protection but has unfortunately proven difficult because rhinos are elusive. Therefore, instead of tracking rhinos, we propose the novel approach of mapping communal defecation sites, called middens, which give information about rhinos\u2019 spatial behavior valuable to anti-poaching, management, and reintroduction efforts. This paper provides the first-ever mapping of rhino midden locations by building classifiers to detect them using remotely sensed thermal, RGB, and LiDAR imagery in passive and active learning settings. As existing active learning methods perform poorly due to the extreme class imbalance in our dataset, we design MultimodAL, an active learning system employing a ranking technique and multimodality to achieve competitive performance with passive learning models with 94% fewer labels. Our methods could therefore save over 76 hours in labeling time when used on a similarly-sized dataset. Unexpectedly, our midden map reveals that rhino middens are not randomly distributed throughout the landscape; rather, they are clustered. Consequently, rangers should be targeted at areas with high midden densities to strengthen anti-poaching efforts, in line with UN Target 15.7. List of keywords AI for Good -> Multidisciplinary Topics and Applications AI for Good -> Data Mining AI for Good -> Machine Learning AI for Good -> Computer Vision",
+    "_matched_keywords": [
+      "LiDAR"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Learning and Reasoning Multifaceted and Longitudinal Data for Poverty Estimates and Livelihood Capabilities of Lagged Regions in Rural India",
+    "authors": "Atharva Kulkarni, Raya Das, Ravi S. Srivastava, Tanmoy Chakraborty",
+    "year": 2023,
+    "venue": "ijcai_2023",
+    "areas": [
+      "livelihood"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "climate_change",
+      "gender",
+      "caste",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "ijcai_2023_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context in rural India, focusing on poverty estimation and livelihood capabilities.",
+    "link": null,
+    "abstract": "Poverty is a multifaceted phenomenon linked to the lack of capabilities of households to earn a sustainable livelihood, increasingly being assessed using multidimensional indicators. Its spatial pattern depends on social, economic, political, and regional variables. Artificial intelligence has shown immense scope in analyzing the complexities and nuances of poverty. The proposed project aims to examine the poverty situation of rural India for the period of 1990-2022 based on the quality of life and livelihood indicators. The districts will be classified into \u2018advanced\u2019, \u2018catching up\u2019, \u2018falling behind\u2019, and \u2018lagged\u2019 regions. The project proposes to integrate multiple data sources, including conventional national-level large sample household surveys, census surveys, and proxy variables like daytime, and nighttime data from satellite images, and communication networks, to name a few, to provide a comprehensive view of poverty at the district level. The project also intends to examine causation and longitudinal analysis to examine the reasons for poverty. Poverty and inequality could be widening in developing countries due to demographic and growth-agglomerating policies. Therefore, targeting the lagging regions and the vulnerable population is essential to eradicate poverty and improve the quality of life to achieve the goal of \u2018zero poverty\u2019. Thus, the study also focuses on the districts with a higher share of the marginal section of the population compared to the national average to trace the performance of development indicators and their association with poverty in these regions. List of keywords AI for Good \u2013 Projects -> Multidisciplinary Topics and Applications AI for Good \u2013 Projects -> Data Mining AI for Good \u2013 Projects -> Humans and AI",
+    "_matched_keywords": [
+      "inequality"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Long-term Monitoring of Bird Flocks in the Wild",
+    "authors": "Kshitiz, Sonu Shreshtha, Ramy Mounir, Mayank Vatsa, Richa Singh, Saket Anand, Sudeep Sarkar, Sevaram Mali Parihar",
+    "year": 2023,
+    "venue": "ijcai_2023",
+    "areas": [
+      "wildlife_conservation"
+    ],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [],
+    "area_agnostic": false,
+    "source_course": "ijcai_2023_venue_search",
+    "notes": "The paper applies strong computer science methods to wildlife monitoring, which can be adapted to a developing-regions context under the 'cs_fundamentals' topic rule.",
+    "link": null,
+    "abstract": "Monitoring and analysis of wildlife are key to conservation planning and conflict management. The widespread use of camera traps coupled with AI-based analysis tools serves as an excellent example of successful and non-invasive use of technology for design, planning, and evaluation of conservation policies. As opposed to the typical use of camera traps that capture still images or short videos, in this project, we propose to analyze longer term videos monitoring a large flock of birds. This project, which is part of the NSF-TIH Indo-US joint R&D partnership, focuses on solving challenges associated with the analysis of long-term videos captured at feeding grounds and nesting sites, among other such locations that host large flocks of migratory birds. We foresee that the objectives of this project would lead to datasets and benchmarking tools as well as novel algorithms that would be instrumental in developing automated video analysis tools that could in turn help understand individual and social behavior of birds. The first of the key outcomes of this research will include the curation of challenging, real-world datasets for benchmarking various image and video analytics algorithms for tasks such as counting, detection, segmentation, and tracking. Our recent efforts towards this outcome is a curated dataset of 812 high-resolution, point-annotated, images (4K \u2013 32MP) of a flock of Demoiselle cranes (Anthropoides virgo) taken from their feeding site at Khichan, Rajasthan, India. The average number of birds in each image is about 207, with a maximum count of 1500. The benchmark experiments show that state-of-the-art vision techniques struggle with tasks such as segmentation, detection, localization, and density estimation for the proposed dataset. Over the execution of this open science research, we will be scaling this dataset for segmentation and tracking in videos, as well as developing novel techniques for video analytics for wildlife monitoring. List of keywords AI for Good \u2013 Projects -> Computer Vision AI for Good \u2013 Projects -> Machine Learning AI for Good \u2013 Projects -> Multidisciplinary Topics and Applications",
+    "_matched_keywords": [
+      "conservation planning"
+    ]
+  },
+  {
+    "id": null,
+    "title": "On AI-Assisted Pneumoconiosis Detection from Chest X-rays",
+    "authors": "Yasmeena Akhter, Rishabh Ranjan, Richa Singh, Mayank Vatsa, Santanu Chaudhury",
+    "year": 2023,
+    "venue": "ijcai_2023",
+    "areas": [
+      "health"
+    ],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [
+      "climate_change",
+      "gender",
+      "caste",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "ijcai_2023_venue_search",
+    "notes": "The paper focuses on applying machine learning to detect Pneumoconiosis in low-income countries, which aligns with the 'cs_fundamentals' topic rule allowing general-purpose methodologies adaptable to developing regions.",
+    "link": null,
+    "abstract": "According to theWorld Health Organization, Pneumoconiosis\r\naffects millions of workers globally,\r\nwith an estimated 260,000 deaths annually. The\r\nburden of Pneumoconiosis is particularly high in\r\nlow-income countries, where occupational safety\r\nstandards are often inadequate, and the prevalence\r\nof the disease is increasing rapidly. The reduced\r\navailability of expert medical care in rural areas,\r\nwhere these diseases are more prevalent, further\r\nadds to the delayed screening and unfavourable outcomes\r\nof the disease. This paper aims to highlight\r\nthe urgent need for early screening and detection\r\nof Pneumoconiosis, given its significant impact on\r\naffected individuals, their families, and societies as\r\na whole. With the help of low-cost machine learning\r\nmodels, early screening, detection, and prevention\r\nof Pneumoconiosis can help reduce healthcare\r\ncosts, particularly in low-income countries. In this\r\ndirection, this research focuses on designing AI solutions\r\nfor detecting different kinds of Pneumoconiosis\r\nfrom chest X-ray data. This will contribute\r\nto the Sustainable Development Goal 3 of ensuring\r\nhealthy lives and promoting well-being for all at all\r\nages, and present the framework for data collection\r\nand algorithm for detecting Pneumoconiosis\r\nfor early screening. The baseline results show that\r\nthe existing algorithms are unable to address this\r\nchallenge. Therefore, it is our assertion that this\r\nresearch will improve state-of-the-art algorithms of\r\nsegmentation, semantic segmentation, and classification\r\nnot only for this disease but in general medical\r\nimage analysis literature. List of keywords AI for Good \u2013 Projects -> Computer Vision AI for Good \u2013 Projects -> AI Ethics, Trust, Fairness AI for Good \u2013 Projects -> Humans and AI AI for Good \u2013 Projects -> Machine Learning AI for Good \u2013 Projects -> Multidisciplinary Topics and Applications",
+    "_matched_keywords": [
+      "semantic segmentation"
+    ]
+  },
+  {
+    "id": null,
+    "title": "AI-Driven Sign Language Interpretation for Nigerian Children at Home",
+    "authors": "Ifeoma Nwogu, Roshan Peiris, Karthik Dantu, Ruchi Gamta, Emma Asonye",
+    "year": 2023,
+    "venue": "ijcai_2023",
+    "areas": [
+      "education"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "ethnographic_design",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "ijcai_2023_venue_search",
+    "notes": "The paper engages with a developing-regions context (Nigeria) and applies computer science fundamentals to address a specific problem.",
+    "link": null,
+    "abstract": "As many as three million school age children between the ages of 5 and 14 years, live with severe to profound hearing loss in Nigeria. Many of these Deaf or Hard of Hearing (DHH) children developed their hearing loss later in life, non-congenitally, hence their parents are hearing. While their teachers in the Deaf schools they attend can often communicate effectively with them in \"dialects\" of American Sign Language (ASL), the unofficial sign lingua franca in Nigeria, communication at home with other family members is challenging and sometimes non-existent. This results in adverse social consequences including stigmatization, for the students. \r\n\r\nWith the recent successes of AI in natural language understanding, the goal of automated sign language understanding is becoming more realistic using neural deep learning technologies.  To this effect, the proposed project aims at co-designing and developing an ongoing AI-driven two-way sign language interpretation tool that can be deployed in homes, to improve language accessibility and communication between the DHH students and other family members. This ensures inclusive and equitable social interactions and can promote lifelong learning opportunities for them outside of the school environment. List of keywords AI for Good \u2013 Projects -> Humans and AI AI for Good \u2013 Projects -> Natural Language Processing AI for Good \u2013 Projects -> Computer Vision",
+    "_matched_keywords": [
+      "co-design"
+    ]
+  }
+]

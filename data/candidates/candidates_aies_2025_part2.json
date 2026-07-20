@@ -1,0 +1,152 @@
+[
+  {
+    "id": null,
+    "title": "Embodied AI at the Margins: Postcolonial Ethics for Intelligent Robotic Systems",
+    "authors": "Atmadeep Ghoshal, Martim Brand\u00e3o, Ruba Abu-Salma, Sanjay Modgil",
+    "year": 2025,
+    "venue": "aies_2025_part2",
+    "areas": [],
+    "topics": [
+      "sociotechnical_dynamics",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "climate_change",
+      "gender",
+      "caste",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "aies_2025_part2_venue_search",
+    "notes": "The paper engages with ethical considerations of AI and robotics in Global South contexts, which aligns with the sociotechnical dynamics and impact evaluation topics in a developing regions context.",
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/36615",
+    "abstract": "As artificial intelligence (AI)-powered robots increasingly permeate global societies, critical questions emerge about their ethical governance in diverse cultural contexts. This paper interrogates the adequacy of dominant roboethics frameworks when applied to Global South environments, where unique sociotechnical landscapes demand a reevaluation of Western-centric ethical assumptions. Through thematic analysis of seven major ethical standards for AI and robotics, we uncover systemic limitations that present challenges in non-Western contexts---such as assumptions about standardized testing infrastructures, individualistic notions of autonomy, and universalized ethical principles. The uncritical adoption of these frameworks risks reproducing colonial power dynamics in which technological authority flows from centers of AI production rather than from the communities most affected by deployment. Instead of replacing existing frameworks entirely, we propose augmenting them through four complementary ethical dimensions developed through a postcolonial lens: epistemic non-imposition, onto-contextual consistency, agentic boundaries, and embodied spatial justice. These principles provide conceptual scaffolding for technological governance that respects indigenous knowledge systems, preserves cultural coherence, accounts for communal decision structures, and enhances substantive capabilities for Global South communities. The paper demonstrates practical implementation pathways for these principles across technological life cycles, offering actionable guidance for dataset curation, task design, and deployment protocols that mitigate power asymmetries in cross-cultural robotics implementation. This approach moves beyond surface-level adaptation to re-conceptualize how robotic systems may ethically function within the complex social ecologies of the Global South while fostering genuine technological sovereignty.",
+    "_matched_keywords": [
+      "thematic analysis"
+    ]
+  },
+  {
+    "id": null,
+    "title": "From Efficiency to Equity: Measuring Fairness in Preference Learning",
+    "authors": "Shreeyash Gowaikar, Hugo Berard, Rashid Mushkani, Shin Koseki",
+    "year": 2025,
+    "venue": "aies_2025_part2",
+    "areas": [],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "caste",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": true,
+    "source_course": "aies_2025_part2_venue_search",
+    "notes": "The paper addresses fairness and equity in AI systems, which can be adapted to evaluate and improve ICT interventions in developing regions, aligning with the cs_fundamentals topic rule.",
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/36616",
+    "abstract": "As AI systems, particularly generative models, increasingly\ninfluence decision-making, ensuring that they are able to\nfairly represent diverse human preferences becomes crucial.\nThis paper introduces a novel framework for evaluating\nepistemic fairness in preference learning models inspired\nby economic theories of inequality and Rawlsian justice. We\npropose metrics adapted from the Gini Coefficient, Atkinson\nIndex, and Kuznets Ratio to quantify fairness in these\nmodels. We validate our approach using a diverse collection\nof datasets, covering both visual preferences and textual\ncontent. Our analysis reveals variations in model\nperformance across users, highlighting potential epistemic\ninjustices. We explore pre-processing and in-processing\ntechniques to mitigate these inequalities, demonstrating a\ncomplex relationship between model efficiency and fairness.\nThis work contributes to AI ethics by providing a framework\nfor evaluating and improving epistemic fairness in\npreference learning models, offering insights for\ndeveloping more inclusive AI systems in contexts where\ndiverse human preferences are crucial.",
+    "_matched_keywords": [
+      "inequality"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Exposing AI Bias by Crowdsourcing: Democratizing Critique of Large Language Models",
+    "authors": "Hangzhi Guo, Pranav Narayanan Venkit, Eunchae Jang, Mukund Srinath, Wenbo Zhang, Bonam Mingole, Vipul Gupta, Kush R. Varshney, S. Shyam Sundar, Amulya Yadav",
+    "year": 2025,
+    "venue": "aies_2025_part2",
+    "areas": [],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [],
+    "area_agnostic": true,
+    "source_course": "aies_2025_part2_venue_search",
+    "notes": "The paper addresses the topic 'cs_fundamentals' by applying strong computer science methods to understand AI bias, which can be adapted to a developing-regions context.",
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/36620",
+    "abstract": "The widespread adoption of large language models (LLMs) and generative AI (GenAI) tools across diverse real-world applications has amplified the importance of addressing societal biases inherent within these technologies. While the Natural Language Processing (NLP) community has extensively studied LLM bias, research investigating how non-expert users perceive and interact with biases from these systems remains limited. As these technologies become increasingly prevalent, understanding this question is crucial to inform model developers in their efforts to mitigate bias. To address this gap, this paper presents findings from a university-level competition that challenged participants to design prompts specifically for eliciting biased outputs from GenAI tools. We conducted a quantitative and qualitative analysis of the submitted prompts and the resulting GenAI outputs. This analysis led to the identification of reproducible biases across eight distinct categories within GenAI systems. Furthermore, we identified and categorized the various strategies employed by participants to successfully induce these biased responses. Our findings provide unique insights into how non-expert users understand, engage with, and attempt to manipulate biases in GenAI tools. This research contributes to a deeper understanding of the user-side experience of AI bias and offers actionable knowledge for developers and policymakers working towards creating fairer and more equitable AI systems.",
+    "_matched_keywords": [
+      "natural language processing (NLP)"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Documenting Deployment with Fabric: A Repository of Real-World AI Governance",
+    "authors": "Mackenzie Jorgensen, Kendall Brogle, Katherine M. Collins, Lujain Ibrahim, Arina Shah, Petra Ivanovic, Noah Broestl, Gabriel Piles, Paul Dongha, Hatim Abdulhussein, Adrian Weller, Jillian Powers, Umang Bhatt",
+    "year": 2025,
+    "venue": "aies_2025_part2",
+    "areas": [],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [],
+    "area_agnostic": true,
+    "source_course": "aies_2025_part2_venue_search",
+    "notes": "The paper focuses on the deployment of AI systems, which can be adapted to a developing-regions context under the 'cs_fundamentals' topic rule.",
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/36636",
+    "abstract": "Artificial intelligence (AI) is increasingly integrated into society, from financial services and traffic management to creative writing. Academic literature on the deployment of AI has mostly focused on the risks and harms that result from the use of AI. We introduce Fabric, a publicly available repository of deployed AI use cases to outline their governance mechanisms. Through semi-structured interviews with practitioners, we collect an initial set of 20 AI use cases. In addition, we co-design diagrams of the AI workflow with the practitioners. We discuss the oversight mechanisms and guardrails used in practice to safeguard AI use. The Fabric repository includes visual diagrams of AI use cases and descriptions of the deployed systems. Using the repository, we surface gaps in governance and find common patterns in human oversight of deployed AI systems. We intend for Fabric to serve as an extendable, evolving tool for researchers to study the effectiveness of AI governance.",
+    "_matched_keywords": [
+      "co-design"
+    ]
+  },
+  {
+    "id": null,
+    "title": "User Privacy and Large Language Models: An Analysis of Frontier Developers\u2019 Privacy Policies",
+    "authors": "Jennifer King, Kevin Klyman, Emily Capstick, Tiffany Saade, Victoria Hsieh",
+    "year": 2025,
+    "venue": "aies_2025_part2",
+    "areas": [],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [],
+    "area_agnostic": true,
+    "source_course": "aies_2025_part2_venue_search",
+    "notes": "The paper applies to the 'cs_fundamentals' topic as it uses strong computer science methods to analyze privacy policies, which can be adapted to a developing-regions context.",
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/36646",
+    "abstract": "Hundreds of millions of people now regularly interact with large language models via chatbots. Model developers are eager to acquire new sources of high-quality training data as they race to improve model capabilities and win market share. This paper analyzes the privacy policies of six U.S. frontier AI developers to understand how they use their users' chats to train models. Drawing primarily on the California Consumer Privacy Act, we develop a novel qualitative coding schema that we apply to each developer\u2019s relevant privacy policies to compare data collection and use practices across the six companies. We find that all six developers appear to employ their users' chat data to train and improve their models by default, and that some retain this data indefinitely. Developers may collect and train on personal information disclosed in chats, including sensitive information such as biometric and health data, as well as files uploaded by users. Four of the six companies we examined appear to include children's chat data for model training, as well as customer data from other products. On the whole, developers' privacy policies often lack essential information about their practices, highlighting the need for greater transparency and accountability. We address the implications of users' lack of consent for the use of their chat data for model training, data security risks arising from indefinite chat data retention, and issues with training on children's chat data. We conclude by providing recommendations to policymakers and developers to address the data privacy challenges posed by LLM-powered chatbots.",
+    "_matched_keywords": [
+      "transparency and accountability"
+    ]
+  },
+  {
+    "id": null,
+    "title": "GRAILS - A Framework for Embedding Ethical Safeguards in Software Applications for Responsible AI",
+    "authors": "Apurva Kulkarni, Chandrashekar Ramanathan",
+    "year": 2025,
+    "venue": "aies_2025_part2",
+    "areas": [],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [],
+    "area_agnostic": true,
+    "source_course": "aies_2025_part2_venue_search",
+    "notes": "The paper discusses a general-purpose methodology that could be adapted to a developing-regions context, fitting the criteria for the 'cs_fundamentals' topic.",
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/36650",
+    "abstract": "Software systems increasingly mediate critical societal\nfunctions involving large-scale use of data. The use of\npersonal and sensitive data introduces ethical and legal\nconcerns, necessitating architectures that support\nResponsible AI and enforce open access safeguards grounded\nin ethical principles. These principles are conventionally\nderived through laws, regulations, codes of conduct, and\nframeworks.\nMuch of the focus in responsible AI has been on privacy\nalone. However, there can be other sensitive information in\nthe enterprise and public domain that needs to be handled\nin a responsible and ethical manner as well. Ethical\ncompliance traditionally has been achieved through\nsystematic manual adherence to guidelines, regulations, and\nother documentation. However, there is a lack of concrete\nsoftware architectures, frameworks, or tools that can\nprovide automation to enable compliance directly in\nsoftware systems.\nThis paper introduces Guardrail Framework, a modular,\nreusable software framework that operationalizes\nresponsible AI principles by decoupling ethical constraints\nfrom the functional requirements of software applications.\nThe proposed novel framework addresses the issue of ethical\ncompliance in application software by creating a robust\nsoftware framework that can be plugged into multiple\napplication software development environments. The\nframework allows ethical filtering of information on the\nbasis of data sensitivity (Low to High), the trust score of\nthe user (Low to High), and granularity of the data (Cell,\nRow, Column, or Table). The proposed Guardrail framework is\nimplemented and evaluated using Open Government Dataset\n(OGD), demonstrating high cohesion, low coupling, and\nlong-term maintainability, in line with fundamental\nsoftware engineering architectural design principles.\nNotably, the proposed framework is equally effective for\nensuring ethical use of personal, enterprise, and public\ndata.",
+    "_matched_keywords": [
+      "open government"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Who Pays the RENT? Implications of Spatial Inequality for Prediction-Based Allocation Policies",
+    "authors": "Tasfia Mashiat, Patrick J. Fowler, Sanmay Das",
+    "year": 2025,
+    "venue": "aies_2025_part2",
+    "areas": [],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [],
+    "area_agnostic": true,
+    "source_course": "aies_2025_part2_venue_search",
+    "notes": "The paper applies strong computer science methods to understand the effectiveness of targeting approaches in social service provision, which can be adapted to developing regions' contexts under the cs_fundamentals topic rule.",
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/36666",
+    "abstract": "AI-powered scarce resource allocation policies rely on predictions to target either specific individuals (e.g., high-risk) or settings (e.g., neighborhoods). Recent research on individual-level targeting demonstrates conflicting results; some models show that targeting is not useful when inequality is high, while other work demonstrates potential benefits. To study and reconcile this apparent discrepancy, we develop a stylized framework based on the Mallows model to understand how the spatial distribution of inequality affects the effectiveness of door-to-door outreach policies. We introduce the RENT (Relative Efficiency of Non-Targeting) metric, which we use to assess the effectiveness of targeting approaches compared with neighborhood-based approaches in preventing tenant eviction when high-risk households are more versus less spatially concentrated. We then calibrate the model parameters to eviction court records collected in a medium-sized city in the USA. Results demonstrate considerable gains in the number of high-risk households canvassed through individually targeted policies, even in a highly segregated metro area with concentrated risks of eviction. We conclude that apparent discrepancies in the prior literature can be reconciled by considering 1) the source of deployment costs and 2) the observed versus modeled concentrations of risk. Our results inform the deployment of AI-based solutions in social service provision that account for particular applications and geographies.",
+    "_matched_keywords": [
+      "inequality"
+    ]
+  }
+]

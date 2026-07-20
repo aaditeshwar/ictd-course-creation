@@ -1,0 +1,623 @@
+[
+  {
+    "title": "Humanitarian Technology Projects: An Efficient Methodology For Development And Value Realization",
+    "authors": "Clara Nensthiel Zorro, Oscar Javier Rodr\u00edguez Riveros",
+    "year": 2023,
+    "link": "https://doi.org/10.1109/GHTC56179.2023.10354820",
+    "doi": "10.1109/GHTC56179.2023.10354820",
+    "abstract": "We define a successfully project if it satisfies with time, goals and cost defined when the planning phase is estimated. However, the social impact projects do not have the same stability and is possible that the goals of the project change drastically, principally because the time of activities change frequently, sometimes because the community are not always available.In both cases we have the same structure for develop the project, but in social impact projects the conception of this items has some differences with regular projects due to context and special needs related to communities, all of this, is necessary contemplate it for execute it.Is important recognize that methodology of social impact projects drive carefully, connecting stages and guarantee finalization it.In this paper, we describe the realization of social impact project developed in FUNDAFAM community in Cota, Cundinamarca, sponsored by IEEE HAC, and lead by IEEE UN BOSQUE student branch, developing re use of rain water and sustainable agriculture, project that have been implemented by project management methodologies that let guarantee in set times, increasing the value and benefits to foundation across design and implementation of humanitarian technologies for improvement quality of life the community.This paper, demonstrate how the development of hybrid methodologist brings the success of the project and this experience can support future social impact initiatives. How the strategy of different stages of the project, connected with context of the situation and community, offer benefits that support sustainable development goals keeping the goals defined at the beginning of the project.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Design of Photovoltaic Systems for Seamstresses in Guatemala Using Measured Solar Insolation Data",
+    "authors": "Azra K. Rangwala, Lisa A. Shay",
+    "year": 2023,
+    "link": "https://doi.org/10.1109/GHTC56179.2023.10354752",
+    "doi": "10.1109/GHTC56179.2023.10354752",
+    "abstract": "Grid-tied and off-grid photovoltaic (PV) systems were designed to power a 300W sewing machine to decrease electricity cost and provide a more reliable energy source for low-income women near Santa Cruz del Quich\u00e9, Guatemala. As part of an initiative at El Centro de Paz Barbara Ford (BFC), a non-governmental, non-profit institution founded in Quich\u00e9 by the Sisters of Charity of New York, to create decent jobs as seamstresses for Guatemalan women, this project aimed to increase profit and improve living standards for these families through reducing electricity expenses. A custom solar insolation meter was designed and built to determine the required solar panel size more accurately. Solar insolation values were computed for BFC which were then used to estimate PV panel output power. Electricity consumption data at BFC was collected as well as a cost analysis on each PV system. Three PV systems with varying costs and storage capacity were proposed. Two off-grid designs and one grid-tied design were presented to the client, who then decided which system fit their needs.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Power-Electronic Loss Modeling and Analysis of DC Microgrids for Rural Electrification",
+    "authors": "Rabia Khan, Noel N. Schulz",
+    "year": 2023,
+    "link": "https://doi.org/10.1109/GHTC56179.2023.10354639",
+    "doi": "10.1109/GHTC56179.2023.10354639",
+    "abstract": "Electricity access is a fundamental human right that reduces poverty, enhances living standards, and increases socioeconomic opportunities. Globally millions of people are deprived of their right to access electricity, among which around 80% of them belong to rural regions in remote areas. Rural electrification through DC Islanded microgrids is a promising solution to energy poverty. In this paper, an islanded DC microgrid consisting of multiple houses is modeled for rural electrification. A detailed distribution and conversion loss modeling and analysis is performed for centralized and distributed microgrid architectures using the bus injection method and modified Newton-Raphson power flow method. The centralized architecture has generation and storage centralized while the loads are distributed. Alternatively, the distributed architecture has generation, storage, and loads distributed at each household. A comparative power system and power electronic loss analysis for both architectures show that distributed architectures have higher efficiency and lower losses than centralized. The same analysis can be performed on different microgrid architectures.",
+    "skip_reason": "DUPLICATE of existing 'ghtc_2023_power_electronic_loss_modeling_and_analysis' (score=1.00)"
+  },
+  {
+    "title": "Circular Electronics: An Agent-based model for the waste generated from smartphones",
+    "authors": "Chanice Ann Kyla L. Lerma, Lea Macaraig, Gregory L. Tangonan",
+    "year": 2023,
+    "link": "https://doi.org/10.1109/GHTC56179.2023.10354664",
+    "doi": "10.1109/GHTC56179.2023.10354664",
+    "abstract": "Circular electronics is an emerging solution to the environmental issue linked to e-devices. This concept maximizes the life cycle of a product by reusing, refurbishing or recycling it as much as possible, with disposal to landfills as the last resort which eventually help reduce e-waste generation and carbon emissions over time. In this study, we developed a Multi-Agent based Model and used this to analyze the emerging trends in circular electronics. We utilized the data available for iPhone 11 and results showed that circular processes\u2013reduced by design, reuse, refurbishment, and recycling\u2013significantly lower carbon emissions and e-waste generation. These findings showcase the many benefits circular electronics holds and its potential as an economic strategy in the near future\u2013specially to developing countries. Other advantages of circular electronics and some challenges with this concept are also discussed.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Examining The Viability of a Grass Roots Air-Pollution Campaign in Kisumu, Kenya",
+    "authors": "Cameron Renfrew, Julia Thompson, Adam Brightbill, Keely Reese, John Gershenson",
+    "year": 2023,
+    "link": "https://doi.org/10.1109/GHTC56179.2023.10354882",
+    "doi": "10.1109/GHTC56179.2023.10354882",
+    "abstract": "Air pollution poses a significant health risk to people all over the world. The mean fine particulate matter in Kenya is well above the recommended level indicating very poor air quality. A large amount of this particulate matter is emitted by boda boda motorbike taxis that are primarily used for transportation. Previously, there have been environmentally focused efforts that have successfully initiated change within the Kenyan community. To test the feasibility of a similar effort focused on air pollution, experiments using QR codes, focus groups, and typical surveying methods were used to gather information within Kisumu, Kenya. Using these methods, unanticipated technical difficulties arose. With the data that was obtained it was found that most Kenyans did not prioritise air pollution issues. With this information we concluded that there would be a low probability that a grass roots air-pollution campaign in Kisumu, Kenya would initiate change.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "A Novel Low-Cost, Recyclable, Easy-to-Build Robot Blimp For Transporting Supplies in Hard-to-Reach Locations",
+    "authors": "Karen Li, Shuhang Hou, Matyas Negash, Jiawei Xu, Edward Jeffs, Diego S. D'Antonio, David Salda\u00f1a",
+    "year": 2023,
+    "link": "https://doi.org/10.1109/GHTC56179.2023.10355047",
+    "doi": "10.1109/GHTC56179.2023.10355047",
+    "abstract": "Rural communities in remote areas often encounter significant challenges when it comes to accessing emergency healthcare services and essential supplies due to a lack of adequate transportation infrastructure. The situation is further exacerbated by poorly maintained, damaged, or flooded roads, making it arduous for rural residents to obtain the necessary aid in critical situations. Limited budgets and technological constraints pose additional obstacles, hindering the prompt response of local rescue teams during emergencies. The transportation of crucial resources, such as medical supplies and food, plays a vital role in saving lives in these situations. In light of these obstacles, our objective is to improve accessibility and alleviate the suffering of vulnerable populations by automating transportation tasks using low-cost robotic systems. We propose a low-cost, easy-to-build blimp robot (UAVs), that can significantly enhance the efficiency and effectiveness of local emergency responses.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Experimental Study on Decreasing the Electricity Cost of Incubating Chickens in Guatemala",
+    "authors": "SeokWoo Chung, Lisa A. Shay",
+    "year": 2023,
+    "link": "https://doi.org/10.1109/GHTC56179.2023.10354950",
+    "doi": "10.1109/GHTC56179.2023.10354950",
+    "abstract": "The Barbara Ford Peacebuilding Center, a non-profit, non-governmental organization in Guatemala, runs an entrepreneurship project that seeks to promote sustainable economic growth and employment in the Santa Cruz del Quiche area of Guatemala. Local women are trained to raise chickens for food and profit. The women use heat lamps to maintain warm conditions for the young chicks. However, paying the high electricity cost requires a substantial amount of their revenue. To overcome this problem, experiments were conducted to find a solution that can maintain the warm temperature while decreasing electricity consumption. Two different types of solutions are proposed: improvements to the existing chicken coops and a newly designed chicken coop. For the first improvement, a water pump system and insulation additions are discussed. For the new design of the chicken coop, diagrams and reasons for the design choices are outlined and explained.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Strategies for Enhancing Efficiency of Residential Heating System Based on Real-Time Weather Data",
+    "authors": "Minkyu Koo, Hohyun Lee",
+    "year": 2023,
+    "link": "https://doi.org/10.1109/GHTC56179.2023.10354563",
+    "doi": "10.1109/GHTC56179.2023.10354563",
+    "abstract": "Recent geopolitical instability has led to an unprecedented increase in energy costs, which highlights the need for further enhancement in energy efficiency. Increasing availability of building energy data has been expected to lead to smart heating control systems with enhanced residential heating efficiency. This study investigated the feasibility of passive heating strategies that utilize real-time weather data and ventilation of external air. The results show that passive heating based on ventilation of external air can further increase the heating efficiency under certain conditions. Because the investigated passive heating strategies require only nominal capital investment, they are candidates for implementation in both developed countries and developing countries.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Comparative Analysis of Solar Photovoltaic Module Technologies in Diverse Environmental Conditions in Pakistan",
+    "authors": "Hayder Ali, Hassan Abbas Khan",
+    "year": 2023,
+    "link": "https://doi.org/10.1109/GHTC56179.2023.10354714",
+    "doi": "10.1109/GHTC56179.2023.10354714",
+    "abstract": "Polycrystalline Silicon (p-Si) based module technologies constitute more than 90% of the market share for solar photovoltaic (PV) applications. However, its performance degrades in regions with higher average temperatures. Therefore thin film module technologies such as Cadmium Telluride (CdTe) technologies may have higher utility in harsh climate regions of Africa and South Asia. The selection of the most suitable technology is contingent on multiple factors, necessitating an evaluation of parameters such as energy output and performance ratio (PR). This study examines the behavior of p-Si and CdTe technologies under diverse environmental conditions, explicitly varying irradiance and temperature, in Pakistan. The investigation assesses electricity production and PR for PV systems, employing p-Si and CdTe module technologies, and subsequently quantifies the benchmark energy production across ten regions of Pakistan.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Viable, Reliable, and Buyable: Propane for Electricity Generation in Haiti",
+    "authors": "Brian Thomas, Ben Phillips, Kayla Garrett",
+    "year": 2023,
+    "link": "https://doi.org/10.1109/GHTC56179.2023.10354854",
+    "doi": "10.1109/GHTC56179.2023.10354854",
+    "abstract": "Electricity production in Haiti largely relies on gasoline or diesel generators whose fuel supply is frequently threatened by political, civil, and economic unrest. Retail sellers have recurring shortages, which leaves black-market fuel sales as the more dominant fuel access network. Our research monitors the black-market \"street\" prices for gasoline and diesel for one year in the second largest city, Cap Hait\u00efen. We have also monitored the price and availability of propane, which has not experienced the same shortages or price variability. Propane, therefore, is the least expensive and most readily available fuel for generating electricity at small scales. This data has encouraged us to deploy three small gasoline generators that have been modified to operate on propane in hopes of providing a viable, reliable, and buyable solution for individuals, organizations, and businesses that are experiencing energy poverty.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Water and Solar Energy for Humanitarian Aid in Rural Communities in the Argentine Chaco",
+    "authors": "Guillermo R. Catuogno, Alan Rolf Mickelson, Juan Chalbaud, Gaston Frias, Carlos Catuogno, Mario Aleman",
+    "year": 2023,
+    "link": "https://doi.org/10.1109/GHTC56179.2023.10354830",
+    "doi": "10.1109/GHTC56179.2023.10354830",
+    "abstract": "A humanitarian technology based intervention to be implemented in the Chaco region of Argentina is described in detail. Climate change and deforestation driven by inappropriate agricultural development is depleting water resources and, thereby, local food supply. Associated inconveniences are causing migration of the small farmers who have preserved the area's ecology, leading to exacerbation of unfavorable conditions. Solar power based water pumping and electricity for conveniences of modern life can alleviate causes of migration. A funded pilot project is discussed both technically and economically. Emphasis is placed on the partnering with the local community such that the proven reliable technology involved can be cost effectively installed and sustainably maintained. The engineering teams that will lead the effort are introduced and some of their previous accomplishments listed. A proven renewable business model is detailed and work plan for implementation presented. Outcomes and impacts and their measurement are presented. The project is discussed in light of the purpose of GHTC, that is, to bring to light how humanitarian technology can be employed to improve human living conditions.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Monitoring and Evaluation of Two Solar Energy Kiosks in Zambia",
+    "authors": "John Davis, Peter M. Dauenhauer, Henry Louie, Kirk MacLearnsberry, J. McLean Sloughter",
+    "year": 2023,
+    "link": "https://doi.org/10.1109/GHTC56179.2023.10354745",
+    "doi": "10.1109/GHTC56179.2023.10354745",
+    "abstract": "This paper presents the results of initial monitoring and evaluation visits conducted on two solar energy kiosks in the Zambian communities of Cheeba and Kanchomba. The Cheeba and Kanchomba energy kiosks were established in 2019, and 2020, respectively. The solar capacities range from 3 kW to 5 kW. Each kiosk houses several businesses such as grocery stores, barbershops, tailors, and chicken incubators that make use of the energy produced. The kiosks are a result of a partnership between Caritas Monze, a Zambian NGO, and KiloWatts for Humanity, an NGO based in the United States. The kiosks are owned and operated by local community-based organizations. The monitoring and evaluation visits were conducted in October 2022 and report on the community relationship, unmet needs, technical performance of the system, financial health of the kiosk businesses, operational challenges, and other findings. The results of the initial monitoring and evaluation visits were promising, with each kiosk impacting 100 \u2013 200 households and showing job creation, excess revenue, and high community impact and benefit. Unmet needs and challenges include the desire for additional refrigerators and appliances, a larger-capacity system in Cheeba, and struggles with record-keeping due to illiteracy.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Business Model Evaluation for Peer-to-peer Energy Sharing Systems: Insights from Off-grid DC Microgrid Deployment in Pakistan",
+    "authors": "Reesha Arshad, Abdur Raheem, Uzair Ahmed, Hassan Khan",
+    "year": 2023,
+    "link": "https://doi.org/10.1109/GHTC56179.2023.10355027",
+    "doi": "10.1109/GHTC56179.2023.10355027",
+    "abstract": "The developing world needs viable access to green electricity for the 770 million people without electricity. Microgrids with Distributed Energy Resources (DERs) and advanced information-sharing technologies present a practical solution to give consumers control over energy generation and allow them to share energy in a Peer-to-peer (P2P) system. This increases system efficiency and consumer satisfaction compared to stand-alone PV solutions. Robust business models are needed to facilitate energy trading and to ensure the sustainability and growth of P2P systems in remote communities. In this paper, we propose a business model for a P2P prosumer-based microgrid with DERs that will increase consumer confidence, reduce energy bills and allow seamless system operation. A case study is presented for a DC microgrid deployed in an off-grid village in Pakistan, with a viable business model to cater for the energy and social needs of the community.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Implementation and evaluation of solar powered wireless intranet devices in rural schools in Ratanakiri Province, Cambodia",
+    "authors": "Ana Cedillo, Brandon Kim Simons, Jordan Ermilio, Iain Hunt",
+    "year": 2023,
+    "link": "https://doi.org/10.1109/GHTC56179.2023.10354555",
+    "doi": "10.1109/GHTC56179.2023.10354555",
+    "abstract": "With the existing discrepancy in levels of education between urban and rural schools in developing nations, the issue of availability and quality of educational resources needs to continue being addressed [1]. A team of engineering students from Villanova University aim to address this issue in Ratanakiri Province, Cambodia with the implementation of an ICT4D initiative. This initiative involves collaborating with in-country partners to design, assemble, and deploy solar-powered wireless intranet devices for augmenting educational resources in rural schools. In May of 2022, the system was piloted at five rural schools and provided key findings on how to improve the hardware and software of the system as well as in-country implementation strategies. The successes, challenges, and additional insights from this pilot are documented in this paper along with generalized recommendations on how to improve the sustainability of future project deployments.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Prompt Emergency Response: PLSP Mobile Application for Effective Cardiac Arrest and Trauma Management in Pakistan",
+    "authors": "Shamsa Hafeez, Sameer Pervez, Ruhama Naeem, Fizza Rubab, Syeda Saleha Raza",
+    "year": 2023,
+    "link": "https://doi.org/10.1109/GHTC56179.2023.10354908",
+    "doi": "10.1109/GHTC56179.2023.10354908",
+    "abstract": "In Pakistan, a significant number of deaths result from cardiac arrest and roadside accidents, where bystanders lack proper medical knowledge. Pakistan Life Savers Programme (PLSP) is a flagship program by Aga Khan University Hospital (AKUH), Karachi, that seeks to address this issue by training individuals, known as Life Savers, in first response, who voluntarily serve people in their vicinity in times of need. However, the limited number of trained individuals leaves a huge population at risk.This paper describes the PLSP mobile application, developed to bridge the gap between trained Life Savers and citizens who require medical attention in Pakistan. With a large number of deaths due to cardiac arrest and roadside accidents, the application aims to increase the chances of survival by alerting nearby Life Savers who can provide first response. By reducing the time gap between the distress call and the arrival of aid, the application could potentially save numerous lives and significantly contribute to preparedness, response, and recovery efforts. Furthermore, this paper highlights the technological advancements introduced by the PLSP app, aligning with the goal of \"ensuring healthy lives and promoting well-being for all at all ages\" and making a tangible impact on emergency healthcare.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Investigating the Feasibility of Crowdsourcing Current Events Information in Kenya",
+    "authors": "Sonika Kohli, Eric Leon, Hayes Rakvin, Dorcas Owinoh, John Gershenson",
+    "year": 2023,
+    "link": "https://doi.org/10.1109/GHTC56179.2023.10354676",
+    "doi": "10.1109/GHTC56179.2023.10354676",
+    "abstract": "Misinformation is a global challenge for our fast-paced society. With the upsurge in technology and social media use, there are growing channels for misinformation to spread. This results in uninformed decision making and amplifies existing societal insecurities. In Kenya, it can be clearly seen in how misinformation fuels political violence near election periods. While the widespread presence of trustworthy and verified information can stunt the spread of misinformation, these resources are often an unaffordable commodity for lower-resourced communities.As a result, misinformation impacts these communities disproportionately, while having no trustworthy infrastructure in place that is accessible to citizens. This is the exigence that prompted our investigation into developing a community crowdsourcing system to combat untrustworthy information sharing in communities such as Kenya. By amplifying existing collectivist attitudes in Kenya, we hope to empower citizens with trustworthy and relevant information that can be used to make informed decisions.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Determining the developer's intentions for impactful BoP technology creation in the Indian context: an empirical approach utilizing factor analysis",
+    "authors": "Sanyka Banerjee, Bhaskar Bhowmick",
+    "year": 2023,
+    "link": "https://doi.org/10.1109/GHTC56179.2023.10354580",
+    "doi": "10.1109/GHTC56179.2023.10354580",
+    "abstract": "The world is witnessing a paradigm shift in technology-based development. The latest trends in research are gaining traction toward exploring the previously neglected Bottom of the Pyramid (BoP) and its innovation practice for sustainability. However, there is a scarcity of literature analyzing the development aspects of BoP technologies considering the developers\u2019 outlook. Therefore, the purpose of this research is to investigate and extract the critical factors relating to the prime intentions of technology developers essential for effective BoP technology development in emerging economies. The empirical data is extracted from associates of BoP technology interventions across different Indian organizations followed by an exploratory factor analysis (EFA) method to obtain the essential factors. The results yield distinct factors that describe the unique dimensions of technology developers\u2019 intention while engaging in formulating a viable technology. The formative contribution of this study radiates the salient role of unique technology development in a novel discourse of BoP and emerging economies. The findings provide opportunities for the upcoming technology developers in designing their strategic formulation for technology creation that is governed by need-oriented, inclusively developed innovations catering to environmentally sound technology solutions for the long-term development of the BoP population.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Accelerating the Development of a Gamified Educational App Through Early Stakeholder Engagement",
+    "authors": "Trevor A. Lachman, Dariia Tyshchenko, Artur Poole, Nada Stojanovic, Samir Hassan, Arlan J. Dawdy, Allan F. Santana, David Tauman, Adelya Aitinzarova, Aigerim Muratbekova, Abbas Latypov, Amir Tuganov, Aigerim Serikbekova, Khanjan Mehta",
+    "year": 2023,
+    "link": "https://doi.org/10.1109/GHTC56179.2023.10354948",
+    "doi": "10.1109/GHTC56179.2023.10354948",
+    "abstract": "Pollution has become increasingly worse on a worldwide scale. Various governing bodies have employed legislature to try and mitigate waste production, but none have had lasting impacts. With the growth in the popularity of technology, a new opportunity presents itself in the form of gamified educational platforms. Gamified phone applications can be used to convey knowledge to users more efficiently, and repetition of curriculum can reinforce habits. Save Tuba is one such gamified educational application that leverages engaging gameplay to create sustainable habits within school children. This app is tailored to the Kazakhstan school curriculum for environmental science so that students in grades two through five gain a deeper understanding of the environment around them and how they can practice sustainability in their homes. The Save Tuba research team conducted focus groups with teachers in Kazakhstan in May 2022 to receive feedback on their app and how they could proceed. The team learned that to create an effective gamified educational platform, app navigation, content comprehension, long-term engagement, and large-scale implementation are crucial to success. This manuscript concludes with recommendations for app developers on how to increase the effectiveness of gamified educational platforms.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Modular Design of a Front-End and Back-End Speech-to-Speech Translation Application for Psychiatric Treatment of Refugees",
+    "authors": "Enes Yavuz Ugan, Mohammed Mediani, Omar Al Jawabra, Aya Khader, Yining Liu, Alexander Waibel",
+    "year": 2023,
+    "link": "https://doi.org/10.1109/GHTC56179.2023.10354809",
+    "doi": "10.1109/GHTC56179.2023.10354809",
+    "abstract": "One of the inevitable impacts happening in areas with political conflicts is the significant influx of displaced individuals. The psychological consequences on individuals enduring such events are profound. Therefore, the imperative of providing adequate mental health care to refugees coming from conflict areas becomes apparent. However, providing this necessary care faces two obstacles. On the one hand, not all this target population is expected to have an acceptable level of proficiency of the hosting country\u2019s local language. On the other hand, finding enough number of suitable interpreters is a very challenging task. Moreover, even when the availability of the human interpreters is no problem, the refugees may hesitate to share their experiences with interpreters due to the associated stigma. To address these challenges and enhance mental health care for refugees, we propose the design of a modular front-end and back-end Speech-to-Speech translation system, with a focus on safeguarding patient data privacy. As our system is Speech-to-Speech, it also enables dialogue with dyslexic people and removes barriers for their treatment as well.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "RecordadorApp: An Application to help Alzheimer's patients and their families",
+    "authors": "Juan Jos\u00e9 Regent, Cristina Mayr, Rafael Sotelo",
+    "year": 2023,
+    "link": "https://doi.org/10.1109/GHTC56179.2023.10355032",
+    "doi": "10.1109/GHTC56179.2023.10355032",
+    "abstract": "The project aims to create an MVP (Minimum Viable Product) of RecordadorApp, a mobile application designed to assist people with dementia in its early stages and also their caregivers. This MVP will be a demonstration of the value that the idea can bring to its users and is supported by research on the subject and interviews with specialized doctors. The objective is the creation of a mobile application that contributes to the quality of life of patients with Alzheimer's or other cognitive pathologies, and the people around them, including family members and staff who care for them.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "How Teacher Feedback Helped Reimagine, Redesign, and Recode a Sustainability Education App",
+    "authors": "Akanksha Y. Gavade, Allison J. Bronson, Andrew W. Leaventon, Chingiz Tuleubayev, Hayden J. Ossinger, Malika Buribayeva, Saik A. Jalal, Khanjan Mehta",
+    "year": 2023,
+    "link": "https://doi.org/10.1109/GHTC56179.2023.10354628",
+    "doi": "10.1109/GHTC56179.2023.10354628",
+    "abstract": "Pollution, deforestation, and climate change have been taking a toll on Kazakhstan's fragile ecosystems. The consequential challenges of food insecurity and resource depletion are further exacerbated by the growing population in densely populated cities such as Almaty, Astana, and Shymkent. Despite Kazakhstan's initial efforts towards carbon neutrality and setting a target to achieve it by 2060, there is still significant work to be done to reach that goal. Governmental and public efforts are impactful, but educational and technological approaches are also crucial to effectively addressing the issue. So how can we make that possible? Over the last three years, researchers at Lehigh University in the United States and Almaty Management University in Kazakhstan have collaborated on developing Save Tuba. Save Tuba is a gamified sustainability platform that aims to educate students in grades second to fifth about building sustainable habits through inquiry-based learning techniques. The application utilizes two powerful pedagogical tools, gamification, and inquiry-based learning, to create a dynamic and collaborative learning environment that actively promotes long-term habit formation and behavior change. Our approach involves emotional engagement through interactive games and activities to encourage meaningful interactions with surroundings and peers. This paper details the use of teacher feedback from focus group discussions to enhance our approach to addressing environmental problems and building a better application.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Identifying Risk Patterns in Brazilian Police Reports Preceding Femicides: A Long Short Term Memory (LSTM) Based Analysis",
+    "authors": "Vinicius Lima, Jacque Almeida de Oliveira",
+    "year": 2023,
+    "link": "https://doi.org/10.1109/GHTC56179.2023.10354832",
+    "doi": "10.1109/GHTC56179.2023.10354832",
+    "abstract": "Femicide refers to the killing of a female victim, often perpetrated by an intimate partner or family member, and is also associated with gender-based violence. Studies have shown that there is a pattern of escalating violence leading up to these killings, highlighting the potential for prevention if the level of danger to the victim can be assessed. Machine learning offers a promising approach to address this challenge by predicting risk levels based on textual descriptions of the violence. In this study, we employed the Long Short Term Memory (LSTM) technique to identify patterns of behavior in Brazilian police reports preceding femicides. Our first objective was to classify the content of these reports as indicating either a lower or higher risk of the victim being murdered, achieving an accuracy of 66%. In the second approach, we developed a model to predict the next action a victim might experience within a sequence of patterned events. Both approaches contribute to the understanding and assessment of the risks associated with domestic violence, providing authorities with valuable insights to protect women and prevent situations from escalating.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Technology-mediated method for prediction of global government investment in education toward sustainable development and aid using machine learning and classification",
+    "authors": "Kingsley Okoye",
+    "year": 2023,
+    "link": "https://doi.org/10.1109/GHTC56179.2023.10354870",
+    "doi": "10.1109/GHTC56179.2023.10354870",
+    "abstract": "Predicting and monitoring of global government investment, e.g., using AI-based method, is becoming an emerging topic aimed at applying technological-based solutions to address critical issues for benefit of human. Using data from UNESCO's Institute for Statistics (UIS) about government expenditure in education on sustainable development (SDG) between 1970-2020; this study implements a machine learning method for prediction of the values or rate of governments' expenditure as a proportion of gross domestic product (GDP%), done by training and testing key features (year of investment and regions' classification) that are technically considered adequate for prediction of the investment values by region. The proposed method was designed based on the cross industry standard process for data mining (CRISP-DM) methodology, and implemented using supervised machine learning technique such as K-Nearest Neighbor (KNN), and validated using k-fold cross-validation. The results prove that performance of the executed model was efficient for prediction of values of the global government expenditure in education with Precision=0.77, Recall=1.00, Accuracy=0.78, F1-score=0.87, and low Error-rate of 0.22, respectively. Also, the study empirically shed light on both the socio-technical and pedagogical implications of the results and output towards achieving a sustainable educational practice, particularly SDG4 that promotes quality of education, and decision/policy making by the governments, educators, and policy makers.",
+    "skip_reason": "DUPLICATE of existing 'climate_change_ai_global_flood_prediction_a_multimodal_machine' (score=0.67)"
+  },
+  {
+    "title": "A Review on Emission Trading System (ETS): Policy Tool for Green Technology Transition and Humanitarian Equity",
+    "authors": "Nishant Bhattarai, Toufic Mezher, Ahmad Mayyas",
+    "year": 2023,
+    "link": "https://doi.org/10.1109/GHTC56179.2023.10354687",
+    "doi": "10.1109/GHTC56179.2023.10354687",
+    "abstract": "This research explores the significance of emission trading systems (ETS) as a tool for addressing climate change and supporting humanitarian efforts. This paper investigates the execution of emissions trading systems (ETSs) in twenty different regions, including supranational, national, and provincial system which aims to evaluate various ETS cases at different levels. Furthermore, also assessed their environmental effectiveness and revenue management practices. The findings showed that the European Union is leading in allocating revenue for green technologies while the United States focuses on distributional equity, and Germany's for efficient revenue management, underscoring the diverse strategies in ETS regions. In conclusion, this study emphasizes the significance of revenue distribution in emission trading systems (ETS) to address environmental issues, advance equity, and support sustainable economic development, offering insightful information for decision-makers and directing future initiatives towards a greener and more inclusive future.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Thin Clients: Empowering Low-Income Family Students with Educational Tools from Revitalized Discarded Computers in Humanitarian Non-Profits",
+    "authors": "Yong Lin, Chengyao Wu, Astin Lin, Sara Koeth, Nico Kaszynski, Tariq Zaman, Charles Noah Lin, Ming Chen",
+    "year": 2023,
+    "link": "https://doi.org/10.1109/GHTC56179.2023.10354590",
+    "doi": "10.1109/GHTC56179.2023.10354590",
+    "abstract": "This research paper delves into the potential of leveraging thin client operating systems (OS) to transform discarded computers into valuable educational tools for supporting low-income K-12 school students, with a particular focus on addressing humanitarian needs. The study presents its initial findings and insights obtained during a collaborative pilot project involving Awakening Your Child Total Potential (AYCTP), a non-profit organization based in Ohio, in conjunction with the College of Engineering and Computing (CEC) and the Farmer School of Business (FSB) at Miami University, along with the Miami University Humanitarian STEM Service Corp (HSSC) student club. The pilot initiative targeted 40 K-12 students including refugees, orphans, and low-income individuals in Cincinnati, OH, Athens, Greece, and Thailand. By repurposing and distributing donated computers from Miami University, AYCTP and HSSC aimed to provide these students with access to educational technology. Beyond the hardware provision, the project also explored the potential of offering crucial STEM classes, training, and mentorship to the recipients of these computer donations, with the aim of fostering their interest in STEM fields and higher education prospects. In addition to distributing educational computers, the research team developed custom courses to cultivate the student\u2019s interest in STEM subjects and computer programing, utilizing both the donated computers and affordable devices like Raspberry Pi. The ultimate objective of this endeavor was to empower underprivileged students, enabling them to tap into their full potential and create brighter futures for themselves.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Smart Contract Implementation in Real Estate Sector",
+    "authors": "Farhadur Rahman, Marshia Mostafiz Mim, Abul Kashem Nibir, Mrinmoy Karmokar, Md. Safaet, Rezoana Afrin",
+    "year": 2023,
+    "link": "https://doi.org/10.1109/GHTC56179.2023.10354773",
+    "doi": "10.1109/GHTC56179.2023.10354773",
+    "abstract": "Many developing countries are concerned about the real estate-based problem. Smart contracts in real estate have yet to become commonplace. But people are starting to adopt this system because of its reliability and hassle-free procedure. In a smart contract system, users can find properties or upload property details to sell a property. Property information will remain public and unchangeable. After seeing a suitable property, the buyer and seller both will agree and after the transaction, the property ownership will be transferred through cryptocurrency\u2014the astounding advantages that smart contracts provide to the real estate sector. Better accessibility, cost savings, transparency, safety, and efficiency are some of the primary benefits of using smart contracts in real estate. This study explores technologies and processes to implement smart contracts in Bangladesh\u2019s real estate market.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Vetiver Grass Technology: A new perspective for river restoration and women's empowerment in river communities of rural India",
+    "authors": "Rondine Twist, J. Sophie von Lieres, Rao R. Bhavani, Albin John Koshy",
+    "year": 2023,
+    "link": "https://doi.org/10.1109/GHTC56179.2023.10354932",
+    "doi": "10.1109/GHTC56179.2023.10354932",
+    "abstract": "This paper offers a new perspective on the use of Vetiver Grass Technology (VGT) in rural India. By exploring the known benefits of vetiver grass, the paper considers VGT for community-based infrastructural development and rehabilitation of riverbeds throughout rural India and considers co-benefits concurrent with vetiver grass cultivation and skills training for women\u2019s empowerment and income generation.",
+    "skip_reason": "DUPLICATE of existing 'ghtc_2023_vetiver_grass_technology_a_new_perspective' (score=1.00)"
+  },
+  {
+    "title": "Using the History of Technological Impact on Society in Education to Attract Girls to STEM in Africa",
+    "authors": "Michael N. Geselowitz, Kelly N. McKenna",
+    "year": 2023,
+    "link": "https://doi.org/10.1109/GHTC56179.2023.10354765",
+    "doi": "10.1109/GHTC56179.2023.10354765",
+    "abstract": "There is currently a challenge of attracting young people, especially girls, into technical careers in science, technology, engineering, and mathematics (STEM). Quality pre-university education needs to be a part of efforts to take on the challenge, in order to fill the pipeline at an earlier phase. Studies have shown that girls have more interest in engineering when instruction emphasizes how technology impacts on societal evolution. The IEEE REACH Program supplies free, online, open educational resources than enable pre-university teachers to include the history of technology and its impact on society to be incorporated into classroom. This paper reports on the results of a pilot program sponsored jointly by IEEE and UNESCO to introduce the IEEE REACH Program into Uganda.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Enablers of Rural Women's Adoption of Water Quality Monitoring Technologies for Ensuring Clean and Safe Drinking Water",
+    "authors": "Reshma Ramesh, Nasliya N, Arya Mohan, J. Sophie von Lieres, Rao R. Bhavani",
+    "year": 2023,
+    "link": "https://doi.org/10.1109/GHTC56179.2023.10354560",
+    "doi": "10.1109/GHTC56179.2023.10354560",
+    "abstract": "Community water quality monitoring is crucial for informed decision-making, timely identification of challenges, and prompt action. This paper thoroughly examines the potential benefits, limitations, and considerations associated with adopting low-cost water quality monitoring technologies in resource-constrained settings. These technologies, such as portable water testing kits, smartphone applications for capturing safe practices, and water quality sensors, offer affordable and accessible solutions for households. The research sheds light on the challenges faced by rural women serving as Water Ambassadors in their communities, as they strive to monitor and ensure access to clean water. Factors including access to information and education, technology adaptation and affordability, and community context and perspectives influence the effectiveness of water quality monitoring and advocacy efforts. The study provides valuable insights to develop innovative and affordable approaches using low-cost technologies to address water quality issues, enhance community engagement, and contribute to the overall well-being of vulnerable communities",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "ICT significance for Community Engagement during COVID in Rural India: An application suite",
+    "authors": "Aswathi Padmavilochanan, Natarajan Amritha, Lekha Shekhar, Srividya Sheshadri, Parameswari Anitha, Rao R. Bhavani",
+    "year": 2023,
+    "link": "https://doi.org/10.1109/GHTC56179.2023.10354703",
+    "doi": "10.1109/GHTC56179.2023.10354703",
+    "abstract": "The effectiveness of Community Engagement programs such as Women\u2019s Empowerment Projects (WEP) relies heavily on efficient communication, allocation of resources, and reporting. Despite having a functional operational model, the COVID-19 situation exacerbated the challenges faced by these projects in terms of communication and monitoring. To address this, we propose an ICT-based operational model that incorporates a specially developed field operations tracker application, WE-FOT. This application digitizes information gathering, monitoring, and reporting processes, resulting in a centralized repository and data portal for improved centralized reporting. This paper presents the architectural design, functional features, and effectiveness of the toolset in the specific context of WEP implementation across the rural communities of India.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Exploring the Role of Women in Technology Driven Water Quality Monitoring Using a Participatory Approach",
+    "authors": "Reshma Ramesh, Arya Mohan, Nasliya N, J. Sophie von Lieres, Rao R. Bhavani",
+    "year": 2023,
+    "link": "https://doi.org/10.1109/GHTC56179.2023.10354718",
+    "doi": "10.1109/GHTC56179.2023.10354718",
+    "abstract": "Women\u2019s participation in water quality monitoring could contribute to the long-term provision of safe drinking water in rural India. Through participatory rural appraisal techniques, the study explores how women manage water resources and assess water quality in a rural setting. Findings reveal significant challenges related to water contamination and scarcity, impacting health, agriculture, and overall livelihoods. The results also provide insight into aspects that will facilitate the adoption of technological interventions for water quality monitoring in rural areas. More long-lasting solutions may result from empowering women through capacity building, gender equality advocacy, and utilising their skills and knowledge. Effective water quality control is possible of technology-driven strategies, such as continuous and centralized data management. For low-income resource communities to solve water quality challenges and secure long-term improvements in their well-being, a comprehensive strategy incorporating community participation, women\u2019s involvement, technological solutions, and supportive policies is required.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Integrating Technology, Local Knowledge, and Participatory Approach: Real-time Detection System for Mitigating Human-Animal Conflicts in Rural India",
+    "authors": "V. M. Pranavan, Sri Lasya Pragathi B, Sri Pavan Kumar G, Sanjeev Aakash, Sakthi Balakrishnan, Vinata Sai, Souresh Cornet",
+    "year": 2023,
+    "link": "https://doi.org/10.1109/GHTC56179.2023.10354914",
+    "doi": "10.1109/GHTC56179.2023.10354914",
+    "abstract": "Agriculture is the primary source of income for the vast majority of inhabitants in rural parts of India. Rapid expansion of human settlement and agricultural activities, concomitant with India's unabated population growth, inflict enormous strain on wildlife habitats, ensuing in increased encounters between humans and wildlife. Direct and indirect impacts of human-animal conflicts endanger the livelihood of rural communities, affecting the United Nations Sustainable development goals (SDG) - 2, 3, 4, and 8. Remedial measures at the state level scarcely provide sustained all-inclusive relief to local communities, which call for tailored solutions that are often beyond reach.This paper presents an in-depth exploration of the realities of human-wildlife interplays through the case study of an Odisha rural community, in eastern India. A bottom-up participatory heuristic approach was adopted to discern the actual needs and expectations of the people, and develop pertinent affordable technical solutions. This collaborative probe culminated in a fence interconnected with sensors and cameras for real-time surveillance. This system was designed with You Only Look Once (YOLO) algorithm to process and analyze the captured images, disseminate real-time alerts to the local populace and the farming community.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Food Security Amid Natural Disasters and Geographic Impacts: A Study of the 2017 Hurricane Harvey's Effect on U.S. Retail Baby Food Markets",
+    "authors": "Thuy Nguyen, Ariun Ishdorj",
+    "year": 2023,
+    "link": "https://doi.org/10.1109/GHTC56179.2023.10354939",
+    "doi": "10.1109/GHTC56179.2023.10354939",
+    "abstract": "The research analyzes the influence of Hurricane Harvey on baby food demand, emphasizing its surge amid the disaster and the subsequent spatial variations in Texas counties. By employing Nielsen retail scanner data and a Bayesian spatial Durbin error model, the study exposes the differential impacts of the disaster on consumption patterns. Pre-disaster demand, predominantly shaped by socioeconomic factors and store types, was significantly transformed during the disaster with an increased preference for the Gerber brand and milk formula. Post-disaster resilience was marked, albeit with persistent effects of the hurricane. Unveiling crucial spatial spillover effects, the research underscores the interconnectedness of consumer behavior in crisis scenarios. These findings serve as a foundation for the baby food industry stakeholders in the development of disaster response strategies.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Enhancing Occupational Risk Training for Agricultural Workers: Virtual or Analog Technologies?",
+    "authors": "Gregorio E. Puello-Socarr\u00e1s, Claudia Milena Ospina L\u00f3pez, Liliana Vargas Puentes",
+    "year": 2023,
+    "link": "https://doi.org/10.1109/GHTC56179.2023.10354671",
+    "doi": "10.1109/GHTC56179.2023.10354671",
+    "abstract": "This paper presents data collected from a training and research project designed to enhance workplace safety and health in agricultural organizations. The objective of this project was to develop a training strategy for agricultural workers that would aid in identifying and comprehending occupational risks and control measures.To facilitate the research, two groups of workers were involved in each industry. One group utilized ICT tools for learning, while the other group employed non-virtual methods. A concurrent mixed approach, primarily descriptive in nature, was adopted. The aim was to determine which training methodology had the greatest impact on the studied population. Subsequently, an analysis of the results was conducted.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Viability of Mobile Forms for Population Health Surveys in Low Resource Areas",
+    "authors": "Alexander Davis, Aidan Chen, Milton Chen, James Davis",
+    "year": 2023,
+    "link": "https://doi.org/10.1109/GHTC56179.2023.10354577",
+    "doi": "10.1109/GHTC56179.2023.10354577",
+    "abstract": "Population health surveys are an important tool to effectively allocate limited resources in low resource communities. In such an environment, surveys are often done by local population with pen and paper. Data thus collected is difficult to tabulate and analyze. We conducted a series of interviews and experiments in the Philippines to assess if mobile forms can be a viable and more efficient survey method. We first conducted pilot interviews and found 60% of the local surveyors actually preferred mobile forms over paper. We then built a software that can generate mobile forms that are easy to use, capable of working offline, and able to track key metrics such as time to complete questions. Our mobile form was field tested in three locations in the Philippines with 33 surveyors collecting health survey responses from 266 subjects. The percentage of surveyors preferring mobile forms increased to 76% after just using the form a few times. The results demonstrate our mobile form is a viable method to conduct large scale population health surveys in a low resource environment.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Fall Detection and Notification System for the Elderly using a fusion of Geophone and Thermal Imaging Camera sensors",
+    "authors": "Wanfeng Chen, Liuyi Zhao, Wan-Ci Liao, Simran Saxena, Zubin Assadian, Avi Geiger, John Raiti",
+    "year": 2023,
+    "link": "https://doi.org/10.1109/GHTC56179.2023.10354771",
+    "doi": "10.1109/GHTC56179.2023.10354771",
+    "abstract": "Falls among elderly individuals living alone pose significant risks to their well-being. However, conventional fall detection devices often compromise privacy or are easily forgotten or rejected by the users. To address this issue, we present a combined fall detection device utilizing a Geophone as the primary sensor and a Thermal Imaging camera as the secondary sensor. The device aims to provide timely alerts to caregivers while respecting the privacy concerns of the elderly. Our approach utilizes the ESP32 microcontroller, Raspberry Pi, and incorporates a Thermal Sensor (MLX90640) and Geophone (SM-24 10Hz). This paper describes the design, implementation, and evaluation of our non-wearable fall detection device, highlighting its potential to enhance the safety and privacy of elderly individuals living alone. Our novelty is implementing a non-wearable device with sensor fusion. Wearable devices can cause discomfort and inconvenience for elderly individuals. Moreover, there are instances where elderly individuals may wake up during the night and forget to put on the wearable device, leaving them vulnerable to fall incidents without proper monitoring or assistance.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Using Generative AI to Strategize Entrepreneurial Endeavors",
+    "authors": "Sebastian G\u00e4rtner, Vrushti Patel, Dayanara Cabera, Emily Rafikia, Risa Nkululeko, Khanjan Mehta",
+    "year": 2023,
+    "link": "https://doi.org/10.1109/GHTC56179.2023.10354803",
+    "doi": "10.1109/GHTC56179.2023.10354803",
+    "abstract": "Entrepreneurial ventures aim to create something that has never been created before. To do so they must come up with ways to visualize and communicate their proposed solution. Oftentimes this can prove difficult as the entrepreneurs may be working on projects without complete access to the resources necessary to complete their work. Recent developments in generative AI provide unique ways for entrepreneurs to overcome their limitations in resources to produce content that otherwise would have been out of reach. In this paper, we will be delving into work done with generative AI by the Zero Hunger College team. We will explore what technologies were used and how they allowed the team to improve their work.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "LLMs: A Promising New Tool for Improving Healthcare in Low-Resource Nations",
+    "authors": "Agasthya Gangavarapu",
+    "year": 2023,
+    "link": "https://doi.org/10.1109/GHTC56179.2023.10354650",
+    "doi": "10.1109/GHTC56179.2023.10354650",
+    "abstract": "This paper explores the potential of large language models (LLMs) in addressing healthcare inequalities, particularly in underserved nations with provider shortages, limited resources, and funding constraints. The UN\u2019s Sustainable Development Goal 3 aims to achieve health and well-being for all, but disparities persist. Recent advancements in LLMs, exemplified by OpenAI\u2019s GPT-4, demonstrate their ability to surpass human performance on certain medical exams, offering an opportunity to augment the limited number of physicians and meet unmet healthcare needs affordably. By customizing LLMs for healthcare, various applications become possible, including automating patient screening, assisting with diagnosis and treatment, enabling virtual health assistants to track health indicators and educate communities, supporting frontline health workers in addressing basic healthcare needs, translating medical knowledge for accessibility, and aiding multilingual healthcare providers. However, challenges such as inadequate data and infrastructure, risks of bias and privacy breaches, cost and access barriers, and security threats must be addressed to ensure that the benefits of LLMs reach communities facing the greatest challenges and threats. This paper highlights the potential benefits, challenges, and the need for collaboration to harness the power of LLMs effectively in healthcare and contribute to achieving the UN\u2019s Sustainable Development Goal 3.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Supporting Disaster Resilience Building through Cross-Community Knowledge Sharing",
+    "authors": "Motoya Koga, Tetsuya Kaneko, Emanuel Leleito, Kazuki Karashima, Ari Aharari",
+    "year": 2023,
+    "link": "https://doi.org/10.1109/GHTC56179.2023.10355045",
+    "doi": "10.1109/GHTC56179.2023.10355045",
+    "abstract": "Collaborative action in disaster mitigation efforts contributes to knowledge and experience sharing, resource sharing, improvement of response and coordination, and standardization of good practice. In this study, we propose a workshop model and develop a virtual collaboration tool to support and promote cross-community knowledge sharing and collaboration focusing on disaster mitigation efforts. The workshop model involves pre-fieldwork training, actual fieldwork, and post-fieldwork information exchange. The collaboration tool enables information collection, sharing and record keeping. The effectiveness of the workshop model and the collaboration tool is demonstrated through use in a citizen participatory disaster preparedness workshops linking two elementary schools located in the central and southern regions of Japan.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Learning by Doing Strategy for Electronic Engineer Students at Unidad Central del Valle del Cauca",
+    "authors": "Angel Jose Lozada Das Dores, Luisa Fernanda Cabezas Burbano, Iv\u00e1n Dar\u00edo Aristiz\u00e1bal Henao, Luis Fernando Plaza Galvez, Marco Antonio Cabero Zabalaga, Walter Mario Weyerstall, Jenniffer Alejandra Castellanos Garz\u00f3n",
+    "year": 2023,
+    "link": "https://doi.org/10.1109/GHTC56179.2023.10354915",
+    "doi": "10.1109/GHTC56179.2023.10354915",
+    "abstract": "A semesterly project for second semester of electronic engineer at Higher Education Institution Unidad Central del Valle del Cauca (Colombia) was developed by students based on Learning by Doing Theory (LbD) in order to improve the quality of education. According to specified methodology, the circuit was selected (by their very own), simulated, prototyped, optimized, installed and implemented in a Micro Small Medium Size Enterprise (MSME). Through this project students not only improved their soft skills such as oral and writing communication, social interaction with MSME managers and their customers, teamwork, among others; but also, allowed to reinforce and consolidate basic electronic engineer concepts (hard skill) e.g., how does work passive and active electronic components, design a PCB, among others. Surveys was made to all participants (students, mangers and customers), these results demonstrated the impact of LbD theory as well the positive interaction between students and society actors by solving real-life problem.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Impact of Outcome Based Curriculum of Diploma engineering programmes on performance of the students in industry and higher education (Case Study)",
+    "authors": "Alan Sanjay Rocha, B. L. Gupta, Chandra Charu Tripathi",
+    "year": 2023,
+    "link": "https://doi.org/10.1109/GHTC56179.2023.10354599",
+    "doi": "10.1109/GHTC56179.2023.10354599",
+    "abstract": "A wide spectrum of abilities are developed in the students during diploma engineering programme. This paper assesses the impact of outcome-based curriculum on performance of the students in industry by analysing the abilities developed by the students after three cycles of implementing the outcome-based curriculum.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "\"Now I Understand\": an application to bridge the gap in communication with hearing impaired people",
+    "authors": "Karen Baz, Juan Pedro Grille, Cristina Mayr, Gustavo Gretter",
+    "year": 2023,
+    "link": "https://doi.org/10.1109/GHTC56179.2023.10354884",
+    "doi": "10.1109/GHTC56179.2023.10354884",
+    "abstract": "\"Now I Understand\" is a mobile application that enables bilateral communication between hearing and non-hearing people using artificial intelligence techniques. The application uses deep learning models to recognize sign language and translate it into text in real-time, while also translating text into sign language. The details of the application implementation are discussed, including data acquisition and preprocessing, selection and training of deep learning models, and the user interface. This application has the potential to revolutionize communication and accessibility for people with hearing impairments by providing a reliable and accurate tool for bilateral communication, as well as improving the general public's awareness and understanding of sign language.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Associations Between Redlining and Social Vulnerability to Long-Duration Power Outages",
+    "authors": "Jesse Dugan, Melodie Chen-Glasser, Salman Mohagheghi",
+    "year": 2023,
+    "link": "https://doi.org/10.1109/GHTC56179.2023.10354665",
+    "doi": "10.1109/GHTC56179.2023.10354665",
+    "abstract": "Low-income communities and communities of color, on average, experience longer recovery durations following a disaster-induced power outage. Furthermore, residents in these communities often report higher stress during, and worse outcomes following, a power outage. Social vulnerability indices have been used to quantify these inequalities by measuring where residents are most at risk during a long-duration power outage. However, the causes of these disparities have not been adequately studied. In this paper, it is hypothesized that the historical practice of classifying neighborhood investment risk based on the racial characteristics of their residents by the U.S. Home Owner\u2019s Loan Corporation (i.e., redlining) influenced current trends in social vulnerability to power outages. Analysis of variance and a Tukey-Kramer post-hoc test were used to compare the average social vulnerability of neighborhoods based on their Home Owner\u2019s Loan Corporation rating. Census tracts that contain previously redlined neighborhoods were found to be significantly more vulnerable during a power outage than non-redlined neighborhoods. The results of this analysis can be used to inform power outage preparedness and response, and are discussed in conjunction with energy justice solutions and power grid resilience strategies.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Incorporating Energy Equity in Power System Planning and Operation: Potential Metrics, Challenges, and Needs",
+    "authors": "Noah Allison, Josue Campos do Prado",
+    "year": 2023,
+    "link": "https://doi.org/10.1109/GHTC56179.2023.10354889",
+    "doi": "10.1109/GHTC56179.2023.10354889",
+    "abstract": "As the electricity grid continues to evolve and expand over time, the necessity for equitable energy grows more so each day. Current literature investigating equity in power systems focuses mainly on energy affordability and the economic side of power systems. Looking forward into incorporating fairness in power system planning and operations, it is necessary to investigate energy equity in both long-term and short-term operations. Fairness is considered both a mechanism/variable and constraint that can be applied to power system optimization models, as it has been previously done in communication system modeling. However, there are still challenges and needs that limit or hinder the incorporation of fairness in power systems. This paper aims to demonstrate why incorporating fairness in power systems is vital to the future of equitable energy in power systems by showcasing the need for equity, current limitations, and opportunities to make it a reality.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "The DaanMatch System: Matching NGOs with CSRs using the UN Sustainable Development Goals",
+    "authors": "Cara Arellano, Michael DeBellis, Patrick Guo, Kenneth Kron, Tejas Jyothi, V. Suresh",
+    "year": 2023,
+    "link": "https://doi.org/10.1109/GHTC56179.2023.10354955",
+    "doi": "10.1109/GHTC56179.2023.10354955",
+    "abstract": "India's legions of hard-working non-profit organizations strive to reduce absolute and relative poverty and improve the capabilities of communities and individuals but struggle for resources. With the introduction of a legal mandate in a 2013 revision to her Companies Act, India became the first country to mandate Corporate Social Responsibility (CSR) expenditure by large firms. Both corporations and Non-Governmental Organizations (NGOs) still struggle to meet the act's requirements. CSR funding is unevenly distributed or unspent, neglecting many issues and regions in need. In 2021, 45% of mandated corporations remained non-compliant and less than 1% of India's NGOs had received funding through the CSR mandate. Small, local NGOs are often extremely effective in terms of impact and outcome. They have the connections, local knowledge and agility to generate and implement sustainable solutions but are excluded from consideration if they struggle to meet transparency requirements. The goal of DaanMatch is to use technology to overcome these and other challenges in development. We are developing a system to facilitate localization of the United Nations Sustainable Development Goals (SDGs) and improve outcomes for Corporate Social Responsibility. This paper describes the DaanMatch system and the innovative technology it utilizes to match CSR with NGOs in a way that showcases small NGOs and helps level the playing field for them. Although the initial emphasis is on India, our goal is to reinvent the process of NGO evaluation, monitoring, auditing, and reporting for charitable giving and global development.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Leveraging Machine Learning to Understand Green Stormwater Infrastructure Performance Risks",
+    "authors": "Sizhe Zhang, Achira Amur, Emma Olson, Peleg Kremer, Xun Jiao, Virginia Smith, Bridget Wadzuk",
+    "year": 2023,
+    "link": "https://doi.org/10.1109/GHTC56179.2023.10354822",
+    "doi": "10.1109/GHTC56179.2023.10354822",
+    "abstract": "This investigation examines green stormwater infrastructure (GSI) performance data and environmental features through machine learning to identify drivers in the built environment that impact the performance and sustainability of GSI.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Computer Vision Based Jaundice Monitoring For Smart Low-cost Phototherapy Light System",
+    "authors": "Bryan Kristofer A. Manabat, Isaiah Dale L. Delos Reyes, Jela Patricia R. Matibag, Paul Ryan A. Santiago, Steve Maverick Chaves, Raymond P. Cao, Paul M. Cabacungan, Carlos M. Oppus, Nathaniel Joseph C. Libatique, Gregory L. Tangonan",
+    "year": 2023,
+    "link": "https://doi.org/10.1109/GHTC56179.2023.10354881",
+    "doi": "10.1109/GHTC56179.2023.10354881",
+    "abstract": "This paper describes the development and enhancements of the Smart Low-cost Phototherapy Light System (Smart LPLS) at Ateneo Innovation Center (AIC) and partners. The developed Smart LPLS has custom-built LED panels that can output an irradiance of up to 83.89 \u00b5W/cm2/n; 2.7 times stronger than the minimum required of 30 \u00b5W/cm2/nm for Neonatal Jaundice treatment. The integrated monitoring system uses an ESP32 camera module for capturing and sending images and a Raspberry Pi that enables Near Cloud storage, processing, and rendering capabilities. Using a modified version of Kovac's rules for skin pixel identification and K-means clustering for color quantization proved to be effective in extracting the dominant colors present within a skin region. Extracted colors are checked for yellow pigmentation based on their b* axis value on the CIE L*a*b* color space, which indicates yellowness (-) or blueness (+). This enables the tracking of increase and decrease in yellow pigmentation over time, with a configurable threshold for sending alerts through email at perceived dangerous levels. The Smart LPLS offers a cost-effective and efficient alternative to commercial phototherapy units, with the additional functionality of an integrated smart monitoring system.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Waste Genie: Learning Environmental Sustainability from Waste Sorting and Interactive Feedback",
+    "authors": "Qiming Sun, I-Han Hsiao",
+    "year": 2023,
+    "link": "https://doi.org/10.1109/GHTC56179.2023.10354701",
+    "doi": "10.1109/GHTC56179.2023.10354701",
+    "abstract": "Waste management is the foundation of sustainable living. Recently, researchers and organizations have undertaken a variety of efforts to support sustainability through improved waste management. We designed and studied a web-based educational technology that harnesses environmental sustainability information and resources to support learning. Waste Genie combined the most prevalent formal and informal learning features by utilizing assessment with interactive feedback to facilitate users learning waste sorting. A field trial was deployed to examine the technology\u2019s effectiveness and the learning impacts. The system logs were modeled with Hidden Markov Model to analyze the participants\u2019 sequential patterns. The results showed that the users were confident using the system, and the platform was successful in engaging users through a variety of activities. The participants found the system very easy to use, they expressed a desire to have more social features, such as commenting and social sharing. The study also revealed that Waste Genie had a positive impact on users\u2019 awareness of waste management, with participants demonstrating improvements in their waste sorting behaviors.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Robust Detection of Plant Features with Overhead Imaging in a Range of Crop and Weed Scenarios",
+    "authors": "Sanket Junagade, Swagatam Bose Choudhury, Ruturaj Patil, Ajay Mittal, Sanat Sarangi, Nandan Rajpoot, Suresh Neelakandan, Dineshkumar Singh, Srinivasu Pappula",
+    "year": 2023,
+    "link": "https://doi.org/10.1109/GHTC56179.2023.10354680",
+    "doi": "10.1109/GHTC56179.2023.10354680",
+    "abstract": "Overhead imaging from UAVs and UGVs can help detect features of interest for farm scenarios with crop-specific features such as flowers, fruits, and surrounding weeds. These features are important for yield assessment and de-weeding. However, identifying them can be challenging due to their morphological similarity and occlusion. We use deep learning to process high-resolution images of crop fields and classify the features at different complexity levels, for example, to detect green-coloured fruits that are partly concealed beneath leaves. We compare different approaches for multiple seasonal crops and weeds in the Kharif season and discuss their performance and limitations. The feature recognition outputs are illustrated at various complexity levels, which should help pave the way forward in creating holistic insights that drive action on the ground to enhance management efficiency and profitability.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "When Healthcare Meets Conversational AI: A Narrative Review of Amazon Alexa Devices in Healthcare",
+    "authors": "Sof\u00eda Espinoza-Hern\u00e1ndez, Eric Yang, Elif Ozturk, Rachel Platt, Khanjan Mehta",
+    "year": 2023,
+    "link": "https://doi.org/10.1109/GHTC56179.2023.10354743",
+    "doi": "10.1109/GHTC56179.2023.10354743",
+    "abstract": "The emergence of artificial intelligence (AI) within the last decade has cemented its role in mainstream society. From smartphones to smartwatches, and now smart speakers, there are few devices that are incompatible with the ever-evolving abilities of AI. Since the initial launch of Amazon\u2019s Alexa devices in 2014, these smart speakers have proven their utility in a variety of ways, such as providing weather forecasts, playing music, or setting alarms. Within five years of the development and improvement of Alexa devices, they have proved to be valuable assets in the healthcare industry. The recent COVID-19 pandemic acted as a catalyst for the increased use of smart speakers in hospitals, and the continued development of such technologies reinforces the need to track their potential applications. This article sheds light on the various use cases of Amazon\u2019s Alexa devices in the emerging area of research observing the intersection of conversational AI and healthcare.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Harnessing the Power of Neural Networks for Predicting Shading",
+    "authors": "Rakeshkumar V. Mahto, Kanika Sood",
+    "year": 2023,
+    "link": "https://doi.org/10.1109/GHTC56179.2023.10354791",
+    "doi": "10.1109/GHTC56179.2023.10354791",
+    "abstract": "Unmanned aerial vehicles (UAVs) have emerged as indispensable tools in disaster management, providing critical support in planning, response, and recovery efforts. Integrating photovoltaic (PV) technology with UAVs offers promising opportunities to enhance their functionality and resilience in hostile environments. However, existing PV-based power management systems for UAVs face challenges related to changing light conditions and the impact of partial shading on module performance. It is shown that through embedding transistors with PV panels, the PV based power source of the UAVs can be made adaptable with the operating environment. However, existing shade detection techniques are cumbersome and inefficient.In this study, we propose a novel approach using a neural network model to accurately predict the shading percentage on PV cells, enabling dynamic power management. Through extensive experiments, we demonstrate the effectiveness of the model, achieving a high accuracy of 94% with 50 epochs and 96% with 100 epochs. This research highlights the potential of machine learning techniques in optimizing PV-based UAV power systems and provides insights for future advancements in this field. The integration of advanced power management strategies can significantly enhance the performance and adaptability of UAVs, contributing to more efficient and effective disaster response operations.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Leveraging ChatGPT and Amazon Alexa to Empower Healthcare Workers in Sierra Leone",
+    "authors": "Brooke Lee, Omar Hossain, Zavier R. Urbaez, Aabiskar Thapa Kshetri, Khanjan Mehta",
+    "year": 2023,
+    "link": "https://doi.org/10.1109/GHTC56179.2023.10354549",
+    "doi": "10.1109/GHTC56179.2023.10354549",
+    "abstract": "The majority of the population in Sierra Leone lives below the poverty line, with poor access to secondary education and the public healthcare system. Community Health Workers bridge the gap between the communities and clinics that are led by Clinical Officers or nurses. These frontline healthcare workers receive little formal training themselves and are often unable to provide adequate guidance to their communities. How might we leverage rapidly growing Artificial Intelligence (AI) tools and technologies to educate and empower frontline healthcare workers and their communities? AI tools can be affordable, easy to use, quick to distribute, and can share healthcare information verbally, particularly helpful in regions with low literacy rates and strong oral traditions. This article describes an early attempt at using Amazon Alexa devices to respond to health-related questions with vetted responses in English and Krio. For the first phase, our application focuses on women\u2019s health issues such as pregnancy, cervical cancer, and STIs. The initial bank of ~350 questions and answers were generated by the AI chatbot, ChatGPT, and validated through conversations with nonprofit leaders and an informal group of healthcare workers who were fascinated by a small device talking to them in their local language!",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Automation of the surveillance of the Casamance forest against illegal logging",
+    "authors": "Abel Diatta, Shigeru Kashihara, Youssou Faye",
+    "year": 2023,
+    "link": "https://doi.org/10.1109/GHTC56179.2023.10354833",
+    "doi": "10.1109/GHTC56179.2023.10354833",
+    "abstract": "Casamance is a region in southern Senegal with very dense forest cover. It is considered not only as the country\u2019s breadbasket, thanks to the many opportunities offered by the forest, particularly in terms of fruit and medicinal plants, but also as the country\u2019s green lung. Its disappearance would therefore have a negative impact on the lives of this population. The country\u2019s water and forestry services (WFS), one of whose roles is to control and monitor forest exploitation, are powerless to deal with the numerous groups of smugglers who fraudulently cut down the trees. With this in mind, we set out to implement a forest monitoring solution using IoT and AI. This solution will enable the WFS agents to be informed in real time and to raid the site at the very moment of illegal action.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Smart Systems for Faultless Purlieus: Leveraging AI and Machine Learning",
+    "authors": "Vaishnavi Dixit, Makesh Srinivasan, Dhriti Rajani, Vidhi Shah, Nishant Kumar, Ronith Jaju, Vydeki D",
+    "year": 2023,
+    "link": "https://doi.org/10.1109/GHTC56179.2023.10354609",
+    "doi": "10.1109/GHTC56179.2023.10354609",
+    "abstract": "In today\u2019s rapidly evolving world, the imperative of efficient waste management is pivotal for fostering a sustainable future. This paper introduces a holistic solution that combines advanced hardware and software technologies to tackle the multifaceted challenges of waste classification and collection. The proposed initiative leverages state-of-the-art computer vision, robotics, and intelligent systems to revolutionize waste management processes, ultimately contributing to environmental preservation and resource optimization.Our innovative project presents an autonomous waste classification and collection system, seamlessly blending cutting-edge hardware components with sophisticated software algorithms. The primary objective is to create an integrated system that not only automates waste sorting but also optimizes resource utilization and minimizes environmental impact.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Sustainable Development in the Anthropocene Requires Interprofessional Environmental Health as Science Diplomacy",
+    "authors": "Daniel B. Oerther, Sarah Oerther",
+    "year": 2023,
+    "link": "https://doi.org/10.1109/GHTC56179.2023.10354712",
+    "doi": "10.1109/GHTC56179.2023.10354712",
+    "abstract": "The Anthropocene, the current geological age where human activity is the dominant influence on the environment, creates a global challenge to achieving the United Nations Sustainable Development Goals (SDGs). The purpose of this article is to raise awareness that the current dire situation facing the unlikely success of achieving the SDGs by 2030 is not dissimilar from the dire situation that faced the world in meeting the Millennium Development Goals (MDGs). The full range of professionals who operate as \"humanitarian technologists\" \u2013 including nurses and engineers \u2013 must: 1) recall the two axioms of Florence Nightingale\u2019s environmental theory (i.e., man\u2019s natural state is healthy and the humanitarian technologists modifies the environment to restore health); and 2) adopt a holistic lens, which interrelates prosperity, people, planet, peace, and partnership \u2013 including science diplomacy \u2013 to solve cycles of disaster, recovery, and sustainable development for 2030 and beyond. Building upon our prior definition of \"humanitarian technologists\", we encourage interprofessional environmental health practice and education \u2013 to the full extent of licensure and capability \u2013 to achieve the SDGs.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Engaging First-Year Engineering Students: A Technology-Based Approach Using Story-Based Learning and AI-Generated Content",
+    "authors": "Amirhossein Mokhtarpour, Claudio Cesar Silva de Freitas",
+    "year": 2023,
+    "link": "https://doi.org/10.1109/GHTC56179.2023.10354533",
+    "doi": "10.1109/GHTC56179.2023.10354533",
+    "abstract": "This paper describes a pedagogical approach, design, and implementation process for improving conceptual and hands-on learning in first-year engineering. The Portable Experimenter Engineering Board (PEEB) is an affordable, easily replicable, open-source kit that augments student participation in first-year engineering courses by using gamification and story-based learning with the support of artificial intelligence (AI) content. This kit provides students with practical training in applied electrical and computer engineering concepts by providing the tools necessary to measure environmental variables, measure circuit efficiency, analyze physical constants, and examine potential real-world applications. The PEEB can enable students' engineering prototypes while they study principles of programming, electronics, and engineering process.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Co-creation of Renewable Energy Resources to Support the New Contextualized Education Curriculum in the Galapagos Islands",
+    "authors": "Javier Urquizo, Pritpal Singh, Viviana Villavicencio, Ruben Hidalgo-Le\u00f3n",
+    "year": 2023,
+    "link": "https://doi.org/10.1109/GHTC56179.2023.10354891",
+    "doi": "10.1109/GHTC56179.2023.10354891",
+    "abstract": "This paper describes the planning, delivery, and outputs of a week-long workshop that focused on supporting high school teachers in the co-creation of Renewable Energy Resources in the Galapagos Islands context. The workshop included participation from teachers from different subjects and grade levels in the three most populated islands of the Galapagos Archipelago. The workshop was targeted at enabling a discussion on the main educational resources that can be used to integrate renewable energy topics and principles into the new contextualized curriculum for education in the Galapagos. Examples of the main activities resulting from the discussions with teachers and students, as well as prior experiences working with high school students on renewable energy capacity-building workshops are presented in this paper. Finally, a summary of the lessons learned in the deployment of the workshop and the use of available digital resources in the schools are also highlighted.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "An Affordable Approach for Implementing Hybrid Classes with Portable Equipment in Ecuadorian Academic Institutions",
+    "authors": "Isabella I. Martin, Cesar A. Martin",
+    "year": 2023,
+    "link": "https://doi.org/10.1109/GHTC56179.2023.10354844",
+    "doi": "10.1109/GHTC56179.2023.10354844",
+    "abstract": "The COVID-19 pandemic threw harsh tests on humanity, including the need to continue learning in academic institutions now virtually. Many of the benefits of this alternative are maintained when a hybrid learning strategy is adopted, however, this is not a widely adopted strategy because of economic and connectivity restrictions, especially in underdeveloped countries such as Ecuador and particularly in conditions of low internet access, like those of the Galapagos Islands. This paper proposes a configuration of equipment that makes up an economic alternative for the development of hybrid classes in Ecuadorian educational institutions. The solution is evaluated in a pilot test developed in a local institution and the results are tabulated via surveys carried out among the participants. The solution can be replicated in other Ecuadorian institutions that have similar needs and restrictions.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Transforming Teachers' Professional Development with Technology Innovation Integration in Essuekyir, Ghana",
+    "authors": "Jane A. Appiah-Okyere, Danielle Taana Smith, Ephrem Kwaa-Aidoo, Lee W. McKnight, Erika Mamley Osae",
+    "year": 2023,
+    "link": "https://doi.org/10.1109/GHTC56179.2023.10354622",
+    "doi": "10.1109/GHTC56179.2023.10354622",
+    "abstract": "This article provides an evaluation of teachers\u2019 technological skills enhancement, after adapting teacher professional development training, while integrating Information and Communication Technologies (ICTs) innovations into teaching methodologies in Essuekyir, a rural community in Ghana. The availability of training for teachers in Essuekyir was made feasible by deploying the Internet Backpack, a secure mobile broadband Internet connectivity tool which can be used to connect to the Internet with or without Wi-Fi or cellular network access. The Internet Backpack provides an immediate connectivity solution that allows users to be able to communicate from almost any location. The online learning resources provided by the Ghanaian Ministry of Education, at no cost, now accessible in rural Essuekyir, previously were mainly accessible by schools and teachers in urban areas. Our research finds that in Essuekyir, as an Internet connectivity device, the Internet Backpack effectively facilitates community Internet access for teachers as they learn how to adapt and use online learning systems for their, and their students, digital inclusion.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Cultivating a Reading Culture: A design intervention to inculcate reading habits",
+    "authors": "Shamita Rao, Rahul Gupta, Harshit Kumar Gupta, Deval Karia",
+    "year": 2023,
+    "link": "https://doi.org/10.1109/GHTC56179.2023.10354925",
+    "doi": "10.1109/GHTC56179.2023.10354925",
+    "abstract": "Developing a good reading habit refers to a behaviour that is done regularly to understand information and enjoy reading. However, quantifying a good reading habit can be challenging as there is no consensus on how to best measure it. A good reading habit is important in every individual as it has an invariable impact on cognitive development and intellectual improvement. Lack of reading habits is a significant problem among Indian youth. Understanding why reading is not a prevalent aspect of modern culture and finding a novel method to inculcate reading habits in casual readers is the focus of this work. To achieve this, a \u2018user-in-the-loop\u2019 approach to Engineering Design (UILED) was adopted with a specific problem identified: \u2018Casual readers lose interest in reading due to limited time, vocabulary, understanding, and a lack of immersive reading content, which leads to poor reading habits.\u2019 A design intervention (DI) was proposed, with stakeholder feedback and concerns considered at each stage. The DI thus created is a foldable reading device that emphasises the development and inculcation of a reading habit, while also providing translational, aural, and visual assistance. The DI was taken to expert stakeholders for verification, and, after multiple rounds of feedback and iteration, the final DI was produced.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Implementation of an Educational Laboratory for Electrical Protections Based on Low-Cost Electronic Devices",
+    "authors": "Fernando Vaca-Urbano, Jimmy C\u00f3rdova, Diana Cervantes, Johnny Rengifo, Manuel S. Alvarez-Alvarado",
+    "year": 2023,
+    "link": "https://doi.org/10.1109/GHTC56179.2023.10354657",
+    "doi": "10.1109/GHTC56179.2023.10354657",
+    "abstract": "In the field of power electrical protections, educational environments often face challenges in providing accessible equipment to undergraduate engineering students. Current transformers and relays, although vital for understanding protection systems, may be cost-prohibitive and limited in their application. Fortunately, the rapid advancement of technology offers a solution, as modern electronic boards can faithfully simulate the functionalities and responses of a protection relay during fault currents. This paper introduces a novel approach utilizing the Arduino UNO board in conjunction with MATLAB-Simulink software to enable students to input critical parameters of an overcurrent protection relay, such as pickup current, curve type, and time delay. Through this innovative setup, students can effectively simulate a photovoltaic power system under protection and further program the corresponding algorithm to govern the overcurrent protection process. By bridging theoretical concepts with hands-on experimentation, this educational laboratory fosters practical learning experiences, empowering students to grasp the complexities of protection relay systems and better prepare them for real-world challenges in electrical engineering.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Overcoming the Triple Challenges of Digital Contact Tracing in Japan",
+    "authors": "Takashi Okumura, Junko Ami, Hiroshi Masui",
+    "year": 2023,
+    "link": "https://doi.org/10.1109/GHTC56179.2023.10355014",
+    "doi": "10.1109/GHTC56179.2023.10355014",
+    "abstract": "During the recent COVID-19 pandemic, various countries developed and deployed digital contact tracing tools as game-changers for infection control. As the pandemic approaches its final stages, evaluations of these efforts are progressing in different countries. This paper examined COCOA, a contact tracing app developed in Japan, to identify the reasons for its failure to function effectively. To address these issues, we proposed a solution that leverages technologies studied in Japan prior to the pandemic, and introduced an ongoing study at campus-level to demonstrate their potential. Digital contact tracing represents a significant technological innovation in public health, and it is desirable to expand the scope of validation to regional and national levels, in the future, for further development.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Low-Cost Remote Monitoring Solutions for Sustainable Water Management in Madagascar",
+    "authors": "Jamie Silk, James C. Peyton Jones, Michael Newman, Jordan Ermilio",
+    "year": 2023,
+    "link": "https://doi.org/10.1109/GHTC56179.2023.10354568",
+    "doi": "10.1109/GHTC56179.2023.10354568",
+    "abstract": "This paper describes a low-cost automated approach for logging data from remote sites in Madagascar directly to a cloud-based repository where it can be accessed by end-users through an online dashboard. SMS alerts can also be triggered to warn operators of conditions that require immediate attention. The system integrates commercial sensors and telemetry with alternative cellular providers and custom back-end processing to automatically format and upload data to the database. The database itself conforms to the Observations Data Model standard. Early results and interpretation of recorded data are provided as an example.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "The SPeRA web Portal for Cooperation Associations and Projects in Africa",
+    "authors": "Marco Trombini, Matteo Morando, Edoardo Berti Riboli, Mauro Zanna, Andrea Rudelli, Silvana G. Dellepiane",
+    "year": 2023,
+    "link": "https://doi.org/10.1109/GHTC56179.2023.10354760",
+    "doi": "10.1109/GHTC56179.2023.10354760",
+    "abstract": "The importance of Organizations and Private Volunteer Projects for International Development Cooperation is widely recognized. However, although there are some websites that collect and describe information on welfare societies, very few are aimed at a detailed description of the projects. In particular, at the Italian level, the associations working for development cooperation in Africa are poorly described on the Internet, and this makes responses to humanitarian needs less efficient than they could be. Indeed, for very fruitful operations, collaborations between associations as well as funding for projects are very productive. Therefore, the dissemination of information and data in a scientific way is crucial in the framework of development cooperation. With this in mind, a web portal was created for the promotion and dissemination of humanitarian projects. It is the result of the joint work of a multidisciplinary team that includes university researchers, technology specialists and volunteers from non-profit associations. It currently places particular emphasis on small Italian associations operating in Africa, aimed at making their voices heard and promoting their activities. This contribution introduces this portal, showing how to insert it in the scenario of humanitarian projects, favoring the use of technologies for development cooperation.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "LoRa-based Sensors and Monitoring of Growth Parameters with NearCloud Data Storage for Black Rice Hydroponics",
+    "authors": "Paul M. Cabacungan, Reymond P. Cao, Paul Ryan A. Santiago, John Paul A. Mamaradlo, Neil Angelo M. Mercado, Cristina F. Gonzales, Ian A. Navarrete, Nerissa G. Cabacungan, Carlos M. Oppus, Teresita R. Perez, Nathaniel J. C. Libatique, Gregory L. Tangonan",
+    "year": 2023,
+    "link": "https://doi.org/10.1109/GHTC56179.2023.10354710",
+    "doi": "10.1109/GHTC56179.2023.10354710",
+    "abstract": "Our LoRa and NearCloud based systems can gather and store data on the growth parameters of hydroponics-farmed black rice for proper management. These real-time monitoring sensors can provide accurate readings of nutrient contents (nitrogen, phosphorus, potassium), temperature, ph, and other essential information that can be shared to a bigger research community. This is a domestically ready system that enables detection of nutrient dilution and plant diseases, and empowers farmers to give immediate intervention. It allows remote farm management within the range of a LoRa signal. This study illustrates the use of wireless sensors and monitoring systems in hydroponics farming that serve as an efficient and low-cost tool for precise agricultural management.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Real-time Hybrid Dashboard and App for Mpox Outbreak Surveillance",
+    "authors": "Daniel Quezada, Sampson Akwafuo, Aniket Wattamwar",
+    "year": 2023,
+    "link": "https://doi.org/10.1109/GHTC56179.2023.10355026",
+    "doi": "10.1109/GHTC56179.2023.10355026",
+    "abstract": "With the continuous rise in the global threat of infectious diseases, surveillance systems have become powerful tools for monitoring the development and transmission patterns of fast-changing disease outbreaks, by public health officers. These surveillance systems typically track relevant epidemiological data such as number of cases, fatality rates, hot spots, and in most cases, evaluate the impact of public health intervention strategies in these locations. Data from these surveillance apps can also be used for efficient emergency response preparatory logistics, as well as early containment. In this paper, we presents a modular, open-source, GIS-enabled, web-based dashboard and mobile app that are capable of visualizing and identifying epidemiological patterns for any infectious disease of interest, in real time. These visualizations can be in the form of GIS maps, charts, and other metrics to track certain indicators. Python and Streamlit library are used to manage the frontend of the application. Data from the 2022 Mpox outbreak in the United States were used to evaluate the application. Nongovernmental organizations or other community-based groups can leverage on, and adapt this dashboard to monitor the spread of any quick-onset disease outbreak in their regions.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "BPoL: A Disruption-Tolerant LoRa Network for Disaster Communication",
+    "authors": "Daniel Schmidt, Franz Kuntke, Maximilian Bauer, Lars Baumg\u00e4rtner",
+    "year": 2023,
+    "link": "https://doi.org/10.1109/GHTC56179.2023.10354717",
+    "doi": "10.1109/GHTC56179.2023.10354717",
+    "abstract": "Information and Communication Technology (ICT) is vital for everyday life and especially during times of disaster. Relying on existing infrastructure is problematic as maintenance is expensive, and they can be disrupted in emergency scenarios. Cost is a major factor which limits the technologies that can be used in rural areas or for emergency response, as satellite uplinks or private cellular networks are very expensive and complex. LoRa is commonly used for IoT infrastructure worldwide in the form of LoRaWAN to cover larger distances with low costs. But it can also be used in a Device-to-Device (D2D) mode for direct communication. By combining LoRa with Disruption-tolerant Networking (DTN), we present an affordable and practical solution that can cope with challenging conditions and be used for a large variety of applications. In our evaluation, we show how adaptable our solution is and how it outperforms similar mesh-based applications for disaster communication.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Maximizing Prediction Accuracy in Wildfire Severity: A Comprehensive Analysis of Machine Learning Models Using Environmental Features",
+    "authors": "Michael Nocerino, Smita Ghosh",
+    "year": 2023,
+    "link": "https://doi.org/10.1109/GHTC56179.2023.10354838",
+    "doi": "10.1109/GHTC56179.2023.10354838",
+    "abstract": "The escalating severity and frequency of wildfires have been widely attributed to the effects of climate change. In order to formulate efficient wildfire evacuation plans, it is imperative to examine the effect of such fires that will help in the the decision-making process involved in evacuations and ascertain the key factors that influence individuals\u2019 choices. This paper explores the trends of wildfires in California from 2001 to 2019, focusing on the role of environmental features. It aims to predict the extent of land affected by a wildfire based on the given environmental characteristics of the fire event. The study compares and evaluates the performance of various regression and classification methods in Machine Learning, specifically considering the influence of environmental factors. Experiments were performed on real-life datasets, involving data cleaning, feature engineering, handling irregularities, and data normalization. The objective was to develop models capable of predicting the size of wildfires based on weather features in the month of ignition. While the multi-class classification models encountered challenges and exhibited suboptimal performance, the regression models demonstrated greater success in accurately predicting the number of acres burned by a fire.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Monitoring and Impact Assessment of Farm Practices in Horticulture Crops with Digital Twins",
+    "authors": "Rushikesh Kulat, Ruturaj Patil, Swagatam Bose Choudhury, Ajay Mittal, Sanat Sarangi, Mariappan Sakkan, Hemavathy B, Dineshkumar Singh, Srinivasu Pappula",
+    "year": 2023,
+    "link": "https://doi.org/10.1109/GHTC56179.2023.10354636",
+    "doi": "10.1109/GHTC56179.2023.10354636",
+    "abstract": "Carbon sensitive agriculture along with organic practices have significant potential to reduce greenhouse gas emissions and global warming potential to counter the adverse effects of global warming and regulate soil health by sequestering carbon in soil. While this may require some restrictions in terms of practices to be followed, a well-calibrated approach would have a significant positive impact on the environment with minimal impact on yield. We propose a framework that could be configured to a farm context to synthesise crop-specific data and operations together with AI and process models to analyse the impact on yield, carbon-footprint and health. We validate it for few horticultural crops in Kharif 2022 and illustrate how continuous profiling of farm parameters from yield to impact of operations on carbon footprint could boost optimal resource utilisation to create a positive impact on the local environment as a first step towards a sustainable future in farming.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  }
+]

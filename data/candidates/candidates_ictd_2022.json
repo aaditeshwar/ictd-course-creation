@@ -1,0 +1,276 @@
+[
+  {
+    "id": null,
+    "title": "Opportunities for Women in Computing: Perspective of Bangladesh",
+    "authors": "Nova Ahmed, Tamanna Motahar, Silvia Ahmed, Tamanna Urmi, Mahbuba Tasnim, Lamia Iftekhar",
+    "year": 2022,
+    "venue": "ictd_2022",
+    "areas": [
+      "gender"
+    ],
+    "topics": [
+      "problem_discovery",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "gender"
+    ],
+    "area_agnostic": false,
+    "source_course": "ictd_2022_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context (Bangladesh) and addresses gender issues in ICT.",
+    "link": "https://doi.org/10.1145/3572334.3572369",
+    "abstract": "This work presents a series of studies aiming to explore challenges and opportunities for women pursuing education or profession in the computing field. The work is based on the framework of Naila Kabeer considering access, agency and achievement as elements of women's empowerment. The study methods adopted included exploratory and qualitative analysis, whereas the data collection process incorporated two in-person surveys (N=120, F=85); ten one-to-one interviews (N=10, F=10); eight focus group discussions (N=46, F=34), four seminars covering more than 200 female members (N=239, F=239) and finally, two observations on more than one thousand participants of programming engagements (N=1402, F=1402); considering students, educators and other stakeholders as participants. Our research work exhibits dedicated efforts to ensure opportunities based on Naila Kabeer's framework for women in computing from Bangladesh.",
+    "_matched_keywords": [
+      "women's empowerment",
+      "women in computing"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Complexity Demands Agility: Operationalizing Agile Principles To Address Complex Public Health Challenge Of Malnutrition Management",
+    "authors": "Deepa Austin, Amit Prakash, Suprgya Bhushan",
+    "year": 2022,
+    "venue": "ictd_2022",
+    "areas": [
+      "health"
+    ],
+    "topics": [
+      "ethnographic_design",
+      "sociotechnical_dynamics",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "caste",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "ictd_2022_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context in India, focusing on malnutrition management through ICT.",
+    "link": "https://doi.org/10.1145/3572334.3572370",
+    "abstract": "The challenge in managing malnutrition lies largely on its multifactorial causation with complexities arising from interactions of multiple systems and their constituents. Based on the experiences gathered from designing and developing an Information and Communication Technology (ICT) enabled malnutrition management platform in India, we advocate that agile methods can be a good fit to address complex public health problems and thus improving usability and adoption rate. Agile methodologies have proved to be accommodative of heterogeneous stakeholders\u2019 requirement and non-linear dynamics in complex systems. In our attempt to operationalize agile principles in such complex dynamic settings, we present a three step approach to navigate through the \u2018What\u2019, \u2018Who\u2019 and \u2018How\u2019 elements of complexity - What are the contextual complexities of the problem studied and what could be a desirable and feasible solution? Who are the relevant stakeholders? How do we navigate and mediate through heterogeneous systems and stakeholders? We propose a 5F framework - of \u2019factoring in\u2019 perspectives of stakeholders, filtering and prioritizing their needs, facilitating adoption, feasibility check and follow-up to ensure effective usage and adoption. The paper adds to the accumulated knowledge on the role of institutional intermediaries in dealing with complex public health problems. We argue that the intermediary role and the process of intermediation depends on the type of stakeholders, functionality and the contextual requirements of the applications.",
+    "_matched_keywords": [
+      "intermediaries"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Driven to the brink: Understanding digital labour platform precarity among UberGo e-hailing drivers",
+    "authors": "Dylan Ribbans, Pitso Tsibolane, Thando Nkohla-Ramunenyiwa, Jean-Paul Van Belle",
+    "year": 2022,
+    "venue": "ictd_2022",
+    "areas": [
+      "labour"
+    ],
+    "topics": [
+      "ethnographic_design",
+      "sociotechnical_dynamics"
+    ],
+    "cross_cutting_axes": [
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "ictd_2022_venue_search",
+    "notes": "The paper engages with the labour dynamics of digital platform workers in a developing region, South Africa, which aligns with the labour area focus on gig/platform work.",
+    "link": "https://doi.org/10.1145/3572334.3572374",
+    "abstract": "Digital labour platforms have been critiqued for the ways in which their new business models have informalized labour through labour reclassification, dynamic pricing practices and algorithmic rating systems of work management and evaluation. This business model led to the transferal of risk and insecurity to the platform workers, contributing to the rise of what Guy Standing terms the 'precariat'- a social class whose employment and income are insecure, negatively affecting material or psychological welfare. This study presents findings from semi-structured, qualitative research conducted with ten (N=10) e-hailing drivers of UberGo \u2013 a new low-cost ride-hailing offering on the Uber platform in South Africa. The paper uses the lenses of precarity and the cognitive, relational approach for work-induced stress to highlight the livelihood vulnerabilities (loss of earnings and job security) and coping strategies necessitated by the imposition of the UberGo offering. We invoke the Fairwork principles to propose ways to realize a decent and fairer future of platform work.",
+    "_matched_keywords": [
+      "platform work"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Mobile Mandi: Towards an Accessible Agricultural Market Information Service for Low-Literate Users",
+    "authors": "Jaskirat Chahal, Anandha Gopalan",
+    "year": 2022,
+    "venue": "ictd_2022",
+    "areas": [
+      "agriculture"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "ethnographic_design",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "caste"
+    ],
+    "area_agnostic": false,
+    "source_course": "ictd_2022_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context in India, focusing on agricultural market information for smallholder farmers.",
+    "link": "https://doi.org/10.1145/3572334.3572377",
+    "abstract": "The provision of agricultural market information has demonstrated potential to improve the incomes of smallholder farmers who comprise over 80% of India\u2019s agricultural population. The scarcity of accurate price information, however, leads farmers to accept suboptimal economic outcomes. By eliminating information asymmetries, the provision of actionable information theoretically reduces costs of price discovery and increases farmers\u2019 bargaining power. The resulting price convergence increases market efficiency and reduces volatility. Evaluations of market information services, however, show mixed results. In addition to market barriers, technical and language illiteracy undermine the success of market information services in low-income countries. In this paper, we present Mobile Mandi \u2013 a mobile application that delivers daily retail prices of 22 essential commodities at 157 markets sourced from the Government of India\u2019s Department of Consumer Affairs. We present next-day price forecasts by training long short-term memory (LSTM) models on a univariate time series dataset of daily crop prices over ten years and benchmark performance against a baseline persistence model. We design the user interface for low-literate users and provide a conversational agent to facilitate information dissemination in English, Hindi, Punjabi and its transliterations. Noting the prevalent use of the WhatsApp messaging service in India, we integrate the service for seamless interoperability.",
+    "_matched_keywords": [
+      "smallholder farmers"
+    ]
+  },
+  {
+    "id": null,
+    "title": "ICT4D and Critical Data Studies: A Joint Research Agenda",
+    "authors": "Silvia Masiero",
+    "year": 2022,
+    "venue": "ictd_2022",
+    "areas": [],
+    "topics": [
+      "cs_fundamentals",
+      "problem_discovery",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "climate_change",
+      "gender",
+      "caste",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "ictd_2022_venue_search",
+    "notes": "The paper engages with themes relevant to the developing regions context, particularly the datafication of the Global South, which aligns with the requirement for substantive engagement with a developing-regions context.",
+    "link": "https://doi.org/10.1145/3572334.3572388",
+    "abstract": "The fields of Information and Communication Technologies for Development (ICT4D) and critical data studies have been historically distinct from each other, each bearing different histories and research foci. However, recent evolutions of ICT4D have problematised the focus on \u201cdevelopment\u201d that originally characterised the field, and shifted to an approach that openly embraces themes proper of the newer field of critical data studies. In this paper, after outlining the conceptual evolution of ICT4D, we note its new intersection with the themes and problems posed by critical data studies. To detail such an intersection, we offer a joint research agenda \u2013 on themes of digital identity, datafication of the Global South and adverse digital incorporation \u2013 that groups together researchers from the two fields. By doing so, this paper sets the basis for a conversation between ICT4D and critical data studies, a conversation that can generate epistemological growth for both fields.",
+    "_matched_keywords": [
+      "datafication",
+      "datafication"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Inheriting Discrimination: Datafication Encounters of Marginalized Workers",
+    "authors": "Azhagu Meena, Rajesh Veeraraghavan, Shivani Kapania, Vinodkumar Prabhakaran, Vivek Srinivasan, Nithya Sambasivan",
+    "year": 2022,
+    "venue": "ictd_2022",
+    "areas": [
+      "labour"
+    ],
+    "topics": [
+      "ethnographic_design",
+      "sociotechnical_dynamics",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "caste",
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "ictd_2022_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context in India, focusing on marginalized workers and the impacts of datafication.",
+    "link": "https://doi.org/10.1145/3572334.3572389",
+    "abstract": "Grassroots workers are increasingly subjected to data-driven systems worldwide. While there has been increasing attention to processes of datafication in state sponsored welfare programs, not much attention has been focused on everyday workplace of the poor particularly in global south. In this paper, we examine the datafication experiences of sanitation and domestic workers, marginalized by caste, gender, and income, in India that goes beyond a welfare program setting. We report from interviews with 25 workers and 7 community leaders. Contrary to the modernist narratives around data and development, we find that data-driven systems invisibly inherited discriminatory properties from past institutions. These datafication processes are refracted through lack of access to supporting infrastructure, intentional opacity, and automated oppressive institutional norms.",
+    "_matched_keywords": [
+      "datafication",
+      "datafication"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Navigating crisis, navigating ICTs: A study of Indian migrant workers during the pandemic",
+    "authors": "Swati Ganeshan, Bidisha Chaudhuri",
+    "year": 2022,
+    "venue": "ictd_2022",
+    "areas": [
+      "labour"
+    ],
+    "topics": [
+      "problem_discovery",
+      "ethnographic_design",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "caste",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "ictd_2022_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context in India, focusing on migrant workers during the pandemic.",
+    "link": "https://doi.org/10.1145/3572334.3572393",
+    "abstract": "In this note, we present the preliminary findings from a qualitative interview-based study among migrant workers in India who went through much hardship in the wake of one of most strict pandemic-induced lockdown in 2020. Through this study, we narrate the four ways in which digital technologies enabled the relief and crisis mitigation efforts targeted to migrant workers and how that in turn shaped the workers\u2019 experience of the crisis and associated relief efforts. We argue that more flexible use of familiar digital tools and channels, collaboration across state and non-state actors and assistance from human intermediaries in navigating ICTs make for more effective and inclusive relief measures.",
+    "_matched_keywords": [
+      "intermediaries"
+    ]
+  },
+  {
+    "id": null,
+    "title": "The World is in My Hand Now: Smartphones for Empowering Rural Women in Developing Countries: Smartphones for Empowering Rural Women in Developing Countries",
+    "authors": "Monisha Biswas, Misita Anwar, Manika Saha, Nova Ahmed, Yolande A. A. Strengers, Larry Stillman, Gillian C. Oliver",
+    "year": 2022,
+    "venue": "ictd_2022",
+    "areas": [
+      "gender",
+      "livelihood",
+      "education"
+    ],
+    "topics": [
+      "ethnographic_design",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "gender"
+    ],
+    "area_agnostic": false,
+    "source_course": "ictd_2022_venue_search",
+    "notes": "The paper substantively engages with a developing region context, focusing on rural women in Bangladesh and the impact of smartphone access on their empowerment and livelihoods.",
+    "link": "https://doi.org/10.1145/3572334.3572394",
+    "abstract": "Smartphones are important for international development in the Global South. This paper explores how access to smartphone technologies promote women's agency for social change in these contexts by creating learning and livelihood opportunities and increasing connection with local market and service providers. The paper presents findings from a project which provided 200 Bangladeshi rural women farmers with smartphone technologies, training and support, and qualitatively investigated their ability to cope with geographic vulnerabilities, challenging market access, and social barriers. Reporting on a subset of these women's experiences, smartphone technologies helped these women gain better access to public agricultural extension and financial services, along with better acceptance from family and society. This, in turn, improved their dignity, confidence and sense of wellbeing. Insights will help ICT4D designers and development practitioners understand the importance of low-cost, bottom-up design inputs and social factors in future projects in similar developing country contexts.",
+    "_matched_keywords": [
+      "agricultural extension"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Diagnosing Data from ICTs to Provide Focused Assistance in Agricultural Adoptions",
+    "authors": "Ashwin Singh, Mallika Subramanian, Anmol Agarwal, Pratyush Priyadarshi, Shrey Gupta, Kiran Garimella, Ponnurangam Kumaraguru, Sanjeev Kumar, Ritesh Kumar, Lokesh Garg, Erica Arya",
+    "year": 2022,
+    "venue": "ictd_2022",
+    "areas": [
+      "agriculture"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "ethnographic_design",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "ictd_2022_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context in India, focusing on the use of ICTs in agriculture.",
+    "link": "https://doi.org/10.1145/3572334.3572400",
+    "abstract": "In the last two decades, Information and Communication Technologies (ICTs) have played a pivotal role in empowering rural populations in India by making knowledge more accessible. Digital Green is one such ICT that employs a participatory approach with smallholder farmers to produce instructional agricultural videos that encompass content specific to them. With the help of human mediators, they disseminate these videos to farmers using projectors to improve the adoption of agricultural practices. Digital Green\u2019s web-based data tracker (CoCo) stores the attendance and adoption logs of millions of farmers, the videos screened to them and their demographic information. In our work, we leverage this data for a period of ten years between 2010-2020 across five states in India where Digital Green is most active and use it to conduct a holistic evaluation of the ICT. First, we find disparities in the adoption rates of farmers, following which we use statistical tests to identify the different factors that lead to these disparities as well as gender-based inequalities. We find that farmers with higher adoption rates adopt videos of shorter duration and belong to smaller villages. Second, to provide assistance to farmers facing challenges, we model the adoption of practices from a video as a prediction problem and experiment with different model architectures. Our classifier achieves accuracies ranging from 79% to 90% across the five states, demonstrating its potential for assisting future ethnographic investigations. Third, we use SHAP values in conjunction with our model for explaining the impact of various network, content and demographic features on adoption. Our research finds that farmers greatly benefit from past adopters of a video from their group and village. We also discover that videos with a low content-specificity benefit some farmers more than others. Next, we highlight the implications of our findings by translating them into recommendations for providing focused assistance, community building, video screening, revisiting participatory approach and mitigating inequalities. Lastly, we conclude with a discussion on how our work can assist future investigations into the lived experiences of farmers.",
+    "_matched_keywords": [
+      "smallholder farmers",
+      "digital green"
+    ]
+  },
+  {
+    "id": null,
+    "title": "The Use of Mobile Phones by Women Livestock Keepers in Zimbabwe",
+    "authors": "Pfavai Nyajeka, Richard Duncombe",
+    "year": 2022,
+    "venue": "ictd_2022",
+    "areas": [
+      "livelihood",
+      "media_information"
+    ],
+    "topics": [
+      "problem_discovery",
+      "ethnographic_design",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "ictd_2022_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context, focusing on women livestock keepers in Zimbabwe and the use of mobile phones to cope with socio-political changes and enhance livelihoods, aligning with the 'livelihood' and 'media_information' areas.",
+    "link": "https://doi.org/10.1145/3572334.3572401",
+    "abstract": "This paper reports research conducted in Zimbabwe during 2017 and 2018 that investigated how women livestock keepers endeavoured to cope with a rapidly changing socio-political environment and new vulnerabilities that followed relocation due to the Zimbabwean Government \u2018land reform and resettlement programme\u2019 which resulted in the resettlement of farmers to new locations countrywide and the emergence and growth of new local economic activity linked to new cadres of smallholder farmers in resettlement areas. In particular, the research sought to understand how women livestock keepers were assimilating new and emerging digital technologies and mobile phones in order to: a) mitigate vulnerabilities and strengthen their position in livestock keeping; b) expand their social networks in order to interact more effectively with livestock markets; and c) diversify their livelihood strategies and lessen the risks associated with vulnerability. The research highlights the developmental benefits and constraints of empowering women livestock farmers through the use of mobile phone networks and draws a series of conclusions that can inform intervention strategies and policy making concerning livestock farming and use of mobile phones in Zimbabwe.",
+    "_matched_keywords": [
+      "smallholder farmers"
+    ]
+  }
+]

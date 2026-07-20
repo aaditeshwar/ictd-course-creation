@@ -1,0 +1,91 @@
+[
+  {
+    "id": null,
+    "title": "Co-designing an AI Impact Assessment Report Template with AI Practitioners and AI Compliance Experts",
+    "authors": "Edyta Bogucka, Marios Constantinides, Sanja \u0160\u0107epanovi\u0107, Daniele Quercia",
+    "year": 2024,
+    "venue": "aies_2024",
+    "areas": [],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [],
+    "area_agnostic": true,
+    "source_course": "aies_2024_venue_search",
+    "notes": "The paper applies strong computer science methods to the problem of AI impact assessment, which can be adapted to a developing-regions context under the cs_fundamentals topic rule.",
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/31627",
+    "abstract": "In the evolving landscape of AI regulation, it is crucial for companies to conduct impact assessments and document their compliance through comprehensive reports. However, current reports lack grounding in regulations and often focus on specific aspects like privacy in relation to AI systems, without addressing the real-world uses of these systems. Moreover, there is no systematic effort to design and evaluate these reports with both AI practitioners and AI compliance experts. To address this gap, we conducted an iterative co-design process with 14 AI practitioners and 6 AI compliance experts and proposed a template for impact assessment reports grounded in the EU AI Act, NIST's AI Risk Management Framework, and ISO 42001 AI Management System. We evaluated the template by producing an impact assessment report for an AI-based meeting companion at a major tech company. A user study with 8 AI practitioners from the same company and 5 AI compliance experts from industry and academia revealed that our template effectively provides necessary information for impact assessments and documents the broad impacts of AI systems. Participants envisioned using the template not only at the pre-deployment stage for compliance but also as a tool to guide the design stage of AI uses.",
+    "_matched_keywords": [
+      "co-design"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Quantifying Gendered Citation Imbalance in Computer Science Conferences",
+    "authors": "Kazuki Nakajima, Yuya Sasaki, Sohei Tokuno, George Fletcher",
+    "year": 2024,
+    "venue": "aies_2024",
+    "areas": [],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [
+      "gender"
+    ],
+    "area_agnostic": true,
+    "source_course": "aies_2024_venue_search",
+    "notes": "The paper addresses gender, a cross-cutting axis, which is relevant to ICT for Development and Sustainability in India and other developing regions.",
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/31699",
+    "abstract": "The number of citations received by papers often exhibits imbalances in terms of author attributes such as country of affiliation and gender. While recent studies have quantified citation imbalance in terms of the authors' gender in journal papers, the computer science discipline, where researchers frequently present their work at conferences, may exhibit unique patterns in gendered citation imbalance. Additionally, understanding how network properties in citations influence citation imbalances remains challenging due to a lack of suitable reference models. In this paper, we develop a family of reference models for citation networks and investigate gender imbalance in citations between papers published in computer science conferences. By deploying these reference models, we found that homophily in citations is strongly associated with gendered citation imbalance in computer science, whereas heterogeneity in the number of citations received per paper has a relatively minor association with it. Furthermore, we found that the gendered citation imbalance is most pronounced in papers published in the highest-ranked conferences, is present across different subfields, and extends to citation-based rankings of papers. Our study provides a framework for investigating associations between network properties and citation imbalances, aiming to enhance our understanding of the structure and dynamics of citations between research publications.",
+    "_matched_keywords": [
+      "homophily",
+      "homophily"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Dataset Scale and Societal Consistency Mediate Facial Impression Bias in Vision-Language AI",
+    "authors": "Robert Wolfe, Aayushi Dangol, Alexis Hiniker, Bill Howe",
+    "year": 2024,
+    "venue": "aies_2024",
+    "areas": [],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": true,
+    "source_course": "aies_2024_venue_search",
+    "notes": "The paper applies strong computer science methods to study bias in AI models, which can be adapted to a developing-regions context under the cs_fundamentals topic.",
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/31753",
+    "abstract": "Multimodal AI models capable of associating images and text hold promise for numerous domains, ranging from automated image captioning to accessibility applications for blind and low-vision users. However, uncertainty about bias has in some cases limited their adoption and availability. In the present work, we study 43 CLIP vision-language models to determine whether they learn human-like facial impression biases, and we find evidence that such biases are reflected across three distinct CLIP model families. We show for the first time that the the degree to which a bias is shared across a society predicts the degree to which it is reflected in a CLIP model. Human-like impressions of visually unobservable attributes, like trustworthiness and sexuality, emerge only in models trained on the largest dataset, indicating that a better fit to uncurated cultural data results in the reproduction of increasingly subtle social biases. Moreover, we use a hierarchical clustering approach to show that dataset size predicts the extent to which the underlying structure of facial impression bias resembles that of facial impression bias in humans. Finally, we show that Stable Diffusion models employing CLIP as a text encoder learn facial impression biases, and that these biases intersect with racial biases in Stable Diffusion XL-Turbo. While pretrained CLIP models may prove useful for scientific studies of bias, they will also require significant dataset curation when intended for use as general-purpose models in a zero-shot setting.",
+    "_matched_keywords": [
+      "diffusion models"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Mitigating Urban-Rural Disparities in Contrastive Representation Learning with Satellite Imagery",
+    "authors": "Miao Zhang, Rumi Chunara",
+    "year": 2024,
+    "venue": "aies_2024",
+    "areas": [],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [],
+    "area_agnostic": true,
+    "source_course": "aies_2024_venue_search",
+    "notes": "The paper applies computer science fundamentals that could be adapted to a developing-regions context, aligning with the cs_fundamentals topic rule.",
+    "link": "https://ojs.aaai.org/index.php/AIES/article/view/31760",
+    "abstract": "Satellite imagery is being leveraged for many societally critical tasks across climate, economics, and public health. Yet, because of heterogeneity in landscapes (e.g. how a road looks in different places), models can show disparate performance across geographic areas. Given the important potential of disparities in algorithmic systems used in societal contexts, here we consider the risk of urban-rural disparities in identification of land-cover features. This is via semantic segmentation (a common computer vision task in which image regions are labelled according to what is being shown) which uses pre-trained image representations generated via contrastive self-supervised learning. We propose fair dense representation with contrastive learning (FairDCL) as a method for de-biasing the multi-level latent space of a convolution neural network. The method improves feature identification by removing spurious latent representations which are disparately distributed across urban and rural areas, and is achieved in an unsupervised way by contrastive pre-training. The pre-trained image representation mitigates downstream urban-rural prediction disparities and outperforms state-of-the-art baselines on real-world satellite images. Embedding space evaluation and ablation studies further demonstrate FairDCL\u2019s robustness. As generalizability and robustness in geographic imagery is a nascent topic, our work motivates researchers to consider metrics beyond average accuracy in such applications.",
+    "_matched_keywords": [
+      "satellite imagery",
+      "self-supervised learning",
+      "semantic segmentation",
+      "urban-rural disparities"
+    ]
+  }
+]

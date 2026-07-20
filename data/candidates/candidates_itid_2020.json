@@ -1,0 +1,55 @@
+[
+  {
+    "id": null,
+    "title": "A State-led Model of Financial Inclusion Through Mobile Services",
+    "authors": "Judith Mariscal, Daniel Rojas-Lozano",
+    "year": 2020,
+    "venue": "itid_2020",
+    "areas": [
+      "livelihood"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "impact_evaluation",
+      "operations_scale"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "itid_2020_venue_search",
+    "notes": "The paper engages with a developing-regions context (Mexico) and discusses financial inclusion through mobile services, which is relevant to the livelihood and microfinance areas.",
+    "link": "https://itidjournal.org/index.php/itid/article/view/1748.html",
+    "abstract": "\u00c2 Financial inclusion is recognized by governments and multilateral organizations as an enabler of economic development, while digital mobile devices are increasingly being considered as an efficient tool to incorporate unbanked population to the financial market. Despite this, close to 2 billion adults in the world remain unbanked as business models of digital financial services for the bottom of the pyramid have not proliferated.\u00c2\u00a0 This paper argues that the state may play a crucial role as a catalyst to advance financial inclusion for the poor, particularly, we analyze how a conditional cash transfer (CCT) program may be a very effective platform to achieve this. We offer evidence and analyze a pilot project through which beneficiaries from the CCT program in Mexico ( Prospera ) were migrated from a modality of cash transfers to digital transfers. The results show this platform may indeed be effective if governments integrate diverse public entities into the mobile money ecosystem as well as promote market competition in the delivery service. \u00c2 \u00c2",
+    "_matched_keywords": [
+      "financial inclusion",
+      "mobile money"
+    ]
+  },
+  {
+    "id": null,
+    "title": "ICT4Scale in Smallholder Agriculture: Contributions and Challenges",
+    "authors": "Helena Shilomboleni, Bernard Pelletier, Berhane Gebru",
+    "year": 2020,
+    "venue": "itid_2020",
+    "areas": [
+      "agriculture"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "impact_evaluation",
+      "operations_scale"
+    ],
+    "cross_cutting_axes": [],
+    "area_agnostic": false,
+    "source_course": "itid_2020_venue_search",
+    "notes": "The paper engages with a developing-regions context, specifically sub-Saharan Africa, which is relevant to the course's focus on ICT for development in rural and developing regions.",
+    "link": "https://itidjournal.org/index.php/itid/article/view/1743.html",
+    "abstract": "This article presents the main findings from a meta-review study of 15 agricultural development projects that employed a diversity of information and communications technology (ICT) tools in combination with other interventions to scale up innovations in low-income smallholder agriculture, predominately in sub-Saharan Africa. Overall, the study finds that interactive ICT tools and platforms are valuable in their capacity to improve the quality of agricultural extension and climate information services and, as such, can help smallholder farmers better manage predicted risks on the farm and elsewhere in the agriculture sector. The scope of impact in most of these projects, however, was largely premised on the numbers of beneficiaries reached (e.g., with information pertaining to an innovation). The efficacy of scaled-up results to achieve positive, long-lasting livelihood impacts in smallholder agriculture is more complex, and often requires effecting systemwide change on multiple dimensions, e.g., in societal values, institutional arrangements, market relations, and policy decision making. The scaling process here requires long-term attention, even if the impacts are not immediately apparent.",
+    "_matched_keywords": [
+      "smallholder farmers",
+      "agricultural extension"
+    ]
+  }
+]

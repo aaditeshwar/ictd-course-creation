@@ -1,0 +1,237 @@
+[
+  {
+    "id": null,
+    "title": "Training and Support Practices and Insights in the Sustainability of mHealth Implementations in Sub-Saharan Africa",
+    "authors": "Diana Babirye, Richard Anderson",
+    "year": 2025,
+    "venue": "jcss_2025",
+    "areas": [
+      "health"
+    ],
+    "topics": [
+      "ethnographic_design"
+    ],
+    "cross_cutting_axes": [],
+    "area_agnostic": false,
+    "source_course": "jcss_2025_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context (sub-Saharan Africa) and addresses the topic of 'ethnographic_design' by focusing on training and support practices for sustainable mHealth implementations.",
+    "link": "https://doi.org/10.1145/3707638",
+    "abstract": "We conducted an interview-based study to understand the training and support practices and insights that influence sustainable implementations of mHealth projects of varying mHealth technologies. The qualitative assessment was inspired by the Consolidated Framework for Implementation Research adapted with the recommended questions for guiding the implementation of training programs. Participants in the study (N = 16) were both international and in-country researchers managing projects in sub-Saharan Africa. We chose to focus on training and support, as it is often the interface between international and in-country components of these projects. Participants agreed on the central role of training in the implementation of mHealth projects and are following best practices. There was often a division in the responsibility of training between international and in-country researchers reflecting the distinction between project management and local implementation adaptions. One of the main findings is the importance of individualized continuous retraining to make deployments robust with respect to changing conditions with technology and personnel, an aspect that has been managed a bit differently with varying mHealth technologies as presented in this article.",
+    "_matched_keywords": [
+      "mHealth"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Quantifying Greenspace with Satellite Images in Karachi, Pakistan, Using a New Data Augmentation Paradigm",
+    "authors": "Miao Zhang, Hajra Arshad, Manzar Abbas, Hamzah Jehanzeb, Izza Tahir, Javerya Hassan, Zainab Samad, Rumi Chunara",
+    "year": 2025,
+    "venue": "jcss_2025",
+    "areas": [
+      "water_security",
+      "forests_restoration"
+    ],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [
+      "climate_change"
+    ],
+    "area_agnostic": false,
+    "source_course": "jcss_2025_venue_search",
+    "notes": "The paper applies a general-purpose methodology that could be adapted to a developing-regions context, fitting the cs_fundamentals topic rule.",
+    "link": "https://doi.org/10.1145/3716370",
+    "abstract": "Greenspaces in communities are critical for mitigating effects of climate change and have important impacts on health. Today, the availability of satellite imagery data combined with deep learning methods allows for automated greenspace analysis at high resolution. We propose a novel green color augmentation for deep learning model training to better detect and delineate types of greenspace (trees, grass) with satellite imagery. Our method outperforms gold standard methods, which use vegetation indices, by 33.1% (accuracy) and 77.7% Intersection over Union (IoU). The proposed augmentation technique also shows improvement over state-of-the-art deep learning based methods by 13.4% (IoU) and 3.11% (accuracy) for greenspace segmentation. We apply the method to high-resolution (0.27 m/pixel) satellite images covering Karachi, Pakistan, and illuminate an important need; Karachi has 4.17 m2 of greenspace per capita, which significantly lags World Health Organization recommendations. Moreover, greenspaces in Karachi are often in areas of economic development (Pearson\u2019s correlation coefficient shows a 0.352 correlation between greenspaces and roads, p < 0.001), and correspond to higher land surface temperature in localized areas. Our greenspace analysis and how it relates to infrastructure and climate is relevant to urban planners, public health and government professionals, and ultimately the public, for improved allocation and development of greenspaces.",
+    "_matched_keywords": [
+      "satellite imagery"
+    ]
+  },
+  {
+    "id": null,
+    "title": "The Last Mile in Remote Sensing Poverty Prediction",
+    "authors": "Woojin Jung, Arunesh Sinha, Andrew Kim, Vatsal Shah, Yuxiao Lu, Lami Lee, Tawfiq Ammari",
+    "year": 2025,
+    "venue": "jcss_2025",
+    "areas": [
+      "water_security",
+      "agriculture",
+      "health",
+      "livelihood"
+    ],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [
+      "climate_change",
+      "gender",
+      "caste",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": true,
+    "source_course": "jcss_2025_venue_search",
+    "notes": "The paper applies computer science fundamentals to remote sensing poverty prediction, which can be adapted to a developing-regions context in India or elsewhere.",
+    "link": "https://doi.org/10.1145/3724422",
+    "abstract": "A prominent approach in remote sensing poverty prediction uses deep learning satellite imagery with daytime and nighttime light (NTL). While results yield acceptable average predictions, certain areas consistently perform poorly. For high-stakes aid allocation decisions, however, achieving near-perfect predictions across all regions is crucial. To address this, we apply explainability techniques to evaluate vision models, enhance predictions with multimodal architectures, and investigate challenging cases. Our diagnostic analysis shows that fine-tuning with NTL tends to fail in areas where NTL poorly reflects wealth. Integrated Gradients and Guided Grad-CAM techniques also reveal that VGG, ResNet, and ViT architectures tend to focus on brightly lit features, such as roads and buildings. To complement vision models, a multimodal model integrates non-visual features. Metrics such as X (formerly known as Twitter) activity, distance from residential roads, and internet speed are especially predictive. Among 10 tested architectures, the Stack Ensemble Late Stage model, combining pre-trained weights, multimodal data, and NTL transfer learning, achieves the best performance with high accuracy and low error variance. Qualitative analysis of difficult-to-predict regions highlights the challenges of modeling wealth due to inherent aleatoric uncertainty. Two core issues, spatial inequality in small areas and the presence of rare features, underscore the need for principled cluster segmentation.",
+    "_matched_keywords": [
+      "inequality",
+      "remote sensing",
+      "satellite imagery",
+      "transfer learning"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Exploring AI in Education: Child-Computer Interaction in the Global South",
+    "authors": "Riti Verma, Ingmar Weber, Vikram Kamath Cannanure",
+    "year": 2025,
+    "venue": "jcss_2025",
+    "areas": [
+      "education"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "ethnographic_design",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "jcss_2025_venue_search",
+    "notes": "The paper engages with a developing-regions context (Global South) and focuses on the application of AI in education, which aligns with the 'cs_fundamentals' topic.",
+    "link": "https://doi.org/10.1145/3736645",
+    "abstract": "Recent artificial intelligence (AI) advancements promise to enhance children\u2019s education through well-planned interventions. However, designing AI interventions for the Global South is challenging due to limited literature on children\u2019s interactions with AI-based educational tools. This survey article identified 18 studies from 2014 to 2025 that explicitly focus on child-computer interaction when integrating AI into education in the Global South. Our synthesized review uncovers three primary themes: enhancing learning through AI-driven tools, addressing barriers like privacy concerns and digital literacy gaps, and designing strategies for effective AI implementation. Key insights reveal AI\u2019s potential to enrich children\u2019s learning through personalized experiences, voice assistants, and educational games. Yet, challenges such as limited technology access, privacy risks, and cultural barriers require targeted solutions to ensure AI benefits all students. We conclude by proposing design strategies for AI integration that involve co-designing with children, enhancing digital literacy, and creating child-friendly interfaces.",
+    "_matched_keywords": [
+      "digital literacy",
+      "co-design"
+    ]
+  },
+  {
+    "id": null,
+    "title": "An Algorithmic Audit of Online Matrimonial Platforms in India: Biases in Matchmaking Recommendation Systems",
+    "authors": "Saurabh Jain, Aaditeshwar Seth",
+    "year": 2025,
+    "venue": "jcss_2025",
+    "areas": [],
+    "topics": [
+      "cs_fundamentals",
+      "sociotechnical_dynamics",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "caste"
+    ],
+    "area_agnostic": false,
+    "source_course": "jcss_2025_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context in India, focusing on gender and caste biases in online matrimonial platforms.",
+    "link": "https://doi.org/10.1145/3736644",
+    "abstract": "Online matrimonial platforms enable people to discover prospective partners who mutually meet each other\u2019s preference criteria. Matrimonial relations in the Indian context have traditionally been considered as a union of two families, where a variety of attributes like age and income, and family preferences such as religious beliefs and class and caste hierarchies are matched, making it a complex process. Many such preferences may, however, be considered regressive and arising from entrenched biased social norms, and online matrimonial platforms may reinforce such biases through rule-based and machine-learning based algorithms. Some such norms for opposite sex matching preferences are for males to match with females having an income lower than them, and similarly to match with females having an age lower than them. Such norms are arguably biased and may reinforce gender-based inequalities, for example, where females may marry young while males build their careers. Online matrimonial platforms may present multiple opportunities to counter such biased social norms, ranging from setting up dedicated platforms that do not factor such variables and relationships, or deliberately constrain search and recommendation results by adhering to certain fairness criteria, or provide transparency and algorithmic control to users to govern their selection criteria. In this article, we begin with conducting an algorithmic audit of recommendations generated on two popular online platforms in India about whether they echo and reinforce these norms. We find that indeed they do, likely by not attempting to correct for them, and we also propose and evaluate alternative algorithms that can yield fairness aware recommendations while simultaneously satisfying user preferences. Our study is an attempt to highlight that designers and managers of such platforms can be transparent about ideological choices they make of norms they support or counter, so that platforms built and managed by them can offer agency to users to receive recommendations based on their preferences. At the same time, we acknowledge that being able to represent in data various societal norms and individual preferences in all their complexity may always remain incomplete, and consequently any attempts to counter biases will be limited in their impact as well. However, since datafication continues to encompass more and more domains, and digital platforms continue to algorithmize and intermediate many personal and group processes, we feel our study is relevant to highlight a new application domain that has significant societal implications on gender and related equalities but has not been studied extensively so far.",
+    "_matched_keywords": [
+      "datafication",
+      "datafication"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Space to Policy: Scalable Brick Kiln Detection and Automatic Compliance Monitoring with Geospatial Data",
+    "authors": "Zeel B. Patel, Rishabh Mondal, Shataxi Dubey, Suraj Jaiswal, Sarath Guttikunda, Nipun Batra",
+    "year": 2025,
+    "venue": "jcss_2025",
+    "areas": [
+      "governance",
+      "environmental sustainability"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "impact_evaluation",
+      "operations_scale"
+    ],
+    "cross_cutting_axes": [
+      "climate_change",
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "jcss_2025_venue_search",
+    "notes": "The paper engages with a developing-regions context in India, focusing on air pollution and brick kiln compliance, which is directly related to environmental sustainability and livelihoods.",
+    "link": "https://doi.org/10.1145/3736649",
+    "abstract": "Air pollution kills 7 million people annually. The brick kiln sector significantly contributes to economic development but also accounts for 8\u201314% of air pollution in India. Policymakers have implemented compliance measures to regulate brick kilns. Emission inventories are critical for air quality modeling and source apportionment studies. However, the largely unorganized nature of the brick kiln sector necessitates labor-intensive survey efforts for monitoring. Recent efforts by air quality researchers have relied on manual annotation of brick kilns using satellite imagery to build emission inventories, but this approach lacks scalability. Machine-learning-based object detection methods have shown promise for detecting brick kilns; however, previous studies often rely on costly high-resolution imagery and fail to integrate with governmental policies. In this work, we developed a scalable machine-learning pipeline that detected and classified 30,638 brick kilns across five states in the Indo-Gangetic Plain using free, moderate-resolution satellite imagery from Planet Labs. Our detections have a high correlation with on-ground surveys. We performed automated compliance analysis based on government policies. In the Delhi airshed, stricter policy enforcement has led to the adoption of efficient brick kiln technologies. This study highlights the need for inclusive policies that balance environmental sustainability with the livelihoods of workers.",
+    "_matched_keywords": [
+      "brick kiln detection",
+      "satellite imagery",
+      "object detection"
+    ]
+  },
+  {
+    "id": null,
+    "title": "A Design-Based Research Approach to Bridge Teacher Aspirations and Goal-Setting",
+    "authors": "Vikram Kamath Cannanure, Tricia Ngoon, Sharon Wolf, Kaja Jasinska, Timothy X. Brown, Amy Ogan",
+    "year": 2025,
+    "venue": "jcss_2025",
+    "areas": [
+      "education"
+    ],
+    "topics": [
+      "ethnographic_design"
+    ],
+    "cross_cutting_axes": [],
+    "area_agnostic": false,
+    "source_course": "jcss_2025_venue_search",
+    "notes": "The paper engages with a developing-regions context (rural C\u00f4te d\u2019Ivoire) and focuses on education and teacher support, which aligns with the 'education' area and 'ethnographic_design' topic.",
+    "link": "https://doi.org/10.1145/3736648",
+    "abstract": "ICTD research has often faced challenges in transferring findings across different projects or general HCI due to its specificity to local communities. Theory-driven research, such as aspirations, can bridge work across communities. However, designing technology for emerging theories like aspirations is inherently complex. This study employs a Design-Based Research (DBR) methodology to explore designing digital tools for teacher aspirations in rural C\u00f4te d\u2019Ivoire. First, we interviewed teachers and found the important role of digital literacy in their aspirations. Then, we conducted four focus groups with 16 teachers to understand their weekly planning practices and challenges. We found that teachers rely on collaboration to help set goals and classroom activities, but this collaboration was inconsistent and often inaccessible. Based on this context, we designed a prototype in Google Forms to scaffold planning for teachers and evaluated it through four additional teacher focus groups. Completing a DBR iterative cycle, we reflect on design principles to further develop similar technological supports for teachers in low-infrastructure contexts. The study contributes by demonstrating the value of DBR in designing for teacher aspirations and highlighting the importance of digital literacy, collaboration, and goal-setting in achieving teacher aspirations.",
+    "_matched_keywords": [
+      "digital literacy"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Resilient Hope: Identity, Extensibility, and Freedom as Design and Policy Considerations in Social Computing",
+    "authors": "Abdullah Hasan Safir, Nusrat Jahan Mim, S. M. Taiabul Haque, Syed Ishtiaque Ahmed",
+    "year": 2025,
+    "venue": "jcss_2025",
+    "areas": [],
+    "topics": [
+      "sociotechnical_dynamics"
+    ],
+    "cross_cutting_axes": [
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "jcss_2025_venue_search",
+    "notes": "The paper engages with a developing-regions context (Bangladesh) and addresses issues of marginalization and social justice, which aligns with the 'sociotechnical_dynamics' topic and the 'social_capital_marginalization' cross-cutting axis.",
+    "link": "https://doi.org/10.1145/3764665",
+    "abstract": "This article contributes to the social computing (particularly CSCW and HCI) scholarship by conceptualizing the idea of \u201chope\u201d, particularly in relation to displacement, marginalization and resistance. Based on our longitudinal and multi-phase ethnographic interventions with internally displaced populations (IDPs) in Mohakhali and Kalyanpur areas of Dhaka, Bangladesh for three consecutive years, this work demonstrates how various dynamic properties of hope, both at personal and communal level, support this group to act, react, and/or resist many layers of urban adversities in their quotidian lives. By introducing the notion \u201cResilient Hope\u201d, which constitutes identity formation, radical extensibility, and freedom of departure, the paper offers a novel understanding of how such marginalized communities sustain an uncertain, yet hopeful life. Drawing from a rich body of literature in Anthropology, STS, Philosophy, and Critical Urban Studies, it argues that resilient hope for a marginal community is not a static end goal to be achieved through design but a dynamic mode of survival and operation that has the potential to inform sustainable CSCW and HCI design processes. The paper further connects its empirical findings and theoretical insights to the broader goal of social justice in computing.",
+    "_matched_keywords": [
+      "marginalized communities",
+      "marginalized communities"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Review on Sustainable Forestry with Artificial Intelligence",
+    "authors": "Rayan Binlajdam, Dulani Meedeniya, Charuni Kosala, Oktay Karakus, Omer F. Rana, Pablo Orozco-terWengel, Benoit Goossens, Adisorn Lertsinsrubtavee, Preechai Mekbungwan, Deepak Mishra, Charith Perera",
+    "year": 2025,
+    "venue": "jcss_2025",
+    "areas": [
+      "forests_restoration"
+    ],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [
+      "climate_change"
+    ],
+    "area_agnostic": false,
+    "source_course": "jcss_2025_venue_search",
+    "notes": "The paper engages with sustainable forestry practices using AI and machine learning, which can be adapted to a developing-regions context, especially in India.",
+    "link": "https://doi.org/10.1145/3759259",
+    "abstract": "Sustainable forest management (SFM) is essential for preserving biodiversity, maintaining ecosystem services, and mitigating climate change. This systematic review synthesizes global trends and innovations in SFM practices, analyzing peer-reviewed literature from 2015 to 2025 to identify effective strategies and emerging technologies. The review examines a diverse range of approaches, including forest health index, forest health sensing techniques, emphasizing remote sensing, ground-based monitoring, and the application of machine learning (ML) and artificial intelligence (AI). Moreover, the review highlights SFM practices, including ecosystem-based approaches, community and indigenous involvement, carbon sequestration strategies, and local and global policy frameworks. By integrating technological advancements with policy-driven initiatives, this study provides a comprehensive understanding of current trends and innovations in forest management, offering valuable insights for researchers, policymakers, and practitioners.",
+    "_matched_keywords": [
+      "remote sensing",
+      "carbon sequestration"
+    ]
+  }
+]

@@ -1,0 +1,162 @@
+[
+  {
+    "id": null,
+    "title": "Poverty rate prediction using multi-modal survey and earth observation data",
+    "authors": "Simone Fobi, Manuel Cardona, Elliott Collins, Caleb Robinson, Anthony Ortiz, Tina Sederholm, Rahul Dodhia, Juan M. Lavista Ferres",
+    "year": 2023,
+    "venue": "compass_2023",
+    "areas": [
+      "poverty",
+      "data_science"
+    ],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [
+      "poverty",
+      "data_science"
+    ],
+    "area_agnostic": true,
+    "source_course": "compass_2023_venue_search",
+    "notes": "The paper applies computer science fundamentals to predict poverty rates using multi-modal data, which can be adapted to a developing-regions context.",
+    "link": "https://doi.org/10.1145/3588001.3609359",
+    "abstract": "This work presents an approach for combining household demographic and living standards survey questions with features derived from satellite imagery to predict the poverty rate of a region. Our approach utilizes visual features obtained from a single-step featurization method applied to freely available 10m/px Sentinel-2 surface reflectance satellite imagery. These visual features are combined with ten survey questions in a proxy means test (PMT) to estimate whether a household is below the poverty line. We show that the inclusion of visual features reduces the mean error in poverty rate estimates from 4.09% to 3.88% over a nationally representative out-of-sample test set. In addition to including satellite imagery features in proxy means tests, we propose an approach for selecting a subset of survey questions that are complementary to the visual features extracted from satellite imagery. Specifically, we design a survey variable selection approach guided by the full survey and image features and use the approach to determine the most relevant set of small survey questions to include in a PMT. We validate the choice of small survey questions in a downstream task of predicting the poverty rate using the small set of questions. This approach results in the best performance \u2013 errors in poverty rate decrease from 4.09% to 3.71%. We show that extracted visual features encode geographic and urbanization differences between regions.",
+    "_matched_keywords": [
+      "satellite imagery",
+      "Sentinel-2"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Windhoek Smart City Hunt App: Designing for Citizen Engagement",
+    "authors": "Kaulyaalalwa Peter, Tinashe Kanengoni, Takunda Hwaire, Heike Winschiers-Theophilus",
+    "year": 2023,
+    "venue": "compass_2023",
+    "areas": [
+      "governance",
+      "infrastructure"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "ethnographic_design",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "climate_change",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "compass_2023_venue_search",
+    "notes": "The paper engages with a developing-regions context (Namibia) and applies CS fundamentals to a smart city initiative, aligning with the 'cs_fundamentals' topic rule.",
+    "link": "https://doi.org/10.1145/3588001.3609365",
+    "abstract": "This paper presents a Smart City Hunt app, which was developed to engage diverse citizens by raising awareness, providing smart experiences and collecting data to guide strategies to transform the City of Windhoek into a smart and sustainable city. The project was done in collaboration with the UNDP accelerator lab Namibia, the City of Windhoek, and youth from informal settlements to explore alternative mechanisms of involving citizens from different backgrounds. Twenty-five participants took part in the half-day city hunt, making use of different modes of transport on their journey. The participants were guided via a location-based smart application, built with Locatify, which triggered challenges and important information such as identifying high carbon emitters and job vacancies respectively. A post-experience survey revealed that the participants recommend the use of the Smart City Hunt app for further citizen engagements, acknowledging the format of creating awareness and providing information on smart cities.",
+    "_matched_keywords": [
+      "smart city",
+      "informal settlements"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Moving targets: When does a poverty prediction model need to be updated?",
+    "authors": "Emily L. Aiken, Tim Ohlenburg, Joshua Blumenstock",
+    "year": 2023,
+    "venue": "compass_2023",
+    "areas": [
+      "livelihood"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "poverty"
+    ],
+    "area_agnostic": false,
+    "source_course": "compass_2023_venue_search",
+    "notes": "The paper engages with a developing-regions context and applies machine learning methods to address poverty prediction, which is relevant to the 'cs_fundamentals' topic.",
+    "link": "https://doi.org/10.1145/3588001.3609369",
+    "abstract": "A key challenge in the design of effective social protection programs is determining who should be eligible for program benefits. In low and middle-income countries, one of the most common criteria is a Proxy Means Test (PMT) \u2013 a rudimentary application of machine learning that uses a short list of household characteristics to predict whether each household is poor, and therefore eligible, or non-poor, and therefore ineligible. Using nationwide survey data from six low and middle-income countries, this paper documents an important weakness in this use of machine learning: that the accuracy of the PMT prediction algorithm decreases steadily over time, by roughly 1.5-1.9 percentage points per year. We illustrate the implications of this finding for real-world anti-poverty programs, which typically update the PMT model only every 5-8 years, and then show that the aggregate effect can be decomposed into two forces: \u201cmodel decay\u201d caused by model drift, and \u201cdata decay\u201d caused by changing household characteristics. Our final set of results show how an understanding of these forces can be used to optimize data collection policies to improve the efficiency of social protection programs.",
+    "_matched_keywords": [
+      "social protection"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Community Networks powered by Community Currencies",
+    "authors": "Keegan White, David Lloyd Johnson, Senka Hadzic, Melissa Densmore",
+    "year": 2023,
+    "venue": "compass_2023",
+    "areas": [
+      "infrastructure",
+      "media_information"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "ethnographic_design",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "compass_2023_venue_search",
+    "notes": "The paper engages with a developing-regions context through the use of community networks and currencies, which aligns with the 'infrastructure' and 'media_information' areas.",
+    "link": "https://doi.org/10.1145/3588001.3609372",
+    "abstract": "In this demo, we will show how a mutual credit-based community voucher or currency integrated with a community-owned network and a local content server could incentivise users to become better custodians of commons infrastructure. This could lead to the generation of more locally relevant digital content and the expansion, use, and stability of a community voucher to support wider local markets that embrace local digital and physical goods and services.",
+    "_matched_keywords": [
+      "community networks"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Self-directed digital learning for maternity health workers A Choose-Your-Own-Adventure application for empathic care",
+    "authors": "Sharifa Negesa, Melissa Densmore",
+    "year": 2023,
+    "venue": "compass_2023",
+    "areas": [
+      "health"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "ethnographic_design",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "compass_2023_venue_search",
+    "notes": "The paper engages with a developing-regions context by focusing on maternity health workers in low-resource settings, aiming to scale empathy skills training through digital means.",
+    "link": "https://doi.org/10.1145/3588001.3609375",
+    "abstract": "We explored the use of digital stories to support empathy skills training in maternity health workers. Our digital stories build on an existing in-person training approach; the Secret History (SH) that was developed by the Perinatal Mental Health Project. During SH training, health workers are invited to enact scenarios with patients, examining their reactions and responses as they learn more about the \"history\" of their patients and of their assumed characters as health workers. This training has resulted in improvement in empathic skills for health workers, but opportunities to scale the intervention are limited. The SH is costly to implement, requiring in-person workshops and facilitator training for small groups of workers. Our mobile application may either supplement or introduce the SH concepts at scale to health workers. The stories have been co-designed with mental health experts, midwives, and other trainers, and employ a \"choose-your-own-adventure\" approach, slowly revealing the histories of the characters, as in the original SH protocol. To inform decisions of the app design, data was collected through interviews, co-design workshops and focus group discussions as detailed in the methods section.",
+    "_matched_keywords": [
+      "co-design"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Research with Communities: Learning with Experts from Global Community Network",
+    "authors": "Siddhant Shinde, Ndinelao Iitumba, Naveen Bagalkot, Melissa Densmore, Nicola J. Bidwell",
+    "year": 2023,
+    "venue": "compass_2023",
+    "areas": [
+      "media_information"
+    ],
+    "topics": [
+      "ethnographic_design"
+    ],
+    "cross_cutting_axes": [
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "compass_2023_venue_search",
+    "notes": "The paper engages with the development of community networks in low-resource settings, which is relevant to the 'media_information' area and 'ethnographic_design' topic.",
+    "link": "https://doi.org/10.1145/3588001.3609378",
+    "abstract": "Community Networks (CNs) worldwide are promising low-resource communities new ways of connecting and interplaying with technology. The embedded infrastructures of the CNs are derived from the sociocultural, political, spatial, and economic practices of the people they are built with and the communities they are located in. CNs situated in an area are not only followed by the technical requirements and possibilities of making the networks alive and accessible but are also shaped and moulded by the people and their practices. Community members\u2019 lived experience and awareness of the local knowledge and local practices materialize the network in the situated realities. Yet the knowledge and experiences of the communities are often invisible and not considered in future research agendas for infrastructure and technology developments. In this workshop, we aim to bring together community members from around the world working on the frontlines of CNs as experts to share their local knowledge and experiences of designing, developing, negotiating, and maintaining the network, while opening the space for early career researchers and students to listen and learn from the ground.",
+    "_matched_keywords": [
+      "community networks"
+    ]
+  }
+]

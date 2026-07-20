@@ -1,0 +1,385 @@
+[
+  {
+    "domain_name": "Satellite Remote Sensing and ML for Water/Land Feature Mapping",
+    "reading_ids": [
+      "climate_change_ai_mapping_small_scale_irrigation_for_climate",
+      "climate_change_ai_scalable_satellite_imagery_analysis_a_cascade",
+      "climate_change_ai_weakly_semi_supervised_object_detection_in",
+      "climate_change_ai_geospatial_chain_of_thought_reasoning_for",
+      "climate_change_ai_analyzing_the_secondary_wastewater_treatment_process"
+    ],
+    "background_concepts": [
+      {
+        "concept": "Multispectral bands and spectral indices (e.g., NDVI/NDWI)",
+        "why_needed": "Irrigation and water-feature mapping readings assume familiarity with the reflectance bands and derived indices used to distinguish vegetation, water, and soil.",
+        "suggested_resources": [
+          {
+            "title": "Echoes in Space / Introduction to Remote Sensing (EO College materials referenced in EO4GEO)",
+            "url": "https://eo4geocourses.github.io/FSU-Jena_SAR-Data-for-Flood-Mapping/",
+            "type": "course_module"
+          }
+        ]
+      },
+      {
+        "concept": "Object detection vs. semantic segmentation",
+        "why_needed": "Cascade detection and weakly-supervised detection readings assume the reader knows the distinction between pixel-level segmentation and bounding-box detection.",
+        "suggested_resources": [
+          {
+            "title": "Satellite Imagery Feature Detection using Deep CNN (background on segmentation/detection)",
+            "url": "https://arxiv.org/pdf/1706.06169",
+            "type": "primer"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "domain_name": "Precipitation, Weather, and Climate Forecasting via Deep Learning",
+    "reading_ids": [
+      "climate_change_ai_piggycast_improving_weather_prediction_accuracy_through",
+      "climate_change_ai_graph_neural_networks_for_enhancing_ensemble",
+      "climate_change_ai_self_supervised_pre_training_for_precipitation",
+      "climate_change_ai_efficient_localized_adaptation_of_neural_weather",
+      "climate_change_ai_diffobs_generative_diffusion_for_global_forecasting",
+      "climate_change_ai_resource_efficient_and_generalizable_representation_learning"
+    ],
+    "background_concepts": [
+      {
+        "concept": "Ensemble forecasting",
+        "why_needed": "The GNN and stacking-ensemble readings assume understanding of ensemble weather prediction (multiple perturbed forecasts) without explaining it.",
+        "suggested_resources": [
+          {
+            "title": "GFDL / NOAA guides on climate & weather modeling",
+            "url": "https://www.gfdl.noaa.gov/climate-model-downscaling/",
+            "type": "agency_guide"
+          }
+        ]
+      },
+      {
+        "concept": "Diffusion (denoising) generative models",
+        "why_needed": "DiffObs applies generative diffusion to satellite forecasting but assumes the forward/reverse noising framework is understood.",
+        "suggested_resources": [
+          {
+            "title": "Denoising Diffusion-based Generative Modeling: Foundations and Applications (CVPR 2022 tutorial)",
+            "url": "https://cvpr2022-tutorial-diffusion-models.github.io/",
+            "type": "course_module"
+          },
+          {
+            "title": "Introduction to Diffusion Models for Machine Learning",
+            "url": "https://www.assemblyai.com/blog/diffusion-models-for-machine-learning-introduction",
+            "type": "primer"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "domain_name": "Flood and Drought Risk Modeling and Impact Estimation",
+    "reading_ids": [
+      "climate_change_ai_integrating_flood_susceptibility_and_deforestation_mapping",
+      "climate_change_ai_planning_for_floods_droughts_intro_to"
+    ],
+    "background_concepts": [
+      {
+        "concept": "Flood susceptibility / hazard mapping",
+        "why_needed": "The susceptibility-mapping reading assumes knowledge of how conditioning factors combine into hazard maps.",
+        "suggested_resources": [
+          {
+            "title": "UN-SPIDER Recommended Practice: Flood Mapping",
+            "url": "https://www.un-spider.org/advisory-support/recommended-practices/recommended-practice-flood-mapping/python-step-by-step",
+            "type": "agency_guide"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "domain_name": "AI for Climate Policy and Ecosystem Valuation",
+    "reading_ids": [
+      "climate_change_ai_ml_iam_emulating_integrated_assessment_models",
+      "climate_change_ai_making_climate_ai_systems_past_and",
+      "climate_change_ai_a_multimodal_causal_framework_for_large",
+      "climate_change_ai_causalprompt_enhancing_llms_with_weakly_supervised",
+      "climate_change_ai_leveraging_artificial_intelligence_for_real_time"
+    ],
+    "background_concepts": [
+      {
+        "concept": "Integrated Assessment Models (IAMs) and Social Cost of Carbon",
+        "why_needed": "ML-IAM and climate-policy readings assume the reader knows what IAMs are and how they couple climate and economic systems to compute policy costs.",
+        "suggested_resources": [
+          {
+            "title": "Introduction to integrated assessment modeling of climate change (ScienceDirect chapter overview)",
+            "url": "https://www.sciencedirect.com/science/article/abs/pii/S3050729424000023",
+            "type": "primer"
+          },
+          {
+            "title": "Inside the Integrated Assessment Models: Four Issues in Climate Economics (SEI)",
+            "url": "https://mediamanager.sei.org/documents/Publications/Climate/inside-integrated-assessment-models.pdf",
+            "type": "primer"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "domain_name": "AI Flood Mapping and Forecasting from Satellite Data",
+    "reading_ids": [
+      "climate_change_ai_flood_mapping_with_optical_and_microwave",
+      "climate_change_ai_flood_detection_modeling_leveraging_the_sen1flood11",
+      "climate_change_ai_earth_observation_foundation_models_for_region",
+      "climate_change_ai_flood_prediction_in_kenya_leveraging_pre",
+      "climate_change_ai_improving_flood_insights_diffusion_based_sar"
+    ],
+    "background_concepts": [
+      {
+        "concept": "Synthetic Aperture Radar (SAR) backscatter and water detection",
+        "why_needed": "Flood-mapping readings rely on SAR imaging (all-weather, specular reflection off water yielding dark pixels) without explaining the physics.",
+        "suggested_resources": [
+          {
+            "title": "Flood mapping with Synthetic Aperture Radar (EO4GEO/FSU-Jena course)",
+            "url": "https://eo4geocourses.github.io/FSU-Jena_SAR-Data-for-Flood-Mapping/",
+            "type": "course_module"
+          },
+          {
+            "title": "UN-SPIDER Step-by-step: Radar-based flood mapping with Python",
+            "url": "https://www.un-spider.org/advisory-support/recommended-practices/recommended-practice-flood-mapping/python-step-by-step",
+            "type": "agency_guide"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "domain_name": "Streamflow and Hydrological Modeling with ML",
+    "reading_ids": [
+      "climate_change_ai_temporal_sequence_transformer_to_advance_long",
+      "climate_change_ai_improving_streamflow_predictions_with_vision_transformers",
+      "climate_change_ai_theory_guided_deep_learning_with_alphaearth",
+      "climate_change_ai_towards_flood_extent_forecasting_evaluating_a",
+      "climate_change_ai_fine_flood_forecasts_incorporating_local_data"
+    ],
+    "background_concepts": [
+      {
+        "concept": "Rainfall-runoff process and streamflow/discharge",
+        "why_needed": "Streamflow-prediction readings assume understanding of the hydrologic cycle, catchments, and how precipitation becomes discharge.",
+        "suggested_resources": [
+          {
+            "title": "USGS Precipitation-Runoff Modeling System (PRMS)",
+            "url": "https://www.usgs.gov/software/precipitation-runoff-modeling-system-prms",
+            "type": "agency_guide"
+          },
+          {
+            "title": "Rainfall-Runoff Modeling overview (ScienceDirect Topics)",
+            "url": "https://www.sciencedirect.com/topics/earth-and-planetary-sciences/rainfall-runoff-modeling",
+            "type": "primer"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "domain_name": "Remote Sensing Foundation Models and Segmentation Methods",
+    "reading_ids": [
+      "climate_change_ai_utilizing_a_geospatial_foundation_model_for",
+      "climate_change_ai_one_prompt_fits_all_visual_prompt",
+      "climate_change_ai_sam_cd_change_detection_in_remote",
+      "climate_change_ai_segment_then_classify_few_shot_instance",
+      "climate_change_ai_lightweight_pre_trained_transformers_for_remote",
+      "climate_change_ai_towards_global_general_purpose_pretrained_geographic",
+      "climate_change_ai_prototype_oriented_unsupervised_change_detection_for"
+    ],
+    "background_concepts": [
+      {
+        "concept": "Foundation models / pretraining and transfer learning",
+        "why_needed": "These readings assume familiarity with the pretrain-then-finetune paradigm and why it helps data-scarce EO tasks.",
+        "suggested_resources": [
+          {
+            "title": "Introduction to Earth Foundation Models (IGARSS 2025 tutorial)",
+            "url": "https://developmentseed.org/igarss25tutorial/tut1-intro/",
+            "type": "course_module"
+          },
+          {
+            "title": "Introducing Geospatial Foundation Models in ArcGIS (Esri)",
+            "url": "https://www.esri.com/arcgis-blog/products/arcgis-pro/geoai/introducing-geospatial-foundation-models-in-arcgis",
+            "type": "primer"
+          }
+        ]
+      },
+      {
+        "concept": "Semantic segmentation and the U-Net architecture",
+        "why_needed": "Segmentation and change-detection readings assume encoder-decoder segmentation networks and pixel-level labeling are understood.",
+        "suggested_resources": [
+          {
+            "title": "Satellite imagery segmentation using U-Net (tutorial)",
+            "url": "https://github.com/iibrahimli/unet_sem_seg",
+            "type": "primer"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "domain_name": "Tropical Cyclone and Extreme Storm Prediction",
+    "reading_ids": [
+      "climate_change_ai_improving_tropical_cyclone_forecasting_with_video",
+      "climate_change_ai_estimating_atmospheric_variables_from_digital_typhoon",
+      "climate_change_ai_global_3d_reconstruction_of_clouds_tropical"
+    ],
+    "background_concepts": [
+      {
+        "concept": "Tropical cyclone intensity estimation (Dvorak technique)",
+        "why_needed": "TC readings assume the conventional satellite-based intensity-estimation framework and TC structure (eye, CDO) as background.",
+        "suggested_resources": [
+          {
+            "title": "The Dvorak Technique Explained (NOAA OSPO)",
+            "url": "https://www.ospo.noaa.gov/products/ocean/tropical/dvorak.html",
+            "type": "agency_guide"
+          }
+        ]
+      },
+      {
+        "concept": "Conditional/denoising diffusion models",
+        "why_needed": "The typhoon-variable estimation reading uses conditional denoising diffusion but doesn't teach the underlying generative framework.",
+        "suggested_resources": [
+          {
+            "title": "Denoising Diffusion-based Generative Modeling (CVPR 2022 tutorial)",
+            "url": "https://cvpr2022-tutorial-diffusion-models.github.io/",
+            "type": "course_module"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "domain_name": "Coastal Change and Shoreline Forecasting",
+    "reading_ids": [
+      "climate_change_ai_climate_adaptation_aware_flood_prediction_for",
+      "climate_change_ai_deep_vision_based_framework_for_coastal",
+      "climate_change_ai_global_coastline_evolution_forecasting_from_satellite"
+    ],
+    "background_concepts": [
+      {
+        "concept": "Shoreline delineation from satellite imagery",
+        "why_needed": "Coastline-forecasting readings assume knowledge of how shorelines are extracted from optical imagery (water/land segmentation).",
+        "suggested_resources": [
+          {
+            "title": "Satellite image segmentation using U-Net for shoreline delineation (overview)",
+            "url": "https://www.researchgate.net/publication/379327710_Satellite_image_segmentation_using_Unet_andMobileNetV2_deep_learning_model",
+            "type": "primer"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "domain_name": "Climate Downscaling and Simulation Correction",
+    "reading_ids": [
+      "climate_change_ai_taudiff_improving_statistical_downscaling_for_extreme",
+      "climate_change_ai_a_machine_learning_framework_for_correcting",
+      "climate_change_ai_generalizable_implicit_neural_representations_via_parameterized",
+      "climate_change_ai_historical_reconstruction_and_future_projection_of"
+    ],
+    "background_concepts": [
+      {
+        "concept": "Statistical vs. dynamical downscaling and GCMs",
+        "why_needed": "Downscaling readings assume understanding of coarse-resolution GCM outputs and the predictor-predictand statistical relationship.",
+        "suggested_resources": [
+          {
+            "title": "Climate Model Downscaling (NOAA GFDL)",
+            "url": "https://www.gfdl.noaa.gov/climate-model-downscaling/",
+            "type": "agency_guide"
+          },
+          {
+            "title": "Statistical downscaling key term (Fiveable Intro to Climate Science)",
+            "url": "https://fiveable.me/introduction-climate-science/key-terms/statistical-downscaling",
+            "type": "primer"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "domain_name": "Compound Climate Extremes and Disaster Hazard Prediction",
+    "reading_ids": [
+      "climate_change_ai_predicting_concurrence_of_heatwaves_droughts_and",
+      "climate_change_ai_canadafire2023_burned_area_mapping_datasets_and",
+      "climate_change_ai_firesight_short_term_fire_hazard_prediction",
+      "climate_change_ai_exploring_vision_transformers_for_early_detection"
+    ],
+    "background_concepts": [
+      {
+        "concept": "Compound / cascading climate extremes",
+        "why_needed": "The concurrence reading assumes the notion of co-occurring hazards (heatwave-drought-wildfire) as an established climate-science concept.",
+        "suggested_resources": [
+          {
+            "title": "GFDL climate modeling / extremes overview",
+            "url": "https://www.gfdl.noaa.gov/climate-model-downscaling/",
+            "type": "agency_guide"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "domain_name": "Drought Forecasting and Impact Monitoring",
+    "reading_ids": [
+      "climate_change_ai_interpretable_machine_learning_for_extreme_events",
+      "climate_change_ai_generating_climate_dataset_in_a_data",
+      "climate_change_ai_machine_learning_derived_sub_seasonal_to"
+    ],
+    "background_concepts": [
+      {
+        "concept": "Sub-seasonal to seasonal (S2S) prediction",
+        "why_needed": "The S2S extremes reading assumes familiarity with the forecast horizon between weather and climate timescales.",
+        "suggested_resources": [
+          {
+            "title": "Fiveable Intro to Climate Science (downscaling/prediction terms)",
+            "url": "https://fiveable.me/introduction-climate-science/key-terms/statistical-downscaling",
+            "type": "primer"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "domain_name": "Weather and Climate Model Emulation and Downscaling",
+    "reading_ids": [
+      "climate_change_ai_a_benchmark_dataset_for_meteorological_downscaling"
+    ],
+    "background_concepts": [
+      {
+        "concept": "Bias correction and super-resolution of meteorological fields",
+        "why_needed": "The downscaling benchmark assumes understanding of coarse-to-fine mapping and bias correction of model outputs.",
+        "suggested_resources": [
+          {
+            "title": "Climate Model Downscaling (EPRI Climate Data User Guide)",
+            "url": "https://apps.epri.com/climate-data-user-guide/en/climate-model-downscaling.html",
+            "type": "agency_guide"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "domain_name": "Satellite Land Cover and Water Body Segmentation",
+    "reading_ids": [
+      "climate_change_ai_adaptive_dice_loss_for_extremely_imbalanced",
+      "climate_change_ai_mapping_land_naturalness_from_sentinel_2",
+      "climate_change_ai_assessing_data_limitations_in_ml_based",
+      "climate_change_ai_hyperspectral_shadow_removal_with_iterative_logistic"
+    ],
+    "background_concepts": [
+      {
+        "concept": "Semantic segmentation metrics (IoU, Dice) and class imbalance",
+        "why_needed": "The adaptive Dice loss and LCLU readings assume the reader knows segmentation loss functions and evaluation metrics like IoU.",
+        "suggested_resources": [
+          {
+            "title": "Satellite imagery segmentation using U-NET (covers Dice loss, Jaccard/IoU)",
+            "url": "https://pub.aimind.so/satellite-imagery-segmentation-using-u-net-4ec7f265ddbe",
+            "type": "primer"
+          }
+        ]
+      }
+    ]
+  }
+]

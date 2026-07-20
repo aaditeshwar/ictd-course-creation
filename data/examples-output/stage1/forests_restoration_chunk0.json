@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Satellite-based Land-Cover Classification & Mapping",
+    "description": "Research developing and benchmarking machine learning methods (segmentation, self-supervised learning, foundation models, data augmentation) for classifying land cover and land use from satellite and remote-sensing imagery. Includes dataset construction, model architectures, and evaluations of how well such methods generalize across geographies and sensor systems. This is the core CS-fundamentals engine underlying downstream forest and conservation applications."
+  },
+  {
+    "name": "Remote Sensing for Deforestation & Forest Change Detection",
+    "description": "Work using Earth observation time series, radar, and multi-modal imagery to detect, localize, and attribute forest loss, selective logging, and human-driven forest alterations. Spans algorithm development (change detection, echo state networks, cascade frameworks) and scalable monitoring systems aimed at operational deployment in regions like the Amazon and Kenya."
+  },
+  {
+    "name": "Forest Carbon & Biomass Estimation via Remote Sensing",
+    "description": "Studies estimating aboveground biomass, carbon stocks, and carbon flux using LiDAR, SAR, multispectral imagery, and geospatial foundation models. Includes uncertainty quantification and reviews of multi-source fusion methods, forming the measurement backbone for carbon accounting and sequestration claims."
+  },
+  {
+    "name": "Carbon Offset & REDD+ Integrity",
+    "description": "Critical impact evaluations of forest carbon offset and REDD+ crediting programs, quantifying systematic over-crediting and overstated emission reductions. These works examine the sociotechnical and measurement gaps between claimed and real climate benefits of voluntary and regulatory carbon markets."
+  },
+  {
+    "name": "Community-Based Forest Governance, Tenure & Participatory Mapping",
+    "description": "Research on community-based forest management, land tenure, and participatory approaches that combine local knowledge with spatial data collection. Spans ethnographic design, problem discovery, and operations, foregrounding social capital, marginalization, and the governance conditions under which forest restoration succeeds."
+  },
+  {
+    "name": "Community Climate Vulnerability & Adaptation Assessment Tools",
+    "description": "Handbooks, tools, and applications (e.g. CoDriVE, Commons Connect) that support community consultation, natural resource management, and climate resilience assessment for semi-arid and agrarian systems. These emphasize ethnographic design and problem discovery in translating community needs into planning instruments and data tools."
+  },
+  {
+    "name": "Public Works & Social Protection as Carbon Co-Benefits",
+    "description": "Studies estimating carbon sequestration and pro-poor climate benefits from employment-guarantee and social protection schemes like India's MGNREGA. These link development interventions to measurable environmental outcomes, blending impact evaluation with sequestration estimation methods."
+  },
+  {
+    "name": "Nature-Based Solutions & Ecosystem Valuation",
+    "description": "Work assessing the value and limits of nature-based solutions to climate change, including ecosystem service valuation and landscape ecological planning. Includes causal frameworks for quantifying ecosystem benefits (e.g. wetlands) and understanding trade-offs in sustainability landscape design."
+  },
+  {
+    "name": "Biodiversity & Conservation Planning Optimization",
+    "description": "Research applying optimization and AI decision-making to conservation targets, such as maximizing habitat graph connectivity for global biodiversity frameworks or derivative-free optimization for land conservation. Focuses on translating ecological objectives into computational allocation and prioritization problems."
+  }
+]

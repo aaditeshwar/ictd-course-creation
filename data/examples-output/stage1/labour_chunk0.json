@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Gig/platform labour precarity and worker agency",
+    "description": "Ethnographic and sociotechnical studies of app-based gig workers (ride-hailing, food delivery, e-hailing) in the Global South, examining precarity, algorithmic management, gamification, and workers' coping and resistance strategies. Spans problem discovery, ethnographic design, and impact evaluation, often with a gendered or marginalization lens."
+  },
+  {
+    "name": "Algorithmic fairness interventions for platform workers",
+    "description": "CS-driven design of systems that improve conditions for platform/gig workers, such as fair-wage scheduling algorithms and dynamic safety checklists. Focuses on technical mechanisms plus their deployment, distinct from the purely qualitative critique of gig precarity."
+  },
+  {
+    "name": "MGNREGA / public employment guarantee as climate and welfare infrastructure",
+    "description": "Research on India's rural employment guarantee scheme as a vehicle for carbon sequestration co-benefits, climate resilience planning tools (e.g. CRISP-M), and pro-poor climate support. Spans quantification, tool design, deployment, and impact evaluation with a climate-change axis."
+  },
+  {
+    "name": "Welfare allocation equity and datafication of marginalized workers",
+    "description": "Studies of how digital welfare and social-protection systems allocate benefits and encode discrimination against caste, gender, and other marginalized worker groups. Includes analyses of inequity in schemes and datafication encounters, spanning impact evaluation and sociotechnical critique."
+  },
+  {
+    "name": "Digital traces for labour market and migration measurement",
+    "description": "Computational inference of labour-market dynamics, unemployment, worker flows, and internal migration from mobile phone records and social media data. A largely CS-fundamentals domain leveraging behavioral digital footprints as proxies for hard-to-measure labour phenomena."
+  },
+  {
+    "name": "Digital platforms for social protection and inclusive employment access",
+    "description": "Interventions using technology and civil-society intermediaries to connect marginalized populations (migrants, third-gender/hijra communities, disadvantaged urban groups) to employment and social benefits. Spans problem discovery, ethnographic design, deployment, and evaluation of inclusion pathways."
+  },
+  {
+    "name": "Migrant and refugee worker safety and ICT-mediated support",
+    "description": "Work on migrant and refugee laborers navigating crises, social safety gaps, and displacement, and how ICTs enable solidarity, coordination, and protection. Includes studies of migrant workers during the pandemic and ICT use among refugee communities."
+  }
+]

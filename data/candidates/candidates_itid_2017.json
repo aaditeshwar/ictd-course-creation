@@ -1,0 +1,97 @@
+[
+  {
+    "id": null,
+    "title": "Overcoming Citizen Mistrust and Enhancing Democratic Practices: Results from the E-participation Platform M\u00c3\u00a9xico Participa",
+    "authors": "Maria Elena Meneses, Brandie Nonnecke, Alejandro Martin del Campo, Sanjai Krishnan, Jay Patel, Moonhyok Kim, Camille Crittenden, Ken Goldberg",
+    "year": 2017,
+    "venue": "itid_2017",
+    "areas": [
+      "governance"
+    ],
+    "topics": [
+      "sociotechnical_dynamics"
+    ],
+    "cross_cutting_axes": [],
+    "area_agnostic": false,
+    "source_course": "itid_2017_venue_search",
+    "notes": "The paper engages with governance and civic participation in a developing region, specifically Mexico, which aligns with the governance area and sociotechnical dynamics topic.",
+    "link": "https://itidjournal.org/index.php/itid/article/view/1526.html",
+    "abstract": "This article reviews the experiences, obstacles, and lessons learned from development and deployment of the M\u00c3\u00a9xico Participa e-participation platform as a case study for future platforms, both in Mexico and in transitional democracies with similar sociopolitical characteristics such as pervasive distrust of public institutions and limited civic participation. M\u00c3\u00a9xico Participa was released three months before the June 2015 midterm Mexican presidential election. Although the platform continues to operate, this article focuses on the period leading up to the election. 3,054 participants offered 336 suggestions and provided 14,033 peer-to-peer assessments. A postelection survey highlighted the need for a platform such as M\u00c3\u00a9xico Participa to be continually available to sustain citizen evaluation of government performance and to promote transparency and accountability.",
+    "_matched_keywords": [
+      "transparency and accountability"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Can Digital Discussion Support Tools Provide Cost-Effective Options for Agricultural Extension Services?",
+    "authors": "Shahbaz Mushtaq, Kate Reardon-Smith, Neil Cliffe, Jenny Ostini, Helen Farley, Joanne Doyle, Matt Kealley",
+    "year": 2017,
+    "venue": "itid_2017",
+    "areas": [
+      "agriculture"
+    ],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [],
+    "area_agnostic": false,
+    "source_course": "itid_2017_venue_search",
+    "notes": "The paper applies a general-purpose methodology that could be adapted to a developing-regions context, focusing on digital tools for agricultural extension services, which fits the 'cs_fundamentals' topic rule.",
+    "link": "https://itidjournal.org/index.php/itid/article/view/1453.html",
+    "abstract": "Agricultural extension that delivers timely, targeted, and cost-effective support to farmers will help ensure the sustainability and adaptive capacity of agriculture, enhancing both food security and environmental security. Leveraging advances in agriclimate science and adult education, innovative digital technologies offer significant new opportunities to engage with farmers and to support decision making. In this study, animated video clips ( machinimas ), developed using the Second Life TM virtual world gaming platform, model conversations around climate risk and critical on-farm decisions in the Australian sugarcane farming industry. Early evaluation indicates that this is an engaging format that promotes discussion by leveraging farmers\u00e2\u0080\u0099 natural modes of information gathering and social learning. Comparison with conventional extension practices indicates that these discussion support tools may be a cost-effective addition to existing approaches. The format\u00e2\u0080\u0099s flexibility means machinimas are readily updated with new information and customized to meet the needs of different farmer groups. Rapid growth in digital access globally and the scalability of such approaches promise greater equity of access to high-value information, critical to better risk management decision making, at minimal cost, for millions of farmers.",
+    "_matched_keywords": [
+      "agricultural extension"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Inclusive Capitalism and Development: Case Studies of Telecenters Fostering Inclusion Through ICTs in Bangladesh",
+    "authors": "Ahmed Tareq Rashid",
+    "year": 2017,
+    "venue": "itid_2017",
+    "areas": [
+      "infrastructure"
+    ],
+    "topics": [
+      "impact_evaluation",
+      "operations_scale"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "itid_2017_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context (Bangladesh) and discusses ICT interventions aimed at fostering inclusion through telecenters.",
+    "link": "https://itidjournal.org/index.php/itid/article/view/1427.html",
+    "abstract": "Lack of sustainable approaches for public access venues like telecentres have led to the emergence of several entrepreneurial and market-driven models of telecentres in developing countries that are driven by multinational corporations, governments and social enterprises. This phenomenon falls under the rubric of inclusive capitalism which argues that in the contemporary socioeconomic context, private investment and entrepreneurial activities are crucial for economic growth and job creation in developing countries. In this paper, I undertake three case studies of telecentres in Bangladesh: a private sector enterprise developed and operated by a multinational corporation, a social enterprise, and a public-private partnership. The case studies combine review of organizational documents as well as analysis of survey data from the \u00e2\u0080\u0098 Global Impact Study of Public Access to Information & Communication Technologies\u00e2\u0080\u0099. While a common feature in all three of the cases is the reliance on market mechanisms to provide affordable ICT services to the poor, the findings highlight how in some cases the initiatives approach the issue of \u00e2\u0080\u0098inclusion\u00e2\u0080\u0099 differently. The paper illustrates the convergence in thinking among various institutional domains of development about the indispensability of inclusive capitalism approaches to bring about socioeconomic development through ICTs.",
+    "_matched_keywords": [
+      "telecenters"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Victim, Mother, or Untapped Resource? Discourse Analysis of the Construction of Women in ICT Policies",
+    "authors": "Annika Andersson, Mathias Hatakka",
+    "year": 2017,
+    "venue": "itid_2017",
+    "areas": [
+      "gender"
+    ],
+    "topics": [
+      "problem_discovery",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "gender"
+    ],
+    "area_agnostic": false,
+    "source_course": "itid_2017_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context in South and Southeast Asia, focusing on gender issues in ICT policies.",
+    "link": "https://itidjournal.org/index.php/itid/article/view/1515.html",
+    "abstract": "This article analyzes the construction of women in national ICT policies in South and Southeast Asia. The aim is to unravel the role ascribed to women in these policies and how this affects suggested measures. The research is based on critical discourse analysis and shows that women are mainly constructed as victims, mothers, or an untapped resource. We argue that if women are specifically targeted in policies, careful attention should be given to how they are portrayed. Our analysis also shows that in most cases the suggested solutions on how to include women in the ICT society only deal with the symptoms of gender inequality rather than the structures that prevent equal opportunities. We conclude by discussing implications for research and practice.",
+    "_matched_keywords": [
+      "inequality"
+    ]
+  }
+]

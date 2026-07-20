@@ -1,0 +1,344 @@
+[
+  {
+    "title": "CollectiveTeach: A System To Generate And Sequence Web-Annotated Lesson Plans",
+    "authors": "Rishabh Ranawat, Ashwin Venkataraman, Lakshminarayanan Subramanian",
+    "year": 2021,
+    "link": "https://doi.org/10.1145/3460112.3471938",
+    "doi": "10.1145/3460112.3471938",
+    "abstract": "Despite an abundance of educational resources on the Web, there exists a gap between teachers and the efficient utilization of these resources. A fundamental component of teaching is the preparation of a lesson plan\u2014an organized sequence of educational content\u2014and for the most part, the task of generating lesson plans today is manual and laborious. To address this gap, we present CollectiveTeach, a platform that enables educators to generate lesson plans. CollectiveTeach has two main facets: (i) an information retrieval engine that gathers relevant documents pertaining to a topic, and (ii) a framework to sequence the retrieved documents into coherent lesson plans. We present a novel architecture that leverages information retrieval algorithms, data mining techniques, and user feedback to generate automated lesson plans. We built and deployed CollectiveTeach for 3 popular undergraduate Computer Science subjects: Algorithms, Operating Systems, and Machine Learning, on a corpus of \u223c 100,000 web pages. Further, we evaluated the platform in 3 phases: (1) computing the precision of the documents retrieved, (2) a user study with 10 participants who assessed lesson plans returned by CollectiveTeach based on appropriateness, quality, and coverage and (3) benchmarking our sequencing approach against the Beam-Search approach. Our results show that CollectiveTeach achieves high precision in retrieving content relevant to a user\u2019s query, users are satisfied with the appropriateness, coverage, and reliability of the generated lesson plans and that our sequencing approach is effective. These results indicate that CollectiveTeach is a promising platform that could enrich the lesson plan generation process and encourage collaboration amongst the community of educators and learners.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Teacher Perspectives on Peer-Peer Collaboration and Education Technologies in Rural Tanzanian Classrooms",
+    "authors": "Judith Uchidiuno, Ken Koedinger, Amy Ogan",
+    "year": 2021,
+    "link": "https://doi.org/10.1145/3460112.3471939",
+    "doi": "10.1145/3460112.3471939",
+    "abstract": "Teachers\u2019 perspectives are critical for understanding classroom culture. They create and enforce rules in classrooms and are responsible for educating students using methods that they perceive to be most effective. Therefore, creating supplementary education technologies without understanding teachers and the culture they promote may lead to interventions that are underutilized or ineffective. Our research specifically investigates how technologies that foster student collaboration fit into teachers\u2019 views of learning in a rural context with limited existing collaboration scaffolds. We interviewed 24 teachers and observed 39 classrooms in a rural Tanzanian village to understand how teachers value peer-peer collaboration in their teaching practice, and the unique challenges they face educating students in rural classroom settings. We uncover insights that inform the design and deployment of supplementary education technologies to support teachers in rural Tanzania and similar demographics.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Is remote work in high demand? Evidence from job postings during COVID-19",
+    "authors": "Jose Morales-Arilla, Carlos Daboin",
+    "year": 2021,
+    "link": "https://doi.org/10.1145/3460112.3471984",
+    "doi": "10.1145/3460112.3471984",
+    "abstract": "As the COVID-19 pandemic pushed firms to comply with social distancing guidelines, the relative demand for work that could be performed from home was expected to increase. However, while employment in \u201cremotable\u201d occupations was relatively resilient during the pandemic, online job postings -which measure demand for new hires- for these occupations dropped disproportionately. This apparent contradiction is not explained by prior job \u201cchurning\u201d in \u201cnon-remote\u201d jobs, nor by the recomposition of the labor market across economic sectors. The underperformance of postings in \u201cremotable\u201d jobs during the pandemic concentrates in essential occupations and occupations with high returns to experience.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Exploring Boundaries: How Firms Choose Informality in Emerging Markets",
+    "authors": "F. Christopher Eaglin, Tommy Pan Fang",
+    "year": 2021,
+    "link": "https://doi.org/10.1145/3460112.3471941",
+    "doi": "10.1145/3460112.3471941",
+    "abstract": "How do firms choose between formal and informal strategies in emerging markets? While the existing literature focuses mostly on the effect of informality on firm outcomes, little research has been conducted on how these firms set strategies in response to their external environment. Using data on routes of minibus taxi operators in South Africa, we explore how the external environment informs this strategic choice. Through spatial and regression analysis, we find that firms choose over a spectrum of informality over time and space in response to demand and availability of public infrastructure. Investigating this phenomenon further through interviews with stakeholders throughout the minibus taxi industry, we find that these firms blend formal and informal strategies to maximize their profit-making potential in the face of insufficient infrastructure and economic and physical uncertainty.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Not so Black and White: An Algorithmic Approach to Detecting Colorism in Criminal Sentencing",
+    "authors": "Amy Wickett",
+    "year": 2021,
+    "link": "https://doi.org/10.1145/3460112.3471942",
+    "doi": "10.1145/3460112.3471942",
+    "abstract": "It is well documented that individuals of different races have disparate experiences in the criminal justice system in the United States. As most studies focus on Black-white interracial differences, intraracial disparities are often overlooked. Analyzing intraracial disparities is further complicated by the fact that it has been historically difficult to accurately and consistently measure skin tone and Afrocentric features. Utilizing convolutional neural networks and photos as data, this study creates a consistent, running measure of perceived race. Using this new measure and data type, new types of analysis are possible. This study will present photographic summary statistics, show the positive relationship between perceived race and sentence length is robust to the inclusion of various controls and, reevaluate traditional Black-white gaps, measuring both inter- and intraracial disparities.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "In-group bias in the Indian judiciary: Evidence from 5.5 million criminal cases",
+    "authors": "Aditi Bhowmick, Paul Novosad, Samuel Asher, Elliott Ash, Bilal Siddiqi, Christoph Goessman, Daniel Chen, Tanaya Devi",
+    "year": 2021,
+    "link": "https://doi.org/10.1145/3460112.3471943",
+    "doi": "10.1145/3460112.3471943",
+    "abstract": "We study judicial in-group bias in Indian criminal courts, collecting data on over 5 million criminal case records from 2010\u20132018. We exploit quasi-random assignment of judges and changes in judge cohorts to examine whether defendant outcomes are affected by being assigned to a judge with a similar identity. We estimate tight zero effects of in-group bias along gender and religious identity. We do find small amounts of in-group bias in some (but not all) settings where identity is particularly salient, but even here our confidence intervals reject effect sizes far smaller than much of the prior literature.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Visual Representations to Evaluate the Heterogeneous Effects of Urban Parks Restoration on Crime",
+    "authors": "Juli\u00e1n Chitiva Bocanegra, Douglas Newball Ram\u00edrez, Paula Rodr\u00edguez D\u00edaz, Hamadys Benavides Guti\u00e9rrez, Mateo Dulce-Rubio, Alvaro Riascos",
+    "year": 2021,
+    "link": "https://doi.org/10.1145/3460112.3471969",
+    "doi": "10.1145/3460112.3471969",
+    "abstract": "This paper exploits Bogot\u00e1 D.C.\u2019s public parks images information to explore heterogeneity in the impact of parks restoration on crime. Given the quasi-experimental nature of the intervention, the traditional Difference-in-Differences methodology and a Difference-in-Difference methodology combined with the Double Selection method are implemented. It is found that, on average, the intervention reduced homicides and personal injuries by 37% and 8%, respectively. No impact is found for robberies. Heterogeneous effects with respect to LDA images visual topics are estimated. It is found that as the initial aspect of the park worsens, the effect of the intervention on homicides and personal injuries decreases.",
+    "skip_reason": "The paper does not substantively engage with a developing-regions context as required by the rules for all topics except 'cs_fundamentals'."
+  },
+  {
+    "title": "Negotiating Trade-Offs: Identifying Labour Exploitation in the Fishing Sector in Thailand",
+    "authors": "Hannah Thinyane, Michael Gallo",
+    "year": 2021,
+    "link": "https://doi.org/10.1145/3460112.3471945",
+    "doi": "10.1145/3460112.3471945",
+    "abstract": "In this paper we report the findings of a study investigating the implementation of Apprise, a mobile phone-based tool used by labour inspectors to assess working conditions and screen vulnerable migrant fishers for indicators of exploitation. The Thai Ministry of Labour and Royal Thai Navy agreed to participate in a pilot study in mid-2019 where they collectively supported the use of Apprise to conduct interviews with fishers at four Port-In Port-Out centres in eastern Thailand. We describe the participatory approach used in designing the Apprise system and summarize key findings from the study's baseline, mid-line, and endline assessments. We then discuss lessons learned around negotiating the trade-offs that arose between various stakeholders with competing interests and the practical challenges faced in the study context. Technology solutions such as Apprise cannot address the systematic shortcomings of victim identification throughout the Thai fishing sector, but our findings support that technology can play a role in overcoming challenges specifically in the areas of communication, privacy, trust and training.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "ElephantBook: A Semi-Automated Human-in-the-Loop System for Elephant Re-Identification",
+    "authors": "Peter Kulits, Jake Wall, Anka Bedetti, Michelle Henley, Sara Beery",
+    "year": 2021,
+    "link": "https://doi.org/10.1145/3460112.3471947",
+    "doi": "10.1145/3460112.3471947",
+    "abstract": "African elephants are vital to their ecosystems, but their populations are threatened by a rise in human-elephant conflict and poaching. Monitoring population dynamics is essential in conservation efforts; however, tracking elephants is a difficult task, usually relying on the invasive and sometimes dangerous placement of GPS collars. Although there have been many recent successes in the use of computer vision techniques for automated identification of other species, identification of elephants is extremely difficult and typically requires expertise as well as familiarity with elephants in the population. We have built and deployed a web-based platform and database for human-in-the-loop re-identification of elephants combining manual attribute labeling and state-of-the-art computer vision algorithms, known as ElephantBook. Our system is currently in use at the Mara Elephant Project, helping monitor the protected and at-risk population of elephants in the Greater Maasai Mara ecosystem. ElephantBook makes elephant re-identification usable by non-experts and scalable for use by multiple conservation NGOs.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "A Ranking Approach to Fair Classification",
+    "authors": "Jakob Sch\u00f6ffer, Niklas K\u00fchl, Isabel Valera",
+    "year": 2021,
+    "link": "https://doi.org/10.1145/3460112.3471950",
+    "doi": "10.1145/3460112.3471950",
+    "abstract": "Algorithmic decision systems are increasingly used in areas such as hiring, school admission, or loan approval. Typically, these systems rely on labeled data for training a classification model. However, in many scenarios, ground-truth labels are unavailable, and instead we have only access to imperfect labels as the result of (potentially biased) human-made decisions. Despite being imperfect, historical decisions often contain some useful information on the unobserved true labels. In this paper, we focus on scenarios where only imperfect labels are available and propose a new fair ranking-based decision system based on monotonic relationships between legitimate features and the outcome. Our approach is both intuitive and easy to implement, and thus particularly suitable for adoption in real-world settings. More in detail, we introduce a distance-based decision criterion, which incorporates useful information from historical decisions and accounts for unwanted correlation between protected and legitimate features. Through extensive experiments on synthetic and real-world data, we show that our method is fair in the sense that a) it assigns the desirable outcome to the most qualified individuals, and b) it removes the effect of stereotypes in decision-making, thereby outperforming traditional classification algorithms. Additionally, we are able to show theoretically that our method is consistent with a prominent concept of individual fairness which states that \u201csimilar individuals should be treated similarly.\u201d",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "WiFiMod: Transformer-based Indoor Human Mobility Modeling using Passive Sensing",
+    "authors": "Amee Trivedi, Kate Silverstein, Emma Strubell, Prashant J. Shenoy, Mohit Iyyer",
+    "year": 2021,
+    "link": "https://doi.org/10.1145/3460112.3471951",
+    "doi": "10.1145/3460112.3471951",
+    "abstract": "Modeling human mobility has a wide range of applications from urban planning to simulations of disease spread. It is well known that humans spend 80% of their time indoors but modeling indoor human mobility is challenging due to three main reasons: (i) the absence of easily acquirable, reliable, low-cost indoor mobility datasets, (ii) high prediction space in modeling the frequent indoor mobility, and (iii) multi-scalar periodicity and correlations in mobility. To deal with all these challenges, we propose WiFiMod, a Transformer-based, data-driven approach that models indoor human mobility at multiple spatial scales using WiFi system logs. WiFiMod takes as input enterprise WiFi system logs to extract human mobility trajectories from smartphone digital traces. Next, for each extracted trajectory, we identify the mobility features at multiple spatial scales, macro and micro, to design a multi-modal embedding Transformer that predicts user mobility for several hours to an entire day across multiple spatial granularities. Multi-modal embedding captures the mobility periodicity and correlations across various scales while Transformers capture long term mobility dependencies boosting model prediction performance. This approach significantly reduces the prediction space by first predicting macro mobility, then modeling indoor scale mobility, micro mobility, conditioned on the estimated macro mobility distribution, thereby using the topological constraint of the macro-scale. Experimental results show that WiFiMod achieves a prediction accuracy of at least 10% points higher than the current state-of-art models. Additionally, we present 3 real-world applications of WiFiMod - (i) predict high density hot pockets and space utilization for policy making decisions for COVID19 or ILI, (ii) generate a realistic simulation of indoor mobility data to simulate spread of diseases, (iii) design personal assistants.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Temporal Cluster Matching for Change Detection of Structures from Satellite Imagery",
+    "authors": "Caleb Robinson, Anthony Ortiz, Juan M. Lavista Ferres, Brandon R. Anderson, Daniel E. Ho",
+    "year": 2021,
+    "link": "https://doi.org/10.1145/3460112.3471952",
+    "doi": "10.1145/3460112.3471952",
+    "abstract": "Longitudinal studies are vital to understanding dynamic changes of the planet, but labels (e.g., buildings, facilities, roads) are often available only for a single point in time. We propose a general model, Temporal Cluster Matching (TCM), for detecting building changes in time series of remotely sensed imagery when footprint labels are observed only once. The intuition behind the model is that the relationship between spectral values inside and outside of building\u2019s footprint will change when a building is constructed (or demolished). For instance, in rural settings, the pre-construction area may look similar to the surrounding environment until the building is constructed. Similarly, in urban settings, the pre-construction areas will look different from the surrounding environment until construction. We further propose a heuristic method for selecting the parameters of our model which allows it to be applied in novel settings without requiring data labeling efforts (to fit the parameters). We apply our model over a dataset of poultry barns from 2016/2017 high-resolution aerial imagery in the Delmarva Peninsula and a dataset of solar farms from a 2020 mosaic of Sentinel 2 imagery in India. Our results show that our model performs as well when fit using the proposed heuristic as it does when fit with labeled data, and further, that supervised versions of our model perform the best among all the baselines we test against. Finally, we show that our proposed approach can act as an effective data augmentation strategy \u2013 it enables researchers to augment existing structure footprint labels along the time dimension and thus use imagery from multiple points in time to train deep learning models. We show that this improves the spatial generalization of such models when evaluated on the same change detection task.",
+    "skip_reason": "DUPLICATE of existing 'robinson_temporal_cluster_matching' (score=1.00)"
+  },
+  {
+    "title": "IndiaSat: A Pixel-Level Dataset for Land-Cover Classification on Three Satellite Systems - Landsat-7, Landsat-8, and Sentinel-2",
+    "authors": "Chahat Bansal, Hari Om Ahlawat, Mayank Jain, Om Prakash, Shivani A. Mehta, Deepanshu Singh, Harshavardhansushil Baheti, Suyash Singh, Aaditeshwar Seth",
+    "year": 2021,
+    "link": "https://doi.org/10.1145/3460112.3471953",
+    "doi": "10.1145/3460112.3471953",
+    "abstract": "Land-cover (LC) classification is required for land management and planning models, and is increasingly done through remote sensing data. Supervised machine learning methods applied to satellite imagery can help with high-resolution LC classification but demand a labeled dataset for training and evaluation of the models. The availability of such datasets is limited though, especially for developing regions like in India. We describe a large pixel-level dataset, IndiaSat, that we have curated and provided for open use, consisting of 180,414 pixels labeled into four LC classes: greenery, water bodies, barren land, and built-up area. Initial labels are obtained through the crowd-sourced mapping platform Open Street Maps (OSM), and then manually curated and corrected. We describe our data cleaning methodology and ensure spatial diversity across different geographic regions in the country. We show that the IndiaSat dataset can be used to train simple classifiers deployed on commodity platforms like Google Earth Engine (GEE) for three popular and openly accessible satellite systems: Landsat-7, Landsat-8, and Sentinel-2, with high accuracy, and to additionally build LC change detection models to determine pixel-level changes over a sequence of several years.",
+    "skip_reason": "DUPLICATE of existing 'bansal_indiasat' (score=1.00)"
+  },
+  {
+    "title": "Language Translation as a Socio-Technical System: Case-Studies of Mixed-Initiative Interactions",
+    "authors": "Sebastin Santy, Kalika Bali, Monojit Choudhury, Sandipan Dandapat, Tanuja Ganu, Anurag Shukla, Jahanvi Shah, Vivek Seshadri",
+    "year": 2021,
+    "link": "https://doi.org/10.1145/3460112.3471954",
+    "doi": "10.1145/3460112.3471954",
+    "abstract": "Seamless access to information in a rapidly globalizing world demands for availability of information across, ideally all but at the least a large number of, languages. Machine translation has been proposed as a technological solution to this complex problem. However, despite seven decades of research, and recently seen rapid progress in the field - thanks to deep learning and availability of large data-sets, perfect machine translation across a large number of the world\u2019s languages still remains elusive. In fact, it is a distant and perhaps even an impossible goal. Erroneous translations, on the other hand, can be detrimental in critical situations such as talking to a law enforcement officer; or, they could potentially perpetuate social biases or stereotypes, for instance, by producing mis-gendered translations. In this work, we argue that language translation is inherently a socio-technical system, which has to be viewed, studied, and optimized for, as such. The need and context of translation, the socio-demographic factors behind the human translators as well as the consumers of the translated content affect the complexity of the translation system, as much as the accuracy of the technology and its interface. Through a series of case studies on mixed-initiative interaction based approach to translation, we bring out the various socio-technical factors and their complex interactions that one has to bear in mind while designing for the ideal human-machine translation systems. Through these observations, we make multiple recommendations which, at the core, suggest that \u201dsolving\u201d translation in the real sense would require more coordinated efforts between the technical (NLP) and social communities (HCI + CSCW + DEV).",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Navigating Illness, Finding Place: Enhancing the Experience of Place for People Living with Chronic Illness",
+    "authors": "Sylvia Janicki, Matt Ziegler, Jennifer Mankoff",
+    "year": 2021,
+    "link": "https://doi.org/10.1145/3460112.3471955",
+    "doi": "10.1145/3460112.3471955",
+    "abstract": "When chronic illness, such as Lyme disease, is viewed through a disability lens, equitable access to public spaces becomes an important area for consideration. Yet chronic illness is often viewed solely through an individualistic, medical model lens. We contribute to this field of study in four consecutive steps using Lyme disease as a case study: (1) we highlight urban design and planning literature to make the case for its relevance to chronic illness; (2) we explore the place-related impacts of living with chronic illness through an analysis of interviews with fourteen individuals living with Lyme disease; (3) we derive a set of design guidelines from our literature review and interviews that serve to support populations living with chronic illness; and (4) we present an interactive mapping prototype that applies our design guidelines to support individuals living with chronic illness in experiencing and navigating public and outdoor spaces.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "What We Speculate About When We Speculate About Sustainable HCI",
+    "authors": "Robert Soden, Pradnaya Pathak, Olivia Doggett",
+    "year": 2021,
+    "link": "https://doi.org/10.1145/3460112.3471956",
+    "doi": "10.1145/3460112.3471956",
+    "abstract": "Fears of climate change and the escalating impacts of environmental damage are growing, and recent papers in the area of Sustainable HCI have called for urgent, non-linear solutions to these problems. Speculative design, along with related approaches including design fiction, have been taken up as means of navigating the \"wicked problems\" that structure contemporary nature/society relations. We conduct a survey of speculative design papers published in ACM venues between 2008 and 2021, assessing fundamental questions such as who is involved in the process, how is sustainability framed, and how is speculation used. Our evaluation of this body of work yielded mixed results; we find both promising trends as well as notable and problematic limitations in how the HCI community is taking up speculative practice in this domain. We build upon this evaluation to offer four provocations to designers seeking to use speculative practice in support of sustainability goals.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Purdah, Amanah, and Gheebat: Understanding Privacy in Bangladeshi \"pious\" Muslim Communities",
+    "authors": "Mohammad Rashidujjaman Rifat, Mahiratul Jannat, Mahdi Nasrullah Al-Ameen, S. M. Taiabul Haque, Muhammad Ashad Kabir, Syed Ishtiaque Ahmed",
+    "year": 2021,
+    "link": "https://doi.org/10.1145/3460112.3471957",
+    "doi": "10.1145/3460112.3471957",
+    "abstract": "HCI has a dearth of knowledge in understanding how religiosity, spirituality, and ideological values and practices shape the notion of privacy and guide information practices worldwide. In this paper, we fill this gap by reporting our findings from an eight-month-long ethnographically informed study in Bangladeshi Islamic communities. We report how the Islamic spirit of purdah, amanah, gheebat, riya, and buhtan represent the notion of privacy and guide privacy practices among \u201cpious\u201d Bangladeshi Muslims. We further discuss how sacred values generate norms and customs associated with privacy and surveillance. Finally, we recommend how a nuanced understanding of divine interests, identity performance, family surveillance, and spatial privacy norms help designing for inclusive privacy in the Global South. This paper makes a novel contribution to HCI by providing a new analytical perspective to understand privacy and design privacy-preserving technologies and tools for regions where religiosity, spirituality, and sacred values play a dominant role.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Privacy during Pandemic: A Global View of Privacy Practices around COVID-19 Apps",
+    "authors": "Tanusree Sharma, Md. Mirajul Islam, Anupam Das, S. M. Taiabul Haque, Syed Ishtiaque Ahmed",
+    "year": 2021,
+    "link": "https://doi.org/10.1145/3460112.3471958",
+    "doi": "10.1145/3460112.3471958",
+    "abstract": "A large number of mobile phone applications have been built and deployed to combat COVID-19, offering various services to users, including virus information, contact tracing, and symptom monitoring among others. At the same time, the privacy and security vulnerabilities of user data over these apps have become a big concern in many places. To examine this issue, we conducted a mixed-method study with a combined approach of app analysis and an online survey to understand the privacy vulnerabilities of such apps and get an overview of user perceptions around this issue. In addition, we considered the notion of privacy in two different socio-economic contexts (Global North and Global South) to specify similarities and differences in app-specific privacy functionalities (data practices, functional requirements, regulations, etc.) and identify factors that impacted users\u2019 decision to use such apps (such as trust, preferences, concerns, motivations, etc.). Thus, this paper presents two diverse sets of opinions from these two geographic regions (including 27 countries), which provide a broader understanding of how the privacy concerns around COVID-19 are connected to various economic, political, and social factors. Furthermore, our analysis of 39 apps provides a deep insight into what many COVID-19 apps are lacking to ensure proper privacy practices and how those issues are entangled with various contextual challenges.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "HCI - H is also for Hazard: Using HAZOP to Identify Undesirable Consequences in Socio-Technical Systems",
+    "authors": "Colin Watson, Ahmed Kharrufa",
+    "year": 2021,
+    "link": "https://doi.org/10.1145/3460112.3471959",
+    "doi": "10.1145/3460112.3471959",
+    "abstract": "Technical interventions in socio-technical systems are often portrayed overly positively but can also have undesirable consequences which can directly impact adoption and sustainability. Systematically identifying what might go wrong is not straightforward. This paper presents the iterative development, including an early validation trial, of an HCI-focused collaborative brainstorming approach to identify deviations from design intent that harm people. The established Hazard and Operability Study (HAZOP) guide word based method, not applied before in a HCI context beyond safety-critical systems despite extensive use in other disciplines, has been adapted and applied. Motivated by the need to enumerate impacts of technology on marginalised individuals and their communities, and utilising the lead author's previous experience, a more human-orientated \u2018HCI HAZOP\u2019 was investigated. Using two feasibility studies and two pilot studies, the adapted method has been trialled, evaluated and refined. The studies' findings demonstrate the usefulness of the method identifying undesirable consequences, even by novel practitioners without any prior training. The paper presents the adaption as a methodological contribution, an application of \u2018HCI HAZOP\u2019 through studies using scenario-based design artifacts identifying limitations and benefits, and guidance materials for use by other researchers.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "\"Who is protecting us? No one!\" Vulnerabilities Experienced by Low-Income Indian Merchants Using Digital Payments",
+    "authors": "Pranjal Jain, Rama Adithya Varanasi, Nicola Dell",
+    "year": 2021,
+    "link": "https://doi.org/10.1145/3460112.3471961",
+    "doi": "10.1145/3460112.3471961",
+    "abstract": "Low-income merchants in India, who conduct business via makeshift shops and handcarts, are increasingly using digital payment systems for business operations. Although these merchants are a key stakeholder in digital payment ecosystems, they have not yet received much attention from the research community. We present a qualitative study consisting of observations and interviews with 24 low-income merchants and 10 agents that explores the vulnerabilities merchants experience as they adopt and use digital payments. Using the notion of vulnerability as a lens, we show how socio-technical interactions between merchants and agents contribute to at least four different types of vulnerabilities: access-based, identity-based, financial, and informational vulnerabilities. We discuss how agents, customers, and fraudsters take advantage of merchants\u2019 vulnerabilities to commit different types of fraud that lead to serious harm for merchants. We show how merchants developed strategies to combat fraud that lead to more work and extra burdens for merchants. Our research suggests a cyclic model of vulnerability that exposes the cumulative effects of vulnerabilities, frauds, and harms experienced by merchants. We end by providing practical recommendations for digital payment companies to break this cycle and better serve low-income merchants.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "NkhukuProbe: Using a Sensor-Based Technology Probe to Support Poultry Farming Activities in Malawi",
+    "authors": "George Hope Chidziwisano, Alex Mariakakis, Susan Wyche, Vitumbiko Mafeni, Esau Gideon Banda",
+    "year": 2021,
+    "link": "https://doi.org/10.1145/3460112.3471962",
+    "doi": "10.1145/3460112.3471962",
+    "abstract": "Poultry farming is a significant income-generating activity in sub-Saharan African (SSA) households. Poultry farmers frequently have to overcome extreme environmental conditions to maintain their chickens\u2019 wellbeing. Prior research has proposed automating poultry farming activities to control environmental conditions (e.g., temperature and humidity). However, these interventions have never been implemented, in this context, to understand how they would work and participants\u2019 perceptions. Further, chicken coops in SSA have different configurations that would make technology automation difficult. To explore how technology can be used to address this problem, we worked with local collaborators to design and deploy \u201cNkhukuProbe\u201d\u2014a low-cost sensor-based technology that poultry farmers can interact with via USSD (Unstructured Supplementary Service Data) to monitor and adjust chicken coop conditions. First, we conducted a review of related work on poultry farming in SSA and a pilot study with poultry farming experts. Findings from this work guided the design of NkhukuProbe. Then, we deployed NkhukuProbe in 15 Malawian households for one month. The goals of our deployment were to understand participants\u2019 experiences using NkhukuProbe and to learn about other ways of using sensors in this context. To achieve these goals, we used interview, diary, observation and data logging to collect data throughout the deployment. Our findings suggest that a technology probe's approach unveiled different opportunities for using sensors to support poultry farming in SSA. Further, NkhukuProbe motivated participants to think of other ways of using sensors. We present design implications based on these findings and offer new perspectives on the role of technology in supporting poultry farming activities.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Pandemic, Repair, and Resilience: Coping with Technology Breakdown during COVID-19",
+    "authors": "Rayhan Rashed, Mohammad Rashidujjaman Rifat, Syed Ishtiaque Ahmed",
+    "year": 2021,
+    "link": "https://doi.org/10.1145/3460112.3471965",
+    "doi": "10.1145/3460112.3471965",
+    "abstract": "COVID-19 disrupted the existing ecosystem of technology repair and recycle in Bangladesh as visiting repair workshops became difficult and most repairers and e-waste workers had to temporarily close their businesses. Consequently, users were left with very few choices for fixing or recycling their devices. Based on our interviews with 30 repair and e-waste workers and 21 users of electronic devices we capture various aspects of this disruption and the corresponding coping mechanisms. This paper reports how the repair and e-waste worker communities adopted various changes to their work, provided remote services, and yet faced a decline in their business. On the other hand, end-users learned to fix their devices, collaborated with each other, and negotiated with partially broken devices to address this challenge. We further discuss the broader implications of our findings for HCI scholarship in HCI4D, resilience, and sustainability.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "\"How's Shelby the Turtle today?\" Strengths and Weaknesses of Interactive Animal-Tracking Maps for Environmental Communication",
+    "authors": "Matt Ziegler, Michael Quinlan, Zage Strassberg-Phillips, Manasi Shah, Lauren Vreeken, Chris Jones, Karen Goodfellow, Jes Lefcout, Richard Anderson, Kurtis Heimerl",
+    "year": 2021,
+    "link": "https://doi.org/10.1145/3460112.3471967",
+    "doi": "10.1145/3460112.3471967",
+    "abstract": "Interactive wildlife-tracking maps on public-facing websites and apps have become a popular way to share scientific data with the public as more conservationists and wildlife researchers deploy tracking devices on animals. Environmental organizations engage with the public for a variety of reasons: to raise awareness of environmental causes, build relationships with potential partners, and encourage people to take political and personal actions. However while there is a large body of work comparing different media strategies for environmental communication goals, the effectiveness of interactive data visualizations for these purposes remains unclear. This work examines the strengths and weaknesses of interactive wildlife-tracking maps for environmental communication. We interview conservationists about their aspirations for using these maps with their own data, and conduct a study gauging lay users\u2019 reactions to different designs. Many conservationists aspire to create deep, immersive user engagements with these maps\u2014letting users relate to data-driven stories about individual animals and freely explore the nuances of the tracking data. Our findings show potential for the most highly-motivated users to deeply engage with these data and stories, but more casually-interested audiences struggle with the maps\u2019 complexities. However for casual audiences, wildlife tracking maps can still superficially but effectively showcase the organizations\u2019 work to protect the species; perhaps inspiring hope for their future, attracting audiences to other communication channels to learn more, and adding to the organizations\u2019 credibility. Following these insights, we present a set of design considerations for further development of similar wildlife-tracking map applications; emphasizing their needs for user onboarding, context for data interpretation, and integration with relatable media.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Assessing Bias in Smartphone Mobility Estimates in Low Income Countries",
+    "authors": "Sveta Milusheva, Daniel Bj\u00f6rkegren, Leonardo Viotti",
+    "year": 2021,
+    "link": "https://doi.org/10.1145/3460112.3471968",
+    "doi": "10.1145/3460112.3471968",
+    "abstract": "It has become common for governments and practitioners to measure mobility using data from smartphones, especially during the COVID-19 pandemic. Yet in countries where few people have smartphones, or use mobile internet, the movement of smartphones may not be a good indicator of the movement of the population. This paper develops a framework for approaching potential bias that can arise when measuring mobility with smartphones. Using mobile phone operator records in Uganda, we compare the mobility of smartphones and the basic and feature phones that are more common. Smartphones have different travel patterns, and decrease mobility substantially more in response to a COVID-19 lockdown. This suggests caution when interpreting smartphone mobility estimates in contexts with low adoption.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Predicting Petroleum Fields in Ethnic Regions with Social and Economic Data: Evidence from Africa (Poster)",
+    "authors": "Kweku Opoku-Agyemang",
+    "year": 2021,
+    "link": "https://doi.org/10.1145/3460112.3471971",
+    "doi": "10.1145/3460112.3471971",
+    "abstract": "The paper develops an artificial neural network that predicts the presence of petroleum fields within ethnic country regions across sub-Saharan Africa using rich socioeconomic microdata. Using data from around 300,000 households from 1997 to 2014, the model accurately predicts the presence of petroleum fields in ethnic regions with an overall accuracy of 89.7%. Furthermore, the accuracy of the test and validation were found to be 89.9%. The slightly-increased accuracy in predicting petroleum fields suggests that socioeconomic data may be complementary to standard petroleum studies approaches in unpacking the social context of oil. The paper also explores dimensionality reductions to optimally characterize, organize, and visualize the data. Social science data may have a helpful role to play for oil resources and sustainable development",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Poster: Pallet Estimation for Food Bank Logistics Management",
+    "authors": "Alison Hau, Fei Fang, Zheyuan Ryan Shi",
+    "year": 2021,
+    "link": "https://doi.org/10.1145/3460112.3471978",
+    "doi": "10.1145/3460112.3471978",
+    "abstract": "Food banks provide communities and organizations with food for those in need. One challenge they face is properly estimating the resources needed to fulfill orders. Estimating the number of shipping pallets needed for each order is an important step in allocating these resources, and coupled with limited data, provides a challenging mental task which the food bank staff grapple with on a daily basis. We provide an algorithm to estimate the number of pallets needed for an order based on the quantity of products, the known products-per-tier, and tiers-per-pallet values, as well as a scheme for testing this algorithm with limited data from the food bank. The algorithm aids in resource allocation by reducing uncertainty in the number of pallets needed.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "A Poster on Intestinal Parasite Detection in Stool Sample Using AlexNet and GoogleNet Architectures",
+    "authors": "Rose Nakasi, Ezra Rwakazooba Aliija, Joyce Nakatumba",
+    "year": 2021,
+    "link": "https://doi.org/10.1145/3460112.3472309",
+    "doi": "10.1145/3460112.3472309",
+    "abstract": "Intestinal parasitic infections can cause serious health problems with relatively high infections in the developing world. Microscopy of stool remains the gold standard method for the diagnosis of intestinal parasites. However, this method can be time-consuming, and it is also challenging to maintain consistency in diagnosis across different technicians. This is also hindered by the few competent and skilled technicians in the developing countries where the prevalence of intestinal parasites is high. Deep learning has increasingly gained application ground in different challenging computer vision tasks. There is also growing literature of the use of the same technologies in health diagnostic fields such as microscopy. What is used in the state-of-art computer vision challenges, oftentimes gets applied to real-world challenges. However, this has met different limitations in sensitivity and specificity given the broader range of diversity in data sets; for example, in this study of intestinal parasite detection. In general, deep learning continues to provide good performance to computer vision problems across multiple disciplines. In this paper, we evaluate the use of AlexNet and GoogleNet models\u2019 performance on the diagnosis of intestinal parasite eggs in stool samples. This work goes ahead to compare these out-of-the-box fine-tuned models with a custom-trained Convolutional Neural Network on the same task. In all cases, accuracy from the out-of-the-box models is very high with GoogleNet ROC AUC of 0.99 and AlexNet ROC AUC of 1.00, and runs on a very low computing resource system, which speaks to the fact that out-of-box models can re-purposed for real-world health diagnostic challenges.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Deep Reinforcement Learning for Energy-efficient Parking Video Analytics Platform (Poster Version)",
+    "authors": "Yoones Rezaei, Stephen Lee, Daniel Moss\u00e9",
+    "year": 2021,
+    "link": "https://doi.org/10.1145/3460112.3471980",
+    "doi": "10.1145/3460112.3471980",
+    "abstract": "INTRODUCTION Video cameras are poised to play a pivotal role in providing advanced analytics in smart cities. Although cameras today are used for surveillance purposes and are required to be in \u201calways-on\" mode, video-based analytics go beyond surveillance and offer rich analytics such as business intelligence, environment conservation, and infrastructure management. Recent estimates indicate that millions of cameras are deployed in very diverse environments, and operating cameras in always-on mode unnecessarily increase the energy footprint and cost. An effective way to reduce energy consumption is to operate in standby mode in conjunction with using energy-efficient devices. This allows the device to consume minimal energy, enough to respond to any wakeup event. At the same time, this also reduces the amount of generated data, reducing the overall computational burden. Studies show that these can lead to significant energy savings over time [2]. As such, recent efforts have investigated techniques to reduce energy by switching to standby mode based on device usage prediction [3]. We note that most cameras for video analytics need not necessarily operate in a continuous-on mode, and thus, there is significant potential in reducing energy use [2]. For example, a parking bay\u2019s video analysis can determine vacant spots, but such systems need not always be on as long as it provides parking information in a timely manner. If the parking lot is near full, a driver may need assistance in locating a spot, as the average driver spends 17 hours per year searching for vacant parking bays [4]. On the other hand, if the parking lot is near empty, a vacant parking bay\u2019s exact location may be irrelevant since it should be easy to find a spot to park. As such, if we turn off parking video-analytics when parking space is ample, we can tradeoff utility for energy. Our focus is to develop a reinforcement learning (RL) technique to learn a standby management policy that increases the overall",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "A Poster on Learnings from an Attempt to Build an NLP-based Fake News Classification system for Hindi",
+    "authors": "B. S. Akash, Jathin Badam, K. V. L. N. Raju, Dipanjan Chakraborty",
+    "year": 2021,
+    "link": "https://doi.org/10.1145/3460112.3471974",
+    "doi": "10.1145/3460112.3471974",
+    "abstract": "Proliferation of \u201cFake News\u201d and misinformation is resulting in widespread negative social fallout. Scalable Fake News classification techniques for resource poor languages like Hindi are in early stages because of a lack of datasets and lack of robust NLP libraries for these languages. In this exploratory study we curate a dataset of around 13,000 data points of true news articles, and, articles on fake news authored by media organisations which flag fake news. We then use seven ML classification models on this dataset and present the preliminary results. Our results show that concerted efforts need to be made by the research community towards dataset curation and improving the NLP models for resource poor languages in order to make scalable classification systems.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "[Poster] Association between prenatal exposure to ambient particulate matter (PM2.5) and adverse birth outcomes in Nepal and Bangladesh using the prediction model for daily PM2.5 concentrations matched with demographic and health survey data: spatio-temporal analysis: Predicting PM2.5 in Nepal and Bangladesh using XGBoost, LightGBM, and deep learning with multisource satellite data including Sentinel-5P",
+    "authors": "Ayako Ogawa Kawano",
+    "year": 2021,
+    "link": "https://doi.org/10.1145/3460112.3472312",
+    "doi": "10.1145/3460112.3472312",
+    "abstract": "There is growing evidence on associations of prenatal exposure to ambient particulate matter (PM2.5) with adverse birth outcomes including preterm birth and low birth weight; however, no previous studies have examined such associations in Nepal and Bangladesh due to the lack of resources that affect PM2.5 exposure data collection. This study aims at conducting a spatial-temporal analysis of an association between prenatal exposure to PM2.5 and preterm birth and term low birth weight in Nepal and Bangladesh by using the prediction model for PM2.5 daily concentrations that is geographically matched with Demographic and Health Survey (DHS) data. The main purpose of this poster is to introduce the overall picture of the study and present the materials, methods, and results of the first component of the study: (1) Develop a prediction model for daily PM2.5 concentrations in Nepal and Bangladesh. Contrary to traditional predictive models using satellite-detected Aerosol Optical Depth (AOD) for PM2.5 predictions, our model used the satellite-detected air pollution data (Sentinel-5P). The model performed well overall (R2 = 0.79), for a post-monsoon period (R2 = 0.79), and winter (R2 = 0.74), but worked poorly for summer (R2 = 0.61) and a monsoon period (R2 = 0.46). The model can be further improved by adding input features such as distance to sources of air pollution, local traffic-related data, and ground-level air pollutants that can be statistically computed from relevant column values obtained from Sentinel-5P.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Machine learning-driven recommender systems to improve engagement with health content in a low-resource setting: Poster",
+    "authors": "Aakash Ganju, Sonia Rebecca Menezes, Schenelle Dayna Dlima, Santosh Shevade",
+    "year": 2021,
+    "link": "https://doi.org/10.1145/3460112.3471976",
+    "doi": "10.1145/3460112.3471976",
+    "abstract": "Digital technological tools offer the opportunity to design and disseminate targeted information to influence health behaviors and outcomes. However, extended engagement with health information is vital to promote sustained behavior change in health consumers. Our content-led mobile application for children's health, Saathealth, deployed in a low-resource setting, was used to develop and run machine learning algorithms to build health recommender systems using content and collaborative filtering techniques. We aimed to explore changes in engagement associated with the recommendation systems on the Saathealth app by assessing various aspects of user engagement: videos watched on the app, time spent on the app, sessions on the app, and correct quiz responses. We conducted two A/B experiments to compare the effect of (i) content filtering with no recommendations, and (ii) content filtering with collaborative filtering, on content consumption on the Saathealth app. In experiment 1, the content filtering recommender system was associated with a 25.00% higher median number of videos watched per user compared to when no recommendations were provided after 45 days (5.00 [interquartile range (IQR), 2.00\u201312.00] vs. 4.00 [IQR, 2.00\u201310.50], respectively). Content filtering also led to 53.80% more complete video watches and 13.96% higher proportions of correct quiz responses. When the content filtering recommender system was compared with the collaborative filtering one in experiment 2, users in the collaborative filtering arm watched 66.67% more videos, both at 45 days and 90 days. At 90 days, the median number of videos watched per user was 5.00 (IQR, 2.00\u20139.25) in the collaborative filtering arm and 3.00 (IQR, 2.00\u20136.00) in the content filtering arm. Collaborative filtering also led to 15.01% more time spent on the app and 59.05% higher complete video watches. We found that machine learning-driven health recommender systems may be effective tools to sustain user engagement with health content. These tools have the potential to address various global health challenges by improving health awareness and behaviors in low-resource settings.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Poster: The Low Impact of COVID-19 on Rural Community Network Traffic",
+    "authors": "Nussara Tieanklin, Matthew Johnson, Kurtis Heimerl",
+    "year": 2021,
+    "link": "https://doi.org/10.1145/3460112.3472311",
+    "doi": "10.1145/3460112.3472311",
+    "abstract": "With this poster we present an initial analysis of the implications of the COVID-19 pandemic and regional lockdowns on Internet traffic and credit transfers within a rural community network in Bokondini, Indonesia. We find initial evidence that phenomena observed in other large-scale datasets around lockdowns did not occur in this context, with little change observed in network utilization. We do find a marginal increase in the frequency and size of transfers in the network and observe some users accessing health information and using health-related applications.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Twitter superstars don't win elections: A Poster on Twitter Campaigning and Electoral Realities in the 2021 West Bengal Assembly Elections",
+    "authors": "Rynaa Grover, Gazal Shekhawat, Joyojeet Pal",
+    "year": 2021,
+    "link": "https://doi.org/10.1145/3460112.3471982",
+    "doi": "10.1145/3460112.3471982",
+    "abstract": "Twitter\u2019s role in driving political discourse is well documented in scholarship, yet, its affect on electoral outcomes is unclear. In this work, we analyze the Twitter activity of candidates from four major political parties contesting in assembly elections in the Indian state of West Bengal, alongside the outcomes of the election. We find that winning candidates are more likely to have a Twitter presence. However, Twitter presence in itself does not increase the likelihood of winning. We also find that candidates with high degrees of social media influence, typically celebrities, are more likely to lose, as their high following comes to signify their status as outsiders in politics. Finally, studying sub-regional metrics of social media engagement and election outcomes, we find that Twitter offers us insight into the geographical logic of attention paid by parties in the electoral campaign.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Beyond Business: A Poster Contrasting CEO Activism on Social Media in India and the United States",
+    "authors": "Arshia Arya, Shehla Rashid Shora, Joyojeet Pal",
+    "year": 2021,
+    "link": "https://doi.org/10.1145/3460112.3471983",
+    "doi": "10.1145/3460112.3471983",
+    "abstract": "We studied the Twitter activity of business leaders of top 250 companies in India and the US between January, 2019 and May, 2021 and looked for trends related to cause-related messaging through a topical analysis of their tweets. Using a Word2Vec bag of words model for textual classification, we quantified their engagement with socio-political messaging, using keywords related to the United Nations Sustainable Development Goals (UN SDGs). We found that messaging on themes that have widespread social purchase and are not politically sensitive is relatively comparable across the two countries, but that results differ vastly on issues of political sensitivity. Our results point at the complex relationship between business and politics in the two countries, and the growing importance of social media in signalling those. We conclude by pointing out the importance of these findings for political science and policy research and by highlighting the scope for future work in this area.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Poster: Lessons from Doing Fieldwork with Bandwidth-constrained communities Online",
+    "authors": "Sarina Till, Melissa Densmore, Toshka Lauren Coleman, Nervo Verdezoto Dias",
+    "year": 2021,
+    "link": "https://doi.org/10.1145/3460112.3471979",
+    "doi": "10.1145/3460112.3471979",
+    "abstract": "CCS CONCEPTS \u2022 Human-centered computing \u2192 Empirical studies in HCI .",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "eReuse poster: the circular economy of digital devices",
+    "authors": "Leandro Navarro, Mireia Roura, David Franquesa, Roc Meseguer",
+    "year": 2021,
+    "link": "https://doi.org/10.1145/3460112.3471973",
+    "doi": "10.1145/3460112.3471973",
+    "abstract": "eReuse is an initiative and action-research project that since 2015 has iterated over research and activism to understand, develop, apply to communities, evaluate and scale-up the circular economy of digital devices. The work, in partnership with diverse organisations, has contributed to the transition towards a circular economy of digital devices that contributes effectively to sustainable development.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "'Oshudh Poro': A Mobile-Phone Application to Support Low-literate Rural Bangladeshi People's Personal Medication Management [Poster]",
+    "authors": "Shaid Hasan, S. M. Raihanul Alam, Sharifa Sultana, Syed Ishtiaque Ahmed",
+    "year": 2021,
+    "link": "https://doi.org/10.1145/3460112.3471975",
+    "doi": "10.1145/3460112.3471975",
+    "abstract": "Inability to read and understand the information on medicine packaging is a problem for many people across the world, especially in the Global South. As a solution to this, many of them reportedly often memorize the names and looks of their medicines. However, they often fail to distinguish between registered and unregistered/duplicate medicines and consume them without realizing, which further deteriorates their health conditions and even may lead to death. They frequently seek help from family members and friends to supervise their medicine intake, however, such helpers might still struggle to distinguish between registered and duplicate medicines if the texts written on the medicine\u2019s packaging seem similar. To address this problem, we designed an android mobile-phone application, \u2018Oshudh Poro\u2019 scans medicine packaging, captures images of its unique registry number, matches the number to a database of registered medicines in the country, retrieves the relevant details upon finding the medicine as registered, converts them to Bengali audios and plays the details aloud. Thus, the users know which medicine are they taking, whether it is registered or unregistered and its details. Thus, low-literate users would gain more autonomy in managing their personal medication. We argue that this application would lead wellbeing-HCI to more sustainable design solutions as the application is built on existing skills of users and integrates only the existing features available to the intended users. Thus, our design contributes to wellbeing-HCI, sustainability research, and HCI4D.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "mTransDial: Multilingual Dataset for Transport Domain Dialog Systems (Poster)",
+    "authors": "Priyambada Ambastha, Maunendra Sankar Desarkar",
+    "year": 2021,
+    "link": "https://doi.org/10.1145/3460112.3471977",
+    "doi": "10.1145/3460112.3471977",
+    "abstract": "Task oriented virtual assistants or dialogue systems are being popular for different domains such as restaurant booking, weather update, flight booking etc. The efforts are supported by availability of large scale annotated conversational datasets for such domains. However, the same is not true for transport domain dialogue systems. Moreover, for such systems to be useful, they should be able to handle natural queries submitted by users. For countries like India where most of the people communicate in regional languages, it is important to have such systems support the regional languages. The existing datasets for transport domain are mostly monolingual in nature and support only English language. For countries like India, where people tend to speak multiple languages and have code-mixed conversations the existing systems and the datasets won\u2019t be of much use. To the best of our knowledge, there is no multilingual code-mixed dataset available for designing public transport related conversation systems. In this paper, we propose a code-mixed English-Hindi dataset to accelerate the development of transport domain conversational systems suitable for countries like India. Our dataset has multiple intents like: route finding, bus/train/cab finding, nearby place search, traffic alert queries, out of domain queries. We also provide initial baseline results for user intent identification using existing state of the art models on our dataset and a prototype to show the usability of the work. Extended version for this paper can be found at https://iith.ac.in/~maunendra/papers/COMPASS21-mTransDial.pdf",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  }
+]

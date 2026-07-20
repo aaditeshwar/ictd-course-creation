@@ -1,0 +1,161 @@
+[
+  {
+    "id": null,
+    "title": "Gendered Inequality on Digital Labour Platforms in the Global South: Towards a Freedom-Based Inclusion",
+    "authors": "Chibanda, Rufaro, Tsibolane, Pitso, Nkohla-Ramunenyiwa, Thando",
+    "year": 2022,
+    "venue": "ifip_ict4d_2022",
+    "areas": [
+      "labour"
+    ],
+    "topics": [
+      "problem_discovery",
+      "sociotechnical_dynamics",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "gender"
+    ],
+    "area_agnostic": false,
+    "source_course": "ifip_ict4d_2022_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context (South Africa) and addresses gender inequality in the gig economy, which is relevant to the 'labour' area.",
+    "link": "https://doi.org/10.1007/978-3-031-19429-0_4",
+    "abstract": "The gig economy promises flexible work arrangements and decent income, but it currently maintains a gender gap in employment.\u202fThis paper analyses how gig platform work exacerbates gender inequalities experienced by women gig workers in the global South. The paper argues that the digital nature of these platforms not only accelerates the already existing inequalities outside of digital platforms, but also compromises the freedom of women on these platforms. Through the lens intersectionality, the paper contributes a philosophical lens on the notions of freedom through an empirical study. Fifteen (n\u00a0=\u00a015) female gig workers who use a digital cleaning gig platform were interviewed in Cape Town, South Africa. The main research question is: How does the intersectionality of race, gender and class for black female gig workers affect their freedom and compromise human dignity. The paper proposes a freedom-based inclusion for human dignity in digital platform-driven gig economy.",
+    "_matched_keywords": [
+      "gig work",
+      "platform work",
+      "inequality"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Factors Affecting Citizens\u2019 Use of e-Participation Platforms: A Case of GovChat Platform in Cape Town Municipality",
+    "authors": "Katzef, Aiden, Vumazonke, Nozibele Gcora, Chigona, Wallace, Tuyeni, Teofelus Tonateni, Mtegha, Chimwemwe Queen",
+    "year": 2022,
+    "venue": "ifip_ict4d_2022",
+    "areas": [
+      "governance"
+    ],
+    "topics": [
+      "problem_discovery"
+    ],
+    "cross_cutting_axes": [],
+    "area_agnostic": false,
+    "source_course": "ifip_ict4d_2022_venue_search",
+    "notes": "The paper engages with a developing-regions context (Cape Town municipality) and addresses governance and citizen participation, which aligns with the governance area and problem_discovery topic.",
+    "link": "https://doi.org/10.1007/978-3-031-19429-0_5",
+    "abstract": "Citizen participation is critical to a democratic government as it allows the public to be involved in the decision-making process. e-Participation platforms enable the citizens to participate and voice their concerns. However, there is generally a low usage of e-Participation platforms by the citizens. This paper examines the factors affecting citizens\u2019 use of e-Participation platforms in facilitating citizen participation. The study employed a case study approach using the GovChat platform in Cape Town municipality. The study used a qualitative research method and a deductive approach to theory. The Capability Approach theory was used to investigate the phenomenon of interest. We used the purposive sampling technique to select the 30 participants in the study. In addition, semi-structured interviews were used to collect data from the selected participants. Our results suggest that personal, environmental and social factors affect the effective use of the GovChat platform by citizens in Cape Town municipality.",
+    "_matched_keywords": [
+      "citizen participation",
+      "capability approach",
+      "capability approach"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Introducing Digital Health in Post Conflict Mozambique: A Historical Perspective",
+    "authors": "Collinson, Nilza, Sahay, Sundeep",
+    "year": 2022,
+    "venue": "ifip_ict4d_2022",
+    "areas": [
+      "health"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "impact_evaluation",
+      "sociotechnical_dynamics"
+    ],
+    "cross_cutting_axes": [
+      "climate_change",
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "ifip_ict4d_2022_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context (Mozambique) for digital health implementation, fitting the criteria for the 'health' area.",
+    "link": "https://doi.org/10.1007/978-3-031-19429-0_8",
+    "abstract": "Implementation of digital health in low- and middle-income countries is susceptible to influences of several institutional dynamics, through interactions of technological artefacts, political and other environmental conditions. These dynamics may lead to contradictions, not always obvious nor easily acknowledgeable. History can be valuable to understand and pursue explanations around why and how a technology gets adopted and institutionalized or not in particular settings. This study is part of a project focusing on a longitudinal case, where history is reconstructed over twenty years, in three phases: introducing digital health in post conflict Mozambique (2000\u20132007), disruption of initial efforts to introduce District Health Information Systems (DHIS) platform (2008\u20132014) and, adoption and scaling up of DHIS2 nationally (2015\u20132021). For the purposes of this paper, we conduct analysis to the initial period, with institutionalist lenses, aiming to identify the set of contradictions raised within the context of study and discuss implications for the future.",
+    "_matched_keywords": [
+      "health information systems"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Including the Excluded: Achieving Representation Through Strengthening Health Information Systems in Lao PDR",
+    "authors": "Byrne, Elaine, Braa, J\u00f8rn A., Lewis, John, Boupha, Sam, Phommavong, Chansally",
+    "year": 2022,
+    "venue": "ifip_ict4d_2022",
+    "areas": [
+      "health"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "ifip_ict4d_2022_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context (Lao PDR) and addresses health information systems, which falls under the 'health' area.",
+    "link": "https://doi.org/10.1007/978-3-031-19429-0_11",
+    "abstract": "Making it possible to identify and include marginalized population groups in routine health information systems is a means of digital inclusion. Our study examined the question of How can health information systems be designed and implemented to enable the representation of marginalized population groups ? Through a series of iterative quality improvement assessments (2016\u20132019) of the health information system in Lao PDR a number of substantial changes were made to the routine health information systems. In our analysis we use Zuboff\u2019s notion of representation to illustrate how the development and implementation of a digital register in combination with the family information system enables digital representation of marginalized populations and communities. The impact of the changes implemented over the 4\u00a0years has addressed many challenges within the health information that enables representation. But we argue that addressing social exclusion requires more than representation.",
+    "_matched_keywords": [
+      "health information systems"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Where There is No CISO",
+    "authors": "S\u00e6b\u00f8, Johan Ivar, B\u00fcttner, Andre, Gruschka, Nils, Jolliffe, Bob, McGee, Austin",
+    "year": 2022,
+    "venue": "ifip_ict4d_2022",
+    "areas": [
+      "health"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "governance"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "caste",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "ifip_ict4d_2022_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context, focusing on health information security in environments with poor institutional capacity and limited awareness of security issues.",
+    "link": "https://doi.org/10.1007/978-3-031-19429-0_12",
+    "abstract": "Globally, health information security and associated topics have received considerable attention from both professionals and the academic community. The literature on the threats and mitigations when it comes to developing countries is scarce, and tends to focus on issues such as cryptographic techniques for secure safe data transmission or patients\u2019 perceptions of data confidentiality. However, investigation of health information threats in relation to the local context has received less attention. In this paper we reflect on a long-term and global action research project that presents different perspectives on information security. Operating in environments of absent or obsolete relevant jurisdiction, poor institutional capacity for adherence and oversight, and limited awareness of appropriate security and confidentiality issues, we note unique security and confidentiality threats \u201cwhere there is no CISO\u201d. We reflect on mitigations adopted over the years to counter rising threats, and provide recommendations for practice and further research in this regard.",
+    "_matched_keywords": [
+      "institutional capacity"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Leveraging Blockchain Technology for the Empowerment of Women Micro-entrepreneurs",
+    "authors": "Isaacs, Fazeelah, Oosterwyk, Grant, Njugana, Rebecca",
+    "year": 2022,
+    "venue": "ifip_ict4d_2022",
+    "areas": [
+      "livelihood"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "ethnographic_design",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "gender"
+    ],
+    "area_agnostic": false,
+    "source_course": "ifip_ict4d_2022_venue_search",
+    "notes": "The paper engages with gender and ICT interventions in a developing context, focusing on women micro-entrepreneurs and blockchain technology.",
+    "link": "https://doi.org/10.1007/978-3-031-19429-0_14",
+    "abstract": "Despite the fact that scholars have identified blockchain technology as a powerful tool that can facilitate financial inclusion and empower marginalized people, there is a lack of research regarding its use amongst women, specifically women micro-entrepreneurs. This criticism lends itself to the issue of gender imbalances and inequality in some sections of IT/IS. This study aims to determine the benefits, risks and challenges associated with using blockchain technology for empowering women micro-entrepreneurs. A qualitative research strategy was adopted by using an interview approach, and data collection which focused on the perspectives of professionals employed in the blockchain sector.Using an affordance lens as a guideline, the findings and analysis from the interviews show that blockchain technology both directly and indirectly affords financial inclusion amongst women micro-entrepreneurs in particularly access to financial products and services to promote active participation. We found that many participants motivated that a blockchain solution will not be feasible in the context of a single micro-entrepreneur, but that women should form a network where they will be able to support each other and benefit from economies of scale.",
+    "_matched_keywords": [
+      "financial inclusion",
+      "inequality"
+    ]
+  }
+]
