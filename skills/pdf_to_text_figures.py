@@ -12,7 +12,7 @@ Reads:
                                         manually dropped in following manual_downloads_needed.md)
 Writes:
     <out-dir>/extracted/<reading_id>/text.txt          -- full text, page breaks marked
-    <out-dir>/extracted/<reading_id>/figures/fig_N.png  -- extracted images
+    <out-dir>/extracted/<reading_id>/figures/fig_N.png  -- extracted images (JPX/JP2 saved as PNG)
     <out-dir>/extracted/<reading_id>/figures.json       -- [{file, page, caption_guess}]
     <out-dir>/access_manifest.json                      -- updated in place with text/figure paths
 """
@@ -32,6 +32,29 @@ if HERE not in sys.path:
 from pipeline_common import find_pdf_for_reading  # noqa: E402
 
 CAPTION_PATTERN = re.compile(r"(Figure|Fig\.?)\s*\d+[:.]?\s*[^\n]{0,200}", re.IGNORECASE)
+JPX_EXTENSIONS = frozenset({"jpx", "jp2", "j2k"})
+
+
+def save_figure_image(doc, xref, img_bytes, ext, fig_dir, page_num, img_idx):
+    """Write an extracted image; JPX/JP2/J2K are converted to PNG."""
+    ext_lower = ext.lower()
+    if ext_lower in JPX_EXTENSIONS:
+        fname = f"page{page_num}_img{img_idx}.png"
+        fpath = os.path.join(fig_dir, fname)
+        pix = fitz.Pixmap(doc, xref)
+        try:
+            if pix.n - pix.alpha > 3:
+                pix = fitz.Pixmap(fitz.csRGB, pix)
+            pix.save(fpath)
+        finally:
+            pix = None
+        return fpath
+
+    fname = f"page{page_num}_img{img_idx}.{ext}"
+    fpath = os.path.join(fig_dir, fname)
+    with open(fpath, "wb") as f:
+        f.write(img_bytes)
+    return fpath
 
 
 def extract_pdf(pdf_path, out_dir):
@@ -60,10 +83,10 @@ def extract_pdf(pdf_path, out_dir):
                 continue
             img_bytes = base_image["image"]
             ext = base_image["ext"]
-            fname = f"page{page_num}_img{img_idx}.{ext}"
-            fpath = os.path.join(fig_dir, fname)
-            with open(fpath, "wb") as f:
-                f.write(img_bytes)
+            try:
+                fpath = save_figure_image(doc, xref, img_bytes, ext, fig_dir, page_num, img_idx)
+            except Exception:
+                continue
 
             # best-effort caption: nearest caption-like text found on the same page, else None.
             # This is a heuristic (position-blind) -- for a paper with multiple figures per page,

@@ -1,4 +1,13 @@
-# Local venue-ingestion pipeline
+# ICTD course creation
+
+This repo contains:
+
+- **`site/`** — static course website (readings, examples, schedule)
+- **`src/`**, **`skills/`**, **`data/`** — local pipelines for venue ingestion, case-study generation, and lecture prep (not served to the web)
+
+---
+
+## Local venue-ingestion pipeline
 
 Runs the same three-step process we used for the IJCAI pilot (scrape → keyword prefilter →
 LLM relevance+tagging → dedup against readings.json), but locally, so it can chew through
@@ -72,3 +81,114 @@ risk if you do.
 `candidates_*.json` / `skipped_*.json`, you'll likely want to tighten or loosen the
 developing-regions rule wording based on what you see qwen2.5 getting wrong.
 
+---
+
+## Course website — production (Apache 2)
+
+The public site is **static files only** under `site/`. Apache serves HTML, JS, CSS, JSON, and Markdown; no application server or Python process is required in production.
+
+### 1. Install Apache
+
+On Debian/Ubuntu:
+
+```bash
+sudo apt update
+sudo apt install apache2
+sudo systemctl enable --now apache2
+```
+
+Ensure JSON is served correctly (usually already enabled):
+
+```bash
+grep -i application/json /etc/mime.types
+```
+
+### 2. Deploy the site files
+
+Clone or copy the repo on the server, then publish only the `site/` tree. Example layout:
+
+```bash
+sudo mkdir -p /var/www/ictd-course
+sudo rsync -av --delete site/ /var/www/ictd-course/
+sudo chown -R www-data:www-data /var/www/ictd-course
+```
+
+Before each deploy (or when data changes upstream), sync JSON from `data/` into the web tree:
+
+```bash
+cp data/framework.json data/readings.json data/examples.json site/data/
+rsync -av --delete site/ /var/www/ictd-course/
+```
+
+Edit course copy in `site/content/main_page_content.md` before syncing if needed.
+
+After changing CSS or JS, bump `SITE_ASSET_VERSION` in `site/js/site-config.js` and the matching `?v=` query strings on script/style links in the HTML pages so browsers pick up the new assets.
+
+### 3. Apache virtual host
+
+Create `/etc/apache2/sites-available/ictd-course.conf`:
+
+```apache
+<VirtualHost *:80>
+    ServerName ictd.example.edu
+    DocumentRoot /var/www/ictd-course
+
+    <Directory /var/www/ictd-course>
+        Options -Indexes +FollowSymLinks
+        AllowOverride None
+        Require all granted
+    </Directory>
+
+    # Course data and markdown are loaded via fetch(); allow cross-origin is not needed.
+    # Optional: short cache for static assets, no cache for JSON/markdown during active term.
+    <FilesMatch "\.(html|css|js)$">
+        Header set Cache-Control "public, max-age=3600"
+    </FilesMatch>
+    <FilesMatch "\.(json|md)$">
+        Header set Cache-Control "no-cache"
+    </FilesMatch>
+
+    ErrorLog ${APACHE_LOG_DIR}/ictd-course-error.log
+    CustomLog ${APACHE_LOG_DIR}/ictd-course-access.log combined
+</VirtualHost>
+```
+
+Enable the site and reload Apache:
+
+```bash
+sudo a2enmod headers
+sudo a2ensite ictd-course.conf
+sudo a2dissite 000-default.conf   # optional, if this vhost should be the default
+sudo apache2ctl configtest
+sudo systemctl reload apache2
+```
+
+Replace `ictd.example.edu` with your hostname and point DNS (or `/etc/hosts` for testing) at the server.
+
+### 4. HTTPS (recommended)
+
+```bash
+sudo apt install certbot python3-certbot-apache
+sudo certbot --apache -d ictd.example.edu
+```
+
+Certbot adds a `:443` vhost and renewal cron. Re-run `certbot renew --dry-run` after major Apache upgrades.
+
+### 5. Updates
+
+To publish content or data changes:
+
+```bash
+cd /path/to/ictd-course-creation
+git pull
+cp data/framework.json data/readings.json data/examples.json site/data/
+sudo rsync -av --delete site/ /var/www/ictd-course/
+```
+
+No build step. Refresh the browser; JSON loads use `cache: no-store` in the client.
+
+### 6. What stays off the server
+
+Do **not** expose the repo root, `.env`, `data/lecture-prep/`, `data/examples-output/`, or `.venv/` via Apache. Only sync `site/` to the document root. Pipeline scripts (`src/`, `skills/`) run on a developer or batch machine, not through the web server.
+
+Local preview: see [`site/README.md`](site/README.md).

@@ -2,6 +2,8 @@
 
 Static HTML/CSS/JS site for the ICTD course reading list and framework.
 
+**Production deployment (Apache 2):** see the [main README](../README.md#course-website--production-apache-2).
+
 ## Local preview
 
 Because the pages load JSON and Markdown via `fetch()`, opening `index.html` directly
