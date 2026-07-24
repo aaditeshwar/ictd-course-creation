@@ -1,0 +1,296 @@
+[
+  {
+    "id": null,
+    "title": "You Keep Using That Word: Ways of Thinking about Gender in Computing Research",
+    "authors": "Os Keyes, Chandler May, Annabelle Carrell",
+    "year": 2021,
+    "venue": "cscw_2021_1",
+    "areas": [],
+    "topics": [
+      "cs_fundamentals",
+      "ethnographic_design",
+      "sociotechnical_dynamics",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "gender"
+    ],
+    "area_agnostic": true,
+    "source_course": "cscw_2021_1_venue_search",
+    "notes": "The paper addresses gender, a cross-cutting axis relevant to ICT for Development and Sustainability in India and other contexts.",
+    "link": "https://doi.org/10.1145/3449113",
+    "abstract": "CSCW researchers have long inquired into the ways that identity informs, and is informed by, the design of technological systems. Gender is a regularly considered aspect of identity, with extensive work documenting and exploring gendered experiences and designs with the aim of addressing inequalities in, or through, design. Recent work has questioned the way that we conceptualise and \"measure\" gender, advocating more nuanced classificatory schemes to avoid silencing or obscuring trans and/or non-binary experiences. Building on and extending this research, our work examines how gender is conceptualised more broadly. Drawing from a range of theoretical perspectives in gender studies, feminist and postcolonial theory, we argue for the treatment of gender as \"multiplicitous\" when we conceptualise and interpret research, in order to avoid unintentionally perpetuating silencing and inequality even as we work to tackle it. Illustrating our argument with examples from both within and without CSCW, we suggest both new research directions for CSCW scholars inquiring into gender, and sensitising questions that scholars can use when constructing and evaluating studies.",
+    "_matched_keywords": [
+      "inequality"
+    ]
+  },
+  {
+    "id": null,
+    "title": "\"We Even Borrowed Money From Our Neighbor\": Understanding Mobile-based Frauds Through Victims' Experiences",
+    "authors": "Lubna Razaq, Tallal Ahmad, Samia Ibtasam, Muhammad Umer Ramzan, Shrirang Mare",
+    "year": 2021,
+    "venue": "cscw_2021_1",
+    "areas": [
+      "media_information"
+    ],
+    "topics": [
+      "problem_discovery",
+      "ethnographic_design",
+      "sociotechnical_dynamics"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "cscw_2021_1_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context (Pakistan) and addresses issues related to mobile-based fraud, which is relevant to the course's focus on ICT for Development and Sustainability.",
+    "link": "https://doi.org/10.1145/3449115",
+    "abstract": "Mobile-based scams are on the rise in emerging markets. However, the awareness about these scams and ways to avoid them remains limited among mobile users. We present a qualitative analysis of the dynamics of mobile-based fraud (specifically, SMS and call-based fraud) in Pakistan. We interviewed 96 participants, including different stakeholders in the mobile financial ecosystem: 71 victims of mobile-based scams, seven non-victims, 15 mobile money agents, and three officials from regulatory agencies that investigate mobile-based fraud. Leveraging the perspectives from these stakeholders and analyzing mobile-based fraud with a four-step social-engineering attack framework, we make four concrete contributions: First, we identify the nuances as well as specific tactics, methods, and resources that fraudsters use to scam mobile users. Second, we look at other actors, beyond the victim and the adversary, involved or affected by fraud and their roles at each step of the fraud process. Third, we discuss victims' understanding of mobile fraud, their behavior post-realization, and their attitudes toward reporting fraud. Finally, we discuss possible points of intervention and offer design recommendations to thwart mobile fraud, including addressing the vulnerabilities discovered in the ecosystem, utilizing existing actors to mitigate the consequences of these attacks, and realigning the design of fraud reporting mechanisms with the sociocultural practices.",
+    "_matched_keywords": [
+      "mobile money"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Dakter Bari: Introducing Intermediary to Ensure Healthcare Services to Extremely Impoverished People",
+    "authors": "Md. Aminur Rahman, Rayhan Rashed, Sharmin Akther Purabi, Noshin Ulfat, Sriram Chellappan, A. B. M. Alim Al Islam",
+    "year": 2021,
+    "venue": "cscw_2021_1",
+    "areas": [
+      "health"
+    ],
+    "topics": [
+      "ethnographic_design",
+      "impact_evaluation",
+      "operations_scale"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "caste",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "cscw_2021_1_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context (Bangladesh) and addresses healthcare delivery to extremely impoverished people, fitting the 'health' area.",
+    "link": "https://doi.org/10.1145/3449118",
+    "abstract": "Bangladesh (a low-income country) has a significant number of people dependent on alms for daily survival. These people, who we address as extremely impoverished people (EIP) are deprived of even basic healthcare. Their extreme levels of poverty, coupled with low literacy skills, and complete lack of access to technology means that they are unaware of existing low-cost/free healthcare services (as arranged by local hospitals) available for EIPs. In this paper, we address this gap by means of a carefully-crafted solution, Dakter Bari (a term in Bengali that translates to \"Doctor's Home'' in English), that is contextually tailored to enable healthcare access to impoverished people. Extracting critical insights from our field study with (N=70) EIPs, we create a pathway for availing lower-cost healthcare solutions using intermediaries for information dissemination. These intermediaries are small businesses that impoverished people visit often. We also conduct field studies with (N=71) intermediary partners and (N=10) hospitals to identify challenges and realities of such intermediary-based solutions. Based on our findings, we design, iteratively develop, deploy, and user-test our system in real cases and collect feedback from related stakeholders. Preliminary analysis on usage of our system (deployed at intermediaries) revealed 255 healthcare requests made by EIPs via our system in six months. We connect our finding to the broader interests of CSCW around contextualized intermediation, inclusive healthcare, and sustainability of deployed systems.",
+    "_matched_keywords": [
+      "intermediaries"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Jane Jacobs in the Sky: Predicting Urban Vitality with Open Satellite Data",
+    "authors": "Sanja Scepanovic, Sagar Joglekar, Stephen Law, Daniele Quercia",
+    "year": 2021,
+    "venue": "cscw_2021_1",
+    "areas": [
+      "infrastructure"
+    ],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [],
+    "area_agnostic": true,
+    "source_course": "cscw_2021_1_venue_search",
+    "notes": "The paper applies strong computer science methods to predict urban vitality using satellite data, which aligns with the 'cs_fundamentals' topic rule allowing general-purpose methodology adaptable to developing regions.",
+    "link": "https://doi.org/10.1145/3449257",
+    "abstract": "The presence of people in an urban area throughout the day -- often called 'urban vitality' -- is one of the qualities world-class cities aspire to the most, yet it is one of the hardest to achieve. Back in the 1970s, Jane Jacobs theorized urban vitality and found that there are four conditions required for the promotion of life in cities: diversity of land use, small block sizes, the mix of economic activities, and concentration of people. To build proxies for those four conditions and ultimately test Jane Jacobs's theory at scale, researchers have had to collect both private and public data from a variety of sources, and that took decades. Here we propose the use of one single source of data, which happens to be publicly available: Sentinel-2 satellite imagery. In particular, since the first two conditions (diversity of land use and small block sizes) are visible to the naked eye from satellite imagery, we tested whether we could automatically extract them with a state-of-the-art deep-learning framework and whether, in the end, the extracted features could predict vitality. In six Italian cities for which we had call data records, we found that our framework is able to explain on average 55% of the variance in urban vitality extracted from those records.",
+    "_matched_keywords": [
+      "satellite imagery",
+      "Sentinel-2"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Delivery Work and the Experience of Social Isolation",
+    "authors": "Bhavani Seetharaman, Joyojeet Pal, Julie Hui",
+    "year": 2021,
+    "venue": "cscw_2021_1",
+    "areas": [
+      "labour"
+    ],
+    "topics": [
+      "problem_discovery",
+      "ethnographic_design"
+    ],
+    "cross_cutting_axes": [
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "cscw_2021_1_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context in India, focusing on gig work and social isolation among delivery workers in Bangalore.",
+    "link": "https://doi.org/10.1145/3449138",
+    "abstract": "The isolating nature of platform-based work, particularly gig work involving deliveries, has created unintended consequences over how workers engage with peers, friends, family, and society in general. We performed a qualitative study involving interviews with 21 delivery workers in Bangalore, India to understand how workers experienced and responded to social isolation perpetuated by the nature and daily function of their work. We found that the stigma and individual nature of app-based delivery work restricts access to inter-relational and instrumental support. As a response, workers organized peer networks for both companionship and emergency assistance. We analyze how the cultural context of India heightens these experiences, and offer ideas for mitigating the risks of isolation as a result of gig work.",
+    "_matched_keywords": [
+      "gig work"
+    ]
+  },
+  {
+    "id": null,
+    "title": "A Transformer-based Framework for Neutralizing and Reversing the Political Polarity of News Articles",
+    "authors": "Ruibo Liu, Chenyan Jia, Soroush Vosoughi",
+    "year": 2021,
+    "venue": "cscw_2021_1",
+    "areas": [],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [],
+    "area_agnostic": true,
+    "source_course": "cscw_2021_1_venue_search",
+    "notes": "The paper applies strong computer science methods to a societal issue, fitting the 'cs_fundamentals' topic rule.",
+    "link": "https://doi.org/10.1145/3449139",
+    "abstract": "People often prefer to consume news with similar political predispositions and access like-minded news articles, which aggravates polarized clusters known as \"echo chamber\". To mitigate this phenomenon, we propose a computer-aided solution to help combat extreme political polarization. Specifically, we present a framework for reversing or neutralizing the political polarity of news headlines and articles. The framework leverages the attention mechanism of a Transformer-based language model to first identify polar sentences, and then either flip the polarity to the neutral or to the opposite through a GAN network. Tested on the same benchmark dataset, our framework achieves a 3%-10% improvement on the flipping/neutralizing success rate of headlines compared with the current state-of-the-art model. Adding to prior literature, our framework not only flips the polarity of headlines but also extends the task of polarity flipping to full-length articles. Human evaluation results show that our model successfully neutralizes or reverses the polarity of news without reducing readability. We release a large annotated dataset that includes both news headlines and full-length articles with polarity labels and meta-data to be used for future research. Our framework has a potential to be used by social scientists, content creators and content consumers in the real world.",
+    "_matched_keywords": [
+      "polarization",
+      "political polarization"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Problematic Machine Behavior: A Systematic Literature Review of Algorithm Audits",
+    "authors": "Jack Bandy",
+    "year": 2021,
+    "venue": "cscw_2021_1",
+    "areas": [],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [],
+    "area_agnostic": true,
+    "source_course": "cscw_2021_1_venue_search",
+    "notes": "The paper, while not set in a developing region, provides general-purpose methodology that could be adapted to a developing-regions context for the 'cs_fundamentals' topic.",
+    "link": "https://doi.org/10.1145/3449148",
+    "abstract": "While algorithm audits are growing rapidly in commonality and public importance, relatively little scholarly work has gone toward synthesizing prior work and strategizing future research in the area. This systematic literature review aims to do just that, following PRISMA guidelines in a review of over 500 English articles that yielded 62 algorithm audit studies. The studies are synthesized and organized primarily by behavior (discrimination, distortion, exploitation, and misjudgement), with codes also provided for domain (e.g. search, vision, advertising, etc.), organization (e.g. Google, Facebook, Amazon, etc.), and audit method (e.g. sock puppet, direct scrape, crowdsourcing, etc.). The review shows how previous audit studies have exposed public-facing algorithms exhibiting problematic behavior, such as search algorithms culpable of distortion and advertising algorithms culpable of discrimination. Based on the studies reviewed, it also suggests some behaviors (e.g. discrimination on the basis of intersectional identities), domains (e.g. advertising algorithms), methods (e.g. code auditing), and organizations (e.g. Twitter, TikTok, LinkedIn) that call for future audit attention. The paper concludes by offering the common ingredients of successful audits, and discussing algorithm auditing in the context of broader research working toward algorithmic justice.",
+    "_matched_keywords": [
+      "algorithmic justice",
+      "algorithmic justice"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Vartalaap: What Drives #AirQuality Discussions: Politics, Pollution or Pseudo-science?",
+    "authors": "Rishiraj Adhikary, Zeel B. Patel, Tanmay Srivastava, Nipun Batra, Mayank Singh, Udit Bhatia, Sarath Guttikunda",
+    "year": 2021,
+    "venue": "cscw_2021_1",
+    "areas": [
+      "media_information",
+      "health"
+    ],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [
+      "climate_change"
+    ],
+    "area_agnostic": false,
+    "source_course": "cscw_2021_1_venue_search",
+    "notes": "The paper applies a scalable solution using NLP to understand public perception of air pollution, which can be adapted to a developing-regions context under the 'cs_fundamentals' topic rule.",
+    "link": "https://doi.org/10.1145/3449170",
+    "abstract": "Air pollution is a global challenge for cities across the globe. Understanding the public perception of air pollution can help policymakers engage better with the public and appropriately introduce policies. Accurate public perception can also help people to identify the health risks of air pollution and act accordingly. Unfortunately, current techniques for determining perception are not scalable: it involves surveying few hundred people with questionnaire-based surveys. Using the advances in natural language processing (NLP), we propose a more scalable solution called Vartalaap to gauge public perception of air pollution via the microblogging social network Twitter. We curated a dataset of more than 1.2M tweets discussing Delhi-specific air pollution. We find that (unfortunately) the public is supportive of unproven mitigation strategies to reduce pollution, thus risking their health due to a false sense of security. We also find that air quality is a year-long problem, but the discussions are not proportional to the level of pollution and spike up when pollution is more visible. The information required by Vartalaap is publicly available and, as such, it can be immediately applied to study different societal issues across the world.",
+    "_matched_keywords": [
+      "natural language processing (NLP)"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Exploring Entrepreneurial Activities in Marginalized Widows: A Case from Rural Sri Lanka",
+    "authors": "Upul Anuradha Rathnayake, Thilina Halloluwa, Pradeepa Bandara, Medhani Narasinghe, Dhaval Vyas",
+    "year": 2021,
+    "venue": "cscw_2021_1",
+    "areas": [
+      "livelihood"
+    ],
+    "topics": [
+      "problem_discovery",
+      "ethnographic_design",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "cscw_2021_1_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context, focusing on rural Sri Lanka and marginalized widows.",
+    "link": "https://doi.org/10.1145/3449216",
+    "abstract": "In some developing countries, widows are looked down upon and are often considered inauspicious especially in rural regions. Some societies even consider them and their issues invisible. This paper presents findings from a qualitative study focused on understanding how technology could facilitate entrepreneurial and DIY activities of widows from rural Sri Lanka. We conducted semi-structured interviews and field observations with thirteen widows from low socio-economic backgrounds, who were involved in various small-scale entrepreneurial activities. Our findings showed three central aspects associated with their entrepreneurial activities which can be supported through technology: initial stages of entrepreneurship, balancing work with life, and dealing with exploitations. This paper explores how gender inequality in a social context affects marginalized women in rural Sri Lanka in conducting their entrepreneurial efforts. In particular, we highlight resilient practices that the participants apply to support their entrepreneurial activities. With an \"assets-based approach\" we conclude by providing implications for policymakers, media, and HCI practitioners to support this inbuilt resilience by leveraging their current assets.",
+    "_matched_keywords": [
+      "inequality"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Being Regulated: Licence to Imagine New Technology for Community Radio",
+    "authors": "Nicola J. Bidwell, Roberto Cibin, Conor Linehan, Laura Maye, Sarah Robinson",
+    "year": 2021,
+    "venue": "cscw_2021_1",
+    "areas": [
+      "media_information"
+    ],
+    "topics": [
+      "ethnographic_design",
+      "sociotechnical_dynamics"
+    ],
+    "cross_cutting_axes": [
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "cscw_2021_1_venue_search",
+    "notes": "The paper engages with the development of technology for community radio in a low-resource setting, which aligns with the Media & Information Ecosystems area.",
+    "link": "https://doi.org/10.1145/3449228",
+    "abstract": "Licencing frameworks are embedded with sociotechnical imaginaries that limit the potential for networked technologies to make traditional media forms, like radio, more inclusive. We sought to refine and extend a platform, RootIO, which aims to enable diverse people to run small radio stations by using internet and mobile networks that avoid the costs of studios and specialist equipment. We situated design and refinement in the activities of groups that set up and ran four community stations in rural Romania and some Irish islands over three-years and found national regulations limited who articulated requirements. Activities in applying for, and complying with, licences shaped design priorities, embedded temporal demands, certain organisational structures and division of responsibilities, and assumptions about studios and professionalism. Indeed, small radio stations are subject to the same values as large media corporations that pursue market power. Regulatory frameworks are specific to nations and media form, yet our analysis illustrates that they impede designing platforms to widen inclusion by enacting broader sociotechnical imaginaries. We hope this reflection provokes discussion, in HCI and CSCW, about our responsibilities in engaging with the policies that shape possible futures.",
+    "_matched_keywords": [
+      "community radio"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Integrating Cultural Relevance into a Behavioral mHealth Intervention for Native American Youth",
+    "authors": "Morgan Vigil-Hayes, Ann Futterman Collier, Shelby Hagemann, Giovanni Castillo, Keller Mikkelson, Joshua Dingman, Andrew Mu\u00f1oz, Jade Luther, Alexandra McLaughlin",
+    "year": 2021,
+    "venue": "cscw_2021_1",
+    "areas": [
+      "health"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "ethnographic_design",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "cscw_2021_1_venue_search",
+    "notes": "The paper engages with a developing-regions context, specifically Native American communities, which face significant behavioral health disparities.",
+    "link": "https://doi.org/10.1145/3449239",
+    "abstract": "Native American communities are disproportionately affected by a number of behavioral health disparities, including higher rates of depression, substance abuse, and suicide. As mobile health (mHealth) interventions gain traction as methods for addressing these disparities, they continue to lack relevance to Native American youth. In an effort to explore the design of relevant behavioral mHealth intervention for Native American communities, we have developed ARORA (Amplifying Resilience Over Restricted Internet Access), a prototype behavioral mHealth intervention that has been co-designed with Native American youth, a community advisory board, and a clinical psychologist. In this paper, we qualitatively analyze our co-design and focus group sessions using a grounded theory approach and identify the key themes that Native American community members have identified as being critical components of relevant mHealth designs. Notably, we find that the Native American youth who participated in our focus groups desired a greater level of didactic interaction with cultural and behavioral health elements. We conclude with a discussion of the significant challenges we faced in our efforts to co-design software with Native American stakeholders and provide recommendations that might guide other HCI researchers and designers through challenges that arise during the process of cross-cultural design.",
+    "_matched_keywords": [
+      "mHealth",
+      "co-design"
+    ]
+  },
+  {
+    "id": null,
+    "title": "\"I can show what I really like.\": Eliciting Preferences via Quadratic Voting",
+    "authors": "Ti-Chung Cheng, Tiffany Wenting Li, Yi-Hung Chou, Karrie Karahalios, Hari Sundaram",
+    "year": 2021,
+    "venue": "cscw_2021_1",
+    "areas": [],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [],
+    "area_agnostic": true,
+    "source_course": "cscw_2021_1_venue_search",
+    "notes": "The paper applies a general-purpose methodology (Quadratic Voting) that could be adapted to a developing-regions context, fitting the cs_fundamentals topic rule.",
+    "link": "https://doi.org/10.1145/3449281",
+    "abstract": "Surveys are a common instrument to gauge self-reported opinions from the crowd for scholars in the CSCW community, the social sciences, and many other research areas. Researchers often use surveys to prioritize a subset of given options when there are resource constraints. Over the past century, researchers have developed a wide range of surveying techniques, including one of the most popular instruments, the Likert ordinal scale, to elicit individual preferences. However, the challenge to elicit accurate and rich self-reported responses with surveys in a resource-constrained context still persists today. In this study, we examine Quadratic Voting (QV), a voting mechanism powered by the affordances of a modern computer and straddles ratings and rankings approaches, as an alternative online survey technique. We argue that QV could elicit more accurate self-reported responses compared to the Likert scale when the goal is to understand relative preferences under resource constraints. We conducted two randomized controlled experiments on Amazon Mechanical Turk, one in the context of public opinion polling and the other in a human-computer interaction user study. Based on our Bayesian analysis results, a QV survey with a sufficient amount of voice credits, aligned significantly closer to participants' incentive-compatible behaviors than a Likert scale survey, with a medium to high effect size. In addition, we extended QV's application scenario from typical public policy and education research to a problem setting familiar to the CSCW community: a prototypical HCI user study. Our experiment results, QV survey design, and QV interface serve as a stepping stone for CSCW researchers to further explore this surveying methodology in their studies and encourage decision-makers from other communities to consider QV as a promising alternative.",
+    "_matched_keywords": [
+      "controlled experiments"
+    ]
+  }
+]

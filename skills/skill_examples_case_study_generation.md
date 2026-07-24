@@ -296,3 +296,44 @@ overriding by hand if two merged case studies don't actually belong together.
   merged in, a batch of corrections lands) -- case studies that were thin before may now have
   enough readings to justify a fuller entry, and new domains may have appeared.
 
+## Incremental assignment (new readings, existing case studies — no re-clustering)
+
+When `readings.json` grows (e.g. after merging CSCW or CHI candidates) but the **domain structure
+in `examples.json` should stay fixed**, do **not** re-run full `generate_examples_via_api.py`.
+That would redo domain discovery and may propose duplicate or conflicting case studies.
+
+Use `skills/assign_readings_to_examples.py` instead (processes **one framework area at a time** — only
+that area's case studies and readings go into each prompt):
+
+```bash
+# Per-area prompt size estimate (include not-yet-merged candidates)
+python skills/assign_readings_to_examples.py --dry-run --candidates data/candidates_cscw_2025_1.json
+
+# Assign only readings from a new venue batch (after merge)
+python skills/assign_readings_to_examples.py --backend ollama --venue-prefix cscw_
+```
+
+Behavior:
+
+- Loads the **existing** `case_studies` list unchanged (same ids, names, descriptions,
+  `background_concepts`).
+- Finds readings not yet in any case study (skips `area_agnostic: true`).
+- Iterates **framework areas in order**; each LLM call sees only case studies tagged to that area
+  and uncovered readings tagged to that area (chunked).
+- **Never creates new case studies.**
+- Recomputes `topics_covered` / `cross_cutting_axes` from member readings after assignment.
+
+**Backend:** defaults to **Ollama** (`OLLAMA_*` in `.env`). Pass `--backend anthropic` to use Claude
+instead (same prompt shape as the reconcile stage in `generate_examples_via_api.py`, but without
+`new_case_studies`).
+
+Typical workflow after a venue merge:
+
+1. `python src/run_pipeline.py cscw_2024_1` → review → `merge_candidates.py`
+2. `python skills/assign_readings_to_examples.py --backend ollama --venue-prefix cscw_`
+3. Spot-check assignments; manually move any mis-folded reading ids between case studies
+4. Copy `data/examples.json` to `site/data/` if the website mirrors it
+
+Readings left **unassigned** after step 2 are expected when no existing domain fits — better than
+forcing a weak match. They remain browsable via `readings.json` and can be assigned manually later.
+

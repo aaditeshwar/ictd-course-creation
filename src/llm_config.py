@@ -54,3 +54,15 @@ def get_anthropic_model():
 def get_alignment_backend():
     load_dotenv()
     return os.environ.get("ALIGNMENT_BACKEND", DEFAULT_ALIGNMENT_BACKEND).strip().lower()
+
+
+def get_map_backend():
+    load_dotenv()
+    raw = os.environ.get("MAP_BACKEND") or os.environ.get("ALIGNMENT_BACKEND", DEFAULT_ALIGNMENT_BACKEND)
+    return raw.strip().lower()
+
+
+def get_reduce_backend():
+    load_dotenv()
+    raw = os.environ.get("REDUCE_BACKEND") or os.environ.get("ALIGNMENT_BACKEND", DEFAULT_ALIGNMENT_BACKEND)
+    return raw.strip().lower()

@@ -1,0 +1,756 @@
+[
+  {
+    "id": null,
+    "title": "Distance Matters in Citizen-Based Water Quality Monitoring",
+    "authors": "Srishti Gupta, John M. Carroll, Chun-Hua Tsai",
+    "year": 2025,
+    "venue": "cscw_2025_2",
+    "areas": [
+      "water_security"
+    ],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [],
+    "area_agnostic": false,
+    "source_course": "cscw_2025_2_venue_search",
+    "notes": "The paper discusses a general-purpose methodology that could be adapted to a developing-regions context for water quality monitoring, aligning with the cs_fundamentals topic rule.",
+    "link": "https://doi.org/10.1145/3757470",
+    "abstract": "Water pollution remains a critical global challenge, threatening public health and aquatic ecosystems. Governmental efforts to monitor and manage water resources often face limitations due to constrained resources and socio-political priorities that may not prioritize sustainable solutions. Citizen science has emerged as a promising approach, engaging communities in scientific research to expand data collection capabilities and foster environmental stewardship. This paper explores the role of distributed collaboration infrastructure, exemplified by the Water Data Collaborative (WDC), in connecting and enhancing citizen-based water quality monitoring groups across North America. Through participatory design sessions with WDC users, the study identifies essential design features needed to support collaboration and address common challenges such as data standardization and resource sharing. Our findings emphasize the complexity of relationships among citizen science groups, government entities, and higher-order organizations, emphasizing the need for scalable, integrated solutions that avoid creating new silos within the ecosystem. This research contributes insights into how CSCW and HCI can facilitate effective citizen science practices and infrastructure design to advance sustainable water management.",
+    "_matched_keywords": [
+      "participatory design"
+    ]
+  },
+  {
+    "id": null,
+    "title": "'Fatherhood is a Unique Experience': Visibilizing and Contextualizing Paternal Care Work",
+    "authors": "Karthik S. Bhat, Neha Madhiwalla, Neha Kumar",
+    "year": 2025,
+    "venue": "cscw_2025_2",
+    "areas": [
+      "health"
+    ],
+    "topics": [
+      "problem_discovery",
+      "ethnographic_design"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "caste"
+    ],
+    "area_agnostic": false,
+    "source_course": "cscw_2025_2_venue_search",
+    "notes": "The paper engages with a developing-regions context in India, focusing on maternal and child health through a lens that considers the role of fathers in underserved urban communities.",
+    "link": "https://doi.org/10.1145/3757407",
+    "abstract": "Computer-Supported Cooperative Work (CSCW) research on maternal and child health (MCH) has largely taken mother- or child-centric lenses to technology design for improved outcomes. An emerging body of CSCW research has called for a renewed focus on supporting caregivers through sociotechnical interventions to enable better health outcomes. Our research--with underserved communities in urban India--extends this prior work by centering fathers and their care work during pregnancy and early childhood. We examine how gender roles, religious beliefs, aspirations for social mobility, and financial responsibilities influence fathers' participation in MCH. We use qualitative inquiry in highlighting the constraints on the nature of care work fathers are able to perform given the patriarchal and societal norms they operate within, and how the care work they perform is rendered invisible by diverging from traditional notions of care. In doing so, we expand dominant notions of care work in such ecologies, and discuss implications for the design of technologies for better supporting fathers towards familial wellbeing.",
+    "_matched_keywords": [
+      "maternal and child health"
+    ]
+  },
+  {
+    "id": null,
+    "title": "AI Ethics and Social Norms: Exploring ChatGPT's Capabilities From What to How",
+    "authors": "Omid Veisi, Sasan Bahrami, Roman Englert, Claudia M\u00fcller",
+    "year": 2025,
+    "venue": "cscw_2025_2",
+    "areas": [
+      "health"
+    ],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [],
+    "area_agnostic": false,
+    "source_course": "cscw_2025_2_venue_search",
+    "notes": "The paper addresses the use of AI in healthcare, which can be adapted to a developing-regions context, thus fitting the cs_fundamentals topic rule.",
+    "link": "https://doi.org/10.1145/3757397",
+    "abstract": "Using LLMs in healthcare, Computer-Supported Cooperative Work, and Social Computing requires the examination of ethical and social norms to ensure safe incorporation into human life. We conducted a mixed-method study, including an online survey with 111 participants and an interview study with 38 experts, to investigate the AI ethics and social norms in ChatGPT as an everyday life tool. This study aims to evaluate whether ChatGPT in an empirical context operates following ethics and social norms, which is critical for understanding actions in industrial and academic research and achieving machine ethics. The findings of this study provide initial insights into six important aspects of AI ethics, including bias, trustworthiness, security, toxicology, social norms, and ethical data. Significant obstacles related to transparency and bias in unsupervised data collection methods are identified as ChatGPT's ethical concerns.",
+    "_matched_keywords": [
+      "data collection methods"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Speculating Migrant Possible Worlds through Magic Machines",
+    "authors": "Valentina Nisi, Paulo Bala, Vanessa Ces\u00e1rio, Shuhao Ma, Nuno Jardim Nunes",
+    "year": 2025,
+    "venue": "cscw_2025_2",
+    "areas": [
+      "labour",
+      "governance"
+    ],
+    "topics": [
+      "ethnographic_design",
+      "sociotechnical_dynamics"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "cscw_2025_2_venue_search",
+    "notes": "The paper engages with a developing-regions context through its focus on marginalized migrant communities, which aligns with the labour and governance areas.",
+    "link": "https://doi.org/10.1145/3757505",
+    "abstract": "Migration and technology studies increasingly recognize the importance of incorporating migrant perspectives in design processes. Speculative design methods have emerged as powerful tools for imagining alternative futures, particularly when working with marginalized communities. However, there remains a gap in understanding how to effectively engage long-term settled migrants in participatory design processes that honor their experiences and imaginative capacities. Here we show how integrating feminist care principles with speculative design methods can create more inclusive and empathetic approaches to technology design with migrant communities. Through workshops applying the ''magic machines'' methodology, we demonstrate how participatory speculation enables migrants to articulate their experiences, anxieties, and hopes for technological futures. Our findings reveal the importance of considering diasporic minds and cross-border connectivity in future technologies. This work provides immediate opportunities for researchers and designers to develop more inclusive approaches to speculative design while challenging dominant narratives about technological futures in migrant communities.",
+    "_matched_keywords": [
+      "participatory design",
+      "marginalized communities",
+      "marginalized communities"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Towards a Responsible AI Organizational Maturity Model",
+    "authors": "Amy Heger, Samir Passi, Shipi Dhanorkar, Zoe Kahn, Ruotong Wang, Mihaela Vorvoreanu",
+    "year": 2025,
+    "venue": "cscw_2025_2",
+    "areas": [],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [],
+    "area_agnostic": true,
+    "source_course": "cscw_2025_2_venue_search",
+    "notes": "The paper addresses general-purpose methodology that could be adapted to a developing-regions context, fitting the cs_fundamentals topic rule.",
+    "link": "https://doi.org/10.1145/3757514",
+    "abstract": "Artificial intelligence (AI) holds tremendous potential but also poses consequential risks. Regulation frameworks like the EU AI Act aim to mitigate these risks, yet organizations struggle to understand and operationalize Responsible AI (RAI). We introduce the RAI Organizational Maturity (RAI-OM) framework as an initial step towards a RAI maturity model to highlight the many factors that influence an organization's RAI maturity. Developed through in-depth qualitative interviews and co-design sessions with 90 RAI experts, the RAI-OM framework consists of 24 dimensions grouped into three main categories: Organizational Foundations, Team Approach, and RAI Practices. Our findings also provide further evidence for the interdependent nature of RAI's organizational factors, the import of collaboration for mature RAI, and the need to start RAI early in the AI lifecyle. Researchers and practitioners can use the RAI-OM framework and our research findings to not only understand the different moving parts in RAI's complex organizational machinery, but also address organizational barriers to RAI, unpack the different types of collaborations needed for mature RAI, and support RAI's articulation work and process.",
+    "_matched_keywords": [
+      "co-design"
+    ]
+  },
+  {
+    "id": null,
+    "title": "ThemeViz: Understanding the Effect of Human-AI Collaboration in Theme Development with an LLM-enhanced Interactive Visual System",
+    "authors": "Daye Kang, Zhuolun Han, Jiahe Tian, Muhan Zhang, Jeffrey M. Rzeszotarski",
+    "year": 2025,
+    "venue": "cscw_2025_2",
+    "areas": [],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [],
+    "area_agnostic": true,
+    "source_course": "cscw_2025_2_venue_search",
+    "notes": "The paper applies strong computer science methods to a potential problem statement, fitting the cs_fundamentals topic which allows general-purpose methodology adaptable to developing regions.",
+    "link": "https://doi.org/10.1145/3757675",
+    "abstract": "This paper explores the potential role of AI, e.g., large language models (LLMs), in supporting theme development in thematic analysis. While prior applications of AI in qualitative data analysis have focused on supporting coding, we investigate whether LLMs can effectively contribute as collaborators in the more abstract and conceptual phases of qualitative analysis, specifically theme development. Despite growing interest in AI as a collaborator in theme development, there is limited empirical evidence on designing AI-assisted tools while supporting user autonomy and understanding researcher interaction with AI-assisted theme development. To address this gap, we designed ThemeViz, an interactive system that uses GPT-4 to generate and visualize multiple versions of themes based on user input while allowing researchers to maintain control through manual coding and theme development. Our study examines the effectiveness of this human-AI collaboration approach in iterative theme development and its implications for future designs.",
+    "_matched_keywords": [
+      "thematic analysis"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Between Autonomy and Algorithms: The Informal IT Tactics of Hyderabad's Cab Drivers",
+    "authors": "S. Sai Rohit, Anish Devnoor, Dipanjan Chakraborty",
+    "year": 2025,
+    "venue": "cscw_2025_2",
+    "areas": [
+      "labour"
+    ],
+    "topics": [
+      "ethnographic_design",
+      "sociotechnical_dynamics",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "caste",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "cscw_2025_2_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context in India, focusing on informal economies and low-resource settings.",
+    "link": "https://doi.org/10.1145/3757557",
+    "abstract": "This paper examines how ride-hailing drivers in Hyderabad, India, respond to the constraints of algorithmic management. Through interviews with 14 cab drivers we explore how workers navigate opaque systems, shifting incentives, and limited recourse. Drivers adopt informal tactics, such as offline rides, to regain autonomy. Many coordinate through WhatsApp groups or join grassroots cooperatives, which offer welfare support and collective bargaining. Some also engage in informal reintermediation by hiring others or managing small fleets. We contribute to CSCW by showing how global platform models are reshaped by local practices and informal infrastructures. Our findings highlight the need for transparent platform design, worker-led organising, and supportive policy in the Global South.",
+    "_matched_keywords": [
+      "cooperatives"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Scalar Devices of a Global Movement of Gig Worker Activists",
+    "authors": "Lucy Pei",
+    "year": 2025,
+    "venue": "cscw_2025_2",
+    "areas": [
+      "labour"
+    ],
+    "topics": [
+      "ethnographic_design"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "caste",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "cscw_2025_2_venue_search",
+    "notes": "The paper engages with the topic of 'ethnographic_design' in the context of gig worker activism in the Global South, which aligns with the requirement for substantive engagement with a developing-regions context.",
+    "link": "https://doi.org/10.1145/3757654",
+    "abstract": "Grounded in two years of in-person and virtual participant observation with gig worker activists in Ecuador and the transnational network of activists of which they are part, this paper undertakes an ''ethnography of scale'' to concretely account for how the activists represent and manage a global-scale movement. I highlight three scalar devices observed: the First International Gig Workers' Congress, coordinated protest actions, and a book of gig worker testimonies. I argue that although the activists construct their movement as global, it is not scalable in the sense of being able to uniformly expand without changing the nature of the project. Rather, scale is enacted through mutually transforming engagements. This paper contributes an empirical investigation of transnational gig worker resistance contextualized in the Global South, and a theoretical nuance of critiques of scalability from STS through dialogue with CSCW concepts and empirical observations.",
+    "_matched_keywords": [
+      "gig work"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Credibility Boosters as a Lens for Understanding Epistemic Injustice in Civic Tech: The Case of Heat Seek",
+    "authors": "Mohsin Y. K. Yousufi, Charlotte Alexander, Nassim Parvin",
+    "year": 2025,
+    "venue": "cscw_2025_2",
+    "areas": [
+      "governance"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "ethnographic_design",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "cscw_2025_2_venue_search",
+    "notes": "The paper engages with a developing-regions context through its examination of civic tech in New York City, which can be adapted to other low-resource settings.",
+    "link": "https://doi.org/10.1145/3757573",
+    "abstract": "Marginalized groups often face situations in which their knowledge and experiences are dismissed due to prejudice or bias-a phenomenon identified and theorized as epistemic injustice in feminist philosophy. These circumstances frequently compel individuals to produce additional evidence to support their claims, ranging from paper documentation to data generated by technologies such as location logs. This paper examines the case of Heat Seek, an internet-connected temperature sensor designed to provide tenants in New York City with ''objective and reliable data'' when filing heating complaints and appearing in housing court. We present findings from a qualitative study, supplemented by document review and artifact analysis, to illuminate the tool's functions and uses. Drawing on this case, we introduce a class of civic technologies-credibility boosters. We find that these technologies aim to overcome credibility deficits by: (1) backing individual and collective claims with objective data, (2) materializing intangible experiences as tangible evidence with aesthetic reliability, and (3) shifting epistemic authority to perceived neutral third parties. We conclude by demonstrating the institutional and social impacts of such technologies and call for greater attention to epistemic injustices within CSCW research, advocating for the design of institutional, legal, and social systems that confront biased systems and empower marginalized communities.",
+    "_matched_keywords": [
+      "marginalized communities",
+      "marginalized communities"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Leveling Up or Dropping Out: Searching for Learning Routines in Crowdsourced Environments",
+    "authors": "Corey Jackson, Carsten S. \u00d8sterlund, Anand Vamsi, Alexander Owen Smith, Kevin Crowston",
+    "year": 2025,
+    "venue": "cscw_2025_2",
+    "areas": [
+      "education"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "ethnographic_design",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [],
+    "area_agnostic": false,
+    "source_course": "cscw_2025_2_venue_search",
+    "notes": "The paper applies computer science methods to understand learning outcomes in an online citizen science project, which can be adapted to a developing-regions context for educational interventions.",
+    "link": "https://doi.org/10.1145/3757489",
+    "abstract": "We explore patterns of interaction with different learning resources (e.g., forums) to predict learning outcomes in an online citizen science project called Gravity Spy. To explore how volunteers engage with and benefit from these resources, we categorize them based on S\u00f8rensen's three forms of presence in learning environments: authority-subject, agent-centered, and communal presence. Methodologically, we apply sequence analysis to traces of volunteer interactions with the project to identify engagement patterns with these resources that predict learning. Our interpretation of these patterns is augmented by insights gleaned from interviews with volunteers about their work and use of learning resources. We find that early in the project, volunteers have only a simple task to learn, and completing that task is most predictive of their learning. At more advanced levels, when tasks become more complex, discussions with other volunteers become increasingly important, and interaction patterns become more varied. Viewing learning as a series of routines allows us to articulate precisely how and in what context learning occurs. We conclude by discussing the implications of these findings for designing citizen science projects that promote learning.",
+    "_matched_keywords": [
+      "learning outcomes"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Algorithmic College Admissions in the U.S.: Distances Between Vendors' Claims and Applicants' Perceptions",
+    "authors": "Cassidy Pyle, Nazanin Andalibi",
+    "year": 2025,
+    "venue": "cscw_2025_2",
+    "areas": [],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [],
+    "area_agnostic": true,
+    "source_course": "cscw_2025_2_venue_search",
+    "notes": "The paper engages with the topic 'cs_fundamentals' as it applies computer science methods to understand the implications of algorithmic systems in college admissions, which can be adapted to developing regions.",
+    "link": "https://doi.org/10.1145/3757550",
+    "abstract": "The historically controversial U.S. college admissions process is increasingly shaped by algorithmic systems, exacerbating the potential for controversies over admissions and their fairness. Despite their increased use, questions remain about how vendors who provide algorithmic admissions technologies legitimize them and how applicants perceive these technologies. We report on 1) a qualitative content analysis of admissions technology vendor websites, and 2) interviews with college applicants, highlighting the distance between vendors' claimed benefits for universities (e.g., increased decision-making efficiency) and applicants (e.g., ''unbiased'' decisions) and applicants' perceived harms to themselves (e.g., undermining holistic review, hindering diversity, equity, and inclusion efforts). We consider the implications of algorithmic admissions decision-making, including privacy harms, discuss regulatory implications, and offer recommendations to guide algorithmic transparency efforts. However, we caution that transparency would not address some harms perceived by applicants, like inaccuracy and privacy violations.",
+    "_matched_keywords": [
+      "content analysis"
+    ]
+  },
+  {
+    "id": null,
+    "title": "17 Years of Fintech for Financial Inclusion: A Systematic Review and Critical Value Analysis",
+    "authors": "Priyanka Verma, Christoph Becker, Samar Sabie",
+    "year": 2025,
+    "venue": "cscw_2025_2",
+    "areas": [
+      "livelihood"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "caste",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "cscw_2025_2_venue_search",
+    "notes": "The paper engages with financial inclusion, a critical area in developing regions, and applies a systematic review methodology that could be adapted to a developing-regions context.",
+    "link": "https://doi.org/10.1145/3757539",
+    "abstract": "The use of ICT tools and platforms to support the financial practices of underserved communities has been growing, but on-ground experiences have been mixed and sometimes detrimental. To achieve the potential benefits of technologies for financial inclusion, a deeper understanding of the design of digital financial interventions is essential. We systematically and critically reviewed studies that developed and implemented technological interventions for financial inclusion from 2007 to 2024. Our analysis examines the types of financial technologies developed, the devices and technical channels used, the research methodologies employed, and the target populations. Additionally, we conducted a reflexive thematic analysis to investigate the values underpinning these studies. By analyzing 30 articles, we interpreted a total of 13 value themes-including trust, accessibility, robustness, and compatibility. Our work highlights a complex interplay of values, structural considerations, technical attributes, financial practices, and economic factors that underlie the design of financial technologies.",
+    "_matched_keywords": [
+      "financial inclusion",
+      "thematic analysis"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Libertas: Privacy-Preserving Collaborative Computation for Decentralised Personal Data Stores",
+    "authors": "Rui Zhao, Naman Goel, Nitin Agrawal, Jun Zhao, Jake M. L. Stein, Wael S. Albayaydh, Ruben Verborgh, Reuben Binns, Tim Berners-Lee, Nigel Shadbolt",
+    "year": 2025,
+    "venue": "cscw_2025_2",
+    "areas": [
+      "labour"
+    ],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "cscw_2025_2_venue_search",
+    "notes": "The paper addresses privacy-preserving collaborative computation, which can be adapted to a developing-regions context for areas like gig work and data-driven decision-making, fitting the cs_fundamentals topic rule.",
+    "link": "https://doi.org/10.1145/3757490",
+    "abstract": "Data and their processing have become an indispensable aspect for our society. Insights drawn from collective data make invaluable contribution to scientific, societal and communal research and business. However, there are increasing worries about privacy issues and data misuse, prompting the emergence of decentralised personal data stores (PDS) like Solid. However, existing PDS frameworks face challenges in ensuring data privacy when performing collective computation to combine data from multiple users. At a glance, Secure Multi-Party Computation (MPC) offers input secrecy protection while performing collective computation without relying on any single party. However, issues emerge when directly applying MPC in the context of PDS, particularly due to key factors like autonomy and decentralisation. In this work, we discuss the essence of this issue, identify the potential solution, and introduce a modular system architecture, Libertas, to integrate MPC with PDS like Solid, without requiring protocol-level changes. We introduce the paradigm shift from an 'omniscient' view to individual-based, user-centric view of trust and security, and discuss the threat model of Libertas. Two realistic use cases for collaborative data processing are used for evaluation, both for technical feasibility and empirical benchmark, highlighting its effectiveness in empowering gig workers and generating differentially private synthetic data. The results of our experiments underscore Libertas' linear scalability and provide valuable insights into compute optimisations, thereby advancing the state-of-the-art in privacy-preserving data processing practices. By offering practical solutions for maintaining both individual autonomy and privacy in collaborative data processing environments, Libertas contributes significantly to the ongoing discourse on privacy protection in data-driven decision-making contexts.",
+    "_matched_keywords": [
+      "gig work"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Improving Online Communities for Stigmatized Healthcare: Countering In-Group Microaggressions and Fostering Supportive Connections",
+    "authors": "Hyeyoung Ryu, Jaewon Kim, Sungha Kang, Wanda Pratt",
+    "year": 2025,
+    "venue": "cscw_2025_2",
+    "areas": [
+      "health"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "ethnographic_design",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "gender"
+    ],
+    "area_agnostic": false,
+    "source_course": "cscw_2025_2_venue_search",
+    "notes": "The paper engages with a developing-regions context (South Korea) and addresses health-related issues through online community support, which is relevant to the 'health' area.",
+    "link": "https://doi.org/10.1145/3757483",
+    "abstract": "Women face significant challenges in seeking support for sexual and reproductive health (SRH) due to cultural taboos and microaggressions, even within supposedly safe online spaces. This study focuses on unmarried South Korean women who encounter these difficulties and often risk detrimental health outcomes by avoiding timely care. To investigate how to create safer and more supportive spaces for these women, we designed a 9-week study using the Asynchronous Remote Communities method for 26 unmarried Korean women participants. We created structured and unstructured activities to encourage sharing SRH narratives, which led to increased mutual support and understanding among participants. Additionally, we designed educational and reflective interventions that helped participants recognize the nuances and harms of microaggressions. This increased awareness promoted self-reflection and supportive actions among participants. Our approach demonstrates the potential to create supportive, reflective online spaces for people from marginalized communities who face stigmatized healthcare challenges. We hope our research inspires the development of more inclusive online spaces, driving positive social change in stigmatized healthcare support.",
+    "_matched_keywords": [
+      "marginalized communities",
+      "marginalized communities"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Domain Experience and Expertise in Explainable AI Applications: A Bearing Fault Diagnosis Case Study",
+    "authors": "Zibin Zhao, Michael Castelle, Cagatay Turkay",
+    "year": 2025,
+    "venue": "cscw_2025_2",
+    "areas": [],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [],
+    "area_agnostic": true,
+    "source_course": "cscw_2025_2_venue_search",
+    "notes": "The paper applies strong computer science methods to explainable AI, which can be adapted to a developing-regions context under the cs_fundamentals topic.",
+    "link": "https://doi.org/10.1145/3757583",
+    "abstract": "The importance of human-centred explainable artificial intelligence (XAI) has been widely recognised, leading to a growing focus on users and practitioners during the explanation design and deployment processes. Previous studies have identified that users with different domain expertise may have diverse needs for explainability. However, current XAI research often conflates a user's practical experience with domain expertise, ignoring the distinctions between the two; generally, experience relates to acquiring skill and insight through active participation or observation, while domain expertise denotes a high level of (often highly local and/or specific) knowledge. This paper investigates the impact of users' practical experience and domain expertise on how AI recommendations are considered in a high-risk decision-making context, using the example of ball bearing fault diagnosis in the manufacturing sector. As an interdisciplinary team of human-computer interaction (HCI) researchers and mechanical engineers, we co-design an XAI-based simulated ball bearing fault diagnostic task. We conduct task-led interviews with several professionals, structured around three distinct decision processes, and use an innovative sketch-based exercise to gather data to demonstrate how their decision-making behaviours change under ML recommendations and AI explanations. Our results show that highly experienced and knowledgeable practitioners understand but rely less on the explanations, while those with high experience but low expertise are more easily misled. Practitioners with high expertise but low experience trust XAI but struggle to use the explanations effectively. Based on these observations, we reflect on our methods and argue for considering both domain expertise and practical experience when designing and deploying AI explanations.",
+    "_matched_keywords": [
+      "co-design"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Insights in Adaptation: Examining Self-reflection Strategies of Job Seekers with Visual Impairments in India",
+    "authors": "Akshay Kolgar Nayak, Yash Prakash, Sampath Jayarathna, Hae Na Lee, Vikas Ashok",
+    "year": 2025,
+    "venue": "cscw_2025_2",
+    "areas": [
+      "labour"
+    ],
+    "topics": [
+      "problem_discovery",
+      "ethnographic_design",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "cscw_2025_2_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context in India, focusing on employment challenges for visually impaired individuals.",
+    "link": "https://doi.org/10.1145/3757485",
+    "abstract": "Significant changes in the digital employment landscape, driven by rapid technological advancements and the COVID-19 pandemic, have introduced new opportunities for blind and visually impaired (BVI) individuals in developing countries like India. However, a significant portion of the BVI population in India remains unemployed despite extensive accessibility advancements and job search interventions. Therefore, we conducted semi-structured interviews with 20 BVI persons who were either pursuing or recently sought employment in the digital industry. Our findings reveal that despite gaining digital literacy and extensive training, BVI individuals struggle to meet industry requirements for fulfilling job openings. While they engage in self-reflection to identify shortcomings in their approach and skills, they lack constructive feedback from peers and recruiters. Moreover, the numerous job intervention tools are limited in their ability to meet the unique needs of BVI job seekers. Our results, therefore, provide key insights that inform the design of future collaborative intervention systems that offer personalized feedback for BVI individuals, effectively guiding their self-reflection process and subsequent job search behaviors, and potentially leading to improved employment outcomes.",
+    "_matched_keywords": [
+      "digital literacy"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Gender and Careers in Platform-Mediated Work: A Longitudinal Study of Online Freelancers",
+    "authors": "Pyeonghwa Kim, Steve Sawyer, Michael Dunn",
+    "year": 2025,
+    "venue": "cscw_2025_2",
+    "areas": [
+      "labour"
+    ],
+    "topics": [
+      "sociotechnical_dynamics",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "gender"
+    ],
+    "area_agnostic": false,
+    "source_course": "cscw_2025_2_venue_search",
+    "notes": "The paper engages with gender issues in platform-mediated work, which is relevant to the 'labour' area and 'gender' cross-cutting axis, even though it is not set in a developing region.",
+    "link": "https://doi.org/10.1145/3757606",
+    "abstract": "We advance gender-inclusive research within the CSCW field by investigating the long-term gendered experiences of online freelancers on digital labor platforms. The prevalence of gender-based inequalities has attracted significant attention within the CSCW community. Yet, insights remain limited on how these inequalities shape workers' long-term experiences on digital labor platforms. Through a five-year longitudinal study of 105 freelancers on Upwork, we reveal persistent gender disparities that influence workers' long-term work and career trajectories, raising concerns about the sustainability of platform-mediated work. We advance the ongoing dialogue on gender inclusivity in the community by introducing the concepts of career disempowerment and platform-mediated motherhood penalty and by offering research and design implications for CSCW to foster more sustainable, equitable platform work environments for all genders.",
+    "_matched_keywords": [
+      "platform work"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Sustaining Workers Who Sustain the World: Assets-Based Design for Conservation Technologies in Madagascar",
+    "authors": "Eric Greenlee, David H. Klinges, Lalatiana Odile Randriamiharisoa, Kim Valenta, Jean Claude Rakotoarivelo, Jhoanny Rasojivola, Justorien Rambeloniaina, Naina Nicholas Rasolonjatovo, Georges Razafindramavo, Tafitasoa Jaona Mijoro, Joelisoa Ratsirarson, Edouard Ramahatratra, Efitiria, Zovelosoa Raharinavalomanana, Eric Tsiriniaina Rajoelison, Abigail C. Ross, Thomas J. Kelly, Ellen Zegura, Josiah D. Hester, Alex Cabral",
+    "year": 2025,
+    "venue": "cscw_2025_2",
+    "areas": [
+      "wildlife_conservation"
+    ],
+    "topics": [
+      "ethnographic_design",
+      "sociotechnical_dynamics"
+    ],
+    "cross_cutting_axes": [
+      "climate_change",
+      "gender",
+      "caste",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "cscw_2025_2_venue_search",
+    "notes": "The paper engages with a developing-regions context (Madagascar) and addresses socio-technical dynamics and ethnographic design principles in conservation technology.",
+    "link": "https://doi.org/10.1145/3757664",
+    "abstract": "Local workers and their knowledge are essential for sustainable and effective conservation efforts. However, many technology-assisted conservation programs are guided by global benchmarks (e.g., forest cover) and industry metrics (e.g., cost per acre), which often devalue local knowledge and fail to consider the economic and conservation goals of local workers. Assets-based design is well-suited to center workers and their strengths, yet it may fail to fully address the complexities of long-term conservation programs by not explicitly emphasizing workers' goals or bolstering their assets. We extend recent approaches in assets-based design literature that address these limitations through our case studies of reforestation, biodiversity monitoring, and carbon sequestration programs in three protected areas in Madagascar. We leverage a mixed-methods approach of direct reactive observations, unstructured interviews, and an informal design workshop, revealing emergent themes surrounding economic sustainability and the value of local ecological knowledge in conservation. Finally, we explore examples, tensions, and design considerations for worker-centered conservation technology to: (1) prioritize local knowledge, (2) foster love of nature, (3) center economic goals, and (4) embrace local autonomy. This work advances the dialogue on assets-based design, promoting the co-creation of equitable and sustainable conservation technologies with workers in Global South settings by centering local economic priorities and enhancing workers' strengths.",
+    "_matched_keywords": [
+      "biodiversity monitoring",
+      "protected areas",
+      "assets-based design",
+      "carbon sequestration",
+      "assets-based design"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Envisioning Interventions to Combat Misinformation Propagation on Social Media: Insights from Older Adults' Approaches to Credibility Assessment",
+    "authors": "Ishita Haque, Jiamin Dai, Joanna McGrenere",
+    "year": 2025,
+    "venue": "cscw_2025_2",
+    "areas": [
+      "media_information"
+    ],
+    "topics": [
+      "ethnographic_design",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "cscw_2025_2_venue_search",
+    "notes": "The paper engages with a developing-regions context through the lens of social media use among older adults, which is relevant to media and information ecosystems in low-resource settings.",
+    "link": "https://doi.org/10.1145/3757590",
+    "abstract": "While users of all ages fall victim to misinformation sharing on social media, older adults (OAs) may be particularly vulnerable. Yet, current misinformation interventions have rarely incorporated their needs. With the growing adoption of social media among OAs, it is essential to understand their perspectives on credibility assessment and its perceived impact on sharing decisions. Leveraging friends and family (FnF) to support credibility assessment is a promising approach; however, little is known about how OAs value it relative to assessing credibility individually. To probe this question, we created a prototype with different design variants that nudge users before sharing potential misinformation. We conducted comparative structured observations of 12 OAs engaging with the design variants over selected social media posts, examining their perspectives on individual and FnF-based community assessment. Our thematic analysis reveals that OAs prefer an independent approach while assessing credibility because of its flexibility and autonomy, but involving FnF is often desired for the social opportunities it offers, such as shared decision-making and enhancing interpersonal relationships. OAs perceive multifaceted risks when sharing across inner (FnF) and outer circles and exhibit varying trust in the perceived expertise of individually explored information sources, compared to that of FnF. Drawing on a nuanced understanding of social and relational factors that shape OAs' outlook toward engaging FnF in fact-checking, we highlight the design challenges and opportunities for empowering OAs to mitigate the social risks in seeking assessment support from their closest communities.",
+    "_matched_keywords": [
+      "thematic analysis"
+    ]
+  },
+  {
+    "id": null,
+    "title": "When Technologies Are Not Enough: Understanding How Domestic Workers Employ (and Avoid) Online Technologies in Their Work Practices",
+    "authors": "Mariana Consuelo Fern\u00e1ndez Espinosa, Mariana Gonzalez-Bejar, Jacobo Wiesner, Diego G\u00f3mez-Zar\u00e1",
+    "year": 2025,
+    "venue": "cscw_2025_2",
+    "areas": [
+      "labour"
+    ],
+    "topics": [
+      "problem_discovery",
+      "ethnographic_design"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "cscw_2025_2_venue_search",
+    "notes": "The paper engages with a developing-regions context through its focus on marginalized domestic workers, which can be analogous to informal economies in low-resource settings.",
+    "link": "https://doi.org/10.1145/3757523",
+    "abstract": "Although domestic work is often viewed as manual labor, it involves significant interaction with online technologies. However, the detailed exploration of how domestic workers use these technologies remains limited. This study examines the impact of online technologies on domestic workers' work practices, perceptions, and relationships with customers and employers. We interviewed 30 domestic workers residing in the United States, who provided examples that highlight the insufficient transformative role of current online technologies in their work. By conducting a thematic analysis, we characterize how they approach and avoid these digital tools at different stages of their work. Through these findings, we investigate the limitations of technology and identify challenges and opportunities that could inform the design of more suitable tools to improve the conditions of this marginalized group.",
+    "_matched_keywords": [
+      "thematic analysis"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Mind the Gap: Gender, Homophily and the Glass Ceiling in Academic Networks",
+    "authors": "Anh Duong Nguyen, Jiaming Jiang, Barbara Keller",
+    "year": 2025,
+    "venue": "cscw_2025_2",
+    "areas": [],
+    "topics": [
+      "sociotechnical_dynamics"
+    ],
+    "cross_cutting_axes": [
+      "gender"
+    ],
+    "area_agnostic": true,
+    "source_course": "cscw_2025_2_venue_search",
+    "notes": "The paper engages with the cross-cutting axis of gender, which is relevant to ICT for Development and Sustainability in India and other contexts.",
+    "link": "https://doi.org/10.1145/3757630",
+    "abstract": "This study examines the gender distribution within collaboration and mentorship networks across several scientific disciplines, namely Physics, Material Science, Computer Science, Chemistry, Biology and Psychology in the last two decades. Our analysis reveals that the proportions of women in these fields range from 24% to 49%. Despite these variations, all disciplines show evidence of gender-based homophily in their networks, and there are indications for the presence of a glass ceiling effect. Specifically, we observed that women are under-represented in high-status positions with respect to their number of mentees in mentorship networks and their scientific contributions within collaboration networks. These findings highlight longstanding gender disparities in scientific collaboration and mentoring practices, along with cumulative impacts on measured performances of researchers across disciplines. Using a network approach, this study not only extends the methodological work on quantifying gender gaps but also provides actionable insights for the design of more inclusive systems with gender-equitable access to mentorship and collaboration opportunities.",
+    "_matched_keywords": [
+      "homophily",
+      "homophily"
+    ]
+  },
+  {
+    "id": null,
+    "title": "'It's like another world': Intra-Rural Digital Divides and Public Libraries as Rural Assets",
+    "authors": "Rebecca M. Jonas",
+    "year": 2025,
+    "venue": "cscw_2025_2",
+    "areas": [
+      "media_information"
+    ],
+    "topics": [
+      "problem_discovery",
+      "ethnographic_design"
+    ],
+    "cross_cutting_axes": [
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "cscw_2025_2_venue_search",
+    "notes": "The paper engages with a developing-regions context by examining intra-rural digital divides in a rural Appalachian county, which aligns with the requirement for substantive engagement with a low-resource setting.",
+    "link": "https://doi.org/10.1145/3757441",
+    "abstract": "While rural-urban approaches to digital divide research are common, less attention is paid to intra-rural digital divides occurring within rural areas. Hidden intra-rural digital divides can persist as rural-urban divides close, furthering digital inequity. Through six months of multi-sited ethnography in a rural Appalachian county, I highlight the presence and impacts of intra-rural digital divides. Analyzing these findings alongside existing literature on intra-rural digital divides, I contribute a framework of dimensions by which intra-rural digital divides can be defined. Drawing upon assets-based approaches in rural HCI and CSCW research, I identify rural public libraries as an important asset to be leveraged in closing intra-rural digital divides and advocating for intra-rural digital equity and inclusion.",
+    "_matched_keywords": [
+      "digital divide"
+    ]
+  },
+  {
+    "id": null,
+    "title": "'This is eye opening: ' Raising Awareness of Home Care Workers' Health and Wellbeing via Activity Tracking",
+    "authors": "Ian Ren\u00e9 Solano-Kamaiko, Melissa Tan, Irene Yang, Kexin Cheng, Ronica Peramsetty, Michelle Shum, Yanira Escamilla, Ariel C. Avgar, Madeline R. Sterling, Aditya Vashistha, Nicola Dell",
+    "year": 2025,
+    "venue": "cscw_2025_2",
+    "areas": [
+      "labour"
+    ],
+    "topics": [
+      "ethnographic_design",
+      "impact_evaluation",
+      "operations_scale"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "cscw_2025_2_venue_search",
+    "notes": "The paper engages with a developing-regions context through its focus on home care workers, who are often part of informal labor markets and low-income settings.",
+    "link": "https://doi.org/10.1145/3757530",
+    "abstract": "Home care workers (HCWs) are an important group of frontline workers that deliver essential at-home care services to enable older adults to age in place. Despite their importance in patient care, research has shown that HCWs are an overlooked and undervalued workforce: HCWs work in isolated conditions, are paid low wages, experience high levels of stress and burnout, and more. As a result, despite being motivated to try and be healthy, this essential workforce suffers from poor physical and mental health outcomes. This paper combines data from focus groups, interviews, and a month-long field study with HCWs to investigate the feasibility and utility of using activity tracking devices to provide HCWs with fine-grained awareness and insights into daily activities that affect their health and wellbeing. We explore HCWs' reactions to both their individual and collective data, discussing their efforts towards positive behavior change, but also highlighting systemic and occupational factors that may limit HCWs' agency and control over their own activities. Finally, we discuss the potential for HCWs' collective data to raise awareness about their working conditions and provide data-driven evidence to aid advocacy efforts towards improved policies, better wages, or greater protections for this vital workforce.",
+    "_matched_keywords": [
+      "wages"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Learning AI Auditing: A Case Study of Teenagers Auditing a Generative AI Model",
+    "authors": "Luis Morales-Navarro, Michelle A. Gan, Evelyn Yu, Lauren Vogelstein, Yasmin B. Kafai, Dana\u00e9 Metaxa",
+    "year": 2025,
+    "venue": "cscw_2025_2",
+    "areas": [],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [],
+    "area_agnostic": true,
+    "source_course": "cscw_2025_2_venue_search",
+    "notes": "The paper applies strong computer science methods to understand biases in AI, which can be adapted to a developing-regions context under the 'cs_fundamentals' topic.",
+    "link": "https://doi.org/10.1145/3757620",
+    "abstract": "This study investigates how high school-aged youth engage in algorithm auditing to identify and understand biases in artificial intelligence and machine learning (AI/ML) tools they encounter daily. With AI/ML technologies being increasingly integrated into young people's lives, there is an urgent need to equip teenagers with AI literacies that build both technical knowledge and awareness of social impacts. Algorithm audits (also called AI audits) have traditionally been employed by experts to assess potential harmful biases, but recent research suggests that non-expert users can also participate productively in auditing. We conducted a two-week participatory design workshop with 14 teenagers (ages 14-15), where they audited the generative AI model behind TikTok's Effect House, a tool for creating interactive TikTok filters. We present a case study describing how teenagers approached the audit, from deciding what to audit to analyzing data using diverse strategies and communicating their results. Our findings show that participants were engaged and creative throughout the activities, independently raising and exploring new considerations, such as age-related biases, that are uncommon in professional audits. We drew on our expertise in algorithm auditing to triangulate their findings as a way to examine if the workshop supported participants to reach coherent conclusions in their audit. Although the resulting number of changes in race, gender, and age representation uncovered by the teens were slightly different from ours, we reached similar conclusions. This study highlights the potential for auditing to inspire learning activities to foster AI literacies, empower teenagers to critically examine AI systems, and contribute fresh perspectives to the study of algorithmic harms.",
+    "_matched_keywords": [
+      "participatory design"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Learning on the Go: Understanding How Gig Economy Workers Learn with Recommendation Algorithms",
+    "authors": "Shunan Jiang, Wichinpong Park Sinchaisri",
+    "year": 2025,
+    "venue": "cscw_2025_2",
+    "areas": [
+      "labour"
+    ],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "caste"
+    ],
+    "area_agnostic": false,
+    "source_course": "cscw_2025_2_venue_search",
+    "notes": "The paper applies strong computer science methods to understand worker behavior in the gig economy, which can be adapted to a developing-regions context under the 'cs_fundamentals' topic.",
+    "link": "https://doi.org/10.1145/3757621",
+    "abstract": "As gig economy platforms increasingly rely on algorithms to manage on-demand workers, understanding how algorithmic recommendations influence worker behavior is critical for optimizing platform design and improving worker experience. This paper examines the dynamic interactions between gig workers and platform algorithms, focusing on how workers learn to refine their strategies and performance over time. Using multiple quantitative methods, including two-way fixed effects regression and multinomial logit modeling, we analyze more than a million orders completed by gig workers on a retail delivery platform. Our findings reveal a clear learning curve: workers progressively improve their efficiency and on-time delivery performance with experience. Newcomers rely heavily on algorithmic recommendations for task selection, but experienced workers tend to deviate from these recommendations, developing and employing personalized strategies. This shift suggests that experienced workers may perceive algorithmic recommendations as less beneficial or misaligned with their evolved preferences, highlighting the need for adaptive, human-centric systems that evolve with workers' learning trajectories, incorporate their feedback, and offer flexibility to support personalized strategies to enhance collaboration and outcomes for both workers and platforms.",
+    "_matched_keywords": [
+      "gig work"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Staking a Claim in Data: Expertise and Participation in a Rural Open Government Data Initiative",
+    "authors": "Rebecca M. Jonas, Kaitlyn Timm, Norman Makoto Su",
+    "year": 2025,
+    "venue": "cscw_2025_2",
+    "areas": [
+      "governance"
+    ],
+    "topics": [
+      "ethnographic_design",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "cscw_2025_2_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context through its case study of a rural open government data initiative in a state-level government setting.",
+    "link": "https://doi.org/10.1145/3757659",
+    "abstract": "Open government data initiatives have the potential to improve civic participation and trust in government by making government data more transparent to and inclusive of citizens. However, it remains under debate if and how open data initiatives can meet these goals. Through a case study of a state-level government open data initiative with rural hunters, we explore the impact that open data had on citizen-government relations and citizen perspectives on data more broadly. Interviews with 14 hunters led to findings that the open data initiative improved feelings of trust and respect between hunters and the government agency behind the open data initiative. Additionally, hunters' involvement with data collection and consumption led them to stake a role in the open data ecosystem and develop critical perspectives on data. We suggest that open data initiatives could better achieve these benefits by valuing citizen expertise in open data contributions and involving citizens more holistically in the open data ecosystem.",
+    "_matched_keywords": [
+      "open data",
+      "open government"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Understanding Community 'Likes' and Clinical Perspective in Mental Health Discourse: Insights from YouTube Comments on College Students' Mental Health",
+    "authors": "Heejun Kim, Bogeum Choi, Brian Daly, Jina Huh-Yoo",
+    "year": 2025,
+    "venue": "cscw_2025_2",
+    "areas": [
+      "media_information"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "cscw_2025_2_venue_search",
+    "notes": "The paper engages with a developing-regions context through the lens of mental health discourse on social media, which is relevant to the 'media_information' area.",
+    "link": "https://doi.org/10.1145/3757434",
+    "abstract": "Anonymized, informal environments, such as social media, provide opportunities for individuals to naturally exchange information and receive or provide social support for stigmatized conditions, such as mental health. The sensitive nature of the content shared on these platforms requires automated moderation, which is often based on keyword detection. However, what is considered as support versus risk in these contexts can be controversial and more situated. To investigate how we might better define what is supportive versus harmful content, we examined 49,006 YouTube comments on videos about college students' mental health, using statistical tests and qualitative content analysis with a clinical psychologist. We studied (1) the association between community 'Likes' and both self-disclosure and related linguistic features and (2) when comments exhibiting features associated with community 'Likes' reflect perceived support versus harm in the context of mental health. We discuss the situatedness of how community-generated comments containing self-disclosure can be either supportive or potentially harmful from a clinical perspective. This work highlights the need for a paradigmatic change in developing automated moderation rules and assumptions toward social media environments for supporting mental health.",
+    "_matched_keywords": [
+      "content analysis"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Leveraging Familiarity with Television to Enrich Older Adults' Engagement and Wellbeing: A Feasibility Study Using Video Probes",
+    "authors": "Shyama Sastha Krishnamoorthy Srinivasan, Mohan Kumar, Pushpendra Singh",
+    "year": 2025,
+    "venue": "cscw_2025_2",
+    "areas": [
+      "media_information"
+    ],
+    "topics": [
+      "ethnographic_design",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "cscw_2025_2_venue_search",
+    "notes": "The paper engages with a developing-regions context in India, focusing on the use of familiar technology (television) to support older adults in a changing social landscape.",
+    "link": "https://doi.org/10.1145/3757624",
+    "abstract": "The shift away from multigenerational families to nuclear families in India has created a growing need to support older adults living independently. While technology can help address this gap, older adults' limited exposure to newer technology restricts the adoption of such solutions. However, they remain comfortable with long-standing technologies like television (TV). This study explores their daily technology usage and challenges, aiming to determine whether TV can be leveraged to improve their quality of life. We examined how TV systems could be enhanced to assist older adults with tasks such as staying connected, receiving health alerts, and ensuring security. Using a participatory design approach, we developed video probes using the prototype of the TV-based application and interviewed 27 older adults to assess its acceptance and usability. Our findings demonstrate older adults' strong interest in a TV-based solution and a preference for familiar technology to support security, independence, and wellbeing.",
+    "_matched_keywords": [
+      "participatory design"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Bridging the Technical Gap: A Unified Representation Framework for Voice-based Community Engagement Platforms",
+    "authors": "Md. Adnanul Islam, Delvin Varghese, Dan Richardson, Muhamad Risqi U. Saputra, Manika Saha, Tom Bartindale, Md. Saddam Hossain Mukta, Rheinanda Kaniaswari, Md. Yousuf, Patrick Olivier",
+    "year": 2025,
+    "venue": "cscw_2025_2",
+    "areas": [
+      "media_information"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "ethnographic_design",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "cscw_2025_2_venue_search",
+    "notes": "The paper engages with a developing-regions context through the use of voice-based community engagement platforms, which are relevant to marginalized communities in low-resource settings.",
+    "link": "https://doi.org/10.1145/3757458",
+    "abstract": "HCI practitioners in development contexts utilize collaborative digital technologies for community engagement in international development, often mediated through platforms like social media, tele-conferencing, and Interactive Voice Response (IVR). However, the lack of standardized representation approaches for these platforms impedes effective communication among stakeholders. We propose a unified graphical framework for characterizing and representing collaborative platforms, focusing on audio/voice-based engagements. Our framework segments community engagement sessions into engagement formats, characterizing them with preconditions, configurations, and outputs, and visualizes them using state machine-based representations. A field study demonstrates the framework's effectiveness in supporting stakeholder communication for real-life scenarios. We contribute to CSCW literature by providing a standardized approach that offers a common framework/language for discussing, developing, or reconfiguring collaborative platforms. Our findings show that this framework enables non-governmental organizations and researchers to navigate under-explored design spaces, enhancing the utilization of voice-based platforms for engaging distributed marginalized communities.",
+    "_matched_keywords": [
+      "voice-based platforms",
+      "marginalized communities",
+      "marginalized communities"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Regulating Social Media: Surveying the Impact of Nepali Government's TikTok Ban",
+    "authors": "Prerana Khatiwada, Alejandro Ciuba, Aditya Nayak, Aakash Gautam, Matthew Louis Mauriello",
+    "year": 2025,
+    "venue": "cscw_2025_2",
+    "areas": [
+      "governance",
+      "media_information"
+    ],
+    "topics": [
+      "problem_discovery",
+      "impact_evaluation",
+      "sociotechnical_dynamics"
+    ],
+    "cross_cutting_axes": [
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "cscw_2025_2_venue_search",
+    "notes": "The paper engages with a developing-regions context (Nepal) and discusses the impact of policy on marginalized communities, which aligns with the governance and media_information areas.",
+    "link": "https://doi.org/10.1145/3757648",
+    "abstract": "Social media platforms have transformed global communication and interaction, with TikTok emerging as a critical tool for education, connection, and social impact, including in contexts where infrastructural resources are limited. Amid growing political discussions about banning platforms like TikTok, such actions can create significant ripple effects, particularly impacting marginalized communities. We present a study on Nepal, where a TikTok ban was recently imposed and lifted. As a low-resource country in transition where digital communication is rapidly evolving, TikTok enables a space for community engagement and cultural expression. In this context, we conducted an online survey ( N=108 ) to explore user values, experiences, and strategies for navigating online spaces post-ban. By examining these transitions, we aim to improve our understanding of how digital technologies, policy responses, and cultural dynamics interact globally and their implications for governance and societal norms. Our results indicate that users express skepticism toward platform bans but often passively accept them without active opposition. Findings suggest the importance of institutionalizing collective governance models that encourage public deliberation, nuanced control, and socially resonant policy decisions.",
+    "_matched_keywords": [
+      "marginalized communities",
+      "marginalized communities"
+    ]
+  }
+]

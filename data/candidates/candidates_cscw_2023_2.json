@@ -1,0 +1,130 @@
+[
+  {
+    "id": null,
+    "title": "Speculating with Care: Worker-centered Perspectives on Scale in a Chat-based Health Information Service",
+    "authors": "Naveena Karusala, Shirley Yan, Nupoor Rajkumar, Victoria G, Richard Anderson",
+    "year": 2023,
+    "venue": "cscw_2023_2",
+    "areas": [
+      "health"
+    ],
+    "topics": [
+      "ethnographic_design",
+      "sociotechnical_dynamics",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "cscw_2023_2_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context in India, focusing on a chat-based health information service for maternal and child health.",
+    "link": "https://doi.org/10.1145/3610210",
+    "abstract": "Seeking to address barriers to in-person care, governments and non-governmental organizations (NGOs) globally have been pushing for scaling chat- or phone-based information services that rely on care workers to engage with users. Despite theoretical tensions between care and scale and the essential role of care workers, workers' perspective on scale and its impact on care provision is rarely centered early on in decisions to scale. In this paper, we examine care and scale from the perspective of medical support executives (MSEs) who support a chat-based health information service for maternal and child health deployed across multiple states in India. We draw on observations of MSEs' work, interviews with MSEs, NGO staff who implement the service, and families who use the service, and speculative design sessions conducted with MSEs. We find that by centering MSEs' perspectives, we can differentiate between growth of the relationships and heterogeneity that enable social impact, versus scale-thinking that promotes the decontextualization of care. We leverage our findings to discuss implications for scale and automation in chat-based health information services, including the importance of human connection, place, and support for care workers.",
+    "_matched_keywords": [
+      "maternal and child health"
+    ]
+  },
+  {
+    "id": null,
+    "title": "The Shapes of the Fourth Estate During the Pandemic: Profiling COVID-19 News Consumption in Eight Countries",
+    "authors": "Cai Yang, Lexing Xie, Siqi Wu",
+    "year": 2023,
+    "venue": "cscw_2023_2",
+    "areas": [
+      "media_information"
+    ],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [],
+    "area_agnostic": false,
+    "source_course": "cscw_2023_2_venue_search",
+    "notes": "The paper engages with the media and information ecosystems in multiple countries, including aspects that could be adapted to a developing-regions context in India.",
+    "link": "https://doi.org/10.1145/3610108",
+    "abstract": "News media is often referred to as the Fourth Estate, a recognition of its political power. New understandings of how media shape political beliefs and influence collective behaviors are urgently needed in an era when public opinion polls do not necessarily reflect election results and users influence each other in real-time under algorithm-mediated content personalization. In this work, we measure not only the average but also the distribution of audience political leanings for different media across different countries. The methodological components of these new measurements include a high-fidelity COVID-19 tweet dataset; high-precision user geolocation extraction; and user political leaning estimated from the within-country retweet networks involving local politicians. We focus on geolocated users from eight countries, profile user leaning distribution for each country, and analyze bridging users who have interactions across multiple countries. Except for France and Turkey, we observe consistent bi-modal user leaning distributions in the other six countries, and find that cross-country retweeting behaviors do not oscillate across the partisan divide. More importantly, this study contributes a new set of media bias estimates by averaging the leaning scores of users who share the URLs from media domains. Through two validations, we find that the new average audience leaning scores strongly correlate with existing media bias scores. Lastly, we profile the COVID-19 news consumption by examining the audience leaning distribution for top media in each country, and for selected media across all countries. Those analyses help answer questions such as: Does center media Reuters have a more balanced audience base than partisan media CNN and Fox News in the US? Does far-right media Breitbart attract any left-leaning readers in any countries? Does CNN reach a more balanced audience base in the US than in UK and Spain? In sum, our data-driven methods allow us to study media that are not often collected in editor-curated media bias reporting, especially in non-English-speaking countries. We hope that such cross-country research would inform media outlets of their effectiveness and audience bases in different countries, inform non-government and research organizations about the country-specific media audience profiles, and inform individuals to reflect on our day-to-day media diet.",
+    "_matched_keywords": [
+      "media bias"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Public Health Calls for/with AI: An Ethnographic Perspective",
+    "authors": "Azra Ismail, Divy Thakkar, Neha Madhiwalla, Neha Kumar",
+    "year": 2023,
+    "venue": "cscw_2023_2",
+    "areas": [
+      "health"
+    ],
+    "topics": [
+      "ethnographic_design",
+      "sociotechnical_dynamics"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "caste"
+    ],
+    "area_agnostic": false,
+    "source_course": "cscw_2023_2_venue_search",
+    "notes": "The paper engages with a developing-regions context in India, specifically in the area of public health and the use of AI in maternal and child health programs.",
+    "link": "https://doi.org/10.1145/3610203",
+    "abstract": "Artificial Intelligence (AI) based technologies are increasingly being integrated into public sector programs to help with decision-support and effective distribution of constrained resources. The field of Computer Supported Cooperative Work (CSCW) has begun to examine how the resultant sociotechnical systems may be designed appropriately when targeting underserved populations. We present an ethnographic study of a large-scale real-world integration of an AI system for resource allocation in a call-based maternal and child health program in India. Our findings uncover complexities around determining who benefits from the intervention, how the human-AI collaboration is managed, when intervention must take place in alignment with various priorities, and why the AI is sought, for what purpose. Our paper offers takeaways for human-centered AI integration in public health, drawing attention to the work done by the AI as actor, the work of configuring the human-AI partnership with multiple diverse stakeholders, and the work of aligning program goals for design and implementation through continual dialogue across stakeholders.",
+    "_matched_keywords": [
+      "maternal and child health"
+    ]
+  },
+  {
+    "id": null,
+    "title": "The Work to Make Piecework Work: An Ethnographic Study of Food Delivery Work in India During the COVID-19 Pandemic",
+    "authors": "Riyaj Isamiya Shaikh, Airi Lampinen, Barry Brown",
+    "year": 2023,
+    "venue": "cscw_2023_2",
+    "areas": [
+      "labour"
+    ],
+    "topics": [
+      "ethnographic_design",
+      "sociotechnical_dynamics"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "caste"
+    ],
+    "area_agnostic": false,
+    "source_course": "cscw_2023_2_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context (India) and focuses on gig/platform work, which is relevant to the labour area.",
+    "link": "https://doi.org/10.1145/3610034",
+    "abstract": "This paper considers food delivery work as a form of piecework that is conducted via a particular workflow system -- the food delivery platform and its delivery app. We offer an ethnographic account of food delivery labor during the early phases of the COVID-19 pandemic in the Indian city of Pune. Our inquiry is focused on (1) the workflow that structures food delivery work and (2) how economic considerations shape how workers work with and around the workflow. Our findings depict both the workflow that structures the delivery work and the efforts workers make beyond it to deal with contingencies and unexpected requirements they encounter on the ground. We recognize the workers' efforts as essential to make the workflow work but also to make the piecework arrangement work for them. We highlight how, in this setting, money is not just the motivation for engaging in gig work; rather, economic considerations infuse every aspect of the work process. Acknowledging the distinct shape gig work takes in a Global South context, our study highlights the value of in-depth,in situ understandings of how gig workers' economic considerations are entangled with their interactions with the technology that structures their work. Our key contribution lies in mapping outthe workflow of piecework andthe work to make piecework work, specifically in a Global South setting, by drawing upon classic CSCW themes around workflows and piecework to strengthen the contemporary scholarly discussion concerning gig work.",
+    "_matched_keywords": [
+      "gig work"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Reconsidering Priorities for Digital Maternal and Child Health: Community-centered Perspectives from South Africa",
+    "authors": "Toshka Lauren Coleman, Sarina Till, Jaydon Farao, Londiwe Deborah Shandu, Nonkululeko Khuzwayo, Livhuwani Muthelo, Masenyani Oupa Mbombi, Mamare Bopane, Alastair van Heerden, Tebogo Maria Mothiba, Shane Norris, Nervo Verdezoto, Melissa Densmore",
+    "year": 2023,
+    "venue": "cscw_2023_2",
+    "areas": [
+      "health"
+    ],
+    "topics": [
+      "ethnographic_design"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "cscw_2023_2_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context (South Africa) for digital maternal and child health interventions, aligning with the 'health' area and 'ethnographic_design' topic.",
+    "link": "https://doi.org/10.1145/3610081",
+    "abstract": "Especially in developing regions, parents are rarely given a direct voice in the design of digital maternal and child health (MCH) interventions. Instead, MCH needs and requirements are driven by organizations and health workers. In this research, we engage with both rural and urban parents and community leaders to better understand their challenges and priorities for digital MCH and propose a parent-centered agenda for human-computer interaction research. This paper reports on the community-based, digital MCH priorities identified in our research, and describes how we approached community discourse and co-design of digital initiatives for these priorities, through parent-centered workshops with low-resource South African communities. Furthermore, we provide the parent-centered design opportunities and tensions we discovered for digital MCH in South African contexts, such as designing for local contexts and languages, designing for accessibility and connectedness, and highlighting the underdeveloped digital MCH niches. Finally, we highlight the importance of including facilitators for co-design workshops, such as using intermediaries and design cards.",
+    "_matched_keywords": [
+      "maternal and child health",
+      "co-design",
+      "intermediaries"
+    ]
+  }
+]

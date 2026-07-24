@@ -9,13 +9,21 @@ Usage:
     python pdf_to_text_figures.py --out-dir ./data/<example-id>
 
 Reads:
-    <out-dir>/pdfs/<reading_id>.pdf
+    <out-dir>/pdfs/<reading_id>.pdf   (whatever resolve_and_download.py put there, or that you
+                                        manually dropped in following manual_downloads_needed.md)
 Writes:
-    <out-dir>/extracted/<reading_id>/text.txt          -- plain text (book_alignment_scorer.py)
-    <out-dir>/extracted/<reading_id>/text.md            -- pymupdf4llm markdown (topic extractor)
-    <out-dir>/extracted/<reading_id>/figures/           -- extracted images (JPX/JP2 saved as PNG)
-    <out-dir>/extracted/<reading_id>/figures.json
-    <out-dir>/access_manifest.json                      -- updated in place
+    <out-dir>/extracted/<reading_id>/text.txt          -- full plain text, page breaks marked
+                                                            (fallback source; also what
+                                                            book_alignment_scorer.py still reads)
+    <out-dir>/extracted/<reading_id>/text.md            -- NEW: pymupdf4llm markdown, with
+                                                            <!-- page N --> markers and detected
+                                                            headings -- primary input for
+                                                            topic_content_extractor.py's
+                                                            section-aware chunking
+                                                            (pipeline_common.get_section_chunks)
+    <out-dir>/extracted/<reading_id>/figures/fig_N.png  -- extracted images (JPX/JP2 saved as PNG)
+    <out-dir>/extracted/<reading_id>/figures.json       -- [{file, page, caption_guess}]
+    <out-dir>/access_manifest.json                      -- updated in place with text/figure paths
 """
 import os
 import re
@@ -60,6 +68,12 @@ def save_figure_image(doc, xref, img_bytes, ext, fig_dir, page_num, img_idx):
 
 
 def extract_markdown(pdf_path):
+    """
+    pymupdf4llm.to_markdown with page_chunks=True gives one dict per page (with a 'text' key
+    already in markdown, headings included where font-size/boldness heuristics detect them).
+    We re-join with explicit <!-- page N --> markers so pipeline_common.get_section_chunks can
+    do both heading-based splitting AND page-window fallback from the same file.
+    """
     page_dicts = pymupdf4llm.to_markdown(pdf_path, page_chunks=True)
     parts = []
     for i, page in enumerate(page_dicts, start=1):
@@ -80,6 +94,7 @@ def extract_pdf(pdf_path, out_dir):
         text = page.get_text()
         full_text.append(f"\n--- page {page_num} ---\n{text}")
 
+        # find caption-looking text on this page, to pair with any images found on it
         captions_on_page = [m.group(0) for m in CAPTION_PATTERN.finditer(text)]
 
         images = page.get_images(full=True)
@@ -96,6 +111,9 @@ def extract_pdf(pdf_path, out_dir):
             except Exception:
                 continue
 
+            # best-effort caption: nearest caption-like text found on the same page, else None.
+            # This is a heuristic (position-blind) -- for a paper with multiple figures per page,
+            # verify captions manually; good enough for a first pass.
             caption_guess = captions_on_page[min(img_idx, len(captions_on_page) - 1)] if captions_on_page else None
 
             figures.append({
@@ -108,6 +126,10 @@ def extract_pdf(pdf_path, out_dir):
     with open(os.path.join(out_dir, "text.txt"), "w", encoding="utf-8") as f:
         f.write(plain_text)
 
+    # NEW: markdown extraction for section-aware chunking. Best-effort -- if pymupdf4llm chokes
+    # on a malformed PDF, don't fail the whole extraction step over it; text.txt/figures still
+    # get written, and topic_content_extractor.py will fall back to abstract-only for this
+    # reading (same degradation path as a reading with no PDF at all).
     md_text = None
     md_error = None
     try:
@@ -142,7 +164,7 @@ def main():
     for entry in manifest["readings"]:
         pdf_path = find_pdf_for_reading(args.out_dir, entry["id"])
         if not pdf_path:
-            continue
+            continue  # video, or still needs manual download -- skip silently, that's expected
         out_dir = os.path.join(extracted_root, entry["id"])
         os.makedirs(out_dir, exist_ok=True)
         if Path(pdf_path).stem != entry["id"]:
@@ -161,7 +183,6 @@ def main():
         entry["n_figures_extracted"] = n_figs
         if md_ok:
             entry["text_md_path"] = os.path.join(out_dir, "text.md")
-            entry.pop("text_md_error", None)
         else:
             entry.pop("text_md_path", None)
             entry["text_md_error"] = md_error

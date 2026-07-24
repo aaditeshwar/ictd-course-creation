@@ -1,0 +1,292 @@
+[
+  {
+    "id": null,
+    "title": "\"What is the Topic of the Group, Please?\" On Migration, Care and the Challenges of Participation in Design",
+    "authors": "Max Kr\u00fcger, Anne Weibert, D\u00e9bora de Castro Leal, Dave Randall, Volker Wulf",
+    "year": 2021,
+    "venue": "cscw_2021_2",
+    "areas": [
+      "labour"
+    ],
+    "topics": [
+      "sociotechnical_dynamics"
+    ],
+    "cross_cutting_axes": [
+      "migration"
+    ],
+    "area_agnostic": false,
+    "source_course": "cscw_2021_2_venue_search",
+    "notes": "The paper engages with migration challenges in a developing-regions context, aligning with the labour area and sociotechnical dynamics topic.",
+    "link": "https://doi.org/10.1145/3476050",
+    "abstract": "An increasing number of people around the world are forced to leave their homes due to the climate catastrophe, regional conflict or poverty. In their new host countries however, refugees and migrants are frequently met by a wide range of challenges, including wider societal participation. The difficulties migrants and refugees face have also increasingly become the topic of HCI and CSCW work. In this paper we report on a three year-long project, involving refugees, migrants and activist supporters in a co-design project to develop tools that aid the process of resettling. Several aspects have challenged equal participation in the project, including divergent motives, unequal power distribution and cultural heterogeneity. Despite these challenges the project outcomes are in use and maintained beyond the project runtime through voluntary actors. We reflect on this discrepancy between process and outcome drawing on the concept of care.",
+    "_matched_keywords": [
+      "co-design"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Do Datasets Have Politics? Disciplinary Values in Computer Vision Dataset Development",
+    "authors": "Morgan Klaus Scheuerman, Alex Hanna, Emily Denton",
+    "year": 2021,
+    "venue": "cscw_2021_2",
+    "areas": [],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [],
+    "area_agnostic": true,
+    "source_course": "cscw_2021_2_venue_search",
+    "notes": "The paper addresses computer science fundamentals that could be adapted to a developing-regions context, aligning with the rule for topic 'cs_fundamentals'.",
+    "link": "https://doi.org/10.1145/3476058",
+    "abstract": "Data is a crucial component of machine learning. The field is reliant on data to train, validate, and test models. With increased technical capabilities, machine learning research has boomed in both academic and industry settings, and one major focus has been on computer vision. Computer vision is a popular domain of machine learning increasingly pertinent to real-world applications, from facial recognition in policing to object detection for autonomous vehicles. Given computer vision's propensity to shape machine learning research and impact human life, we seek to understand disciplinary practices around dataset documentation - how data is collected, curated, annotated, and packaged into datasets for computer vision researchers and practitioners to use for model tuning and development. Specifically, we examine what dataset documentation communicates about the underlying values of vision data and the larger practices and goals of computer vision as a field. To conduct this study, we collected a corpus of about 500 computer vision datasets, from which we sampled 114 dataset publications across different vision tasks. Through both a structured and thematic content analysis, we document a number of values around accepted data practices, what makes desirable data, and the treatment of humans in the dataset construction process. We discuss how computer vision datasets authors value efficiency at the expense of care; universality at the expense of contextuality; impartiality at the expense of positionality; and model work at the expense of data work. Many of the silenced values we identify sit in opposition with social computing practices. We conclude with suggestions on how to better incorporate silenced values into the dataset creation and curation process.",
+    "_matched_keywords": [
+      "content analysis",
+      "object detection"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Quantifying the Invisible Labor in Crowd Work",
+    "authors": "Carlos Toxtli, Siddharth Suri, Saiph Savage",
+    "year": 2021,
+    "venue": "cscw_2021_2",
+    "areas": [
+      "labour"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "ethnographic_design",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "cscw_2021_2_venue_search",
+    "notes": "The paper addresses labor issues in gig/platform work, which is relevant to the 'labour' area, even though it is not set in a developing region.",
+    "link": "https://doi.org/10.1145/3476060",
+    "abstract": "Crowdsourcing markets provide workers with a centralized place to find paid work. What may not be obvious at first glance is that, in addition to the work they do for pay, crowd workers also have to shoulder a variety of unpaid invisible labor in these markets, which ultimately reduces workers' hourly wages. Invisible labor includes finding good tasks, messaging requesters, or managing payments. However, we currently know little about how much time crowd workers actually spend on invisible labor or how much it costs them economically. To ensure a fair and equitable future for crowd work, we need to be certain that workers are being paid fairly for all of the work they do. In this paper, we conduct a field study to quantify the invisible labor in crowd work. We build a plugin to record the amount of time that 100 workers on Amazon Mechanical Turk dedicate to invisible labor while completing 40,903 tasks. If we ignore the time workers spent on invisible labor, workers' median hourly wage was $3.76. But, we estimated that crowd workers in our study spent 33% of their time daily on invisible labor, dropping their median hourly wage to $2.83. We found that the invisible labor differentially impacts workers depending on their skill level and workers' demographics. The invisible labor category that took the most time and that was also the most common revolved around workers having to manage their payments. The second most time-consuming invisible labor category involved hyper-vigilance, where workers vigilantly watched over requesters' profiles for newly posted work or vigilantly searched for labor. We hope that through our paper, the invisible labor in crowdsourcing becomes more visible, and our results help to reveal the larger implications of the continuing invisibility of labor in crowdsourcing.",
+    "_matched_keywords": [
+      "wages"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Open Data Settings: A Conceptual Framework Explored Through the Map Room Project",
+    "authors": "Yanni Alexander Loukissas, Jude Mwenda Ntabathia",
+    "year": 2021,
+    "venue": "cscw_2021_2",
+    "areas": [],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [],
+    "area_agnostic": true,
+    "source_course": "cscw_2021_2_venue_search",
+    "notes": "The paper provides a general-purpose methodology that could be adapted to a developing-regions context, fitting the criteria for the 'cs_fundamentals' topic.",
+    "link": "https://doi.org/10.1145/3479501",
+    "abstract": "In recent years, researchers have sought more effective ways of making data open, for purposes of accountability, engagement, and reuse. Often, such efforts focus on making existing data sets available to broad audiences. The expression data set itself suggests something discrete, complete, and easily transferable. But data are none of those things. In this paper, we argue that open data projects could benefit from a more contextual understanding of what open means. Instead of focusing on open data sets, researchers can seek to create and understand open data settings: contexts in which things of public significance can be presented as evidence. We share our experiences creating and analyzing open data settings for the Map Room Project, a research through design initiative that establishes local spaces for collaborative data exploration and mapping. Our contribution is to offer a conceptual framework through which researchers, as well as designers, might think about the openness of data settings. This framework emerged from our situational analysis of comparative empirical case studies. In Map Rooms, we found that open can mean accessible, inclusive, or indeterminate. Three practices of contextualization, which we call configuring, convening, and claim-making, shape these dimensions of openness by defining all of the following: where data can work, who is empowered to use them, and what can count as data.",
+    "_matched_keywords": [
+      "open data"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Together But Alone: Atomization and Peer Support among Gig Workers",
+    "authors": "Zheng Yao, Silas Weden, Lea Emerlyn, Haiyi Zhu, Robert E. Kraut",
+    "year": 2021,
+    "venue": "cscw_2021_2",
+    "areas": [
+      "labour"
+    ],
+    "topics": [
+      "ethnographic_design",
+      "sociotechnical_dynamics"
+    ],
+    "cross_cutting_axes": [
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "cscw_2021_2_venue_search",
+    "notes": "The paper engages with the informal labour market and gig/platform work in a developing-regions context, focusing on the social dynamics of gig workers during the pandemic.",
+    "link": "https://doi.org/10.1145/3479535",
+    "abstract": "The individualistic nature of gig work allows workers to have high levels of flexibility, but it also leads to atomization, leaving them isolated from peer workers. In this paper, we employed a qualitative approach to understand how online social media groups provide informational and emotional support to physical gig workers during the COVID-19 pandemic. We found that social media groups alleviate the atomization effect, as workers use these groups to obtain experiential knowledge from their peers, build connections, and organize collective action. However, we noted a reluctance among workers to share strategic information where there was a perceived risk of being competitively disadvantaged. In addition, we found that the diversity among gig workers has also led to limited empathy for one another, which further impedes the provision of emotional support. While social media groups could potentially become places where workers organize collective efforts, several factors, including the uncertainty of other workers' activities and the understanding of the independent contractor status, have diminished the effectiveness of efforts at collective action.",
+    "_matched_keywords": [
+      "gig work"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Reflections on Assets-Based Design: A Journey Towards A Collective of Assets-Based Thinkers",
+    "authors": "Marisol Wong-Villacres, Aakash Gautam, Deborah G. Tatar, Betsy DiSalvo",
+    "year": 2021,
+    "venue": "cscw_2021_2",
+    "areas": [],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [],
+    "area_agnostic": true,
+    "source_course": "cscw_2021_2_venue_search",
+    "notes": "The paper, while not set in a developing region, provides general-purpose methodology that could be adapted to a developing-regions context, fitting the cs_fundamentals topic rule.",
+    "link": "https://doi.org/10.1145/3479545",
+    "abstract": "The field of Computer-Supported Cooperative Work (CSCW) has long recognized a socio-technical gap complicating the design of technologies that can sustainably meet social needs. In response, a growing body of research advocates for assets-based design, an approach that seeks to build upon what the individuals and community already have. The emphasis on positioning assets rather than needs at the center of the process can complicate designers' decisions on what activities to foster, how to conduct them, and what outcomes to expect. In this paper, we reflect on two different assets-based design endeavors with vulnerable populations. Our reflections present assets-based design as an ongoing process that prioritizes the formation and evolution of a collective of assets-based thinkers who continually learn about their assets and ways to use them to attain desirable change. From that reflection, we contribute three methodological commitments for assets-based design to the growing CSCW scholarship on supporting vulnerable communities to attain emancipatory transformations: (1) embedding trust-building elements throughout the journey; (2) facilitating the formation of an interdependent collective; and (3) making moves towards incremental transformations. Further, we contribute a discussion on the change of perspective that entails for researchers and designers interested in undertaking assets-based design. In particular, we underscore the need to recognize the value of work before the work, to see technology as an intermediary rather than an inevitable end, and embrace impact in the shape of slow incremental transformation.",
+    "_matched_keywords": [
+      "assets-based design",
+      "assets-based design"
+    ]
+  },
+  {
+    "id": null,
+    "title": "What's in a Network? Infrastructures of Mutual Aid for Digital Platform Workers during COVID-19",
+    "authors": "Rida Qadri",
+    "year": 2021,
+    "venue": "cscw_2021_2",
+    "areas": [
+      "labour"
+    ],
+    "topics": [
+      "ethnographic_design",
+      "sociotechnical_dynamics"
+    ],
+    "cross_cutting_axes": [
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "cscw_2021_2_venue_search",
+    "notes": "The paper engages with a developing-regions context (Jakarta) and discusses informal labor markets and gig/platform work, which aligns with the 'labour' area.",
+    "link": "https://doi.org/10.1145/3479563",
+    "abstract": "This paper examines the role played by informal mutual aid networks in mediating precarity for gig workers in Jakarta during COVID-19. Using an original survey of 350 mobility platform drivers conducted in May 2020 and a pre-pandemic set of semi-structured interviews with driver communities, I find that mutual aid dispersed through associative, informal labor networks became an essential infrastructure of support for drivers during the pandemic. Most drivers in Jakarta were able to mobilize pre-existing labor networks for extensive material and emotional support. However, results indicate this support was not universally accessible: the pre-pandemic structures of a driver's community and the driver's own participation within the community correlated with the magnitude of community support a driver reported receiving. By putting CSCW literature in conversation with broader literature on informal urbanism, this paper shows how informal labor networks and mutual aid can be a transformative, even outside of formal union structures. By analyzing the forms and limits of these networks this paper also carries lessons in how to build solidarity amongst distributed workforces. At the same time, this study highlights the role of local socio-economic context in shaping gig worker experiences of the pandemic. Thus, it points to the need for more contextually driven analysis of both gig worker precarity and what are deemed effective forms of labor solidarity",
+    "_matched_keywords": [
+      "gig work",
+      "platform work",
+      "LiDAR"
+    ]
+  },
+  {
+    "id": null,
+    "title": "The Everyday HCI of Uber Drivers in India: A Developing Country Perspective",
+    "authors": "Ujjwal Sehrawat, Namit Sawhney, Tejaswini Yeleswarapu, Nimmi Rangaswamy",
+    "year": 2021,
+    "venue": "cscw_2021_2",
+    "areas": [
+      "labour"
+    ],
+    "topics": [
+      "ethnographic_design",
+      "sociotechnical_dynamics"
+    ],
+    "cross_cutting_axes": [
+      "caste",
+      "gender"
+    ],
+    "area_agnostic": false,
+    "source_course": "cscw_2021_2_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context (India) and addresses labor issues in the informal economy, fitting the criteria for the 'labour' area.",
+    "link": "https://doi.org/10.1145/3479568",
+    "abstract": "Uber drivers in India are witnessing a slow emergence of everyday work formalization predominantly through their engagement with the Uber platform. If a vast segment of the informal employment sector in a country resembles gig work, can companies like Uber bring organizational ability and wage regularity to employment? Despite Uber's economic model being challenged on several labor fronts in scholarship from the global North, we argue everyday interactions with the Uber platform are ushering organized work practices and improved financial stability for drivers who formerly hail from the informal employment sector in India. The everyday driving for Uber is filtered through a conceptual and practical work model drivers gain with due experience of Uber's platform features. Our study uncovers the relationship between the controlling demands of the Uber platform and ensuing driver work adaptations. We present findings from a qualitative investigation of Uber ride-hailing services impacting drivers to 1. optimize earnings 2. link work effort to wages 3. converge towards platform compliance. We posit engaged and persistent interactions with the Uber platform bring structure and formality to the profession of driving for Indian Uber drivers.",
+    "_matched_keywords": [
+      "gig work",
+      "wages"
+    ]
+  },
+  {
+    "id": null,
+    "title": "The Flaky Accretions of Infrastructure: Sociotechnical Systems, Citizenship, and the Water Supply",
+    "authors": "Tejaswini Joshi, Jeffrey Bardzell, Shaowen Bardzell",
+    "year": 2021,
+    "venue": "cscw_2021_2",
+    "areas": [
+      "water_security"
+    ],
+    "topics": [
+      "ethnographic_design",
+      "sociotechnical_dynamics"
+    ],
+    "cross_cutting_axes": [
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "cscw_2021_2_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context in India, focusing on water infrastructure in Pune.",
+    "link": "https://doi.org/10.1145/3479570",
+    "abstract": "The convergence of networked digital infrastructures and built environments have given rise to the \"urban user\", a conflation of \"the user\" and \"the resident\" or \"the citizen\". The urban user and the city infrastructures are mutually constituted phenomena formed through the interactions between them. In this research, we contribute an ethnographic study that focuses on the everyday interactions between the urban user and water infrastructures in Pune, India. Using Nikhil Anand's concept of \"hydraulic citizenship\" to analyze our ethnographic data, we showcase the mutually constitutive process of infrastructuring and subjectivization of the \"citizen\", bringing attention to the ad hoc, heterogeneously constituted water infrastructures in Pune that aspire to be \"smart\" even before becoming functional infrastructures. In doing so, we hope to expand possible research trajectories within smart city research agendas by decoupling it from Western assumptions and also by linking them to an interactional account of the everyday relationships among residents, infrastructures, and municipalities.",
+    "_matched_keywords": [
+      "smart city"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Co-Designing Personal Health? Multidisciplinary Benefits and Challenges in Informing Diabetes Self-Care Technologies",
+    "authors": "Amid Ayobi, Katarzyna Stawarz, Dmitri S. Katz, Paul Marshall, Taku Yamagata, Ra\u00fal Santos-Rodr\u00edguez, Peter A. Flach, Aisling Ann O'Kane",
+    "year": 2021,
+    "venue": "cscw_2021_2",
+    "areas": [
+      "health"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "ethnographic_design",
+      "sociotechnical_dynamics"
+    ],
+    "cross_cutting_axes": [],
+    "area_agnostic": false,
+    "source_course": "cscw_2021_2_venue_search",
+    "notes": "The paper engages with health technology design, which can be adapted to a developing-regions context, particularly in rural healthcare delivery and telemedicine/mHealth.",
+    "link": "https://doi.org/10.1145/3479601",
+    "abstract": "Co-design is a widely applied design process with well-documented values, including mutual learning and collective creativity. However, the real-world challenges of conducting multidisciplinary co-design research to inform the design of self-care technologies are not well established. We provide a qualitative account of a multidisciplinary project that aimed to co-design machine learning applications for Type 1 Diabetes (T1D) self-management. Through interviews, we identify not only perceived social, technological and strategic benefits of co-design but also organisational, translational and pragmatic design challenges: participants with T1D experienced difficulties in co-designing systems that met their individual self-care needs as part of group activities; HCI and AI researchers described challenges resulting from applying co-design outcomes to data-driven ML work; and industry collaborators highlighted academic data sharing regulations as cross-organisational challenges that can impede co-design efforts. Based on this understanding, we discuss opportunities for supporting multidisciplinary collaborations and aligning individual health needs with collaborative co-design activities.",
+    "_matched_keywords": [
+      "co-design"
+    ]
+  },
+  {
+    "id": null,
+    "title": "\"The Network Is an Excuse\": Hardware Maintenance Supporting Community",
+    "authors": "Philip Garrison, Esther Han Beol Jang, Michael A. Lithgow, Nicol\u00e1s Andr\u00e9s Pace",
+    "year": 2021,
+    "venue": "cscw_2021_2",
+    "areas": [
+      "infrastructure"
+    ],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [],
+    "area_agnostic": false,
+    "source_course": "cscw_2021_2_venue_search",
+    "notes": "The paper engages with community-managed network infrastructure, which is relevant to the 'infrastructure' area and 'cs_fundamentals' topic, as it discusses technical solutions that could be adapted to developing regions.",
+    "link": "https://doi.org/10.1145/3479608",
+    "abstract": "The global community networking movement promotes locally-managed network infrastructure as a strategy for affordable Internet connectivity. This case study investigates a group of collectively managed WiFi Internet networks in Argentina and the technologists who design the networking hardware and software. Members of these community networks collaborate on maintenance and repair and practice new forms of collective work. Drawing on Actor-Network Theory, we show that the networking technologies play a role in the social relations of their maintenance and that they are intentionally configured to do so. For technology designers and deployers, we suggest a path beyond designing for easy repair: since every breakdown is an opportunity to learn, we should design for accessible repair experiences that enable effective collaborative learning.",
+    "_matched_keywords": [
+      "community networks"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Understanding Driver-Passenger Interactions in Vehicular Crowdsensing",
+    "authors": "Dhruv Agarwal, Srishti Agarwal, Vidur Singh, Rohita Kochupillai, Rosemary Pierce-Messick, Srinivasan Iyengar, Mohit Jain",
+    "year": 2021,
+    "venue": "cscw_2021_2",
+    "areas": [
+      "infrastructure"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "ethnographic_design",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "cscw_2021_2_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context in India, focusing on auto-rickshaw drivers and passengers in Bangalore.",
+    "link": "https://doi.org/10.1145/3479869",
+    "abstract": "Smart city projects collect data on urban environments to identify problems, inform policymaking, and boost citizen engagement. Typically, this data is collected by static sensors placed around the city, which is not ideal for spatiotemporal needs of certain sensing applications such as air quality monitoring. Vehicular crowdsensing is an upcoming approach that addresses this problem by utilizing vehicles' mobility to collect fine-grained city-scale data. Prior work has mainly focused on designing vehicular crowdsensing systems and related components, including incentive schemes, vehicle selection, and application-specific sensing, without understanding the motivations and challenges faced by drivers and passengers, one of the two key stakeholders of any vehicular crowdsensing solution. Our work aims to fill this gap. To understand drivers' and passengers' perspectives, we developed Turn2Earn, a generic vehicular crowdsensing system that incentivizes drivers to take specific routes for data collection. Turn2Earn system was deployed with 13 auto-rickshaw drivers for two weeks in Bangalore, India. Our drivers took 709 trips using Turn2Earn covering 79.2% of the city's grid cells. Interviews with 13 drivers and 15 passengers revealed innovative information-based strategies adopted by the drivers to convince passengers in taking alternative routes, and passengers' altruism in supporting the drivers. We uncovered novel insights, including viability of offered routes due to road closure, issues with electric vehicles, and selection bias among the drivers. We conclude with design recommendations to inform the future of vehicular crowdsensing, including engaging and incentivizing passengers, and criticality-based reward structure.",
+    "_matched_keywords": [
+      "smart city"
+    ]
+  }
+]

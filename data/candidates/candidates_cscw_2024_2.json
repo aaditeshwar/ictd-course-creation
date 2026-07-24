@@ -1,0 +1,276 @@
+[
+  {
+    "id": null,
+    "title": "\"I see it as a wellspring for my positive and upward journey in life.\": Understanding Current Practices of Assistive Technology's Customized Modification in China",
+    "authors": "Kexin Yang, Junyi Wu, Haokun Xin, Jiangtao Gong",
+    "year": 2024,
+    "venue": "cscw_2024_2",
+    "areas": [
+      "health"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "ethnographic_design",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "cscw_2024_2_venue_search",
+    "notes": "The paper engages with a developing-regions context (China) and discusses the adaptation and customization of assistive technologies, which is relevant to the 'cs_fundamentals' topic.",
+    "link": "https://doi.org/10.1145/3687012",
+    "abstract": "Due to the significant differences in physical conditions and living environments of people with disabilities, standardized assistive technologies (ATs) often fail to meet their needs. Modified AT, especially DIY (Do It Yourself) ATs, are a popular solution in many high-income countries, but there is a lack of documentation for low- and middle-income areas, especially in China, where the culture of philanthropy is undeveloped. To understand the current situation in this paper, we conducted semi-structured interviews with 10 individuals with disabilities using modified ATs and 10 individuals involved in providing these including family members, standard assistive device manufacturers, and individuals employed for their modification skills, etc. Based on the results of the thematic analysis, we have summarized the general process of modified ATs for people with disabilities in China and the benefits these devices bring. We found that modified ATs not only make the lives of people with disabilities more comfortable and convenient but also bring them confidence, reduce social pressure, and even help them achieve self-realization. Additionally, we summarized the challenges they encountered before, during, and after the modification, including awareness gaps, family resistance, a lack of a business model, and so on. Specifically, we conducted a special case study about the typical business models and challenges currently faced by AT Modification Organizations in China. Our research provides important design foundations and research insights for the future of universal and personalized production of AT.",
+    "_matched_keywords": [
+      "thematic analysis"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Human-centered NLP Fact-checking: Co-Designing with Fact-checkers using Matchmaking for AI",
+    "authors": "Houjiang Liu, Anubrata Das, Alexander Boltz, Didi Zhou, Daisy Pinaroc, Matthew Lease, Min Kyung Lee",
+    "year": 2024,
+    "venue": "cscw_2024_2",
+    "areas": [],
+    "topics": [
+      "cs_fundamentals",
+      "ethnographic_design"
+    ],
+    "cross_cutting_axes": [],
+    "area_agnostic": true,
+    "source_course": "cscw_2024_2_venue_search",
+    "notes": "The paper applies a general-purpose methodology (Matchmaking for AI) that could be adapted to a developing-regions context, aligning with the cs_fundamentals topic rule.",
+    "link": "https://doi.org/10.1145/3686962",
+    "abstract": "While many Natural Language Processing (NLP) techniques have been proposed for fact-checking, both academic research and fact-checking organizations report limited adoption of such NLP work due to poor alignment with fact-checker practices, values, and needs. To address this, we investigate a co-design method, Matchmaking for AI, to enable fact-checkers, designers, and NLP researchers to collaboratively identify what fact-checker needs should be addressed by technology, and to brainstorm ideas for potential solutions. Co-design sessions we conducted with 22 professional fact-checkers yielded a set of 11 design ideas that offer a \"north star'', integrating fact-checker criteria into novel NLP design concepts. These concepts range from pre-bunking misinformation, efficient and personalized monitoring misinformation, proactively reducing fact-checker potential biases, and collaborative writing fact-check reports. Our work provides new insights into both human-centered fact-checking research and practice and AI co-design research.",
+    "_matched_keywords": [
+      "natural language processing (NLP)",
+      "co-design"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Limitations of Using Mobile Phones for Managing Type 1 Diabetes (T1D) Among Youth in Low and Middle-Income Countries: Implications for mHealth",
+    "authors": "Susan Wyche, Jennifer Olson, Mary Karanu, Eric Omondi, Mike Endovo Olonyo",
+    "year": 2024,
+    "venue": "cscw_2024_2",
+    "areas": [
+      "health"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "ethnographic_design",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "cscw_2024_2_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context (Kenya) and addresses health-related issues, particularly mHealth for managing Type 1 Diabetes among youth.",
+    "link": "https://doi.org/10.1145/3687045",
+    "abstract": "The prevalence of Type 1 Diabetes (T1D) among youth is increasing worldwide. Mobile phones, particularly mHealth applications, can potentially improve youth's management of this chronic condition. However, the design of these services rarely accounts for users in low and middle-income countries (LMICs). In this paper, we investigate factors that influence the use of mobile phones for managing T1D among youth in rural and urban Kenya. Our analysis draws from 58 interviews conducted with T1D youth (between the ages of 11 and 18 years old), their caregivers, and other significant stakeholders, including doctors and schoolteachers. Our findings draw attention to a significant mismatch between the mobile phone features prioritized in mHealth apps and participants' usage practices. We discuss the practical implications of these findings for mHealth design and user research.",
+    "_matched_keywords": [
+      "mHealth"
+    ]
+  },
+  {
+    "id": null,
+    "title": "The Politics of Fear and the Experience of Bangladeshi Religious Minority Communities Using Social Media Platforms",
+    "authors": "Mohammad Rashidujjaman Rifat, Dipto Das, Arpon Podder, Mahiratul Jannat, Robert Soden, Bryan C. Semaan, Syed Ishtiaque Ahmed",
+    "year": 2024,
+    "venue": "cscw_2024_2",
+    "areas": [
+      "media_information"
+    ],
+    "topics": [
+      "ethnographic_design",
+      "impact_evaluation",
+      "sociotechnical_dynamics"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "cscw_2024_2_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context (Bangladesh) and addresses issues of social media use, fear, and inter-religious interactions, which are pertinent to the Media & Information Ecosystems area.",
+    "link": "https://doi.org/10.1145/3686926",
+    "abstract": "Despite significant research on online harm, polarization, public deliberation, and justice, CSCW still lacks a comprehensive understanding of the experiences of religious minorities, particularly in relation to fear, as prominently evident in our study. Gaining faith-sensitive insights into the expression, participation, and inter-religious interactions on social media can contribute to CSCW's literature on online safety and interfaith communication. In pursuit of this goal, we conducted a six-month-long, interview-based study with the Hindu, Buddhist, and Indigenous communities in Bangladesh. Our study draws on an extensive body of research encompassing the spiral of silence, the cultural politics of fear, and communication accommodation to examine how social media use by religious minorities is influenced by fear, which is associated with social conformity, misinformation, stigma, stereotypes, and South Asian postcolonial memory. Moreover, we engage with scholarly perspectives from religious studies, justice, and South Asian violence and offer important critical insights and design lessons for the CSCW literature on public deliberation, justice, and interfaith communication.",
+    "_matched_keywords": [
+      "polarization"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Digital Gig Work Under Unstable Energy Infrastructures: Invisible Workarounds and Alternative Imaginaries",
+    "authors": "Olivia Doggett, Sarah Gram, Sophia Jit, Basel Harb, Houssam Harb, Mohamad Shafik, Robert Soden, Matt Ratto",
+    "year": 2024,
+    "venue": "cscw_2024_2",
+    "areas": [
+      "infrastructure",
+      "labour"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "ethnographic_design",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "cscw_2024_2_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context (Lebanon) and addresses issues of energy infrastructure and digital gig work, which aligns with the 'infrastructure' and 'labour' areas.",
+    "link": "https://doi.org/10.1145/3686949",
+    "abstract": "Digital upskilling and remote work are frequently presented as pathways for displaced communities who face political, economic crises and employment barriers. The viability and stability of available energy infrastructures for these communities is critical to the long-term success of these proposed job trajectories. In this paper, we investigate how 17 Syrian refugees living in Lebanon navigate their local unstable energy infrastructures to conduct digital gig work and receive digital training. We found that digital gig work and training are workarounds to the political and social inaccessibility of local labor markets for refugees and that participants rely on a series of material energy strategies to optimize their electricity access. We argue that to support refugees conducting digital gig work and training, we must recognize and account for ecological, social, and technological limitations and frailties in the development of technological solutions and draw our attention to how infrastructures are perpetually undergoing processes of breakdown, repair, and renewal. We argue that this attention to ongoing transformation and renewal creates new opportunities for productive and creative reconfiguration as well as modes through which CSCW may intervene in unstable energy contexts. From this perspective, we emphasize the importance of better resourcing displaced communities with information regarding energy access and supporting them in establishing and strengthening their own visions for alternative energy systems and employment pathways.",
+    "_matched_keywords": [
+      "gig work",
+      "electricity access"
+    ]
+  },
+  {
+    "id": null,
+    "title": "El costo de la independencia: Latino house-cleaners in Technology-Mediated Labour Markets",
+    "authors": "Isabella Jaimes Rodriguez, Adrian Petterson, Olivia Doggett, Priyank Chandra",
+    "year": 2024,
+    "venue": "cscw_2024_2",
+    "areas": [
+      "labour"
+    ],
+    "topics": [
+      "ethnographic_design",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "cscw_2024_2_venue_search",
+    "notes": "The paper engages with the informal labour market and technology-mediated labour markets, which are relevant to the 'labour' area in a developing-regions context.",
+    "link": "https://doi.org/10.1145/3686999",
+    "abstract": "This paper explores the interplay between identity, collective action, and digital marketplaces among Latino house-cleaners in Toronto. Domestic work, such as house-cleaning, has traditionally been devalued, gendered, and delegated to marginalised immigrant populations. The informal nature of house-cleaning work, also introduces precarity, vulnerabilities and potential avenues of exploitation. Drawing on 19 interviews with Latino house-cleaners, the paper underscores how identity shapes experiences and strategies in the labour markets. We find that Latino house-cleaners prefer to use asynchronous digital marketplaces, such as social media commerce groups and online classified advertisement websites, as the platforms provides flexibility and control over their labour outcomes. The paper further delves into how group identities online - such as being Latino and women - foster collective action and solidarity. The paper provides insights on how we can support the needs support the challenges and needs of immigrant domestic workers in technology-mediated labour markets.",
+    "_matched_keywords": [
+      "LiDAR"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Entangled Independence: From Labor Rights to Gig \"Empowerment\" Under the Algorithmic Gaze",
+    "authors": "Ira Anjali Anwar, Patricia Garcia, Julie Hui",
+    "year": 2024,
+    "venue": "cscw_2024_2",
+    "areas": [
+      "labour"
+    ],
+    "topics": [
+      "ethnographic_design",
+      "sociotechnical_dynamics",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "caste",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "cscw_2024_2_venue_search",
+    "notes": "The paper substantively engages with the Indian labor market context, focusing on gig work and labor rights in a developing region.",
+    "link": "https://doi.org/10.1145/3686916",
+    "abstract": "This study offers a critical analysis of how the Indian gig platform, Urban Company (UC), mobilizes the promise of empowerment to assemble, discipline and algorithmically entangle its gig labor force. Much of the scholarship on gig work has described how the (mis)classification of gig workers as independent contractors allows gig corporations to abdicate their employment responsibilities, thereby disentangling the traditional employer-employee relationship. By contrast, UC promises to invest in it's Indian gig workforce, with offerings such as health insurance and financial loans to counter the enduring socio-economic precarity of the Indian labor market. However, through a critical content analysis of UCs' public media, we find that UC's organization of such ''social security'' benefits rests on an insidious system of algorithmic evaluation and classification. Access to benefits is conditional, determined by the platform's algorithmic control mechanisms, which classify workers as worthy or unworthy on a shifting basis. Mobilizing Agre's analysis of business discourses of ''empowered work'', we highlight how UC's algorithmic classification of workers creates a system of ''conditional empowerment.'' This system reflects a critical shift in the labor process, from rights-based labor regimes to a neoliberal social order where individuals must constantly prove their worth.",
+    "_matched_keywords": [
+      "gig work",
+      "content analysis"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Reimagining Meaningful Data Work through Citizen Science",
+    "authors": "Ashley Boone, Annabel Rothschild, Xander Koo, Grace Pfohl, Alyssa Sheehan, Betsy DiSalvo, Christopher A. Le Dantec, Carl DiSalvo",
+    "year": 2024,
+    "venue": "cscw_2024_2",
+    "areas": [],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [],
+    "area_agnostic": true,
+    "source_course": "cscw_2024_2_venue_search",
+    "notes": "The paper discusses methodologies that could be adapted to a developing-regions context under the 'cs_fundamentals' topic rule.",
+    "link": "https://doi.org/10.1145/3687049",
+    "abstract": "Data work is often completed by crowdworkers, who are routinely dehumanized, disempowered, and sidelined. We turn to citizen science to reimagine data work, highlighting collaborative relationships between citizen science project managers and volunteers. Though citizen science and traditional crowd work entail similar forms of data work, such as classifying or transcribing large data sets, citizen science relies on volunteer contributions rather than paid data work. We detail the work citizen science project managers did to shape volunteer experiences: aligning science goals, minimizing barriers to participation, engaging communities, communicating with volunteers, providing training and education, rewarding contributions, and reflecting on volunteer work. These management strategies created opportunities for meaningful work by cultivating intrinsic motivation and fostering collaborative work relationships but ultimately limited participation to specific data-related tasks. We recommend management tactics and task design strategies for creating meaningful work for \"invisible collar\" workers, an understudied class of labor in CSCW.",
+    "_matched_keywords": [
+      "citizen science data"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Transformer-Based Quantification of the Echo Chamber Effect in Online Communities",
+    "authors": "Vahid Ghafouri, Faisal Alatawi, Mansooreh Karami, Jose Such, Guillermo Suarez-Tangil",
+    "year": 2024,
+    "venue": "cscw_2024_2",
+    "areas": [],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [],
+    "area_agnostic": true,
+    "source_course": "cscw_2024_2_venue_search",
+    "notes": "The paper applies strong computer science methods (cs_fundamentals) that could be adapted to a developing-regions context, as per the rule for this topic.",
+    "link": "https://doi.org/10.1145/3687006",
+    "abstract": "An Echo Chamber on social media refers to the environment where like-minded people hear the echo of each others' voices, opinions, or beliefs, which reinforce their own. Echo Chambers can turn social media platforms into collaborative venues that polarize and radicalize users rather than broadening their exposure to diverse information. Having a quantified metric for measuring the Echo Chamber effect can aid moderators and policymakers in tracking and mitigating online polarization and radicalization. Existing methods for Echo Chamber detection are either one-dimensional, only considering the network behavior of users while ignoring their semantic behavior, or require demanding supervised labeling, which is both expensive and less generalizable. This paper proposes a new metric to quantify the Echo Chamber effect using Transformer models for context-sensitive processing of natural language (NLP). Our metric quantifies (1) the effect of an Echo Chamber through the inverse effect of user diversity, and (2) polarization by means of user separability between two Echo Chambers in a topic. Leveraging this metric, we further propose an NLP-based embedding that represents the users' activity. Our model is simultaneously effective, computationally cheap, and unsupervised. As our method is unsupervised, it makes existing collaborative moderation efforts to thwart Echo Chamber effects more efficient by addressing the problem of identifying narrow information bases for algorithmic biases and misinformation detection. We run our analysis on three recent highly controversial political topics and a non-controversial topic: Russo-Ukrainian War, Abortion, Gun-Control, and SXSW music festival. Our results offer data-driven findings such as a higher Echo Chamber effect among Republicans over Democrats and diverse explicit support for Ukraine, especially among Democrats. We also observe a direct relationship between the Echo Chamber effect and polarization while observing that the low Echo Chamber effect for the Russo-Ukraine war is accompanied by a low polarization; and vice versa for Gun-Control.",
+    "_matched_keywords": [
+      "polarization"
+    ]
+  },
+  {
+    "id": null,
+    "title": "NLPGuard: A Framework for Mitigating the Use of Protected Attributes by NLP Classifiers",
+    "authors": "Salvatore Greco, Ke Zhou, Licia Capra, Tania Cerquitelli, Daniele Quercia",
+    "year": 2024,
+    "venue": "cscw_2024_2",
+    "areas": [],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "caste"
+    ],
+    "area_agnostic": true,
+    "source_course": "cscw_2024_2_venue_search",
+    "notes": "The paper addresses a general-purpose methodology that could be adapted to a developing-regions context, fitting the cs_fundamentals topic rule.",
+    "link": "https://doi.org/10.1145/3686924",
+    "abstract": "AI regulations are expected to prohibit machine learning models from using sensitive attributes during training. However, the latest Natural Language Processing (NLP) classifiers, which rely on deep learning, operate as black-box systems, complicating the detection and remediation of such misuse. Traditional bias mitigation methods in NLP aim for comparable performance across different groups based on attributes like gender or race but fail to address the underlying issue of reliance on protected attributes. To partly fix that, we introduce NLPGuard, a framework for mitigating the reliance on protected attributes in NLP classifiers. NLPGuard takes an unlabeled dataset, an existing NLP classifier, and its training data as input, producing a modified training dataset that significantly reduces dependence on protected attributes without compromising accuracy. NLPGuard is applied to three classification tasks: identifying toxic language, sentiment analysis, and occupation classification. Our evaluation shows that current NLP classifiers heavily depend on protected attributes, with up to 23% of the most predictive words associated with these attributes. However, NLPGuard effectively reduces this reliance by up to 79%, while slightly improving accuracy.",
+    "_matched_keywords": [
+      "natural language processing (NLP)"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Journeying Through Sense of Place with Mental Maps: Characterizing Changing Spatial Understanding and Sense of Place During Migration for Work",
+    "authors": "Zihan Gao, Justin Cranshaw, Jacob Thebault-Spieker",
+    "year": 2024,
+    "venue": "cscw_2024_2",
+    "areas": [
+      "labour"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "ethnographic_design"
+    ],
+    "cross_cutting_axes": [
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "cscw_2024_2_venue_search",
+    "notes": "The paper engages with the topic of migration for work, which is a relevant labour issue in developing regions.",
+    "link": "https://doi.org/10.1145/3687042",
+    "abstract": "Millions of people move for work yearly, but this labor migration risks social and cultural challenges, hindering migrants' integration into new communities. Software tools could support this transition, but the design space around, and the mechanisms behind, how individuals develop spatial understanding and 'sense of place' is unclear. In our study, we leverage mental maps to explore migrants' 'sense of place'. We conduct a mixed- methods study with 12 participants, spanning two sessions - one before and one after their relocation, totaling 24 data sessions. We discover that post-relocation, mental maps not only widen coverage and generalization but also decrease in cartographic complexity and accuracy, reflecting a nuanced blend of personal narratives and spatial awareness. We also find that strategies for rebuilding and reshaping 'sense of place' span a complex set of dimensions spanning personal, social and environmental challenges, post-move. Our findings lay the groundwork, and underscore the need, for 'platial' (versus spatial) understanding and tools to rebuild sense of place, and foster better community cohesion. We highlight design opportunities for creating tools, especially those capturing personal nuances, to help migrants reestablish themselves and their sense of place.",
+    "_matched_keywords": [
+      "migration for work"
+    ]
+  }
+]

@@ -3,9 +3,10 @@
     "purpose": "Domain-level case studies within each framework area, generated via the ictd-case-study-generation skill (v2: stage1 names + stage2 assignments + stage2.5 grounded descriptions + cross-area merge) using the Claude API.",
     "schema_note": "topics_covered/cross_cutting_axes are auto-derived, not independently curated by the model. background_concepts URLs were grounded via web search but should still be spot-checked before publishing.",
     "total_case_studies": 147,
-    "readings_referenced": 777,
-    "readings_total_in_corpus": 1025,
-    "coverage_note": "Gap is expected to be almost entirely area_agnostic=true readings."
+    "readings_referenced": 864,
+    "readings_total_in_corpus": 1153,
+    "coverage_note": "Gap is expected to be almost entirely area_agnostic=true readings.",
+    "assignment_note": "Incremental area-by-area assignment via assign_readings_to_examples.py (ollama); no new case studies created."
   },
   "case_studies": [
     {
@@ -667,6 +668,8 @@
       "description": "This domain focuses on using AI and optimization to increase vaccine uptake, centered on the ADVISER system deployed in Nigeria for child vaccination intervention. It also covers fair vaccination strategies via influence maximization, sequential vaccine allocation under delayed feedback, and Bayesian modeling to correct for maternal recall bias in immunization rate estimates in India.",
       "topics_covered": [
         "cs_fundamentals",
+        "ethnographic_design",
+        "sociotechnical_dynamics",
         "impact_evaluation"
       ],
       "cross_cutting_axes": [
@@ -679,6 +682,10 @@
         "aaai_24_aisi_deploying_adviser_impact_and_lessons_from",
         "aaai_24_aisi_promoting_fair_vaccination_strategies_through_influence",
         "compass_2024_quantifying_the_role_of_maternal_recall",
+        "cscw_2022_2_disordering_datasets_sociotechnical_misalignments_in_ai",
+        "cscw_2023_1_working_with_ai_to_persuade_examining",
+        "cscw_2023_2_public_health_calls_for_with_ai",
+        "cscw_2024_1_exploring_the_role_of_chatbots_in",
         "ijcai_2022_adviser_ai_driven_vaccination_intervention_optimiser",
         "ijcai_2022_sequential_vaccine_allocation_with_delayed_feedback"
       ],
@@ -813,6 +820,7 @@
         "compass_2023_self_directed_digital_learning_for_maternity",
         "compass_2024_a_proposed_systematic_framework_and_guideline",
         "compass_2024_design_opportunities_to_facilitate_tangible_play",
+        "cscw_2023_2_reconsidering_priorities_for_digital_maternal_and",
         "ijcai_2024_using_causal_inference_to_investigate_contraceptive",
         "jcss_2023_robust_ocr_pipeline_for_automated_digitization"
       ],
@@ -852,14 +860,15 @@
         "social_capital_marginalization"
       ],
       "readings": [
-        "climate_change_ai_mitigating_climate_and_health_impact_of",
-        "climate_change_ai_mapping_air_pollution_sources_with_sequential",
         "climate_change_ai_dynamic_ensemble_models_for_climate_driven",
-        "ijcai_2022_learning_pollution_maps_from_mobile_phone",
         "climate_change_ai_foundation_models_for_mapping_emission_sources",
+        "climate_change_ai_mapping_air_pollution_sources_with_sequential",
+        "climate_change_ai_mitigating_climate_and_health_impact_of",
         "climate_change_ai_predicting_extreme_weather_impacts_on_physical",
+        "climate_change_ai_quantifying_the_presence_of_air_pollutants",
         "climate_change_ai_wildfire_smoke_plume_segmentation_using_geostationary",
-        "climate_change_ai_quantifying_the_presence_of_air_pollutants"
+        "cscw_2021_1_vartalaap_what_drives_airquality_discussions_politics",
+        "ijcai_2022_learning_pollution_maps_from_mobile_phone"
       ],
       "background_concepts": [
         {
@@ -959,15 +968,25 @@
       "description": "This domain examines human-centered design for stigmatized and marginalized populations, including Rohingya refugees in Bangladesh, caregivers of children with autism facing stigmatization, and adolescents managing Type 1 diabetes in LMICs. It also considers the paradoxes of India's vast population and untapped human resources within health care.",
       "topics_covered": [
         "problem_discovery",
+        "cs_fundamentals",
         "ethnographic_design",
         "sociotechnical_dynamics",
-        "impact_evaluation"
+        "impact_evaluation",
+        "operations_scale"
       ],
       "cross_cutting_axes": [
         "gender",
+        "caste",
         "social_capital_marginalization"
       ],
       "readings": [
+        "cscw_2021_1_dakter_bari_introducing_intermediary_to_ensure",
+        "cscw_2023_1_we_are_half_doctors_family_caregivers",
+        "cscw_2024_2_i_see_it_as_a_wellspring",
+        "cscw_2024_2_limitations_of_using_mobile_phones_for",
+        "cscw_2025_1_customizing_generated_signs_and_voices_of",
+        "cscw_2025_2_fatherhood_is_a_unique_experience_visibilizing",
+        "cscw_2025_2_improving_online_communities_for_stigmatized_healthcare",
         "ictd_2020_infrastructuring_hope_solidarity_leadership_negotiation_and",
         "ictd_2020_we_need_more_power_to_stand",
         "ictd_2024_beyond_digital_interventions_human_centered_design",
@@ -995,6 +1014,9 @@
         "social_capital_marginalization"
       ],
       "readings": [
+        "cscw_2022_2_money_doesn_t_buy_you_happiness",
+        "cscw_2024_1_understanding_the_technology_mediated_home_phlebotomy",
+        "cscw_2025_2_ai_ethics_and_social_norms_exploring",
         "development_engineering_2020_data_classification_for_secure_mobile_health",
         "ictd_2022_complexity_demands_agility_operationalizing_agile_principles",
         "ifip_ict4d_2020_the_adoption_of_mobile_health_mhealth",
@@ -1063,6 +1085,7 @@
       "topics_covered": [
         "cs_fundamentals",
         "ethnographic_design",
+        "sociotechnical_dynamics",
         "impact_evaluation",
         "operations_scale"
       ],
@@ -1073,6 +1096,9 @@
       "readings": [
         "aseth_publications_development_of_an_mhealth_behavior_change",
         "compass_2022_use_of_metric_learning_for_the",
+        "cscw_2021_1_integrating_cultural_relevance_into_a_behavioral",
+        "cscw_2023_2_speculating_with_care_worker_centered_perspectives",
+        "cscw_2025_1_virtual_agent_based_communication_skills_training",
         "jcss_2025_training_and_support_practices_and_insights"
       ],
       "background_concepts": [
@@ -1099,6 +1125,7 @@
       "topics_covered": [
         "cs_fundamentals",
         "ethnographic_design",
+        "sociotechnical_dynamics",
         "impact_evaluation"
       ],
       "cross_cutting_axes": [
@@ -1109,6 +1136,7 @@
       "readings": [
         "aaai_24_aisi_pre_trained_online_contrastive_learning_for",
         "aaai_24_aisi_self_supervised_framework_based_on_subject",
+        "cscw_2021_2_co_designing_personal_health_multidisciplinary_benefits",
         "ifip_ict4d_2024_part1_the_application_of_artificial_intelligence_in",
         "ijcai25_sahay_suicide_risk_india",
         "ijcai_2022_chronic_disease_management_with_personalized_lab",
@@ -1183,14 +1211,38 @@
         "social_capital_marginalization"
       ],
       "readings": [
-        "ifip_ict4d_2024_part1_facilitating_gig_work_opportunities_for_youth",
-        "ness_southern_insurgency",
-        "ifip_ict4d_2020_risks_and_risk_mitigation_strategies_of",
-        "ictd_2020_gendered_gigs_understanding_the_gig_economy",
         "aies_2025_part1_experimental_evidence_that_ai_managed_workers",
-        "ifip_ict4d_2022_gendered_inequality_on_digital_labour_platforms",
         "compass_2024_unveiling_two_fold_gamification_exploring_the",
-        "ictd_2022_driven_to_the_brink_understanding_digital"
+        "cscw_2021_1_delivery_work_and_the_experience_of",
+        "cscw_2021_2_quantifying_the_invisible_labor_in_crowd",
+        "cscw_2021_2_the_everyday_hci_of_uber_drivers",
+        "cscw_2021_2_together_but_alone_atomization_and_peer",
+        "cscw_2021_2_what_s_in_a_network_infrastructures",
+        "cscw_2022_2_an_approximation_of_freedom_on_demand",
+        "cscw_2022_2_ethical_tensions_in_applications_of_ai",
+        "cscw_2022_2_gig_platforms_as_faux_infrastructure_a",
+        "cscw_2022_2_toward_a_more_inclusive_gig_economy",
+        "cscw_2023_1_face_work_a_human_centered_investigation",
+        "cscw_2023_2_the_work_to_make_piecework_work",
+        "cscw_2024_1_design_tensions_in_online_freelancing_platforms",
+        "cscw_2024_1_platformization_of_inequality_gender_and_race",
+        "cscw_2024_1_wage_theft_and_technology_in_the",
+        "cscw_2024_2_digital_gig_work_under_unstable_energy",
+        "cscw_2024_2_el_costo_de_la_independencia_latino",
+        "cscw_2024_2_entangled_independence_from_labor_rights_to",
+        "cscw_2024_2_journeying_through_sense_of_place_with",
+        "cscw_2025_1_decoding_the_meaning_of_success_on",
+        "cscw_2025_2_between_autonomy_and_algorithms_the_informal",
+        "cscw_2025_2_gender_and_careers_in_platform_mediated",
+        "cscw_2025_2_libertas_privacy_preserving_collaborative_computation_for",
+        "cscw_2025_2_scalar_devices_of_a_global_movement",
+        "cscw_2025_2_this_is_eye_opening_raising_awareness",
+        "ictd_2020_gendered_gigs_understanding_the_gig_economy",
+        "ictd_2022_driven_to_the_brink_understanding_digital",
+        "ifip_ict4d_2020_risks_and_risk_mitigation_strategies_of",
+        "ifip_ict4d_2022_gendered_inequality_on_digital_labour_platforms",
+        "ifip_ict4d_2024_part1_facilitating_gig_work_opportunities_for_youth",
+        "ness_southern_insurgency"
       ],
       "background_concepts": [
         {
@@ -1252,6 +1304,7 @@
         "social_capital_marginalization"
       ],
       "readings": [
+        "cscw_2025_2_learning_on_the_go_understanding_how",
         "ijcai_2022_creating_dynamic_checklists_via_bayesian_case",
         "ijcai_2022_gigs_with_guarantees_achieving_fair_wage"
       ],
@@ -1364,6 +1417,7 @@
       ],
       "readings": [
         "2022_challenges_with_social_protection",
+        "cscw_2025_2_insights_in_adaptation_examining_self_reflection",
         "ictd_2022_inheriting_discrimination_datafication_encounters_of_marginalized",
         "ictd_2024_an_in_depth_analysis_of_caste"
       ],
@@ -1508,10 +1562,13 @@
         "social_capital_marginalization"
       ],
       "readings": [
-        "ictd_2022_navigating_crisis_navigating_icts_a_study",
+        "compass_2024_demo_a_low_cost_honeynet_infrastructure",
+        "cscw_2021_2_what_is_the_topic_of_the",
+        "cscw_2025_2_speculating_migrant_possible_worlds_through_magic",
+        "cscw_2025_2_when_technologies_are_not_enough_understanding",
         "ictd_2020_infrastructuring_hope_solidarity_leadership_negotiation_and",
-        "ted_ashif_shaikh_migrant_worker_safety",
-        "compass_2024_demo_a_low_cost_honeynet_infrastructure"
+        "ictd_2022_navigating_crisis_navigating_icts_a_study",
+        "ted_ashif_shaikh_migrant_worker_safety"
       ],
       "background_concepts": []
     },
@@ -1788,10 +1845,12 @@
       ],
       "cross_cutting_axes": [
         "climate_change",
+        "gender",
         "social_capital_marginalization"
       ],
       "readings": [
         "compass_2023_windhoek_smart_city_hunt_app_designing",
+        "cscw_2025_2_credibility_boosters_as_a_lens_for",
         "ifip_ict4d_2022_factors_affecting_citizens_use_of_e",
         "itid_2017_overcoming_citizen_mistrust_and_enhancing_democratic"
       ],
@@ -1818,6 +1877,7 @@
       ],
       "readings": [
         "compass_2024_a_proposed_systematic_framework_and_guideline",
+        "cscw_2025_1_data_siloing_as_infrastructural_activism",
         "marginalizedaadhaar_documentary"
       ],
       "background_concepts": [
@@ -1873,19 +1933,26 @@
       "topics_covered": [
         "problem_discovery",
         "cs_fundamentals",
+        "ethnographic_design",
+        "sociotechnical_dynamics",
         "impact_evaluation"
       ],
       "cross_cutting_axes": [
+        "climate_change",
         "gender",
         "caste",
         "social_capital_marginalization"
       ],
       "readings": [
         "adamic_political_blogosphere",
-        "habermas_public_sphere",
+        "compass_2022_analysis_of_media_bias_in_policy",
         "compass_2022_role_of_the_mass_media_in",
         "conover_political_polarization_twitter",
-        "compass_2022_analysis_of_media_bias_in_policy"
+        "cscw_2022_1_voting_with_the_stars_analyzing_partisan",
+        "cscw_2022_2_help_can_you_hear_me_understanding",
+        "cscw_2023_1_reimagining_open_data_during_disaster_response",
+        "cscw_2025_2_regulating_social_media_surveying_the_impact",
+        "habermas_public_sphere"
       ],
       "background_concepts": []
     },
@@ -1899,12 +1966,17 @@
       "topics_covered": [
         "problem_discovery",
         "cs_fundamentals",
+        "ethnographic_design",
         "impact_evaluation"
       ],
-      "cross_cutting_axes": [],
+      "cross_cutting_axes": [
+        "social_capital_marginalization"
+      ],
       "readings": [
         "2015_sanjay_pradhan_open_data_aid_ted",
         "2015_tim_berners_lee_next_web_ted",
+        "cscw_2023_1_open_data_intermediaries_motivations_barriers_and",
+        "cscw_2025_2_staking_a_claim_in_data_expertise",
         "ijcai25_sdg_aid_tracking"
       ],
       "background_concepts": []
@@ -2195,6 +2267,8 @@
       "readings": [
         "blumenstock_mobile_money_afghanistan_rct",
         "blumenstock_risk_sharing_disasters",
+        "cscw_2022_2_kabootar_towards_informal_trustworthy_and_community",
+        "cscw_2025_2_17_years_of_fintech_for_financial",
         "ifip_ict4d_2024_part1_overcoming_marginalization_mobile_payment_domestication_by",
         "itid_2018_systematic_reviews_srs_impact_of_mobile",
         "itid_2020_a_state_led_model_of_financial",
@@ -2309,6 +2383,7 @@
       "readings": [
         "abraham_mobile_phones_fishing",
         "compass_2022_sophistication_with_limitation_understanding_smartphone_usage",
+        "cscw_2023_1_i_have_to_use_my_son",
         "ictd_2022_the_use_of_mobile_phones_by",
         "ifip_ict4d_2020_exploring_gender_gaps_how_nigerian_micro",
         "steyn_kerala_fisherman_critique"
@@ -2347,6 +2422,8 @@
         "social_capital_marginalization"
       ],
       "readings": [
+        "cscw_2021_1_exploring_entrepreneurial_activities_in_marginalized_widows",
+        "cscw_2025_1_building_new_clubhouses_bridging_refugee_and",
         "development_engineering_2023_validated_digital_literacy_measures_for_populations",
         "ghtc_2022_pedal_n_spin_foot_cranked_washing",
         "ghtc_2024_digital_technology_and_the_empowerment_of",
@@ -2600,6 +2677,8 @@
       ],
       "readings": [
         "compass_2022_sophistication_with_limitation_understanding_smartphone_usage",
+        "cscw_2022_2_there_is_no_app_for_that",
+        "cscw_2025_2_leveling_up_or_dropping_out_searching",
         "ghtc_2023_the_feasibility_of_introducing_mobile_technology",
         "ictd_2020_challenges_and_issues_integrating_smartphones_into",
         "ictd_2024_a_decade_later_revisiting_the_untapped"
@@ -2643,6 +2722,7 @@
       "readings": [
         "aaai_25_aisi_large_scale_school_mapping_using_weakly",
         "aseth_publications_temporal_prediction_of_socio_economic_indicators",
+        "cscw_2024_1_is_a_seat_at_the_table",
         "development_engineering_2021_the_last_mile_in_school_access",
         "ijcai_2024_vulnerabilitymap_an_open_framework_for_mapping"
       ],
@@ -2809,10 +2889,14 @@
       "topics_covered": [
         "cs_fundamentals",
         "ethnographic_design",
+        "sociotechnical_dynamics",
         "impact_evaluation"
       ],
-      "cross_cutting_axes": [],
+      "cross_cutting_axes": [
+        "social_capital_marginalization"
+      ],
       "readings": [
+        "cscw_2022_2_designing_for_shared_values_exploring_ethical",
         "ghtc_2024_empowering_collaboration_insights_into_teacher_collaboration",
         "itid_2018_systematic_reviews_srs_factors_affecting_the",
         "jcss_2025_a_design_based_research_approach_to"
@@ -3891,6 +3975,7 @@
       "topics_covered": [
         "cs_fundamentals",
         "ethnographic_design",
+        "sociotechnical_dynamics",
         "impact_evaluation",
         "operations_scale"
       ],
@@ -3899,6 +3984,8 @@
         "social_capital_marginalization"
       ],
       "readings": [
+        "cscw_2021_2_the_flaky_accretions_of_infrastructure_sociotechnical",
+        "cscw_2025_2_distance_matters_in_citizen_based_water",
         "development_engineering_2022_electronic_sensors_to_monitor_functionality_and",
         "ghtc_2022_a_community_water_system_mapping_cwsmap"
       ],
@@ -4876,7 +4963,9 @@
       ],
       "description": "This domain covers remote sensing techniques for mapping and characterizing forests and vegetation, using satellite, UAV, and LiDAR data to estimate tree diversity, classify species, and detect canopy changes. Readings include spectral variability approaches for tropical forests, multi-temporal NDVI analysis of California floristic richness, multimodal and few-shot segmentation methods, and fine-tuning foundation models like EarthPT for tree canopy mapping. Applications range from detecting human-driven forest alterations to fine-resolution vegetation monitoring from space.",
       "topics_covered": [
-        "cs_fundamentals"
+        "cs_fundamentals",
+        "sociotechnical_dynamics",
+        "impact_evaluation"
       ],
       "cross_cutting_axes": [
         "climate_change"
@@ -4890,6 +4979,7 @@
         "climate_change_ai_forest_terrain_identification_using_semantic_segmentation",
         "climate_change_ai_scalable_satellite_imagery_analysis_a_cascade",
         "climate_change_ai_segment_then_classify_few_shot_instance",
+        "cscw_2022_2_ai_and_disaster_risk_a_practitioner",
         "ijcai_2022_monitoring_vegetation_from_space_at_extremely"
       ],
       "background_concepts": [
@@ -5082,14 +5172,18 @@
         "problem_discovery",
         "cs_fundamentals",
         "ethnographic_design",
+        "sociotechnical_dynamics",
         "impact_evaluation"
       ],
       "cross_cutting_axes": [
         "climate_change",
+        "gender",
+        "caste",
         "social_capital_marginalization"
       ],
       "readings": [
         "aaai_24_aisi_where_it_really_matters_few_shot",
+        "cscw_2025_2_sustaining_workers_who_sustain_the_world",
         "ijcai25_salmon_indigenous_rivers",
         "sekar_whats_left_of_the_jungle",
         "ted_kartick_satyanarayan_dancing_bears"
@@ -5300,6 +5394,8 @@
         "compass_2021_costs_and_benefits_of_conducting_voice",
         "compass_2021_demo_a_whatsapp_bot_for_citizen",
         "compass_2021_early_results_from_automating_voice_based",
+        "cscw_2025_2_bridging_the_technical_gap_a_unified",
+        "cscw_2025_2_leveraging_familiarity_with_television_to_enrich",
         "grins_intro",
         "ictd_2020_initial_lessons_from_building_an_ivr",
         "ictd_2024_leaving_no_one_behind_an_agenda",
@@ -5333,8 +5429,10 @@
       ],
       "description": "This domain focuses on the technical and operational infrastructure supporting community radio stations in India, including automation systems, content distribution architectures for rural areas, and answering machine systems like Phonepeti. Readings explore how ICTs meet the operational needs of these stations, as well as their commercialization and interactive programming such as singing competitions combining radio with IVRS.",
       "topics_covered": [
+        "problem_discovery",
         "cs_fundamentals",
         "ethnographic_design",
+        "sociotechnical_dynamics",
         "impact_evaluation",
         "operations_scale"
       ],
@@ -5347,6 +5445,9 @@
         "aseth_publications_motivation_and_design_of_a_content",
         "aseth_publications_phonepeti_exploring_the_role_of_an",
         "aseth_publications_using_icts_to_meet_the_operational",
+        "cscw_2021_1_being_regulated_licence_to_imagine_new",
+        "cscw_2023_2_the_shapes_of_the_fourth_estate",
+        "cscw_2025_2_it_s_like_another_world_intra",
         "koradia_gurgaon_idol"
       ],
       "background_concepts": [
@@ -5486,6 +5587,7 @@
       "description": "This domain explores how platforms like WhatsApp and Facebook are adopted and used in urban and rural India, and the broader Global South, examining sentiment, empowerment, and the social meaning of ICTs in context. Readings also probe the darker dynamics of social media, including fake news in developing countries and the filter bubble effects that shape information exposure. Together they map the mobile media actor-network and patterns of technology usage.",
       "topics_covered": [
         "problem_discovery",
+        "cs_fundamentals",
         "ethnographic_design",
         "sociotechnical_dynamics",
         "impact_evaluation"
@@ -5496,14 +5598,19 @@
         "social_capital_marginalization"
       ],
       "readings": [
-        "ifip_ict4d_2020_appraising_whatsapp_in_the_indian_context",
-        "ted_eli_pariser_filter_bubbles",
-        "mcpherson_birds_of_a_feather",
-        "kumar_rangaswamy_mobile_media_actor_network",
-        "kumar_facebook_self_empowerment",
+        "cscw_2022_1_social_debunking_of_misinformation_on_whatsapp",
+        "cscw_2022_2_adherence_to_misinformation_on_social_media",
+        "cscw_2024_1_we_re_not_in_that_circle",
+        "cscw_2024_2_the_politics_of_fear_and_the",
+        "cscw_2025_2_envisioning_interventions_to_combat_misinformation_propagation",
         "granovetter_weak_ties",
+        "ifip_ict4d_2020_appraising_whatsapp_in_the_indian_context",
+        "ifip_ict4d_2024_part2_fake_news_in_developing_countries_drivers",
+        "kumar_facebook_self_empowerment",
+        "kumar_rangaswamy_mobile_media_actor_network",
+        "mcpherson_birds_of_a_feather",
         "putnam_kolko_social_meaning_icts",
-        "ifip_ict4d_2024_part2_fake_news_in_developing_countries_drivers"
+        "ted_eli_pariser_filter_bubbles"
       ],
       "background_concepts": [
         {
@@ -5537,6 +5644,8 @@
         "social_capital_marginalization"
       ],
       "readings": [
+        "cscw_2021_1_we_even_borrowed_money_from_our",
+        "cscw_2024_1_dismantling_gender_blindness_in_online_discussion",
         "ictd_2020_does_gender_and_accent_of_voice",
         "ictd_2022_the_use_of_mobile_phones_by",
         "itid_2018_gender_mobile_and_mobile_internet_mother"
@@ -5586,15 +5695,16 @@
         "social_capital_marginalization"
       ],
       "readings": [
-        "climate_change_ai_a_nlp_based_analysis_of_alignment",
-        "aies_2025_part3_collective_agency_in_art_making_towards",
-        "climate_change_ai_climate_policy_radar_s_open_knowledge",
-        "ijcai25_climate_discourse_moderation",
-        "climate_change_ai_deep_climate_change_a_dataset_and",
-        "aies_2025_part1_informing_ai_risk_assessment_with_news",
         "aaai_24_aisi_where_it_really_matters_few_shot",
+        "aies_2025_part1_informing_ai_risk_assessment_with_news",
+        "aies_2025_part3_collective_agency_in_art_making_towards",
+        "climate_change_ai_a_nlp_based_analysis_of_alignment",
+        "climate_change_ai_climate_policy_radar_s_open_knowledge",
         "climate_change_ai_climateq_a_bridging_the_gap_between",
-        "ictd_2024_filter_in_or_filter_out_complexities"
+        "climate_change_ai_deep_climate_change_a_dataset_and",
+        "cscw_2025_2_understanding_community_likes_and_clinical_perspective",
+        "ictd_2024_filter_in_or_filter_out_complexities",
+        "ijcai25_climate_discourse_moderation"
       ],
       "background_concepts": [
         {
@@ -5634,6 +5744,7 @@
       ],
       "readings": [
         "aseth_publications_a_case_study_on_the_use",
+        "cscw_2025_1_if_we_had_the_option_infrastructuring",
         "ictd_2020_the_limits_of_design_in_ensuring",
         "ictd_2024_i_wish_i_had_the_ability"
       ],
@@ -5697,6 +5808,7 @@
       "readings": [
         "compass_2021_investigating_measurement_scheduling_strategies_in_low",
         "compass_2023_community_networks_powered_by_community_currencies",
+        "cscw_2021_2_the_network_is_an_excuse_hardware",
         "heimerl_local_cellular_networks"
       ],
       "background_concepts": [
@@ -6270,15 +6382,18 @@
       "topics_covered": [
         "cs_fundamentals",
         "ethnographic_design",
-        "sociotechnical_dynamics"
+        "sociotechnical_dynamics",
+        "impact_evaluation"
       ],
       "cross_cutting_axes": [
+        "gender",
         "social_capital_marginalization"
       ],
       "readings": [
         "aseth_publications_2g_3g_network_measurements_in_rural",
         "aseth_publications_first_impressions_on_the_state_of",
-        "compass_2021_improving_emergency_preparedness_and_response_in"
+        "compass_2021_improving_emergency_preparedness_and_response_in",
+        "cscw_2021_2_understanding_driver_passenger_interactions_in_vehicular"
       ],
       "background_concepts": [
         {
@@ -6319,6 +6434,7 @@
       ],
       "readings": [
         "compass_2023_windhoek_smart_city_hunt_app_designing",
+        "cscw_2022_2_digital_storytelling_for_developing_computer_skills",
         "ifip_ict4d_2024_part2_bridging_the_digital_divide_securing_information",
         "jcss_2023_focusing_on_the_unfocused_corresponding_perspectives",
         "jcss_2024_connecting_in_crisis_investigating_equitable_community"

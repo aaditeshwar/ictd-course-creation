@@ -1,0 +1,94 @@
+[
+  {
+    "id": null,
+    "title": "Towards Sustainable ICTD in Bangladesh: Understanding the Program and Policy Landscape and Its Implications for CSCW and HCI",
+    "authors": "Manika Saha, Delvin Varghese, Tom Bartindale, Shakuntala Haraksingh Thilsted, Syed Ishtiaque Ahmed, Patrick Olivier",
+    "year": 2022,
+    "venue": "cscw_2022_1",
+    "areas": [],
+    "topics": [
+      "operations_scale"
+    ],
+    "cross_cutting_axes": [],
+    "area_agnostic": true,
+    "source_course": "cscw_2022_1_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context (Bangladesh) and discusses factors affecting the sustainability and scalability of ICT innovations, aligning with the 'operations_scale' topic.",
+    "link": "https://doi.org/10.1145/3512973",
+    "abstract": "Historically, Computer-Supported Cooperative Work (CSCW) and Human-Computer Interaction for Development (HCI4D) researchers in the Global South have advocated for a community-based approach to technology design and development. However, even with this \"bottom-up\" emphasis, the sustainability and scalability of the resulting innovations remain major challenges, and are poorly understood. To address this gap, we take the case of Bangladesh as a typical Global South context in which development work is carried out by a complex intertwined network of stakeholders across governments, NGOs, donors, and industries. To better understand the current development landscape and its priorities for digital technologies, we conducted interviews with 14 influential decision-makers in Bangladesh who play significant roles in the development of nutrition strategies. Our findings highlight a disconnect between the Bangladesh government's \"digital mandate\" and the reality of digital innovation practice within the nutrition development sector. Our paper contributes to the debate on factors that affect decision-making processes. We explore the dynamics of diverse actors and institutions who are intended to participate in, but can act as obstacles to sustained bottom-up innovations. Our findings expand understanding of institutional priorities, the dynamics of intermediaries, techno-solutionism, postcolonialism, bureaucracy, competition, and other important topics in CSCW scholarship. We suggest understanding the factors that guide the decision-making process of digital innovation practices in terms of four dimensions: internal, external, vertical, and horizontal. Consequently, we recommend CSCW and HCI researchers become mediators to connect decision-makers and communities and bring their voices in ICT innovations for global development. Finally, we offer recommendations for proactive engagement with decision-making stakeholders, enabling researchers to design community-centered sustainable digital innovations for development.",
+    "_matched_keywords": [
+      "intermediaries"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Social Debunking of Misinformation on WhatsApp: The Case for Strong and In-group Ties",
+    "authors": "Irene V. Pasquetto, Eaman Jahani, Shubham Atreja, Matthew Baum",
+    "year": 2022,
+    "venue": "cscw_2022_1",
+    "areas": [
+      "media_information"
+    ],
+    "topics": [
+      "ethnographic_design",
+      "sociotechnical_dynamics"
+    ],
+    "cross_cutting_axes": [
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "cscw_2022_1_venue_search",
+    "notes": "The paper engages with a developing-regions context through the use of WhatsApp and social capital, which is relevant to the media and information ecosystems in India.",
+    "link": "https://doi.org/10.1145/3512964",
+    "abstract": "In this paper, we argue that WhatsApp can play an important role in correcting misinformation. We show how specific WhatsApp affordances (flexibility in format and audience selection) and existing social capital (prevalence of strong ties; homophily in political groups) can be leveraged to maximize the re-sharing of debunking messages, such as those accessed by WhatsApp users via ChatBots and Tip-Lines. Debunking messages received in the format of audio files generated more interest and were more effective in correcting beliefs than text- or image-based messages. In addition, we found clear evidence that users re-share debunks at higher rates when they received them from people close to them (strong ties), from individuals who generally agree with them politically (in-group members), or when both conditions are met. We suggest that WhatsApp leverages our findings to maximize the re-share of those fact-checks that are already circulating on the platform by using the existing social capital in the network, unlocking the potential for such debunks to reach a larger audience on WhatsApp.",
+    "_matched_keywords": [
+      "homophily",
+      "homophily"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Separating Polarization from Noise: Comparison and Normalization of Structural Polarization Measures",
+    "authors": "Ali Salloum, Ted Hsuan Yun Chen, Mikko Kivel\u00e4",
+    "year": 2022,
+    "venue": "cscw_2022_1",
+    "areas": [],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [],
+    "area_agnostic": true,
+    "source_course": "cscw_2022_1_venue_search",
+    "notes": "The paper's methodology on measuring polarization can be adapted to understand social dynamics in developing regions, fitting the cs_fundamentals topic rule.",
+    "link": "https://doi.org/10.1145/3512962",
+    "abstract": "Quantifying the amount of polarization is crucial for understanding and studying political polarization in political and social systems. Several methods are used commonly to measure polarization in social networks by purely inspecting their structure. We analyse eight of such methods and show that all of them yield high polarization scores even for random networks with similar density and degree distributions to typical real-world networks. Further, some of the methods are sensitive to degree distributions and relative sizes of the polarized groups. We propose normalization to the existing scores and a minimal set of tests that a score should pass in order for it to be suitable for separating polarized networks from random noise. The performance of the scores increased by 38%-220% after normalization in a classification task of 203 networks. Further, we find that the choice of method is not as important as normalization, after which most of the methods have better performance than the best-performing method before normalization. This work opens up the possibility to critically assess and compare the features and performance of different methods for measuring structural polarization.",
+    "_matched_keywords": [
+      "polarization",
+      "political polarization"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Voting with the Stars: Analyzing Partisan Engagement between Celebrities and Politicians in India",
+    "authors": "Ramaravind Kommiya Mothilal, Dibyendu Mishra, Sachita Nishal, Faisal M. Lalani, Joyojeet Pal",
+    "year": 2022,
+    "venue": "cscw_2022_1",
+    "areas": [
+      "governance"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "cscw_2022_1_venue_search",
+    "notes": "The paper engages with a developing-regions context (India) and applies computer science fundamentals (data analysis and machine learning) to understand political engagement, which can be adapted to other developing regions.",
+    "link": "https://doi.org/10.1145/3512981",
+    "abstract": "Celebrity influencers are increasingly central to political discourse as they engage in, and get engaged with, on matters of electoral importance. In this paper, using Twitter data from 1432 sportspersons and entertainers and their engagement with the 1000 of the most followed ruling party and opposition politicians from India, we propose a new method to measure partisanship of celebrities along different modes of engagement. Our examination of polarization, through topical and retweet analyses, shows patterns related to both party incumbency and the level of internal organization. We find that the ruling BJP has been more effective than the opposition, the INC, in organized outreach to celebrities, by eschewing explicit party-based partisanship, and instead employing non-partisan narrative techniques, such as maintaining nationalism as the central theme in tweets. We find that while entertainers are equally engaged by both the ruling and opposition parties, sportspersons, who often enjoy a nationalist appeal by virtue of representing the country, tend to have a much more partisan relationship with the incumbent party.",
+    "_matched_keywords": [
+      "polarization"
+    ]
+  }
+]

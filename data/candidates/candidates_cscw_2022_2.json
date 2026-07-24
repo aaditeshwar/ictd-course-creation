@@ -1,0 +1,457 @@
+[
+  {
+    "id": null,
+    "title": "Designing for Shared Values: Exploring Ethical Dilemmas of Conducting Values Inclusive Design Research",
+    "authors": "Rebecca M. Jonas, Benjamin V. Hanrahan",
+    "year": 2022,
+    "venue": "cscw_2022_2",
+    "areas": [
+      "education"
+    ],
+    "topics": [
+      "ethnographic_design",
+      "sociotechnical_dynamics"
+    ],
+    "cross_cutting_axes": [
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "cscw_2022_2_venue_search",
+    "notes": "The paper engages with a rural low-resource setting, which fits the criteria for a developing-regions context.",
+    "link": "https://doi.org/10.1145/3555182",
+    "abstract": "Recent prevalence of values-inclusive design research introduces the potential of conducting research with those whose values conflict with researchers' own values. This is the scenario we have found ourselves in as we conduct values-inclusive participatory design to develop and deploy critical digital literacy education in a rural Appalachian community. We present provocations which outline the ethical concerns we have grappled with in pursuit of conducting fair and responsible research for our participants, indirect stakeholders, and ourselves. Through consideration of these provocations, we have developed a preliminary approach for managing a research relationship with those with whom we disagree which we call Designing for Shared Values. This approach is a conflict-avoidant method for negotiating values in values-inclusive design. It centers around reflexivity as a mechanism to account for one's own values and potential impacts of design research outcomes on indirect stakeholders, while maintaining responsibility to prioritize beneficial outcomes to research participants.",
+    "_matched_keywords": [
+      "digital literacy",
+      "participatory design"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Digital Storytelling for Developing Computer Skills in Rural Appalachia",
+    "authors": "Rebecca M. Jonas, Benjamin V. Hanrahan",
+    "year": 2022,
+    "venue": "cscw_2022_2",
+    "areas": [
+      "infrastructure"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "ethnographic_design"
+    ],
+    "cross_cutting_axes": [],
+    "area_agnostic": false,
+    "source_course": "cscw_2022_2_venue_search",
+    "notes": "The paper engages with a low-resource setting, which aligns with the criteria for the 'cs_fundamentals' topic, as it does not need to be set in a developing region but can be adapted to such contexts.",
+    "link": "https://doi.org/10.1145/3555621",
+    "abstract": "As we built and deployed a digital storytelling system to teach digital literacy skills to rural Appalachians, we discovered key opportunities and challenges to promoting digital literacy in this region. We identified that the importance of storytelling in Appalachian culture made digital storytelling an effective means of teaching these skills to residents. However, the poor technology infrastructure at our study site posed challenges to our participants' ability to use technology and learn new skills. We found that poor infrastructure reinforces low self-efficacy, discouraging participants from using technology. In environments where computers are often slow and unreliable, it is not possible to form realistic expectations of how a computer should act. Therefore, it becomes difficult for users to untangle if the issues they encounter are because of usage errors or the technology. These findings highlight how infrastructure and self-efficacy should be accounted for together when conducting rural HCI research.",
+    "_matched_keywords": [
+      "digital literacy"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Relative Feedback Increases Disparities in Effort and Performance in Crowdsourcing Contests: Evidence from a Quasi-Experiment on Topcoder",
+    "authors": "Milena Tsvetkova, Sebastian M\u00fcller, Oana Vuculescu, Haylee Ham, Rinat A. Sergeev",
+    "year": 2022,
+    "venue": "cscw_2022_2",
+    "areas": [],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [],
+    "area_agnostic": true,
+    "source_course": "cscw_2022_2_venue_search",
+    "notes": "The paper applies computer science fundamentals (cs_fundamentals) which can be adapted to a developing-regions context, as per the rule for this topic.",
+    "link": "https://doi.org/10.1145/3555649",
+    "abstract": "Rankings and leaderboards are often used in crowdsourcing contests and online communities to motivate individual contributions but feedback based on social comparison can also have negative effects. Here, we study the unequal effects of such feedback on individual effort and performance for individuals of different ability. We hypothesize that the effects of social comparison differ for top performers and bottom performers in a way that the inequality between the two increases. We use a quasi-experimental design to test our predictions with data from Topcoder, a large online crowdsourcing platform that publishes computer programming contests. We find that in contests where the submitted code is evaluated against others' submissions, rather than using an absolute scale, top performers increase their effort while bottom performers decrease it. As a result, relative scoring leads to better outcomes for those at the top but lower engagement for bottom performers. Our findings expose an important but overlooked drawback from using gamified competitions, rankings, and relative evaluations, with potential implications for crowdsourcing markets, online learning environments, online communities, and organizations in general.",
+    "_matched_keywords": [
+      "inequality"
+    ]
+  },
+  {
+    "id": null,
+    "title": "SenseMyStreet: Sensor Commissioning Toolkit for Communities",
+    "authors": "Aare Puussaar, Kyle Montague, Sean Peacock, Thomas Nappey, Robert Anderson, Jennine Jonczyk, Peter C. Wright, Philip James",
+    "year": 2022,
+    "venue": "cscw_2022_2",
+    "areas": [
+      "infrastructure"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "ethnographic_design",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [],
+    "area_agnostic": true,
+    "source_course": "cscw_2022_2_venue_search",
+    "notes": "The paper, while not set in a developing region, provides a general-purpose methodology that could be adapted to a developing-regions context, aligning with the cs_fundamentals topic rule.",
+    "link": "https://doi.org/10.1145/3555215",
+    "abstract": "The rise of big data and smart sensing, with the promise of more educated and informed decisions, has fuelled a shift towards more data-driven decision-making in local and national government. However, we are observing a disconnect between the people who are affected by these decisions and their access to tools and resources to collect data in order to provide the needed evidence for change. To truly democratise this process and for citizens to become active prosumers of data, new mechanisms of citizen data production are needed. In this paper we report on a two-year ethnographic and iterative co-design process with the local community. This work encompassed the design, development and deployment of SenseMyStreet (SeMS), a bespoke sensor commissioning toolkit that enables citizens and community groups to use and commission a city's scientific-grade environmental monitors, determining where they will be located on their streets and collecting data to evidence hyper-local issues. Unlike prior research, which creates alternative data sources to contest city data, our toolkit helps integrate citizen commissioned data into the city datasets used by citizens and decision-makers. Reflecting on the design process and evaluating the ways people engaged with the digital tools of the toolkit, we highlight how commissioning can be configured to promote equity in the smart city, empower citizens to take ownership of issues and facilitate the creation of community networks that utilise the data for local benefit.",
+    "_matched_keywords": [
+      "smart city",
+      "community networks",
+      "co-design"
+    ]
+  },
+  {
+    "id": null,
+    "title": "\"Money Doesn't Buy You Happiness\": Negative Consequences of Using the Freemium Model for Mental Health Apps",
+    "authors": "Tessa Eagle, Aman Mehrotra, Aayush Sharma, Alex Zuniga, Steve Whittaker",
+    "year": 2022,
+    "venue": "cscw_2022_2",
+    "areas": [
+      "health"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "ethnographic_design",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "cscw_2022_2_venue_search",
+    "notes": "The paper engages with mental health app design, which can be adapted to a developing-regions context, particularly in India where mental health services are limited and mobile technology is increasingly prevalent.",
+    "link": "https://doi.org/10.1145/3555155",
+    "abstract": "As global rates of anxiety and depression increase, we observe millions of downloads of mobile apps addressing mental health that adopt 'freemium' charging models offering complex combinations of free and paid features. We explore potentially negative outcomes of deploying such freemium designs to vulnerable MH populations. We assess outcomes for 41 frequently downloaded mental health apps, by combining thematic analysis of 41K user reviews with audits to validate app descriptions and reviews. We propose a new analytic framework identifying three types of negative outcomes for freemium deployments: first vulnerable users currently experiencing crises may feel pressure to download unhelpful or costly apps. Second unintuitive descriptions of complex apps can lead to inappropriate treatments and expensive subscriptions. Third, limited duration offers may result in incomplete treatments or unexpected charges. We discuss ethical considerations and broader HCI consequences. We describe implications for mental health app design, including the need for greater transparency around free versus paid features, and propose new approaches to provide vulnerable users with validated information about these commonly downloaded apps.",
+    "_matched_keywords": [
+      "thematic analysis"
+    ]
+  },
+  {
+    "id": null,
+    "title": "AI and Disaster Risk: A Practitioner Perspective",
+    "authors": "Aparna Moitra, Dennis Wagenaar, Manveer Kalirai, Syed Ishtiaque Ahmed, Robert Soden",
+    "year": 2022,
+    "venue": "cscw_2022_2",
+    "areas": [
+      "water_security",
+      "wildlife_conservation",
+      "infrastructure"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "sociotechnical_dynamics",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "climate_change"
+    ],
+    "area_agnostic": false,
+    "source_course": "cscw_2022_2_venue_search",
+    "notes": "The paper discusses the application of AI in disaster risk management, which can be adapted to developing regions to support disaster preparedness and response.",
+    "link": "https://doi.org/10.1145/3555163",
+    "abstract": "Emerging techniques developed by AI researchers promise to offer the capacity to support disaster risk management (DRM), through making data collection or analysis practices faster, less costly, or more accurate. However, in every socially consequential domain in which AI tools have been applied, these technologies have been demonstrated to have some degree of negative consequences. This paper explores an attempt to convene technical experts in the area of DRM to discuss potential negative impacts, their approaches toward mitigating these impacts as well as identifying some of the overarching challenges. In doing so, we contribute new findings about a domain that has received relatively little attention from critical and ethical AI researchers, and the opportunities and limitations that are presented by working with domain experts to evaluate the social consequences of emerging technologies.",
+    "_matched_keywords": [
+      "disaster risk"
+    ]
+  },
+  {
+    "id": null,
+    "title": "End-User Audits: A System Empowering Communities to Lead Large-Scale Investigations of Harmful Algorithmic Behavior",
+    "authors": "Michelle S. Lam, Mitchell L. Gordon, Dana\u00eb Metaxa, Jeffrey T. Hancock, James A. Landay, Michael S. Bernstein",
+    "year": 2022,
+    "venue": "cscw_2022_2",
+    "areas": [],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [],
+    "area_agnostic": true,
+    "source_course": "cscw_2022_2_venue_search",
+    "notes": "The paper applies strong computer science methods to the problem of algorithmic auditing, which can be adapted to a developing-regions context under the cs_fundamentals topic rule.",
+    "link": "https://doi.org/10.1145/3555625",
+    "abstract": "Because algorithm audits are conducted by technical experts, audits are necessarily limited to the hypotheses that experts think to test. End users hold the promise to expand this purview, as they inhabit spaces and witness algorithmic impacts that auditors do not. In pursuit of this goal, we propose end-user audits-system-scale audits led by non-technical users-and present an approach that scaffolds end users in hypothesis generation, evidence identification, and results communication. Today, performing a system-scale audit requires substantial user effort to label thousands of system outputs, so we introduce a collaborative filtering technique that leverages the algorithmic system's own disaggregated training data to project from a small number of end user labels onto the full test set. Our end-user auditing tool, IndieLabel, employs these predicted labels so that users can rapidly explore where their opinions diverge from the algorithmic system's outputs. By highlighting topic areas where the system is under-performing for the user and surfacing sets of likely error cases, the tool guides the user in authoring an audit report. In an evaluation of end-user audits on a popular comment toxicity model with 17 non-technical participants, participants both replicated issues that formal audits had previously identified and also raised previously underreported issues such as under-flagging on veiled forms of hate that perpetuate stigma and over-flagging of slurs that have been reclaimed by marginalized communities.",
+    "_matched_keywords": [
+      "marginalized communities",
+      "marginalized communities"
+    ]
+  },
+  {
+    "id": null,
+    "title": "\"Kabootar\": Towards Informal, Trustworthy, and Community-Based FinTech for Marginalized Immigrants",
+    "authors": "Yasaman Rohanifar, Sharifa Sultana, Shaid Hasan, Priyank Chandra, Syed Ishtiaque Ahmed",
+    "year": 2022,
+    "venue": "cscw_2022_2",
+    "areas": [
+      "livelihood"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "ethnographic_design",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "cscw_2022_2_venue_search",
+    "notes": "The paper engages with a developing-regions context through the lens of marginalized immigrants and informal financial transactions, aligning with the livelihood and financial inclusion focus.",
+    "link": "https://doi.org/10.1145/3555109",
+    "abstract": "Financial technology (FinTech) platforms often exclude certain countries from their services due to global political conflicts. As a result, immigrants from these neglected countries struggle with transferring money to and from their homeland through formal mechanisms. Instead, they get involved in informal transnational transactions that, while flexible, are often risky and full of hassles. We looked into this issue through an online survey (n=127) and engaged with multiple stakeholders (n=16), including the Iranian immigrant community in Canada, to co-design an application called ?Kabootar' that matches senders and receivers of money across borders. In this application, a sender-receiver pair is matched with a pertinent pair sending money in the opposite direction. By facilitating two intra-national transactions in local currencies instead of two relatively complicated inter-national transactions, the need for money to cross borders is eliminated while staying within the boundaries of the law. Our user study (n=13) revealed several tensions in users trusting such informal transnational transactions. This work contributes to CSCW, HCI, and social computing's growing scholarship in personalized and collaborative computing technologies by advocating for a novel design approach based on collaboration and informality and extends their scope to the domain of FinTech for politically marginalized communities.",
+    "_matched_keywords": [
+      "co-design",
+      "marginalized communities",
+      "marginalized communities"
+    ]
+  },
+  {
+    "id": null,
+    "title": "CrowdOptim: A Crowd-driven Neural Network Hyperparameter Optimization Approach to AI-based Smart Urban Sensing",
+    "authors": "Yang Zhang, Ruohan Zong, Lanyu Shang, Ziyi Kou, Huimin Zeng, Dong Wang",
+    "year": 2022,
+    "venue": "cscw_2022_2",
+    "areas": [],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [],
+    "area_agnostic": true,
+    "source_course": "cscw_2022_2_venue_search",
+    "notes": "The paper applies strong computer science methods to a problem, fitting the 'cs_fundamentals' topic which allows general-purpose methodology adaptable to developing regions.",
+    "link": "https://doi.org/10.1145/3555536",
+    "abstract": "AI-based smart urban sensing (ASUS) has emerged as a scalable and pervasive application paradigm in smart city planning and management that aims to automatically assess the physical status of the urban environments by leveraging AI techniques and massive urban sensing data. In this paper, we focus on a crowd-driven neural network (NN) hyperparameter optimization problem in ASUS applications. Our goal is to utilize the human intelligence from crowdsourcing systems to identify the optimal NN hyperparameter configuration for an ASUS model. Our work is motivated by the observation that the hyperparameters of current ASUS models are often manually configured by the AI specialists, which is known to be both error-prone and suboptimal. Two key technical challenges exist in solving our problem: i) it is challenging to effectively translate the highly complex NN hyperparameter optimization problem in AI to a simplified problem that can be solved by crowd workers without extensive AI expertise; ii) it is difficult to identify the optimal hyperparameter configuration in the large hyperparameter search space given the blackbox nature of the AI model. To address the above challenges, we develop CrowdOptim, a crowd-AI collaborative learning framework that integrates the techniques from crowdsourcing, hyperparameter optimization, and estimation theory to address the crowd-driven NN hyperparameter optimization problem in ASUS applications. The evaluation results from two real-world ASUS applications (i.e., smart city infrastructure monitoring (SCIM) and urban environment cleanliness assessment (UECA)) show that CrowdOptim consistently outperforms the state-of-the-art deep convolutional networks, crowd-AI, and hyperparameter optimization baselines in achieving the ASUS application objectives under various evaluation scenarios.",
+    "_matched_keywords": [
+      "smart city"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Toward a More Inclusive Gig Economy: Risks and Opportunities for Workers with Disabilities",
+    "authors": "Shruti Sannon, Dan Cosley",
+    "year": 2022,
+    "venue": "cscw_2022_2",
+    "areas": [
+      "labour"
+    ],
+    "topics": [
+      "operations_scale",
+      "sociotechnical_dynamics"
+    ],
+    "cross_cutting_axes": [
+      "social_capital_marginalization",
+      "gender",
+      "caste"
+    ],
+    "area_agnostic": false,
+    "source_course": "cscw_2022_2_venue_search",
+    "notes": "The paper engages with the labor dynamics of marginalized workers in the gig economy, which is relevant to the 'labour' area and the 'operations_scale' topic.",
+    "link": "https://doi.org/10.1145/3555755",
+    "abstract": "Little is known about whether and how workers with disabilities participate in the many on-demand labor platforms that make up the growing gig economy. Understanding disabled gig workers' experiences is a vital step toward developing inclusive and equitable labor platforms. Through interviews with 24 disabled gig workers and observational fieldwork, we present a rich, in-depth picture of the opportunities and challenges presented by four main types of gig work (ridesharing, delivery, crowdwork, and freelancing) for workers with a wide range of disabilities. We identify a key tension: gig work can be a vital source of needed income for workers who have been excluded from traditional workplaces, but at the same time, the structure of gig platforms present workers with a host of new disability-related challenges, including around algorithmic control and performance evaluation. We discuss how this tension plays out in terms of how workers engage in gig work and protect themselves from risk. We also call attention to how many workers can face complicated, intersectional challenges based on multiple marginalized identities in addition to disability, such as race, gender, sexual orientation, and socioeconomic status. Our work contributes to research on the gig economy by centering the perspectives of workers who are marginalized based on disability and other identities. We show how workers face several penalties based on disability, including shouldering extensive invisible labor to mitigate the challenges they face. Based on our interviews, we suggest several ways that on-demand labor platforms can be designed to be more inclusive of disability, including how to improve the accessibility of various tasks while mitigating the discrimination and negative interactions faced by disabled workers.",
+    "_matched_keywords": [
+      "gig work"
+    ]
+  },
+  {
+    "id": null,
+    "title": "\"Help! Can You Hear Me?\": Understanding How Help-Seeking Posts are Overwhelmed on Social Media during a Natural Disaster",
+    "authors": "Changyang He, Yue Deng, Wenjie Yang, Bo Li",
+    "year": 2022,
+    "venue": "cscw_2022_2",
+    "areas": [
+      "water_security",
+      "governance"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "ethnographic_design",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "climate_change"
+    ],
+    "area_agnostic": false,
+    "source_course": "cscw_2022_2_venue_search",
+    "notes": "The paper engages with a developing-regions context through its focus on the 2021 Henan Floods in China, applying computer science fundamentals to understand and address a critical issue during a natural disaster.",
+    "link": "https://doi.org/10.1145/3555147",
+    "abstract": "Posting help-seeking requests on social media has been broadly adopted by victims during natural disasters to look for urgent rescue and supplies. The help-seeking requests need to get sufficient public attention and be promptly routed to the intended target(s) for timely responses. However, the huge volume and diverse types of crisis-related posts on social media might limit help-seeking requests to receive adequate engagement and lead to their overwhelm. To understand this problem, this work proposes a mixed-methods approach to figure out the overwhelm situation of help-seeking requests, and individuals' and online communities' strategies to cope. We focused on the 2021 Henan Floods in China and collected 141,674 help-seeking posts with the keyword \"Henan Rainstorm Mutual Aid\" on a popular Chinese social media platform Weibo. The findings indicate that help-seeking posts confront critical challenges of both external overwhelm (i.e., an enormous number of non-help-seeking posts with the help-seeking-related keyword distracting public attention) and internal overwhelm (i.e., attention inequality with 5% help-seeking posts receiving more than 95% likes, comments, and shares). We discover linguistic and non-linguistic help-seeking strategies that could help to prevent the overwhelm, such as including contact information, disclosing situational vulnerabilities, using subjective narratives, and structuring help-seeking posts to a normalized syntax. We also illustrate how community members spontaneously work to prevent the overwhelm with their collective wisdom (e.g., norm development through discussion) and collaborative work (e.g., cross-community support). We reflect on how the findings enrich the literature in crisis informatics and raise design implications that facilitate effective help-seeking on social media during natural disasters.",
+    "_matched_keywords": [
+      "inequality"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Documenting Data Production Processes: A Participatory Approach for Data Work",
+    "authors": "Milagros Miceli, Tianling Yang, Adriana Alvarado Garcia, Julian Posada, Sonja Mei Wang, Marc Pohl, Alex Hanna",
+    "year": 2022,
+    "venue": "cscw_2022_2",
+    "areas": [],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [],
+    "area_agnostic": true,
+    "source_course": "cscw_2022_2_venue_search",
+    "notes": "The paper addresses the 'cs_fundamentals' topic by proposing a method for documenting data production processes, which can be adapted to a developing-regions context.",
+    "link": "https://doi.org/10.1145/3555623",
+    "abstract": "The opacity of machine learning data is a significant threat to ethical data work and intelligible systems. Previous research has addressed this issue by proposing standardized checklists to document datasets. This paper expands that field of inquiry by proposing a shift of perspective: from documenting datasets towards documenting data production. We draw on participatory design and collaborate with data workers at two companies located in Bulgaria and Argentina, where the collection and annotation of data for machine learning are outsourced. Our investigation comprises 2.5 years of research, including 33 semi-structured interviews, five co-design workshops, the development of prototypes, and several feedback instances with participants. We identify key challenges and requirements related to the integration of documentation practices in real-world data production scenarios. Our findings comprise important design considerations and highlight the value of designing data documentation based on the needs of data workers. We argue that a view of documentation as a boundary object, i.e., an object that can be used differently across organizations and teams but holds enough immutable content to maintain integrity, can be useful when designing documentation to retrieve heterogeneous, often distributed, contexts of data production.",
+    "_matched_keywords": [
+      "participatory design",
+      "co-design"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Disordering Datasets: Sociotechnical Misalignments in AI-Mediated Behavioral Health",
+    "authors": "Varoon Mathur, Caitlin Lustig, Elizabeth Kaziunas",
+    "year": 2022,
+    "venue": "cscw_2022_2",
+    "areas": [
+      "health"
+    ],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [],
+    "area_agnostic": false,
+    "source_course": "cscw_2022_2_venue_search",
+    "notes": "The paper applies strong computer science methods to AI and ML in behavioral health, which can be adapted to a developing-regions context, aligning with the cs_fundamentals topic rule.",
+    "link": "https://doi.org/10.1145/3555141",
+    "abstract": "The application of artificial intelligence (AI) to the behavioral health domain has led to a growing interest in the use of machine learning (ML) techniques to identify patterns in people's personal data with the goal of detecting-and even predicting-conditions such as depression, bipolar disorder, and schizophrenia. This paper investigates the data science practices and design narratives that underlie AI-mediated behavioral health through the situational analysis of three natural language processing (NLP) training datasets. Examining datasets as a sociotechnical system inextricably connected to particular social worlds, discourses, and infrastructural arrangements, we identify several misalignments between the technical project of dataset construction and benchmarking (a current focus of AI research in the behavioral health domain) and the social complexity of behavioral health. Our study contributes to a growing critical CSCW literature of AI systems by articulating the sensitizing concept ofdisordering datasets that aims to productively trouble dominant logics of AI/ML applications in behavioral health, and also support researchers and designers in reflecting on their roles and responsibilities working within this emerging and sensitive design space.",
+    "_matched_keywords": [
+      "natural language processing (NLP)"
+    ]
+  },
+  {
+    "id": null,
+    "title": "There is No App for That: Manifestations of the Digital Divides During COVID-19 School Closures in India",
+    "authors": "Mrunal Dhaygude, Naitik D. Lapsiya, Dipanjan Chakraborty",
+    "year": 2022,
+    "venue": "cscw_2022_2",
+    "areas": [
+      "education"
+    ],
+    "topics": [
+      "problem_discovery",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "caste",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "cscw_2022_2_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context in India, focusing on the impact of digital divides on education during the COVID-19 pandemic.",
+    "link": "https://doi.org/10.1145/3555140",
+    "abstract": "The COVID-19 induced lockdowns forced people to shift several activities, including education, online. However, in the context of online schooling, the Digital Divides have magnified and perpetuated existing inequities in the education system and in society. Through a qualitative study with 48 participants across four stakeholder groups we find that students in under-funded government schools in India largely have not been able to access online classes because of a lack of devices, poor quality of Internet access, unreliable data networks and expensive data plans. We also document attempts by teachers and non-profit workers to use mass media broadcast technologies to work around the issue of digital access, highlighting the importance of a human infrastructure to build resilience during a disruptive event. Socioeconomic factors have also forced several students to drop out of schools and into taking up jobs to support their families. We document the importance of enabling environments and economic safety nets at home for online education to succeed. We present some focus points for researchers and policy makers working in the space of digital divide and education to build more resilient systems through Digital Welfarism.",
+    "_matched_keywords": [
+      "digital divide"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Adherence to Misinformation on Social Media Through Socio-Cognitive and Group-Based Processes",
+    "authors": "Alexandros Efstratiou, Emiliano De Cristofaro",
+    "year": 2022,
+    "venue": "cscw_2022_2",
+    "areas": [
+      "media_information"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "sociotechnical_dynamics"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "cscw_2022_2_venue_search",
+    "notes": "The paper engages with the topic of misinformation on social media, which is relevant to the 'media_information' area and the broader context of information ecosystems in developing regions.",
+    "link": "https://doi.org/10.1145/3555589",
+    "abstract": "Previous work suggests that people's preference for different kinds of information depends on more than just accuracy. This could happen because the messages contained within different pieces of information may either be well-liked or repulsive. Whereas factual information must often convey uncomfortable truths, misinformation can have little regard for veracity and leverage psychological processes which increase its attractiveness and proliferation on social media. In this review, we argue that when misinformation proliferates, this happens because the social media environment enables adherence to misinformation by reducing, rather than increasing, the psychological cost of doing so. We cover how attention may often be shifted away from accuracy and towards other goals, how social and individual cognition is affected by misinformation and the cases under which debunking it is most effective, and how the formation of online groups affects information consumption patterns, often leading to more polarization and radicalization. Throughout, we make the case that polarization and misinformation adherence are closely tied. We identify ways in which the psychological cost of adhering to misinformation can be increased when designing anti-misinformation interventions or resilient affordances, and we outline open research questions that the CSCW community can take up in further understanding this cost.",
+    "_matched_keywords": [
+      "polarization"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Gig Platforms as Faux Infrastructure: A Case Study of Women Beauty Workers in India",
+    "authors": "Ira Anjali Anwar, Michaelanne Thomas, Kentaro Toyama, Julie Hui",
+    "year": 2022,
+    "venue": "cscw_2022_2",
+    "areas": [
+      "labour"
+    ],
+    "topics": [
+      "problem_discovery",
+      "ethnographic_design",
+      "sociotechnical_dynamics",
+      "impact_evaluation",
+      "operations_scale"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "cscw_2022_2_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context in India, focusing on gig platforms and their impact on women beauty workers during the pandemic.",
+    "link": "https://doi.org/10.1145/3555134",
+    "abstract": "In order to sustain everyday life in India during pandemic induced lockdowns, home service gig platforms materialized to provide essential services for urban society. As unemployment worsened, these gig platforms also emerged as key sources of paid work for gig workers, with some platforms promising an unusual degree of health and financial support for their gig workforce. Through semi-structured interviews, we examine how women beauty workers engaged with the infrastructural promise extended by home service gig platforms during the pandemic. While gig platforms promoted the potential of stable income and social security in the context of the Global South, we investigate the reality behind this image. We find that various breakdowns, from miscommunication around localized travel restrictions to limited platform helpline access, introduces day-to-day unpredictability for gig workers, hindering access to paid work as well as other platform extended benefits. We suggest that home service gig platforms actually serve as 'faux infrastructure,' in which the privatized logics work to enclose public value, while pushing the burden of access onto gig workers who must perform additional, often unpaid labors, in order to fill last-mile service gaps.",
+    "_matched_keywords": [
+      "gig work"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Ethical Tensions in Applications of AI for Addressing Human Trafficking: A Human Rights Perspective",
+    "authors": "Julia Deeb-Swihart, Alex Endert, Amy S. Bruckman",
+    "year": 2022,
+    "venue": "cscw_2022_2",
+    "areas": [
+      "governance",
+      "labour"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "ethnographic_design",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "cscw_2022_2_venue_search",
+    "notes": "The paper addresses ethical issues in AI applications, which can be adapted to developing regions to combat human trafficking and support vulnerable populations, aligning with the 'cs_fundamentals' topic rule.",
+    "link": "https://doi.org/10.1145/3555186",
+    "abstract": "In the last two decades, human trafficking (where individuals are forcibly exploited for the profits of another) has seen increased attention from the artificial intelligence (AI) community. Clear focus on the ethical risks of this research is critical given that those risks are disproportionately born by already vulnerable populations. To understand and subsequently address these risks, we conducted a systematic literature review of computing research leveraging AI to combat human trafficking and apply a framework using principles from international human rights law to categorize ethical risks. This paper uncovers a number of ethical tensions including bias endemic in datasets, privacy risks stemming from data collection and reporting, and issues concerning potential misuse. We conclude by highlighting four suggestions for future research: broader use of participatory design; engaging with other forms of trafficking; developing best practices for harm prevention; and including transparent ethics disclosures in research. We find that there are significant gaps in what aspects of human trafficking researchers have focused on. Most research to date focuses on aiding criminal investigations in cases of sex trafficking, but more work is needed to support other anti-trafficking activities like supporting survivors, adequately address labor trafficking, and support more diverse survivor populations including transgender and nonbinary individuals.",
+    "_matched_keywords": [
+      "participatory design"
+    ]
+  },
+  {
+    "id": null,
+    "title": "An Approximation of Freedom: On-demand Therapy and the Feminization of Labor",
+    "authors": "Linda Huber, Casey Pierce, Silvia Lindtner",
+    "year": 2022,
+    "venue": "cscw_2022_2",
+    "areas": [
+      "labour"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "ethnographic_design",
+      "sociotechnical_dynamics",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "gender"
+    ],
+    "area_agnostic": false,
+    "source_course": "cscw_2022_2_venue_search",
+    "notes": "The paper engages with the topic of gig/platform work and gender, which are relevant to the 'labour' and 'gender' cross-cutting axes in developing regions.",
+    "link": "https://doi.org/10.1145/3555166",
+    "abstract": "Platform labor and gig work have become key sites for understanding a nascent \"future of work\" hallmarked by informalization and digitization. A growing body of research emphasizes how experiences of platform work are mediated not only by algorithms and user interfaces, but also by gender, race, local cultures as well as labor hierarchies. Drawing from ongoing ethnographic research on the digital transformation of healthcare, we show how therapists' experiences of platform labor are centrally shaped by the historical and ongoing feminization of mental health work. Platforms reinscribe feminized labor conditions that are pervasive in the healthcare industry, and yet platform labor appears as 'useful' to some therapists as they navigate a set of precarious career choices fundamentally structured by feminization. We use the analytic of the stopgap to describe platforms' two-fold reproduction of the status quo: first by offering an approximation of freedom to individual workers, helping to forestall a crisis of unsustainable work conditions; and second by reinscribing the same logics of exploitation in order to make labor scalable. This stopgap analytic reorients the focus away from the impact of the platforms technologies as such, towards the conditions that make stopgap solutions necessary for survival. It also points towards the importance of intervening in the conditions of exclusion and exploitation that help to create a market for platform stopgaps.",
+    "_matched_keywords": [
+      "gig work",
+      "platform work"
+    ]
+  }
+]

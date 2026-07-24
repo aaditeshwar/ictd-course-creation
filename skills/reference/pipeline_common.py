@@ -21,12 +21,12 @@ from src.llm_config import (  # noqa: E402
     get_ollama_model,
     get_ollama_timeout,
     get_alignment_backend,
-    get_map_backend,
-    get_reduce_backend,
 )
 
 DEFAULT_READINGS = PROJECT_ROOT / "data" / "readings.json"
 DEFAULT_EXAMPLES = PROJECT_ROOT / "data" / "examples.json"
+# NEW: needed by topic_content_extractor.py / run_lecture_prep.py for topic names, sequence
+# order (for appendix.md section ordering), and topic descriptions (reduce-prompt context).
 DEFAULT_FRAMEWORK = PROJECT_ROOT / "data" / "framework.json"
 DEFAULT_BOOK_CONCEPT_MAP = Path(
     r"c:\aaditeshwar\personal\transfer\papers\tech for dev\book 2020"
@@ -45,7 +45,8 @@ LECTURE_PREP_HASH_LEN = 12
 PDF_MATCH_PREFIX_LEN = 40
 PDF_MATCH_MIN_PREFIX = 30
 
-MIN_HEADINGS_FOR_STRUCTURED_SPLIT = 2
+# NEW: section-chunking tunables (topic_content_extractor.py map phase)
+MIN_HEADINGS_FOR_STRUCTURED_SPLIT = 2  # below this, treat heading-detection as having failed
 HEADING_PATTERN = re.compile(r"^(#{1,3})\s+(.+)$", re.MULTILINE)
 PAGE_MARKER_PATTERN = re.compile(r"<!--\s*page\s+(\d+)\s*-->", re.IGNORECASE)
 
@@ -209,17 +210,32 @@ def require_anthropic_key():
         )
 
 
+# ============================================================================
+# NEW: section chunking for topic_content_extractor.py's map phase.
+# ============================================================================
+
 def _strip_page_markers(text):
     return PAGE_MARKER_PATTERN.sub("", text).strip()
 
 
+def _page_number_at(text, offset):
+    """Last <!-- page N --> marker at or before `offset` in `text`; None if none precede it."""
+    last = None
+    for m in PAGE_MARKER_PATTERN.finditer(text, 0, offset + 1):
+        last = int(m.group(1))
+    return last
+
+
 def _split_by_headings(md_text):
-    """Split on markdown heading lines (#, ##, ###). Returns [] if too few headings found."""
+    """Split on markdown heading lines (#, ##, ###). Returns [] if fewer than
+    MIN_HEADINGS_FOR_STRUCTURED_SPLIT headings are found -- caller falls back to fixed windows."""
     matches = list(HEADING_PATTERN.finditer(md_text))
     if len(matches) < MIN_HEADINGS_FOR_STRUCTURED_SPLIT:
         return []
 
     sections = []
+    # content before the first heading -- keep only if it's substantial (e.g. abstract/title
+    # block text that a strict heading-only split would otherwise silently drop)
     preamble = md_text[:matches[0].start()].strip()
     preamble = _strip_page_markers(preamble)
     if len(preamble) > 200:
@@ -236,9 +252,12 @@ def _split_by_headings(md_text):
 
 
 def _split_by_fixed_windows(md_text, fallback_window_pages=3, overlap_pages=1):
-    """Fallback when heading detection fails: group pages into fixed windows."""
+    """Fallback when heading detection fails: group pages (from <!-- page N --> markers) into
+    fixed-size windows with slight overlap, e.g. "Pages 1-3", "Pages 3-5", ..."""
     markers = [(int(m.group(1)), m.start()) for m in PAGE_MARKER_PATTERN.finditer(md_text)]
     if not markers:
+        # no page markers at all (shouldn't happen if pdf_to_text_figures.py wrote them, but
+        # degrade gracefully) -- treat the whole document as one window.
         stripped = _strip_page_markers(md_text)
         return [("Full text (no page markers found)", stripped)] if stripped else []
 
@@ -248,6 +267,7 @@ def _split_by_fixed_windows(md_text, fallback_window_pages=3, overlap_pages=1):
     while start_page <= max_page:
         end_page = min(start_page + fallback_window_pages - 1, max_page)
         start_offset = next((off for pg, off in markers if pg == start_page), markers[0][1])
+        # end offset = start of the marker for (end_page + 1), or end of doc
         next_page_marker = next(((pg, off) for pg, off in markers if pg == end_page + 1), None)
         end_offset = next_page_marker[1] if next_page_marker else len(md_text)
         chunk_text = _strip_page_markers(md_text[start_offset:end_offset])
@@ -261,8 +281,17 @@ def _split_by_fixed_windows(md_text, fallback_window_pages=3, overlap_pages=1):
 
 def get_section_chunks(text_md_path, fallback_window_pages=3, overlap_pages=1):
     """
-    Split pymupdf4llm markdown (with <!-- page N --> markers) into
-    (section_name, section_text) pairs for map-phase chunking.
+    Split a pymupdf4llm-produced markdown file (with <!-- page N --> markers, written by
+    pdf_to_text_figures.py) into (section_name, section_text) pairs.
+
+    Tries heading-based splitting first (real ## section names -- accurate location_hints for
+    the map/reduce prompts). Falls back to fixed page windows if fewer than
+    MIN_HEADINGS_FOR_STRUCTURED_SPLIT headings are detected (heading-detection failure on an
+    unconventionally-styled paper, e.g. two-column layouts pymupdf4llm's font-size heuristic
+    doesn't handle well).
+
+    Returns [] if the file is missing or empty -- caller should treat that as "no text available"
+    the same way get_reading_text() already does for the plain-text path.
     """
     if not text_md_path or not os.path.isfile(text_md_path):
         return []
@@ -275,4 +304,3 @@ def get_section_chunks(text_md_path, fallback_window_pages=3, overlap_pages=1):
     if sections:
         return sections
     return _split_by_fixed_windows(md_text, fallback_window_pages, overlap_pages)
-

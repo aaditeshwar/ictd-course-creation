@@ -1,0 +1,313 @@
+[
+  {
+    "id": null,
+    "title": "HearHere: Mitigating Echo Chambers in News Consumption through an AI-based Web System",
+    "authors": "Youngseung Jeon, Jaehoon Kim, Sohyun Park, Yun-Yong Ko, Seongeun Ryu, Sang-Wook Kim, Kyungsik Han",
+    "year": 2024,
+    "venue": "cscw_2024_1",
+    "areas": [],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [],
+    "area_agnostic": true,
+    "source_course": "cscw_2024_1_venue_search",
+    "notes": "The paper applies strong computer science methods (cs_fundamentals) that could be adapted to a developing-regions context.",
+    "link": "https://doi.org/10.1145/3637340",
+    "abstract": "Considerable efforts are currently underway to mitigate the negative impacts of echo chambers, such as increased susceptibility to fake news and resistance towards accepting scientific evidence. Prior research has presented the development of computer systems that support the consumption of news information from diverse political perspectives to mitigate the echo chamber effect. However, existing studies still lack the ability to effectively support the key processes of news information consumption and quantitatively identify a political stance towards the information. In this paper, we present HearHere, an AI-based web system designed to help users accommodate information and opinions from diverse perspectives. HearHere facilitates the key processes of news information consumption through two visualizations. Visualization 1 provides political news with quantitative political stance information, derived from our graph-based political classification model, and users can experience diverse perspectives (Hear). Visualization 2 allows users to express their opinions on specific political issues in a comment form and observe the position of their own opinions relative to pro-liberal and pro-conservative comments presented on a map interface (Here). Through a user study with 94 participants, we demonstrate the feasibility of HearHere in supporting the consumption of information from various perspectives. Our findings highlight the importance of providing political stance information and quantifying users' political status as a means to mitigate political polarization. In addition, we propose design implications for system development, including the consideration of demographics such as political interest and providing users with initiatives.",
+    "_matched_keywords": [
+      "polarization",
+      "political polarization"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Is a Seat at the Table Enough? Engaging Teachers and Students in Dataset Specification for ML in Education",
+    "authors": "Mei Tan, Hansol Lee, Dakuo Wang, Hari Subramonyam",
+    "year": 2024,
+    "venue": "cscw_2024_1",
+    "areas": [
+      "education"
+    ],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [],
+    "area_agnostic": false,
+    "source_course": "cscw_2024_1_venue_search",
+    "notes": "The paper applies to the 'cs_fundamentals' topic as it uses strong computer science methods to address issues in education, which can be adapted to a developing-regions context.",
+    "link": "https://doi.org/10.1145/3637358",
+    "abstract": "Despite the promises of ML in education, its adoption in the classroom has surfaced numerous issues regarding fairness, accountability, and transparency, as well as concerns about data privacy and student consent. A root cause of these issues is the lack of understanding of the complex dynamics of education, including teacher-student interactions, collaborative learning, and classroom environments. To overcome these challenges and fully utilize the potential of ML in education, software practitioners need to work closely with educators and students to fully understand the context of the data (the backbone of ML applications) and collaboratively define the ML data specifications. To gain a deeper understanding of such a collaborative process, we conduct ten co-design sessions with ML software practitioners, educators, and students. In the sessions, teachers and students work with ML engineers, UX designers, and legal practitioners to define dataset characteristics for a given ML application. We find that stakeholders contextualize data based on their domain and procedural knowledge, proactively design data requirements to mitigate downstream harms and data reliability concerns, and exhibit role-based collaborative strategies and contribution patterns. Further, we find that beyond a seat at the table, meaningful stakeholder participation in ML requires structured supports: defined processes for continuous iteration and co-evaluation, shared contextual data quality standards, and information scaffolds for both technical and non-technical stakeholders to traverse expertise boundaries.",
+    "_matched_keywords": [
+      "co-design"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Wage Theft and Technology in the Home Care Context",
+    "authors": "Joy Ming, Dana Gong, Chit Sum Eunice Ngai, Madeline R. Sterling, Aditya Vashistha, Nicola Dell",
+    "year": 2024,
+    "venue": "cscw_2024_1",
+    "areas": [
+      "labour"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "ethnographic_design",
+      "impact_evaluation",
+      "operations_scale"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "cscw_2024_1_venue_search",
+    "notes": "The paper engages with a developing-regions context through the lens of informal labor markets and gig/platform work, which are relevant to low-income settings.",
+    "link": "https://doi.org/10.1145/3637428",
+    "abstract": "Home care workers (HCWs) are professionals who provide care to older adults and people with disabilities at home. However, HCWs are vulnerable and especially susceptible to wage theft, or not being paid their legally-entitled wages in full by their employers. Prior work has examined other low-wage work settings to show how technology is designed and deployed has the potential to both cause and address wage theft. We extend this work by examining the relationship between technology and wage theft in the home care context. We collaborated closely with a local grassroots organization to conduct interviews with workers and labor, legal, and payroll experts. We uncovered how the complex, volatile, and diverse nature of home care complicates the errors in time-tracking systems. Through design provocations and focus groups with workers and experts, we also investigated the potential of technology as a part of broader efforts to curb wage theft through educating and empowering isolated HCWs. While we found that approachable design could reduce errors in existing systems, make employer processes more transparent, and help workers exchange knowledge to build collective power, we also discuss concerns around burden, privacy, and accountability when designing technologies for HCWs and other low-wage workers.",
+    "_matched_keywords": [
+      "wages"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Smart \"Error\"! Exploring Imperfect AI to Support Creative Ideation",
+    "authors": "Fang Liu, Junyan Lv, Shenglan Cui, Zhilong Luan, Kui Wu, Tongqing Zhou",
+    "year": 2024,
+    "venue": "cscw_2024_1",
+    "areas": [],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [],
+    "area_agnostic": true,
+    "source_course": "cscw_2024_1_venue_search",
+    "notes": "The paper applies strong computer science methods to understand AI errors, which can be adapted to a developing-regions context under the 'cs_fundamentals' topic.",
+    "link": "https://doi.org/10.1145/3637398",
+    "abstract": "Designers widely accept AI as a partner in the design process for its efficient and intelligent decision-making. However, AI is often not perfect, and AI error often makes humans dumbfounded. Literature has pointed out the value of such AI error, while still leaving its inspiration essence and application strategies uncharted from the practice perspective. This work focuses on bridging the practice gap by looking into and exploiting the imaginative \"mislabeled\" objects of object detection models. To gain insights into the inspiration of AI \"error\", we collected a dedicated AI \"error\" dataset from object detection and invited eight designers to share divergent comments on the \"mislabeled\" objects. Coding was then performed on the comments, which summarizes the inspiration of AI \"error\" into six atomic dimensions. Subsequently, we took a step further to an exploratory study, a comparative ideation experiment with 20 designers, investigating how to apply these inspiration dimensions to create ideas. Questionnaire and interview results revealed that essential inspiration of AI \"error\" could positively activate creativity, especially the \"Outline\" dimension. A design model CETR is then formulated by summarizing the application of atomic inspiration of \"error\" into four forms of creativity, which could be taken as a guideline for cooperative design with AI \"error\". In addition, we also sketch two approaches to generate more inspiring and applicable AI \"error\", elaborate on two principal characteristics of AI \"error\" for promoting creativity, and propose three strategies for better co-creating with AI \"error\". Finally, we provide insight into design research about AI self-awareness and human-AI collaboration.",
+    "_matched_keywords": [
+      "object detection"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Dismantling Gender Blindness in Online Discussion of a Crime/Gender Dichotomy",
+    "authors": "Yigang Qin, Weilun Duan, Qunfang Wu, Zhicong Lu",
+    "year": 2024,
+    "venue": "cscw_2024_1",
+    "areas": [
+      "media_information"
+    ],
+    "topics": [
+      "sociotechnical_dynamics",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "gender"
+    ],
+    "area_agnostic": false,
+    "source_course": "cscw_2024_1_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context (China) and addresses gender issues in ICT interventions.",
+    "link": "https://doi.org/10.1145/3653686",
+    "abstract": "Contemporary feminists utilize social media for activism, while backlashes come along. The gender-related discourses are often diminished when addressing public events regarding sexism and gender inequality on social media platforms. The dichotomous debate around the Tangshan beating incident in China epitomized how criminal interpretations of gender-related violence became a backlash against feminist expressions. By analyzing posts on Weibo using mixed methods, we describe the emerging discursive patterns around crime and gender, uncovering the gender-blind sexism that refutes feminist discourses on the social platform. We also highlight the critical hurdles facing grassroots feminist activism in Chinese cyberspace and propose implications for the design and research related to digital feminist activism.",
+    "_matched_keywords": [
+      "inequality"
+    ]
+  },
+  {
+    "id": null,
+    "title": "\"We're Not in That Circle of Misinformation\": Understanding Community-Based Trusted Messengers Through Cultural Code-Switching",
+    "authors": "Amy Z. Chen, Chaeeun Park, Asantewaa Darkwa, Rhonda C. Holliday, Michael L. Best",
+    "year": 2024,
+    "venue": "cscw_2024_1",
+    "areas": [
+      "media_information"
+    ],
+    "topics": [
+      "problem_discovery"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "cscw_2024_1_venue_search",
+    "notes": "The paper engages with a developing-regions context through marginalized communities in the U.S. state of Georgia, addressing issues of trust and misinformation in health contexts, which aligns with the 'media_information' area and 'problem_discovery' topic.",
+    "link": "https://doi.org/10.1145/3637429",
+    "abstract": "While social computing technologies are increasingly being used to counter misinformation, more work is needed to understand how they can support the crucial work of community-based trusted messengers, especially in marginalized communities where distrust in health authorities is rooted in historical inequities. We describe an early exploration of these opportunities in our collaboration with Black and Latinx young adult \"Peer Champions\" addressing COVID-19 vaccine hesitancy the U.S. state of Georgia. We conducted interviews engaging them with a social media monitoring and outreach dashboard we designed, to probe their understanding of their roles and current and potential use of digital platforms. With the concept of cultural code-switching as a framing, we found that the Peer Champions leveraged their particular combination of cultural, health, and digital literacy skills to understand their communities' concerns surrounding misinformation and to communicate health information in a culturally appropriate manner. While being positioned between their communities and public health research and practice motivated and enabled their work, it also introduced challenges in finding (mis)information online and navigating tensions around authenticity and respect when engaging those close to them. Our research contributes towards characterizing the valuable and difficult work trusted messengers do, and (re)imagining collaboratively designed interpretive digital tools to support them.",
+    "_matched_keywords": [
+      "digital literacy",
+      "marginalized communities",
+      "marginalized communities"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Understanding the Technology-Mediated Home Phlebotomy Ecosystem in India",
+    "authors": "Meghna Gupta, Nimisha Karnatak, Mohit Jain",
+    "year": 2024,
+    "venue": "cscw_2024_1",
+    "areas": [
+      "health"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "ethnographic_design",
+      "sociotechnical_dynamics",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "caste",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "cscw_2024_1_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context in India, focusing on the impact of digitization on home phlebotomists' workflows during the COVID-19 pandemic.",
+    "link": "https://doi.org/10.1145/3637421",
+    "abstract": "The increasing platformization of healthcare services in India, in the wake of COVID-19, has resulted in huge demand for home phlebotomy. However, there is a limited understanding of the impact of digitization on home phlebotomists' workflows. To address this gap, we conducted 26 semi-structured interviews with home phlebotomists, riders, and patients, supplemented by observations of the entire workday of 3 phlebotomists. We found that home phlebotomists' technology-mediated workflows are organized in ways that enable them to build strong support networks of human infrastructure, helping them negotiate and optimize their daily workflows. Moreover, while the digitization of their workflows resulted in continued surveillance, it empowered them to justify their decisions and present evidence of work when needed. Based on our findings, we discuss implications for equitable platform work and the future of platformized health and conclude with design recommendations for telehealth platforms offering home phlebotomy services.",
+    "_matched_keywords": [
+      "platform work"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Seamful XAI: Operationalizing Seamful Design in Explainable AI",
+    "authors": "Upol Ehsan, Q. Vera Liao, Samir Passi, Mark O. Riedl, Hal Daum\u00e9 III",
+    "year": 2024,
+    "venue": "cscw_2024_1",
+    "areas": [],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [],
+    "area_agnostic": true,
+    "source_course": "cscw_2024_1_venue_search",
+    "notes": "The paper addresses the topic 'cs_fundamentals' by proposing a general-purpose methodology for Explainable AI that could be adapted to a developing-regions context.",
+    "link": "https://doi.org/10.1145/3637396",
+    "abstract": "Mistakes in AI systems are inevitable, arising from both technical limitations and sociotechnical gaps. While black-boxing AI systems can make the user experience seamless, hiding the seams risks disempowering users to mitigate fallouts from AI mistakes. Instead of hiding these AI imperfections, can we leverage them to help the user? While Explainable AI (XAI) has predominantly tackled algorithmic opaqueness, we propose that seamful design can foster AI explainability by revealing and leveraging sociotechnical and infrastructural mismatches. We introduce the concept of Seamful XAI by (1) conceptually transferring \"seams\" to the AI context and (2) developing a design process that helps stakeholders anticipate and design with seams. We explore this process with 43 AI practitioners and real end-users, using a scenario-based co-design activity informed by real-world use cases. We found that the Seamful XAI design process helped users foresee AI harms, identify underlying reasons (seams), locate them in the AI's lifecycle, learn how to leverage seamful information to improve XAI and user agency. We share empirical insights, implications, and reflections on how this process can help practitioners anticipate and craft seams in AI, how seamfulness can improve explainability, empower end-users, and facilitate Responsible AI.",
+    "_matched_keywords": [
+      "co-design"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Exploring the Role of Chatbots in Tackling COVID-19 Vaccine Hesitancy among Pregnant and Breastfeeding Women in Rural Northern India",
+    "authors": "Jasmeet Kaur, Preetika Sharma, Vijay Kumar, Mona Duggal, Nadia Griffin Diamond-Smith, Alison El Ayadi, Kathryn Vosburg, Pushpendra Singh",
+    "year": 2024,
+    "venue": "cscw_2024_1",
+    "areas": [
+      "health"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "ethnographic_design",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "cscw_2024_1_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context in rural Northern India, focusing on vaccine hesitancy among pregnant and breastfeeding women.",
+    "link": "https://doi.org/10.1145/3637332",
+    "abstract": "Rapid and widespread vaccination played a major role in stemming the flow of Covid-19 spread. In India, the government enabled free and accessible vaccination for Covid-19. Although the general public responded positively, pregnant and breastfeeding women in rural areas hesitated about COVID-19 vaccination, leading to low vaccine uptake. In this work, we started with a formative study to understand pregnant and breastfeeding women's vaccine hesitancy. We found that the main barriers were poor knowledge about vaccines and limited agency around vaccination. We deployed a chatbot over WhatsApp to tackle their hesitancy through evidence-based vaccine education. We studied the chatbot engagement of 800+ participants over 23 days through chat logs, surveys, and interviews. We present participants' experiences and aspirations around chatbots. We found the chatbot to work well under a constrained network to build participants' vaccine-related knowledge and intentions. We further discuss the role of chatbots in healthcare beyond COVID-19 vaccination.",
+    "_matched_keywords": [
+      "vaccination"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Productivity or Equity? Tradeoffs in Volunteer Microtasking in Humanitarian OpenStreetMap",
+    "authors": "Yaxuan Yin, Longjie Guo, Jacob Thebault-Spieker",
+    "year": 2024,
+    "venue": "cscw_2024_1",
+    "areas": [],
+    "topics": [
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [],
+    "area_agnostic": true,
+    "source_course": "cscw_2024_1_venue_search",
+    "notes": "The paper uses causal inference analysis, which falls under the 'impact_evaluation' topic and can be adapted to a developing-regions context.",
+    "link": "https://doi.org/10.1145/3637390",
+    "abstract": "Microtasking, the decomposition of tasks into small units of work, is prolific in human computation and crowdsourcing. Some peer production systems are beginning to leverage this same technique in volunteer contribution-based settings. While early research suggests that focusing volunteer work in this way using microtasking may be fruitful, the effects of microtasking on contributor behavior in volunteer peer production settings, like OpenStreetMap, remain unclear. This paper takes advantage of a natural experiment facilitated by the Humanitarian OpenStreetMap's Tasking Manager, a microtasking system, and employs causal inference analysis to evaluate the effects of a microtasking intervention on contributor dynamics. Our study systematically leverages a global dataset to analyze peer production dynamics, building on prior research to address a gap in peer production literature and informing the design of the microtasking interfaces. We causally show that, indeed, microtasking can be an effective intervention in peer production settings, but it may exacerbate power-law patterns that are common in such settings. By further analyzing project design decisions and characteristics, we develop implications for platform practitioners, with a focus on addressing engagement and contribution inequity issues prevalent in settings like OpenStreetMap.",
+    "_matched_keywords": [
+      "causal inference"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Platformization of Inequality: Gender and Race in Digital Labor Platforms",
+    "authors": "Isabel Mu\u00f1oz, Pyeonghwa Kim, Clea O'Neil, Michael Dunn, Steve Sawyer",
+    "year": 2024,
+    "venue": "cscw_2024_1",
+    "areas": [
+      "labour"
+    ],
+    "topics": [
+      "sociotechnical_dynamics"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "cscw_2024_1_venue_search",
+    "notes": "The paper engages with the topic of gig/platform work and labour rights, which is relevant to the 'labour' area, despite not being set in a developing region.",
+    "link": "https://doi.org/10.1145/3637385",
+    "abstract": "We contribute empirical and conceptual insights regarding the roles of digital labor platforms in online freelancing, focusing attention to social identities such as gender, race, ethnicity, and occupation. Findings highlight how digital labor platforms reinforce and exacerbate identity-based stereotypes, bias and expectations in online freelance work. We focus on online freelancing as this form of working arrangement is becoming more prevalent. Online freelancing also relies on the market-making power of digital platforms to create an online labor market. Many see this as one likely future of work with less bias. Others worry that labor platforms' market power allows them to embed known biases into new working arrangements: a platformization of inequality. Drawing on data from 108 online freelancers, we discuss six findings: 1) female freelance work is undervalued; 2) gendered occupational expectations; 3) gendered treatment; 4) shared expectations of differential values; 5) racial stereotypes and expectations; and 6) race and ethnicity as an asset. We discuss the role of design in the platformization and visibility of social identity dimensions, and the implications of the reinforced identity perceptions and marginalization in digital labor platforms.",
+    "_matched_keywords": [
+      "inequality"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Design Tensions in Online Freelancing Platforms: Using Speculative Participatory Design to Support Freelancers' Relationships with Clients",
+    "authors": "Jessica Huang, Ning F. Ma, Veronica A. Rivera, Tabreek Somani, Patrick Yung Kang Lee, Joanna McGrenere, Dongwook Yoon",
+    "year": 2024,
+    "venue": "cscw_2024_1",
+    "areas": [
+      "labour"
+    ],
+    "topics": [
+      "ethnographic_design",
+      "sociotechnical_dynamics"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "cscw_2024_1_venue_search",
+    "notes": "The paper engages with the topic of gig/platform work, which falls under the labour area, and discusses design challenges and solutions that could be adapted to developing regions.",
+    "link": "https://doi.org/10.1145/3653700",
+    "abstract": "This paper explores the design challenges that arise in supporting online freelancers to navigate relationships with clients. Prior studies have shown that current platform designs can lead to worker precarity in freelancer-client relationships, such as power imbalances, information asymmetry, and labor abuse. To envision alternative designs that empower workers in managing their relationships with clients, we engaged 22 Upwork freelancers in participatory speculative design activities. Through this co-design process, we identified design tensions that constrain design options as a result of conflicting values and priorities that could only be balanced and compromised rather than completely resolved. Six design tensions were identified in the context of designing for four different phases of freelancing. We observed three patterns in these tensions: 1) the freelancers' need for client involvement in their tasks and career growth, which conflicted with their skepticism that clients had sufficient incentives to be involved; 2) that there was often no viable balancing option for some tensions, but they could be addressed through changes in the platform's incentive structure; and 3) some tensions occurred not only between freelancers and clients, but also within the freelancer community. We present three approaches for addressing these design tensions and discuss how this research can support more equitable and healthy freelancer-client relationships.",
+    "_matched_keywords": [
+      "participatory design",
+      "co-design"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Priming through Persuasion: Towards Secure Password Behavior",
+    "authors": "Rizu Paudel, Mahdi Nasrullah Al-Ameen",
+    "year": 2024,
+    "venue": "cscw_2024_1",
+    "areas": [],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [],
+    "area_agnostic": true,
+    "source_course": "cscw_2024_1_venue_search",
+    "notes": "The paper applies strong computer science methods to a security problem, fitting the 'cs_fundamentals' topic which allows general-purpose methodology adaptable to developing regions.",
+    "link": "https://doi.org/10.1145/3637387",
+    "abstract": "Users tend to create weak passwords even for the important accounts. The prior research shed light on user's insecure password behavior, and why the interventions, including requirement specification (e.g., password composition policies) and feedback systems (e.g., password meters) fail in practice. To this end, we propose and evaluate the concept: priming-through-persuasion in the realm of secure password creation. In particular, we created visual designs, aimed at priming users about the repercussions of weak passwords before their password creation. We base our designs on two forms of persuasion methods: pathos and logos. Pathos appeals to people's emotion in order to persuade them towards an expected behavior, where logos-based rhetoric appeals to a person's sense of reason. We conducted a lab study including participatory design and semi-structured interview with 20 participants. We updated our designs in an iterative manner based on the feedback from our participants in the lab study. To evaluate our updated designs, we conducted a between-subject online study with 131 participants over Amazon Mechanical Turk. Our study provides insight into how the use of persuasion techniques contributed to user attachment and engagement with the design, as well as the comprehension of the conveyed message about password vulnerabilities. Our findings lead to the guideline for future research on leveraging the priming-through-persuasion to complement the existing techniques in encouraging users towards secure behavior.",
+    "_matched_keywords": [
+      "participatory design"
+    ]
+  }
+]

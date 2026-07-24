@@ -1,0 +1,227 @@
+[
+  {
+    "id": null,
+    "title": "Open Data Intermediaries: Motivations, Barriers and Facilitators to Engagement",
+    "authors": "Graham Dove, Jack Shanley, Camillia Matuk, Oded Nov",
+    "year": 2023,
+    "venue": "cscw_2023_1",
+    "areas": [
+      "governance"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "ethnographic_design",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "transparency",
+      "accountability"
+    ],
+    "area_agnostic": false,
+    "source_course": "cscw_2023_1_venue_search",
+    "notes": "The paper discusses open data intermediaries, which can be adapted to a developing-regions context to enhance transparency and accountability, aligning with the governance area.",
+    "link": "https://doi.org/10.1145/3579511",
+    "abstract": "Open data programs have become increasingly established at national and local levels of government. While the degree of success these programs have had in achieving their objectives remains open to question, one factor that has been identified as important to any success is the role of open data intermediaries, individuals and organizations that help others to make use of open data. In this paper we investigate how people become engaged with open data, what their motivations are, and the barriers and facilitators program participants perceive with regard to using open data effectively. We interview participants from a variety of backgrounds with differing levels of experience and engagement with open data. Participants include students learning how to train others in open data techniques and tools; people who attend open data events and use open data for commercial or social benefit; and representatives from local government, municipal agencies and a civic tech non-profit. We identify pathways to successfully developing and nurturing a community of open data intermediaries, and make five recommendations for organizations planning and managing open data programs.",
+    "_matched_keywords": [
+      "open data",
+      "intermediaries"
+    ]
+  },
+  {
+    "id": null,
+    "title": "\"We are half-doctors\": Family Caregivers as Boundary Actors in Chronic Disease Management",
+    "authors": "Karthik S. Bhat, Amanda K. Hall, Tiffany Kuo, Neha Kumar",
+    "year": 2023,
+    "venue": "cscw_2023_1",
+    "areas": [
+      "health"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "ethnographic_design"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "cscw_2023_1_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context (urban India) and addresses healthcare delivery and technology use in low-resource settings, aligning with the 'health' area and 'cs_fundamentals' topic.",
+    "link": "https://doi.org/10.1145/3579545",
+    "abstract": "Computer-Supported Cooperative Work (CSCW) and Human--Computer Interaction (HCI) research is increasingly investigating the roles of caregivers as ancillary stakeholders in patient-centered care. Our research extends this body of work to identify caregivers as key decision-makers and boundary actors in mobilizing and managing care. We draw on qualitative data collected via 20 semi-structured interviews to examine caregiving responsibilities in physical and remote care interactions within households in urban India. Our findings demonstrate the crucial intermediating roles family caregivers take on while situated along the boundaries separating healthcare professionals, patients and other household members, and online/offline communities. We propose design recommendations for supporting caregivers in intermediating patient-centered care, such as through training content and expert feedback mechanisms for remote care, collaborative tracking mechanisms integrating patient- and caregiver-generated health data, and caregiving-centered online health communities. We conclude by arguing for recognizing caregivers as critical stakeholders in patient-centered care who might constitute technologically assisted pathways to care.",
+    "_matched_keywords": [
+      "chronic disease management"
+    ]
+  },
+  {
+    "id": null,
+    "title": "\"I Have to Use My Son's QR Code to Run the Business\": Unpacking Senior Street Vendors' Challenges in Mobile Money Collection in China",
+    "authors": "Changyang He, Lu He, Zhicong Lu, Bo Li",
+    "year": 2023,
+    "venue": "cscw_2023_1",
+    "areas": [
+      "livelihood"
+    ],
+    "topics": [
+      "problem_discovery",
+      "ethnographic_design"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "cscw_2023_1_venue_search",
+    "notes": "The paper engages with a developing-regions context (China's low-resource street vending setting) and addresses the challenges of senior vendors in mobile payment adoption, which aligns with the 'problem_discovery' and 'ethnographic_design' topics.",
+    "link": "https://doi.org/10.1145/3579493",
+    "abstract": "Mobile payment systems have become an infrastructural component in citizens' socio-economic life in China. The rapid shift to a cashless society demands vendors of all ages to quickly adapt themselves to the ubiquitous mobile payment era. However, how this trend may impact senior vendors, a group that typically uses less technology, remains unknown despite its significance in inclusive mobile payment design. This work aims to address this gap by investigating the challenges and strategies of senior vendors in mobile payment adoption. Particularly, we focus on a traditional low-resource setting with a large volume of senior vendors: street vending. We conduct a qualitative study incorporating field observations on 33 senior street vendors and semi-structured interviews with 15 of them (aged 53-78), and take Moneywork as an analytical lens to unpack their challenges in physical and social interactions. We find that senior street vendors are a group passively adopting mobile payments due to business requirements instead of recognizing their advantages. Vendors with relatively low digital literacy have to take an alternative method - using family members' QR codes - to run the business as family-dependent money receivers. With limited considerations for senior vendors' situational vulnerabilities, unexpected difficulties of payment confirmation emerge during transactions, such as reduced confirmation efficacy under noisy surroundings and degraded hearing. Transaction security issues also appear when mobile payment-based frauds target both confirmation interfaces (e.g., fake sounds of successful payment) and trust systems (e.g., showing half-done proof to flee without paying) in street vending. Finally, we raise a less visible yet critical concern of family-dependent vendors on the lost money freedom when their income flows into their families' wallets. We propose design implications for mobile payment systems to support more secure, efficient and accessible money collection services to underrepresented groups.",
+    "_matched_keywords": [
+      "mobile money",
+      "digital literacy"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Face Work: A Human-Centered Investigation into Facial Verification in Gig Work",
+    "authors": "Elizabeth Anne Watkins",
+    "year": 2023,
+    "venue": "cscw_2023_1",
+    "areas": [
+      "labour"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "ethnographic_design",
+      "sociotechnical_dynamics"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "cscw_2023_1_venue_search",
+    "notes": "The paper engages with a real-world application of computer vision technology in gig work, which is relevant to the 'labour' area in a developing-regions context.",
+    "link": "https://doi.org/10.1145/3579485",
+    "abstract": "Through intensive research on datasets, benchmarks, and models, the computer-vision community has taken great strides to identify the societal biases intrinsic to these technologies. Less is known about the last mile of the computer-vision machine-learning pipeline: on-the-ground integration into the real world. In this paper, I analyze facial verification technology (FVT) through its use as account verification in ride-hail work. Using a sociotechnical framework combined with empirical qualitative research methods, including interviews and analysis of an online community of workers, this research is a deep dive into recognition technologies at the level of local practice. Findings reveal the high-stakes articulation labor demanded of workers to be recognized by these systems, including maintaining multiple mobile devices, repeatedly uploading requisite images, spending time and resources visiting customer-service centers, and making physical changes to their bodies and environments. These strategies constitute repairs to the failures of computer vision in dynamic environments and are required to successfully engage in the sociotechnical interaction protocols demanded by FVT. Drawing on Erving Goffman's terminology around social interaction rituals, I term these cognitive and behavioral negotiations \"face work.\" Drivers' dynamic, responsive, and ad-hoc attempts to become machine-readable have significant implications for relations between identity and power in spaces of security and work, as well as for the integration of machine-learning systems into safety-critical infrastructures. Ultimately, this research emphasizes the crucial role of end users who create and maintain the conditions required for computer vision to produce judgment.",
+    "_matched_keywords": [
+      "gig work"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Evaluating the Impact of Human Explanation Strategies on Human-AI Visual Decision-Making",
+    "authors": "Katelyn Morrison, Donghoon Shin, Kenneth Holstein, Adam Perer",
+    "year": 2023,
+    "venue": "cscw_2023_1",
+    "areas": [
+      "water_security",
+      "wildlife_conservation"
+    ],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [
+      "climate_change"
+    ],
+    "area_agnostic": true,
+    "source_course": "cscw_2023_1_venue_search",
+    "notes": "The paper applies strong computer science methods to understand human-AI interaction, which can be adapted to a developing-regions context for high-stakes domains like disaster relief.",
+    "link": "https://doi.org/10.1145/3579481",
+    "abstract": "Artificial intelligence (AI) is increasingly being deployed in high-stakes domains, such as disaster relief and radiology, to aid practitioners during the decision-making process. Explainable AI techniques have been developed and deployed to provide users insights into why the AI made certain predictions. However, recent research suggests that these techniques may confuse or mislead users. We conducted a series of two studies to uncover strategies that humans use to explain decisions and then understand how those explanation strategies impact visual decision-making. In our first study, we elicit explanations from humans when assessing and localizing damaged buildings after natural disasters from satellite imagery and identify four core explanation strategies that humans employed. We then follow up by studying the impact of these explanation strategies by framing the explanations from Study 1 as if they were generated by AI and showing them to a different set of decision-makers performing the same task. We provide initial insights on how causal explanation strategies improve humans' accuracy and calibrate humans' reliance on AI when the AI is incorrect. However, we also find that causal explanation strategies may lead to incorrect rationalizations when AI presents a correct assessment with incorrect localization. We explore the implications of our findings for the design of human-centered explainable AI and address directions for future work.",
+    "_matched_keywords": [
+      "satellite imagery"
+    ]
+  },
+  {
+    "id": null,
+    "title": "CommunityBots: Creating and Evaluating A Multi-Agent Chatbot Platform for Public Input Elicitation",
+    "authors": "Zhiqiu Jiang, Mashrur Rashik, Kunjal Panchal, Mahmood Jasim, Ali Sarvghad, Pari Riahi, Erica Dewitt, Fey Thurber, Narges Mahyar",
+    "year": 2023,
+    "venue": "cscw_2023_1",
+    "areas": [
+      "media_information"
+    ],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [],
+    "area_agnostic": true,
+    "source_course": "cscw_2023_1_venue_search",
+    "notes": "The paper applies strong computer science methods to the design of multi-agent chatbot systems, which can be adapted to a developing-regions context for public input elicitation.",
+    "link": "https://doi.org/10.1145/3579469",
+    "abstract": "In recent years, the popularity of AI-enabled conversational agents or chatbots has risen as an alternative to traditional online surveys to elicit information from people. However, there is a gap in using single-agent chatbots to converse and gather multi-faceted information across a wide variety of topics. Prior works suggest that single-agent chatbots struggle to understand user intentions and interpret human language during a multi-faceted conversation. In this work, we investigated how multi-agent chatbot systems can be utilized to conduct a multi-faceted conversation across multiple domains. To that end, we conducted a Wizard of Oz study to investigate the design of a multi-agent chatbot for gathering public input across multiple high-level domains and their associated topics. Next, we designed, developed, and evaluated CommunityBots - a multi-agent chatbot platform where each chatbot handles a different domain individually. To manage conversation across multiple topics and chatbots, we proposed a novel Conversation and Topic Management (CTM) mechanism that handles topic-switching and chatbot-switching based on user responses and intentions. We conducted a between-subject study comparing CommunityBots to a single-agent chatbot baseline with 96 crowd workers. The results from our evaluation demonstrate that CommunityBots participants were significantly more engaged, provided higher quality responses, and experienced fewer conversation interruptions while conversing with multiple different chatbots in the same session. We also found that the visual cues integrated with the interface helped the participants better understand the functionalities of the CTM mechanism, which enabled them to perceive changes in textual conversation, leading to better user satisfaction. Based on the empirical insights from our study, we discuss future research avenues for multi-agent chatbot design and its application for rich information elicitation.",
+    "_matched_keywords": [
+      "Wizard of Oz"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Reimagining Open Data during Disaster Response: Applying a Feminist Lens to Three Open Data Projects in Post-Earthquake Nepal",
+    "authors": "Shreyasha Paudel, Robert Soden",
+    "year": 2023,
+    "venue": "cscw_2023_1",
+    "areas": [
+      "governance"
+    ],
+    "topics": [
+      "sociotechnical_dynamics"
+    ],
+    "cross_cutting_axes": [
+      "gender"
+    ],
+    "area_agnostic": false,
+    "source_course": "cscw_2023_1_venue_search",
+    "notes": "The paper substantively engages with a developing-regions context (Nepal) and applies feminist theory to open data projects in disaster response, which is relevant to the 'sociotechnical_dynamics' topic.",
+    "link": "https://doi.org/10.1145/3579519",
+    "abstract": "Open Data has become a prominent ideal in humanitarian information work and is increasingly promoted for crisis situations to increase effectiveness, accountability, and empower citizens. However, like all socio-technical systems, open data platforms for disasters make implicit and explicit assumptions about data, data users, disasters, and the context of use. In this paper, we turn to feminist theory to examine three open data projects rolled out in the aftermath of the 2015 earthquake in Nepal. We used the seven principles of Data Feminism introduced by D'Ignazio and Klein to design an evaluative framework for the three projects. We use this framework to highlight and link the socio-political nature of both disasters and open data platforms. In our results, we highlight significant gaps in how these projects made labor (in)visible, engaged with affective aspects of disaster, addressed context, and challenged power. We argue that these gaps are reflective of dominant practices in open data for disasters and serve as opportunities for designers and crisis informatics researchers to reimagine the potential of such projects. We propose four ways of doing so based on feminist principles and values.",
+    "_matched_keywords": [
+      "open data"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Mediated Social Support for Distress Reduction: AI Chatbots vs. Human",
+    "authors": "Jingbo Meng, Minjin Rheu, Yue Zhang, Yue Dai, Wei Peng",
+    "year": 2023,
+    "venue": "cscw_2023_1",
+    "areas": [],
+    "topics": [
+      "cs_fundamentals"
+    ],
+    "cross_cutting_axes": [],
+    "area_agnostic": true,
+    "source_course": "cscw_2023_1_venue_search",
+    "notes": "The paper, while not set in a developing region, provides general-purpose methodology that could be adapted to a developing-regions context for the 'cs_fundamentals' topic.",
+    "link": "https://doi.org/10.1145/3579505",
+    "abstract": "The emerging uptake of AI chatbots for social support entails systematic comparisons between human and non-human entities as sources of support. In a between-subject experimental study, a human and two types of ostensible chatbots (using a wizard of oz design) had supportive conversations with college students who were experiencing stressful situations during the pandemic. We found that when compared with a less ideal chatbot (i.e., low-contingent chatbot), (1) the human support provider was perceived with more warmth, which directly reduced emotional distress among participants; (2) the ideal chatbot (i.e., high-contingent chatbot) was perceived to be more competent, which activated participants' cognitive reappraisal of their stressful situations and subsequently reduced emotional distress. The human provider and the ideal chatbot did not differ in users' perceived competence or warmth, although the human provider was more effective at activating participants' cognitive reappraisal. This study integrates human communication theories into human-computer interaction work and contributes by positioning and theorizing user perceptions of chatbots in a larger process from support sources with varying communication competence to users' cognitive and emotional responses, and ultimately to the stress outcome. Theoretical and design implications are discussed.",
+    "_matched_keywords": [
+      "Wizard of Oz"
+    ]
+  },
+  {
+    "id": null,
+    "title": "Working With AI to Persuade: Examining a Large Language Model's Ability to Generate Pro-Vaccination Messages",
+    "authors": "Elise Karinshak, Sunny Xun Liu, Joon Sung Park, Jeffrey T. Hancock",
+    "year": 2023,
+    "venue": "cscw_2023_1",
+    "areas": [
+      "health"
+    ],
+    "topics": [
+      "cs_fundamentals",
+      "impact_evaluation"
+    ],
+    "cross_cutting_axes": [
+      "gender",
+      "social_capital_marginalization"
+    ],
+    "area_agnostic": false,
+    "source_course": "cscw_2023_1_venue_search",
+    "notes": "The paper engages with the use of AI in public health messaging, which can be adapted to a developing-regions context for health interventions.",
+    "link": "https://doi.org/10.1145/3579592",
+    "abstract": "Artificial Intelligence (AI) is a transformative force in communication and messaging strategy, with potential to disrupt traditional approaches. Large language models (LLMs), a form of AI, are capable of generating high-quality, humanlike text. We investigate the persuasive quality of AI-generated messages to understand how AI could impact public health messaging. Specifically, through a series of studies designed to characterize and evaluate generative AI in developing public health messages, we analyze COVID-19 pro-vaccination messages generated by GPT-3, a state-of-the-art instantiation of a large language model. Study 1 is a systematic evaluation of GPT-3's ability to generate pro-vaccination messages. Study 2 then observed peoples' perceptions of curated GPT-3-generated messages compared to human-authored messages released by the CDC (Centers for Disease Control and Prevention), finding that GPT-3 messages were perceived as more effective, stronger arguments, and evoked more positive attitudes than CDC messages. Finally, Study 3 assessed the role of source labels on perceived quality, finding that while participants preferred AI-generated messages, they expressed dispreference for messages that were labeled as AI-generated. The results suggest that, with human supervision, AI can be used to create effective public health messages, but that individuals prefer their public health messages to come from human institutions rather than AI sources. We propose best practices for assessing generative outputs of large language models in future social science research and ways health professionals can use AI systems to augment public health messaging.",
+    "_matched_keywords": [
+      "vaccination"
+    ]
+  }
+]

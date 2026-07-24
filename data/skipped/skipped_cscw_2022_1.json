@@ -1,0 +1,872 @@
+[
+  {
+    "title": "Power Dynamics and Value Conflicts in Designing and Maintaining Socio-Technical Algorithmic Processes",
+    "authors": "Joon Sung Park, Karrie Karahalios, Niloufar Salehi, Motahhare Eslami",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3512957",
+    "doi": "10.1145/3512957",
+    "abstract": "How do power dynamics and value conflicts affect our ability to design and maintain socio-technical algorithmic processes? In this paper, we study the SIGCHI student volunteer (SV) selection process that uses a weighted semi-randomized algorithm to recruit a desired pool of volunteers. Our interviews with the community members showed that the process is complex and socio-technical; the algorithm's outputs are interpreted and adjusted by the conference organizers to reflect the community values while ensuring the selection of effective volunteers to help with organizing the conference. This provides a stage in which the power dynamics and value conflicts among the stakeholders play salient roles in determining how the process was perceived and envisioned. For instance, non-organizers of the conference found the algorithm used in the selection process to be a power-balancer that places a check on the organizers who oversee the process. However, even with a participatory process to elicit the algorithm's weights, the power dynamics and value conflicts between the participants made it difficult to reach a consensus on what the SV selection process should consider and prioritize. Our findings highlight the importance of value transparency -- the type of transparency that focuses on explaining why a decision was made rather than how it was made -- as a mechanism for resolving such conflicts. Based on our findings, we lay out design recommendations that can guide communities to better design and maintain algorithmic socio-technical processes over time in the face of power dynamics and value conflicts.",
+    "venue": "Proc. ACM Hum. Comput. Interact.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Software-Supported Audits of Decision-Making Systems: Testing Google and Facebook's Political Advertising Policies",
+    "authors": "J. Nathan Matias, Austin Hounsel, Nick Feamster",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3512965",
+    "doi": "10.1145/3512965",
+    "abstract": "How can society understand and hold accountable complex human and algorithmic decision-making systems whose systematic errors are opaque to the public? These systems routinely make decisions on individual rights and well-being, and on protecting society and the democratic process. Practical and statistical constraints on external audits--such as dimensional complexity--can lead researchers and regulators to miss important sources of error in these complex decision-making systems. In this paper, we design and implement a software-supported approach to audit studies that auto-generates audit materials and coordinates volunteer activity. We implemented this software in the case of political advertising policies enacted by Facebook and Google during the 2018 U.S. election. Guided by this software, a team of volunteers posted 477 auto-generated ads and analyzed the companies' actions, finding systematic errors in how companies enforced policies. We find that software can overcome some common constraints of audit studies, within limitations related to sample size and volunteer capacity.",
+    "venue": "Proc. ACM Hum. Comput. Interact.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Ubiquitous News Experienced Alone: Interviews with Americans and their Devices",
+    "authors": "Danielle M. Lottridge, Katie Quehl, Frank Bentley, Max Silverman, Melissa Ong, Michael Dickard, Brooke White, Ethan R. Plaut",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3512975",
+    "doi": "10.1145/3512975",
+    "abstract": "Scholars, journalists, and other commentators argue that many parts of the world, including the US, are suffering a social-epistemological crisis, sometimes called \"post-truth,\" and that this crisis is related to the fragmentation of newsmedia. The conventional media effects research explanation for this relationship between news and \"post-truth\" is framed in terms of messages and information-especially misinformation-as the mechanism by which communication effects change. Analysing the results of a large (n = 164) interview study on mobile and other digital news audiencehood, this article presents an alternative, complementary explanation focused on ritual functions of communication. The primary method of affinity analysis of interview data identified a number of recurring themes: people's preferences, methods, and patterns of news consumption exhibit wild diversity beyond easy summary, but they share the experience of news as nearly ubiquitous, and often as excessive and therefore in need of management. Strategies for managing news broadly fell into categories of news avoidance and active research. Perhaps the most consistent observation across participants' accounts, however, is a conspicuous absence of other people, with news managed and confronted alone. Those findings are interpreted through James Carey's ritual theory of communication, which argues that meaning emerges not only through transmission of messages and information, but also through people's shared experiences of participating in the ritual processes of communication. This work makes a parallel argument that media fragmentation has been implicated in social-epistemological breakdown not only through the mechanism of messages and (mis)information, but also through the transformation and, in certain cases, loss of shared news rituals. The combination of large-scale interview research with media ritual analysis led to these insights about the cultural relevance and collective implications of people's experiences of ubiquitous news and the avoidance thereof.",
+    "venue": "Proc. ACM Hum. Comput. Interact.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Analyzing the Impact and Accuracy of Facebook Activity on Facebook's Ad-Interest Inference Process",
+    "authors": "Aafaq Sabir, Evan Lafontaine, Anupam Das",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3512923",
+    "doi": "10.1145/3512923",
+    "abstract": "Social media platforms like Facebook have become increasingly popular for serving targeted ads to their users. This has led to increased privacy concerns due to the lack of transparency regarding how ads are matched against each user profile. Facebook infers user interests through their activities and targets ads based on those interests. Although Facebook provides explanations for why a particular interest is inferred about a user, there is still a gap in understanding what activities lead to interest inferences and the extent to which the sentiment or context of activities is considered in inferring interests. To obtain insights into how Facebook generates interests from a user's Facebook activities, we performed controlled experiments by creating new accounts and systematically executing numerous planned activities. This enabled us to make causal inferences about activities that lead to generating specific interests, many of which were not representative of actual user preferences. We also evaluated which activities resulted in interests and found that very naive activities, such as only viewing/scrolling through a page, lead to an interest inference. We found 33.22% of the inferred interests were inaccurate or irrelevant. We further evaluated the interest inference explanations provided by Facebook and found that these explanations were too generalized and, at times, misleading. To understand if our findings hold for a large and diverse sample, we conducted a user study where we recruited 146 participants (through Amazon Mechanical Turk) from different regions of the world to evaluate the accuracy of interests inferred by Facebook. We developed a browser extension to extract data from their own Facebook accounts and ask questions based on such data. Our participants reported a similar range (29%) of inaccuracy as observed in our controlled experiments. We also found that most of our participants were unaware of the availability of Facebook's ad preference manager, interest inference process, and even interest explanations.",
+    "venue": "Proc. ACM Hum. Comput. Interact.",
+    "skip_reason": "The paper does not substantively engage with a developing-regions context as required by the rules for all topics except cs_fundamentals."
+  },
+  {
+    "title": "Making a Medical Maker's Playbook: An Ethnographic Study of Safety-Critical Collective Design by Makers in Response to COVID-19",
+    "authors": "Megan Hofmann, Udaya Lakshmi, Kelly Mack, Rosa I. Arriaga, Scott E. Hudson, Jennifer Mankoff",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3512948",
+    "doi": "10.1145/3512948",
+    "abstract": "We present an ethnographic study of a maker community that conducted safety-driven medical making to deliver over 80,000 devices for use at medical facilities in response to the COVID-19 pandemic. To achieve this, the community had to balance their clinical value of safety with the maker value of broadened participation in design and production. We analyse their struggles and achievement through the artifacts they produced and the labors of key facilitators between diverse community members. Based on this analysis we provide insights into how medical maker communities, which are necessarily risk-averse and safety-oriented, can still support makers' grassroots efforts to care for their communities. Based on these findings, we recommend that design tools enable adaptation to a wider set of domains, rather than exclusively presenting information relevant to manufacturing. Further, we call for future work on the portability of designs across different types of printers which could enable broader participation in future maker efforts at this scale.",
+    "venue": "Proc. ACM Hum. Comput. Interact.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Eliciting Confidence for Improving Crowdsourced Audio Annotations",
+    "authors": "Ana Elisa M\u00e9ndez M\u00e9ndez, Mark Cartwright, Juan Pablo Bello, Oded Nov",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3512935",
+    "doi": "10.1145/3512935",
+    "abstract": "In this work we explore confidence elicitation methods for crowdsourcing \"soft\" labels, e.g., probability estimates, to reduce the annotation costs for domains with ambiguous data. Machine learning research has shown that such \"soft\" labels are more informative and can reduce the data requirements when training supervised machine learning models. By reducing the number of required labels, we can reduce the costs of slow annotation processes such as audio annotation. In our experiments we evaluated three confidence elicitation methods: 1) \"No Confidence\" elicitation, 2) \"Simple Confidence\" elicitation, and 3) \"Betting\" mechanism for confidence elicitation, at both individual (i.e., per participant) and aggregate (i.e., crowd) levels. In addition, we evaluated the interaction between confidence elicitation methods, annotation types (binary, probability, and z-score derived probability), and \"soft\" versus \"hard\" (i.e., binarized) aggregate labels. Our results show that both confidence elicitation mechanisms result in higher annotation quality than the \"No Confidence\" mechanism for binary annotations at both participant and recording levels. In addition, when aggregating labels at the recording level, results indicate that we can achieve comparable results to those with 10-participant aggregate annotations using fewer annotators if we aggregate \"soft\" labels instead of \"hard\" labels. These results suggest that for binary audio annotation using a confidence elicitation mechanism and aggregating continuous labels we can obtain higher annotation quality, more informative labels, with quality differences more pronounced with fewer participants. Finally, we propose a way of integrating these confidence elicitation methods into a two-stage, multi-label annotation pipeline.",
+    "venue": "Proc. ACM Hum. Comput. Interact.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Interpersonal Conflicts During Code Review: Developers' Experience and Practices",
+    "authors": "Pavl\u00edna Wurzel Gon\u00e7alves, G\u00fcl \u00c7alikli, Alberto Bacchelli",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3512945",
+    "doi": "10.1145/3512945",
+    "abstract": "Code review consists of manual inspection, discussion, and judgment of source code by developers other than the code's author. Due to discussions around competing ideas and group decision-making processes, interpersonal conflicts during code reviews are expected. This study systematically investigates how developers perceive code review conflicts and addresses interpersonal conflicts during code reviews as a theoretical construct. Through the thematic analysis of interviews conducted with 22 developers, we confirm that conflicts during code reviews are commonplace, anticipated and seen as normal by developers. Even though conflicts do happen and carry a negative impact for the review, conflicts-if resolved constructively-can also create value and bring improvement. Moreover, the analysis provided insights on how strongly conflicts during code review and its context (i.e., code, developer, team, organization) are intertwined. Finally, there are aspects specific to code review conflicts that call for the research and application of customized conflict resolution and management techniques, some of which are discussed in this paper. Preprint: https://arxiv.org/abs/2201.05425 Data and material: https://doi.org/10.5281/zenodo.5848794",
+    "venue": "Proc. ACM Hum. Comput. Interact.",
+    "skip_reason": "The paper does not engage with a developing-regions context and does not address any of the specified areas or topics."
+  },
+  {
+    "title": "More than just Software Surprises: Purposes, Processes, and Directions for Software Application Easter Eggs",
+    "authors": "Matthew Lakier, Daniel Vogel",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3512949",
+    "doi": "10.1145/3512949",
+    "abstract": "\"Easter eggs\" are features hidden inside software, and the practice of developers including them is a long-standing global phenomenon. They have seen some investigation in the context of games, but despite their prevalence in non-game software applications, their nature within this context is less clear. We perform a qualitative, investigative analysis of Easter eggs in non-game software application contexts, using primarily archival research including discussion forums, social media posts, and user-created online databases, along with select developer interviews. Our work uncovers the stories behind, motivations for creating, and intended perceptions of Easter eggs, which we present as categories of purposes with illustrative examples. This analysis also informs a categorization and discussion of processes that Easter eggs undergo concerning the social and emotional circumstances of their developers and users. Finally, we use our results to motivate future directions for applying Easter eggs in user interfaces.",
+    "venue": "Proc. ACM Hum. Comput. Interact.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Assistive Communication Technologies and Stigma: How Perceived Visibility of Cochlear Implants Affects Self-Stigma and Social Interaction Anxiety",
+    "authors": "Pamara F. Chang, Rachel V. Tucker",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3512924",
+    "doi": "10.1145/3512924",
+    "abstract": "Assistive technologies promise improved functionality for people with disabilities, but their use and adoption are complicated. Previous research has identified several reasons why people with disabilities choose to abandon their assistive technologies. However, less is known about the adoption of assistive technologies that are permanent and user perceptions of these technologies. This study builds upon existing assistive technology, disability, identity, and stigma literature by examining the role of perceptions of cochlear implants, an assistive technology that permanently renders an invisible disability visible, among the single-sided deaf community. Analysis of survey data from 332 single-sided deaf individuals with cochlear implants all over the world revealed that the perceived visibility of assistive technology is positively associated with self-stigma and social interaction anxiety. Results from this study highlight the centrality of sociotechnical perceptions of assistive technologies to the experience of stigma, rather than the objective characteristics and features of technology, and problematize the existing dichotomous approach (visible v. invisible) to understanding assistive technologies. This study also illuminates the importance of studying assistive technologies on an intragroup level as well as focusing on how specific stigmatized niche communities may perceive and use their assistive technologies.",
+    "venue": "Proc. ACM Hum. Comput. Interact.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Human-AI Collaboration for UX Evaluation: Effects of Explanation and Synchronization",
+    "authors": "Mingming Fan, Xianyou Yang, Tsz Tung Yu, Vera Q. Liao, Jian Zhao",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3512943",
+    "doi": "10.1145/3512943",
+    "abstract": "Analyzing usability test videos is arduous. Although recent research showed the promise of AI in assisting with such tasks, it remains largely unknown how AI should be designed to facilitate effective collaboration between user experience (UX) evaluators and AI. Inspired by the concepts of agency and work context in human and AI collaboration literature, we studied two corresponding design factors for AI-assisted UX evaluation: explanations and synchronization. Explanations allow AI to further inform humans how it identifies UX problems from a usability test session; synchronization refers to the two ways humans and AI collaborate: synchronously and asynchronously. We iteratively designed a tool-AI Assistant-with four versions of UIs corresponding to the two levels of explanations (with/without) and synchronization (sync/async). By adopting a hybrid wizard-of-oz approach to simulating an AI with reasonable performance, we conducted a mixed-method study with 24 UX evaluators identifying UX problems from usability test videos using AI Assistant. Our quantitative and qualitative results show that AI with explanations, regardless of being presented synchronously or asynchronously, provided better support for UX evaluators' analysis and was perceived more positively; when without explanations, synchronous AI better improved UX evaluators' performance and engagement compared to the asynchronous AI. Lastly, we present the design implications for AI-assisted UX evaluation and facilitating more effective human-AI collaboration.",
+    "venue": "Proc. ACM Hum. Comput. Interact.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Others Are to Blame: Whom People Consider Responsible for Online Misinformation",
+    "authors": "Gabriel Lima, Jiyoung Han, Meeyoung Cha",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3512953",
+    "doi": "10.1145/3512953",
+    "abstract": "Determining who is responsible for online misinformation is an important problem. This research offers a multifaceted view of the public's perception of who is responsible for online misinformation. Via two studies, we surveyed how people attribute responsibility separately for creating, disseminating, and failing to prevent the dissemination of false information online. Study 1 (N=99) employed a mixed-methods approach to identify a series of actors deemed responsible for each aspect of misinformation. Its open-ended methodology suggested that participants tended to externalize responsibility, which we explored further in the subsequent study. Study 2 (N=496) found that the responsible entities differed for the three distinct aspects of misinformation: online users, news media, and interest groups were associated with creating falsehoods, whereas social media platforms were predominantly seen as accountable for failing to prevent them. Our data shows that blame was directed towards those on the opposite side of the political spectrum, indicating substantial polarization. Most critically, people did not seem to associate themselves with online misinformation and externalized responsibility towards \"other users.\" We discuss implications, including the need to promote personal accountability among users and the social demand for accountable social media platforms and news media.",
+    "venue": "Proc. ACM Hum. Comput. Interact.",
+    "skip_reason": "The paper does not substantively engage with a developing-regions context as required by the rules for all topics except 'cs_fundamentals'."
+  },
+  {
+    "title": "Conversations About Crime: Re-Enforcing and Fighting Against Platformed Racism on Reddit",
+    "authors": "Qunfang Wu, Louisa Kayah Williams, Ellen Simpson, Bryan C. Semaan",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3512901",
+    "doi": "10.1145/3512901",
+    "abstract": "With the emergence of Information and Communication Technologies (ICTs), people are being exposed to an increased volume of crime-related information, which induces fear. While the fear of crime has been explored around people's experiences with crime, little is known about how people frame their conversations about crime online. In this study, we explore how citizens talk about crime on Reddit. By collecting crime conversations from the subreddit r/baltimore, we find that, on the surface, redditors discuss topics such as comparing crime rates in Baltimore with other cities in an effort to destigmatize the depictions of Baltimore as a city rife with crime. On a deeper level, we find that through their conversations about crime, redditors are engaging in discourse frames that both re-enforce and fight against platformed racism. On the one hand, some redditors perpetuate racially coded language that is rife with anti-Black stereotypes, framing their conversations using old and new racism to cover their racism and discrimination against Black people. On the other hand, others push back against platformed racism by drawing attention to individual racism and systemic racism, and situating crime in root, societal causes. We then discuss how platformed racism operates in online conversations, and develop the concepts of weaponized identity and digital gentrification, which we argue are ways in which people, through their engagements in digital platforms, continue to perpetuate white hegemonic power structures in society. Finally, we discuss implications for how to design to support the fight against platformed racism in sociotechnical systems like Reddit. As a content note and warning, this paper discusses racist content which may be upsetting or harmful to some readers.",
+    "venue": "Proc. ACM Hum. Comput. Interact.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Eliciting Best Practices for Collaboration with Computational Notebooks",
+    "authors": "Luigi Quaranta, Fabio Calefato, Filippo Lanubile",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3512934",
+    "doi": "10.1145/3512934",
+    "abstract": "Despite the widespread adoption of computational notebooks, little is known about best practices for their usage in collaborative contexts. In this paper, we fill this gap by eliciting a catalog of best practices for collaborative data science with computational notebooks. With this aim, we first look for best practices through a multivocal literature review. Then, we conduct interviews with professional data scientists to assess their awareness of these best practices. Finally, we assess the adoption of best practices through the analysis of 1,380 Jupyter notebooks retrieved from the Kaggle platform. Findings reveal that experts are mostly aware of the best practices and tend to adopt them in their daily work. Nonetheless, they do not consistently follow all the recommendations as, depending on specific contexts, some are deemed unfeasible or counterproductive due to the lack of proper tool support. As such, we envision the design of notebook solutions that allow data scientists not to have to prioritize exploration and rapid prototyping over writing code of quality.",
+    "venue": "Proc. ACM Hum. Comput. Interact.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Characterizing Reddit Participation of Users Who Engage in the QAnon Conspiracy Theories",
+    "authors": "Kristen Engel, Yiqing Hua, Taixiang Zeng, Mor Naaman",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3512900",
+    "doi": "10.1145/3512900",
+    "abstract": "Widespread conspiracy theories may significantly impact our society. This paper focuses on the QAnon conspiracy theory, a consequential conspiracy theory that started on and disseminated successfully through social media. Our work characterizes how Reddit users who have participated in QAnon-focused subreddits engage in activities on the platform, especially outside their own communities. Using a large-scale Reddit moderation action against QAnon-related activities in 2018 as the source, we identified 13,000 users active in the early QAnon communities. We collected the 2.1 million submissions and 10.8 million comments posted by these users across all of Reddit from October 2016 to January 2021. The majority of these users were only active after the emergence of the QAnon conspiracy theory and decreased in activity after Reddit's 2018 QAnon ban. A qualitative analysis of a sample of 915 subreddits where the \"QAnon-enthusiastic\" users were especially active shows that they participated in a diverse range of subreddits, often of unrelated topics to QAnon. However, most of the users' submissions were concentrated in subreddits that have sympathetic attitudes towards the conspiracy theory, characterized by discussions that were pro-Trump, or emphasized unconstricted behavior (often anti-establishment and anti-interventionist). Further study of a sample of 1,571 of these submissions indicates that most consist of links from low-quality sources, bringing potential harm to the broader Reddit community. These results point to the likelihood that the activities of early QAnon users on Reddit were dedicated and committed to the conspiracy, providing implications on both platform moderation design and future research.",
+    "venue": "Proc. ACM Hum. Comput. Interact.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "'It's Problematic but I'm not Concerned': University Perspectives on Account Sharing",
+    "authors": "Serena Wang, Cori Faklaris, Junchao Lin, Laura Dabbish, Jason I. Hong",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3512915",
+    "doi": "10.1145/3512915",
+    "abstract": "Account sharing is a common, if officially unsanctioned, practice among workgroups, but so far understudied in higher education. We interview 23 workgroup members about their account sharing practices at a U.S. university. Our study is the first to explicitly compare IT and non-IT observations of account sharing as a \"normal and easy\" workgroup practice, as well as to compare student practices with those of full-time employees. We contrast our results with those in prior works and offer recommendations for security design and for IT messaging. Our findings that account sharing is perceived as low risk by our participants and that security is seen as secondary to other priorities offer insights into the gap between technical affordances and social needs in an academic workplace such as this.?",
+    "venue": "Proc. ACM Hum. Comput. Interact.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Trial by File Formats: Exploring Public Defenders' Challenges Working with Novel Surveillance Data",
+    "authors": "Rachel B. Warren, Niloufar Salehi",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3512914",
+    "doi": "10.1145/3512914",
+    "abstract": "In the United States, public defenders (lawyers assigned to people accused of crimes who cannot afford a private attorney) serve as an essential bulwark against wrongful arrest and incarceration for low-income and marginalized people. Public defenders have long been overworked and under-resourced. However, these issues have been compounded by increases in the volume and complexity of data in modern criminal cases. We explore the technology needs of public defenders through a series of semi-structured interviews with public defenders and those who work with them. We find that public defenders' ability to reason about novel surveillance data is woefully inadequate not only due to a lack of resources and knowledge, but also due to the structure of the criminal justice system, which gives prosecutors and police (in partnership with private companies) more control over the type of information used in criminal cases than defense attorneys. We find that public defenders may be able to create fairer situations for their clients with better tools for data interpretation and access. Therefore, we call on technologists to attend to the needs of public defenders and the people they represent when designing systems that collect data about people. Our findings illuminate constraints that technologists and privacy advocates should consider as they pursue solutions. In particular, our work complicates notions of individual privacy as the only value in protecting users' rights, and demonstrates the importance of data interpretation alongside data visibility. As data sources become more complex, control over the data cannot be separated from access to the experts and technology to make sense of that data. The growing surveillance data ecosystem may systematically oppress not only those who are most closely observed, but groups of people whose communities and advocates have been deprived of the storytelling power over their information.",
+    "venue": "Proc. ACM Hum. Comput. Interact.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Identifying User Needs for Advertising Controls on Facebook",
+    "authors": "Hana Habib, Sarah Pearman, Ellie Young, Ishika Saxena, Robert Zhang, Lorrie Faith Cranor",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3512906",
+    "doi": "10.1145/3512906",
+    "abstract": "We conducted an online survey and remote usability study to explore user needs related to advertising controls on Facebook and determine how well existing controls align with these needs. Our survey results highlight a range of user objectives related to controlling Facebook ads, including being able to select what ad topics are shown or what personal information is used in ad targeting. Some objectives are achievable with Facebook's existing controls, but participants seemed to be unaware of them, suggesting issues of discoverability. In our remote usability study, participants noted areas in which the usability of Facebook's advertising controls could be improved, including the location, layout, and explanation of controls. Additionally, we found that users could be categorized into four groups based on their privacy concerns related to Facebook's data collection practices, objectives for controlling their ad experience, and willingness to engage with advertising controls. Our findings provide a set of user requirements for advertising controls, applicable to Facebook as well as other platforms, that would better align such controls with users' needs and expectations.",
+    "venue": "Proc. ACM Hum. Comput. Interact.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "A Web-Scale Analysis of the Community Origins of Image Memes",
+    "authors": "Durim Morina, Michael S. Bernstein",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3512921",
+    "doi": "10.1145/3512921",
+    "abstract": "Where do the most popular online cultural artifacts such as image memes originate? Media narratives suggest that cultural innovations often originate in peripheral communities and then diffuse to the mainstream core; behavioral science suggests that intermediate network positions that bridge between the periphery and the core are especially likely to originate many influential cultural innovations. Research has yet to fully adjudicate between these predictions because prior work focuses on individual platforms such as Twitter; however, any single platform is only a small, incomplete part of the larger online cultural ecosystem. In this paper, we perform the first analysis of the origins and diffusion of image memes at web scale, via a one-month crawl of all indexible online communities that principally share meme images with English text overlays. Our results suggest that communities at the core of the network originate the most highly diffused image memes: the top $10%$ of communities by network centrality originate the memes that generate $62%$ of the image meme diffusion events on the web. A zero-inflated negative binomial regression confirms that memes from core communities are more likely to diffuse than those from peripheral communities even when controlling for community size and activity level. However, a replication analysis that follows the traditional approach of testing the same question only within a single large community, Reddit, finds the regression coefficients reversed---underscoring the importance of engaging in web-scale, cross-community analyses. The ecosystem-level viewpoint of this work positions the web as a highly centralized generator of cultural artifacts such as image memes.",
+    "venue": "Proc. ACM Hum. Comput. Interact.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "GeniAuti: Toward Data-Driven Interventions to Challenging Behaviors of Autistic Children through Caregivers' Tracking",
+    "authors": "Eunkyung Jo, Seora Park, Hyeonseok Bang, Youngeun Hong, Yeni Kim, Jungwon Choi, Bung-Nyun Kim, Daniel A. Epstein, Hwajung Hong",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3512939",
+    "doi": "10.1145/3512939",
+    "abstract": "Challenging behaviors significantly impact learning and socialization of autistic children and can stress and burden their caregivers. Documentation of challenging behaviors is fundamental for identifying what environmental factors influence them, such as how others respond to a child's such behaviors. Caregiver-tracked data on their child's challenging behaviors can help clinical experts make informed recommendations about how to manage such behaviors. To support caregivers in recording their children's challenging behaviors, we developed GeniAuti, a mobile-based data-collection tool built upon a clinical data collection form to document challenging behaviors and other clinically relevant contextual information such as place, duration, intensity, and what triggers such behaviors. Through an open-ended deployment with 19 parent-child pairs and three expert collaborators, caregivers found GeniAuti valuable for (1) becoming more attentive and reflective to behavioral contexts, including their own response strategies, (2) discovering positive aspects of their children's behaviors, and (3) promoting collaboration with clinical experts around the caregiver-tracked data to develop tailored intervention strategies for their children. However, participant experiences surface challenges of logging behaviors in social circumstances, conflicting views between caregivers and clinical experts around the structured recording process, and emotional struggles resulting from recording and reflecting on intensely negative experiences. Considering the complex nature of caregiver-based health tracking and caregiver--clinician collaboration, we suggest design opportunities for facilitating negotiations between caregivers and clinicians and accounting for caregivers' emotional needs.",
+    "venue": "Proc. ACM Hum. Comput. Interact.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Sharenting and Children's Privacy in the United States: Parenting Style, Practices, and Perspectives on Sharing Young Children's Photos on Social Media",
+    "authors": "Mary Jean Amon, Nika Kartvelishvili, Bennett I. Bertenthal, Kurt Hugenberg, Apu Kapadia",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3512963",
+    "doi": "10.1145/3512963",
+    "abstract": "Parents posting photos and other information about children on social media is increasingly common and a recent source of controversy. We investigated characteristics that predict parental sharing behavior by collecting information from 493 parents of young children in the United States on self-reported demographics, social media activity, parenting styles, children's social media engagement, and parental sharing attitudes and behaviors. Our findings indicate that most social media active parents share photos of their children online and feel comfortable doing so without their child's permission. The strongest predictor of parental sharing frequency was general social media posting frequency, suggesting that participants do not strongly differentiate between \"regular\" photo-sharing activities and parental sharing. Predictors of parental sharing frequency include greater social media engagement, larger social networks with norms encouraging parental sharing, more permissive and confident parenting styles, and greater social media engagement by their children. Contrasting previous research that often highlights benefits of parental sharing, our findings point to a number of risky online behaviors associated with parental sharing not previously uncovered. Implications for children's privacy and early social media exposure are discussed, including future directions for influencing parental sharing attitudes and behaviors.",
+    "venue": "Proc. ACM Hum. Comput. Interact.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Abstractions for Visualizing Preferences in Group Decisions",
+    "authors": "Emily Hindalong, Jordon Johnson, Giuseppe Carenini, Tamara Munzner",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3512896",
+    "doi": "10.1145/3512896",
+    "abstract": "Group decision making occurs when individuals collectively choose from a set of alternatives based on individual preferences. In these ubiquitous situations, it can be helpful for decision makers to visually model and compare stakeholder preferences in order to better understand others' points of view and reach consensus. Although a number of collaboration support tools allow preference inspection in some form, they are rarely based on a comprehensive understanding of the needs of group decision makers. The goal of our work is to study these demands, develop abstractions to model them, and create a framework to inform the design and assessment of existing and future tools. First, guided by decision analysis theory, we examine a diverse set of group decision making scenarios, characterizing variations in problem formulation, analysis goals, and situational features. Second, we amalgamate these findings into data and task abstractions that can be used to relate specific scenarios to the language of visualization. Finally, we use this framework to assess existing preference visualization tools in order to shed light on areas for future work in supporting group decision making.",
+    "venue": "Proc. ACM Hum. Comput. Interact.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "ColabAR: A Toolkit for Remote Collaboration in Tangible Augmented Reality Laboratories",
+    "authors": "Ana M. Villanueva, Zhengzhe Zhu, Ziyi Liu, Feiyang Wang, Subramanian Chidambaram, Karthik Ramani",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3512928",
+    "doi": "10.1145/3512928",
+    "abstract": "Current times are accelerating new technologies to provide high-quality education for remote collaboration, as well as hands-on learning. This is particularly important in the case of laboratory-based classes, which play an essential role in STEM education. In this paper, we introduce ColabAR, a toolkit that uses physical proxies to manipulate virtual objects in Tangible Augmented Reality (TAR) laboratories. ColabAR introduces haptic-based customizable interaction techniques to promote remote collaboration between students. Our toolkit provides hardware and software that enable haptic feedback to improve user experience and promote collaboration during learning. Also, we present the architecture of our cloud platform for haptic interaction that supports information sharing between students in a TAR laboratory. We performed two user studies (N=40) to test the effect of our toolkit in enriching local and remote collaborative experiences. Finally, we demonstrated that our TAR laboratory enables students' performance (i.e., lab completion rate, lab scores) to be similar to their performance in an in-person laboratory.",
+    "venue": "Proc. ACM Hum. Comput. Interact.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "RemoteCoDe: Robotic Embodiment for Enhancing Peripheral Awareness in Remote Collaboration Tasks",
+    "authors": "Mose Sakashita, Elizabeth A. Ricci, Jatin Arora, Fran\u00e7ois Guimbreti\u00e8re",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3512910",
+    "doi": "10.1145/3512910",
+    "abstract": "Collaborative design activities are often centered around physical artifacts. Depending on the design activity, this can be the model of a building, paper crafts, carving artwork, or a new circuit to be debugged and evaluated. In a typical setting, collaborators are seated around a table and divide their attention between the design artifact under review, at least one laptop supporting measurements and information foraging, and of course their collaborators. Although these activities involve complex sets of tools and configurations, people can easily work together when they are present in the same space. This is because the physical presence of a partner affords peripheral awareness to inform where the partner's attention is and what they are doing. This peripheral awareness allows collaborators to coordinate actions and manage coupling to achieve a shared task. For example, it is quite easy to know when your partner switches their focus from a breadboard to you as a request to start a face to face discussion.",
+    "venue": "Proc. ACM Hum. Comput. Interact.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Assessing the Fairness of AI Systems: AI Practitioners' Processes, Challenges, and Needs for Support",
+    "authors": "Michael Madaio, Lisa Egede, Hariharan Subramonyam, Jennifer Wortman Vaughan, Hanna M. Wallach",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3512899",
+    "doi": "10.1145/3512899",
+    "abstract": "Various tools and practices have been developed to support practitioners in identifying, assessing, and mitigating fairness-related harms caused by AI systems. However, prior research has highlighted gaps between the intended design of these tools and practices and their use within particular contexts, including gaps caused by the role that organizational factors play in shaping fairness work. In this paper, we investigate these gaps for one such practice: disaggregated evaluations of AI systems, intended to uncover performance disparities between demographic groups. By conducting semi-structured interviews and structured workshops with thirty-three AI practitioners from ten teams at three technology companies, we identify practitioners' processes, challenges, and needs for support when designing disaggregated evaluations. We find that practitioners face challenges when choosing performance metrics, identifying the most relevant direct stakeholders and demographic groups on which to focus, and collecting datasets with which to conduct disaggregated evaluations. More generally, we identify impacts on fairness work stemming from a lack of engagement with direct stakeholders or domain experts, business imperatives that prioritize customers over marginalized groups, and the drive to deploy AI systems at scale.",
+    "venue": "Proc. ACM Hum. Comput. Interact.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "\"Finsta gets all my bad pictures\": Instagram Users' Self-Presentation Across Finsta and Rinsta Accounts",
+    "authors": "Xiaoyun Huang, Jessica Vitak",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3512916",
+    "doi": "10.1145/3512916",
+    "abstract": "Significant research has examined social media users' self-presentation strategies, both within a single account and across multiple platforms. Few studies, however, have considered how users' self-presentation varies across multiple accounts on a single platform. In this survey study, we examine how Instagram users manage content sharing decisions and the audience for their content across two types of Instagram accounts: Rinsta (\"real\" Instagram) and Finsta (\"fake\" Instagram). Data analyzed includes 499 Finsta and Rinsta posts rated across different dimensions of self-presentation (e.g., self-presentation intention, picture editing effort) and 453 open-ended responses about participants' rationales for using the two accounts. Through this mixed-method approach, we find that Rinsta accounts are more likely to be public, focus on positive and uplifting content, and involve more careful editing and selection, while Finsta accounts are used for more off-the-cuff, emotional, and inappropriate content, as well as those photos that do not make the Rinsta cut. Participants also rated how they perceived responses to their Finsta and Rinsta posts. Mediation analysis suggests that participants perceived responses to Finsta posts as less satisfying, useful, and supportive - partly because Finsta posts contained more negative emotions and received fewer comments than Rinsta posts. We discuss these findings in relation to prior work on social media, self-presentation, and platform affordances, and consider the benefits of this more time-intensive approach to managing two distinct personas on one platform.",
+    "venue": "Proc. ACM Hum. Comput. Interact.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Surfacing Equity Issues in Large Computing Courses with Peer-Ranked, Demographically-Labeled Student Feedback",
+    "authors": "Benjamin Xie, Alannah Oleson, Jayne Everson, Amy J. Ko",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3512912",
+    "doi": "10.1145/3512912",
+    "abstract": "As computing courses become larger, students of minoritized groups continue to disproportionately face challenges that hinder their academic and professional success (e.g. implicit bias, microaggressions, lack of resources, assumptions of preparatory privilege). This can impact career aspirations and sense of belonging in computing communities. Instructors have the power to make immediate changes to support more equitable learning, but they are often unaware of students' challenges. To help both instructors and students understand the inequities in their classes, we developed StudentAmp, an interactive system that uses student feedback and self-reported demographic information (e.g. gender, ethnicity, disability, educational background) to show challenges and how they affect students differently. To help instructors make sense of feedback, StudentAmp ranks challenges by student-perceived disruptiveness. We conducted formative evaluations with five large college computing courses (150 - 750 students) being taught remotely during the COVID-19 pandemic. We found that students shared challenges beyond the scope of the course, perceived sharing information about who they were as useful but potentially dangerous, and that teaching teams were able to use this information to consider the positionality of students sharing challenges. Our findings relate to a central design tension of supporting equity by sharing contextualized information about students while also ensuring their privacy and well-being.",
+    "venue": "Proc. ACM Hum. Comput. Interact.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "The Moral Orders of Matchmaking Work: Digitization of Matrimonial Services and the Future of Work",
+    "authors": "Simiran Lalvani, Joyojeet Pal",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3512968",
+    "doi": "10.1145/3512968",
+    "abstract": "The digitization of matrimonial matchmaking has implications for work but also subjective notions of family, femininity, parent-child relations, community boundaries which this work relies on. This paper is based on qualitative, ethnographic fieldwork with matchmakers working with middle-class, upper-caste Hindu and Parsi communities in metropolitan India and offering services alongside, or as an alternative to the now widely used online matrimonial services. Through our fieldwork, we found all matchmakers engaged with digital technologies' involvement in the ongoing churn around modern choice. Matchmakers engaged with this wider social discourse through ideas of trust, autonomy and genealogy and in doing so they responded to and re/produced varying imaginations of the future of families, community, individuals. Our findings contribute to an understanding of the digitization of a service as well as make a case for widening the conceptual scope of the future of work debate currently dominated by economistic conceptions of work. By paying attention to the links between the productive and reproductive spheres of life, we follow labor and capital into the families and communities they reside in order to see the variety of moral projects capital can be invested in.",
+    "venue": "Proc. ACM Hum. Comput. Interact.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Quality Change: Norm or Exception? Measurement, Analysis and Detection of Quality Change in Wikipedia",
+    "authors": "Paramita Das, Bhanu Prakash Reddy Guda, Sasi Bhushan Seelaboyina, Soumya Sarkar, Animesh Mukherjee",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3512959",
+    "doi": "10.1145/3512959",
+    "abstract": "Wikipedia has been turned into an immensely popular crowd-sourced encyclopedia for information dissemination on numerous versatile topics in the form of subscription free content. It allows anyone to contribute so that the articles remain comprehensive and updated. For enrichment of content without compromising standards, the Wikipedia community enumerates a detailed set of guidelines, which should be followed. Based on these, articles are categorized into several quality classes by the Wikipedia editors with increasing adherence to guidelines. This quality assessment task by editors is laborious as well as demands platform expertise. As a first objective, in this paper, we study evolution of a Wikipedia article with respect to such quality scales. Our results show novel non-intuitive patterns emerging from this exploration. As a second objective we attempt to develop an automated data driven approach for the detection of the early signals influencing the quality change of articles. We posit this as a change point detection problem whereby we represent an article as a time series of consecutive revisions and encode every revision by a set of intuitive features. Finally, various change point detection algorithms are used to efficiently and accurately detect the future change points. We also perform various ablation studies to understand which group of features are most effective in identifying the change points. To the best of our knowledge, this is the first work that rigorously explores English Wikipedia article quality life cycle from the perspective of quality indicators and provides a novel unsupervised page level approach to detect quality switch, which can help in automatic content monitoring in Wikipedia thus contributing significantly to the CSCW community.",
+    "venue": "Proc. ACM Hum. Comput. Interact.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "\"I Just Can't Help But Smile Sometimes\": Collaborative Self-Management of Depression",
+    "authors": "Eleanor R. Burgess, Madhu C. Reddy, David C. Mohr",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3512917",
+    "doi": "10.1145/3512917",
+    "abstract": "Depression is a challenging condition that requires individuals to manage their moods and emotions over time. Within CSCW, there has been an interest in understanding how individuals seek and share support on social media and in online communities. However, less attention has been paid to how collaboration as an aspect of self-management of depression unfolds in people's daily lives. In this paper, we explore the collaborative self-management work of 28 individuals managing depression who live in the United States. Data collection included remote semi-structured interviews with an associated cognitive mapping exercise. Our findings describe who participants turn to for day-to-day collaborative support, how collaborative activities are enacted (across both mood-focused and preventative support practices), and where these often technology-mediated interactions occur across text, phone, video, and picture-based channels. We discuss collaborative self-management in the depression support context, including key characteristics: agency, reciprocity, time, and interaction. We also present a four-step model of how the process occurs over time (awareness, planning, interaction, and reflection). We conclude by discussing how technology ecosystems support individuals' collaborative self-management.",
+    "venue": "Proc. ACM Hum. Comput. Interact.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "MTV: Visual Analytics for Detecting, Investigating, and Annotating Anomalies in Multivariate Time Series",
+    "authors": "Dongyu Liu, Sarah Alnegheimish, Alexandra Zytek, Kalyan Veeramachaneni",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3512950",
+    "doi": "10.1145/3512950",
+    "abstract": "Detecting anomalies in time-varying multivariate data is crucial in various industries for the predictive maintenance of equipment. Numerous machine learning (ML) algorithms have been proposed to support automated anomaly identification. However, a significant amount of human knowledge is still required to interpret, analyze, and calibrate the results of automated analysis. This paper investigates current practices used to detect and investigate anomalies in time series data in industrial contexts and identifies corresponding needs. Through iterative design and working with nine experts from two industry domains (aerospace and energy), we characterize six design elements required for a successful visualization system that supports effective detection, investigation, and annotation of time series anomalies. We summarize an ideal human-AI collaboration workflow that streamlines the process and supports efficient and collaborative analysis. We introduce MTV (MultivariateTime SeriesVisualization), a visual analytics system to support such workflow. The system incorporates a set of novel visualization and interaction designs to support multi-faceted time series exploration, efficient in-situ anomaly annotation, and insight communication. Two user studies, one with 6 spacecraft experts (with routine anomaly analysis tasks) and one with 25 general end-users (without such tasks), are conducted to demonstrate the effectiveness and usefulness of MTV.",
+    "venue": "Proc. ACM Hum. Comput. Interact.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "The Relationship between Co-Creative Dialogue and High School Learners' Satisfaction with their Collaborator in Computational Music Remixing",
+    "authors": "Gloria Ashiya Katuka, Alexander R. Webber, Joseph B. Wiggins, Kristy Elizabeth Boyer, Brian Magerko, Tom McKlin, Jason Freeman",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3512970",
+    "doi": "10.1145/3512970",
+    "abstract": "Co-creative proccesses between people can be characterized by rich dialogue that carries each person's ideas into the collaborative space. When people co-create an artifact that is both technical and aesthetic, their dialogue reflects the interplay between these two dimensions. However, the dialogue mechanisms that express this interplay and the extent to which they are related to outcomes, such as peer satisfaction, are not well understood. This paper reports on a study of 68 high school learner dyads' textual dialogues as they create music by writing code together in a digital learning environment for musical remixing. We report on a novel dialogue taxonomy built to capture the technical and aesthetic dimensions of learners' collaborative dialogues. We identified dialogue act n-grams (sequences of length 1, 2, or 3) that are present within the corpus and discovered five significant n-gram predictors for whether a learner felt satisfied with their partner during the collaboration. The learner was more likely to report higher satisfaction with their partner when the learner frequently acknowledges their partner, exchanges positive feedback with their partner, and their partner proposes an idea and elaborates on the idea. In contrast, the learner is more likely to report lower satisfaction with their partner when the learner frequently accepts back-to-back proposals from their partner and when the partner responds to the learner's statements with positive feedback. This work advances understanding of collaborative dialogue within co-creative domains and suggests dialogue strategies that may be helpful to foster co-creativity as learners collaborate to produce a creative artifact. The findings also suggest important areas of focus for intelligent or adaptive systems that aim to support learners during the co-creative process.",
+    "venue": "Proc. ACM Hum. Comput. Interact.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "From Parental Control to Joint Family Oversight: Can Parents and Teens Manage Mobile Online Safety and Privacy as Equals?",
+    "authors": "Mamtaj Akter, Amy J. Godfrey, Jess Kropczynski, Heather Richter Lipford, Pamela J. Wisniewski",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3512904",
+    "doi": "10.1145/3512904",
+    "abstract": "Our research aims to highlight and alleviate the complex tensions around online safety, privacy, and smartphone usage in families so that parents and teens can work together to better manage mobile privacy and security-related risks. We developed a mobile application (\"app\") for Community Oversight of Privacy and Security (\"CO-oPS\") and had parents and teens assess whether it would be applicable for use with their families. CO-oPS is an Android app that allows a group of users to co-monitor the apps installed on one another's devices and the privacy permissions granted to those apps. We conducted a study with 19 parent-teen (ages 13-17) pairs to understand how they currently managed mobile safety and app privacy within their family and then had them install, use, and evaluate the CO-oPS app. We found that both parents and teens gave little consideration to online safety and privacy before installing new apps or granting privacy permissions. When using CO-oPS, participants liked how the app increased transparency into one another's devices in a way that facilitated communication, but were less inclined to use features for in-app messaging or to hide apps from one another. Key themes related to power imbalances between parents and teens surfaced that made co-management challenging. Parents were more open to collaborative oversight than teens, who felt that it was not their place to monitor their parents, even though both often believed parents lacked the technological expertise to monitor themselves. Our study sheds light on why collaborative practices for managing online safety and privacy within families may be beneficial but also quite difficult to implement in practice. We provide recommendations for overcoming these challenges based on the insights gained from our study.",
+    "venue": "Proc. ACM Hum. Comput. Interact.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Home-Life and Work Rhythm Diversity in Distributed Teamwork: A Study with Information Workers during the COVID-19 Pandemic",
+    "authors": "Thomas Breideband, Poorna Talkad Sukumar, Gloria Mark, Megan Caruso, Sidney D'Mello, Aaron D. Striegel",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3512942",
+    "doi": "10.1145/3512942",
+    "abstract": "During the COVID-19 pandemic, millions of previously co-located information workers had to work from home, a trend expected to become much more commonplace in the future. We interviewed 53 information workers from 17 U.S. teams to understand how this unique extended work-from-home setting influenced teamwork and how they adapted to it. Using a grounded theory approach, we discovered that extended remote work highlighted diversity in team members' home-lives and daily work rhythms. Whereas these types of diversity played only marginal roles for teams in the co-located office, they had a more tangible impact in the work-from-home setting, from coordination delays and interruptions to conflicts related to workload fairness, miscommunication, and trust. Importantly, workers reported that their teams adapted to these challenges by setting explicit norms and standards for online communication and asynchronous collaboration and by promoting general social and situational awareness. We discuss computer-supported designs to help teams manage these latent diversities in an extended remote teamwork setting.",
+    "venue": "Proc. ACM Hum. Comput. Interact.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Friendscope: Exploring In-the-Moment Experience Sharing on Camera Glasses via a Shared Camera",
+    "authors": "Molly Jane Nicholas, Brian A. Smith, Rajan Vaish",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3512903",
+    "doi": "10.1145/3512903",
+    "abstract": "We introduce Friendscope, an instant, in-the-moment experience sharing system for lightweight commercial camera glasses. Friendscope explores a new concept called a shared camera. This concept allows a wearer to share control of their camera with a remote friend, making it possible for both people to capture photos/videos from the camera in the moment. Through a user study with 48 participants, we found that users felt connected to each other, describing the shared camera as a more intimate form of livestreaming. Moreover, even privacy-sensitive users were able to retain their sense of privacy and control with the shared camera. Friendscope's different shared camera configurations give wearers ultimate control over who they share the camera with and what photos/videos they share. We conclude with design implications for future experience sharing systems.",
+    "venue": "Proc. ACM Hum. Comput. Interact.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "A Speech-Based Model for Tracking the Progression of Activities in Extreme Action Teamwork",
+    "authors": "Swathi Jagannath, Neha Kamireddi, Katherine Ann Zellner, Randall S. Burd, Ivan Marsic, Aleksandra Sarcevic",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3512920",
+    "doi": "10.1145/3512920",
+    "abstract": "Designing computerized approaches to support complex teamwork requires an understanding of how activity-related information is relayed among team members. In this paper, we focus on verbal communication and describe a speech-based model that we developed for tracking activity progression during time-critical teamwork. We situated our study in the emergency medical domain of trauma resuscitation and transcribed speech from 104 audio recordings of actual resuscitations. Using the transcripts, we first studied the nature of speech during 34 clinically relevant activities. From this analysis, we identified 11 communicative events across three different stages of activity performance-before, during, and after. For each activity, we created sequential ordering of the communicative events using the concept of narrative schemas. The final speech-based model emerged by extracting and aggregating generalized aspects of the 34 schemas. We evaluated the model performance by using 17 new transcripts and found that the model reliably recognized an activity stage in 98% of activity-related conversation instances. We conclude by discussing these results, their implications for designing computerized approaches that support complex teamwork, and their generalizability to other safety-critical domains.",
+    "venue": "Proc. ACM Hum. Comput. Interact.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Situating Public Speaking: The Politics and Poetics of the Digital Islamic Sermons in Bangladesh",
+    "authors": "Mohammad Rashidujjaman Rifat, Mohammad Ruhul Amin, Syed Ishtiaque Ahmed",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3512911",
+    "doi": "10.1145/3512911",
+    "abstract": "Research on public speaking has recently made fair progress within the CSCW scholarship that mostly focuses on training speakers to gain popularity. Core to this research is the idea of a universal set of skills that makes a public speech successful in terms of popularity. However, a strand of research has also shown skepticism to this simplistic conceptualization of the speaking context. We join this discussion by presenting a mix of qualitative and quantitative analyses of Islamic preaching videos on YouTube. These videos are created from Islamic sermons -- a form of Islamic religious public speaking in Bangladesh. By exploring the topics of discussion by the preachers and by analyzing the performances of the preachers during the sermons, we demonstrate how those are situated in their social, political, and religious context. Based on our findings, we discuss how the public speaking scholarship of CSCW and related fields could benefit from studying such public speeches in non-secular contexts of the Global South. Further, we discuss how the role of such religious sermons could contribute to the development discourse within CSCW.",
+    "venue": "Proc. ACM Hum. Comput. Interact.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Caste Capital on Twitter: A Formal Network Analysis of Caste Relations among Indian Politicians",
+    "authors": "Palashi Vaghela, Ramaravind Kommiya Mothilal, Daniel M. Romero, Joyojeet Pal",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3512927",
+    "doi": "10.1145/3512927",
+    "abstract": "Twitter is increasingly important for political outreach and networking around the world. While electoral politics and social relations in India are heavily organized by caste, a broader rhetoric of castelessness among upper-caste politicians has led to the eschewing of caste publicly to appear strategically secular. This has rendered caste dynamics more implicit than explicit. Social media, often cited as a tool for inclusion, offers a unique look into the networks of covert exclusion. Our study analyzes three structural properties of the Twitter network of Members of Parliament in India - influence, bridging capital, and mutual connectivity, to understand how caste manifests as social capital in the information economy. Our results show that those higher in the caste hierarchy are structurally poised for higher social capital through higher influence, incoming bridging capital, and higher propensity for mutual connections with other MPs in the network. Our study offers a methodological window into these invisible relations to show how structural advantages of Brahmanical supremacy are being co-produced and stabilized on social media at the highest level of politics.",
+    "venue": "Proc. ACM Hum. Comput. Interact.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "The Effects of System Initiative during Conversational Collaborative Search",
+    "authors": "Sandeep Avula, Bogeum Choi, Jaime Arguello",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3512913",
+    "doi": "10.1145/3512913",
+    "abstract": "Our research in this paper lies at the intersection of collaborative and conversational search. We report on a Wizard of Oz lab study in which 27 pairs of participants collaborated on search tasks over the Slack messaging platform. To complete tasks, pairs of collaborators interacted with a so-called searchbot with conversational capabilities. The role of the searchbot was played by a reference librarian. It is widely accepted that conversational search systems should be able to engage in mixed-initiative interaction ---take and relinquish control of a multi-agent conversation as appropriate. Research in discourse analysis differentiates between dialog- and task-level initiative. Taking dialog-level initiative involves leading a conversation for the sole purpose of establishing mutual belief between agents. Conversely, taking task-level initiative involves leading a conversation with the intent to influence the goals of the other agent(s). Participants in our study experienced three searchbot conditions, which varied based on the level of initiative the human searchbot was able to take: (1) no initiative, (2) only dialog-level initiative, and (3) both dialog- and task-level initiative. We investigate the effects of the searchbot condition on six different types of outcomes: (RQ1) perceptions of the searchbot's utility, (RQ2) perceptions of workload, (RQ3) perceptions of the collaboration, (RQ4) patterns of communication and collaboration, and perceived (RQ5) benefits and (RQ6) challenges from engaging with the searchbot.",
+    "venue": "Proc. ACM Hum. Comput. Interact.",
+    "skip_reason": "The paper does not substantively engage with a developing-regions context as per the RULE."
+  },
+  {
+    "title": "RescueCASTR: Exploring Photos and Live Streaming to Support Contextual Awareness in the Wilderness Search and Rescue Command Post",
+    "authors": "Brennan Jones, Anthony Tang, Carman Neustaedter",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3512960",
+    "doi": "10.1145/3512960",
+    "abstract": "Wilderness search and rescue (WSAR) is a command-and-control activity where a Command team manages field teams scattered across a large area looking for a lost person. The challenge is that it can be difficult for Command to maintain awareness of field teams and the conditions of the field. We designed RescueCASTR, an interface that explores the idea of deploying field teams with wearable cameras that stream live video or sequential photos periodically to Command that aid contextual awareness. We ran a remote user study with WSAR managers to understand the opportunities and challenges of such a system. We found that the awareness provided by the footage could give additional confidence and comfort to Command, while reducing the need for explicit communications. However, it could also impact workers' traditional roles and shift the burden of responsibility toward Command. We conclude that, while wearable-camera footage could be beneficial to Command, they need to have the tools and means to narrow their focus within the abundance of information provided. Furthermore, camera streams should not be thought of as a replacement for more direct communications, but rather as another tool available to help Command supplement their understanding of events in the field and help them narrow their focus.",
+    "venue": "Proc. ACM Hum. Comput. Interact.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Facilitating Global Team Meetings Between Language-Based Subgroups: When and How Can Machine Translation Help?",
+    "authors": "Yongle Zhang, Dennis Asamoah Owusu, Marine Carpuat, Ge Gao",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3512937",
+    "doi": "10.1145/3512937",
+    "abstract": "Global teams frequently consist of language-based subgroups who put together complementary information to achieve common goals. Previous research outlines a two-step work communication flow in these teams. There are team meetings using a required common language (i.e., English); in preparation for those meetings, people have subgroup conversations in their native languages. Work communication at team meetings is often less effective than in subgroup conversations. In the current study, we investigate the idea of leveraging machine translation (MT) to facilitate global team meetings. We hypothesize that exchanging subgroup conversation logs before a team meeting offers contextual information that benefits teamwork at the meeting. MT can translate these logs, which enables comprehension at a low cost. To test our hypothesis, we conducted a between-subjects experiment where twenty quartets of participants performed a personnel selection task. Each quartet included two English native speakers (NS) and two non-native speakers (NNS) whose native language was Mandarin. All participants began the task with subgroup conversations in their native languages, then proceeded to team meetings in English. We manipulated the exchange of subgroup conversation logs prior to team meetings: with MT-mediated exchanges versus without. Analysis of participants' subjective experience, task performance, and depth of discussions as reflected through their conversational moves jointly indicates that team meeting quality improved when there were MT-mediated exchanges of subgroup conversation logs as opposed to no exchanges. We conclude with reflections on when and how MT could be applied to enhance global teamwork across a language barrier.",
+    "venue": "Proc. ACM Hum. Comput. Interact.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Sonification of Emotion in Social Media: Affect and Accessibility in Facebook Reactions",
+    "authors": "Stanley J. Cantrell, R. Michael Winters, Prakriti Kaini, Bruce N. Walker",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3512966",
+    "doi": "10.1145/3512966",
+    "abstract": "Facebook Reactions are a collection of animated icons that enable users to share and express their emotions when interacting with Facebook content. The current design of Facebook Reactions utilizes visual stimuli (animated graphics and text) to convey affective information, which presents usability and accessibility barriers for visually-impaired Facebook users. In this paper, we investigate the use of sonification as a universally-accessible modality to aid in the conveyance of affect for blind and sighted social media users. We discuss the design and evaluation of 48 sonifications, leveraging Facebook Reactions as a conceptual framework. We conducted an online sound-matching study with 75 participants (11 blind, 64 sighted) to evaluate the performance of these sonifications. We found that sonification is an effective tool for conveying emotion for blind and sighted participants, and we highlight sonification design strategies that contribute to improved efficacy. Finally, we contextualize these findings and discuss the implications of this research with respect to HCI and the accessibility of online communities and platforms.",
+    "venue": "Proc. ACM Hum. Comput. Interact.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "People Talk in Stories. Responders Talk in Data: A Framework for Temporal Sensemaking in Time- and Safety-critical Work",
+    "authors": "Wendy Norris, Amy Voida, Stephen Voida",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3512955",
+    "doi": "10.1145/3512955",
+    "abstract": "Global crowdsourcing teams who conduct humanitarian response use temporal narratives as a sensemaking device when time is a critical element of the data story. In dynamic situations in which the flow of online information is rapid, fluid, and disordered, the process of how distributed teams construct a temporal narrative is not well understood nor well supported by information and communication technologies (ICTs). Here, we examine an intense need for temporal sensemaking: time- and safety-critical information work during the 2017 Hurricane Maria crisis response in Puerto Rico. Our analysis of semi-structured interviews reveals how members of a global digital humanitarian group, The Standby Task Force (SBTF), use a process of triage, evaluation, negotiation, and synchronization to construct collective temporal narratives in their high-tempo, distributed information work. Informed by these empirical insights, we reflect on the design implications for cloud-based, collaborative ICTs used in time- and safety-critical remote work.",
+    "venue": "Proc. ACM Hum. Comput. Interact.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Comparing the Perceived Legitimacy of Content Moderation Processes: Contractors, Algorithms, Expert Panels, and Digital Juries",
+    "authors": "Christina A. Pan, Sahil Yakhmi, Tara P. Iyer, Evan Strasnick, Amy X. Zhang, Michael S. Bernstein",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3512929",
+    "doi": "10.1145/3512929",
+    "abstract": "While research continues to investigate and improve the accuracy, fairness, and normative appropriateness of content moderation processes on large social media platforms, even the best process cannot be effective if users reject its authority as illegitimate. We present a survey experiment comparing the perceived institutional legitimacy of four popular content moderation processes. We conducted a within-subjects experiment in which we showed US Facebook users moderation decisions and randomized the description of whether those decisions were made by paid contractors, algorithms, expert panels, or juries of users. Prior work suggests that juries will have the highest perceived legitimacy due to the benefits of judicial independence and democratic representation. However, expert panels had greater perceived legitimacy than algorithms or juries. Moreover, outcome alignment -agreement with the decision - played a larger role than process in determining perceived legitimacy. These results suggest benefits to incorporating expert oversight in content moderation and underscore that any process will face legitimacy challenges derived from disagreement about outcomes.",
+    "venue": "Proc. ACM Hum. Comput. Interact.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Perceptions of Diversity in Electronic Music: the Impact of Listener, Artist, and Track Characteristics",
+    "authors": "Lorenzo Porcaro, Emilia G\u00f3mez, Carlos Castillo",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3512956",
+    "doi": "10.1145/3512956",
+    "abstract": "Shared practices to assess the diversity of retrieval system results are still debated in the Information Retrieval community, partly because of the challenges of determining what diversity means in specific scenarios, and of understanding how diversity is perceived by end-users. The field of Music Information Retrieval is not exempt from this issue. Even if fields such as Musicology or Sociology of Music have a long tradition in questioning the representation and the impact of diversity in cultural environments, such knowledge has not been yet embedded into the design and development of music technologies. In this paper, focusing on electronic music, we investigate the characteristics of listeners, artists, and tracks that are influential in the perception of diversity. Specifically, we center our attention on 1) understanding the relationship between perceived diversity and computational methods to measure diversity, and 2) analyzing how listeners' domain knowledge and familiarity influence such perceived diversity. To accomplish this, we design a user-study in which listeners are asked to compare pairs of lists of tracks and artists, and to select the most diverse list from each pair. We compare participants' ratings with results obtained through computational models built using audio tracks' features and artist attributes. We find that such models are generally aligned with participants' choices when most of them agree that one list is more diverse than the other, while they present a mixed behaviour in cases where participants have little agreement. Moreover, we observe how differences in domain knowledge, familiarity, and demographics can influence the level of agreement among listeners, and between listeners and diversity metrics computed automatically.",
+    "venue": "Proc. ACM Hum. Comput. Interact.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "\"It's Great to Exercise Together on Zoom!\": Understanding the Practices and Challenges of Live Stream Group Fitness Classes",
+    "authors": "Jiajing Guo, Susan R. Fussell",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3512918",
+    "doi": "10.1145/3512918",
+    "abstract": "The COVID-19 pandemic greatly changed many people's daily lives. Because of the temporary closure of gyms and fitness centers, many people started to take group fitness classes online. The abrupt transition to synchronous online exercise brought lots of uncertainty and challenges to fitness instructors and participants. This study aims to understand how people teach and participate in live stream group fitness classes, the challenges they have encountered, and their practices to address these challenges. We conducted semi-structured interviews with 11 instructors and 14 participants who had experience teaching or taking live stream group fitness classes on Zoom during the pandemic. Our interviews showed that instructors saw teaching online as a new, more cognitively demanding experience than teaching in-person classes; they found limited resources to create a professional workout space, experienced stress and anxiety, had limited information and approaches to give participants feedback, and faced difficulties with rapport building. Participants found it hard to give real-time reactions while exercising far away from their laptops; they receive less customized instructions, and they have difficulty engaging in private chats. Despite the challenges, we envision CMC in exercise is an opportunity for new design and interactions. We propose design recommendations, including using smartwatches to give real-time reactions and smart garments to generate tactile feedback. Health and biometric data can be shared with instructors and other participants during exercise for safety purposes and to create social connections.",
+    "venue": "Proc. ACM Hum. Comput. Interact.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Opening the Gate to Urban Repair: A Tool for Citizen-Led Design",
+    "authors": "Sarah Cooney, Barath Raghavan",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3512952",
+    "doi": "10.1145/3512952",
+    "abstract": "City planning in the United States suffers from opaque and unresponsive processes---egalitarian in name but in reality controlled and mediated by city officials and powerful interests, not residents. We explore methods for placing city planning directly in the hands of the people. For inspiration, we look to the democratization of knowledge production through citizen science, and examine how this trend can be paralleled in urban design. To that end, we give ordinary people pattern-based planning tools to help them redesign (and repair) urban areas. We describe a prototype for such a tool that leverages classic patterns to enable city planning by residents, and show through a series of Mechanical Turk experiments that this prototype allows ordinary people to create designs and communicate their intentions without design training or expert intervention.",
+    "venue": "Proc. ACM Hum. Comput. Interact.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "From Receivers to Givers: Understanding Practice of Reciprocity in an Online Support Community",
+    "authors": "Chelsea Kim, Hao-Chuan Wang",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3512938",
+    "doi": "10.1145/3512938",
+    "abstract": "In online communities, members often join as resource receivers and later transition to contributors. This study aims to examine the process of the transition through the lens of reciprocity. In the context of Gomusin Caf\u00e9, an online support group where women with romantic partners serving in South Korean military exchange social support, we conducted semi-structured interviews (n = 16) probing how the members return the support they received to unspecified audience (generalized reciprocity) and to repeated interaction partners (direct reciprocity). We found experiencing common hardships and forming social attachment to the community as important preceding conditions for the members to practice generalized reciprocity. The members also sought direct reciprocity despite it's not technically and normatively supported in the platform. We discuss theoretical and practical implications of these findings.",
+    "venue": "Proc. ACM Hum. Comput. Interact.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "The Reintegration Journey Following a Psychiatric Hospitalization: Examining the Role of Social Technologies",
+    "authors": "Sindhu Kiranmai Ernala, Jordyn Seybolt, Dong Whi Yoo, Michael L. Birnbaum, John M. Kane, Munmun De Choudhury",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3512969",
+    "doi": "10.1145/3512969",
+    "abstract": "For people diagnosed with mental health conditions, psychiatric hospitalization is a major life transition, involving clinical treatment, crisis stabilization and loss of access of social networks and technology. The period after hospitalization involves not only management of the condition and clinical recovery but also re-establishing social connections and getting back to social and vocational roles for successful reintegration ? a significant portion of which is mediated by social technology. However, little is known about how people get back to social lives after psychiatric hospitalization and the role social technology plays during the reintegration process. We address this gap through an interview study with 19 individuals who experienced psychiatric hospitalization in the recent past. Our findings shed light on how people's offline and online social lives are deeply intertwined with management of the mental health condition after hospitalization. We find that social technology supports reintegration journeys after hospitalization as well as presents certain obstacles. We discuss the role of social technology in significant life transitions such as reintegration and conclude with implications for social computing research, platform design and clinical care.",
+    "venue": "Proc. ACM Hum. Comput. Interact.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Understanding Cross-lingual Pragmatic Misunderstandings in Email Communication",
+    "authors": "Hajin Lim, Dan Cosley, Susan R. Fussell",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3512976",
+    "doi": "10.1145/3512976",
+    "abstract": "Communication tools such as email facilitate communication and collaboration between speakers of different languages, who use two primary strategies-English as a common language and machine translation (MT) tools-to help them overcome language barriers. However, each of these communication strategies creates its own challenges for cross-lingual communication. In this paper, we compare how people's interpretations of an email sender's social intention, and their evaluation of the email and the senders, differ when using a common language versus MT in email communication. We conducted an online experiment in which monolingual native English speakers read and rated request emails written by native English speakers, emails written by bilingual Chinese speakers in English, and emails written in Chinese then machine-translated into English. We found that participants interpreted the social intentions of the email sender less accurately for machine-translated emails than for emails written by non-native speakers in English. Participants also rated the senders and emails less positively overall for machine-translated emails compared to emails written by non-native speakers in English. Based on these findings, we suggest design possibilities that could better aid multilingual communication.",
+    "venue": "Proc. ACM Hum. Comput. Interact.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "The Invisible Labor of Access in Academic Writing Practices: A Case Analysis with Dyslexic Adults",
+    "authors": "Emily Q. Wang, Anne Marie Piper",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3512967",
+    "doi": "10.1145/3512967",
+    "abstract": "Writing is the currency of academia. Although technology-mediated writing has been studied extensively in CSCW, we know little about how writing practices unfold with disabled people, such as dyslexic writers whose neurodivergence shapes how they process language. Our qualitative analysis reveals how dyslexic professionals simultaneously identify how editing tools break down on academic language; develop workarounds that re-appropriate other tools as language sources; cultivate ad-hoc collaborations to compensate for technology's limitations; and navigate culturally ingrained ableist expectations for writing. We discuss how dyslexic writers' experiences with shouldering invisible work to participate in academic writing processes indicates that current tools and services do not support their needs. We then draw on our findings to inform design opportunities to make writing processes more accessible through changes to writing tools, institutional services, and peer review practices.",
+    "venue": "Proc. ACM Hum. Comput. Interact.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Understanding the Design Space of AI-Mediated Social Interaction in Online Learning: Challenges and Opportunities",
+    "authors": "Qiaosi Wang, Ida Camacho, Shan Jing, Ashok K. Goel",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3512977",
+    "doi": "10.1145/3512977",
+    "abstract": "Our online interactions are constantly mediated through Artificial Intelligence (AI), especially our social interactions. AI-mediated social interaction is the AI-facilitated process of building and maintaining social connections between individuals through information inferred from people's online posts. With its impending application across a number of contexts, the challenges and opportunities of AI-mediated social interaction remain underexplored. This paper seeks to understand the design space of AI-mediated social interaction in the context of online learning, where students frequently face social isolation. We deployed an AI agent named SAMI in three class discussion forums to help online learners build social connections. Using SAMI as a probe, we conducted semi-structured interviews with 26 students to understand their difficulties in remote social interactions and their experiences with SAMI. Through the lenses of social translucence and social-technical gap, we illustrate online learners' difficulties in remote social interactions and how SAMI resolved some of the difficulties. We also identify potential ethical and social challenges of SAMI such as user agency and privacy. Based on our findings, we outline the design space of AI-mediated social interaction. We discuss the design tension between AI performance and ethical design and pinpoint two design opportunities for AI-mediated social interaction in designing towards human-AI collaborative social matching and artificial serendipity.",
+    "venue": "Proc. ACM Hum. Comput. Interact.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Veteran Critical Theory as a Lens to Understand Veterans' Needs and Support on Social Media",
+    "authors": "Jiawei Zhou, Koustuv Saha, Irene Michelle Lopez Carron, Dong Whi Yoo, Catherine R. Deeter, Munmun De Choudhury, Rosa I. Arriaga",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3512980",
+    "doi": "10.1145/3512980",
+    "abstract": "Veterans are a unique marginalized group facing multiple vulnerabilities. Current assessments of veteran needs and support largely come from first-person accounts guided by researchers' prompts. Social media platforms not only enable veterans to connect with each other, but also to self-disclose experiences and seek support. This paper addresses the gap in our understanding of veteran needs and their own support dynamics by examining self-initiated and ecologically-valid self-expressions. In particular, we adopt the Veteran Critical Theory (VCT) to conduct a computational study on the Reddit community of veterans. Using topic modeling, we find veteran-friendly gestures with good intentions might not be appreciated in the subreddit. By employing transfer learning methodologies, we find this community has more informational and emotional support behaviors than general online communities and a higher prevalence of informational support than emotional support. Lastly, an examination of support dynamics reveals some contrasts to previous scholarship in military culture and social media. We discover that positive language and author platform tenure have negative relations with posts receiving replies and replies getting votes, and that replies reflecting personal disclosures tend to get more votes. Through the lens of VCT, we discuss how online communities can help uncover veterans' needs and provide more effective social support.",
+    "venue": "Proc. ACM Hum. Comput. Interact.",
+    "skip_reason": "The paper does not substantively engage with a developing-regions context as required by the rules for all topics except 'cs_fundamentals'."
+  },
+  {
+    "title": "XR-LIVE: Enhancing Asynchronous Shared-Space Demonstrations with Spatial-temporal Assistive Toolsets for Effective Learning in Immersive Virtual Laboratories",
+    "authors": "Santawat Thanyadit, Parinya Punpongsanon, Thammathip Piumsomboon, Ting-Chuen Pong",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3512983",
+    "doi": "10.1145/3512983",
+    "abstract": "An immersive virtual laboratory (VL) could offer flexibility of time and space, as well as safety, for remote students to conduct laboratory activities through online experiential learning. Recording an instructor's demonstration inside a VL is an approach that allows students to learn directly from a demonstration. However, students have to learn from a recording while controlling the playback, which requires attention spent on additional spatial and temporal cues. This additional cognitive load could lead to errors during the laboratory procedure. To address these challenges, we have identified four design requirements to reduce attention load in VLs; namely, organized learning steps, improved student sense of co-presence, reduction of task-instructor split-attention, and learning independent of interpersonal distance. Based on these requirements, we have designed and implemented spatial-temporal assistive toolsets for laboratories in a virtual environment, namely XR-LIVE, to reduce cognitive load and enhance learning in an asynchronous shared-space demonstration, implemented based on the setup of a standard civil engineering laboratory. We also analyzed students' behavior in the VL demonstration to design guidelines applicable to generic VLs.",
+    "venue": "Proc. ACM Hum. Comput. Interact.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Joint Media Engagement in Families Playing Animal Crossing: New Horizons during the COVID-19 Pandemic",
+    "authors": "Jesse J. Martinez, Travis W. Windleharth, Qisheng Li, Arpita Bhattacharya, Katy E. Pearce, Jason C. Yip, Jin Ha Lee",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3512947",
+    "doi": "10.1145/3512947",
+    "abstract": "The video game Animal Crossing: New Horizons (AC:NH) launched during the COVID-19 pandemic and families turned to it as a game to play together during isolation. This interview study of 27 families considered how families used AC:NH for Joint Media Engagement (JME), where family members engage with media content together, interacting with each other and bringing additional meaning to the experience. We find that the design of AC:NH well facilitates Takeuchi and Stevens's six conditions for productive JME. Furthermore, we identify and discuss additional conditions that contribute to productive JME: variety and flexibility in play styles that amplify mutual engagement, support for disentrained play that enables new forms of \"joint\" engagement, and scaffolding for affective interactions. This is followed by an exploration of how the COVID-19 pandemic affected JME. We conclude with design implications for building games to support productive JME for families through design for persistent shared spaces, flexible in-game progress, and social life simulation.",
+    "venue": "Proc. ACM Hum. Comput. Interact.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Working for the Invisible Machines or Pumping Information into an Empty Void? An Exploration of Wikidata Contributors' Motivations",
+    "authors": "Charles Chuankai Zhang, Mo Houtti, C. Estelle Smith, Ruoyan Kong, Loren Terveen",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3512982",
+    "doi": "10.1145/3512982",
+    "abstract": "Structured data peer production (SDPP) platforms like Wikidata play an important role in knowledge production. Compared to traditional peer production platforms like Wikipedia, Wikidata data is more structured and intended to be used by machines, not (directly) by people; end-user interactions with Wikidata often happen through intermediary \"invisible machines.\" Given this distinction, we wanted to understand Wikidata contributor motivations and how they are affected by usage invisibility caused by the machine intermediaries. Through an inductive thematic analysis of 15 interviews, we find that: (i) Wikidata editors take on two archetypes---Architects who define the ontological infrastructure of Wikidata, and Masons who build the database through data entry and editing; (ii) the structured nature of Wikidata reveals novel editor motivations, such as an innate drive for organizational work; (iii) most Wikidata editors have little understanding of how their contributions are used, which may demotivate some. We synthesize these insights to help guide the future design of SDPP platforms in supporting the engagement of different types of editors.",
+    "venue": "Proc. ACM Hum. Comput. Interact.",
+    "skip_reason": "The paper does not substantively engage with a developing-regions context as required by the rules for all topics except cs_fundamentals."
+  },
+  {
+    "title": "Active Prolonged Engagement EXpanded (APEX): A Toolkit for Supporting Evidence-Based Iterative Design Decisions for Collaborative, Embodied Museum Exhibits",
+    "authors": "Duri Long, Tom McKlin, Nylah Akua Adjei Boone, Dezarae Dean, Mirina Garoufalidis, Brian Magerko",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3512897",
+    "doi": "10.1145/3512897",
+    "abstract": "This article presents Active Prolonged Engagement eXpanded (APEX), a framework and toolkit for informing evidence-based decisions about the iterative design of embodied, collaborative museum exhibits. We provide an overview of APEX, a framework that builds on both prior work and experimentally derived data to provide an understanding of how visitors' physical, social, emotional, and intellectual engagement transform during the course of their interaction with an exhibit. We present two case studies demonstrating how to apply APEX in practice, analyzing video recordings of participant interactions with different design iterations of TuneTable-an interactive exhibit for co-creative computational music-making-at both a macro- and micro-level. In the case studies, we explore how APEX reveals important features of participant interaction that suggest implications and directions for design. Finally, we present a toolkit of resources to aid researchers in operationalizing APEX as a framework for video analysis, in-situ observation, and iterative design and evaluation.",
+    "venue": "Proc. ACM Hum. Comput. Interact.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Involving Crowdworkers with Lived Experience in Content-Development for Push-Based Digital Mental Health Tools: Lessons Learned from Crowdsourcing Mental Health Messages",
+    "authors": "Rachel Kornfield, David C. Mohr, Rachel Ranney, Emily G. Lattie, Jonah Meyerhoff, Joseph Jay Williams, Madhu C. Reddy",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3512946",
+    "doi": "10.1145/3512946",
+    "abstract": "Digital tools can support individuals managing mental health concerns, but delivering sufficiently engaging content is challenging. This paper seeks to clarify how individuals with mental health concerns can contribute content to improve push-based mental health messaging tools. We recruited crowdworkers with mental health symptoms to evaluate and revise expert-composed content for an automated messaging tool, and to generate new topics and messages. A second wave of crowdworkers evaluated expert and crowdsourced content. Crowdworkers generated topics for messages that had not been prioritized by experts, including self-care, positive thinking, inspiration, relaxation, and reassurance. Peer evaluators rated messages written by experts and peers similarly. Our findings also suggest the importance of personalization, particularly when content adaptation occurs over time as users interact with example messages. These findings demonstrate the potential of crowdsourcing for generating diverse and engaging content for push-based tools, and suggest the need to support users in meaningful content customization.",
+    "venue": "Proc. ACM Hum. Comput. Interact.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "\"Self-Quaranteens\" Process COVID-19: Understanding Information Visualization Language in Memes",
+    "authors": "Laura J. Perovich, Meryl Alper, Corey Cleveland",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3512894",
+    "doi": "10.1145/3512894",
+    "abstract": "The COVID-19 pandemic has led to a surge of information visualizations that aim to increase our scientific understanding and communicate about the ongoing health crisis with the general public. In this time, there has also been significant use of data visualization language in artefacts from online communities that provide commentary on the pandemic and create meaning through participatory digital culture. Using a qualitative approach, this paper examines over 300 memes collected from a public social media group targeted to young adults in the United States that uses the language of data visualization to discuss topics related to COVID-19. We outline four main ways that data visualization language is used in these memes-as a coarse indicator, as a visual analogy, as an opportunity for augmentation with emotion or interpretation, and as a visual pun-as well as two ways that memes leverage traditional and emerging approaches in the information visualization community. We describe the context in which these memes are socially created and interpreted in light of the political nature of online spaces and connect this work to ongoing research on participation, emotion, and embodiment in information visualization. These results aim to start a conversation about the use of data visualization language in digital culture and more casual networked environments beyond official channels.",
+    "venue": "Proc. ACM Hum. Comput. Interact.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "A \"Distance Matters\" Paradox: Facilitating Intra-Team Collaboration Can Harm Inter-Team Collaboration",
+    "authors": "Xinlan Emily Hu, Rebecca Hinds, Melissa A. Valentine, Michael S. Bernstein",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3512895",
+    "doi": "10.1145/3512895",
+    "abstract": "By identifying the socio-technical conditions required for teams to work effectively remotely, the Distance Matters framework has been influential in CSCW since its introduction in 2000. Advances in collaboration technology and practices have since brought teams increasingly closer to achieving these conditions. This paper presents a ten-month ethnography in a remote organization, where we observed that despite exhibiting excellent remote collaboration, teams paradoxically struggled to collaborate across team boundaries. We extend the Distance Matters framework to account for inter-team collaboration, arguing that challenges analogous to those in the original intra-team framework --- common ground, collaboration readiness, collaboration technology readiness, and coupling of work --- persist but are actualized differently at the inter-team scale. Finally, we identify a fundamental tension between the intra- and inter-team layers: the collaboration technology and practices that help individual teams thrive (e.g., adopting customized collaboration software) can also prompt collaboration challenges in the inter-team layer, and conversely the technology and practices that facilitate inter-team collaboration (e.g., strong centralized IT organizations) can harm practices at the intra-team layer. The addition of the inter-team layer to the Distance Matters framework opens new opportunities for CSCW, where balancing the tension between team and organizational collaboration needs will be a critical technological, operational, and organizational challenge for remote work in the coming decades.",
+    "venue": "Proc. ACM Hum. Comput. Interact.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Attitudes and Folk Theories of Data Subjects on Transparency and Accuracy in Emotion Recognition",
+    "authors": "Gabriel Grill, Nazanin Andalibi",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3512925",
+    "doi": "10.1145/3512925",
+    "abstract": "The growth of technologies promising to infer emotions raises political and ethical concerns, including concerns regarding their accuracy and transparency. A marginalized perspective in these conversations is that of data subjects potentially affected by emotion recognition. Taking social media as one emotion recognition deployment context, we conducted interviews with data subjects (i.e., social media users) to investigate their notions about accuracy and transparency in emotion recognition and interrogate stated attitudes towards these notions and related folk theories. We find that data subjects see accurate inferences as uncomfortable and as threatening their agency, pointing to privacy and ambiguity as desired design principles for social media platforms. While some participants argued that contemporary emotion recognition must be accurate, others raised concerns about possibilities for contesting the technology and called for better transparency. Furthermore, some challenged the technology altogether, highlighting that emotions are complex, relational, performative, and situated. In interpreting our findings, we identify new folk theories about accuracy and meaningful transparency in emotion recognition. Overall, our analysis shows an unsatisfactory status quo for data subjects that is shaped by power imbalances and a lack of reflexivity and democratic deliberation within platform governance.",
+    "venue": "Proc. ACM Hum. Comput. Interact.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Empathosphere: Promoting Constructive Communication in Ad-hoc Virtual Teams through Perspective-taking Spaces",
+    "authors": "Pranav Khadpe, Chinmay Kulkarni, Geoff Kaufman",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3512902",
+    "doi": "10.1145/3512902",
+    "abstract": "When members of ad-hoc virtual teams need to collectively ideate or deliberate, they often fail to engage with each others' perspectives in a constructive manner. At best, this leads to sub-optimal outcomes, and, at worst, it can cause conflicts that lead to teams not wanting to continue working together. Prior work has attempted to facilitate constructive communication by highlighting problematic communication patterns and nudging teams to alter their interaction norms. However, these approaches achieve limited success because they fail to acknowledge two social barriers: (1) it is hard to reset team norms mid-interaction, and (2) corrective nudges have limited utility unless team members believe it is safe to voice their opinion and that their opinion will be heard. This paper introduces Empathosphere, a chat-embedded intervention to mitigate these barriers and foster constructive communication in teams. To mitigate the first barrier, Empathosphere leverages the known benefits of \"experimental spaces\" in dampening existing norms and creating a climate conducive to change. Empathosphere instantiates this \"space'' as a separate communication channel in a team's workspace. To mitigate the second barrier, Empathosphere harnesses the benefits of perspective-taking to cultivate a group climate that promotes a norm of members speaking up and engaging with each other. Empathosphere achieves this by orchestrating authentic socio-emotional exchanges designed to induce perspective-taking. A controlled study ($N=110$) compared Empathosphere to an alternate intervention strategy of prompting teams to reflect on their team experience. We found that Empathosphere led to higher work satisfaction, encouraged more open communication and feedback within teams, and boosted teams' desire to continue working together. This work demonstrates that \"experimental spaces,\" particularly those that integrate methods of encouraging perspective-taking, can be a powerful means of improving communication in virtual teams.",
+    "venue": "Proc. ACM Hum. Comput. Interact.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "To Use or Abuse: Opportunities and Difficulties in the Use of Multi-channel Support to Reduce Technology Abuse by Adolescents",
+    "authors": "Min-Wei Hung, Tina Chien-Wen Yuan, Nanyi Bi, Yi-Chao Chen, Wan-Chen Lee, Ming-Chyi Huang, Chuang-Wen You",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3512972",
+    "doi": "10.1145/3512972",
+    "abstract": "Technology abuse among adolescents refers to the problematic use of technology devices, and the negative impact it can have on lifestyle and one's physical and mental health. This paper reports on in-depth interviews with 15 dyads of adolescent patients, their parents, and four experts with the objective of unraveling the issue of technology abuse. We conducted qualitative analysis aimed at unpacking the contextual factors affecting technology abuse, and differences between adolescents and their parents pertaining to this issue. Our discussions led us to formulate solutions to technology abuse: (1) motivating adolescents by sending timely reminders and providing interactive micro-incentives; (2) promoting communication between adolescents and their parents by sharing usage data related to device usage; and (3) incorporating social supports to complement parental support, while fulfilling the adolescent's social needs. This paper provides valuable insights into the design of technological solutions aimed at mediating technology abuse.",
+    "venue": "Proc. ACM Hum. Comput. Interact.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Patients Waiting for Cues: Information Asymmetries and Challenges in Sharing Patient-Generated Data in the Clinic",
+    "authors": "Chi Young Oh, Yuhan Luo, Beth St. Jean, Eun Kyoung Choe",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3512954",
+    "doi": "10.1145/3512954",
+    "abstract": "Patient-generated data (PGD) show great promise for informing the delivery of personalized and patient-centered care. However, patients' data tracking does not automatically lead to data sharing and discussion with clinicians, which can make it difficult to utilize and derive optimal benefit from PGD. In this paper, we investigate whether and how patients share their PGD with clinicians and the types of challenges that arise within this context. We describe patients' immediate experiences of PGD sharing with clinicians, based on our short onsite interviews with 57 patients who had just met with a clinician at a university health center. Our analyses identified overarching patterns in patients' PGD sharing practices and the associated challenges that arise from the information asymmetry between patients and clinicians and from patients' reliance on their memory to share their PGD. We discuss the implications of our findings for designing PGD-integrated health IT systems in ways to support patients' tracking of relevant PGD, clinicians' effective engagement with patients around PGD, and the efficient sharing and review of PGD within clinical settings.",
+    "venue": "Proc. ACM Hum. Comput. Interact.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "An Exploration of Captioning Practices and Challenges of Individual Content Creators on YouTube for People with Hearing Impairments",
+    "authors": "Franklin Mingzhe Li, Cheng Lu, Zhicong Lu, Patrick Carrington, Khai N. Truong",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3512922",
+    "doi": "10.1145/3512922",
+    "abstract": "Deaf and Hard-of-Hearing (DHH) audiences have long complained about caption qualities for many online videos created by individual content creators on video-sharing platforms (e.g., YouTube). However, there lack explorations of practices, challenges, and perceptions of online video captions from the perspectives of both individual content creators and DHH audiences. In this work, we first explore DHH audiences' feedback on and reactions to YouTube video captions through interviews with 13 DHH individuals, and uncover DHH audiences' experiences, challenges, and perceptions on watching videos created by individual content creators (e.g., manually added caption tags could create additional confidence and trust in caption qualities for DHH audiences). We then discover individual content creators' practices, challenges, and perceptions on captioning their videos (e.g., back-captioning problems) by conducting a YouTube video analysis with 189 captioning-related YouTube videos, followed by a survey with 62 individual content creators. Overall, our findings provide an in-depth understanding of captions generated by individual content creators and bridge the knowledge gap mutually between content creators and DHH audiences on captions.",
+    "venue": "Proc. ACM Hum. Comput. Interact.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Project IRL: Playful Co-Located Interactions with Mobile Augmented Reality",
+    "authors": "Ella Dagan, Ana Mar\u00eda C\u00e1rdenas Gasca, Ava Robinson, Anwar Noriega, Yu Jiang Tham, Rajan Vaish, Andr\u00e9s Monroy-Hern\u00e1ndez",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3512909",
+    "doi": "10.1145/3512909",
+    "abstract": "We present Project IRL (In Real Life), a suite of five mobile apps we created to explore novel ways of supporting in-person social interactions with augmented reality. In recent years, the tone of public discourse surrounding digital technology has become increasingly critical, and technology's influence on the way people relate to each other has been blamed for making people feel \"alone together,\" diverting their attention from truly engaging with one another when they interact in person. Motivated by this challenge, we focus on an under-explored design space: playful co-located interactions. We evaluated the apps through a deployment study that involved interviews and participant observations with 101 people. We synthesized the results into a series of design guidelines that focus on four themes: (1) device arrangement (e.g., are people sharing one phone, or does each person have their own?), (2) enablers (e.g., should the activity focus on an object, body part, or pet?), (3) affordances of modifying reality (i.e., features of the technology that enhance its potential to encourage various aspects of social interaction), and (4) co-located play (i.e., using technology to make in-person play engaging and inviting). We conclude by presenting our design guidelines for future work on embodied social AR.",
+    "venue": "Proc. ACM Hum. Comput. Interact.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Image DePO: Towards Gradual Decentralization of Online Social Networks using Decentralized Privacy Overlays",
+    "authors": "Jacob Logas, Ari Schlesinger, Zhouyu Li, Sauvik Das",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3512907",
+    "doi": "10.1145/3512907",
+    "abstract": "Centralized online social networks --- e.g., Facebook, Twitter and TikTok --- help drive social connection on the Internet, but have nigh unfettered access to monitor and monetize the personal data of their users. This centralization can especially undermine the use of the social internet by minority populations, who disproportionately bear the costs of institutional surveillance. We introduce a new class of privacy-enhancing technology --- decentralized privacy overlays (DePOs) --- that helps cOSN users regain some control over their personal data by allowing them to selectively share secret content on cOSNs through decentralized content distribution networks. As a first step, we present an implementation and user evaluation of Image DePO, a proof-of-concept design probe that allows users to upload and share secret photos on Facebook through the Interplanetary File System peer-to-peer protocol. We qualitatively evaluated Image DePO in a controlled, test environment with 19 queer and Black, Indigenous, (and) Person of Color (BIPOC) participants. We found that while Image DePO could help address the institutional threats with which our participants expressed concern, interpersonal threats were the more salient concern in their decisions to share content. Accordingly, we argue that in order to see widespread use, DePOs must align protection against abstract institutional threats with protection against the more salient interpersonal threats users consider when making specific sharing decisions.",
+    "venue": "Proc. ACM Hum. Comput. Interact.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "How Domain Experts Work with Data: Situating Data Science in the Practices and Settings of Craftwork",
+    "authors": "Ju-Yeon Jung, Tom Steinberger, John L. King, Mark S. Ackerman",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3512905",
+    "doi": "10.1145/3512905",
+    "abstract": "Domain experts play an essential role in data science by helping data scientists situate their technical work beyond the statistical analysis of large datasets. How domain experts themselves may engage with data science tools as a type of end-user remains largely invisible. Understanding data science as domain expert-driven depends on understanding how domain experts use data. Drawing on an ethnographic study of a craft brewery in Korea, we show how craft brewers worked with data by situating otherwise abstract data within their brewing practices and settings. We contribute theoretical insight into how domain experts use data distinctly from technical data scientists in terms of their view of data (situated vs. abstract), purposes for engaging with data (guiding processes over predicting outcomes), and overall goals of using data (flexible control vs. precision). We propose four ways in which working with data can be supported through the design of data science tools, and discuss how craftwork can be a useful lens for integrating domain expert-driven understandings of data science into CSCW and HCI research.",
+    "venue": "Proc. ACM Hum. Comput. Interact.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Non-literal Communication in Chinese Internet Spaces: A Case Study of Fishing",
+    "authors": "Huixin Tian, Xinyao Ma, Jeffrey Bardzell, Sameer Patil",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3512951",
+    "doi": "10.1145/3512951",
+    "abstract": "In Chinese Internet spaces, \"fishing\" is a form of non-literal communication that tries to lure or bait others. We conducted a case study of fishing on a Chinese Q&A platform in which we deconstructed the linguistic structure of the fishing language and identified its features by employing analysis techniques informed by Critical Discourse Analysis (CDA). Additionally, we examined the relationship between fishing practices and the specifics of the underlying communication platform. We found that fishing can be characterized as a reaction to rigid norms of politeness and friendliness imposed on users by platform owners. Our analysis reveals that fishing is organically connected with other social interaction within the community and facilitates autonomous and active negotiation of boundaries and linguistic norms for online discussion of controversial topics. We challenge the characterization of non-literal communication as \"abnormal,\" and contribute a more refined understanding of online linguistic norms, community cohesion, and civil engagement.",
+    "venue": "Proc. ACM Hum. Comput. Interact.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Disinformation as Infrastructure: Making and Maintaining the QAnon Conspiracy on Italian Digital Media",
+    "authors": "Irene V. Pasquetto, Alberto F. Olivieri, Luca Tacchetti, Gianni Riotta, Alessandra Spada",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3512931",
+    "doi": "10.1145/3512931",
+    "abstract": "Building from sociotechnical studies of disinformation and of information infrastructures, we examine how - over a period of eleven months - Italian QAnon supporters designed and maintained a distributed, multi-layered \"infrastructure of disinformation\" that spans multiple social media platforms, messaging apps, online forums, alternative media channels, as well as websites, databases, and content aggregators. Examining disinformation from an infrastructural lens reveals how QAnon disinformation operations extend well-beyond the use of social media and the construction of false narratives. While QAnon conspiracy theories continue to evolve and adapt, the overarching (dis)information infrastructure through which \"epistemic evidence\" is constructed and constantly updated is rather stable and has increased in size and complexity over time. Most importantly, we also found that deplatforming is a time-sensitive effort. The longer platforms wait to intervene, the harder it is to eradicate infrastructures as they develop new layers, get distributed across the Internet, and can rely on a critical mass of loyal followers. More research is needed to examine whether the key characteristics of the disinformation infrastructure that we identified extend to other disinformation infrastructures, which might include infrastructures put together by climate change denialists, vaccine skeptics, or voter fraud advocates.",
+    "venue": "Proc. ACM Hum. Comput. Interact.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "\"Knowledge Comes Through Participation\": Understanding Disability through the Lens of DIY Assistive Technology in Western Kenya",
+    "authors": "Foad Hamidi, Patrick Mbullo Owuor, Michaela Hynie, Melanie Baljko",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3512919",
+    "doi": "10.1145/3512919",
+    "abstract": "People with disabilities in Low- and Middle-Income Countries (LMICs) have limited access to digital assistive technologies (ATs). Most ATs in LMICs are manufactured elsewhere and are expensive and difficult to maintain. Do-It-Yourself Assistive Technologies (DIY-ATs) designed, customized, and repaired by non-technical users offer exciting directions in these contexts. We have been exploring the possibilities and challenges of DIY-ATs in Western Kenya, using community-engaged workshops in rural and urban special education schools for the past three years. We present findings from a concluding-stage research activity: a multiple stakeholder focus group where teachers, disability advocates, and representatives from the local government and technology innovation hubs, discussed the possibilities and challenges of addressing disability issues through DIY-ATs in this context. Participants identified opportunities for DIY-ATs for social inclusion, disability assessment, and inclusive education, and shared concerns about their sustainability, safety, and contextual relevance.",
+    "venue": "Proc. ACM Hum. Comput. Interact.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Bridging Action Frames: Instagram Infographics in U.S. Ethnic Movements",
+    "authors": "Darya Kaviani, Niloufar Salehi",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3512926",
+    "doi": "10.1145/3512926",
+    "abstract": "Instagram infographics are a digital activism tool that have redefined action frames for technology-facilitated social movements. From the 1960s through the 1980s, United States ethnic movements practiced collective action: ideologically unified, resource-intensive activism. Researchers have argued that modern technologically mediated movements, in contrast, practice connective action: individualized, low-resource online activism. We argue that Instagram infographics are both connective and collective. We conducted a qualitative interview study juxtaposing the insights of past and present U.S. ethnic movement activists and analyzed Black Lives Matter Instagram data over the course of 7 years (2014-2020). We find that Instagram infographic activism bridges connective and collective action in three ways: (1) Scope for Education: Visually enticing and digestible infographics reduce the friction of information dissemination, facilitating collective movement education while preserving customizability. (2) Reconciliation for Credibility: Activists use connective features to combat infographic misinformation and resolve internal differences, creating a trusted collective movement front. (3) High-Resource Efforts for Transformative Change: Instagram infographic activism has been paired with boots on the ground and action-oriented content, curating a connective-to-collective pipeline that expends movement resources. Our work unveils the vitality of evaluating digital activism action frames at the movement integration level, exemplifies the powerful coexistence of connective and collective action, and offers design implications for activists seeking to leverage this novel tool.",
+    "venue": "Proc. ACM Hum. Comput. Interact.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Group Chat Ecology in Enterprise Instant Messaging: How Employees Collaborate Through Multi-User Chat Channels on Slack",
+    "authors": "Dakuo Wang, Haoyu Wang, Mo Yu, Zahra Ashktorab, Ming Tan",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3512941",
+    "doi": "10.1145/3512941",
+    "abstract": "Despite the long history of studying instant messaging usage, we know very little about how today's people participate in group chat channels and interact with others inside a real-world organization. In this short paper, we aim to update the existing knowledge on how group chat is used in the context of today's organizations. The knowledge is particularly important for the new norm of remote works under the COVID-19 pandemic. We have the privilege of collecting two valuable datasets: a total of 4,300 group chat channels in Slack from an R&D department in a multinational IT company; and a total of 117 groups' performance data. Through qualitative coding of 100 randomly sampled group channels from the 4,300 channels dataset, we identified and reported 9 categories such as Project channels, IT-Support channels, and Event channels. We further defined a feature metric with 21 meta-features (and their derived features) without looking at the message content to depict the group communication style for these group chat channels, with which we successfully trained a machine learning model that can automatically classify a given group channel into one of the 9 categories. In addition to the descriptive data analysis, we illustrated how these communication metrics can be used to analyze team performance. We cross-referenced 117 project teams and their team-based Slack channels and identified 57 teams that appeared in both datasets, then we built a regression model to reveal the relationship between these group communication styles and the project team performance. This work contributes an updated empirical understanding of human-human communication practices within the enterprise setting, and suggests design opportunities for the future of human-AI communication experience.",
+    "venue": "Proc. ACM Hum. Comput. Interact.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Understanding the Role of Context in Creating Enjoyable Co-Located Interactions",
+    "authors": "Szu-Yu (Cyn) Liu, Brian A. Smith, Rajan Vaish, Andr\u00e9s Monroy-Hern\u00e1ndez",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3512978",
+    "doi": "10.1145/3512978",
+    "abstract": "In recent years, public discourse has blamed digital technologies for making people feel \"alone together,'' distracting us from engaging with one another, even when we are interacting in-person. We argue that in order to design technologies that foster and augment co-located interactions, we need to first understand the context in which enjoyable co-located socialization takes place. We address this gap by surveying and interviewing over 1,000 U.S.-based participants to understand what, where, with whom, how, and why people enjoy spending time in-person. Our findings suggest that people enjoy engaging in everyday activities with individuals with whom they have strong social ties because it helps enable nonverbal cues, facilitate spontaneity, support authenticity, encourage undivided attention, and leverage the physicality of their bodies and the environment. We conclude by providing a set of recommendations for designers interested in creating co-located technologies that encourage social engagement and relationship building.",
+    "venue": "Proc. ACM Hum. Comput. Interact.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Deciding Fast and Slow: The Role of Cognitive Biases in AI-assisted Decision-making",
+    "authors": "Charvi Rastogi, Yunfeng Zhang, Dennis Wei, Kush R. Varshney, Amit Dhurandhar, Richard Tomsett",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3512930",
+    "doi": "10.1145/3512930",
+    "abstract": "Several strands of research have aimed to bridge the gap between artificial intelligence (AI) and human decision-makers in AI-assisted decision-making, where humans are the consumers of AI model predictions and the ultimate decision-makers in high-stakes applications. However, people's perception and understanding are often distorted by their cognitive biases, such as confirmation bias, anchoring bias, availability bias, to name a few. In this work, we use knowledge from the field of cognitive science to account for cognitive biases in the human-AI collaborative decision-making setting, and mitigate their negative effects on collaborative performance. To this end, we mathematically model cognitive biases and provide a general framework through which researchers and practitioners can understand the interplay between cognitive biases and human-AI accuracy. We then focus specifically on anchoring bias, a bias commonly encountered in human-AI collaboration. We implement a time-based de-anchoring strategy and conduct our first user experiment that validates its effectiveness in human-AI collaborative decision-making. With this result, we design a time allocation strategy for a resource-constrained setting that achieves optimal human-AI collaboration under some assumptions. We, then, conduct a second user experiment which shows that our time allocation strategy with explanation can effectively de-anchor the human and improve collaborative performance when the AI model has low confidence and is incorrect.",
+    "venue": "Proc. ACM Hum. Comput. Interact.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Reshaping the Smart Home Research and Development in the Pandemic Era: Considerations around Scalable and Easy-to-Install Design",
+    "authors": "Heesuk Son, Chaiwoo Lee, Shabnam FakhrHosseini, Sheng-Hung Lee, Joseph F. Coughlin, John Rudnik",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3512961",
+    "doi": "10.1145/3512961",
+    "abstract": "Smart home research has traditionally included visiting participants' homes to build testbed environments and evaluate their experience. However, in-person home deployment poses limitations around scalability and is not a feasible method in the context of the COVID-19 pandemic. The smart home research community is now facing the need to reshape and innovate research methods and design approaches. This study introduces a scalable smart home platform prototype that demonstrates possible solutions to address issues and limitations posed by the pandemic, such as improving package design, enabling user-driven installation, and facilitating remote evaluation and maintenance. The prototype uses off-the-shelf products with specially designed packaging to ensure interoperability as well as ease of shipping and installation. In this study, the prototype kits were shipped to participants' homes to understand and evaluate user perceptions and experiences around installation and initial use. Responses to a post-installation questionnaire and remote monitoring of system status showed that the participants easily completed their self-installation of the prototype without any on-site support. The study also showed potential for a scenario-based evaluation of the prototype using a remote, contactless research procedure.",
+    "venue": "Proc. ACM Hum. Comput. Interact.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Disturbing the Peace: Experiencing and Mitigating Emerging Harassment in Social Virtual Reality",
+    "authors": "Guo Freeman, Samaneh Zamanifard, Divine Maloney, Dane Acena",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3512932",
+    "doi": "10.1145/3512932",
+    "abstract": "Harassment has long been considered a severe social issue and a culturally contextualized construct. More recently, understanding and mitigating emerging harassment in social Virtual Reality (VR) has become a growing research area in HCI and CSCW. Based on the perspective of harassment in the U.S. culture, in this paper we identify new characteristics of online harassment in social VR using 30 in-depth interviews. We especially attend to how people who are already considered marginalized in the gaming and virtual worlds contexts (e.g., women, LGBTQ, and ethnic minorities) experience such harassment. As social VR is still a novel technology, our proactive approach highlights embodied harassment as an emerging but understudied form of harassment in novel online social spaces. Our critical review of social VR users' experiences of harassment and recommendations to mitigate such harassment also extends the current conceptualization of online harassment in CSCW. We therefore contribute to the active prevention of future harassment in nuanced online environments, platforms, and experiences.",
+    "venue": "Proc. ACM Hum. Comput. Interact.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "User Experience Research in the Work Context: Maps, Gaps and Agenda",
+    "authors": "Pinar Simsek Caglar, Virpi Roto, Teija Vainio",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3512979",
+    "doi": "10.1145/3512979",
+    "abstract": "User experience (UX) research has been criticized for focusing on leisure contexts and overlooking the work contexts. Moreover, researchers have been drawing attention to how UX at work differs from UX in leisure contexts, requiring development of domain specific knowledge. Inspired by these discussions, our motivation is to see the current state of UX at work research. Based on the systematic review of 52 papers, our results revealed that UX at work research is still immature. It is run by dichotomies; the conceptualizations such as the definition and the dimensions of UX at work are ambiguous; the variety of the studied work domains are limited and do not contribute to the understanding of UX at work; and the consideration of contextual factors are arbitrary and coincidental. To advance this important field of research, we indicate the research gaps and suggest a research agenda introducing areas for future research.",
+    "venue": "Proc. ACM Hum. Comput. Interact.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Practicing Moderation: Community Moderation as Reflective Practice",
+    "authors": "Amanda L. L. Cullen, Sanjay Ram Kairam",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3512958",
+    "doi": "10.1145/3512958",
+    "abstract": "Many types of online communities rely on volunteer moderators to manage the community and maintain behavioral standards. While prior work has shown that community moderators often develop a deep understanding of the goals of their moderation context and sophisticated processes for managing disruptions,less is known about the processes through which moderators develop this knowledge. In this paper, we leverage Donald Sch\u00f6n's concept of reflective practice as a lens for exploring how community moderators develop the 'knowledge-in-action' that they use to perform their work. Drawing on interviews with 18 Twitch moderators, we conceptualize moderators as reflective practitioners, iteratively encountering novel situations and adjusting their practices and mental models. Our findings provide detailed insight into how community moderators reflect-in-action, re-evaluating in real-time their mental models of viewer intent and community goals, and reflect-on-action, conducting post hoc assessments of individual incidents and long-term changes to adjust their practice over time. Moderators working in teams reveal specific aspects of reflection facilitated by cooperative discussion, which we call 'groupwise reflective practice'. By identifying community moderation as a form of reflective practice, we can leverage insights gained from studying practitioners in other fields,providing theoretical and practical implications for the study and support of community moderation.",
+    "venue": "Proc. ACM Hum. Comput. Interact.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "True or False: Studying the Work Practices of Professional Fact-Checkers",
+    "authors": "Nicholas Micallef, Vivienne Armacost, Nasir D. Memon, Sameer Patil",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3512974",
+    "doi": "10.1145/3512974",
+    "abstract": "Misinformation has developed into a critical societal threat that can lead to disastrous societal consequences. Although fact-checking plays a key role in combating misinformation, relatively little research has empirically investigated work practices of professional fact-checkers. To address this gap, we conducted semi-structured interviews with 21 fact-checkers from 19 countries. The participants reported being inundated with information that needs filtering and prioritizing prior to fact-checking. The interviews surfaced a pipeline of practices fragmented across disparate tools that lack integration. Importantly, fact-checkers lack effective mechanisms for disseminating the outcomes of their efforts which prevents their work from fully achieving its potential impact. We found that the largely manual and labor intensive nature of current fact-checking practices is a barrier to scale. We apply these findings to propose a number of suggestions that can improve the effectiveness, efficiency, scale, and reach of fact-checking work and its outcomes.",
+    "venue": "Proc. ACM Hum. Comput. Interact.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Easier Said or Easier Done? Exploring the Relative Merits of Common Feedback Presentations",
+    "authors": "Patrick A. Crain, Brian P. Bailey",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3512933",
+    "doi": "10.1145/3512933",
+    "abstract": "Feedback such as rubrics, pre-authored statements, and free-form comments are widely deployed in classrooms and feedback exchange communities. Despite these formats having different levels of detail and requiring different composition processes, little research has related these compositional processes for the provider to the feedback perceptions and revision outcomes for the recipient. In an online experiment, we investigated how novice participants (N=285) revised short stories in response to expert feedback composed with four common processes: rubrics, open comments, rubrics with open comments, and rubrics with comments on each rubric item (per-criterion comments). We also surveyed the feedback providers (N=4) to contrast the costs of composing feedback with the benefits of that feedback for the recipients. We found rubrics with per-criterion comments led to the highest revision quality, providers believed rubrics with open comments were most helpful to recipients, and rubrics alone took the least time to compose. Recipients' revision quality and perceptions of feedback helpfulness and credibility increased with feedback detail. We contribute an emergent framework for selecting feedback composition techniques based on attributes of interest and insights linking the composition costs with the benefits of the resulting feedback.",
+    "venue": "Proc. ACM Hum. Comput. Interact.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Examining Source Effects on Perceptions of Fake News in Rural India",
+    "authors": "Farhana Shahid, Shrirang Mare, Aditya Vashistha",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3512936",
+    "doi": "10.1145/3512936",
+    "abstract": "This paper presents a between-subjects design experiment with 478 people in India to investigate how rural and urban social media users perceive credible and fake posts, and how different types of sources impact their perceptions of information credibility and sharing behaviors. Our findings reveal that: (1) rural social media users were less adept in differentiating between credible and fake posts than their urban counterparts, and (2) source effects on trust and sharing intent manifested differently for urban and rural users. For example, fake posts from family members garnered greater trust among urban users but were trusted the least by rural users. In case of sharing Facebook posts, urban users were more willing to share fake posts from family, whereas, rural users were more inclined to share fake posts from journalists. Drawing on these findings, we propose design interventions to counteract fake news in low-resource environments of the Global South.",
+    "venue": "Proc. ACM Hum. Comput. Interact.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "No Community Can Do Everything: Why People Participate in Similar Online Communities",
+    "authors": "Nathan TeBlunthuis, Charles Kiene, Isabella Brown, Laura Alia Levi, Nicole McGinnis, Benjamin Mako Hill",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3512908",
+    "doi": "10.1145/3512908",
+    "abstract": "Large-scale quantitative analyses have shown that individuals frequently talk to each other about similar things in different online spaces. Why do these overlapping communities exist? We provide an answer grounded in the analysis of 20 interviews with active participants in clusters of highly related subreddits. Within a broad topical area, there are a diversity of benefits an online community can confer. These include (a) specific information and discussion, (b) socialization with similar others, and (c) attention from the largest possible audience. A single community cannot meet all three needs. Our findings suggest that topical areas within an online community platform tend to become populated by groups of specialized communities with diverse sizes, topical boundaries, and rules. Compared with any single community, such systems of overlapping communities are able to provide a greater range of benefits.",
+    "venue": "Proc. ACM Hum. Comput. Interact.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "The Work of Infrastructural Bricoleurs in Building Civic Data Dashboards",
+    "authors": "Firaz Peer, Carl F. DiSalvo",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3512971",
+    "doi": "10.1145/3512971",
+    "abstract": "The Historic Westside Universities Alliance Data Dashboard was created to meet the data equity needs of a group of resource-constrained communities in the Westside neighborhoods of Atlanta. We observed the development of this dashboard by participating as ethnographers and developers of its public safety module. Our ethnography and subsequent situational analysis of the dashboard's infrastructuring process led us to the work that individual stakeholders do in bringing such a dashboard to fruition. These stakeholders, whom we call infrastructural bricoleurs, operate through principles of situated knowledge, partial perspectives, limited power, and located accountability. Our analysis, which builds on concepts of infrastructures, bricolage, and feminist principles of technology design, helps us add further specificity to the work that infrastructural bricoleurs need to do when building civic data dashboards with resource constrained communities. Our findings benefit other researchers studying data infrastructures as well as administrators and practitioners within programs like DSSG (Data Science for Social Good) who are interested in building data infrastructures under similar constraints.",
+    "venue": "Proc. ACM Hum. Comput. Interact.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "PACMHCI V6, CSCW1, April 2022 Editorial",
+    "authors": "Shaowen Bardzell, Si\u00e2n E. Lindley, Aleksandra Sarcevic, Hideaki Kuzuoka, Katharina Reinecke, Hao-Chuan Wang, Naomi Yamashita",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3512825",
+    "doi": "10.1145/3512825",
+    "abstract": "No abstract available.",
+    "venue": "Proc. ACM Hum. Comput. Interact.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Gigified Knowledge Work: Understanding Knowledge Gaps When Knowledge Work and On-Demand Work Intersect",
+    "authors": "Denise J. Wilkins, Srihari Hulikal Muralidhar, Max Meijer, Laura Lascau, Si\u00e2n Lindley",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3512940",
+    "doi": "10.1145/3512940",
+    "abstract": "Online freelance platforms can transform knowledge work. However, 'gigification' also presents challenges, including how freelance workers can access and work with knowledge, which prior research has not examined. Through a qualitative interview study, we identify disparities in how freelancers who work for enterprise companies are able to utilize knowledge as part of their work, when compared with traditional employees of similar organizations. We examine how 38 knowledge workers (21 freelancers, 17 employees) deploy knowledge, work skillfully and mobilize resources to meet knowledge needs. We find that both employees and freelancers understand their own ability to act knowledgeably as a dynamic, collaborative, negotiated and emergent accomplishment. However, for freelancers, the dynamic dimensions of knowledge work - such as helping others see the meaning and value of their work, and creating ties between their work and the enterprise - are only minimally-legitimized and minimally-supported by organizing structures and tools. We present our results as 'knowledge gaps', and propose design recommendations to reduce these gaps and consequently make on-demand knowledge work more effective and sustainable.",
+    "venue": "Proc. ACM Hum. Comput. Interact.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "Instagram of Rivers: Facilitating Distributed Collaboration in Hyperlocal Citizen Science",
+    "authors": "Srishti Gupta, Julia Jablonski, Chun-Hua Tsai, John M. Carroll",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3512944",
+    "doi": "10.1145/3512944",
+    "abstract": "Citizen science project leaders collecting field data in a hyperlocal community often face common socio-technical challenges, which can potentially be addressed by sharing innovations across different groups through peer-to-peer collaboration. However, most citizen science groups practice in isolation, and end up re-inventing the wheel when it comes to addressing these common challenges. This study seeks to investigate distributed collaboration between different water monitoring citizen science groups. We discovered a unique social network application called Water Reporter that mediated distributed collaboration by creating more visibility and transparency between groups using the app. We interviewed 8 citizen science project leaders who were users of this app, and 6 other citizen science project leaders to understand how distributed collaboration mediated by this app differed from collaborative practices of Non Water Reporter users. We found that distributed collaboration was an important goal for both user groups, however, the tasks that support these collaboration activities differed for the two user groups.",
+    "venue": "Proc. ACM Hum. Comput. Interact.",
+    "skip_reason": "NO_KEYWORD_OVERLAP"
+  },
+  {
+    "title": "An Uncommon Task: Participatory Design in Legal AI",
+    "authors": "Fernando A. Delgado, Solon Barocas, Karen Levy",
+    "year": 2022,
+    "link": "https://doi.org/10.1145/3512898",
+    "doi": "10.1145/3512898",
+    "abstract": "Despite growing calls for participation in AI design, there are to date few empirical studies of what these processes look like and how they can be structured for meaningful engagement with domain experts. In this paper, we examine a notable yet understudied AI design process in the legal domain that took place over a decade ago, the impact of which still informs legal automation efforts today. Specifically, we examine the design and evaluation activities that took place from 2006 to 2011 within the Text REtrieval Conference's (TREC) Legal Track, a computational research venue hosted by the National Institute of Standards and Technologies. The Legal Track of TREC is notable in the history of AI research and practice because it relied on a range of participatory approaches to facilitate the design and evaluation of new computational techniques-in this case, for automating attorney document review for civil litigation matters. Drawing on archival research and interviews with coordinators of the Legal Track of TREC, our analysis reveals how an interactive simulation methodology allowed computer scientists and lawyers to become co-designers and helped bridge the chasm between computational research and real-world, high-stakes litigation practice. In analyzing this case from the recent past, our aim is to empirically ground contemporary critiques of AI development and evaluation and the calls for greater participation as a means to address them.",
+    "venue": "Proc. ACM Hum. Comput. Interact.",
+    "skip_reason": "The paper does not substantively engage with a developing-regions context as per the RULE."
+  }
+]
