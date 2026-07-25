@@ -706,20 +706,21 @@
       "name": "Problem Discovery",
       "methodology_description": "The general intellectual toolkit for understanding development/sustainability problems before proposing a technology, independent of which area it is later applied to: theories of development and wellbeing (capability approach, freedom-centered development), critiques of growth/inequality (Piketty-style political economy, degrowth/post-development/pluriverse thought), the appropriate-technology tradition (matching technology choice to context and scale rather than assuming 'more advanced is better'), and ICT4D-specific meta-frameworks (the ICT4D manifesto, process approaches to project success, the capability-choice framework for ICT4D). These readings teach a way of thinking about problems and technology strategy that a student should carry into agriculture, health, governance, or any other area -- they are chosen for the general stance they teach, not for a specific application.",
       "example_readings": [
+        "2015_hans_rosling_stats_ted",
+        "dreze_sen_uncertain_glory",
+        "heeks_ict4d_manifesto",
+        "ictd_2022_ict4d_and_critical_data_studies_a",
+        "kleine_ict4what",
+        "kothari_pluriverse",
+        "krishna_active_social_capital",
+        "piketty_inequality_newyorker",
+        "schumacher_appropriate_tech",
         "sen_capability_approach",
         "sen_development_as_freedom",
-        "schumacher_appropriate_tech",
+        "seth_technology_dis_empowerment",
         "smillie_mastering_machine",
-        "piketty_inequality_newyorker",
-        "dreze_sen_uncertain_glory",
-        "kothari_pluriverse",
         "streeck_how_will_capitalism_end",
-        "heeks_ict4d_manifesto",
-        "walton_heeks_process_approach",
-        "kleine_ict4what",
-        "khatibi_climate_adaptation_policy_awareness",
-        "krishna_active_social_capital",
-        "seth_technology_dis_empowerment"
+        "walton_heeks_process_approach"
       ]
     },
     {
@@ -727,14 +728,14 @@
       "name": "Solving with CS Fundamentals",
       "methodology_description": "The general technical toolkit for building solutions, independent of which area's problem it is pointed at: how to choose and scope a technology strategy for the context (Schumacher's appropriate-technology argument belongs here as much as in problem_discovery, because it is fundamentally about technology-choice methodology), general-purpose remote-sensing and machine learning method papers (foundation models, transfer learning, self-supervised learning, vision transformers, generative/diffusion models for imagery) that are introduced via one dataset or domain but are meant to generalize, and general data-mining/statistical methodology (spatiotemporal data mining, generalizable ML pipelines). The test for inclusion here is that the methodology is the point of the reading, not the specific area it happens to demonstrate on.",
       "example_readings": [
-        "schumacher_appropriate_tech",
-        "shekhar_spatiotemporal_data_mining",
-        "goldblatt_urban_research_satellite",
+        "2015_hans_rosling_stats_ted",
         "2023_how_remote_sensing_works_0a5662",
-        "2023_a_generalizable_and_accessible_approach_to_8f741e",
-        "2023_vits_for_sits_vision_transformers_for_2017c9",
-        "2023_foundation_models_for_generalist_geospatial_artificial_85b2fd",
-        "2023_diffusionsat_a_generative_foundational_model_for_71673b"
+        "aies_2025_part1_beyond_technocratic_xai_the_who_what",
+        "cscw_2021_1_you_keep_using_that_word_ways",
+        "ghtc_2024_a_user_centred_interaction_design_a",
+        "ictd_2022_ict4d_and_critical_data_studies_a",
+        "schumacher_appropriate_tech",
+        "shekhar_spatiotemporal_data_mining"
       ]
     },
     {
@@ -742,9 +743,10 @@
       "name": "Ethnographic Design & Iteration",
       "methodology_description": "General design methodology for translating understanding into artifacts and iterating with communities, independent of area: participatory and user-centered design principles, assets-based and culturally-situated design (designing from a community's existing capacities rather than treating them as a deficit), ludic/play-based design as a way of surfacing values and power in a design process, and the general craft of co-design with intermediaries. These readings teach a design stance and set of methods applicable whether the artifact is for agriculture, health, or governance.",
       "example_readings": [
-        "chirumamilla_pal_play_and_power",
-        "wong_villacres_assets_based_design",
-        "seth_technology_dis_empowerment"
+        "cscw_2021_1_you_keep_using_that_word_ways",
+        "ghtc_2024_a_user_centred_interaction_design_a",
+        "seth_technology_dis_empowerment",
+        "wong_villacres_assets_based_design"
       ]
     },
     {
@@ -752,6 +754,8 @@
       "name": "Socio-technical Dynamics at Scale",
       "methodology_description": "General frameworks and critical lenses for understanding what happens to a technology once it meets the world at scale, independent of area: theories of datafication and algorithmic/data justice, critiques of smart-city and platform logics, and general accounts of the gap between designer intent and real-world appropriation. Currently thin in the reading list as a purely area-agnostic category -- most sociotechnical-dynamics readings in the corpus are anchored to a specific area (bureaucracy, media, governance) rather than being pure theory, which is itself worth noting when searching for new readings: this topic may benefit from more general theoretical anchors (e.g. classic STS/algorithmic-accountability theory) alongside applied cases.",
       "example_readings": [
+        "aies_2025_part1_beyond_technocratic_xai_the_who_what",
+        "cscw_2021_1_you_keep_using_that_word_ways",
         "seth_technology_dis_empowerment"
       ]
     },
@@ -760,9 +764,11 @@
       "name": "Impact Evaluation",
       "methodology_description": "The general statistical and methodological toolkit for evaluating impact, independent of area: controlled experimentation and A/B testing methodology, measurement and indicator-framing methodology (e.g. how to structure empowerment indicators), and methodological critiques of evaluation itself (participant/response bias in HCI evaluation). These are chosen because they teach the mechanics and pitfalls of impact evaluation as a discipline, to be applied later to any area's intervention.",
       "example_readings": [
-        "kohavi_controlled_experiments_web",
+        "alsop_heinsohn_empowerment",
+        "cscw_2021_1_you_keep_using_that_word_ways",
         "dell_yours_is_better_bias",
-        "alsop_heinsohn_empowerment"
+        "ictd_2022_ict4d_and_critical_data_studies_a",
+        "kohavi_controlled_experiments_web"
       ]
     },
     {
@@ -770,9 +776,8 @@
       "name": "Operations & Scaling",
       "methodology_description": "General organizational and institutional theory for taking a system from pilot to scale, independent of area: what capabilities (in the Sen/capability-approach sense) an ICT program needs to sustain itself, and process-oriented theories of what makes ICT4D projects succeed or fail operationally. Also thin as a purely area-agnostic category -- most operations_scale readings in the corpus are tied to a specific program (telecenters, MGNREGA tooling) rather than general organizational theory, which is a gap worth targeting in future search.",
       "example_readings": [
-        "vaughan_capabilities_ict_sustainability",
-        "walton_heeks_process_approach",
-        "seth_technology_dis_empowerment"
+        "seth_technology_dis_empowerment",
+        "walton_heeks_process_approach"
       ]
     }
   ],

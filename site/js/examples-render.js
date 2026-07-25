@@ -102,11 +102,25 @@ function hasBackgroundColumn(study, backgroundReadings) {
 
 
 
-function buildCaseStudyColumns(study, readingsById) {
+function buildCaseStudyColumns(study, readingsById, showAreaAgnosticReadings = true) {
 
   const topicColumns = new Map();
 
   const backgroundReadings = [];
+
+
+
+  function pushColumnEntry(topicId, entry) {
+
+    if (!topicColumns.has(topicId)) {
+
+      topicColumns.set(topicId, []);
+
+    }
+
+    topicColumns.get(topicId).push(entry);
+
+  }
 
 
 
@@ -142,13 +156,45 @@ function buildCaseStudyColumns(study, readingsById) {
 
     }
 
-    if (!topicColumns.has(columnTopic)) {
+    pushColumnEntry(columnTopic, { reading, areaAgnosticLink: null });
 
-      topicColumns.set(columnTopic, []);
+  }
+
+
+
+  const topicsCovered = new Set(study.topics_covered || []);
+
+  if (showAreaAgnosticReadings) {
+
+    for (const link of study.related_area_agnostic_readings || []) {
+
+      const topicId = link.relevant_topic;
+
+      if (!topicId || !topicsCovered.has(topicId)) {
+
+        continue;
+
+      }
+
+      const reading = readingsById[link.reading_id];
+
+      if (!reading) {
+
+        continue;
+
+      }
+
+      const existing = topicColumns.get(topicId) || [];
+
+      if (existing.some((entry) => entry.reading.id === reading.id)) {
+
+        continue;
+
+      }
+
+      pushColumnEntry(topicId, { reading, areaAgnosticLink: link });
 
     }
-
-    topicColumns.get(columnTopic).push(reading);
 
   }
 
@@ -169,12 +215,12 @@ function buildCaseStudyColumns(study, readingsById) {
 
 
 function countTopicColumns(study, readingsById) {
-  const layout = buildCaseStudyColumns(study, readingsById);
-  return [...layout.topicColumns.values()].filter((readings) => readings.length).length;
+  const layout = buildCaseStudyColumns(study, readingsById, false);
+  return [...layout.topicColumns.values()].filter((entries) => entries.length).length;
 }
 
 function countDisplayedColumns(study, readingsById) {
-  const layout = buildCaseStudyColumns(study, readingsById);
+  const layout = buildCaseStudyColumns(study, readingsById, false);
   let count = countTopicColumns(study, readingsById);
   if (hasBackgroundColumn(study, layout.backgroundReadings)) {
     count += 1;
@@ -183,7 +229,7 @@ function countDisplayedColumns(study, readingsById) {
 }
 
 function matchesDefaultFilter(study, readingsById) {
-  const layout = buildCaseStudyColumns(study, readingsById);
+  const layout = buildCaseStudyColumns(study, readingsById, false);
   return (
     countTopicColumns(study, readingsById) >= MIN_TOPICS_DEFAULT_FILTER &&
     hasBackgroundColumn(study, layout.backgroundReadings)
@@ -199,7 +245,13 @@ function filterCaseStudies(studies, filterMode, readingsById) {
 
 
 
-function buildAreaSections(framework, examples, readingsById, filterMode = "multi-topic") {
+function buildAreaSections(
+  framework,
+  examples,
+  readingsById,
+  filterMode = "multi-topic",
+  showAreaAgnosticReadings = false
+) {
 
   const axisNameById = Object.fromEntries(
 
@@ -295,7 +347,16 @@ function buildAreaSections(framework, examples, readingsById, filterMode = "mult
 
     for (const study of studies) {
 
-      section.appendChild(renderCaseStudy(study, readingsById, framework, areaNameById, axisNameById));
+      section.appendChild(
+        renderCaseStudy(
+          study,
+          readingsById,
+          framework,
+          areaNameById,
+          axisNameById,
+          showAreaAgnosticReadings
+        )
+      );
 
     }
 
@@ -337,11 +398,11 @@ function getWideColumnId(layout, topicsInOrder, study) {
 
   for (const topicId of topicsInOrder) {
 
-    const readings = layout.topicColumns.get(topicId);
+    const entries = layout.topicColumns.get(topicId);
 
-    if (readings && readings.length) {
+    if (entries && entries.length) {
 
-      columns.push({ id: topicId, count: readings.length });
+      columns.push({ id: topicId, count: entries.length });
 
     }
 
@@ -531,7 +592,14 @@ function renderBackgroundColumn(study, layout, axisNameById, wideColumnId) {
 
 
 
-function renderCaseStudy(study, readingsById, framework, areaNameById, axisNameById) {
+function renderCaseStudy(
+  study,
+  readingsById,
+  framework,
+  areaNameById,
+  axisNameById,
+  showAreaAgnosticReadings = false
+) {
 
   const block = document.createElement("article");
 
@@ -585,7 +653,7 @@ function renderCaseStudy(study, readingsById, framework, areaNameById, axisNameB
 
 
 
-  const layout = buildCaseStudyColumns(study, readingsById);
+  const layout = buildCaseStudyColumns(study, readingsById, showAreaAgnosticReadings);
 
   const topicsInOrder = sortTopicsByFramework(study.topics_covered, framework);
 
@@ -601,9 +669,9 @@ function renderCaseStudy(study, readingsById, framework, areaNameById, axisNameB
 
   for (const topicId of topicsInOrder) {
 
-    const readingsInColumn = layout.topicColumns.get(topicId);
+    const entries = layout.topicColumns.get(topicId);
 
-    if (!readingsInColumn || !readingsInColumn.length) {
+    if (!entries || !entries.length) {
 
       continue;
 
@@ -643,11 +711,11 @@ function renderCaseStudy(study, readingsById, framework, areaNameById, axisNameB
 
 
 
-    for (const reading of readingsInColumn) {
+    for (const entry of entries) {
 
       column.appendChild(
 
-        createReadingCard(reading, study.cross_cutting_axes, axisNameById)
+        createReadingCard(entry.reading, study.cross_cutting_axes, axisNameById)
 
       );
 
@@ -723,25 +791,43 @@ async function initExamplesPage() {
 
 
 
-    const render = (filterMode) => {
+    const render = () => {
 
-      buildAreaSections(framework, examples, readingsById, filterMode);
+      const filterMode = document.querySelector('input[name="examples-filter"]:checked')?.value || "multi-topic";
+
+      const showAreaAgnosticReadings =
+
+        document.querySelector('input[name="area-agnostic-filter"]:checked')?.value !== "hide";
+
+      buildAreaSections(
+
+        framework,
+
+        examples,
+
+        readingsById,
+
+        filterMode,
+
+        showAreaAgnosticReadings
+
+      );
 
     };
 
 
 
-    render("multi-topic");
+    render();
 
 
 
-    document.querySelectorAll('input[name="examples-filter"]').forEach((input) => {
+    document.querySelectorAll('input[name="examples-filter"], input[name="area-agnostic-filter"]').forEach((input) => {
 
       input.addEventListener("change", () => {
 
         if (input.checked) {
 
-          render(input.value);
+          render();
 
         }
 

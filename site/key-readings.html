@@ -6,9 +6,9 @@
   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
   <meta http-equiv="Pragma" content="no-cache">
   <meta http-equiv="Expires" content="0">
-  <title>Class Schedule — ICTD Course</title>
-  <script src="js/site-config.js?v=20260719"></script>
-  <link rel="stylesheet" href="css/style.css?v=20260719">
+  <title>Key Readings — ICTD Course</title>
+  <script src="js/site-config.js?v=20260725c"></script>
+  <link rel="stylesheet" href="css/style.css?v=20260725c">
 </head>
 <body>
   <header class="site-header">
@@ -23,14 +23,18 @@
     </div>
   </header>
 
-  <main class="placeholder-page">
-    <h1>Class schedule — coming soon.</h1>
-    <p><a href="index.html">Back to home</a></p>
+  <main>
+    <div id="load-error" class="error-banner" hidden></div>
+    <p class="page-intro">
+      Area-agnostic readings teach methodology that generalizes across application areas.
+    </p>
+
+    <div id="topic-vector-content">
+      <p>Loading…</p>
+    </div>
   </main>
 
-  <script src="js/shared.js?v=20260719"></script>
-  <script>
-    document.addEventListener("DOMContentLoaded", () => setActiveNav("schedule"));
-  </script>
+  <script src="js/shared.js?v=20260725c"></script>
+  <script src="js/key-readings-render.js?v=20260725c"></script>
 </body>
 </html>

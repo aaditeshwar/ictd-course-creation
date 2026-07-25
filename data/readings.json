@@ -16850,7 +16850,9 @@
       "year": 2022,
       "venue": "compass_2022",
       "areas": [],
-      "topics": [],
+      "topics": [
+        "problem_discovery"
+      ],
       "cross_cutting_axes": [
         "gender"
       ],
@@ -20500,7 +20502,9 @@
       "year": 2018,
       "venue": "itid_2018",
       "areas": [],
-      "topics": [],
+      "topics": [
+        "problem_discovery"
+      ],
       "cross_cutting_axes": [
         "caste",
         "gender"

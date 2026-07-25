@@ -9784,13 +9784,12 @@
       ],
       "topics": [
         "cs_fundamentals",
-        "media_information",
         "sociotechnical_dynamics"
       ],
       "cross_cutting_axes": [
         "climate_change"
       ],
-      "area_agnostic": true,
+      "area_agnostic": false,
       "source_course": "climate_change_ai_venue_search",
       "notes": "The paper engages with climate change and social media dynamics, which are relevant cross-cutting axes and topics in the context of developing regions.",
       "link": "https://www.climatechange.ai/papers/neurips2023/27",
@@ -16580,10 +16579,10 @@
       "year": 2022,
       "venue": "compass_2022",
       "areas": [
-        "governance"
+        "governance",
+        "media_information"
       ],
       "topics": [
-        "media_information",
         "impact_evaluation"
       ],
       "cross_cutting_axes": [
@@ -16852,7 +16851,7 @@
       "venue": "compass_2022",
       "areas": [],
       "topics": [
-        "gender"
+        "problem_discovery"
       ],
       "cross_cutting_axes": [
         "gender"
@@ -19868,11 +19867,11 @@
       "year": 2022,
       "venue": "ifip_ict4d_2022",
       "areas": [
+        "governance",
         "health"
       ],
       "topics": [
-        "cs_fundamentals",
-        "governance"
+        "cs_fundamentals"
       ],
       "cross_cutting_axes": [
         "caste",
@@ -20504,7 +20503,7 @@
       "venue": "itid_2018",
       "areas": [],
       "topics": [
-        "gender"
+        "problem_discovery"
       ],
       "cross_cutting_axes": [
         "caste",
@@ -20810,9 +20809,8 @@
         "health"
       ],
       "topics": [
-        "gender",
-        "problem_discovery",
-        "impact_evaluation"
+        "impact_evaluation",
+        "problem_discovery"
       ],
       "cross_cutting_axes": [
         "gender"

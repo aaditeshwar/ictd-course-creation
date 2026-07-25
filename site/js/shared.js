@@ -138,6 +138,9 @@ const TOPIC_COLUMN_PRECEDENCE = [
 /** Pseudo-column for area-agnostic / primer material on the examples page. */
 const BACKGROUND_COLUMN_ID = "background_readings";
 
+/** Tier B area-agnostic readings linked by relevance scoring. */
+const AREA_AGNOSTIC_LINKS_ID = "area_agnostic_readings";
+
 function isBackgroundDomainReading(reading) {
   return Boolean(reading && reading.area_agnostic);
 }

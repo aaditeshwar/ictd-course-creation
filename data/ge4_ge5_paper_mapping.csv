@@ -1,0 +1,177 @@
+reading_id,title,case_studies_ge5,case_studies_ge4
+2023_foundation_models_for_generalist_geospatial_artificial_85b2fd,Foundation Models for Generalist Geospatial Artificial Intelligence,5,27
+jcss_2025_the_last_mile_in_remote_sensing,The Last Mile in Remote Sensing Poverty Prediction,4,21
+climate_change_ai_toward_foundation_models_for_earth_monitoring,Toward Foundation Models for Earth Monitoring: Proposal for a Climate Change Benchmark,1,16
+aaai_23_aisi_auto_cm_unsupervised_deep_learning_for,Auto-CM: Unsupervised Deep Learning for Satellite Imagery Composition and Cloud Masking Using Spatio-Temporal Dynamics,0,16
+climate_change_ai_using_multiple_input_modalities_can_improve,Using multiple input modalities can improve data-efficiency for ML with satellite imagery,0,16
+climate_change_ai_geoformer_a_vision_and_sequence_transformer,GeoFormer: A Vision and Sequence Transformer-based Approach for Greenhouse Gas Monitoring,0,14
+climate_change_ai_towards_deepsentinel_an_extensible_corpus_of,Towards DeepSentinel: An extensible corpus of labelled Sentinel-1 and -2 imagery and a proposed general purpose sensor-fusion semantic embedding model,0,14
+aies_2024_mitigating_urban_rural_disparities_in_contrastive,Mitigating Urban-Rural Disparities in Contrastive Representation Learning with Satellite Imagery,1,13
+ijcai_2024_remote_sensing_for_water_quality_a,"Remote Sensing for Water Quality: A Multi-Task, Metadata-Driven Hypernetwork Approach",1,13
+climate_change_ai_large_language_models_as_a_new,Large Language Models as a New Modality for Generalizable Earth Data Monitoring,0,13
+climate_change_ai_machine_learning_for_precipitation_nowcasting_from,Machine Learning for Precipitation Nowcasting from Radar Images,0,13
+climate_change_ai_exploring_randomly_wired_neural_networks_for,Exploring Randomly Wired Neural Networks for Climate Model Emulation,0,12
+ghtc_2024_an_interactive_framework_understanding_community_desires,An Interactive Framework: Understanding Community Desires Through Participatory Video,0,12
+cscw_2021_2_reflections_on_assets_based_design_a,Reflections on Assets-Based Design: A Journey Towards A Collective of Assets-Based Thinkers,2,11
+compass_2022_understanding_power_differentials_and_cultural_differences,Understanding Power Differentials and Cultural Differences in Co-design with Marginalized Populations,0,11
+jcss_2023_pixel_perfect_using_vision_transformers_to,Pixel Perfect: Using Vision Transformers to Improve Road Quality Predictions from Medium Resolution and Heterogeneous Satellite Imagery,0,11
+climate_change_ai_from_spectra_to_biophysical_insights_end,From spectra to biophysical insights: end-to-end learning with a biased radiative transfer model,0,10
+climate_change_ai_remote_control_debiasing_remote_sensing_predictions,Remote Control: Debiasing Remote Sensing Predictions for Causal Inference,0,10
+cscw_2022_2_sensemystreet_sensor_commissioning_toolkit_for_communities,SenseMyStreet: Sensor Commissioning Toolkit for Communities,0,10
+jcss_2025_resilient_hope_identity_extensibility_and_freedom,"Resilient Hope: Identity, Extensibility, and Freedom as Design and Policy Considerations in Social Computing",0,10
+climate_change_ai_drought_forecasting_using_a_hybrid_neural,Drought forecasting using a hybrid neural architecture for integrating time series and static data,2,9
+cscw_2021_2_open_data_settings_a_conceptual_framework,Open Data Settings: A Conceptual Framework Explored Through the Map Room Project,2,9
+2023_diffusionsat_a_generative_foundational_model_for_71673b,DiffusionSat: A Generative Foundational Model for Satellite Imagery,1,9
+compass_2021_opaque_obstacles_the_role_of_stigma,"Opaque Obstacles: The Role of Stigma, Rumor, and Superstition in Limiting Women's Access to Computing in Rural Bangladesh",1,9
+2023_vits_for_sits_vision_transformers_for_2017c9,ViTs for SITS: Vision Transformers for Satellite Image Time Series,1,8
+climate_change_ai_large_scale_masked_autoencoding_for_reducing,Large Scale Masked Autoencoding for Reducing Label Requirements on SAR Data,1,8
+aaai_23_aisi_weather2vec_representation_learning_for_causal_inference,Weather2vec: Representation Learning for Causal Inference with Non-local Confounding in Air Pollution and Climate Studies,0,8
+compass_2022_note_examining_the_gender_digital_divide,"Note: Examining the Gender Digital Divide in ICT: A Closer Look at Ghana, South Africa, and India",0,8
+cscw_2021_2_do_datasets_have_politics_disciplinary_values,Do Datasets Have Politics? Disciplinary Values in Computer Vision Dataset Development,0,8
+ijcai_2022_revealing_the_excitation_causality_between_climate,Revealing the Excitation Causality between Climate and Political Violence via a Neural Forward-Intensity Poisson Process,0,8
+aaai_25_aisi_measuring_fine_grained_urban_air_temperature,Measuring Fine-Grained Urban Air Temperature with Satellite Imagery,0,7
+compass_2022_the_six_conundrums_of_building_and,The Six Conundrums of Building and Deploying Language Technologies for Social Good,0,7
+2023_a_generalizable_and_accessible_approach_to_8f741e,A generalizable and accessible approach to machine learning with global satellite imagery,1,6
+ictd_2022_opportunities_for_women_in_computing_perspective,Opportunities for Women in Computing: Perspective of Bangladesh,1,6
+itid_2017_victim_mother_or_untapped_resource_discourse,"Victim, Mother, or Untapped Resource? Discourse Analysis of the Construction of Women in ICT Policies",1,6
+climate_change_ai_adaptive_labeling_for_enhancing_remote_sensing,Adaptive-Labeling for Enhancing Remote Sensing Cloud Understanding,0,6
+climate_change_ai_coregistration_of_satellite_image_time_series,Coregistration of Satellite Image Time Series Through Alignment of Road Networks,0,6
+climate_change_ai_curator_creating_large_scale_curated_labelled,Curator: Creating Large-Scale Curated Labelled Datasets using Self-Supervised Learning,0,6
+climate_change_ai_extreme_precipitation_nowcasting_using_transformer_based,Extreme Precipitation Nowcasting using Transformer-based generative models,0,6
+climate_change_ai_machine_learning_applications_for_weather_and,Machine learning applications for weather and climate predictions need greater focus on extremes,0,6
+climate_change_ai_predicting_landsat_reflectance_with_deep_generative,Predicting Landsat Reflectance with Deep Generative Fusion,0,6
+climate_change_ai_satellite_based_estimation_of_soil_geologic,Satellite-Based Estimation of Soil Geologic Properties Using Physics-Guided Machine Learning,0,6
+climate_change_ai_using_time_series_foundation_models_for,Using Time Series Foundation Models for Atmospheric CO2 Concentration Forecasting,0,6
+climate_change_ai_satellite_sunroof_high_res_digital_surface,Satellite Sunroof: High-res Digital Surface Models and Roof Segmentation for Global Solar Mapping,2,5
+aaai_25_aisi_generalizable_disaster_damage_assessment_via_change,Generalizable Disaster Damage Assessment via Change Detection with Vision Foundation Model,1,5
+climate_change_ai_a_global_census_of_solar_facilities,A Global Census of Solar Facilities Using Deep Learning and Remote Sensing,1,5
+climate_change_ai_deep_learning_for_rapid_landslide_detection,Deep Learning for Rapid Landslide Detection using Synthetic Aperture Radar (SAR) Datacubes,1,5
+itid_2018_gender_mobile_and_mobile_internet_maintenance,"Gender, Mobile, and Mobile Internet| Maintenance Affordances, Capabilities and Structural Inequalities: Mobile Phone Use By Low-Income Women",1,5
+2022_community_participation,What if the poor were part of city planning? | Smruti Jukur Johari,0,5
+climate_change_ai_evaluating_pretraining_methods_for_deep_learning,Evaluating Pretraining Methods for Deep Learning on Geophysical Imaging Datasets,0,5
+climate_change_ai_global_high_resolution_co2_monitoring_using,Global High Resolution CO2 monitoring using Super Resolution,0,5
+climate_change_ai_meta_modeling_strategy_for_data_driven,Meta-modeling strategy for data-driven forecasting,0,5
+climate_change_ai_nightvision_generating_nighttime_satellite_imagery_from,NightVision: Generating Nighttime Satellite Imagery from Infra-Red Observations,0,5
+climate_change_ai_quantifying_urban_canopy_cover_with_deep,Quantifying Urban Canopy Cover with Deep Convolutional Neural Networks,0,5
+climate_change_ai_spectral_channel_attention_network_a_method,Spectral Channel Attention Network: A Method for Hyperspectral Semantic Segmentation of Cloud and Shadows,0,5
+climate_change_ai_typhoon_intensity_prediction_with_vision_transformer,Typhoon Intensity Prediction with Vision Transformer,0,5
+ijcai_2023_on_optimizing_model_generality_in_ai,On Optimizing Model Generality in AI-based Disaster Damage Assessment: A Subjective Logic-driven Crowd-AI Hybrid Learning Approach,0,5
+itid_2018_gender_mobile_and_mobile_internet_gender,"Gender, Mobile, and Mobile Internet | Gender, Mobile, and Development: The Theory and Practice of Empowerment  â Introduction",0,5
+climate_change_ai_hyperionsolarnet_solar_panel_detection_from_aerial,HyperionSolarNet: Solar Panel Detection from Aerial Images,1,4
+climate_change_ai_identifying_distributional_differences_in_convective_evolution,Identifying Distributional Differences in Convective Evolution Prior to Rapid Intensification in Tropical Cyclones,1,4
+2023_climate_change_in_india_ee2654,Climate change in India,0,4
+climate_change_ai_accelerated_data_discovery_for_scalable_climate,Accelerated  Data Discovery for Scalable Climate Action,0,4
+climate_change_ai_deep_ensembles_to_improve_uncertainty_quantification,Deep ensembles to improve uncertainty quantification of statistical downscaling models under climate change conditions,0,4
+climate_change_ai_estimation_of_air_pollution_with_remote,Estimation of Air Pollution with Remote Sensing Data: Revealing Greenhouse Gas Emissions from Space,0,4
+climate_change_ai_formatting_the_landscape_spatial_conditional_gan,Formatting the Landscape: Spatial conditional GAN for varying population in satellite imagery,0,4
+climate_change_ai_hyperspectral_remote_sensing_of_aquatic_microbes,Hyperspectral Remote Sensing of Aquatic Microbes to Support Water Resource Management,0,4
+climate_change_ai_populous_a_multimodal_geospatial_ai_model,Populous: A Multimodal Geospatial AI Model for Understanding the Climate-Driven Insurance Crisis in the U.S.,0,4
+climate_change_ai_resolution_agnostic_transformer_based_climate_downscaling,Resolution-Agnostic Transformer-based Climate Downscaling,0,4
+climate_change_ai_sustainability_ai_copilot_analyze_ideate_at,Sustainability AI copilot: Analyze & ideate at scale to enable positive impact,0,4
+climate_change_ai_towards_tracking_the_emissions_of_every,Towards Tracking the Emissions of Every Power Plant on the Planet,0,4
+cscw_2021_1_problematic_machine_behavior_a_systematic_literature,Problematic Machine Behavior: A Systematic Literature Review of Algorithm Audits,0,4
+ghtc_2024_characteristics_and_machine_learning_emulation_of,Characteristics and Machine Learning Emulation of Heatwaves in Future Climate of New Jersey - Exploring Data from the CMIP6 Archive,0,4
+ijcai_2024_domain_adaptation_with_joint_loss_for,Domain Adaptation with Joint Loss for Consistent Regression and Ordinal Classification in the Proxy Means Test for Poverty Targeting,0,4
+climate_change_ai_using_smart_meter_data_to_forecast,Using Smart Meter Data to Forecast Grid Scale Electricity Demand,2,3
+2023_climate_change_adaptation_1_15_onward_909be3,Adaptation to Climate Change by the Rural Village Communities,0,3
+2023_forest_rights_total_6_00_d5a5b6,What is the Forest Rights Act 2006 and how are we defending it,0,3
+2023_optional_individual_forest_rights_total_3_f4075e,Why Adivasis Want the Forest Rights Act Implemented,0,3
+climate_change_ai_1_building_sustainable_futures_tutorial_on,1.	Building Sustainable Futures: Tutorial on Carbon Footprint Analysis and Mitigation Strategies Using Counter Factual Queries,0,3
+climate_change_ai_antarctic_bed_topography_super_resolution_via,Antarctic Bed Topography Super-Resolution via Transfer Learning,0,3
+climate_change_ai_causal_effects_of_winter_wheat_on,Causal Effects of Winter Wheat on Soil Organic Carbon Under Climate Variability,0,3
+climate_change_ai_deepwind_weakly_supervised_localization_of_wind,DeepWind: Weakly Supervised Localization of Wind Turbines in Satellite Imagery,0,3
+climate_change_ai_toward_resilient_cities_using_deep_learning,Toward Resilient Cities: Using Deep Learning to Downscale Climate Model Projections,0,3
+climate_change_ai_training_free_data_assimilation_with_gencast,Training-Free Data Assimilation with GenCast,0,3
+cscw_2021_1_a_transformer_based_framework_for_neutralizing,A Transformer-based Framework for Neutralizing and Reversing the Political Polarity of News Articles,0,3
+ghtc_2022_comparing_the_robustness_of_u_net,"Comparing the robustness of U-Net, LinkNet, and FPN towards label noise for refugee dwelling extraction from satellite imagery",0,3
+aies_2025_part3_toward_valid_measurement_of_un_fairness,Toward Valid Measurement of (Un)fairness for Generative AI: A Proposal for Systematization Through the Lens of Fair Equality of Chances,1,2
+climate_change_ai_deep_climate_change_a_dataset_and,Deep Climate Change: A Dataset and Adaptive domain pre-trained Language Models for Climate Change Related Tasks,1,2
+climate_change_ai_multivariate_lstm_based_forecasting_for_renewable,Multivariate LSTM-Based Forecasting for Renewable Energy: Enhancing Climate Change Mitigation,1,2
+aies_2025_part2_embodied_ai_at_the_margins_postcolonial,Embodied AI at the Margins: Postcolonial Ethics for Intelligent Robotic Systems,0,2
+aies_2025_part2_exposing_ai_bias_by_crowdsourcing_democratizing,Exposing AI Bias by Crowdsourcing: Democratizing Critique of Large Language Models,0,2
+climate_change_ai_bert_classification_of_paris_agreement_climate,BERT Classification of Paris Agreement Climate Action Plans,0,2
+climate_change_ai_characterization_of_industrial_smoke_plumes_from,Characterization of Industrial Smoke Plumes from Remote Sensing Data,0,2
+climate_change_ai_climate_policy_radar_s_open_knowledge,Climate Policy Radar's Open Knowledge Graph,0,2
+climate_change_ai_elucidating_the_relationship_between_climate_change,"Elucidating the Relationship Between Climate Change and Poverty using Graph Neural Networks, Ensemble Models, and Remote Sensing Data",0,2
+climate_change_ai_from_talk_to_action_with_accountability,From Talk to Action with Accountability: Monitoring the Public Discussion of Policy Makers with Deep Neural Networks and Topic Modelling,0,2
+climate_change_ai_identifying_climate_targets_in_national_laws,Identifying Climate Targets in National Laws and Policies using Machine Learning,0,2
+climate_change_ai_predicting_out_of_domain_performance_under,Predicting out-of-domain performance under geographic distribution shifts,0,2
+climate_change_ai_surrogate_modeling_based_history_matching_for,Surrogate modeling based History Matching for an Earth system model of intermediate complexity,0,2
+climate_change_ai_understanding_climate_legislation_decisions_with_machine,Understanding Climate Legislation Decisions with Machine Learning,0,2
+climate_change_ai_using_machine_learning_to_analyze_climate,USING MACHINE LEARNING TO ANALYZE CLIMATE CHANGE TECHNOLOGY TRANSFER (CCTT),0,2
+compass_2022_note_a_sociomaterial_perspective_on_trace,Note: A Sociomaterial Perspective on Trace Data Collection: Strategies for Democratizing and Limiting Bias,0,2
+cscw_2021_1_jane_jacobs_in_the_sky_predicting,Jane Jacobs in the Sky: Predicting Urban Vitality with Open Satellite Data,0,2
+cscw_2022_2_end_user_audits_a_system_empowering,End-User Audits: A System Empowering Communities to Lead Large-Scale Investigations of Harmful Algorithmic Behavior,0,2
+cscw_2023_1_evaluating_the_impact_of_human_explanation,Evaluating the Impact of Human Explanation Strategies on Human-AI Visual Decision-Making,0,2
+cscw_2024_1_seamful_xai_operationalizing_seamful_design_in,Seamful XAI: Operationalizing Seamful Design in Explainable AI,0,2
+cscw_2024_2_reimagining_meaningful_data_work_through_citizen,Reimagining Meaningful Data Work through Citizen Science,0,2
+cscw_2025_2_mind_the_gap_gender_homophily_and,"Mind the Gap: Gender, Homophily and the Glass Ceiling in Academic Networks",0,2
+ghtc_2024_determining_digital_divide_in_local_level,Determining Digital Divide in Local-Level ICT Usage for 311 Civic Applications,0,2
+khatibi_climate_adaptation_policy_awareness,"Can public awareness, knowledge and engagement improve climate change adaptation policies?",0,2
+aies_2025_part2_documenting_deployment_with_fabric_a_repository,Documenting Deployment with Fabric: A Repository of Real-World AI Governance,1,1
+climate_change_ai_climateq_a_bridging_the_gap_between,ClimateQ&A : bridging the gap between climate scientists and the general public,1,1
+goldblatt_urban_research_satellite,Utilizing publicly available satellite data for urban research: Ho Chi Minh City,1,1
+2023_eco_india_aforestation_0_23_onward_640646,"Eco India: How degraded land, unsuitable for cultivation, can become carbon sequestering-forests",0,1
+2023_optional_15_years_of_mgnrega_0_53f005,Explainer: 15 years of MGNREGA: From Crisis to Solutions,0,1
+2023_piketty_video_income_wealth_inequality_changes_0ac728,Thomas Piketty: New thoughts on capital in the twenty-first century,0,1
+aaai_23_aisi_cosmos_catching_out_of_context_image,COSMOS: Catching Out-of-Context Image Misuse Using Self-Supervised Learning,0,1
+aaai_23_aisi_deep_learning_on_a_healthy_data,Deep Learning on a Healthy Data Diet: Finding Important Examples for Fairness,0,1
+aaai_25_aisi_dust_mamba_an_efficient_dust_storm,Dust-Mamba: An Efficient Dust Storm Detection Network with Multiple Data Sources,0,1
+aies_2025_part1_accountability_capture_how_record_keeping_to,Accountability Capture: How Record-Keeping to Support AI Transparency and Accountability (Re)shapes Algorithmic Oversight,0,1
+aies_2025_part2_who_pays_the_rent_implications_of,Who Pays the RENT? Implications of Spatial Inequality for Prediction-Based Allocation Policies,0,1
+aies_2025_part3_same_stereotypes_different_term_understanding_the,"Same Stereotypes, Different Term? Understanding the “Global South” in AI Ethics",0,1
+aseth_publications_gram_vaani_asr_challenge_on_spontaneous,Gram Vaani ASR Challenge on Spontaneous Telephone Speech Recordings in Regional Variations of Hindi,0,1
+climate_change_ai_a_nlp_based_analysis_of_alignment,A NLP-based Analysis of Alignment of Organizations' Climate-Related Risk Disclosures with Material Risks and Metrics,0,1
+climate_change_ai_advancing_multimodal_fact_checking_against_climate,Advancing Multimodal Fact-Checking Against Climate Misinformation: A Benchmark Dataset and Comparison of Lightweight Models,0,1
+climate_change_ai_alberta_wells_dataset_pinpointing_oil_and,Alberta Wells Dataset: Pinpointing Oil and Gas Wells from Satellite Imagery,0,1
+climate_change_ai_analyzing_sustainability_reports_using_natural_language,Analyzing Sustainability Reports Using Natural Language Processing,0,1
+climate_change_ai_automated_identification_of_oil_field_features,Automated Identification of Oil Field Features using CNNs,0,1
+climate_change_ai_can_we_reliably_improve_the_robustness,Can We Reliably Improve the Robustness to Image Acquisition of Remote Sensing of PV Systems?,0,1
+climate_change_ai_causal_disaster_system_modeling_and_inference,Causal Disaster System Modeling and Inference with Multi-resolution Score-Based Variational Graphical Diffusion,0,1
+climate_change_ai_climate_policy_tracker_pipeline_for_automated,Climate Policy Tracker: Pipeline for automated analysis of public climate policies,0,1
+climate_change_ai_climate_sensitive_urban_planning_through_optimization,Climate-sensitive Urban Planning through Optimization of Tree Placements,0,1
+climate_change_ai_climatebert_a_pretrained_language_model_for,ClimateBert: A Pretrained Language Model for Climate-Related Text,0,1
+climate_change_ai_climatex_do_llms_accurately_assess_human,ClimateX: Do LLMs Accurately Assess Human Expert Confidence in Climate Statements?,0,1
+climate_change_ai_comparing_the_carbon_costs_and_benefits,Comparing the carbon costs and benefits of low-resource solar nowcasting,0,1
+climate_change_ai_deep_learning_network_to_project_future,Deep learning network to project future Arctic ocean waves,0,1
+climate_change_ai_detection_of_meteorological_variables_in_a,DETECTION OF METEOROLOGICAL VARIABLES IN A WIND FARM INFLUENCING THE EXTREME WIND SPEED BY HETEROGENEOUS GRANGER CAUSALITY,0,1
+climate_change_ai_ecoeval_a_benchmark_for_evaluating_large,"EcoEval: A Benchmark for Evaluating Large Language Model Handling of Climate Change Misinformation, False Beliefs, and Climate Policy Sentiment",0,1
+climate_change_ai_employing_deep_learning_to_quantify_power,Employing Deep Learning to Quantify Power Plant Greenhouse Gas Emissions via Remote Sensing Data,0,1
+climate_change_ai_forecasting_regional_pv_power_in_great,Forecasting regional PV power in Great Britain with a multi-modal late fusion network,0,1
+climate_change_ai_helping_mitigate_climate_change_through_efficient,Helping mitigate climate change through efficient reinforcement learning-based wind farm flow control,0,1
+climate_change_ai_identify_solar_panels_in_low_resolution,Identify Solar Panels in Low Resolution Satellite Imagery with Siamese Architecture and Cross-Correlation,0,1
+climate_change_ai_improving_power_plant_co2_emission_estimation,Improving Power Plant CO2 Emission Estimation with Deep Learning and Satellite/Simulated Data,0,1
+climate_change_ai_in_n_out_pre_training_and,In-N-Out: Pre-Training and Self-Training using Auxiliary Information for Out-of-Distribution Robustness,0,1
+climate_change_ai_leveraging_domain_adaptation_for_low_resource,Leveraging Domain Adaptation for Low-Resource Geospatial Machine Learning,0,1
+climate_change_ai_machine_learning_and_bayesian_method_for,Machine Learning and Bayesian Method For Monitoring and Forecasting Jayawijaya’s Tropical Glacier Change,0,1
+climate_change_ai_methane_plume_detection_with_u_net,Methane Plume Detection with U-Net Segmentation on Sentinel-2 Image Data,0,1
+climate_change_ai_model_failure_or_data_corruption_exploring,Model Failure or Data Corruption? Exploring Inconsistencies in Building Energy Ratings with Self-Supervised Contrastive Learning,0,1
+climate_change_ai_multitask_learning_for_estimating_power_plant,Multitask Learning for Estimating Power Plant Greenhouse Gas Emissions from Satellite Imagery,0,1
+climate_change_ai_physics_constrained_deep_recurrent_neural_models,Physics-constrained Deep Recurrent Neural Models of Building Thermal Dynamics,0,1
+climate_change_ai_predicting_co2_plume_migration_using_deep,Predicting CO2 Plume Migration using Deep Neural Networks,0,1
+climate_change_ai_quantifying_climate_policy_action_and_its,Quantifying Climate Policy Action and Its Links to Development Outcomes: A Cross-National Data-Driven Analysis,0,1
+climate_change_ai_reinforcement_learning_in_agent_based_modeling,Reinforcement Learning in agent-based modeling to reduce carbon emissions in transportation,0,1
+climate_change_ai_seg_the_hab_language_guided_geospatial,Seg the HAB: Language-Guided Geospatial Algae Bloom Reasoning and Segmentation,0,1
+climate_change_ai_solar_pv_maps_for_estimation_and,Solar PV Maps for Estimation and Forecasting of Distributed Solar Generation,0,1
+climate_change_ai_targeting_buildings_for_energy_retrofit_using,Targeting Buildings for Energy Retrofit Using Recurrent Neural Networks with Multivariate Time Series,0,1
+climate_change_ai_towards_a_climate_counterfactual_autoencoder,Towards a Climate Counterfactual Autoencoder,0,1
+climate_change_ai_towards_clean_cycle_learning_energy_emission,Towards CLEAN: Cycle Learning Energy-Emission Assessment Network,0,1
+climate_change_ai_urban_heat_island_detection_and_causal,Urban Heat Island Detection and Causal Inference Using Convolutional Neural Networks,0,1
+climate_change_ai_using_natural_language_processing_for_automating,Using Natural Language Processing for Automating the Identification of Climate Action Interlinkages within the Sustainable Development Goals,0,1
+climate_change_ai_using_uncertainty_aware_machine_learning_models,Using uncertainty-aware machine learning models to study aerosol-cloud interactions,0,1
+climate_change_ai_vconstruct_filling_gaps_in_chl_a,VConstruct: Filling Gaps in Chl-a Data Using a Variational Autoencoder,0,1
+cscw_2022_1_towards_sustainable_ictd_in_bangladesh_understanding,Towards Sustainable ICTD in Bangladesh: Understanding the Program and Policy Landscape and Its Implications for CSCW and HCI,0,1
+cscw_2022_2_documenting_data_production_processes_a_participatory,Documenting Data Production Processes: A Participatory Approach for Data Work,0,1
+cscw_2023_1_mediated_social_support_for_distress_reduction,Mediated Social Support for Distress Reduction: AI Chatbots vs. Human,0,1
+cscw_2024_2_human_centered_nlp_fact_checking_co,Human-centered NLP Fact-checking: Co-Designing with Fact-checkers using Matchmaking for AI,0,1
+cscw_2024_2_nlpguard_a_framework_for_mitigating_the,NLPGuard: A Framework for Mitigating the Use of Protected Attributes by NLP Classifiers,0,1
+cscw_2024_2_transformer_based_quantification_of_the_echo,Transformer-Based Quantification of the Echo Chamber Effect in Online Communities,0,1
+cscw_2025_1_lata_a_pilot_study_on_llm,LATA: A Pilot Study on LLM-Assisted Thematic Analysis of Online Social Network Data Generation Experiences,0,1
+cscw_2025_1_the_development_of_a_new_measure,The Development of a New Measure of Collective Digital Literacy,0,1
+cscw_2025_1_using_off_the_shelf_harmful_content,Using Off-the-Shelf Harmful Content Detection Models: Best Practices for Model Reuse,0,1
+cscw_2025_2_learning_ai_auditing_a_case_study,Learning AI Auditing: A Case Study of Teenagers Auditing a Generative AI Model,0,1
+ijcai25_decaste_caste_bias_llms,DECASTE: Unveiling Caste Stereotypes in Large Language Models Through Multi-Dimensional Bias Analysis,0,1
+ijcai_2023_disentangling_societal_inequality_from_model_biases,Disentangling Societal Inequality from Model Biases: Gender Inequality in Divorce Court Proceedings,0,1
+ijcai_2024_a_survival_guide_for_iranian_women,A Survival Guide for Iranian Women Prescribed by Iranian Women: Participatory AI to Investigate Intimate Partner Physical Violence in Iran,0,1
+jcss_2025_an_algorithmic_audit_of_online_matrimonial,An Algorithmic Audit of Online Matrimonial Platforms in India: Biases in Matchmaking Recommendation Systems,0,1
+kdd_2024_causal_machine_learning_for_cost_effective,Causal Machine Learning for Cost-Effective Allocation of Development Aid,0,1

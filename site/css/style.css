@@ -201,6 +201,12 @@ main {
   cursor: pointer;
 }
 
+.examples-filter__label--sep {
+  margin-left: 0.5rem;
+  padding-left: 1.25rem;
+  border-left: 1px solid var(--color-border);
+}
+
 .examples-empty {
   color: var(--color-text-muted);
   font-style: italic;
@@ -461,6 +467,125 @@ main {
 
 .topic-column--background {
   background: #faf8f3;
+}
+
+.topic-column--area-agnostic {
+  background: #f3f8f4;
+  border-color: #c8dcc8;
+}
+
+.topic-column__note {
+  font-family: var(--font-ui);
+  font-size: 0.82rem;
+  color: var(--color-muted);
+  margin: 0 0 0.75rem;
+  line-height: 1.45;
+}
+
+.reading-card--area-agnostic {
+  border-left: 3px solid #2d6a4f;
+}
+
+.badge--score {
+  background: #e8f5e9;
+  color: #1b5e20;
+}
+
+.badge--topic {
+  background: #eef2ff;
+  color: #3730a3;
+}
+
+.area-agnostic-section {
+  margin-bottom: 3rem;
+}
+
+.area-agnostic-section h2 {
+  font-family: var(--font-ui);
+  font-size: 1.35rem;
+  margin-bottom: 0.35rem;
+}
+
+.section-note {
+  color: var(--color-muted);
+  font-size: 0.95rem;
+  margin-bottom: 1.25rem;
+}
+
+.topic-vector-block {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 1.25rem;
+}
+
+.topic-vector-block h2 {
+  font-family: var(--font-ui);
+  font-size: 1.1rem;
+  margin: 0 0 0.75rem;
+}
+
+.topic-vector-block__description {
+  font-size: 0.95rem;
+  color: var(--color-muted);
+  margin-bottom: 1rem;
+}
+
+.topic-vector-block__readings {
+  margin: 0;
+  padding-left: 1.25rem;
+}
+
+.topic-vector-block__readings li {
+  margin-bottom: 0.45rem;
+}
+
+.topic-vector-block__readings .reading-id {
+  font-family: ui-monospace, monospace;
+  font-size: 0.78rem;
+  color: var(--color-muted);
+}
+
+.topic-vector-block__count {
+  font-family: var(--font-ui);
+  font-size: 0.82rem;
+  color: var(--color-muted);
+  margin: 0.75rem 0 0;
+}
+
+.mapping-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: var(--font-ui);
+  font-size: 0.9rem;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+}
+
+.mapping-table th,
+.mapping-table td {
+  border: 1px solid var(--color-border);
+  padding: 0.55rem 0.65rem;
+  text-align: left;
+  vertical-align: top;
+}
+
+.mapping-table th {
+  background: #f4f4f4;
+  font-weight: 600;
+}
+
+.mapping-table__num {
+  text-align: right;
+  white-space: nowrap;
+}
+
+.mapping-table__summary {
+  font-family: var(--font-ui);
+  font-size: 0.9rem;
+  color: var(--color-muted);
+  margin-top: 0.75rem;
 }
 
 .background-concept {
