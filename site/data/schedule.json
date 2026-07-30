@@ -1,0 +1,32 @@
+{
+  "sessions": [
+    {
+      "date": "July 27, 2026",
+      "title": "Introduction",
+      "description": "Outline of the course structure and examples"
+    },
+    {
+      "date": "July 30, 2027",
+      "title": "Case study of Commons Connect",
+      "description": "Illustration through the Commons Connect journey of problem discovery, computing elements, ethnographic design, socio-technical dynamics, impact evaluation, and scaling and operations",
+      "links": [
+        {
+          "type": "external",
+          "url": "https://docs.google.com/document/d/1MCq47Lpdru-Dm24C9lc7MBDfMrCt2XQbUxTxiP1c_FI/edit?tab=t.0",
+          "title": "Field visits for problem discovery",
+          "date": "2022 onward"
+        },
+        {
+          "type": "reading",
+          "reading_id": "ictd_2024_initial_observations_from_field_testing_of"
+        },
+        {
+          "type": "content",
+          "path": "content/aseth - commons connect.pdf",
+          "title": "Relating phases of Commons Connect development with problem discovery, computing elements, ethnographic design, socio-technical dynamics, impact evaluation, and scaling and operations",
+          "date": "July 2026"
+        }
+      ]
+    }
+  ]
+}

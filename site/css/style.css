@@ -425,6 +425,71 @@ main {
   padding: 4rem 1rem;
 }
 
+.schedule-session {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.schedule-session__date {
+  font-family: var(--font-ui);
+  font-size: 0.9rem;
+  color: var(--color-muted);
+  margin: 0 0 0.35rem;
+}
+
+.schedule-session__title {
+  font-family: var(--font-ui);
+  font-size: 1.35rem;
+  margin: 0;
+  color: var(--color-accent);
+}
+
+.schedule-session__description {
+  margin: 0.85rem 0 0;
+}
+
+.schedule-session__links-heading {
+  font-family: var(--font-ui);
+  font-size: 1rem;
+  margin: 1.25rem 0 0.65rem;
+}
+
+.schedule-session__links {
+  margin: 0;
+  padding-left: 1.25rem;
+}
+
+.schedule-link {
+  margin-bottom: 0.65rem;
+}
+
+.schedule-link__type {
+  font-family: var(--font-ui);
+  font-size: 0.75rem;
+  font-weight: 650;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: var(--color-muted);
+  margin-right: 0.35rem;
+}
+
+.schedule-link__meta {
+  display: block;
+  font-family: var(--font-ui);
+  font-size: 0.85rem;
+  color: var(--color-muted);
+  margin-top: 0.15rem;
+}
+
+.schedule-link__missing {
+  color: #9b2226;
+  font-size: 0.85rem;
+  margin-left: 0.35rem;
+}
+
 .placeholder-page h1 {
   font-family: var(--font-ui);
   font-size: 1.5rem;
