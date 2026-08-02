@@ -6,7 +6,7 @@
       "description": "Outline of the course structure and examples"
     },
     {
-      "date": "July 30, 2027",
+      "date": "July 30, 2026",
       "title": "Case study of Commons Connect",
       "description": "Illustration through the Commons Connect journey of problem discovery, computing elements, ethnographic design, socio-technical dynamics, impact evaluation, and scaling and operations",
       "links": [
@@ -24,6 +24,41 @@
           "type": "content",
           "path": "content/aseth - commons connect.pdf",
           "title": "Relating phases of Commons Connect development with problem discovery, computing elements, ethnographic design, socio-technical dynamics, impact evaluation, and scaling and operations",
+          "date": "July 2026"
+        }
+      ]
+    },
+    {
+      "date": "Aug 3, 2026",
+      "title": "Theory of Change, Socio-technical dynamics, and Impact Evaluation",
+      "description": "Deeper dive into the methodology to construct a theory of change, investigate socio-technical dynamics, and plan an impact evaluation exercise.",
+      "links": [
+        {
+          "type": "content",
+          "path": "content/diva - theory of change.pdf",
+          "title": "Building a Theory of Change",
+          "author": "Diva Dhar",
+          "date": "2014"
+        },
+        {
+          "type": "external",
+          "url": "https://research.manchester.ac.uk/en/publications/materialising-equity-in-community-centric-ai-tools-the-case-again/",
+          "title": "Materialising Equity in Community-Centric AI Tools: The Case against Technocracy",
+          "authors": "Anuradha Ganapathy, Richard Heeks, and Gianluca Iazzolino",
+          "date": "July 2026",
+          "venue": "GDI Digital Development Working Papers"
+        },
+        {
+          "type": "content",
+          "path": "content/aseth - commons connect - anuradha socio-technical.pdf",
+          "title": "Using the above paper to build a general methodology for socio-technical evaluation",
+          "date": "July 2026"
+        },
+        {
+          "type": "content",
+          "path": "content/aseth - commons connect - evaluation.pdf",
+          "title": "Impact evaluation methodology",
+          "author": "Adapted from concept note by Charity Troyer Moore",
           "date": "July 2026"
         }
       ]

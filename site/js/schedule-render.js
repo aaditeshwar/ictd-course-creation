@@ -2,6 +2,22 @@
  * Renders schedule.html from schedule.json + readings.json.
  */
 
+function buildLinkMetaLine(link) {
+  const parts = [];
+  if (link.authors) {
+    parts.push(link.authors);
+  } else if (link.author) {
+    parts.push(link.author);
+  }
+  if (link.date) {
+    parts.push(link.date);
+  }
+  if (link.venue) {
+    parts.push(link.venue);
+  }
+  return parts.length ? parts.join(" — ") : null;
+}
+
 function resolveLinkMeta(link, readingsById) {
   if (link.type === "reading") {
     const reading = readingsById[link.reading_id];
@@ -25,7 +41,7 @@ function resolveLinkMeta(link, readingsById) {
     return {
       title: link.title || link.url,
       url: link.url,
-      meta: link.date || null,
+      meta: buildLinkMetaLine(link),
       missing: false,
     };
   }
@@ -35,7 +51,7 @@ function resolveLinkMeta(link, readingsById) {
     return {
       title: link.title || path.split("/").pop(),
       url: path,
-      meta: link.date || null,
+      meta: buildLinkMetaLine(link),
       missing: false,
     };
   }
