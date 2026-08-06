@@ -62,6 +62,25 @@
           "date": "July 2026"
         }
       ]
+    },
+    {
+      "date": "Aug 6, 2026",
+      "title": "Debating development",
+      "description": "What is development? How to measure it? A home constructed through community labour using local materials does not contribute to GDP but should it be considered as good for development?",
+      "links": [
+        {
+          "type": "content",
+          "path": "content/aseth - gdp calculation methodology.pdf",
+          "title": "What is GDP and how is it measured",
+          "date": "July 2026"
+        },
+        {
+          "type": "content",
+          "path": "content/aseth - beyond gdp - planetary boundaries.pdf",
+          "title": "Green GDP, planetary boundaries, and donut economics",
+          "date": "July 2026"
+        }
+      ]
     }
   ]
 }
