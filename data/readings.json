@@ -4559,6 +4559,25 @@
       "venue": "Emerald Publishing Limited (foreword by Tim Unwin, UNESCO Chair in ICT4D)"
     },
     {
+      "id": "toyama_geek_heresy",
+      "title": "Geek Heresy: Rescuing Social Change from the Cult of Technology",
+      "authors": "Toyama, K.",
+      "year": 2015,
+      "areas": [],
+      "topics": [
+        "problem_discovery",
+        "ethnographic_design",
+        "sociotechnical_dynamics"
+      ],
+      "cross_cutting_axes": [],
+      "source_course": "instructor_added_2026",
+      "notes": "This is a book. Argues that social progress depends on human and institutional change rather than technology alone; critiques digital utopianism and advocates a people-centric view of development and design.",
+      "link": "https://www.publicaffairsbooks.com/titles/kentaro-toyama/geek-heresy/9781610393970/",
+      "area_agnostic": true,
+      "venue": "PublicAffairs",
+      "abstract": "After a decade designing technologies meant to address education, health, and global poverty, award-winning computer scientist Kentaro Toyama came to a difficult conclusion: Even in an age of amazing technology, social progress depends on human changes that gadgets can't deliver. Computers in Bangalore are locked away in dusty cabinets because teachers don't know what to do with them. Mobile phone apps meant to spread hygiene practices in Africa fail to improve health. Executives in Silicon Valley evangelize novel technologies at work even as they send their children to Waldorf schools that ban electronics. And four decades of incredible innovation in America have done nothing to turn the tide of rising poverty and inequality. Why then do we keep hoping that technology will solve our greatest social ills? In this incisive book, Toyama cures us of the manic rhetoric of digital utopians and reinvigorates us with a deeply people-centric view of social change. Contrasting the outlandish claims of tech zealots with stories of people like Patrick Awuah, a Microsoft millionaire who left his engineering job to open Ghana's first liberal arts university, and Tara Sreenivasa, a graduate of a remarkable South Indian school that takes impoverished children into the high-tech offices of Goldman Sachs and Mercedes-Benz, Geek Heresy is a heartwarming reminder that it's human wisdom, not machines, that move our world forward."
+    },
+    {
       "id": "ijcai25_shield_silicosis",
       "title": "SHIELD: A Self-supervised, Silicosis-focused Hierarchical Imaging Framework for Occupational Lung Disease Diagnosis",
       "authors": "Akhter, Yasmeena; Ranjan, Rishabh; Singh, Richa; Vatsa, Mayank",
