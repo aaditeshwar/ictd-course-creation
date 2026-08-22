@@ -490,6 +490,71 @@ main {
   margin-left: 0.35rem;
 }
 
+.student-project {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.student-project__title {
+  font-family: var(--font-ui);
+  font-size: 1.35rem;
+  margin: 0;
+  color: var(--color-accent);
+}
+
+.student-project__students {
+  font-family: var(--font-ui);
+  font-size: 0.95rem;
+  color: var(--color-text);
+  margin: 0.45rem 0 0;
+}
+
+.student-project__case-study {
+  font-family: var(--font-ui);
+  font-size: 0.85rem;
+  color: var(--color-muted);
+  margin: 0.55rem 0 0;
+}
+
+.student-project__case-study code {
+  font-family: ui-monospace, monospace;
+  font-size: 0.78rem;
+  color: var(--color-text);
+}
+
+.student-project__label {
+  font-weight: 650;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  font-size: 0.72rem;
+}
+
+.student-project__description {
+  margin: 0.85rem 0 0;
+  white-space: pre-wrap;
+}
+
+.student-project__attachment-heading {
+  font-family: var(--font-ui);
+  font-size: 1rem;
+  margin: 1.25rem 0 0.5rem;
+}
+
+.student-project__attachment {
+  font-family: var(--font-ui);
+  font-size: 0.95rem;
+}
+
+.student-project__attachment-missing {
+  font-family: var(--font-ui);
+  font-size: 0.9rem;
+  color: var(--color-muted);
+  margin: 0;
+}
+
 .placeholder-page h1 {
   font-family: var(--font-ui);
   font-size: 1.5rem;
