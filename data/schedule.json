@@ -81,6 +81,25 @@
           "date": "July 2026"
         }
       ]
+    },
+    {
+      "date": "Aug 27, 2026",
+      "title": "Understanding inequality, and Lenses to keep in mind for ICTD projects",
+      "description": "Introduction to writings of Ostrom, Schumacher, Unwin, Freire, Rawls, Sen, Young, and Seth, on how technologists should view their role and ideals, to reduce inequality in the world.",
+      "links": [
+        {
+          "type": "content",
+          "path": "content/aseth - inequality.pdf",
+          "title": "Understanding and measuring inequality",
+          "date": "Aug 2026"
+        },
+        {
+          "type": "content",
+          "path": "content/aseth - lens for ictd projects.pdf",
+          "title": "Lenses to keep in mind for ICTD projects",
+          "date": "Aug 2026"
+        }
+      ]
     }
   ]
 }

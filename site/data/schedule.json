@@ -81,6 +81,25 @@
           "date": "July 2026"
         }
       ]
+    },
+    {
+      "date": "Aug 24, 2026",
+      "title": "Lenses to keep in mind for ICTD projects",
+      "description": "Introduction to writings of Ostrom, Schumacher, Unwin, Freire, Rawls, Sen, Young, and Seth, on how technologists should view their role and ideals.",
+      "links": [
+        {
+          "type": "content",
+          "path": "content/aseth - inequality.pdf",
+          "title": "Inequality",
+          "date": "Aug 2026"
+        },
+        {
+          "type": "content",
+          "path": "content/aseth - lens for ictd projects.pdf",
+          "title": "Lenses to keep in mind for ICTD projects",
+          "date": "Aug 2026"
+        }
+      ]
     }
   ]
 }
