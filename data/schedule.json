@@ -100,6 +100,54 @@
           "date": "Aug 2026"
         }
       ]
+    },
+    {
+      "date": "Sept 7, 2026",
+      "title": "Guest lecture by Bill Thies (Everwell) on incubating and growing a public health social enterprise",
+      "links": [
+        {
+          "type": "external",
+          "url": "https://billthies.net/",
+          "title": "Bill Thies — Co-Founder and Chair, Everwell",
+          "author": "Bill Thies"
+        }
+      ]
+    },
+    {
+      "date": "Sept 10, 2026",
+      "title": "Guest lecture by Anjali P (IISc Bangalore) on agent-based modeling to predict elephant movement",
+      "links": [
+        {
+          "type": "external",
+          "url": "https://anjalisadanandan.github.io/#about",
+          "title": "Anjali Purathekandy — IISc Bangalore",
+          "author": "Anjali P"
+        }
+      ]
+    },
+    {
+      "date": "Sept 24, 2026",
+      "title": "Guest lecture by Shreya Thakur (Wadhwani AI) on conceptualizing, designing, and deploying AI for social good solutions",
+      "links": [
+        {
+          "type": "external",
+          "url": "https://www.wadhwaniai.org/",
+          "title": "Wadhwani AI",
+          "author": "Shreya Thakur"
+        }
+      ]
+    },
+    {
+      "date": "Oct 5, 2026",
+      "title": "Introduction to the mechanics of climate change",
+      "links": [
+        {
+          "type": "content",
+          "path": "content/aseth - climate change over the indian region - v2.pdf",
+          "title": "Climate change over the Indian region",
+          "date": "Oct 2026"
+        }
+      ]
     }
   ]
 }
