@@ -183,14 +183,20 @@
     },
     {
       "date": "Oct 26, 2026",
-      "title": "Guest lecture by Vivek Seshadri (Karya): Genesis of Karya and ongoing research and impact; paper readings",
+      "title": "Guest lecture by Vivek Seshadri (Karya): Genesis of Karya and ongoing research and impact",
       "links": [
         {
           "type": "external",
           "url": "https://www.karya.in/",
           "title": "Karya",
           "author": "Vivek Seshadri"
-        },
+        }
+      ]
+    },
+    {
+      "date": "Oct 26, 2026",
+      "title": "Paper readings",
+      "links": [
         {
           "type": "external",
           "url": "https://doi.org/10.1016/j.deveng.2021.100090",
