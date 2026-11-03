@@ -148,6 +148,142 @@
           "date": "Oct 2026"
         }
       ]
+    },
+    {
+      "date": "Oct 12, 2026",
+      "title": "Paper readings",
+      "links": [
+        {
+          "type": "external",
+          "url": "https://doi.org/10.1007/s10021-019-00415-4",
+          "title": "Social-Ecological Functional Types: Connecting People and Ecosystems in the Argentine Chaco"
+        },
+        {
+          "type": "external",
+          "url": "https://www.usenix.org/system/files/conference/atc15/atc15-paper-netravali.pdf",
+          "title": "Mahimahi: Accurate Record-and-Replay for HTTP"
+        }
+      ]
+    },
+    {
+      "date": "Oct 15, 2026",
+      "title": "Paper readings",
+      "links": [
+        {
+          "type": "external",
+          "url": "https://doi.org/10.1109/ICSE55347.2025.00007",
+          "title": "Prompt-to-SQL Injections in LLM-Integrated Web Applications: Risks and Defenses"
+        },
+        {
+          "type": "external",
+          "url": "https://www.sciencedirect.com/science/article/pii/S2666033424000182",
+          "title": "Landslide susceptibility evaluation in the Beas River Basin of North-Western Himalaya: A geospatial analysis employing the Analytical Hierarchy Process (AHP) method"
+        }
+      ]
+    },
+    {
+      "date": "Oct 26, 2026",
+      "title": "Guest lecture by Vivek Seshadri (Karya): Genesis of Karya and ongoing research and impact; paper readings",
+      "links": [
+        {
+          "type": "external",
+          "url": "https://www.karya.in/",
+          "title": "Karya",
+          "author": "Vivek Seshadri"
+        },
+        {
+          "type": "external",
+          "url": "https://doi.org/10.1016/j.deveng.2021.100090",
+          "title": "Data-powered positive deviance: Combining traditional and non-traditional data to identify and characterise development-related outperformers"
+        },
+        {
+          "type": "external",
+          "url": "https://doi.org/10.1029/2009WR008572",
+          "title": "An improved time series approach for estimating groundwater recharge from groundwater level fluctuations"
+        },
+        {
+          "type": "content",
+          "path": "content/Groundwater Behaviour Workflows.html",
+          "title": "Groundwater behaviour workflows (companion artifact)",
+          "date": "Oct 2026"
+        }
+      ]
+    },
+    {
+      "date": "Oct 29, 2026",
+      "title": "Paper readings",
+      "links": [
+        {
+          "type": "external",
+          "url": "https://arxiv.org/abs/2006.11477",
+          "title": "wav2vec 2.0: A Framework for Self-Supervised Learning of Speech Representations"
+        },
+        {
+          "type": "content",
+          "path": "content/aseth - wav2vec 2.0, Frame by Frame.html",
+          "title": "wav2vec 2.0, frame by frame (companion artifact)",
+          "date": "Oct 2026"
+        },
+        {
+          "type": "external",
+          "url": "https://doi.org/10.1093/pnasnexus/pgae378",
+          "title": "Groundwater sustainability in India through nonrice-dominated cropping pattern"
+        }
+      ]
+    },
+    {
+      "date": "Nov 2, 2026",
+      "title": "Paper readings",
+      "links": [
+        {
+          "type": "external",
+          "url": "https://doi.org/10.48550/arXiv.2412.02732",
+          "title": "Prithvi-EO-2.0: A Versatile Multi-Temporal Foundation Model for Earth Observation Applications"
+        },
+        {
+          "type": "content",
+          "path": "content/aseth - prithvi - pre-training and fine-tuning.html",
+          "title": "Prithvi: pre-training and fine-tuning (companion artifact)",
+          "date": "Nov 2026"
+        },
+        {
+          "type": "external",
+          "url": "https://doi.org/10.1007/s12040-019-1277-4",
+          "title": "Susceptibility assessment of rainfall induced debris flow zones in Ladakh–Nubra region, Indian Himalaya"
+        }
+      ]
+    },
+    {
+      "date": "Nov 5, 2026",
+      "title": "Paper readings",
+      "links": [
+        {
+          "type": "external",
+          "url": "https://doi.org/10.1007/s41324-025-00648-7",
+          "title": "Field-validated apple orchard land suitability mapping in Kashmir Valley using AHP-GIS and high-resolution satellite data"
+        },
+        {
+          "type": "external",
+          "url": "https://www.math.unm.edu/~lil/Stat581/STL.pdf",
+          "title": "STL: A Seasonal-Trend Decomposition Procedure Based on Loess"
+        }
+      ]
+    },
+    {
+      "date": "Nov 16, 2026",
+      "title": "Paper readings",
+      "links": [
+        {
+          "type": "external",
+          "url": "https://arxiv.org/abs/2106.09685",
+          "title": "LoRA: Low-Rank Adaptation of Large Language Models"
+        },
+        {
+          "type": "external",
+          "url": "https://doi.org/10.1126/science.1244693",
+          "title": "High-Resolution Global Maps of 21st-Century Forest Cover Change"
+        }
+      ]
     }
   ]
 }

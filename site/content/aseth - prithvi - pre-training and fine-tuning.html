@@ -1,0 +1,945 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>Prithvi-EO-2.0, Patch by Patch</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bitter:wght@500;600;700&family=Public+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: a single reading column; one synthetic HLS scene is followed through pre-training, then a decision tree routes to five task playgrounds. */
+:root{
+  --bg:#F2F5F6; --surface:#FFFFFF; --ink:#111A22; --muted:#55626E; --line:#D3DBE1;
+  --accent:#1F57A8; --accent-soft:#E3ECF8; --ochre:#B4610F; --ochre-soft:#FBEEDD; --green:#24784F; --green-soft:#DFF2E7; --red:#B03A3A; --red-soft:#F8E3E3;
+  --f-display:"Bitter", Georgia, "Times New Roman", serif;
+  --f-body:"Public Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --f-mono:"IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){
+  --bg:#0D1419; --surface:#152028; --ink:#E4EBF0; --muted:#9AA9B5; --line:#283844;
+  --accent:#7FAEF0; --accent-soft:#1A2E47; --ochre:#F0A552; --ochre-soft:#3A2A16; --green:#5FCB94; --green-soft:#16322A; --red:#F08A8A; --red-soft:#3A1E1E; color-scheme:dark }}
+:root[data-theme="dark"]{
+  --bg:#0D1419; --surface:#152028; --ink:#E4EBF0; --muted:#9AA9B5; --line:#283844;
+  --accent:#7FAEF0; --accent-soft:#1A2E47; --ochre:#F0A552; --ochre-soft:#3A2A16; --green:#5FCB94; --green-soft:#16322A; --red:#F08A8A; --red-soft:#3A1E1E; color-scheme:dark }
+
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:16px;line-height:1.6}
+.wrap{max-width:1080px;margin:0 auto;padding-block:32px 80px;padding-left:max(16px, env(safe-area-inset-left, 0px));padding-right:max(16px, env(safe-area-inset-right, 0px));display:flex;flex-direction:column;gap:48px}
+h1,h2,h3,h4{font-family:var(--f-display);text-wrap:balance;margin:0;line-height:1.2}
+h1{font-size:2.4rem;font-weight:700}
+h2{font-size:1.65rem;font-weight:600}
+h3{font-size:1.2rem;font-weight:600}
+h4{font-size:1rem;font-weight:600}
+p{margin:0;max-width:70ch}
+ul{margin:0;padding-left:20px;display:flex;flex-direction:column;gap:6px;max-width:72ch}
+code,.mono{font-family:var(--f-mono);font-size:.86em}
+.muted{color:var(--muted)}
+.eyebrow{font-size:.74rem;letter-spacing:.1em;text-transform:uppercase;font-weight:600;color:var(--muted)}
+.hero{display:flex;flex-direction:column;gap:14px}
+.facts{display:flex;flex-wrap:wrap;gap:6px 18px;font-size:.92rem;color:var(--muted)}
+.facts b{color:var(--ink);font-variant-numeric:tabular-nums}
+nav.toc{display:flex;flex-wrap:wrap;gap:8px}
+nav.toc a{font-size:.88rem;color:var(--accent);text-decoration:none;border:1px solid var(--line);background:var(--surface);padding:5px 12px;border-radius:999px}
+nav.toc a:hover,nav.toc a:focus-visible{border-color:var(--accent);outline:none}
+.part{display:flex;flex-direction:column;gap:28px}
+.part-head{display:flex;flex-direction:column;gap:8px;padding-top:18px;border-top:3px solid var(--ink)}
+.stage{display:flex;flex-direction:column;gap:12px}
+.stage-head{display:flex;gap:12px;align-items:baseline;flex-wrap:wrap}
+.step{font-family:var(--f-mono);font-size:.85rem;color:var(--accent)}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:16px;display:flex;flex-direction:column;gap:14px;min-width:0}
+.row{display:flex;flex-wrap:wrap;gap:10px 14px;align-items:center}
+.cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:18px}
+.cols > *{min-width:0}
+.label{font-size:.78rem;font-weight:600;color:var(--muted);letter-spacing:.03em}
+.note{font-size:.86rem;color:var(--muted);border-left:3px solid var(--line);padding-left:10px;max-width:76ch}
+.callout{font-size:.92rem;background:var(--accent-soft);border-radius:8px;padding:10px 14px;max-width:none}
+.btn{font:inherit;font-size:.88rem;font-weight:500;border:1px solid var(--line);background:var(--surface);color:var(--ink);padding:6px 12px;border-radius:6px;cursor:pointer}
+.btn:hover{border-color:var(--accent)}
+.seg{display:inline-flex;flex-wrap:wrap;border:1px solid var(--line);border-radius:6px;overflow:hidden}
+.seg button{font:inherit;font-size:.85rem;border:0;border-right:1px solid var(--line);background:var(--surface);color:var(--ink);padding:6px 11px;cursor:pointer}
+.seg button:last-child{border-right:0}
+.seg button[aria-pressed="true"]{background:var(--accent);color:var(--surface)}
+.btn:focus-visible,.seg button:focus-visible,input:focus-visible,select:focus-visible,canvas:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.ctl{display:flex;flex-direction:column;gap:2px;font-size:.85rem;min-width:160px;flex:1 1 180px}
+.ctl output{font-family:var(--f-mono);font-size:.8rem;color:var(--accent)}
+input[type=range]{accent-color:var(--accent);width:100%}
+select,input[type=number]{font:inherit;font-size:.88rem;background:var(--surface);color:var(--ink);border:1px solid var(--line);border-radius:6px;padding:5px 8px}
+input[type=number]{width:96px}
+canvas{display:block;max-width:100%;height:auto;image-rendering:pixelated;border-radius:6px;background:var(--bg)}
+canvas.click{cursor:crosshair}
+.scenebox{display:flex;flex-direction:column;gap:6px;align-items:flex-start}
+.quad{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px}
+.quad figure{margin:0;display:flex;flex-direction:column;gap:4px;min-width:0}
+.quad figcaption{font-size:.78rem;color:var(--muted);text-align:center}
+@media (max-width:640px){ .quad{grid-template-columns:repeat(2,minmax(0,1fr))} h1{font-size:1.9rem} }
+.stat{display:flex;flex-wrap:wrap;gap:6px 20px;font-size:.9rem}
+.stat b{font-family:var(--f-mono);font-weight:500;color:var(--accent)}
+.bars{display:flex;flex-direction:column;gap:5px;font-size:.84rem}
+.bar{display:grid;grid-template-columns:minmax(110px,190px) 1fr 64px;gap:8px;align-items:center}
+.bar .track{position:relative;height:14px;background:var(--bg);border-radius:3px;border:1px solid var(--line);overflow:hidden}
+.bar .fill{position:absolute;inset:0 auto 0 0;background:var(--accent)}
+.bar .ref{position:absolute;top:-2px;bottom:-2px;width:2px;background:var(--ochre)}
+.bar .val{font-family:var(--f-mono);font-size:.78rem;text-align:right;font-variant-numeric:tabular-nums}
+.bar.hl .fill{background:var(--green)}
+.bar.hl .name{font-weight:600}
+.bar.base .fill{background:var(--muted)}
+.swatch{display:inline-block;width:11px;height:11px;border-radius:3px;vertical-align:-1px;margin-right:5px}
+.legend{display:flex;flex-wrap:wrap;gap:4px 14px;font-size:.8rem;color:var(--muted)}
+.scroll{overflow-x:auto}
+table{border-collapse:collapse;width:100%;font-size:.86rem;font-variant-numeric:tabular-nums}
+th,td{padding:6px 8px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+thead th{font-size:.72rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);font-weight:600}
+td.num,th.num{text-align:right;white-space:nowrap}
+tr.bad td{color:var(--red)}
+.strip{display:block;width:100%;height:auto}
+.tree{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:10px}
+.leaf{border:1px solid var(--line);border-radius:8px;padding:12px;display:flex;flex-direction:column;gap:6px;background:var(--bg);font-size:.88rem;min-width:0}
+.leaf.on{border-color:var(--green);background:var(--green-soft)}
+.leaf .tag{font-family:var(--f-mono);font-size:.74rem;color:var(--muted)}
+.leaf.on .tag{color:var(--green)}
+.q{display:flex;flex-direction:column;gap:6px}
+.q .label{font-size:.85rem;color:var(--ink)}
+.rec{border:2px solid var(--green);border-radius:10px;padding:14px 16px;display:flex;flex-direction:column;gap:10px;background:var(--surface)}
+.rec dl{margin:0;display:grid;grid-template-columns:minmax(120px,170px) 1fr;gap:6px 14px;font-size:.9rem}
+.rec dt{font-weight:600;color:var(--muted)}
+.rec dd{margin:0;min-width:0}
+.pc{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px}
+.pc > div{min-width:0;display:flex;flex-direction:column;gap:8px}
+.pc h3{display:flex;align-items:center;gap:8px}
+.pill{font-size:.72rem;font-weight:600;padding:2px 8px;border-radius:999px}
+.pill.pro{background:var(--green-soft);color:var(--green)}
+.pill.con{background:var(--red-soft);color:var(--red)}
+.mtx{display:flex;flex-wrap:wrap;gap:10px;align-items:center;font-family:var(--f-mono);font-size:.9rem}
+.mtx figure{margin:0;display:flex;flex-direction:column;gap:4px;align-items:center}
+.mtx figcaption{font-size:.74rem;color:var(--muted)}
+.foot{font-size:.84rem;color:var(--muted);display:flex;flex-direction:column;gap:6px;border-top:1px solid var(--line);padding-top:16px}
+.foot a{color:var(--accent)}
+</style>
+
+<div class="wrap">
+<header class="hero">
+  <span class="eyebrow">Szwarcman, Roy, Fraccaro et al. · <a href="https://doi.org/10.48550/arXiv.2412.02732" style="color:var(--accent)">arXiv 2412.02732</a> · worked example</span>
+  <h1>Prithvi-EO-2.0, patch by patch</h1>
+  <p>A guided, interactive tour of the NASA–IBM geospatial foundation model. Part 1 follows one synthetic satellite scene through pre-training. Part 2 covers fine-tuning: how to adapt the encoder, how inputs and outputs are shaped, a decision tree to the right recipe, a playground for each kind of task the paper tested, and the strengths and weaknesses its experiments revealed.</p>
+  <div class="facts"><span><b>4.2 M</b> HLS time-series samples</span><span><b>6</b> bands</span><span><b>30 m</b> pixels</span><span><b>4</b> dates per sample</span><span><b>300 M / 600 M</b> parameters</span></div>
+  <nav class="toc" aria-label="Sections">
+    <a href="#part-pre">1 · Pre-training</a><a href="#part-ft">2 · Fine-tuning</a><a href="#m-shapes">Sizes and shapes</a><a href="#tree">Decision tree</a><a href="#procon">Strengths and weaknesses</a>
+  </nav>
+</header>
+
+<!-- ================= PART 1 ================= -->
+<section class="part" id="part-pre">
+  <div class="part-head"><span class="eyebrow">Part 1</span><h2>Pre-training: a masked autoencoder on satellite time series</h2>
+  <p>The running example is a synthetic 224 × 224 pixel HLS scene (6.7 km on a side) seen on four dates: a river with a lake, a town, a forest, and fields of a summer crop, a winter crop and pasture. The river floods in August and a cloud sits over the town in February. Everything below is computed from this scene in your browser.</p></div>
+
+  <!-- 1.1 scene -->
+  <section class="stage" id="s-scene">
+    <div class="stage-head"><span class="step">1.1</span><h3>One training sample: 4 dates × 6 bands × 224 × 224</h3></div>
+    <p>HLS harmonises Landsat 8/9 and Sentinel-2 surface reflectance at 30 m. Prithvi uses the six bands both satellites share. A pre-training sample is four images of the same place, taken 1–6 months apart, so it spans seasons. Click a pixel to see its six band values on each date.</p>
+    <div class="panel">
+      <div class="row">
+        <div class="seg" role="group" aria-label="Date" id="scene-date"></div>
+        <div class="seg" role="group" aria-label="View" id="scene-view"><button type="button" data-v="true" aria-pressed="true">True colour</button><button type="button" data-v="false" aria-pressed="false">False colour (NIR, R, G)</button><button type="button" data-v="lc" aria-pressed="false">Land cover</button></div>
+        <label class="row" style="gap:6px;font-size:.85rem">Single band <select id="scene-band"><option value="">none</option></select></label>
+      </div>
+      <div class="cols">
+        <div class="scenebox"><canvas id="scene" class="click" width="448" height="448" style="width:min(100%,448px)" tabindex="0" aria-label="Synthetic satellite scene; click a pixel to inspect it"></canvas><div class="legend" id="lc-legend"></div></div>
+        <div style="display:flex;flex-direction:column;gap:8px">
+          <span class="label" id="pix-title">Pixel spectra</span>
+          <svg id="pix-chart" class="strip" viewBox="0 0 420 230" role="img" aria-label="Band reflectance for the selected pixel on each date"></svg>
+          <div class="legend" id="date-legend"></div>
+          <p class="note">Vegetation is dark in red and bright in NIR; water is dark in NIR and SWIR; soil rises steadily towards SWIR. The summer and winter crops look alike on some dates and opposite on others, which is why the dates matter.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 1.2 patchify -->
+  <section class="stage" id="s-patch">
+    <div class="stage-head"><span class="step">1.2</span><h3>3D patch embedding: cubes become tokens</h3></div>
+    <p>A 3D convolution cuts the sample into non-overlapping cubes of 1 date × p × p pixels and maps each cube, all six bands at once, to one vector: a <b>token</b>. The time depth is 1 because satellite dates are irregular and far apart. Click a patch to see what goes into its token.</p>
+    <div class="panel">
+      <div class="row"><span class="label">Model</span><div class="seg" role="group" aria-label="Model size" id="model-seg"><button type="button" data-m="300" aria-pressed="true">300M · ViT-L · 16 px</button><button type="button" data-m="600" aria-pressed="false">600M · ViT-H · 14 px</button></div></div>
+      <div class="cols">
+        <div class="scenebox"><canvas id="patch" class="click" width="448" height="448" style="width:min(100%,448px)" tabindex="0" aria-label="Scene with patch grid; click a patch"></canvas></div>
+        <div style="display:flex;flex-direction:column;gap:10px">
+          <span class="label" id="tok-title">Token</span>
+          <div class="row" id="tok-bands" style="gap:6px"></div>
+          <p style="font-size:.9rem" id="tok-flow"></p>
+          <span class="label">Projected token (first 48 of its numbers)</span>
+          <svg id="tok-vec" class="strip" viewBox="0 0 480 26" role="img" aria-label="Token vector"></svg>
+          <div class="stat" id="tok-stat"></div>
+          <p class="note">The projection here uses fixed random weights so you can see that different patches give different vectors. In Prithvi the weights are learned during pre-training, a weight tensor of shape (D, 6, 1, p, p).</p>
+        </div>
+      </div>
+      <h4>Inside the patch embedding</h4>
+      <p style="font-size:.92rem">It is one 3D convolution layer: 6 input channels (the bands), D output channels (1,024 for the 300M model), kernel 1 × 16 × 16 (date × height × width) and a stride of the same size, with no padding. Because the stride equals the kernel, the windows never overlap: each output position sees exactly one cube. So the layer is simply a linear map. Each of the 1,024 outputs is a weighted sum of all 1,536 numbers in the cube plus a bias, computed with its own set of weights, its <b>filter</b>. The same 1,024 filters are applied to every patch on every date. There is no activation function in this step; the result is flattened into a list of tokens.</p>
+      <div class="scroll"><table><thead><tr><th>Model</th><th>Kernel = stride</th><th>Filters</th><th class="num">Weights per filter</th><th class="num">Parameters</th></tr></thead><tbody>
+      <tr><td>300M</td><td class="mono">1 × 16 × 16, 6 bands</td><td>1,024</td><td class="num">1,536</td><td class="num">≈ 1.57 M</td></tr>
+      <tr><td>600M</td><td class="mono">1 × 14 × 14, 6 bands</td><td>1,280</td><td class="num">1,176</td><td class="num">≈ 1.51 M</td></tr></tbody></table></div>
+      <p style="font-size:.92rem"><b>Is anything learned here?</b> Yes. The filters start random and are trained by backpropagation together with the encoder and decoder, using the same reconstruction loss. They become detectors for useful spectral-spatial patterns, such as "bright NIR with dark red" or "a dark line through the patch". In fine-tuning they can be updated again or kept frozen.</p>
+      <div class="row"><div class="ctl" style="max-width:360px"><label for="flt-k">Look at filter <output id="flt-k-out">#1</output> of the 48 shown</label><input type="range" id="flt-k" min="0" max="47" step="1" value="0"></div></div>
+      <div class="row" id="flt-bands" style="gap:6px"></div>
+      <p class="stat" id="flt-out"></p>
+      <h4>Six bands, not RGB</h4>
+      <p style="font-size:.92rem">Most image transformers are pre-trained on RGB photographs. Prithvi was pre-trained on the six HLS bands from the start. Only this first layer knows how many bands there are: its filters mix every band of every pixel in a cube into each of the token's numbers. Every transformer block after it sees only D-number tokens, so the band count matters here and nowhere else.</p>
+      <ul style="font-size:.92rem">
+        <li><b>Other sensors:</b> feed the six matching bands, as the paper does for Sentinel-2. Extra bands such as red-edge, or radar, need new input channels in this layer, and those start untrained.</li>
+        <li><b>RGB-only data:</b> the benchmark gave each model only the bands it was pre-trained on, so high-resolution RGB tasks used three of Prithvi's six inputs.</li>
+        <li><b>How other models handle new bands:</b> copying RGB filters into new channels, or, in DOFA, generating the filters from each band's wavelength.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- 1.3 positions -->
+  <section class="stage" id="s-pos">
+    <div class="stage-head"><span class="step">1.3</span><h3>Position encodings: telling tokens where they are</h3></div>
+    <p>Attention treats tokens as an unordered set, so each token gets a fixed "where am I" vector added to it. Each position becomes a set of sine and cosine waves of different wavelengths. Dimension pair i uses angular frequency 1 / base<sup>2i/D</sup>, with base = 10,000. Here D is the number of dimensions given to <em>one axis</em>, not 3: in the released code the token width is split roughly ¼ to time, ⅜ to rows and ⅜ to columns, and the three encodings are concatenated.</p>
+    <div class="panel">
+      <h4>One encoding dimension, painted on the tiles</h4>
+      <p style="font-size:.92rem">Each token's position code is a list of numbers. Pick one of them and colour every patch by its value: blue for −1, orange for +1. Some dimensions flip between neighbouring patches; others change slowly across the whole tile. The column code varies only across x, the row code only across y, and the date code only between the four tiles.</p>
+      <div class="row">
+        <div class="seg" role="group" aria-label="Axis" id="pe-axis"><button type="button" data-k="col" aria-pressed="true">Columns (x)</button><button type="button" data-k="row" aria-pressed="false">Rows (y)</button><button type="button" data-k="time" aria-pressed="false">Dates (t)</button></div>
+        <div class="ctl"><label for="pe-pair">Frequency pair i <output id="pe-pair-out">0</output></label><input type="range" id="pe-pair" min="0" max="191" step="1" value="0"></div>
+        <div class="seg" role="group" aria-label="Sine or cosine" id="pe-trig"><button type="button" data-k="sin" aria-pressed="true">sin</button><button type="button" data-k="cos" aria-pressed="false">cos</button></div>
+      </div>
+      <span class="label" id="pe-tile-title"></span>
+      <div class="quad" id="pe-quad"></div>
+      <h4>Which patches the encodings tie together</h4>
+      <p style="font-size:.92rem">Attention compares tokens by dot products, so two tokens whose position codes are similar find it easy to attend to each other. Click a patch to make it the reference; every patch is shaded by how similar its full x, y, t code is to the reference's, using only the waves you choose.</p>
+      <div class="row"><div class="seg" role="group" aria-label="Wavelength band" id="pe-band"><button type="button" data-k="fine" aria-pressed="true">Short waves (under 12 positions)</button><button type="button" data-k="mid" aria-pressed="false">Medium (12–50)</button><button type="button" data-k="coarse" aria-pressed="false">Long (over 50)</button><button type="button" data-k="all" aria-pressed="false">All waves</button></div></div>
+      <div class="quad" id="pe-squad"></div>
+      <div class="stat" id="pe-sim-stat"></div>
+      <p class="callout" id="pe-sim-note"></p>
+      <h4>Why the 10,000 in base<sup>2i/D</sup></h4>
+      <p style="font-size:.92rem">The term sets each pair's wavelength: 2π × base<sup>2i/D</sup> positions. Wavelengths grow geometrically from about 6 positions for pair 0 to about 63,000 for the last pair, like the digits of a number: fast waves resolve neighbours, slow waves give coarse location without repeating. A base much larger than any sequence length guarantees the slowest waves never wrap around. On a 14-patch grid most pairs are slow and nearly constant, which is harmless but means only a few dozen dimensions do the local work.</p>
+      <div class="row">
+        <div class="ctl"><label for="pe-d">Dimensions for one axis (D) <output id="pe-d-out">384</output></label><input type="range" id="pe-d" min="16" max="384" step="16" value="384"></div>
+        <label class="ctl" for="pe-base">Base <select id="pe-base"><option value="100">100</option><option value="10000" selected>10,000 (used)</option><option value="1000000">1,000,000</option></select></label>
+      </div>
+      <div class="cols">
+        <div style="display:flex;flex-direction:column;gap:6px"><span class="label">Wavelength of each sine/cosine pair, in positions (log scale)</span><svg id="pe-wave" class="strip" viewBox="0 0 420 224" role="img" aria-label="Wavelength by dimension pair"></svg></div>
+        <div style="display:flex;flex-direction:column;gap:8px">
+          <span class="label" id="pe-tok-title">The selected patch's full position code</span>
+          <svg id="pe-tok" class="strip" viewBox="0 0 480 96" role="img" aria-label="Time, row and column encodings of the selected patch"></svg>
+          <p class="note" id="pe-tok-note"></p>
+        </div>
+      </div>
+      <h4>Where on Earth, and when: metadata encodings (the "-TL" models)</h4>
+      <ul style="font-size:.92rem">
+        <li><b>From numbers to vectors.</b> Each value is treated like a position and given the same sine/cosine code. Latitude gets D/2 numbers (512 for the 300M model) and longitude another D/2; concatenated, they form one D-number location vector. Year and day of year are encoded the same way into one D-number date vector. The paper does not give units; the raw values (degrees, the year, day 1–365) appear to be used directly.</li>
+        <li><b>Into the tokens.</b> Each vector is multiplied by one learned number, w<sub>L</sub> for location and w<sub>T</sub> for date, and added to <em>every</em> token like a bias. The position code tells a token where it sits inside the sample; the metadata tells the whole sample where and when it is.</li>
+        <li><b>What this simple scheme can and cannot say.</b> The fastest wave repeats every 6.3 units, so places a few kilometres apart get almost identical codes: the model learns broad geography and season, not exact sites. Day 365 and day 1 get very different codes although they are one day apart.</li>
+        <li><b>Dropping.</b> Each was left out 10% of the time during pre-training, so the model also works when a date or location is unknown.</li>
+      </ul>
+      <div class="row">
+        <label class="ctl" for="md-lat">Latitude <input type="number" id="md-lat" value="23.6" step="0.1" min="-90" max="90"></label>
+        <label class="ctl" for="md-lon">Longitude <input type="number" id="md-lon" value="77.4" step="0.1" min="-180" max="180"></label>
+        <label class="ctl" for="md-year">Year <input type="number" id="md-year" value="2023" step="1" min="2014" max="2030"></label>
+        <label class="ctl" for="md-doy">Day of year <input type="number" id="md-doy" value="214" step="1" min="1" max="365"></label>
+        <label class="row" style="gap:6px;font-size:.85rem"><input type="checkbox" id="md-dropL"> drop location</label>
+        <label class="row" style="gap:6px;font-size:.85rem"><input type="checkbox" id="md-dropT"> drop date</label>
+      </div>
+      <div class="scroll"><table id="md-table"><thead><tr><th>Pair i</th><th class="num">Wavelength (units)</th><th class="num">sin(lat)</th><th class="num">cos(lat)</th><th class="num">sin(day)</th><th class="num">cos(day)</th></tr></thead><tbody></tbody></table></div>
+      <span class="label">How one token is assembled (first 96 numbers of each part)</span>
+      <svg id="md-strip" class="strip" viewBox="0 0 480 120" role="img" aria-label="How the token is assembled"></svg>
+    </div>
+  </section>
+
+  <!-- 1.4 masking -->
+  <section class="stage" id="s-mask">
+    <div class="stage-head"><span class="step">1.4</span><h3>Masking: what is hidden, and what clues remain</h3></div>
+    <p>Prithvi hides a random subset of tokens drawn from all dates and positions together. A hidden token loses all six bands at once, like a cloud. The paper does not state the ratio; the released default is 75%, as in the original MAE. Compare Prithvi's choice with three alternatives it did not use. The statistics show which kinds of clue a hidden token still has. Masking has no parameters and learns nothing: it only decides what the encoder sees and where the loss is computed. That choice still shapes what the encoder learns.</p>
+    <div class="panel">
+      <div class="row">
+        <div class="seg" role="group" aria-label="Masking strategy" id="mask-mode"><button type="button" data-k="random" aria-pressed="true">Random (Prithvi)</button><button type="button" data-k="tube" aria-pressed="false">Tube: same patch on all dates</button><button type="button" data-k="frame" aria-pressed="false">Whole dates</button><button type="button" data-k="bands" aria-pressed="false">Band groups (SatMAE-style)</button></div>
+        <div class="ctl"><label for="mask-ratio">Mask ratio <output id="mask-ratio-out">75%</output></label><input type="range" id="mask-ratio" min="0.25" max="0.95" step="0.05" value="0.75"></div>
+        <button class="btn" type="button" id="mask-new">Draw a new mask</button>
+      </div>
+      <div class="quad" id="mask-quad"></div>
+      <div class="stat" id="mask-stat"></div>
+      <p class="callout" id="mask-explain"></p>
+    </div>
+  </section>
+
+  <!-- 1.5 ViT -->
+  <section class="stage" id="s-vit">
+    <div class="stage-head"><span class="step">1.5</span><h3>The ViT encoder: tokens attend to each other</h3></div>
+    <p>A Vision Transformer is a stack of identical blocks (24 in the 300M model, 32 in the 600M). In each block, every token makes a <b>query</b> ("what am I looking for"), a <b>key</b> ("what do I contain") and a <b>value</b> ("what I pass on"). Each token compares its query with all keys, turns the scores into weights with a softmax, and takes the weighted mix of values. Several heads do this in parallel, each free to learn a different relationship; a small feed-forward network then processes each token. Unlike a CNN, any token can reach any other in the first layer. Click a patch to make it the query.</p>
+    <p class="callout">Is this where the learning happens? Mostly: the encoder holds about 300 M of the 300M model's parameters, and it is the part reused for every downstream task. But training is end to end: a single reconstruction loss updates the patch embedding (1.2), the metadata weights (1.3), the encoder (1.5) and the decoder (1.6) together. Section 1.7 lists what is learned.</p>
+    <div class="panel">
+      <div class="row">
+        <div class="seg" role="group" aria-label="Attention head" id="att-head"><button type="button" data-k="spatial" aria-pressed="true">Spatial head</button><button type="button" data-k="temporal" aria-pressed="false">Temporal head</button><button type="button" data-k="similar" aria-pressed="false">Look-alike head</button><button type="button" data-k="mix" aria-pressed="false">All heads</button></div>
+        <div class="seg" role="group" aria-label="Layer depth" id="att-layer"><button type="button" data-k="0" aria-pressed="true">Early layer</button><button type="button" data-k="1" aria-pressed="false">Late layer</button></div>
+        <div class="seg" role="group" aria-label="Which tokens are present" id="att-mode"><button type="button" data-k="pre" aria-pressed="true">Pre-training: visible tokens only</button><button type="button" data-k="ft" aria-pressed="false">Fine-tuning: all tokens</button></div>
+      </div>
+      <div class="quad" id="att-quad"></div>
+      <p class="callout" id="att-explain"></p>
+      <p class="note">Head behaviours here are illustrative, built from rules: the spatial head prefers nearby patches on the same date, the temporal head the same place on other dates, and the look-alike head patches whose average spectra resemble the query's, computed from this scene. Real heads learn their own mixtures.</p>
+    </div>
+  </section>
+
+  <!-- 1.6 decoder -->
+  <section class="stage" id="s-dec">
+    <div class="stage-head"><span class="step">1.6</span><h3>Decoder and loss: rebuild the hidden pixels</h3></div>
+    <p>A lighter transformer decoder receives the encoded visible tokens plus a learned "mask token" in each hidden slot, with position encodings so it knows which slot is which. It predicts the six-band pixels of every hidden patch. The loss is the mean squared error on hidden patches only. Drag training progress to see predictions improve; the masks come from section 1.4.</p>
+    <div class="panel">
+      <div class="row">
+        <div class="seg" role="group" aria-label="Date" id="dec-date"></div>
+        <div class="ctl"><label for="dec-prog">Training progress <output id="dec-prog-out">0%</output></label><input type="range" id="dec-prog" min="0" max="100" step="5" value="0"></div>
+      </div>
+      <div class="cols">
+        <figure style="margin:0;display:flex;flex-direction:column;gap:4px"><canvas id="dec-in" width="448" height="448" style="width:100%"></canvas><figcaption class="label">What the model sees</figcaption></figure>
+        <figure style="margin:0;display:flex;flex-direction:column;gap:4px"><canvas id="dec-out" width="448" height="448" style="width:100%"></canvas><figcaption class="label">Its reconstruction</figcaption></figure>
+        <figure style="margin:0;display:flex;flex-direction:column;gap:4px"><canvas id="dec-true" width="448" height="448" style="width:100%"></canvas><figcaption class="label">The real image</figcaption></figure>
+      </div>
+      <div class="stat" id="dec-stat"></div>
+      <h4>Decoder architecture</h4>
+      <p style="font-size:.92rem">MAE's decoder is deliberately lighter than the encoder because it is thrown away after pre-training. It first projects the visible tokens to its own, smaller width, then puts a copy of one learned <b>mask token</b> in every hidden slot so the sequence is complete again. Position codes are added so each mask token knows which slot it fills, then a few transformer blocks let the mask tokens gather information from the visible ones. A final linear layer turns each token into the pixel values of its cube. The shapes below follow your current model and mask.</p>
+      <div class="scroll"><table id="dec-arch"><thead><tr><th>Step</th><th>Shape</th><th>What happens</th></tr></thead><tbody></tbody></table></div>
+      <p class="note">Decoder width 512 and 8 blocks are the released configuration; the paper does not state them.</p>
+      <p class="note">The simulated reconstruction blends clues the way a trained model can: the same patch on visible dates, adjusted for each date's season, and the visible neighbours. Like real MAE output it is smooth inside each patch. Once trained, the decoder is set aside; only the encoder is reused, although the paper's predecessor showed the decoder can fill cloud gaps.</p>
+    </div>
+  </section>
+
+<!-- 1.7 -->
+<section class="stage" id="s-learn" style="margin-top:-8px">
+  <div class="stage-head"><span class="step">1.7</span><h3>What pre-training actually learns</h3></div>
+  <div class="panel">
+    <div class="scroll"><table><thead><tr><th>Component</th><th>Learned?</th><th class="num">Parameters (300M model)</th><th>Kept for fine-tuning?</th></tr></thead><tbody>
+      <tr><td>Patch embedding (1.2)</td><td>Yes</td><td class="num">≈ 1.6 M</td><td>Yes</td></tr>
+      <tr><td>3D position codes (1.3)</td><td>No, a fixed formula</td><td class="num">0</td><td>Yes, recomputed for each input size</td></tr>
+      <tr><td>Metadata weights w<sub>L</sub>, w<sub>T</sub> (1.3)</td><td>Yes</td><td class="num">2</td><td>Yes, in the TL models</td></tr>
+      <tr><td>Masking (1.4)</td><td>No, random each step</td><td class="num">0</td><td>Not used</td></tr>
+      <tr><td>Encoder: 24 transformer blocks (1.5)</td><td>Yes</td><td class="num">≈ 300 M</td><td>Yes: this is the foundation model</td></tr>
+      <tr><td>Decoder and mask token (1.6)</td><td>Yes</td><td class="num">≈ 25 M</td><td>No (except for gap-filling)</td></tr>
+    </tbody></table></div>
+    <p class="note">Encoder and decoder sizes are estimates from the standard ViT-L and released decoder configurations.</p>
+  </div>
+</section>
+</section>
+
+<!-- ================= PART 3 ================= -->
+<section class="part" id="part-ft">
+  <div class="part-head"><span class="eyebrow">Part 2</span><h2>Fine-tuning for downstream tasks</h2>
+  <p>The paper fine-tuned Prithvi-EO-2.0 on nine applications plus the twelve GEO-Bench datasets, each on a single GPU. They fall into six recipes. Answer four questions to find yours, then try the matching playground.</p>
+  <p class="note">At inference the encoder sees every token (nothing is masked), inputs get the same band order and normalisation as in training, and for maps the highest-scoring class is taken at each pixel. Large areas are cut into chips of the training size and the predictions stitched back together; this is standard practice, and the paper does not describe its own tiling.</p></div>
+
+  <section class="stage" id="m-lora">
+    <div class="stage-head"><span class="step">2.1</span><h3>Three ways to adapt the encoder</h3></div>
+    <ul>
+      <li><b>Full fine-tuning</b>: every weight, encoder included, is updated with a small learning rate. Used for floods, burn scars, landslides and US crops.</li>
+      <li><b>LoRA</b>: the encoder's weights stay frozen; small low-rank corrections are trained instead. Used for burn severity, PASTIS and biomass.</li>
+      <li><b>Frozen encoder</b>: no encoder weights change; only the task head learns from the embeddings. Used for GPP.</li>
+    </ul>
+    <div class="panel"><h4>LoRA: fine-tuning a small fraction of the parameters</h4>
+      <p>Low-Rank Adaptation freezes each pretrained weight matrix W₀ and learns a correction ΔW = B·A of low rank r. <b>A</b> (r × k) starts with small random values; <b>B</b> (d × r) starts at zero, so ΔW = 0 and training begins exactly at the pretrained model. They cannot both start at zero: each one's gradient depends on the other, so neither would ever move. The final weight is one ordinary matrix, <span class="mono">W′ = W₀ + (α / r) · B·A</span>, which can be merged once so inference costs nothing extra.</p>
+      <div class="row">
+        <div class="ctl"><label for="lora-r">Rank r <output id="lora-r-out">8</output></label><input type="range" id="lora-r" min="1" max="64" step="1" value="8"></div>
+        <label class="ctl" for="lora-d">Matrix size <select id="lora-d"><option value="1024">1,024 × 1,024 (300M attention projection)</option><option value="1280">1,280 × 1,280 (600M attention projection)</option></select></label>
+        <div class="seg" role="group" aria-label="Training state" id="lora-state"><button type="button" data-k="0" aria-pressed="true">At the start</button><button type="button" data-k="1" aria-pressed="false">After training</button></div>
+      </div>
+      <div class="stat" id="lora-stat"></div>
+      <div class="mtx" id="lora-mtx"></div>
+      <p class="note">The small matrices are an 8 × 8 illustration with rank up to 4; the counts above are for the real sizes. LoRA usually adapts the attention projections; the task decoder is still trained in full.</p>
+    </div>
+  </section>
+  <section class="stage" id="m-shapes">
+    <div class="stage-head"><span class="step">2.2</span><h3>From your images to a per-pixel map: sizes and shapes</h3></div>
+    <p>Fine-tuning data rarely looks like the pre-training samples: chips are bigger or smaller, there are 1 or 20 dates instead of 4, and pixels may be 10 m or 1 m instead of 30 m. This calculator shows what the model does with your input and what each stage of a segmentation model passes on, which is the information the R1–R4 tables below summarise for the paper's tasks.</p>
+    <div class="panel">
+      <ul style="font-size:.92rem">
+        <li><b>Image size:</b> any height and width work if they are multiples of the patch size (16 or 14 px). Position codes are computed for whatever grid results, so nothing needs retraining.</li>
+        <li><b>Number of dates:</b> the time code extends the same way. More dates mean more tokens, and attention cost grows with the square of the token count.</li>
+        <li><b>Pixel size:</b> the model has no notion of metres. At 10 m a 16-pixel patch covers 160 m instead of 480 m; fine-tuning has to absorb that change of scale.</li>
+        <li><b>What the decoder receives:</b> the encoder's tokens, laid back out as a grid with one vector per patch per date. The dates are merged, a neck builds four resolutions, and the decoder turns them into class scores that are upsampled to every pixel.</li>
+      </ul>
+      <div class="row">
+        <label class="ctl" for="sh-model">Model <select id="sh-model"><option value="300">300M (16 px, D = 1,024)</option><option value="600">600M (14 px, D = 1,280)</option></select></label>
+        <label class="ctl" for="sh-h">Height (px) <input type="number" id="sh-h" value="224" step="1" min="14" max="2048"></label>
+        <label class="ctl" for="sh-w">Width (px) <input type="number" id="sh-w" value="224" step="1" min="14" max="2048"></label>
+        <label class="ctl" for="sh-t">Dates T <input type="number" id="sh-t" value="4" step="1" min="1" max="64"></label>
+        <label class="ctl" for="sh-gsd">Pixel size <select id="sh-gsd"><option value="30">30 m (HLS)</option><option value="10">10 m (Sentinel-2)</option><option value="1">1 m (aerial)</option><option value="0.1">0.1 m (drone)</option></select></label>
+        <label class="ctl" for="sh-merge">Merge dates by <select id="sh-merge"><option value="concat">stacking as channels</option><option value="mean">averaging</option><option value="ltae">temporal attention (LTAE)</option></select></label>
+        <label class="ctl" for="sh-c">Classes <input type="number" id="sh-c" value="13" step="1" min="2" max="100"></label>
+      </div>
+      <div class="scroll"><table id="sh-table"><thead><tr><th>Stage</th><th>Shape</th><th>What it is</th></tr></thead><tbody></tbody></table></div>
+      <div class="stat" id="sh-stat"></div>
+    </div>
+  </section>
+
+  <section class="stage" id="tree">
+    <h3>Decision tree: which recipe for which task</h3>
+    <div class="panel">
+      <div class="cols">
+        <div class="q"><span class="label">1 · What should the model produce?</span><div class="seg" role="group" aria-label="Output" id="dt-out"><button type="button" data-k="class" aria-pressed="true">A class per pixel</button><button type="button" data-k="value" aria-pressed="false">A value per pixel</button><button type="button" data-k="label" aria-pressed="false">One label per image</button><button type="button" data-k="site" aria-pressed="false">A value per site, with other data</button></div></div>
+        <div class="q"><span class="label">2 · Does change over time define the target?</span><div class="seg" role="group" aria-label="Time" id="dt-time"><button type="button" data-k="one" aria-pressed="true">No: one date shows it</button><button type="button" data-k="few" aria-pressed="false">Yes: 2–4 dates</button><button type="button" data-k="long" aria-pressed="false">Yes: 5 or more dates</button></div></div>
+        <div class="q"><span class="label">3 · How many labelled examples?</span><div class="seg" role="group" aria-label="Labels" id="dt-labels"><button type="button" data-k="many" aria-pressed="true">Thousands</button><button type="button" data-k="few" aria-pressed="false">Tens to hundreds</button></div></div>
+        <div class="q"><span class="label">4 · What imagery?</span><div class="seg" role="group" aria-label="Imagery" id="dt-sensor"><button type="button" data-k="hls" aria-pressed="true">HLS or Sentinel-2 optical</button><button type="button" data-k="other" aria-pressed="false">Other resolution or optical sensor</button><button type="button" data-k="sar" aria-pressed="false">Optical plus radar</button></div></div>
+      </div>
+      <div class="rec" id="dt-rec" aria-live="polite"></div>
+      <span class="label">All six recipes (the active one is highlighted)</span>
+      <div class="tree" id="dt-leaves"></div>
+    </div>
+  </section>
+
+  <section class="stage" id="t1">
+    <div class="stage-head"><span class="step">R1</span><h3>Single-date map: floods, burn scars, landslides</h3></div>
+    <p>One image in, a class per pixel out. The encoder gives one vector per 16 × 16 patch (480 m), and the decoder has to recover boundaries finer than that. The slider sets how finely the decoder resolves the August flood; IoU is computed against the true water mask.</p>
+    <div class="panel">
+      <div class="ctl" style="max-width:420px"><label for="t1-res">Decoder detail: block size <output id="t1-res-out">16 px</output></label><input type="range" id="t1-res" min="0" max="4" step="1" value="0"></div>
+      <div class="cols">
+        <figure style="margin:0;display:flex;flex-direction:column;gap:4px"><canvas id="t1-img" width="448" height="448" style="width:100%"></canvas><figcaption class="label">August image (input, T = 1)</figcaption></figure>
+        <figure style="margin:0;display:flex;flex-direction:column;gap:4px"><canvas id="t1-pred" width="448" height="448" style="width:100%"></canvas><figcaption class="label">Prediction vs truth</figcaption></figure>
+      </div>
+      <div class="legend"><span><span class="swatch" style="background:var(--accent)"></span>correct water</span><span><span class="swatch" style="background:var(--ochre)"></span>false alarm</span><span><span class="swatch" style="background:var(--red)"></span>missed water</span></div>
+      <div class="stat" id="t1-stat"></div>
+      <h4>What the paper found</h4>
+      <div class="row"><div class="seg" role="group" aria-label="Task" id="t1-task"><button type="button" data-k="flood" aria-pressed="true">Floods (water IoU)</button><button type="button" data-k="fire" aria-pressed="false">Burn scars (scar IoU)</button><button type="button" data-k="ls" aria-pressed="false">Landslides (mIoU)</button><button type="button" data-k="sev" aria-pressed="false">Burn severity (mIoU)</button></div>
+      <div class="seg" role="group" aria-label="Training data" id="t1-data"><button type="button" data-k="full" aria-pressed="true">Full training set</button><button type="button" data-k="small" aria-pressed="false">50 images</button></div></div>
+      <div class="bars" id="t1-bars"></div>
+      <p class="note" id="t1-note"></p>
+      <h4>How it was trained and run</h4>
+      <p style="font-size:.92rem"><b>Floods and burn scars</b> used the same recipe. Each 512 × 512 chip was resized to 448 × 448, so that both patch sizes divide it evenly, and passed through the encoder as a single date. The encoder's output tokens were laid back out on their 28 × 28 grid. A neck took the outputs of four encoder blocks and resized them into a pyramid of four resolutions, so the UPerNet decoder had both broad context and finer detail. UPerNet produced land/water (or unburnt/burnt) scores at a quarter of the input size; these were upsampled to every pixel and compared with the label using cross-entropy. All weights, encoder included, were updated. For a fair comparison, each model got ten trials to tune learning rate and weight decay on the validation set; the best setting was then retrained with ten random seeds and the test scores averaged.</p>
+      <p style="font-size:.92rem"><b>Landslides</b> used a simpler decoder. The 128 × 128 Sentinel-2 chips (10 m) were reduced to the six HLS-equivalent bands and upsampled to 224 × 224. Four transposed convolutions each doubled the 14 × 14 token grid back to 224 × 224, and two convolutions turned the result into landslide and background scores; for the 600M model, whose grid is 16 × 16, a final bilinear resize fixed the size. Landslide pixels are rare, so the loss either weighted them four times more heavily than background (weighted cross-entropy, 2 : 8) or optimised overlap directly (Lovász loss). The whole experiment was repeated with only 50 training images to test label efficiency.</p>
+      <div class="scroll"><table><thead><tr><th>Step</th><th>Floods, burn scars (UPerNet)</th><th>Landslides (deconvolution decoder)</th></tr></thead><tbody><tr><td>Input</td><td class="mono">(B, 6, 1, 448, 448)</td><td class="mono">(B, 6, 1, 224, 224)</td></tr><tr><td>Preparation</td><td>512 × 512 chips resized to 448, divisible by both 14 and 16; burn scars randomly cropped to 224 for training; random flips</td><td>128 × 128 Sentinel-2 chips at 10 m, the six matching bands, upsampled to 224; random flips</td></tr><tr><td>Encoder tokens</td><td class="mono">(B, 784, 1024)  (28 × 28)</td><td class="mono">(B, 196, 1024)  (14 × 14)</td></tr><tr><td>Back to the grid</td><td class="mono">(B, 1024, 28, 28)</td><td class="mono">(B, 1024, 14, 14)</td></tr><tr><td>Decoder</td><td>Neck to 4 scales, then UPerNet → §(B, 2, 112, 112), upsampled</td><td>4 deconvolution layers, each doubling size (14 → 224), with layer norm and activations, then 2 convolutions; a bilinear resize for the 600M model</td></tr><tr><td>Output and label</td><td class="mono">(B, 2, 448, 448) vs label (B, 448, 448): 0 land or unburnt, 1 water or scar</td><td class="mono">(B, 2, 224, 224) vs label (B, 224, 224): 1 landslide</td></tr><tr><td>Loss</td><td>Cross-entropy</td><td>Weighted cross-entropy (2 : 8) or Lovász</td></tr><tr><td>Training</td><td>All weights tuned. 10 trials tuning learning rate and weight decay, then 10 seeds; up to 50 epochs, early stopping after 20</td><td>Adam, learning rate 1e-5, cosine schedule with warm restarts; 100 epochs, batch 8; best validation-loss checkpoint kept</td></tr></tbody></table></div>
+      <p class="note">Shapes are for the 300M model. With the 600M model, 448 / 14 = 32, so 1,024 tokens of 1,280 numbers.</p>
+    </div>
+  </section>
+
+  <section class="stage" id="t2">
+    <div class="stage-head"><span class="step">R2 · R3</span><h3>Multi-date maps: crop types and burn severity</h3></div>
+    <p>When classes differ by their seasonal rhythm, one date cannot separate them. Choose which dates the model gets. The chart shows each class's average greenness (NDVI); the map and accuracy come from a nearest-centroid classifier on this scene's field and forest pixels.</p>
+    <div class="panel">
+      <div class="row" id="t2-dates"></div>
+      <div class="cols">
+        <div style="display:flex;flex-direction:column;gap:6px"><span class="label">Average NDVI by class and date</span><svg id="t2-chart" class="strip" viewBox="0 0 420 230" role="img" aria-label="NDVI curves by class"></svg></div>
+        <figure style="margin:0;display:flex;flex-direction:column;gap:4px"><canvas id="t2-map" width="448" height="448" style="width:min(100%,448px)"></canvas><figcaption class="label">Predicted class (grey: errors)</figcaption></figure>
+      </div>
+      <div class="stat" id="t2-stat"></div>
+      <h4>What the paper found</h4>
+      <div class="row"><div class="seg" role="group" aria-label="Dataset" id="t2-task"><button type="button" data-k="us" aria-pressed="true">US crops (T = 3)</button><button type="button" data-k="pastis" aria-pressed="false">PASTIS, France (T = 20)</button></div>
+      <div class="seg" role="group" aria-label="Training data" id="t2-data"><button type="button" data-k="full" aria-pressed="true">100% of labels</button><button type="button" data-k="small" aria-pressed="false">10% of labels</button></div></div>
+      <div class="bars" id="t2-bars"></div>
+      <p class="note" id="t2-note"></p>
+      <h4>How it was trained and run</h4>
+      <p style="font-size:.92rem"><b>Burn severity and US crops</b> feed three dates at once. For burn severity these are before, during and after the fire; for crops, three points in the growing season. The encoder sees all 3 × 14 × 14 = 588 tokens together, so attention can compare each place across dates. Its output is laid back on the grid with a time axis, the three dates are merged into one feature map (the paper does not say how), and a decoder assigns a class to every pixel. Burn severity used LoRA, an UPerNet decoder and a weighted loss because high-severity pixels are rare, with a higher learning rate for the decoder than for the adapted encoder. US crops used full fine-tuning and a simpler decoder of convolution and upsampling blocks.</p>
+      <p style="font-size:.92rem"><b>PASTIS</b> has 38–61 irregular dates per sample, too many to use directly. The authors split each sequence into 20 equal time windows and picked one image from each, which keeps the whole season. With 128 × 128 chips, 20 dates × 8 × 8 patches gives 1,280 tokens. Stacking 20 dates of features into the decoder would make it very large, so a lightweight temporal attention encoder (LTAE) first learns how much each date matters at each location and an aggregator combines them into one feature map before UPerNet. All foundation models were fine-tuned with LoRA in the same way, with all labels and with 10%.</p>
+      <div class="scroll"><table><thead><tr><th>Step</th><th>Burn severity (T = 3)</th><th>US crops (T = 3)</th><th>PASTIS (T = 20)</th></tr></thead><tbody><tr><td>Input</td><td class="mono">(B, 6, 3, 224, 224)</td><td class="mono">(B, 6, 3, 224, 224)</td><td class="mono">(B, 6, 20, 128, 128)</td></tr><tr><td>Preparation</td><td>Pre-, during- and post-fire HLS images; 80/20 split; random flips</td><td>HLS chips used whole; random flips</td><td>38–61 dates reduced to 20 (one from each of 20 equal time bins); cloudy samples removed; random resized crop, flips, rotation</td></tr><tr><td>Encoder tokens</td><td class="mono">(B, 588, 1024)</td><td class="mono">(B, 588, 1024)</td><td class="mono">(B, 1280, 1024)  (20 × 8 × 8)</td></tr><tr><td>Back to the grid</td><td class="mono">(B, 1024, 3, 14, 14)</td><td class="mono">(B, 1024, 3, 14, 14)</td><td class="mono">(B, 1024, 20, 8, 8)</td></tr><tr><td>Merge dates</td><td>Merged before the decoder (method not stated)</td><td>Merged before the decoder (method not stated)</td><td>Lightweight temporal attention (LTAE) and temporal aggregator</td></tr><tr><td>Decoder</td><td>UPerNet</td><td>Convolution and upsampling blocks</td><td>UPerNet</td></tr><tr><td>Output</td><td class="mono">(B, 5, 224, 224): severity 0–4</td><td class="mono">(B, 13, 224, 224)</td><td class="mono">(B, 19, 128, 128): 18 crops + background</td></tr><tr><td>Loss</td><td>Weighted cross-entropy</td><td>Weighted cross-entropy</td><td>Cross-entropy</td></tr><tr><td>Training</td><td>LoRA; learning rate 5e-4 (encoder) and 5e-5 (decoder), cosine; weight decay 0.05; 50 epochs</td><td>Full fine-tuning; 80 epochs</td><td>LoRA; AdamW, 5e-4 / 5e-5; weight decay 0.05; 50 epochs, early stopping after 10; folds 1–3 train, 4 validate, 5 test</td></tr></tbody></table></div>
+    </div>
+  </section>
+
+  <section class="stage" id="t3">
+    <div class="stage-head"><span class="step">R5</span><h3>One label per image: land cover and crop type with few labels</h3></div>
+    <p>Sen4Map gives a 12-month Sentinel-2 series around each European field-survey point. The paper cropped 15 × 15 pixels around the point and upscaled to 224 × 224, so the patch size did not have to change. Move the slider to see how each model holds up as labels are removed.</p>
+    <div class="panel">
+      <div class="row"><div class="seg" role="group" aria-label="Task" id="t3-task"><button type="button" data-k="lc" aria-pressed="true">Land cover</button><button type="button" data-k="crop" aria-pressed="false">Crop type</button></div>
+      <div class="ctl" style="max-width:360px"><label for="t3-frac">Share of training labels <output id="t3-frac-out">100%</output></label><input type="range" id="t3-frac" min="0" max="4" step="1" value="4"></div></div>
+      <div class="cols">
+        <svg id="t3-chart" class="strip" viewBox="0 0 440 250" role="img" aria-label="Weighted F1 against share of labels"></svg>
+        <div class="bars" id="t3-bars"></div>
+      </div>
+      <p class="note">Weighted F1 from Tables X and XI. The pre-trained models lose less as labels shrink: at 6.25% of the land-cover labels, Prithvi-EO-2.0-600M is 7.3 points above the ViViT baseline trained from scratch, against 3.4 points with all labels.</p>
+      <h4>How it was trained and run</h4>
+      <p style="font-size:.92rem">This is a classification task: each sample is a 64 × 64 Sentinel-2 chip around one surveyed point, labelled with one land-cover class and one crop type. Only the centre matters, so the authors cropped 15 × 15 pixels around the point. That is about one patch, and rather than shrink the patch size, which would mean retraining the patch embedding, they upscaled the crop to 224 × 224. Twelve monthly composites form the time series, giving 12 × 196 = 2,352 tokens. The encoder's output tokens are pooled into a single vector and a linear layer predicts the class. Training was repeated on smaller and smaller shares of the labels, down to 6.25%, and compared with a video transformer (ViViT) trained from scratch on the same data.</p>
+      <div class="scroll"><table><thead><tr><th>Step</th><th>Sen4Map land cover and crop type</th></tr></thead><tbody><tr><td>Input</td><td class="mono">(B, 6, 12, 224, 224)</td></tr><tr><td>Preparation</td><td>12 monthly Sentinel-2 composites at 10 m; the 64 × 64 chip cropped to 15 × 15 pixels around the survey point and upscaled to 224 so the patch size could stay; the six bands matching HLS (the dataset has four more)</td></tr><tr><td>Encoder tokens</td><td class="mono">(B, 2352, 1024)  (12 × 14 × 14)</td></tr><tr><td>Head</td><td>Tokens pooled into one vector §(B, 1024) (pooling method not stated), then a linear layer</td></tr><tr><td>Output and label</td><td class="mono">(B, classes) vs label (B,): one class index per sample</td></tr><tr><td>Loss and metric</td><td>Cross-entropy (not stated); weighted F1, because classes are imbalanced</td></tr><tr><td>Training</td><td>Trained on 100%, 50%, 25%, 12.5% and 6.25% of the labels; baseline: ViViT trained from scratch</td></tr></tbody></table></div>
+    </div>
+  </section>
+
+  <section class="stage" id="t4">
+    <div class="stage-head"><span class="step">R4</span><h3>A value per pixel: forest biomass</h3></div>
+    <p>BioMassters asks for above-ground biomass per pixel in Finnish forests, from a year of Sentinel-1 radar and Sentinel-2 optical images. Prithvi-EO-2.0-300M used a convolutional decoder with a regression head, trained with LoRA. Lower RMSE is better.</p>
+    <div class="panel">
+      <div class="row"><div class="seg" role="group" aria-label="View" id="t4-view"><button type="button" data-k="cfg" aria-pressed="true">Input configurations</button><button type="button" data-k="sub" aria-pressed="false">Fewer labels (12 dates, S2)</button></div></div>
+      <div class="bars" id="t4-bars"></div>
+      <div class="cols">
+        <div style="display:flex;flex-direction:column;gap:6px"><span class="label">Why optical images saturate (illustrative)</span><svg id="t4-sat" class="strip" viewBox="0 0 420 200" role="img" aria-label="Optical signal levelling off at high biomass while radar keeps rising"></svg></div>
+        <p class="note" style="align-self:center">Twelve dates beat four, even though pre-training used four. Adding radar as extra input bands made results worse, probably because radar is physically unlike the optical data the first layer was trained on. The authors suggest a separate radar encoder whose features are fused later. Optical reflectance stops rising once the canopy closes, so all models underestimate the highest biomass; radar penetrates the canopy.</p>
+      </div>
+      <h4>How it was trained and run</h4>
+      <p style="font-size:.92rem">Biomass is a per-pixel regression: the target is a LiDAR-derived map of tonnes of biomass per 10 m pixel over each 2.56 km tile. The authors first compared five inputs: 4 or 12 monthly images, optical only or with radar, and six or all Sentinel-2 bands. Radar was added as extra input channels to the patch embedding, which then had to learn weights for them from scratch. Twelve optical images with LoRA worked best, and that setup was retrained on 50% down to 5% of the data. A fully convolutional decoder upsamples the encoder's features back to 256 × 256, and a regression head outputs one number per pixel, scored by root-mean-square error against the LiDAR map.</p>
+      <div class="scroll"><table><thead><tr><th>Step</th><th>BioMassters above-ground biomass</th></tr></thead><tbody><tr><td>Input</td><td class="mono">(B, 6, 12, 256, 256)  (or 4 dates; +6 radar channels with Sentinel-1)</td></tr><tr><td>Preparation</td><td>Monthly Sentinel-2 at 10 m over 2.56 km forest tiles; for 4-date runs, the 4 best-quality months; Sentinel-1 VV, VH and RVI (ascending and descending) added as extra channels in some runs; 80/20 split; flips and rotations</td></tr><tr><td>Encoder tokens</td><td class="mono">(B, 3072, 1024)  (12 × 16 × 16)</td></tr><tr><td>Back to the grid</td><td class="mono">(B, 1024, 12, 16, 16), dates merged (method not stated)</td></tr><tr><td>Decoder and head</td><td>Fully convolutional decoder and a regression head, one value per pixel</td></tr><tr><td>Output and label</td><td class="mono">(B, 1, 256, 256) vs LiDAR-derived biomass (B, 256, 256), tonnes per pixel</td></tr><tr><td>Loss and metric</td><td>Regression loss; RMSE reported</td></tr><tr><td>Training</td><td>Prithvi-EO-2.0-300M; AdamW, learning rate 6e-5, weight decay 0.05; LoRA for the optical-only runs; also trained on 50%, 20%, 10% and 5% of the data</td></tr></tbody></table></div>
+    </div>
+  </section>
+
+  <section class="stage" id="t5">
+    <div class="stage-head"><span class="step">R6</span><h3>A value per site, with other data: photosynthesis at flux towers</h3></div>
+    <p>Gross primary productivity (GPP) is measured at 37 eddy-covariance towers. The Prithvi encoder is frozen and turns the HLS image around each tower into an embedding. A small network turns ten MERRA-2 weather and soil variables into features. The two are concatenated and a linear layer predicts GPP. Each year is held out in turn.</p>
+    <div class="panel">
+      <div class="row"><div class="seg" role="group" aria-label="Test year" id="t5-year"><button type="button" data-k="avg" aria-pressed="true">Average</button><button type="button" data-k="0" aria-pressed="false">2018</button><button type="button" data-k="1" aria-pressed="false">2019</button><button type="button" data-k="2" aria-pressed="false">2020</button><button type="button" data-k="3" aria-pressed="false">2021</button></div></div>
+      <div class="bars" id="t5-bars"></div>
+      <p class="note">R² from Table XV. The random forest and XGBoost baselines use spatial averages over 1.5 × 1.5 km, with and without vegetation indices (VIs); Prithvi uses raw bands only. A frozen encoder is the cheapest way to use Prithvi: no gradient flows through it, and its embeddings can be combined with any tabular or gridded data.</p>
+      <h4>How it was trained and run</h4>
+      <p style="font-size:.92rem">Here Prithvi is used only as a feature extractor. For each tower and day, an HLS chip centred on the tower goes through the frozen encoder, and a small decoder of two linear layers compresses the embeddings. In parallel, ten MERRA-2 weather and soil variables for that day pass through three small convolution layers and a linear layer. The two outputs are flattened and joined, and a final linear layer predicts the day's GPP. Only these small branches learn, using mean squared error. With 975 samples, the data are split by year: train on three years, test on the fourth, and rotate through all four.</p>
+      <div class="scroll"><table><thead><tr><th>Step</th><th>GPP at flux towers</th></tr></thead><tbody><tr><td>Inputs</td><td>One HLS chip (50 × 50 pixels at 30 m) centred on the tower, plus ten daily MERRA-2 variables (temperatures, soil moisture, heat fluxes and others) at the nearest grid point</td></tr><tr><td>Image branch</td><td>Frozen encoder → embeddings; a light decoder of two linear layers with ReLU. Shapes depend on how the chip is resized to the encoder's input, which the paper does not state; at 224 × 224 it would be §(B, 196, 1024)</td></tr><tr><td>Weather branch</td><td>Three 2D convolution layers with ReLU, then a linear layer</td></tr><tr><td>Fusion and output</td><td>Both branches flattened and concatenated; a linear layer gives §(B, 1): daily GPP</td></tr><tr><td>Loss</td><td>Mean squared error against tower GPP (night-time partitioning)</td></tr><tr><td>Training</td><td>Only the two branches and the final layer learn; leave-one-year-out: three years train, one tests; 975 samples from 37 sites</td></tr></tbody></table></div>
+    </div>
+  </section>
+
+  <section class="stage" id="geobench">
+    <h3>Across benchmarks: GEO-Bench</h3>
+    <div class="panel">
+      <p>On the twelve GEO-Bench datasets (six classification, six segmentation, 0.1 m to 15 m pixels), the 600M models with and without metadata had the best combined score, about 8% above Prithvi-EO-1.0. DOFA matched them on classification. Three patterns stand out:</p>
+      <ul>
+        <li><b>Data beats size alone:</b> a 100M model with Prithvi-EO-1.0's architecture, pre-trained on the new global dataset, scored about 3% higher than the original.</li>
+        <li><b>Metadata helps</b> overall, even on datasets that provide no dates or locations.</li>
+        <li><b>Resolution transfers:</b> despite 30 m pre-training, the models did well on drone and aerial tasks such as tree crowns and cattle.</li>
+      </ul>
+      <p class="note">Every model had ten hyperparameter trials per dataset and ten repeated runs; images were resized to 224 × 224 and given only the bands each model was pre-trained on.</p>
+    </div>
+  </section>
+
+  <section class="stage" id="procon">
+    <h3>Strengths and weaknesses seen in the experiments</h3>
+    <div class="pc">
+      <div><h3><span class="pill pro">Strengths</span></h3>
+        <ul>
+          <li><b>Label efficiency.</b> The gap over baselines widens as labels shrink: landslides with 50 images, 67.0 vs 59.7 mIoU (U-Net) and F1 49.7 vs 35.0; Sen4Map at 6.25% of labels, 62.3 vs 55.0 F1.</li>
+          <li><b>Real temporal modelling.</b> Handles 12 and 20 dates though pre-trained on 4; on PASTIS it beats the non-temporal foundation models DOFA and Satlas by 16–22 mIoU points.</li>
+          <li><b>Scale and global data pay off.</b> Same architecture, new data: +3% on GEO-Bench; bigger models are usually better; metadata embeddings help on average.</li>
+          <li><b>Transfers across sensors and resolutions</b> after fine-tuning: Sentinel-2, aerial and drone imagery.</li>
+          <li><b>Cheap to adapt.</b> Every downstream experiment ran on one GPU; LoRA and frozen-encoder setups worked; weights and TerraTorch configurations are open.</li>
+          <li><b>Good embeddings.</b> Frozen 600M-TL embeddings gave the best GPP results (mean R² 0.81 vs 0.75 for a ResNet with the same inputs).</li>
+        </ul>
+      </div>
+      <div><h3><span class="pill con">Weaknesses</span></h3>
+        <ul>
+          <li><b>Coarse tokens.</b> A token covers 480 m at 30 m pixels. Fragmented, small targets suffer: burn-severity classes 1–4 reach only 10–27% IoU, and the authors blame the large patch size.</li>
+          <li><b>Not always better than a specialist.</b> Biomass RMSE 33.4 vs 27.5 for the challenge-winning U-Net; on PASTIS the 300M model (51.6) trails U-TAE (52.9) and the 600M leads by only 0.5.</li>
+          <li><b>Optical only.</b> Radar added as extra bands made biomass worse; other modalities need a separate encoder and fusion.</li>
+          <li><b>Headline gains are modest on easy classes.</b> Flood mIoU rose only from 88.3 to 90.3; the real gains are in the minority class.</li>
+          <li><b>Bigger is not always better.</b> The 300M model won landslides with full data and matched the 600M on Sen4Map crop types; the 600M without metadata had the lowest GPP R² in 2018.</li>
+          <li><b>Costs and gaps.</b> Pre-training took 21,000–58,000 GPU-hours. Inference cost grows with dates and image size, since attention is quadratic in tokens. Masking choices were not ablated, and most downstream tests are in North America and Europe, with only one Indian site (Kodagu, in the landslide data).</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+</section>
+
+<footer class="foot">
+  <p><b>What is real and what is illustrative.</b> Architecture, training settings and every result number come from the paper (Tables IV–XV and Section III). The scene, its spectra, the token projection, the attention heads, the reconstruction, the flood decoder and the crop classifier are simulations built to show the mechanics. The 75% mask ratio is the released default and is not stated in the paper.</p>
+  <p>Source: Szwarcman, Roy, Fraccaro et al., “Prithvi-EO-2.0: A Versatile Multi-Temporal Foundation Model for Earth Observation Applications”, <a href="https://doi.org/10.48550/arXiv.2412.02732">doi:10.48550/arXiv.2412.02732</a>. Weights: <a href="https://huggingface.co/ibm-nasa-geospatial">Hugging Face, ibm-nasa-geospatial</a>.</p>
+</footer>
+</div>
+
+<script>
+(function(){
+"use strict";
+// ---------------- helpers ----------------
+function css(n){ return getComputedStyle(document.documentElement).getPropertyValue(n).trim(); }
+function rng(seed){ return function(){ seed|=0; seed=seed+0x6D2B79F5|0; var t=Math.imul(seed^seed>>>15,1|seed); t=t+Math.imul(t^t>>>7,61|t)^t; return ((t^t>>>14)>>>0)/4294967296; }; }
+function clamp(v,a,b){ return v<a?a:(v>b?b:v); }
+function $(id){ return document.getElementById(id); }
+function seg(id,onPick){ var el=$(id); el.addEventListener("click",function(e){ var b=e.target.closest("button"); if(!b||!el.contains(b)) return; el.querySelectorAll("button").forEach(function(x){ x.setAttribute("aria-pressed",x===b?"true":"false"); }); onPick(b.dataset); }); }
+function fmt(n,d){ return n.toLocaleString("en-US",{minimumFractionDigits:d||0,maximumFractionDigits:d||0}); }
+function bars(el,rows,opt){ opt=opt||{}; var mx=opt.max||Math.max.apply(null,rows.map(function(r){return r.v;})); var mn=opt.min||0;
+  el.innerHTML=(opt.title?'<span class="label">'+opt.title+'</span>':'')+rows.map(function(r){ var w=clamp((r.v-mn)/(mx-mn),0,1)*100; var ref=opt.ref!=null?'<span class="ref" style="left:'+(clamp((opt.ref-mn)/(mx-mn),0,1)*100)+'%"></span>':'';
+    return '<div class="bar'+(r.cls?" "+r.cls:"")+'"><span class="name">'+r.label+'</span><span class="track"><span class="fill" style="width:'+w.toFixed(1)+'%"></span>'+ref+'</span><span class="val">'+(r.text||r.v)+'</span></div>'; }).join(""); }
+
+// ---------------- scene ----------------
+var S=224, NB=6, DATES=["Feb","May","Aug","Nov"], BANDS=["Blue","Green","Red","NIR","SWIR1","SWIR2"];
+var CL=[{n:"Water",c:"#2F6FB3"},{n:"Summer crop (e.g. rice)",c:"#E0A21B"},{n:"Winter crop (e.g. wheat)",c:"#7A4FC2"},{n:"Pasture",c:"#8BBF4D"},{n:"Forest",c:"#1E6B3A"},{n:"Town",c:"#9A8F86"},{n:"Bare soil",c:"#C9784A"}];
+var SOIL=[0.10,0.14,0.18,0.24,0.30,0.25], VEG=[0.03,0.07,0.04,0.42,0.21,0.10], FVEG=[0.02,0.05,0.03,0.32,0.15,0.07], WATER=[0.06,0.05,0.03,0.02,0.01,0.005], MUDDY=[0.08,0.10,0.09,0.05,0.02,0.01], URBAN=[0.12,0.13,0.14,0.20,0.23,0.21], CLOUD=[0.46,0.46,0.47,0.50,0.40,0.31];
+var GREEN={1:[0.05,0.15,0.95,0.35],2:[0.9,0.25,0.05,0.45],3:[0.35,0.2,0.75,0.5],4:[0.8,0.75,0.95,0.85]};
+var lc=new Uint8Array(S*S), parcelJ=new Float32Array(S*S), flood=new Uint8Array(S*S), img=[0,1,2,3].map(function(){ return new Float32Array(S*S*NB); });
+(function build(){
+  var R=rng(11);
+  var noise=new Float32Array(30*30); for(var i=0;i<noise.length;i++) noise[i]=R();
+  function vn(x,y){ var gx=x/8, gy=y/8, x0=Math.floor(gx), y0=Math.floor(gy), fx=gx-x0, fy=gy-y0; function g(a,b){ return noise[(clamp(b,0,29))*30+clamp(a,0,29)]; } var a=g(x0,y0)*(1-fx)+g(x0+1,y0)*fx, b=g(x0,y0+1)*(1-fx)+g(x0+1,y0+1)*fx; return a*(1-fy)+b*fy; }
+  var pj={};
+  for(var y=0;y<S;y++) for(var x=0;x<S;x++){
+    var k=y*S+x, xc=118+26*Math.sin(y/34)+7*Math.sin(y/11), d=Math.abs(x-xc), c;
+    if(d<4||((x-182)*(x-182)+(y-50)*(y-50)<18*18)) c=0;
+    else if(x<74&&y>146&&vn(x,y)>0.25) c=5;
+    else if(Math.hypot(x-28,y-30)<62+18*(vn(x,y)-0.5)&&x<104) c=4;
+    else if(x>186&&y>184) c=6;
+    else { var px=Math.floor((x+(Math.floor(y/26)%2)*13)/27), py=Math.floor(y/26), key=px+","+py; if(!(key in pj)){ var h=R(); pj[key]={c:h<0.42?1:(h<0.78?2:3), j:(R()-0.5)*0.22}; } c=pj[key].c; parcelJ[k]=pj[key].j; }
+    lc[k]=c; if(d<20&&c!==5&&c!==4) flood[k]=1; if(c===0) flood[k]=1;
+  }
+  for(var t=0;t<4;t++){ var R2=rng(100+t), arr=img[t];
+    for(var k2=0;k2<S*S;k2++){ var cc=lc[k2], sp, yy=Math.floor(k2/S), xx=k2%S;
+      if(t===2&&flood[k2]) sp=(cc===0?WATER:MUDDY);
+      else if(cc===0) sp=WATER; else if(cc===5) sp=URBAN; else if(cc===6) sp=SOIL;
+      else { var g=clamp(GREEN[cc][t]+(cc===4?0:parcelJ[k2]),0,1), base=cc===4?FVEG:VEG; sp=[]; for(var b=0;b<NB;b++) sp.push(SOIL[b]*(1-g)+base[b]*g); }
+      var n=1+0.08*(R2()-0.5);
+      for(var b2=0;b2<NB;b2++){ var v=sp[b2]*n; if(t===0){ var cd=Math.hypot(xx-46,yy-176), a=clamp((30-cd)/10,0,1); v=v*(1-a)+CLOUD[b2]*a; } arr[k2*NB+b2]=v; }
+    }
+  }
+})();
+function ndvi(t,k){ var a=img[t], n=a[k*NB+3], r=a[k*NB+2]; return (n-r)/(n+r+1e-6); }
+var VIEW_SCALE={true:[3.4,3.4,3.4],false:[1.9,2.6,3.0]};
+function toRGB(t,k,view,band){
+  var a=img[t], o=k*NB;
+  if(band!==""&&band!=null){ var v=clamp(Math.pow(a[o+(+band)]/0.5,0.7),0,1)*255; return [v,v,v]; }
+  if(view==="lc"){ var hx=CL[lc[k]].c; return [parseInt(hx.substr(1,2),16),parseInt(hx.substr(3,2),16),parseInt(hx.substr(5,2),16)]; }
+  var ch=view==="false"?[3,2,1]:[2,1,0], s=VIEW_SCALE[view];
+  return ch.map(function(c,i){ return clamp(Math.pow(a[o+c]*s[i],0.8),0,1)*255; });
+}
+var cache={};
+function sceneCanvas(t,view,band){ var key=t+"|"+view+"|"+band; if(cache[key]) return cache[key];
+  var c=document.createElement("canvas"); c.width=S; c.height=S; var x=c.getContext("2d"), id=x.createImageData(S,S);
+  for(var k=0;k<S*S;k++){ var p=toRGB(t,k,view,band); id.data[k*4]=p[0]; id.data[k*4+1]=p[1]; id.data[k*4+2]=p[2]; id.data[k*4+3]=255; }
+  x.putImageData(id,0,0); cache[key]=c; return c; }
+function paint(cv,t,view,band){ var x=cv.getContext("2d"); x.imageSmoothingEnabled=false; x.clearRect(0,0,cv.width,cv.height); x.drawImage(sceneCanvas(t,view,band),0,0,cv.width,cv.height); return x; }
+function grid(x,P,W,col,alpha){ var g=Math.floor(S/P), sc=W/S; x.save(); x.strokeStyle=col; x.globalAlpha=alpha==null?0.55:alpha; x.lineWidth=1; for(var i=0;i<=g;i++){ var p=Math.round(i*P*sc)+0.5; x.beginPath(); x.moveTo(p,0); x.lineTo(p,g*P*sc); x.stroke(); x.beginPath(); x.moveTo(0,p); x.lineTo(g*P*sc,p); x.stroke(); } x.restore(); }
+function evtCell(e,cv,P){ var r=cv.getBoundingClientRect(), px=(e.clientX-r.left)/r.width*S, py=(e.clientY-r.top)/r.height*S; return {x:Math.floor(px),y:Math.floor(py),c:Math.floor(px/P),r:Math.floor(py/P)}; }
+
+// ---------------- state ----------------
+var st={date:2,view:"true",band:"",model:300,pix:{x:150,y:120},patch:{r:7,c:7},query:{t:2,r:7,c:7},maskMode:"random",ratio:0.75,maskSeed:3,attHead:"spatial",attLayer:0,attMode:"pre",decDate:2,decProg:0};
+function P(){ return st.model===300?16:14; } function G(){ return Math.floor(S/P()); } function Dm(){ return st.model===300?1024:1280; }
+
+// ---------------- 1.1 scene ----------------
+var dateSeg=$("scene-date"); dateSeg.innerHTML=DATES.map(function(d,i){ return '<button type="button" data-t="'+i+'" aria-pressed="'+(i===st.date)+'">'+d+'</button>'; }).join("");
+seg("scene-date",function(d){ st.date=+d.t; drawScene(); drawPatch(); });
+seg("scene-view",function(d){ st.view=d.v; $("scene-band").value=""; st.band=""; drawScene(); drawPatch(); });
+$("scene-band").innerHTML+=BANDS.map(function(b,i){ return '<option value="'+i+'">'+b+'</option>'; }).join("");
+$("scene-band").onchange=function(e){ st.band=e.target.value; drawScene(); drawPatch(); };
+$("lc-legend").innerHTML=CL.map(function(c){ return '<span><span class="swatch" style="background:'+c.c+'"></span>'+c.n+'</span>'; }).join("");
+var DATECOL=function(i){ return ["--accent","--green","--ochre","--muted"][i]; };
+$("date-legend").innerHTML=DATES.map(function(d,i){ return '<span><span class="swatch" style="background:var('+DATECOL(i)+')"></span>'+d+'</span>'; }).join("");
+function drawScene(){ var cv=$("scene"), x=paint(cv,st.date,st.view,st.band), sc=cv.width/S;
+  x.strokeStyle="#ffffff"; x.lineWidth=2; x.strokeRect(st.pix.x*sc-4,st.pix.y*sc-4,sc+8,sc+8); x.strokeStyle="#000000"; x.lineWidth=1; x.strokeRect(st.pix.x*sc-6,st.pix.y*sc-6,sc+12,sc+12);
+  var k=st.pix.y*S+st.pix.x; $("pix-title").textContent="Pixel ("+st.pix.x+", "+st.pix.y+") · "+CL[lc[k]].n+(flood[k]&&lc[k]!==0?" · flooded in Aug":"");
+  var svg=$("pix-chart"), W=420,H=230,L=40,B=200,T=12, gw=(W-L-8)/6, s='', mx=0.5;
+  for(var g=0;g<=5;g++){ var yv=g*0.1, yy=B-(yv/mx)*(B-T); s+='<line x1="'+L+'" x2="'+(W-6)+'" y1="'+yy+'" y2="'+yy+'" stroke="var(--line)"/><text x="'+(L-6)+'" y="'+(yy+4)+'" text-anchor="end" font-size="10" fill="var(--muted)">'+yv.toFixed(1)+'</text>'; }
+  for(var b=0;b<6;b++){ for(var t=0;t<4;t++){ var v=img[t][k*NB+b], h=(Math.min(v,mx)/mx)*(B-T), bx=L+b*gw+6+t*((gw-12)/4); s+='<rect x="'+bx.toFixed(1)+'" y="'+(B-h).toFixed(1)+'" width="'+((gw-12)/4-2).toFixed(1)+'" height="'+h.toFixed(1)+'" fill="var('+DATECOL(t)+')"'+(t===st.date?'':' fill-opacity="0.55"')+'/>'; }
+    s+='<text x="'+(L+b*gw+gw/2)+'" y="'+(B+16)+'" text-anchor="middle" font-size="11" fill="var(--muted)">'+BANDS[b]+'</text>'; }
+  s+='<text x="'+(L)+'" y="9" font-size="10" fill="var(--muted)">reflectance</text>';
+  svg.innerHTML=s; }
+$("scene").addEventListener("click",function(e){ var c=evtCell(e,$("scene"),1); st.pix={x:clamp(c.x,0,S-1),y:clamp(c.y,0,S-1)}; drawScene(); });
+
+// ---------------- 1.2 patch ----------------
+seg("model-seg",function(d){ st.model=+d.m; var g=G(); st.patch={r:Math.min(st.patch.r,g-1),c:Math.min(st.patch.c,g-1)}; st.query={t:st.query.t,r:Math.min(st.query.r,g-1),c:Math.min(st.query.c,g-1)}; newMask(); renderAll(); });
+var projCache={};
+function proj(n){ if(projCache[n]) return projCache[n]; var R=rng(5+n), m=new Float32Array(48*n); for(var i=0;i<m.length;i++) m[i]=(R()-0.5)*2/Math.sqrt(n); projCache[n]=m; return m; }
+function patchVec(t,r,c){ var p=P(), n=p*p*NB, v=new Float32Array(n), q=0; for(var b=0;b<NB;b++) for(var yy=0;yy<p;yy++) for(var xx=0;xx<p;xx++){ v[q++]=img[t][((r*p+yy)*S+(c*p+xx))*NB+b]; } return v; }
+function patchMean(t,r,c){ var p=P(), m=[0,0,0,0,0,0]; for(var yy=0;yy<p;yy++) for(var xx=0;xx<p;xx++){ var o=((r*p+yy)*S+(c*p+xx))*NB; for(var b=0;b<NB;b++) m[b]+=img[t][o+b]; } return m.map(function(v){ return v/(p*p); }); }
+function drawPatch(){ var cv=$("patch"), x=paint(cv,st.date,st.view,st.band), p=P(), sc=cv.width/S; grid(x,p,cv.width,"#ffffff",0.5);
+  x.strokeStyle=css("--ochre"); x.lineWidth=3; x.strokeRect(st.patch.c*p*sc,st.patch.r*p*sc,p*sc,p*sc);
+  var g=G(), used=g*p; if(used<S){ x.fillStyle="rgba(0,0,0,0.35)"; x.fillRect(used*sc,0,cv.width-used*sc,cv.height); x.fillRect(0,used*sc,cv.width,cv.height-used*sc); }
+  var t=st.date, r=st.patch.r, c=st.patch.c;
+  $("tok-title").textContent="Token for date "+DATES[t]+", patch row "+r+", column "+c;
+  var host=$("tok-bands"); host.innerHTML="";
+  for(var b=0;b<NB;b++){ var fc=document.createElement("figure"); fc.style.margin="0"; fc.style.display="flex"; fc.style.flexDirection="column"; fc.style.alignItems="center"; fc.style.gap="2px";
+    var mc=document.createElement("canvas"); mc.width=p; mc.height=p; mc.style.width="52px"; mc.style.height="52px"; var mx=mc.getContext("2d"), id=mx.createImageData(p,p);
+    for(var yy=0;yy<p;yy++) for(var xx=0;xx<p;xx++){ var v=clamp(Math.pow(img[t][((r*p+yy)*S+(c*p+xx))*NB+b]/0.5,0.7),0,1)*255, q=(yy*p+xx)*4; id.data[q]=v; id.data[q+1]=v; id.data[q+2]=v; id.data[q+3]=255; }
+    mx.putImageData(id,0,0); var cap=document.createElement("figcaption"); cap.textContent=BANDS[b]; cap.style.fontSize=".7rem"; cap.style.color="var(--muted)"; fc.appendChild(mc); fc.appendChild(cap); host.appendChild(fc); }
+  var n=p*p*NB; $("tok-flow").innerHTML="6 bands × "+p+" × "+p+" pixels = <b>"+fmt(n)+"</b> numbers → one learned linear map → <b>"+fmt(Dm())+"</b> numbers.";
+  var v=patchVec(t,r,c), m=proj(n), out=[]; for(var i=0;i<48;i++){ var s=0; for(var j=0;j<n;j++) s+=m[i*n+j]*v[j]; out.push(s); }
+  var amx=Math.max.apply(null,out.map(Math.abs))||1, sv='';
+  out.forEach(function(o,i){ var a=Math.abs(o)/amx; sv+='<rect x="'+(i*10)+'" y="1" width="9" height="24" rx="2" fill="var('+(o<0?'--accent':'--ochre')+')" fill-opacity="'+(0.15+0.85*a).toFixed(2)+'"/>'; });
+  $("tok-vec").innerHTML=sv;
+  $("tok-stat").innerHTML='<span>Grid: <b>'+g+' × '+g+'</b> patches per date</span><span>Tokens: <b>4 × '+(g*g)+' = '+fmt(4*g*g)+'</b></span><span>Patch footprint: <b>'+(p*30)+' m</b></span>'+(used<S?'<span>'+(S-used)+' px edge would be dropped: sides must be multiples of the patch size</span>':'');
+  drawPETok(); drawMeta(); drawFilter(); }
+$("flt-k").oninput=drawFilter;
+function drawFilter(){ var k=+$("flt-k").value, p=P(), n=p*p*NB, m=proj(n), v=patchVec(st.date,st.patch.r,st.patch.c), host=$("flt-bands"); $("flt-k-out").textContent="#"+(k+1);
+  var mx=0; for(var j=0;j<n;j++) mx=Math.max(mx,Math.abs(m[k*n+j])); host.innerHTML=""; var out=0, per=[0,0,0,0,0,0];
+  for(var b=0;b<NB;b++){ var fc=document.createElement("figure"); fc.style.cssText="margin:0;display:flex;flex-direction:column;align-items:center;gap:2px"; var mc=document.createElement("canvas"); mc.width=p; mc.height=p; mc.style.width="52px"; mc.style.height="52px"; var mxx=mc.getContext("2d"), a=css("--accent"), o=css("--ochre");
+    for(var yy=0;yy<p;yy++) for(var xx=0;xx<p;xx++){ var idx=b*p*p+yy*p+xx, w=m[k*n+idx]; out+=w*v[idx]; per[b]+=w*v[idx]; mxx.fillStyle=w<0?a:o; mxx.globalAlpha=0.15+0.85*Math.abs(w)/mx; mxx.fillRect(xx,yy,1,1); }
+    var cap=document.createElement("figcaption"); cap.textContent=BANDS[b]; cap.style.cssText="font-size:.7rem;color:var(--muted)"; fc.appendChild(mc); fc.appendChild(cap); host.appendChild(fc); }
+  $("flt-out").innerHTML='<span>Filter weights (blue negative, orange positive) for the 6 bands × '+p+' × '+p+' pixels of one cube.</span><span>Output for the selected patch = Σ weight × pixel value = <b>'+out.toFixed(3)+'</b>, number '+(k+1)+' of the token.</span>'; }
+$("patch").addEventListener("click",function(e){ var c=evtCell(e,$("patch"),P()), g=G(); st.patch={r:clamp(c.r,0,g-1),c:clamp(c.c,0,g-1)}; st.query={t:st.date,r:st.patch.r,c:st.patch.c}; drawPatch(); drawAtt(); });
+
+// ---------------- 1.3 positions ----------------
+function pe(D,pos,base){ var o=new Float32Array(D); for(var i=0;i<D/2;i++){ var w=1/Math.pow(base,2*i/D); o[2*i]=Math.sin(pos*w); o[2*i+1]=Math.cos(pos*w); } return o; }
+function peCol(v){ var a=css("--accent"), b=css("--ochre"); return {c:v<0?a:b, a:Math.abs(v)}; }
+var peSt={axis:"col",pair:0,trig:"sin",band:"fine",ref:{t:2,r:7,c:7}};
+function axisDims(){ var D=Dm(); return {time:D/16*4,row:D/16*6,col:D/16*6}; }
+function wl(Dax,i,base){ return 2*Math.PI*Math.pow(base,2*i/Dax); }
+function peBase(){ return +$("pe-base").value; }
+seg("pe-axis",function(d){ peSt.axis=d.k; drawPETiles(); }); seg("pe-trig",function(d){ peSt.trig=d.k; drawPETiles(); }); seg("pe-band",function(d){ peSt.band=d.k; drawPESim(); });
+$("pe-pair").oninput=function(e){ peSt.pair=+e.target.value; drawPETiles(); };
+function cellColor(x,v,X,Y,w,h){ var q=peCol(v); x.fillStyle=q.c; x.globalAlpha=0.12+0.83*Math.min(1,q.a); x.fillRect(X,Y,w,h); x.globalAlpha=1; }
+function drawPETiles(){ quad("pe-quad","pq"); var g=G(), p=P(), Dax=axisDims()[peSt.axis], base=peBase(), sl=$("pe-pair"); sl.max=Dax/2-1; if(peSt.pair>Dax/2-1){ peSt.pair=Dax/2-1; sl.value=peSt.pair; }
+  $("pe-pair-out").textContent=peSt.pair; var L=wl(Dax,peSt.pair,base);
+  $("pe-tile-title").textContent=(peSt.axis==="col"?"Column":peSt.axis==="row"?"Row":"Date")+" code, pair "+peSt.pair+" ("+peSt.trig+"): wavelength "+(L<100?L.toFixed(1):fmt(L))+" "+(peSt.axis==="time"?"dates":"patches")+" · this axis has "+Dax+" dimensions";
+  for(var t=0;t<4;t++){ var cv=$("pq"+t), x=paint(cv,t,"true",""), s=cv.width/S; x.fillStyle=css("--bg"); x.globalAlpha=0.6; x.fillRect(0,0,cv.width,cv.height); x.globalAlpha=1;
+    for(var r=0;r<g;r++) for(var c=0;c<g;c++){ var pos=peSt.axis==="col"?c:peSt.axis==="row"?r:t, w=1/Math.pow(base,2*peSt.pair/Dax), v=peSt.trig==="sin"?Math.sin(pos*w):Math.cos(pos*w); cellColor(x,v,c*p*s+1,r*p*s+1,p*s-2,p*s-2); } } }
+function bandPairs(Dax,base){ var out=[]; for(var i=0;i<Dax/2;i++){ var L=wl(Dax,i,base); if(peSt.band==="all"||(peSt.band==="fine"&&L<12)||(peSt.band==="mid"&&L>=12&&L<=50)||(peSt.band==="coarse"&&L>50)) out.push(i); } return out; }
+function code(t,r,c,sel,base,dims){ var v=[]; [["time",t],["row",r],["col",c]].forEach(function(a){ var Dax=dims[a[0]]; sel[a[0]].forEach(function(i){ var w=1/Math.pow(base,2*i/Dax); v.push(Math.sin(a[1]*w),Math.cos(a[1]*w)); }); }); return v; }
+var PEBANDTXT={fine:"Short waves change sign within a few patches, so they separate a patch from its immediate neighbours in x, y and t. On their own they also repeat: patches one wavelength away look alike again, which is why they are never used alone.",mid:"Medium waves vary smoothly across the tile, tying a patch to others in its own part of the tile and separating it from the far side.",coarse:"Long waves barely change across 14 patches or 4 dates, so almost everything looks similar. They matter for bigger inputs, such as 448-pixel chips or 20-date series, where positions run further.",all:"Together the waves give a sharp peak at the reference patch that fades with distance along x, y and t. This is what lets attention learn relationships such as 'the patch to my left' or 'this place, one date later'."};
+function drawPESim(){ quad("pe-squad","ps"); var g=G(), p=P(), base=peBase(), dims=axisDims(), sel={time:bandPairs(dims.time,base),row:bandPairs(dims.row,base),col:bandPairs(dims.col,base)}, R=peSt.ref;
+  R={t:R.t,r:Math.min(R.r,g-1),c:Math.min(R.c,g-1)}; peSt.ref=R; var ref=code(R.t,R.r,R.c,sel,base,dims), sims=[], mn=1;
+  function cs(a,b){ if(!a.length) return 1; var d=0,na=0,nb=0; for(var i=0;i<a.length;i++){ d+=a[i]*b[i]; na+=a[i]*a[i]; nb+=b[i]*b[i]; } return d/Math.sqrt(na*nb+1e-12); }
+  for(var t=0;t<4;t++){ sims.push([]); for(var r=0;r<g;r++){ sims[t].push([]); for(var c=0;c<g;c++){ var v=cs(ref,code(t,r,c,sel,base,dims)); sims[t][r].push(v); mn=Math.min(mn,v); } } }
+  for(var t2=0;t2<4;t2++){ var cv=$("ps"+t2), x=paint(cv,t2,"true",""), s=cv.width/S; x.fillStyle=css("--bg"); x.globalAlpha=0.7; x.fillRect(0,0,cv.width,cv.height); x.globalAlpha=1;
+    for(var r2=0;r2<g;r2++) for(var c2=0;c2<g;c2++){ var a=(sims[t2][r2][c2]-mn)/(1-mn+1e-9); x.fillStyle=css("--accent"); x.globalAlpha=Math.pow(Math.max(0,a),1.5)*0.95; x.fillRect(c2*p*s+1,r2*p*s+1,p*s-2,p*s-2); x.globalAlpha=1; }
+    if(t2===R.t){ x.strokeStyle=css("--ochre"); x.lineWidth=3; x.strokeRect(R.c*p*s,R.r*p*s,p*s,p*s); } }
+  $("pe-sim-stat").innerHTML='<span>Pairs used: <b>'+sel.col.length+'</b> of '+dims.col/2+' for x, <b>'+sel.row.length+'</b> for y, <b>'+sel.time.length+'</b> of '+dims.time/2+' for t</span><span>Reference: date '+DATES[R.t]+', row '+R.r+', column '+R.c+'</span>';
+  $("pe-sim-note").textContent=PEBANDTXT[peSt.band]; }
+document.addEventListener("click",function(e){ var cv=e.target.closest&&e.target.closest("canvas"); if(!cv||!/^p[sq]\d$/.test(cv.id)) return; var c=evtCell(e,cv,P()), g=G(); peSt.ref={t:+cv.id.slice(2),r:clamp(c.r,0,g-1),c:clamp(c.c,0,g-1)}; drawPESim(); });
+function drawPE(){ var D=+$("pe-d").value, base=peBase(), N=G(); $("pe-d-out").textContent=D;
+  var svg=$("pe-wave"), W=420,H=224,L=44,B=196,T=10, s='', half=D/2, maxL=Math.log10(2*Math.PI*base)+0.2, minL=0.5;
+  function yv(L10){ return B-(L10-minL)/(maxL-minL)*(B-T); }
+  for(var e=1;e<=Math.ceil(maxL);e++){ var yy=yv(e); if(yy<T) continue; s+='<line x1="'+L+'" x2="'+(W-6)+'" y1="'+yy+'" y2="'+yy+'" stroke="var(--line)"/><text x="'+(L-6)+'" y="'+(yy+4)+'" text-anchor="end" font-size="10" fill="var(--muted)">'+fmt(Math.pow(10,e))+'</text>'; }
+  var yN=yv(Math.log10(N)); s+='<line x1="'+L+'" x2="'+(W-6)+'" y1="'+yN+'" y2="'+yN+'" stroke="var(--ochre)" stroke-dasharray="5 4"/><text x="'+(W-8)+'" y="'+(yN-5)+'" text-anchor="end" font-size="11" fill="var(--ochre)">grid width = '+N+' patches</text>';
+  var pts=[]; for(var i=0;i<half;i++){ pts.push((L+i/(half-1||1)*(W-L-8)).toFixed(1)+","+yv(Math.log10(wl(D,i,base))).toFixed(1)); }
+  s+='<polyline points="'+pts.join(" ")+'" fill="none" stroke="var(--accent)" stroke-width="2"/>';
+  s+='<text x="'+L+'" y="'+(B+18)+'" font-size="10" fill="var(--muted)">pair 0</text><text x="'+(W-8)+'" y="'+(B+18)+'" text-anchor="end" font-size="10" fill="var(--muted)">pair '+(half-1)+'</text>';
+  var below=0; for(var j=0;j<half;j++){ if(wl(D,j,base)<2*N) below++; }
+  s+='<text x="'+(L+6)+'" y="'+(T+12)+'" font-size="11" fill="var(--ink)">'+below+' of '+half+' pairs complete half a cycle within the grid</text>';
+  svg.innerHTML=s; drawPETiles(); drawPESim(); }
+$("pe-d").oninput=drawPE; $("pe-base").onchange=drawPE;
+function strip(vals,y,h,label,W0){ var s='<text x="0" y="'+(y-3)+'" font-size="10" fill="var(--muted)">'+label+'</text>', n=vals.length, cw=(W0||480)/n; for(var i=0;i<n;i++){ var q=peCol(vals[i]); s+='<rect x="'+(i*cw).toFixed(2)+'" y="'+y+'" width="'+(cw+0.3).toFixed(2)+'" height="'+h+'" fill="'+q.c+'" fill-opacity="'+(0.1+0.9*Math.min(1,q.a)).toFixed(2)+'"/>'; } return s; }
+function drawPETok(){ var D=Dm(), dt=D/16*4, dh=D/16*6, t=st.date, r=st.patch.r, c=st.patch.c;
+  var vt=pe(dt,t,10000), vr=pe(dh,r,10000), vc=pe(dh,c,10000), all=[].concat(Array.from(vt),Array.from(vr),Array.from(vc));
+  var s=strip(Array.from(vt),12,16,"time = "+t+"  ("+dt+" dims)",480*dt/D);
+  s=s+'<g transform="translate('+(480*dt/D)+',0)">'+strip(Array.from(vr),12,16,"row = "+r+"  ("+dh+")",480*dh/D)+'</g><g transform="translate('+(480*(dt+dh)/D)+',0)">'+strip(Array.from(vc),12,16,"column = "+c+"  ("+dh+")",480*dh/D)+'</g>';
+  s+=strip(all,64,22,"concatenated: the "+fmt(D)+"-number position code added to this token");
+  $("pe-tok").innerHTML=s; $("pe-tok-title").textContent="Position code of the selected patch (date "+DATES[t]+", row "+r+", column "+c+")";
+  $("pe-tok-note").textContent="Select another patch in 1.2 or another date in 1.1 and watch the matching block change. The time block varies little: with 4 dates, only its fastest waves differ between positions."; }
+function drawMeta(){ var D=Dm(), lat=+$("md-lat").value||0, lon=+$("md-lon").value||0, yr=+$("md-year").value||2023, doy=+$("md-doy").value||1, dL=$("md-dropL").checked, dT=$("md-dropT").checked, h=D/2;
+  var loc=[].concat(Array.from(pe(h,lat,10000)),Array.from(pe(h,lon,10000))).slice(0,96), tim=[].concat(Array.from(pe(h,yr,10000)),Array.from(pe(h,doy,10000))).slice(0,96);
+  var n=patchVec(st.date,st.patch.r,st.patch.c).length, m=proj(n), v=patchVec(st.date,st.patch.r,st.patch.c), tok=[]; for(var i=0;i<48;i++){ var s0=0; for(var j=0;j<n;j++) s0+=m[i*n+j]*v[j]; tok.push(s0*4,s0*4); }
+  var pos=[].concat(Array.from(pe(D/16*4,st.date,10000))).slice(0,96);
+  var wL=dL?0:0.6, wT=dT?0:0.4, sum=tok.map(function(x,i){ return x+pos[i]+wL*loc[i]+wT*tim[i]; });
+  var s=strip(tok,10,12,"patch embedding (from 1.2)")+strip(pos,36,12,"+ position code")+strip(loc.map(function(x){return x*wL;}),62,12,"+ w_L × location"+(dL?" (dropped)":""))+strip(tim.map(function(x){return x*wT;}),88,12,"+ w_T × date"+(dT?" (dropped)":""));
+  s+=strip(sum,110,10,"= the token that enters the encoder");
+  var rows=[0,16,64,128,255].map(function(i){ var w=1/Math.pow(10000,2*i/h); return '<tr><td>'+i+'</td><td class="num">'+(2*Math.PI/w<1000?(2*Math.PI/w).toFixed(1):fmt(2*Math.PI/w))+'</td><td class="num">'+Math.sin(lat*w).toFixed(3)+'</td><td class="num">'+Math.cos(lat*w).toFixed(3)+'</td><td class="num">'+Math.sin(doy*w).toFixed(3)+'</td><td class="num">'+Math.cos(doy*w).toFixed(3)+'</td></tr>'; }).join("");
+  $("md-table").querySelector("tbody").innerHTML=rows; $("md-strip").setAttribute("viewBox","0 0 480 124"); $("md-strip").innerHTML=s; }
+["md-lat","md-lon","md-year","md-doy","md-dropL","md-dropT"].forEach(function(id){ $(id).addEventListener("input",drawMeta); $(id).addEventListener("change",drawMeta); });
+
+// ---------------- 1.4 masking ----------------
+var mask=null; // mask[t][r][c] (true = hidden) ; bands mode: maskB[t][r][c][g]
+var GROUPS=[{n:"visible",b:[0,1,2]},{n:"NIR",b:[3]},{n:"SWIR",b:[4,5]}];
+function newMask(){ var g=G(), R=rng(st.maskSeed*97+g), ratio=st.ratio, m=[], mb=[];
+  for(var t=0;t<4;t++){ m.push([]); mb.push([]); for(var r=0;r<g;r++){ m[t].push(new Array(g).fill(false)); mb[t].push([]); for(var c=0;c<g;c++) mb[t][r].push([false,false,false]); } }
+  function pick(n,k){ var a=[]; for(var i=0;i<n;i++) a.push(i); for(var j=n-1;j>0;j--){ var q=Math.floor(R()*(j+1)), tmp=a[j]; a[j]=a[q]; a[q]=tmp; } return a.slice(0,k); }
+  if(st.maskMode==="random"){ pick(4*g*g,Math.round(ratio*4*g*g)).forEach(function(i){ var t=Math.floor(i/(g*g)), rc=i%(g*g); m[t][Math.floor(rc/g)][rc%g]=true; }); }
+  else if(st.maskMode==="tube"){ pick(g*g,Math.round(ratio*g*g)).forEach(function(i){ for(var t=0;t<4;t++) m[t][Math.floor(i/g)][i%g]=true; }); }
+  else if(st.maskMode==="frame"){ var nd=clamp(Math.round(ratio*4),1,3); pick(4,nd).forEach(function(t){ for(var r=0;r<g;r++) for(var c=0;c<g;c++) m[t][r][c]=true; }); }
+  else { pick(4*g*g*3,Math.round(ratio*4*g*g*3)).forEach(function(i){ var gi=i%3, rest=Math.floor(i/3), t=Math.floor(rest/(g*g)), rc=rest%(g*g); mb[t][Math.floor(rc/g)][rc%g][gi]=true; });
+    for(var t2=0;t2<4;t2++) for(var r2=0;r2<g;r2++) for(var c2=0;c2<g;c2++) m[t2][r2][c2]=mb[t2][r2][c2].every(Boolean); }
+  mask={m:m,mb:mb}; }
+function hidden(t,r,c){ return mask.m[t][r][c]; }
+seg("mask-mode",function(d){ st.maskMode=d.k; newMask(); drawMask(); drawAtt(); drawDec(); });
+$("mask-ratio").oninput=function(e){ st.ratio=+e.target.value; $("mask-ratio-out").textContent=Math.round(st.ratio*100)+"%"; newMask(); drawMask(); drawAtt(); drawDec(); };
+$("mask-new").onclick=function(){ st.maskSeed++; newMask(); drawMask(); drawAtt(); drawDec(); };
+function quad(hostId,prefix){ var h=$(hostId); if(h.childElementCount) return; h.innerHTML=DATES.map(function(d,i){ return '<figure><canvas id="'+prefix+i+'" class="click" width="224" height="224" style="width:100%" tabindex="0" aria-label="'+d+'"></canvas><figcaption>'+d+'</figcaption></figure>'; }).join(""); }
+var MASKTXT={random:"Prithvi's choice. Hidden tokens are scattered over all dates and positions, so most still have a clue in time (the same place visible on another date) and in space (a visible neighbour). The model learns both kinds of inference at once. In stable areas such as the forest or the town, copying from another date is an easy shortcut.",
+ tube:"The same patch is hidden on every date, as video MAEs often do. Temporal clues vanish, so the model must reconstruct from spatial neighbours. This teaches spatial context but no change over time.",
+ frame:"Whole dates are hidden. Spatial clues vanish for those dates, so the model must predict a date from the others: pure temporal inference, which would emphasise phenology and change.",
+ bands:"Not used by Prithvi. Each patch is split into three band groups (visible, NIR, SWIR) masked independently, as SatMAE did. A hidden group can be inferred from the other groups of the same patch, which teaches band-to-band relationships and robustness to missing bands. Prithvi's tokens always hide all six bands together."};
+function drawMask(){ quad("mask-quad","mq"); var g=G(), p=P(), cnt=0, tot=0, tc=0, sc=0, none=0, spec=0, groups=0, ghid=0;
+  for(var t=0;t<4;t++){ var cv=$("mq"+t), x=paint(cv,t,"true",""), s=cv.width/S;
+    for(var r=0;r<g;r++) for(var c=0;c<g;c++){
+      if(st.maskMode==="bands"){ var mb=mask.mb[t][r][c]; for(var gi=0;gi<3;gi++){ groups++; if(mb[gi]){ ghid++; x.fillStyle=css("--surface"); x.globalAlpha=0.92; x.fillRect((c*p+gi*p/3)*s,r*p*s,p/3*s+0.5,p*s); x.globalAlpha=1; if(mb.some(function(v,i){return i!==gi&&!v;})) spec++; } } continue; }
+      tot++; if(!hidden(t,r,c)) continue; cnt++; x.fillStyle=css("--surface"); x.globalAlpha=0.92; x.fillRect(c*p*s,r*p*s,p*s+0.5,p*s+0.5); x.globalAlpha=1;
+      var hasT=false; for(var u=0;u<4;u++) if(u!==t&&!hidden(u,r,c)) hasT=true;
+      var hasS=[[1,0],[-1,0],[0,1],[0,-1]].some(function(o){ var rr=r+o[0], cc=c+o[1]; return rr>=0&&cc>=0&&rr<g&&cc<g&&!hidden(t,rr,cc); });
+      if(hasT) tc++; if(hasS) sc++; if(!hasT&&!hasS) none++; }
+    grid(x,p,cv.width,css("--line"),0.6); }
+  var html;
+  if(st.maskMode==="bands") html='<span>Hidden band groups: <b>'+ghid+' / '+groups+'</b></span><span>Hidden groups whose patch still shows another group: <b>'+(ghid?Math.round(spec/ghid*100):0)+'%</b></span>';
+  else html='<span>Hidden tokens: <b>'+cnt+' / '+tot+'</b></span><span>with a temporal clue: <b>'+(cnt?Math.round(tc/cnt*100):0)+'%</b></span><span>with a spatial clue: <b>'+(cnt?Math.round(sc/cnt*100):0)+'%</b></span><span>with no direct clue: <b>'+(cnt?Math.round(none/cnt*100):0)+'%</b></span><span>Encoder input: <b>'+(tot-cnt)+'</b> tokens</span>';
+  $("mask-stat").innerHTML=html; $("mask-explain").textContent=MASKTXT[st.maskMode]; }
+
+// ---------------- 1.5 attention ----------------
+seg("att-head",function(d){ st.attHead=d.k; drawAtt(); }); seg("att-layer",function(d){ st.attLayer=+d.k; drawAtt(); }); seg("att-mode",function(d){ st.attMode=d.k; drawAtt(); });
+var meanCache={};
+function means(){ var key=st.model; if(meanCache[key]) return meanCache[key]; var g=G(), out=[], gm=[0,0,0,0,0,0], n=0;
+  for(var t=0;t<4;t++){ out.push([]); for(var r=0;r<g;r++){ out[t].push([]); for(var c=0;c<g;c++){ var m=patchMean(t,r,c); out[t][r].push(m); for(var b=0;b<6;b++) gm[b]+=m[b]; n++; } } }
+  gm=gm.map(function(v){ return v/n; }); meanCache[key]={m:out,g:gm}; return meanCache[key]; }
+function attWeights(q){ var g=G(), M=means(), L=st.attLayer, w=[], sum=0, fq=M.m[q.t][q.r][q.c].map(function(v,b){ return v-M.g[b]; });
+  function cos(a,b){ var d=0,na=0,nb=0; for(var i=0;i<6;i++){ d+=a[i]*b[i]; na+=a[i]*a[i]; nb+=b[i]*b[i]; } return d/Math.sqrt(na*nb+1e-9); }
+  for(var t=0;t<4;t++){ w.push([]); for(var r=0;r<g;r++){ w[t].push([]); for(var c=0;c<g;c++){
+    var d2=(r-q.r)*(r-q.r)+(c-q.c)*(c-q.c), same=t===q.t, sp, tp, sm;
+    var sig=L?3.5:1.2; sp=Math.exp(-d2/(2*sig*sig))*(same?1:0.08);
+    tp=(same?0.05:1)*Math.exp(-d2/(L?6:1.5));
+    var f=M.m[t][r][c].map(function(v,b){ return v-M.g[b]; }); sm=Math.exp((L?9:3)*cos(fq,f));
+    var v=st.attHead==="spatial"?sp:st.attHead==="temporal"?tp:st.attHead==="similar"?sm/40:(sp+tp+sm/40)/3;
+    if(st.attMode==="pre"&&hidden(t,r,c)) v=0; w[t][r].push(v); sum+=v; } } }
+  return {w:w,sum:sum}; }
+function drawAtt(){ quad("att-quad","aq"); var g=G(), p=P(), q=st.query, qHidden=st.attMode==="pre"&&hidden(q.t,q.r,q.c), A=qHidden?null:attWeights(q), mx=0;
+  if(A){ for(var t=0;t<4;t++) for(var r=0;r<g;r++) for(var c=0;c<g;c++) mx=Math.max(mx,A.w[t][r][c]); }
+  for(var t2=0;t2<4;t2++){ var cv=$("aq"+t2), x=paint(cv,t2,"true",""), s=cv.width/S; x.fillStyle="rgba(0,0,0,0.55)"; x.fillRect(0,0,cv.width,cv.height);
+    for(var r2=0;r2<g;r2++) for(var c2=0;c2<g;c2++){
+      if(st.attMode==="pre"&&hidden(t2,r2,c2)){ x.fillStyle=css("--surface"); x.globalAlpha=0.9; x.fillRect(c2*p*s,r2*p*s,p*s+0.5,p*s+0.5); x.globalAlpha=1; continue; }
+      if(A){ var a=A.w[t2][r2][c2]/mx; x.globalAlpha=Math.pow(a,0.6); x.drawImage(sceneCanvas(t2,"true",""),c2*p,r2*p,p,p,c2*p*s,r2*p*s,p*s,p*s); x.fillStyle=css("--ochre"); x.globalAlpha=0.5*Math.pow(a,0.6); x.fillRect(c2*p*s,r2*p*s,p*s,p*s); x.globalAlpha=1; } }
+    if(t2===q.t){ x.strokeStyle="#ffffff"; x.lineWidth=3; x.strokeRect(q.c*p*s,q.r*p*s,p*s,p*s); } }
+  var HTXT={spatial:"The spatial head mostly reads nearby patches on the query's own date. In an early layer it stays very local; in a late layer it gathers a wider neighbourhood.",temporal:"The temporal head reads the same place on other dates, which is how the encoder sees a field green up or a river flood.",similar:"The look-alike head reads patches whose spectra resemble the query's anywhere in the sample, for example other fields of the same crop. This head uses the actual scene spectra.",mix:"With all heads combined, each token's new vector blends its spatial context, its own history and look-alike patches elsewhere."};
+  var extra=qHidden?" The selected query is hidden in pre-training, so the encoder never sees it: the decoder has to rebuild it. Pick a visible patch or switch to fine-tuning.":(st.attMode==="pre"?" Hidden tokens (white) are absent from the encoder during pre-training, which is why MAE pre-training is cheap: with 75% masking the encoder processes a quarter of the tokens.":" In fine-tuning nothing is masked, so every token takes part.");
+  $("att-explain").textContent=HTXT[st.attHead]+extra; }
+document.addEventListener("click",function(e){ var cv=e.target.closest&&e.target.closest("canvas"); if(!cv||!/^aq\d$/.test(cv.id)) return; var c=evtCell(e,cv,P()), g=G(); st.query={t:+cv.id.slice(2),r:clamp(c.r,0,g-1),c:clamp(c.c,0,g-1)}; drawAtt(); });
+
+// ---------------- 1.6 decoder ----------------
+$("dec-date").innerHTML=DATES.map(function(d,i){ return '<button type="button" data-t="'+i+'" aria-pressed="'+(i===st.decDate)+'">'+d+'</button>'; }).join("");
+seg("dec-date",function(d){ st.decDate=+d.t; drawDec(); });
+$("dec-prog").oninput=function(e){ st.decProg=+e.target.value; $("dec-prog-out").textContent=st.decProg+"%"; drawDec(); };
+function drawDec(){ var t=st.decDate, g=G(), p=P(), M=means(), pr=st.decProg/100;
+  var cin=$("dec-in"), xi=paint(cin,t,"true",""), s=cin.width/S, cout=$("dec-out"), xo=paint(cout,t,"true",""); paint($("dec-true"),t,"true","");
+  var dmAll=[0,1,2,3].map(function(u){ var a=[0,0,0,0,0,0]; for(var r=0;r<g;r++) for(var c=0;c<g;c++) for(var b=0;b<6;b++) a[b]+=M.m[u][r][c][b]/(g*g); return a; }), dm=dmAll[t];
+  var se=0, n=0, se0=0;
+  for(var r2=0;r2<g;r2++) for(var c2=0;c2<g;c2++){ var hid=st.maskMode==="bands"?mask.mb[t][r2][c2].some(Boolean):hidden(t,r2,c2); if(!hid) continue;
+    xi.fillStyle=css("--surface"); xi.globalAlpha=0.92; xi.fillRect(c2*p*s,r2*p*s,p*s+0.5,p*s+0.5); xi.globalAlpha=1;
+    var est=[0,0,0,0,0,0], wsum=0;
+    for(var u=0;u<4;u++){ if(u===t||hidden(u,r2,c2)) continue; for(var b2=0;b2<6;b2++){ est[b2]+=M.m[u][r2][c2][b2]+(dmAll[t][b2]-dmAll[u][b2]); } wsum++; }
+    var tEst=wsum?est.map(function(v){ return v/wsum; }):null;
+    var ns=[0,0,0,0,0,0], nn=0; [[1,0],[-1,0],[0,1],[0,-1],[1,1],[-1,-1],[1,-1],[-1,1]].forEach(function(o){ var rr=r2+o[0], cc=c2+o[1]; if(rr<0||cc<0||rr>=g||cc>=g||hidden(t,rr,cc)) return; for(var b3=0;b3<6;b3++) ns[b3]+=M.m[t][rr][cc][b3]; nn++; });
+    var sEst=nn?ns.map(function(v){ return v/nn; }):null, tgt=M.m[t][r2][c2];
+    var guess=dm.slice(); if(tEst&&sEst) guess=tEst.map(function(v,b){ return 0.5*v+0.5*sEst[b]; }); else if(tEst) guess=tEst; else if(sEst) guess=sEst;
+    var learned=guess.map(function(v,b){ return 0.35*v+0.65*tgt[b]; });
+    var outv=dm.map(function(v,b){ return pr<0.5? v+(guess[b]-v)*(pr/0.5) : guess[b]+(learned[b]-guess[b])*((pr-0.5)/0.5); });
+    var rgb=[2,1,0].map(function(ch){ return Math.round(clamp(Math.pow(outv[ch]*3.4,0.8),0,1)*255); });
+    xo.fillStyle="rgb("+rgb.join(",")+")"; xo.fillRect(c2*p*s,r2*p*s,p*s+0.5,p*s+0.5);
+    for(var yy=0;yy<p;yy++) for(var xx=0;xx<p;xx++){ var o=((r2*p+yy)*S+(c2*p+xx))*NB; for(var b4=0;b4<6;b4++){ var e1=img[t][o+b4]-outv[b4], e0=img[t][o+b4]-dm[b4]; se+=e1*e1; se0+=e0*e0; n++; } } }
+  grid(xi,p,cin.width,css("--line"),0.5);
+  var Ntok=4*g*g, hidN=0; for(var tt=0;tt<4;tt++) for(var rr=0;rr<g;rr++) for(var cc=0;cc<g;cc++) if(hidden(tt,rr,cc)) hidN++; var V=Ntok-hidN, D=Dm(), px=p*p*6;
+  var ar=[["Encoder output (visible tokens only)","(B, "+V+", "+fmt(D)+")","what the encoder produced in 1.5"],["Linear projection","(B, "+V+", 512)","shrink to the decoder's width"],["Insert mask tokens and restore order","(B, "+Ntok+", 512)","one learned 512-number vector copied into each of the "+hidN+" hidden slots"],["Add position codes and metadata","(B, "+Ntok+", 512)","decoder-sized 3D sine/cosine codes, so each slot knows its date, row and column"],["8 transformer blocks","(B, "+Ntok+", 512)","mask tokens attend to visible tokens and to each other"],["Linear prediction head","(B, "+Ntok+", "+px+")","each token becomes the 6 × "+p+" × "+p+" pixel values of its cube"],["Reshape to images","(B, 6, 4, 224, 224)","compared with the real pixels; the loss counts only the "+hidN+" hidden cubes"]];
+  $("dec-arch").querySelector("tbody").innerHTML=ar.map(function(r){ return '<tr><td>'+r[0]+'</td><td class="mono" style="white-space:nowrap">'+r[1]+'</td><td>'+r[2]+'</td></tr>'; }).join("");
+  $("dec-stat").innerHTML=n?'<span>Loss (MSE on hidden pixels): <b>'+(se/n).toExponential(2)+'</b></span><span>Untrained baseline: <b>'+(se0/n).toExponential(2)+'</b></span><span>Hidden patches on '+DATES[t]+': <b>'+Math.round(n/(p*p*6))+'</b></span>':'<span>No patches are hidden on this date with the current mask.</span>'; }
+
+// ---------------- Part 2: shapes ----------------
+function drawShapes(){ var m=$("sh-model").value, p=m==="300"?16:14, D=m==="300"?1024:1280, H=+$("sh-h").value||224, W=+$("sh-w").value||224, T=Math.max(1,+$("sh-t").value||1), gsd=+$("sh-gsd").value, merge=$("sh-merge").value, C=+$("sh-c").value||2;
+  var ok=H%p===0&&W%p===0, h=Math.floor(H/p), w=Math.floor(W/p), N=T*h*w, Dm2=merge==="concat"?T*D:D;
+  var rows=[["Input","(B, 6, "+T+", "+H+", "+W+")","6 bands, "+T+" date"+(T>1?"s":"")+(ok?"":" · not a multiple of "+p+": resize, e.g. to "+(Math.round(H/p)*p)+" × "+(Math.round(W/p)*p))],
+   ["Patch tokens","(B, "+fmt(N)+", "+fmt(D)+")",T+" × "+h+" × "+w+" cubes, each "+(p*p*6)+" numbers projected to "+fmt(D)],
+   ["Encoder output","(B, "+fmt(N)+", "+fmt(D)+")","same shape, now context-aware; read from several blocks for the neck"],
+   ["Back to the grid","(B, "+fmt(D)+", "+T+", "+h+", "+w+")","one vector per patch per date"],
+   ["Merge dates","(B, "+fmt(Dm2)+", "+h+", "+w+")",merge==="concat"?"dates stacked as channels":merge==="mean"?"dates averaged":"temporal attention weights the dates (LTAE + aggregator, as for PASTIS)"],
+   ["Neck: 4-level pyramid","("+(4*h)+"², "+(2*h)+"², "+h+"², "+Math.max(1,Math.round(h/2))+"²)","outputs of 4 blocks resized to ×4, ×2, ×1, ×½ of the patch grid"],
+   ["Decoder (UPerNet)","(B, "+C+", "+(4*h)+", "+(4*w)+")","fuses the pyramid into class scores"],
+   ["Upsample","(B, "+C+", "+H+", "+W+")","compared pixel by pixel with the label mask (B, "+H+", "+W+")"]];
+  $("sh-table").querySelector("tbody").innerHTML=rows.map(function(r,i){ return '<tr'+(i===0&&!ok?' class="bad"':'')+'><td>'+r[0]+'</td><td class="mono" style="white-space:nowrap">'+r[1]+'</td><td>'+r[2]+'</td></tr>'; }).join("");
+  var base=784, cost=(N*N)/(base*base), foot=p*gsd;
+  $("sh-stat").innerHTML='<span>Tokens: <b>'+fmt(N)+'</b></span><span>Attention cost vs pre-training sample: <b>×'+(cost<10?cost.toFixed(2):fmt(cost))+'</b></span><span>One patch covers: <b>'+(foot>=1000?(foot/1000).toFixed(2)+' km':(foot<1?foot.toFixed(1):fmt(foot))+' m')+'</b> on a side</span>'; }
+["sh-model","sh-h","sh-w","sh-t","sh-gsd","sh-merge","sh-c"].forEach(function(id){ $(id).addEventListener("input",drawShapes); $(id).addEventListener("change",drawShapes); });
+
+// ---------------- Part 2: LoRA ----------------
+var loraState=0; seg("lora-state",function(d){ loraState=+d.k; drawLora(); });
+$("lora-r").oninput=drawLora; $("lora-d").onchange=drawLora;
+function mat(vals,rows,cols,label,size){ var cs=size||14, s='<svg width="'+(cols*cs)+'" height="'+(rows*cs)+'" viewBox="0 0 '+(cols*cs)+' '+(rows*cs)+'" role="img" aria-label="'+label+'">', mx=0; vals.forEach(function(v){ mx=Math.max(mx,Math.abs(v)); }); mx=mx||1;
+  for(var i=0;i<rows;i++) for(var j=0;j<cols;j++){ var v=vals[i*cols+j], q=peCol(v/mx); s+='<rect x="'+(j*cs)+'" y="'+(i*cs)+'" width="'+(cs-1)+'" height="'+(cs-1)+'" fill="'+(v===0?'var(--line)':q.c)+'" fill-opacity="'+(v===0?1:(0.15+0.85*q.a)).toFixed(2)+'"/>'; }
+  return '<figure>'+s+'</svg><figcaption>'+label+'</figcaption></figure>'; }
+function drawLora(){ var r=+$("lora-r").value, d=+$("lora-d").value; $("lora-r-out").textContent=r; var full=d*d, lo=2*d*r;
+  $("lora-stat").innerHTML='<span>Full matrix: <b>'+fmt(full)+'</b> numbers</span><span>LoRA A + B: <b>'+fmt(lo)+'</b> ('+(lo/full*100).toFixed(2)+'%)</span><span>Merged result W′: <b>'+d+' × '+d+'</b>, same as W₀</span>';
+  var R=rng(4), n=8, rv=Math.min(r,4), W0=[], A=[], B=[], BA=[], Wp=[];
+  for(var i=0;i<n*n;i++) W0.push(R()*2-1);
+  for(var a=0;a<rv*n;a++) A.push((R()*2-1)*0.6);
+  for(var b=0;b<n*rv;b++) B.push(loraState?(R()*2-1)*0.6:0);
+  for(var i2=0;i2<n;i2++) for(var j=0;j<n;j++){ var s=0; for(var k=0;k<rv;k++) s+=B[i2*rv+k]*A[k*n+j]; BA.push(s); Wp.push(W0[i2*n+j]+s); }
+  $("lora-mtx").innerHTML=mat(W0,n,n,"W₀ (frozen)")+'<span>+ α/r ×</span>'+mat(B,n,rv,"B ("+(loraState?"learned":"zeros")+")")+'<span>·</span>'+mat(A,rv,n,"A (random)")+'<span>=</span>'+mat(BA,n,n,"ΔW = B·A"+(loraState?"":" = 0"))+'<span>→</span>'+mat(Wp,n,n,"W′ = W₀ + ΔW"); }
+
+// ---------------- Part 3: decision tree ----------------
+var dt={out:"class",time:"one",labels:"many",sensor:"hls"};
+["out","time","labels","sensor"].forEach(function(k){ seg("dt-"+k,function(d){ dt[k]=d.k; drawTree(); }); });
+var LEAVES={
+ R1:{t:"Single-date map",ex:"Floods (Sen1Floods11), wildfire scars, landslides (Landslide4Sense)",link:"#t1"},
+ R2:{t:"Few-date map",ex:"Burn severity (pre, during, post fire), US crop types (3 dates)",link:"#t2"},
+ R3:{t:"Long-series map",ex:"PASTIS crop types (38–61 dates, sampled to 20)",link:"#t2"},
+ R4:{t:"Value per pixel",ex:"Forest biomass (BioMassters, 12 months)",link:"#t4"},
+ R5:{t:"Label per image",ex:"Sen4Map land cover and crops (12 months), GEO-Bench classification",link:"#t3"},
+ R6:{t:"Value per site with other data",ex:"GPP at flux towers with MERRA-2 drivers",link:"#t5"}};
+function recipe(){ var o=dt.out, tm=dt.time, id, R={};
+  if(o==="class"){ id=tm==="one"?"R1":tm==="few"?"R2":"R3"; }
+  else if(o==="value") id="R4"; else if(o==="label") id="R5"; else id="R6";
+  if(id==="R1"){ R.T="T = 1"; R.arch="Encoder + UPerNet, or a simple upsampling decoder"; R.tune="Full fine-tuning (LoRA also works)"; R.loss="Cross-entropy; weighted cross-entropy or Lovász loss for rare classes such as landslides"; }
+  if(id==="R2"){ R.T="T = 2–4, e.g. before, during and after an event"; R.arch="Encoder + UPerNet, dates stacked as channels"; R.tune="LoRA (burn severity) or full fine-tuning (US crops)"; R.loss="Weighted cross-entropy"; }
+  if(id==="R3"){ R.T="Sample ~20 dates, one from each of 20 equal time bins"; R.arch="Encoder + lightweight temporal attention (LTAE) and aggregator + UPerNet"; R.tune="LoRA"; R.loss="Cross-entropy"; }
+  if(id==="R4"){ R.T="As many dates as available: 12 beat 4 for biomass"; R.arch="Encoder + convolutional decoder + regression head"; R.tune="LoRA"; R.loss="Mean squared error (report RMSE)"; }
+  if(id==="R5"){ R.T="The full series given (12 monthly composites in Sen4Map)"; R.arch="Encoder + pooled tokens + linear classification head"; R.tune="Full fine-tuning"; R.loss="Cross-entropy; report weighted F1 for imbalanced classes"; }
+  if(id==="R6"){ R.T="One image per sample around the site"; R.arch="Frozen encoder → embedding; small network for the other variables; concatenate; linear regressor"; R.tune="Frozen encoder: only the small heads train"; R.loss="Mean squared error; check R² with leave-one-year-out"; }
+  if((o==="label"||o==="value"||o==="site")&&tm==="one") R.T=(id==="R6"?R.T:"T = 1 works; add dates if seasons matter");
+  var cav=[];
+  if(dt.labels==="few"){ R.size="600M: its advantage over baselines is largest with few labels"; cav.push("With 50 landslide images the 600M model kept 67.0 mIoU while U-Net fell to 59.7; with 6.25% of Sen4Map labels it led the baseline by 7.3 F1 points."); }
+  else R.size="300M is often enough; 600M adds a little on most tasks";
+  if(dt.sensor==="other") cav.push("Resize images so each side is a multiple of the patch size (224 or 448), and feed only the bands matching the six HLS bands. Tiny chips should be upscaled to 224 rather than shrinking the patch. Fine-tuning recovers performance across resolutions (GEO-Bench, 0.1–15 m).");
+  if(dt.sensor==="sar") cav.push("Adding radar as extra input bands hurt biomass estimation (RMSE 36.5 vs 33.4). Prefer a separate radar encoder whose features are fused with Prithvi's, or the frozen-embedding route.");
+  if(id==="R1"||id==="R2"||id==="R3") cav.push("Targets smaller than a patch (480 m at 30 m pixels) are hard: burn-severity classes 1–4 stayed at 10–27% IoU. Check results on small or thin features.");
+  if(id==="R4") cav.push("Optical reflectance saturates over dense canopy; the challenge-winning U-Net with radar still beat Prithvi (RMSE 27.5 vs 33.4).");
+  return {id:id,R:R,cav:cav}; }
+function drawTree(){ var rc=recipe(), L=LEAVES[rc.id], R=rc.R;
+  $("dt-rec").innerHTML='<span class="eyebrow" style="color:var(--green)">Recipe '+rc.id+'</span><h4>'+L.t+'</h4><dl><dt>Paper examples</dt><dd>'+L.ex+'</dd><dt>Dates</dt><dd>'+R.T+'</dd><dt>Architecture</dt><dd>'+R.arch+'</dd><dt>Tuning</dt><dd>'+R.tune+'</dd><dt>Loss</dt><dd>'+R.loss+'</dd><dt>Model size</dt><dd>'+R.size+'</dd>'+(rc.cav.length?'<dt>Watch out</dt><dd><ul>'+rc.cav.map(function(c){ return '<li>'+c+'</li>'; }).join("")+'</ul></dd>':'')+'</dl><a href="'+L.link+'" style="color:var(--accent);font-size:.9rem">Try the matching playground ↓</a>';
+  $("dt-leaves").innerHTML=Object.keys(LEAVES).map(function(k){ var l=LEAVES[k]; return '<div class="leaf'+(k===rc.id?' on':'')+'"><span class="tag">'+k+'</span><b>'+l.t+'</b><span class="muted">'+l.ex+'</span></div>'; }).join("");
+  ["dt-time"].forEach(function(id){ $(id).style.opacity=(dt.out==="site")?0.5:1; }); }
+
+// ---------------- R1 flood ----------------
+var T1RES=[16,8,4,2,1];
+$("t1-res").oninput=drawT1;
+function drawT1(){ var bs=T1RES[+$("t1-res").value]; $("t1-res-out").textContent=bs+" px"+(bs===16?" (one decision per token)":bs===1?" (full pixel detail)":"");
+  paint($("t1-img"),2,"true","");
+  var cv=$("t1-pred"), x=cv.getContext("2d"), s=cv.width/S, tp=0, fp=0, fn=0, tn=0; x.clearRect(0,0,cv.width,cv.height); x.drawImage(sceneCanvas(2,"true",""),0,0,cv.width,cv.height); x.fillStyle="rgba(0,0,0,0.45)"; x.fillRect(0,0,cv.width,cv.height);
+  var ac=css("--accent"), oc=css("--ochre"), rc=css("--red");
+  for(var by=0;by<S;by+=bs) for(var bx=0;bx<S;bx+=bs){ var wsum=0, n=0; for(var y=by;y<by+bs&&y<S;y++) for(var xx=bx;xx<bx+bs&&xx<S;xx++){ wsum+=flood[y*S+xx]; n++; } var pred=wsum/n>=0.5;
+    for(var y2=by;y2<by+bs&&y2<S;y2++) for(var x2=bx;x2<bx+bs&&x2<S;x2++){ var tr=flood[y2*S+x2]===1; if(pred&&tr) tp++; else if(pred&&!tr) fp++; else if(!pred&&tr) fn++; else tn++; }
+    if(pred){ x.fillStyle=ac; x.globalAlpha=0.85; x.fillRect(bx*s,by*s,bs*s,bs*s); x.globalAlpha=1; } }
+  // overlay errors
+  for(var by2=0;by2<S;by2+=bs) for(var bx2=0;bx2<S;bx2+=bs){ var ws=0,nn=0; for(var y4=by2;y4<by2+bs&&y4<S;y4++) for(var x4=bx2;x4<bx2+bs&&x4<S;x4++){ ws+=flood[y4*S+x4]; nn++; } var pr=ws/nn>=0.5;
+    for(var y5=by2;y5<by2+bs&&y5<S;y5++) for(var x5=bx2;x5<bx2+bs&&x5<S;x5++){ var t5=flood[y5*S+x5]===1; if(pr&&!t5){ x.fillStyle=oc; x.fillRect(x5*s,y5*s,s,s); } else if(!pr&&t5){ x.fillStyle=rc; x.fillRect(x5*s,y5*s,s,s); } } }
+  var iou=tp/(tp+fp+fn), iouL=tn/(tn+fp+fn);
+  $("t1-stat").innerHTML='<span>Water IoU: <b>'+(iou*100).toFixed(1)+'%</b></span><span>Land IoU: <b>'+(iouL*100).toFixed(1)+'%</b></span><span>mIoU: <b>'+((iou+iouL)*50).toFixed(1)+'%</b></span>'; }
+var T1D={flood:{full:[["Prithvi-EO-1.0-100M",79.6],["Prithvi-EO-2.0-300M",82.2],["Prithvi-EO-2.0-300M-TL",82.6],["Prithvi-EO-2.0-600M",82.5],["Prithvi-EO-2.0-600M-TL",83.1,"hl"]],note:"Water-class IoU on Sen1Floods11 (Table IV). Overall mIoU barely moves (88.3 → 90.3) because land dominates; the gain shows in the water class."},
+ fire:{full:[["Prithvi-EO-1.0-100M",76.8],["Prithvi-EO-2.0-300M",79.9],["Prithvi-EO-2.0-300M-TL",81.1],["Prithvi-EO-2.0-600M",83.2,"hl"],["Prithvi-EO-2.0-600M-TL",83.2,"hl"]],note:"Burn-scar IoU on HLS wildfire scars (Table V): 6.4 points above the previous version."},
+ ls:{full:[["U-Net",70.4,"base"],["U-Net++",69.0,"base"],["Prithvi-EO-2.0-300M (Lovász)",71.3,"hl"],["Prithvi-EO-2.0-600M",70.4]],small:[["U-Net",59.7,"base"],["U-Net++",55.5,"base"],["Prithvi-EO-2.0-300M (Lovász)",64.5],["Prithvi-EO-2.0-600M",67.0,"hl"]],note:"Landslide4Sense mIoU (Tables VII and VIII). With all 3,799 images the models are close; with 50 images the baselines collapse (U-Net F1 35.0, U-Net++ recall 16.9%) while Prithvi-EO-2.0-600M keeps F1 49.7."},
+ sev:{full:[["U-Net",26.3,"base"],["U-Net (ResNet-50)",28.8,"base"],["Prithvi-EO-2.0-300M",31.2,"hl"],["Prithvi-EO-2.0-600M",31.1]],note:"Burn-severity mIoU over five classes (Table VI), a 3-date task with LoRA. Unburnt vs burnt is easy (IoU 67–76%); severity classes 1–4 stay at 10–27% for every model. Smoke and small patches of high severity defeat the 480 m tokens."}};
+var t1task="flood", t1data="full";
+seg("t1-task",function(d){ t1task=d.k; drawT1b(); }); seg("t1-data",function(d){ t1data=d.k; drawT1b(); });
+function drawT1b(){ var D=T1D[t1task], rows=(t1data==="small"&&D.small)?D.small:D.full; $("t1-data").style.opacity=D.small?1:0.5;
+  bars($("t1-bars"),rows.map(function(r){ return {label:r[0],v:r[1],cls:r[2]||"",text:r[1].toFixed(1)}; }),{max:100,title:(t1data==="small"&&!D.small)?"Only full-data results were reported for this task":""}); $("t1-note").textContent=D.note; }
+
+// ---------------- R2 crops ----------------
+var t2sel=[false,true,false,false];
+$("t2-dates").innerHTML='<span class="label">Dates given to the model</span>'+DATES.map(function(d,i){ return '<label class="row" style="gap:6px;font-size:.9rem"><input type="checkbox" data-t="'+i+'"'+(t2sel[i]?" checked":"")+'> '+d+'</label>'; }).join("");
+$("t2-dates").addEventListener("change",function(e){ var t=+e.target.dataset.t; t2sel[t]=e.target.checked; if(!t2sel.some(Boolean)){ t2sel[t]=true; e.target.checked=true; } drawT2(); });
+var T2C=[1,2,3,4];
+function drawT2(){ var sel=[0,1,2,3].filter(function(t){ return t2sel[t]; });
+  var mean={}; T2C.forEach(function(c){ mean[c]=[0,0,0,0]; mean[c].n=0; });
+  for(var k=0;k<S*S;k++){ var c=lc[k]; if(T2C.indexOf(c)<0) continue; for(var t=0;t<4;t++) mean[c][t]+=ndvi(t,k); mean[c].n++; }
+  T2C.forEach(function(c){ for(var t=0;t<4;t++) mean[c][t]/=mean[c].n; });
+  var cv=$("t2-map"), x=cv.getContext("2d"), s=cv.width/S, ok=0, tot=0, id=x.createImageData(S,S);
+  for(var k2=0;k2<S*S;k2++){ var c2=lc[k2], o=k2*4; if(T2C.indexOf(c2)<0){ var g=60; id.data[o]=g; id.data[o+1]=g; id.data[o+2]=g; id.data[o+3]=255; continue; }
+    var best=-1, bd=1e9; T2C.forEach(function(cc){ var d=0; sel.forEach(function(t){ var v=ndvi(t,k2)-mean[cc][t]; d+=v*v; }); if(d<bd){ bd=d; best=cc; } });
+    tot++; var right=best===c2; if(right) ok++; var hx=right?CL[best].c:"#B9B9B9"; id.data[o]=parseInt(hx.substr(1,2),16); id.data[o+1]=parseInt(hx.substr(3,2),16); id.data[o+2]=parseInt(hx.substr(5,2),16); id.data[o+3]=255; }
+  var tmp=document.createElement("canvas"); tmp.width=S; tmp.height=S; tmp.getContext("2d").putImageData(id,0,0); x.imageSmoothingEnabled=false; x.clearRect(0,0,cv.width,cv.height); x.drawImage(tmp,0,0,cv.width,cv.height);
+  var W=420,H=230,L=40,B=196,T=12, svg='';
+  for(var gy=0;gy<=4;gy++){ var v=gy*0.25-0.0, yy=B-(v/1)*(B-T); svg+='<line x1="'+L+'" x2="'+(W-90)+'" y1="'+yy+'" y2="'+yy+'" stroke="var(--line)"/><text x="'+(L-6)+'" y="'+(yy+4)+'" text-anchor="end" font-size="10" fill="var(--muted)">'+v.toFixed(2)+'</text>'; }
+  var xs=function(t){ return L+20+t*((W-90-L-40)/3); };
+  for(var t2=0;t2<4;t2++){ svg+='<rect x="'+(xs(t2)-14)+'" y="'+T+'" width="28" height="'+(B-T)+'" fill="var(--accent)" fill-opacity="'+(t2sel[t2]?0.12:0)+'"/><text x="'+xs(t2)+'" y="'+(B+16)+'" text-anchor="middle" font-size="11" fill="'+(t2sel[t2]?"var(--ink)":"var(--muted)")+'">'+DATES[t2]+'</text>'; }
+  T2C.forEach(function(c,ci){ var pts=[0,1,2,3].map(function(t){ return xs(t).toFixed(1)+","+(B-clamp(mean[c][t],0,1)*(B-T)).toFixed(1); }); svg+='<polyline points="'+pts.join(" ")+'" fill="none" stroke="'+CL[c].c+'" stroke-width="2.5"/>'; var ly=B-clamp(mean[c][3],0,1)*(B-T); svg+='<text x="'+(xs(3)+10)+'" y="'+(ly+4+(ci-1.5)*3)+'" font-size="10" fill="var(--ink)">'+CL[c].n.split(" (")[0]+'</text>'; });
+  $("t2-chart").innerHTML=svg;
+  $("t2-stat").innerHTML='<span>Dates used: <b>'+sel.map(function(t){return DATES[t];}).join(", ")+'</b></span><span>Pixel accuracy: <b>'+(ok/tot*100).toFixed(1)+'%</b></span><span>'+(sel.length===1?"One date leaves some classes looking alike.":sel.length===4?"With the full season every class has its own rhythm.":"Each added date removes some confusion.")+'</span>'; }
+var T2D={us:{full:[["U-Net",42.6,"base"],["Prithvi-EO-1.0-100M",42.7],["Prithvi-EO-2.0-300M",48.6],["Prithvi-EO-2.0-600M",50.7,"hl"]],note:"US multi-temporal crop segmentation, 13 classes, 3 dates (Table IX, mIoU). Only full-label results were reported."},
+ pastis:{full:[["Presto",28.1,"base"],["Satlas",31.5,"base"],["DOFA",37.0,"base"],["U-TAE (specialist baseline)",52.9,"base"],["Prithvi-EO-2.0-300M",51.6],["Prithvi-EO-2.0-600M",53.4,"hl"]],small:[["Presto",20.1,"base"],["Satlas",15.8,"base"],["DOFA",20.4,"base"],["U-TAE (specialist baseline)",36.9,"base"],["Prithvi-EO-2.0-300M",36.3],["Prithvi-EO-2.0-600M",37.4,"hl"]],note:"PASTIS mIoU, 18 crops plus background, 20 dates per sample (Table XII). Single-date foundation models (DOFA, Satlas) fall far behind; the temporal specialist U-TAE stays close to Prithvi."}};
+var t2task="us", t2data="full"; seg("t2-task",function(d){ t2task=d.k; drawT2b(); }); seg("t2-data",function(d){ t2data=d.k; drawT2b(); });
+function drawT2b(){ var D=T2D[t2task], rows=(t2data==="small"&&D.small)?D.small:D.full; $("t2-data").style.opacity=D.small?1:0.5; bars($("t2-bars"),rows.map(function(r){ return {label:r[0],v:r[1],cls:r[2]||"",text:r[1].toFixed(1)}; }),{max:60,title:(t2data==="small"&&!D.small)?"Only full-label results were reported for this dataset":""}); $("t2-note").textContent=D.note; }
+
+// ---------------- R5 Sen4Map ----------------
+var FR=[0.0625,0.125,0.25,0.5,1], SEN={lc:{"ViViT":[55.0,61.6,65.7,69.9,72.7],"Prithvi-EO-1.0-100M":[59.4,65.3,69.1,72.4,74.5],"Prithvi-EO-2.0-300M":[61.2,67.1,70.7,73.9,76.0],"Prithvi-EO-2.0-600M":[62.3,67.8,71.2,74.1,76.1]},crop:{"ViViT":[64.5,69.7,75.5,79.0,81.5],"Prithvi-EO-1.0-100M":[70.5,74.6,78.6,81.5,83.0],"Prithvi-EO-2.0-300M":[72.2,77.3,80.4,82.8,84.4],"Prithvi-EO-2.0-600M":[70.8,76.9,80.5,82.6,84.6]}};
+var t3task="lc"; seg("t3-task",function(d){ t3task=d.k; drawT3(); }); $("t3-frac").oninput=drawT3;
+function drawT3(){ var fi=+$("t3-frac").value, D=SEN[t3task], names=Object.keys(D), cols=["--muted","--ochre","--accent","--green"];
+  $("t3-frac-out").textContent=(FR[fi]*100)+"%";
+  var W=440,H=250,L=40,B=210,T=12, lo=t3task==="lc"?50:60, hi=t3task==="lc"?80:88, s='';
+  function xs(i){ return L+10+i*((W-L-30)/4); } function ys(v){ return B-(v-lo)/(hi-lo)*(B-T); }
+  for(var v=lo;v<=hi;v+=5){ s+='<line x1="'+L+'" x2="'+(W-10)+'" y1="'+ys(v)+'" y2="'+ys(v)+'" stroke="var(--line)"/><text x="'+(L-6)+'" y="'+(ys(v)+4)+'" text-anchor="end" font-size="10" fill="var(--muted)">'+v+'</text>'; }
+  FR.forEach(function(f,i){ s+='<text x="'+xs(i)+'" y="'+(B+16)+'" text-anchor="middle" font-size="10" fill="'+(i===fi?"var(--ink)":"var(--muted)")+'">'+(f*100)+'%</text>'; });
+  s+='<line x1="'+xs(fi)+'" x2="'+xs(fi)+'" y1="'+T+'" y2="'+B+'" stroke="var(--ink)" stroke-dasharray="3 3"/>';
+  names.forEach(function(n,k){ var pts=D[n].map(function(v,i){ return xs(i).toFixed(1)+","+ys(v).toFixed(1); }); s+='<polyline points="'+pts.join(" ")+'" fill="none" stroke="var('+cols[k]+')" stroke-width="2.2"/>'; s+='<circle cx="'+xs(fi)+'" cy="'+ys(D[n][fi])+'" r="4" fill="var('+cols[k]+')"/>'; });
+  s+='<text x="'+L+'" y="'+(T-2)+'" font-size="10" fill="var(--muted)">weighted F1</text><text x="'+(W-10)+'" y="'+(B+30)+'" text-anchor="end" font-size="10" fill="var(--muted)">share of training labels</text>';
+  $("t3-chart").setAttribute("viewBox","0 0 440 250"); $("t3-chart").innerHTML=s;
+  bars($("t3-bars"),names.map(function(n,k){ return {label:'<span class="swatch" style="background:var('+cols[k]+')"></span>'+n,v:D[n][fi],cls:k===0?"base":"",text:D[n][fi].toFixed(1)}; }),{min:40,max:90,title:"At "+(FR[fi]*100)+"% of labels"}); }
+
+// ---------------- R4 biomass ----------------
+var t4view="cfg"; seg("t4-view",function(d){ t4view=d.k; drawT4(); });
+function drawT4(){ var rows;
+  if(t4view==="cfg") rows=[["S2, 4 dates (LoRA)",35.47],["S2 + S1, 4 dates",38.67],["S2, 12 dates (LoRA)",33.40,"hl"],["S2 + S1, 12 dates",36.48],["All S2 bands + S1, 12 dates",36.25],["Challenge-winning U-Net (baseline)",27.49,"base"]];
+  else rows=[["100% (6,951 images)",33.40,"hl"],["50%",34.31],["20%",34.89],["10%",36.77],["5% (348 images)",38.06]];
+  bars($("t4-bars"),rows.map(function(r){ return {label:r[0],v:r[1],cls:r[2]||"",text:r[1].toFixed(2)}; }),{min:20,max:42,ref:27.49,title:"Test RMSE (lower is better; orange line = baseline 27.49)"});
+  var W=420,H=200,L=40,B=170,T=14,s='';
+  s+='<line x1="'+L+'" x2="'+(W-10)+'" y1="'+B+'" y2="'+B+'" stroke="var(--line)"/><line x1="'+L+'" x2="'+L+'" y1="'+T+'" y2="'+B+'" stroke="var(--line)"/>';
+  var po=[], pr=[]; for(var i=0;i<=40;i++){ var b=i/40, xo=L+b*(W-L-20); po.push(xo.toFixed(1)+","+(B-(1-Math.exp(-b*5))*(B-T)*0.85).toFixed(1)); pr.push(xo.toFixed(1)+","+(B-(0.15+0.75*b)*(B-T)*0.9).toFixed(1)); }
+  s+='<polyline points="'+po.join(" ")+'" fill="none" stroke="var(--green)" stroke-width="2.5"/><polyline points="'+pr.join(" ")+'" fill="none" stroke="var(--accent)" stroke-width="2.5" stroke-dasharray="6 4"/>';
+  s+='<text x="'+(W-14)+'" y="'+(T+36)+'" text-anchor="end" font-size="11" fill="var(--green)">optical (NIR): levels off</text><text x="'+(W-14)+'" y="'+(T+10)+'" text-anchor="end" font-size="11" fill="var(--accent)">radar: keeps responding</text><text x="'+(W-10)+'" y="'+(B+18)+'" text-anchor="end" font-size="10" fill="var(--muted)">biomass →</text><text x="'+(L+4)+'" y="'+(T-2)+'" font-size="10" fill="var(--muted)">signal</text>';
+  $("t4-sat").innerHTML=s; }
+
+// ---------------- R6 GPP ----------------
+var GPP=[["RF (no VIs)",[0.68,0.78,0.70,0.64],"base"],["RF (+ VIs)",[0.72,0.77,0.73,0.66],"base"],["XGBoost (no VIs)",[0.66,0.75,0.69,0.60],"base"],["XGBoost (+ VIs)",[0.77,0.77,0.77,0.60],"base"],["ResNet18",[0.76,0.81,0.73,0.70],"base"],["Prithvi-EO-2.0-300M",[0.84,0.77,0.77,0.70]],["Prithvi-EO-2.0-300M-TL",[0.84,0.76,0.74,0.69]],["Prithvi-EO-2.0-600M",[0.75,0.77,0.80,0.70]],["Prithvi-EO-2.0-600M-TL",[0.88,0.80,0.83,0.74],"hl"]];
+var t5y="avg"; seg("t5-year",function(d){ t5y=d.k; drawT5(); });
+function drawT5(){ bars($("t5-bars"),GPP.map(function(g){ var v=t5y==="avg"?g[1].reduce(function(a,b){return a+b;},0)/4:g[1][+t5y]; return {label:g[0],v:v,cls:g[2]||"",text:v.toFixed(2)}; }),{min:0.5,max:0.9,title:"R² for "+(t5y==="avg"?"the average of the four held-out years":["2018","2019","2020","2021"][+t5y])}); }
+
+// ---------------- render ----------------
+function renderAll(){ meanCache={}; drawScene(); drawPatch(); drawPE(); drawMeta(); drawMask(); drawAtt(); drawDec(); drawShapes(); drawLora(); drawTree(); drawT1(); drawT1b(); drawT2(); drawT2b(); drawT3(); drawT4(); drawT5(); }
+newMask(); renderAll();
+var rt; window.addEventListener("resize",function(){ clearTimeout(rt); rt=setTimeout(function(){ drawPE(); },150); });
+try{ var mq=matchMedia("(prefers-color-scheme: dark)"); mq.addEventListener?mq.addEventListener("change",renderAll):mq.addListener(renderAll); }catch(e){}
+new MutationObserver(renderAll).observe(document.documentElement,{attributes:true,attributeFilter:["data-theme"]});
+})();
+</script>
+
+</body></html>

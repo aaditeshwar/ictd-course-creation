@@ -1,0 +1,695 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>Groundwater Behaviour Workflows</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Spectral:wght@500;600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: two vertical flowcharts; each stage is a band with Inputs | Compute | Produces columns; branching stages fan into card grids. */
+:root{
+  --bg:#F3F5F3; --surface:#FFFFFF; --ink:#16201E; --muted:#56635F; --line:#D3DBD7;
+  --water:#1D6A84; --water-soft:#E3F0F4; --sediment:#9A6224; --sediment-soft:#F6ECDF;
+  --warn:#A8402A; --warn-soft:#F8E7E2;
+  --f-display:"Spectral", Georgia, "Times New Roman", serif;
+  --f-body:"IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --f-mono:"IBM Plex Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){
+  --bg:#0E1514; --surface:#15201F; --ink:#E2EAE7; --muted:#9BA9A4; --line:#2A3836;
+  --water:#62B7D4; --water-soft:#163039; --sediment:#D59B57; --sediment-soft:#33261A;
+  --warn:#E3836A; --warn-soft:#3A1F19; color-scheme:dark }}
+:root[data-theme="dark"]{
+  --bg:#0E1514; --surface:#15201F; --ink:#E2EAE7; --muted:#9BA9A4; --line:#2A3836;
+  --water:#62B7D4; --water-soft:#163039; --sediment:#D59B57; --sediment-soft:#33261A;
+  --warn:#E3836A; --warn-soft:#3A1F19; color-scheme:dark }
+
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:15px;line-height:1.55}
+.wrap{max-width:1120px;margin:0 auto;padding-block:40px 64px;padding-left:max(16px, env(safe-area-inset-left, 0px));padding-right:max(16px, env(safe-area-inset-right, 0px));display:flex;flex-direction:column;gap:28px}
+h1,h2,h3{font-family:var(--f-display);font-weight:600;text-wrap:balance;margin:0;line-height:1.2}
+h1{font-size:2.1rem}
+h2{font-size:1.6rem}
+h3{font-size:1.15rem}
+p{margin:0}
+.lede{max-width:70ch;color:var(--muted)}
+.eyebrow{font-size:.72rem;letter-spacing:.09em;text-transform:uppercase;color:var(--muted);font-weight:600}
+.toc{display:flex;flex-wrap:wrap;gap:10px}
+.toc a{color:var(--water);text-decoration:none;border:1px solid var(--line);background:var(--surface);padding:6px 12px;border-radius:999px;font-size:.88rem}
+.toc a:hover,.toc a:focus-visible{border-color:var(--water);outline:none}
+
+.key{display:flex;flex-wrap:wrap;gap:14px;font-size:.82rem;color:var(--muted);align-items:center}
+.key span{display:inline-flex;align-items:center;gap:6px}
+
+.paper{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:20px;display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px}
+.paper h3{grid-column:1/-1}
+.paper div{min-width:0;display:flex;flex-direction:column;gap:6px}
+.paper p{font-size:.9rem;color:var(--muted)}
+
+.chart-head{display:flex;flex-direction:column;gap:8px;padding-top:20px;border-top:2px solid var(--ink)}
+.flow{display:flex;flex-direction:column}
+.stage{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:18px 20px;display:flex;flex-direction:column;gap:14px}
+.stage-head{display:flex;gap:14px;align-items:flex-start}
+.num{flex:none;width:30px;height:30px;border-radius:50%;background:var(--ink);color:var(--bg);display:grid;place-items:center;font-family:var(--f-mono);font-size:.85rem;font-weight:500}
+.stage-head .sub{color:var(--muted);font-size:.88rem;margin-top:2px}
+.cols{display:grid;grid-template-columns:1fr 1.5fr 1fr;gap:16px}
+.col{min-width:0;display:flex;flex-direction:column;gap:8px}
+.col-label{font-size:.7rem;letter-spacing:.09em;text-transform:uppercase;font-weight:600;color:var(--muted)}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{font-size:.8rem;padding:3px 9px;border-radius:5px;border:1px solid var(--sediment);color:var(--sediment);background:var(--sediment-soft);line-height:1.35}
+.out{font-size:.8rem;padding:3px 9px;border-radius:5px;background:var(--water);color:var(--surface);line-height:1.35}
+ul.steps{margin:0;padding-left:18px;display:flex;flex-direction:column;gap:4px;font-size:.88rem}
+ul.steps li::marker{color:var(--water)}
+.eq{font-family:var(--f-mono);font-size:.8rem;background:var(--water-soft);color:var(--ink);border-radius:6px;padding:8px 10px;overflow-x:auto;white-space:nowrap}
+.eq b{font-weight:500;color:var(--water)}
+.note{font-size:.8rem;color:var(--muted);font-style:italic}
+
+.arrow{height:30px;display:flex;justify-content:center;position:relative}
+.arrow::before{content:"";width:2px;background:var(--line);height:100%}
+.arrow::after{content:"";position:absolute;bottom:0;left:50%;transform:translateX(-50%);border:7px solid transparent;border-top:9px solid var(--muted);border-bottom:0}
+
+.branches{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:12px}
+.card{border:1px solid var(--line);border-radius:8px;padding:14px;display:flex;flex-direction:column;gap:8px;min-width:0;background:var(--bg)}
+.card h4{margin:0;font-size:.98rem;font-family:var(--f-body);font-weight:600}
+.card .tag{font-family:var(--f-mono);font-size:.72rem;color:var(--water)}
+.card dl{margin:0;display:flex;flex-direction:column;gap:6px;font-size:.84rem}
+.card dt{font-size:.68rem;letter-spacing:.08em;text-transform:uppercase;font-weight:600;color:var(--muted)}
+.card dd{margin:0}
+.spark{width:100%;height:auto;display:block;border-radius:4px;background:var(--surface)}
+.merge{font-size:.86rem;background:var(--water-soft);border-radius:8px;padding:10px 14px}
+
+.table-wrap{overflow-x:auto;border:1px solid var(--line);border-radius:8px}
+table{border-collapse:collapse;width:100%;min-width:760px;font-size:.84rem}
+th,td{text-align:left;vertical-align:top;padding:10px 12px;border-bottom:1px solid var(--line)}
+thead th{font-size:.7rem;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);background:var(--bg)}
+tbody tr:last-child td{border-bottom:0}
+td.sc{font-weight:600;white-space:nowrap}
+td.wn{color:var(--warn)}
+.q-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:10px}
+.q{border-left:3px solid var(--sediment);padding:6px 0 6px 12px;display:flex;flex-direction:column;gap:3px;font-size:.86rem}
+.q .ask{font-weight:500}
+.q .gives{color:var(--muted)}
+.loop{border:1px dashed var(--water);border-radius:10px;padding:14px 18px;font-size:.88rem;display:flex;gap:10px;align-items:flex-start}
+.loop strong{color:var(--water)}
+.foot{font-size:.8rem;color:var(--muted);max-width:80ch}
+.card-top{display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap}
+.rel{font-size:.7rem;font-weight:600;letter-spacing:.04em;padding:2px 8px;border-radius:999px;border:1px solid currentColor;white-space:nowrap}
+.rel-high{color:var(--water);background:var(--water-soft)}
+.rel-medium{color:var(--sediment);background:var(--sediment-soft)}
+.rel-low{color:var(--warn);background:var(--warn-soft)}
+.src-notes{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:12px;font-size:.86rem}
+.src-notes div{min-width:0;display:flex;flex-direction:column;gap:4px}
+.src-notes h4{margin:0;font-size:.9rem;font-weight:600}
+.src-notes ul{margin:0;padding-left:18px;display:flex;flex-direction:column;gap:3px}
+td.better{font-weight:600;white-space:nowrap}
+#dictionary table{min-width:820px}
+td.sym{font-family:var(--f-mono);font-size:.82rem;white-space:nowrap;color:var(--water)}
+td.use{font-family:var(--f-mono);font-size:.76rem;color:var(--muted);white-space:nowrap}
+td.unit{white-space:nowrap;font-variant-numeric:tabular-nums}
+tr.grp th{background:var(--water-soft);color:var(--ink);font-family:var(--f-display);font-size:.95rem;letter-spacing:0;text-transform:none;font-weight:600}
+
+.v{border-bottom:1px dotted var(--water);cursor:help;border-radius:2px}
+.v:hover,.v:focus-visible,.v.on{background:var(--surface);outline:1px solid var(--water);outline-offset:1px}
+.tip{position:absolute;z-index:50;max-width:min(320px,calc(100vw - 32px));background:var(--ink);color:var(--bg);border-radius:8px;padding:10px 12px;font-family:var(--f-body);font-size:.8rem;line-height:1.45;white-space:normal;box-shadow:0 6px 18px rgba(0,0,0,.18);pointer-events:none;display:flex;flex-direction:column;gap:4px}
+.tip .t-sym{font-family:var(--f-mono);font-size:.85rem;font-weight:500}
+.tip .t-row{display:grid;grid-template-columns:52px 1fr;gap:6px}
+.tip .t-k{opacity:.65;font-size:.7rem;letter-spacing:.06em;text-transform:uppercase;padding-top:2px}
+@media (max-width:820px){ .cols{grid-template-columns:1fr} h1{font-size:1.7rem} }
+@media (prefers-reduced-motion: reduce){ *{scroll-behavior:auto} }
+</style>
+
+<div class="wrap">
+  <header style="display:flex;flex-direction:column;gap:12px">
+    <span class="eyebrow">Catchment groundwater · workflow design</span>
+    <h1>From catchment layers to groundwater behaviour</h1>
+    <p class="lede">Two workflows for diagnosing which groundwater behaviour scenario operates in a catchment. The first assumes several geo-coded wells with multi-year monthly or seasonal depth-to-water records. The second assumes only one or two wells, supplemented by structured recall from farmers, and ends in extraction limits and warnings by rainfall class.</p>
+    <nav class="toc" aria-label="Sections">
+      <a href="#basis">Basis in Cuthbert (2010)</a>
+      <a href="#flow-a">Workflow A: several monitored wells</a>
+      <a href="#flow-b">Workflow B: sparse wells and farmer recall</a>
+      <a href="#dictionary">Variables</a>
+    </nav>
+    <div class="key" aria-label="Legend">
+      <span><span class="chip">dataset</span> input data</span>
+      <span><span class="out">output</span> what the stage produces</span>
+      <span><span class="eq" style="padding:2px 8px">eq.</span> equation; hover or tap an <span class="v" style="cursor:default">underlined symbol</span> for its definition</span>
+    </div>
+  </header>
+
+  <section class="paper" id="basis" aria-labelledby="basis-h">
+    <h3 id="basis-h">What the workflows take from Cuthbert (2010)</h3>
+    <p style="grid-column:1/-1;font-size:.9rem;color:var(--muted)">Cuthbert, M. O. (2010). <a href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2009WR008572" style="color:var(--water)">An improved time series approach for estimating groundwater recharge from groundwater level fluctuations</a>. <i>Water Resources Research</i>, 46, W09515. doi:10.1029/2009WR008572</p>
+    <div>
+      <span class="eyebrow">Water-table fluctuation</span>
+      <p>Recharge is storage change plus drainage away from the well. The hard part is the drainage term D.</p>
+      <span class="eq"><span class="v" data-v="q" tabindex="0">q</span> = <span class="v" data-v="SY" tabindex="0">S<sub>Y</sub></span>·∂<span class="v" data-v="h" tabindex="0">h</span>/∂<span class="v" data-v="t" tabindex="0">t</span> + <span class="v" data-v="D" tabindex="0">D</span></span>
+    </div>
+    <div>
+      <span class="eyebrow">Drainage far from rivers</span>
+      <p>Away from connected drainage, D barely varies in time and tracks the long-run mean head (eq. 10 for thick aquifers, eq. 12 when T varies with h).</p>
+      <span class="eq"><span class="v" data-v="D" tabindex="0">D</span> ≈ 2<span class="v" data-v="h̄" tabindex="0">h̄</span><span class="v" data-v="T" tabindex="0">T</span>/(<span class="v" data-v="L" tabindex="0">L</span>²−<span class="v" data-v="x" tabindex="0">x</span>²) &nbsp;|&nbsp; <span class="v" data-v="K" tabindex="0">K</span>(<span class="v" data-v="H̄" tabindex="0">H̄</span>²−<span class="v" data-v="b" tabindex="0">b</span>²)/(<span class="v" data-v="L" tabindex="0">L</span>²−<span class="v" data-v="x" tabindex="0">x</span>²)</span>
+    </div>
+    <div>
+      <span class="eyebrow">Position matters</span>
+      <p>Head swings are largest near the divide and damped near the river, where D follows recharge and the method fails. Eq. 8 or Table 1 tells you which wells qualify.</p>
+      <span class="eq"><span class="v" data-v="A" tabindex="0">A</span> = |<span class="v" data-v="qa" tabindex="0">q<sub>a</sub></span>·cosh(<span class="v" data-v="λ" tabindex="0">λ</span><span class="v" data-v="x" tabindex="0">x</span>)/cosh(<span class="v" data-v="λ" tabindex="0">λ</span><span class="v" data-v="L" tabindex="0">L</span>)|, <span class="v" data-v="λ" tabindex="0">λ</span>² = i<span class="v" data-v="ω" tabindex="0">ω</span><span class="v" data-v="SY" tabindex="0">S<sub>Y</sub></span>/<span class="v" data-v="T" tabindex="0">T</span></span>
+    </div>
+    <div>
+      <span class="eyebrow">Geometry, sensitivity, inversion</span>
+      <p>L ≈ half the catchment area over total river length. T, L and river level h₀ set mean recharge; S<sub>Y</sub> sets its amplitude. With recharge known, the method inverts to give aquifer parameters.</p>
+      <span class="eq"><span class="v" data-v="L" tabindex="0">L</span> ≈ <span class="v" data-v="Acatch" tabindex="0">A<sub>catch</sub></span> / (2·<span class="v" data-v="ΣLriver" tabindex="0">ΣL<sub>river</sub></span>)</span>
+    </div>
+    <div>
+      <span class="eyebrow">Beyond the paper</span>
+      <p>The paper's model is linear and never fills or empties. The storage-capped, floor-limited and depletion scenarios below extend it for shallow hard-rock aquifers and heavy pumping.</p>
+    </div>
+  </section>
+
+  <!-- ===================== WORKFLOW A ===================== -->
+  <section id="flow-a" style="display:flex;flex-direction:column;gap:18px">
+    <div class="chart-head">
+      <span class="eyebrow">Workflow A</span>
+      <h2>Several monitored wells, multi-year records</h2>
+      <p class="lede">Goal: identify the prevalent behaviour scenario, calibrate a matching model, and map heads, depth to water and flow direction.</p>
+    </div>
+
+    <div class="flow">
+      <section class="stage">
+        <div class="stage-head"><span class="num">1</span><div><h3>Build the conceptual catchment from static layers</h3><p class="sub">Cuthbert step 1: boundaries, drainage, storage and transmissivity priors</p></div></div>
+        <div class="cols">
+          <div class="col"><span class="col-label">Inputs</span>
+            <div class="chips"><span class="chip">DEM (SRTM / Copernicus 30 m)</span><span class="chip">Drainage lines + Strahler order</span><span class="chip">Micro-watersheds + connectivity</span><span class="chip">Lithology, aquifer maps (GSI, CGWB NAQUIM)</span><span class="chip">LULC time series</span><span class="chip">Soils: texture, AWC</span><span class="chip">Well locations</span></div>
+          </div>
+          <div class="col"><span class="col-label">Compute</span>
+            <ul class="steps">
+              <li>Take groundwater divides as topographic divides, checked against lithological contacts.</li>
+              <li>For each well: distance to drainage of each order (d<sub>k</sub>), distance to divide, x/L, and height above nearest drainage.</li>
+              <li>Equivalent aquifer length L per micro-watershed, computed separately for each stream order taken as the boundary.</li>
+              <li>Priors from lithology: S<sub>Y</sub>, K, and the thickness of the weathered zone or aquifer.</li>
+              <li>From LULC: seasonal irrigated area as a pumping proxy, and crop coefficients for ET.</li>
+            </ul>
+          </div>
+          <div class="col"><span class="col-label">Produces</span>
+            <div class="chips"><span class="out">Per-well geometry table</span><span class="out">Parameter priors per unit</span><span class="out">Recharge-potential surface</span></div>
+          </div>
+        </div>
+      </section>
+      <div class="arrow" aria-hidden="true"></div>
+
+      <section class="stage">
+        <div class="stage-head"><span class="num">2</span><div><h3>Layer rainfall and climate</h3><p class="sub">Seasonal pattern, droughts and heavy-rain shocks, and a prior recharge series</p></div></div>
+        <div class="cols">
+          <div class="col"><span class="col-label">Inputs</span>
+            <div class="chips"><span class="chip">IMD gridded 0.25° daily</span><span class="chip">CHIRPS 0.05°</span><span class="chip">GPM IMERG</span><span class="chip">ERA5-Land PET, soil moisture</span><span class="chip">Station gauges (bias check)</span></div>
+          </div>
+          <div class="col"><span class="col-label">Compute</span>
+            <ul class="steps">
+              <li>Blend and bias-correct products; derive monsoon onset, withdrawal and seasonal totals.</li>
+              <li>Drought years from SPI-3 / SPI-12 or SPEI; extremes from Rx1day, Rx5day and days above the 95th percentile; dry spells within the monsoon.</li>
+              <li>Daily soil-water balance (FAO-56 or Thornthwaite–Mather), using LULC crop coefficients and soil AWC, to get potential recharge q<sub>pot</sub>(t).</li>
+            </ul>
+          </div>
+          <div class="col"><span class="col-label">Produces</span>
+            <div class="chips"><span class="out">Event calendar: drought, normal, heavy-rain years</span><span class="out">q<sub>pot</sub>(t) per micro-watershed</span></div>
+          </div>
+        </div>
+      </section>
+      <div class="arrow" aria-hidden="true"></div>
+
+      <section class="stage">
+        <div class="stage-head"><span class="num">3</span><div><h3>Prepare and classify the well records</h3><p class="sub">Cuthbert steps 2–4: position, sampling resolution, representativeness, pumping</p></div></div>
+        <div class="cols">
+          <div class="col"><span class="col-label">Inputs</span>
+            <div class="chips"><span class="chip">Monthly / seasonal depth to water, several years</span><span class="chip">Well depth and type (dug / bore)</span></div>
+          </div>
+          <div class="col"><span class="col-label">Compute</span>
+            <ul class="steps">
+              <li>Convert depth to head: h = z<sub>ground</sub> − DTW. Treat "dry" readings as censored values below the well bottom.</li>
+              <li>Flag readings affected by pumping, and possible confined behaviour.</li>
+              <li>Classify each well as near-drainage, mid-slope or near-divide using eq. 8 (does A ≪ D hold?).</li>
+              <li>Check that sampling resolves the expected swing given unsaturated thickness (Hydrus-1D where unclear).</li>
+              <li>Keep dug and bore wells apart when they tap different layers.</li>
+            </ul>
+            <span class="eq"><span class="v" data-v="A" tabindex="0">A</span>(<span class="v" data-v="x" tabindex="0">x</span>) = |<span class="v" data-v="qa" tabindex="0">q<sub>a</sub></span>·cosh(<span class="v" data-v="λ" tabindex="0">λ</span><span class="v" data-v="x" tabindex="0">x</span>)/cosh(<span class="v" data-v="λ" tabindex="0">λ</span><span class="v" data-v="L" tabindex="0">L</span>)| → usable for WTF where <span class="v" data-v="A" tabindex="0">A</span> ≪ <span class="v" data-v="D" tabindex="0">D</span></span>
+          </div>
+          <div class="col"><span class="col-label">Produces</span>
+            <div class="chips"><span class="out">Clean head series with flags</span><span class="out">Well classes by position</span></div>
+          </div>
+        </div>
+      </section>
+      <div class="arrow" aria-hidden="true"></div>
+
+      <section class="stage">
+        <div class="stage-head"><span class="num">4</span><div><h3>Extract behaviour signatures</h3><p class="sub">Per well, then across wells using their distances to drainage</p></div></div>
+        <div class="cols" style="grid-template-columns:1fr 1fr 0.8fr">
+          <div class="col"><span class="col-label">Per well</span>
+            <ul class="steps">
+              <li>Seasonal rise ΔH (post- minus pre-monsoon) against monsoon rainfall: linear, or flattening at high rainfall.</li>
+              <li>Ceiling test: annual peak level steadier than rainfall; peak near ground or the aquifer top.</li>
+              <li>Floor test: dry-season minima clipped at a repeated level; dry readings.</li>
+              <li>Dry-season recession constant τ; lag to rainfall by cross-correlation.</li>
+              <li>Memory: autocorrelation of annual levels; dependence on the previous year's rain.</li>
+              <li>Trend in pre-monsoon level (Mann–Kendall, Sen slope) set against the rainfall trend.</li>
+              <li>Drought drop and number of years to recover; response to heavy-rain events.</li>
+            </ul>
+          </div>
+          <div class="col"><span class="col-label">Across wells</span>
+            <ul class="steps">
+              <li>Mean head above drainage against d(2L−d): the slope estimates q/(2T) (eq. 9).</li>
+              <li>Amplitude and phase against distance to drainage: fitting eq. 5 gives diffusivity T/S<sub>Y</sub>.</li>
+              <li>Repeat with each stream order as the boundary; the best-fitting order is the effective constant-head drainage.</li>
+              <li>Spatial coherence of anomalies between wells.</li>
+            </ul>
+            <span class="eq"><span class="v" data-v="h̄" tabindex="0">h̄</span>(<span class="v" data-v="d" tabindex="0">d</span>) = <span class="v" data-v="q" tabindex="0">q</span>·<span class="v" data-v="d" tabindex="0">d</span>(2<span class="v" data-v="L" tabindex="0">L</span>−<span class="v" data-v="d" tabindex="0">d</span>)/(2<span class="v" data-v="T" tabindex="0">T</span>), &nbsp;with <span class="v" data-v="d" tabindex="0">d</span> = <span class="v" data-v="L" tabindex="0">L</span> − <span class="v" data-v="x" tabindex="0">x</span></span>
+          </div>
+          <div class="col"><span class="col-label">Produces</span>
+            <div class="chips"><span class="out">Signature vector per well</span><span class="out">q/T and T/S<sub>Y</sub> estimates</span><span class="out">Effective drainage order</span></div>
+          </div>
+        </div>
+      </section>
+      <div class="arrow" aria-hidden="true"></div>
+
+      <section class="stage">
+        <div class="stage-head"><span class="num">5</span><div><h3>Infer the prevalent scenario</h3><p class="sub">Match record signatures to six candidate scenarios, S1–S6. B5 uses the same six, read from farmer recall.</p></div></div>
+        <p class="note">Sketches show water level (up = shallower) over six years. Shaded: <span style="color:var(--sediment);font-style:normal">drought year</span>, then <span style="color:var(--water);font-style:normal">heavy-rain year</span>.</p>
+        <div class="branches" id="scenarios"></div>
+        <p class="merge">Fit the candidate model for each scenario, and select using out-of-sample error on hold-out years (including the drought and heavy-rain years) together with the signature evidence. Report a probability per scenario, not a single label. Scenarios can co-occur: S6 can sit on top of any other, and S2 with S3 (fills every monsoon, empties every summer) is common in shallow hard-rock aquifers. The markers show how reliably records detect each scenario; B5 compares this with recall.</p>
+      </section>
+      <div class="arrow" aria-hidden="true"></div>
+
+      <section class="stage">
+        <div class="stage-head"><span class="num">6</span><div><h3>Calibrate the matching model</h3><p class="sub">Cuthbert steps 5–7: estimate, test sensitivity, corroborate by a second method</p></div></div>
+        <div class="cols">
+          <div class="col"><span class="col-label">Model options</span>
+            <ul class="steps">
+              <li>Diffusive scenario: modified WTF with eq. 13 (thick) or eq. 12 (thin), giving a recharge series.</li>
+              <li>Inversion: with q<sub>pot</sub> as known recharge, solve for T and S<sub>Y</sub>.</li>
+              <li>Transfer-function noise models per well, with rainfall, ET and pumping stresses (for example Pastas).</li>
+              <li>Threshold bucket model for storage-capped or floor-limited scenarios.</li>
+              <li>2-D groundwater model (MODFLOW) where wells are dense enough.</li>
+            </ul>
+            <span class="eq"><span class="v" data-v="q" tabindex="0">q<sub>t</sub></span> = <span class="v" data-v="SY" tabindex="0">S<sub>Y</sub></span>(<span class="v" data-v="h" tabindex="0">h<sub>t</sub></span>−<span class="v" data-v="h" tabindex="0">h<sub>t−Δt</sub></span>)/<span class="v" data-v="Δt" tabindex="0">Δt</span> + 2<span class="v" data-v="h̄" tabindex="0">h̄</span><span class="v" data-v="T" tabindex="0">T</span>/(<span class="v" data-v="L" tabindex="0">L</span>²−<span class="v" data-v="x" tabindex="0">x</span>²)</span>
+          </div>
+          <div class="col"><span class="col-label">Checks</span>
+            <ul class="steps">
+              <li>Sensitivity: T, L and h₀ shift mean recharge; S<sub>Y</sub> scales its amplitude (Table 2).</li>
+              <li>Compare the WTF recharge with q<sub>pot</sub> from the soil-water balance; persistent gaps point to pumping, lateral inflow or a wrong S<sub>Y</sub>.</li>
+              <li>Negative WTF recharge in dry years signals abstraction (as in the paper's 1995–96 example).</li>
+              <li>Monte Carlo over the priors for uncertainty; validate on hold-out wells and years.</li>
+            </ul>
+          </div>
+          <div class="col"><span class="col-label">Produces</span>
+            <div class="chips"><span class="out">T, S<sub>Y</sub>, b, effective L</span><span class="out">Recharge series with uncertainty</span><span class="out">Abstraction estimate</span></div>
+          </div>
+        </div>
+      </section>
+      <div class="arrow" aria-hidden="true"></div>
+
+      <section class="stage">
+        <div class="stage-head"><span class="num">7</span><div><h3>Produce maps</h3><p class="sub">Physics-guided interpolation, then derived layers</p></div></div>
+        <div class="cols">
+          <div class="col"><span class="col-label">Method</span>
+            <ul class="steps">
+              <li>Head surface = drainage bed elevation plus the mound term q·d(2L−d)/(2T) in each micro-watershed.</li>
+              <li>Krige the well residuals around that surface, with height above drainage and distance to drainage as drift terms.</li>
+              <li>Depth to water = DEM − head surface.</li>
+            </ul>
+          </div>
+          <div class="col"><span class="col-label">Map set</span>
+            <ul class="steps">
+              <li>Depth to water: pre- and post-monsoon, plus drought-year and wet-year versions.</li>
+              <li>Flow direction from the head gradient, checked against micro-watershed connectivity.</li>
+              <li>Recharge (mean, drought, wet) and storage change.</li>
+              <li>Saturation-prone (waterlogging) zones and dry-season stress zones.</li>
+              <li>Aquifer-thickness hints, and an uncertainty map.</li>
+            </ul>
+          </div>
+          <div class="col"><span class="col-label">Validate</span>
+            <div class="chips"><span class="out">Hold-out wells</span><span class="out">Baseflow at gauges</span><span class="out">GRACE regional trend</span></div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </section>
+
+  <!-- ===================== WORKFLOW B ===================== -->
+  <section id="flow-b" style="display:flex;flex-direction:column;gap:18px">
+    <div class="chart-head">
+      <span class="eyebrow">Workflow B</span>
+      <h2>One or two wells, plus farmer recall</h2>
+      <p class="lede">Goal: identify the scenario well enough to warn of overexploitation, and set extraction limits for poor, normal and good rainfall years.</p>
+    </div>
+
+    <div class="flow">
+      <section class="stage">
+        <div class="stage-head"><span class="num">1</span><div><h3>Reuse the catchment and rainfall layers</h3><p class="sub">Workflow A stages 1–2, plus scenario priors</p></div></div>
+        <div class="cols">
+          <div class="col"><span class="col-label">Inputs</span>
+            <div class="chips"><span class="chip">Per-unit geometry and parameter priors</span><span class="chip">Event calendar, q<sub>pot</sub>(t)</span><span class="chip">Seasonal irrigated area</span></div>
+          </div>
+          <div class="col"><span class="col-label">Compute</span>
+            <ul class="steps">
+              <li>Scenario prior from lithology and setting. Where a dense network exists in similar terrain, run Workflow A there and transfer the scenario frequencies.</li>
+              <li>Name the drought and heavy-rain years in local terms, to anchor recall later.</li>
+            </ul>
+          </div>
+          <div class="col"><span class="col-label">Produces</span>
+            <div class="chips"><span class="out">Prior P(scenario)</span><span class="out">Recall anchor years</span></div>
+          </div>
+        </div>
+      </section>
+      <div class="arrow" aria-hidden="true"></div>
+
+      <section class="stage">
+        <div class="stage-head"><span class="num">2</span><div><h3>Read what the available wells can and cannot say</h3><p class="sub">Data-availability scenarios, by position relative to drainage</p></div></div>
+        <div class="branches">
+          <div class="card"><span class="tag">Case A</span><h4>No monitored well</h4>
+            <dl><dt>Usable for</dt><dd>Nothing directly. Rely on recall and priors.</dd><dt>Consequence</dt><dd>Lowest confidence. Prioritise one tape-measure reading per season in a dug well far from drainage.</dd></dl></div>
+          <div class="card"><span class="tag">Case B</span><h4>Wells close to higher-order drainage</h4>
+            <dl><dt>Usable for</dt><dd>Drainage base level h₀, seasonal stream connection (gaining or losing), damped amplitude.</dd><dt>Not usable for</dt><dd>Recharge. D follows q near the boundary, so WTF fails (eq. 8).</dd></dl></div>
+          <div class="card"><span class="tag">Case C</span><h4>Wells far from drainage, near the divide</h4>
+            <dl><dt>Usable for</dt><dd>WTF recharge with D ≈ q<sub>a</sub>; largest swings; clearest ceiling, floor and trend signals.</dd><dt>Caveat</dt><dd>Recharge scales with the S<sub>Y</sub> prior; local patchiness can bias it.</dd></dl></div>
+          <div class="card"><span class="tag">Case D</span><h4>One near and one far well</h4>
+            <dl><dt>Usable for</dt><dd>A two-point mound gives a rough q/T; the amplitude ratio gives a rough T/S<sub>Y</sub>.</dd><dt>Caveat</dt><dd>Only valid if both wells tap the same layer and lie in the same micro-watershed.</dd></dl></div>
+        </div>
+        <p class="merge">Each case sets which recall questions carry the most weight. In Case B, recall from wells far from drainage fills the gap. In Case C, recall near drainage adds the base level. Wherever an instrumented well overlaps recall years, use it to measure recall bias.</p>
+      </section>
+      <div class="arrow" aria-hidden="true"></div>
+
+      <section class="stage">
+        <div class="stage-head"><span class="num">3</span><div><h3>Run a structured recall survey</h3><p class="sub">Geo-tag every well, so its distance to each drainage order is known</p></div></div>
+        <div class="cols" style="grid-template-columns:0.8fr 2fr">
+          <div class="col"><span class="col-label">Sampling</span>
+            <ul class="steps">
+              <li>Stratify by distance to drainage (near, mid, far), lithology, well type and depth.</li>
+              <li>Start with about 20–40 wells per micro-watershed, enough for several per stratum; adjust to the variability found.</li>
+              <li>Record answers in local units (feet, haath, rings in a dug well) and convert later.</li>
+              <li>Ask about named years from the event calendar, not "a dry year".</li>
+            </ul>
+          </div>
+          <div class="col"><span class="col-label">Question blocks, and what each estimates</span>
+            <div class="q-grid">
+              <div class="q"><span class="ask">Depth to water in the monsoon, after it (around Diwali), in winter and at the peak of summer</span><span class="gives">Seasonal rise ΔH; whether a ceiling or a floor is reached</span></div>
+              <div class="q"><span class="ask">After pumping for a few hours, how long until the well refills, in each season?</span><span class="gives">Local transmissivity proxy. Slower recovery in the dry season means the saturated thickness is shrinking toward the floor.</span></div>
+              <div class="q"><span class="ask">How many hours can you pump before the well runs dry? In which month does it go dry?</span><span class="gives">Floor depth, dry-season yield</span></div>
+              <div class="q"><span class="ask">In [named drought year], when did the well go dry, and how many monsoons until it was normal again?</span><span class="gives">Storage size and memory across years</span></div>
+              <div class="q"><span class="ask">In [named heavy-rain year], did water reach the surface or overflow, and for how long did fields stay waterlogged?</span><span class="gives">Ceiling; recharge being rejected</span></div>
+              <div class="q"><span class="ask">When was the well dug, how deep, when was it deepened and by how much? Any new borewells nearby, or failures?</span><span class="gives">Long-term trend; depletion</span></div>
+              <div class="q"><span class="ask">Pump size, hours per day in each season, crops and area irrigated</span><span class="gives">Abstraction estimate</span></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="arrow" aria-hidden="true"></div>
+
+      <section class="stage">
+        <div class="stage-head"><span class="num">4</span><div><h3>Turn recall into usable data</h3><p class="sub">Intervals with uncertainty, not point values</p></div></div>
+        <div class="cols">
+          <div class="col"><span class="col-label">Inputs</span>
+            <div class="chips"><span class="chip">Survey responses</span><span class="chip">Instrumented well(s), if any</span><span class="chip">Event calendar</span></div>
+          </div>
+          <div class="col"><span class="col-label">Compute</span>
+            <ul class="steps">
+              <li>Convert each answer to a depth interval per season and anchored year.</li>
+              <li>Check consistency between neighbours in the same distance-to-drainage band.</li>
+              <li>Estimate recall bias against the instrumented wells in overlapping years.</li>
+              <li>Watch for known biases: extremes remembered more sharply, years shifted closer in time, depths exaggerated for deepened wells.</li>
+            </ul>
+          </div>
+          <div class="col"><span class="col-label">Produces</span>
+            <div class="chips"><span class="out">Seasonal depth intervals per well</span><span class="out">Recovery and yield by season</span><span class="out">Abstraction estimate</span></div>
+          </div>
+        </div>
+      </section>
+      <div class="arrow" aria-hidden="true"></div>
+
+      <section class="stage">
+        <div class="stage-head"><span class="num">5</span><div><h3>Diagnose the scenario from recall signatures</h3><p class="sub">The same six scenarios as A5, read from recall instead of records. P(scenario) ∝ prior × likelihood of the observed signatures.</p></div></div>
+        <div class="branches" id="scenarios-b"></div>
+        <p class="merge">Report the top two scenarios with their probabilities, and the single extra measurement that would best separate them. For example, an end-of-monsoon tape reading in a far-from-drainage dug well separates S2 (fills to the top) from S5 (long memory). Scenarios can co-occur, as in A5. Because the labels match, a diagnosis made from recall can later be confirmed against records.</p>
+        <h4 style="margin:4px 0 0;font-family:var(--f-display);font-size:1.02rem;font-weight:600">Records versus recall</h4>
+        <div class="src-notes">
+          <div><h4>Records are better at</h4><ul><li>Timing, lags and slow trends over many years</li><li>Exact amplitudes, and fits against distance to drainage</li><li>Separating rainfall-driven change from other change</li></ul></div>
+          <div><h4>Recall is better at</h4><ul><li>Extreme events: overflow, wells going dry</li><li>Human actions: deepening, new borewells, pumping hours</li><li>Covering many wells, including heavily pumped ones that monitoring avoids</li></ul></div>
+          <div><h4>Both are weak at</h4><ul><li>Telling local geology from local pumping as the cause of differences between neighbours (S4 versus S6)</li><li>Any scenario whose evidence lies outside the years covered</li></ul></div>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>Easily confused</th><th>Records separate them by</th><th>Recall separates them by</th><th>Better source</th></tr></thead>
+            <tbody>
+              <tr><td class="sc">S1 vs S5</td><td>Ratio of seasonal to year-to-year swing; lag to rainfall; lag-1 autocorrelation ρ₁</td><td>Only through monsoons needed to recover after a drought, which is weakly remembered</td><td class="better">Records</td></tr>
+              <tr><td class="sc">S1 vs S2</td><td>Flat versus higher peak in a heavy-rain year, if the record includes one</td><td>Overflow or waterlogging in the named heavy-rain year</td><td class="better">Recall, unless records span a heavy year</td></tr>
+              <tr><td class="sc">S3 vs S6</td><td>Floor at a stable depth versus a floor that deepens over years; needs pumping data</td><td>Whether the month of going dry is moving earlier; deepening history</td><td class="better">Recall</td></tr>
+              <tr><td class="sc">S5 vs S6</td><td>Decline that recovers after good years versus decline that persists whatever the rain (trend left after a rainfall model)</td><td>Strong on cause (deepening, new borewells), weak on timing</td><td class="better">Both: records for timing, recall for cause</td></tr>
+              <tr><td class="sc">S4 vs S6</td><td>Coherence of the monsoon response, when pumping is low</td><td>Whether interference occurs even when little pumping is going on</td><td class="better">Neither alone; add a short pumping test</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+      <div class="arrow" aria-hidden="true"></div>
+
+      <section class="stage">
+        <div class="stage-head"><span class="num">6</span><div><h3>Fit a minimal water-balance model per micro-watershed</h3><p class="sub">A store between a floor and a ceiling</p></div></div>
+        <div class="cols">
+          <div class="col"><span class="col-label">Structure</span>
+            <span class="eq"><span class="v" data-v="V" tabindex="0">V</span> = <span class="v" data-v="SY" tabindex="0">S<sub>Y</sub></span>·<span class="v" data-v="Au" tabindex="0">A<sub>u</sub></span>·(<span class="v" data-v="h" tabindex="0">h</span> − <span class="v" data-v="hfloor" tabindex="0">h<sub>floor</sub></span>), capacity <span class="v" data-v="SY" tabindex="0">S<sub>Y</sub></span>·<span class="v" data-v="Au" tabindex="0">A<sub>u</sub></span>·(<span class="v" data-v="hceil" tabindex="0">h<sub>ceil</sub></span> − <span class="v" data-v="hfloor" tabindex="0">h<sub>floor</sub></span>)</span>
+            <ul class="steps">
+              <li>Inflow: q<sub>pot</sub>(t)·A<sub>u</sub>, capped by the room left; the excess becomes runoff.</li>
+              <li>Outflow: baseflow k·V, plus abstraction Q<sub>abs</sub>, plus domestic use Q<sub>dom</sub>.</li>
+            </ul>
+          </div>
+          <div class="col"><span class="col-label">Calibrate</span>
+            <ul class="steps">
+              <li>Fit S<sub>Y</sub>, h<sub>floor</sub>, h<sub>ceil</sub> and k to the instrumented series (hard constraints) and to the recall intervals (soft constraints).</li>
+              <li>Abstraction from pump hours × discharge, cross-checked against irrigated area × crop water requirement.</li>
+              <li>Validate on the named drought and heavy-rain years.</li>
+            </ul>
+          </div>
+          <div class="col"><span class="col-label">Produces</span>
+            <div class="chips"><span class="out">Storage capacity</span><span class="out">End-of-monsoon storage by rainfall class</span><span class="out">Recharge versus abstraction</span></div>
+          </div>
+        </div>
+      </section>
+      <div class="arrow" aria-hidden="true"></div>
+
+      <section class="stage">
+        <div class="stage-head"><span class="num">7</span><div><h3>Set extraction limits and warnings by rainfall class</h3><p class="sub">Classify the monsoon at the end of September, then apply the scenario's rule. Where scenarios co-occur, take the more restrictive rule in each column.</p></div></div>
+        <span class="eq"><span class="v" data-v="Eallow" tabindex="0">E<sub>allow</sub></span> = <span class="v" data-v="V" tabindex="0">V</span> above <span class="v" data-v="hres" tabindex="0">h<sub>res</sub></span> − <span class="v" data-v="Qdom" tabindex="0">Q<sub>dom</sub></span> − baseflow needs − carry-over buffer</span>
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>Scenario</th><th>Poor monsoon</th><th>Normal monsoon</th><th>Good monsoon</th><th>Warning triggers farmers can observe</th></tr></thead>
+            <tbody>
+              <tr><td class="sc">S1 Diffusive, stream-connected</td><td>Limit to recharge minus baseflow needs; protect wells near streams.</td><td>Use up to recharge minus baseflow needs.</td><td>Some banking is possible in the zone far from drainage.</td><td class="wn">Streams stop flowing earlier in the dry season.</td></tr>
+              <tr><td class="sc">S2 Fills to the top</td><td>Limit use to this season's storage gain; reserve drinking water first.</td><td>Most of the seasonal store can be used; it refills next monsoon.</td><td>Extra rain cannot be banked. Do not expand water-intensive acreage because the year was good.</td><td class="wn">Post-monsoon level fails to reach its usual height.</td></tr>
+              <tr><td class="sc">S3 Drains to the floor</td><td>Protective irrigation only; no summer crop.</td><td>Size rabi area to the store above the floor.</td><td>A modest increase only; the floor still limits summer use.</td><td class="wn">Wells go dry earlier than the usual month; overnight recovery fails.</td></tr>
+              <tr><td class="sc">S4 Compartmentalised</td><td>Well-specific limits; enforce spacing between wells.</td><td>Well-specific limits from each well's recovery behaviour.</td><td>Same; gains do not spread far.</td><td class="wn">Recovery slows when a neighbouring well pumps.</td></tr>
+              <tr><td class="sc">S5 Long memory</td><td>Cut use, and keep restrictions in place the following year.</td><td>Keep use at or below long-term mean recharge.</td><td>Use less than recharge, to rebuild storage.</td><td class="wn">Two consecutive deficit monsoons.</td></tr>
+              <tr><td class="sc">S6 Abstraction-dominated</td><td>Strict cap; drinking water first.</td><td>Cap total use below long-term mean recharge, whatever the rain.</td><td>Same cap. Use the good year to recover, not to expand.</td><td class="wn">Falling pre-monsoon level, deepening and borewell failures. Stage of extraction above 100% in the CGWB sense.</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+      <div class="arrow" aria-hidden="true"></div>
+      <div class="loop"><strong>↻</strong><span><strong>Seasonal update.</strong> Each year, ask three short questions (depth around Diwali, the month the well went dry, overnight recovery time), add any tape readings, and update P(scenario), the model and the limits. Over time, recall data accumulates into a monitoring record, and the workflow moves toward Workflow A.</span></div>
+    </div>
+  </section>
+
+  <section id="dictionary" style="display:flex;flex-direction:column;gap:14px">
+    <div class="chart-head">
+      <span class="eyebrow">Reference</span>
+      <h2>Variables data dictionary</h2>
+      <p class="lede">Every symbol and quantity used in the two workflows. Heads are in metres above a common datum unless stated. Recharge is given in m/d to match the paper's equations; multiply by 365,000 for mm/yr. "Used in" refers to stages, so A3 is Workflow A, stage 3.</p>
+    </div>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Symbol</th><th>Variable</th><th>Units</th><th>Source or how obtained</th><th>Used in</th></tr></thead>
+        <tbody>
+          <tr class="grp"><th colspan="5">Catchment geometry</th></tr>
+          <tr><td class="sym">z<sub>g</sub></td><td>Ground elevation at a well or cell</td><td class="unit">m</td><td>DEM</td><td class="use">A1 A3 A7</td></tr>
+          <tr><td class="sym">—</td><td>Drainage lines with Strahler order</td><td class="unit">—</td><td>Derived from the DEM (for example Hydro Stack)</td><td class="use">A1 A4</td></tr>
+          <tr><td class="sym">d<sub>k</sub></td><td>Distance from a well to the nearest drainage of order k</td><td class="unit">m</td><td>GIS, from the well location and drainage layer</td><td class="use">A1 A4 B2 B3</td></tr>
+          <tr><td class="sym">x</td><td>Distance from the groundwater divide along the flow line (x = 0 at the divide, x = L at the drainage)</td><td class="unit">m</td><td>x = L − d</td><td class="use">A1 A3 A4</td></tr>
+          <tr><td class="sym">L</td><td>Equivalent aquifer length, divide to drainage</td><td class="unit">m</td><td>L ≈ A<sub>catch</sub> / (2·ΣL<sub>river</sub>), per micro-watershed and per stream order</td><td class="use">A1 A4 A6</td></tr>
+          <tr><td class="sym">A<sub>catch</sub></td><td>Catchment or micro-watershed area used to compute L</td><td class="unit">m²</td><td>Watershed delineation</td><td class="use">A1</td></tr>
+          <tr><td class="sym">ΣL<sub>river</sub></td><td>Total length of the drainage taken as the boundary</td><td class="unit">m</td><td>Drainage layer, by stream order</td><td class="use">A1</td></tr>
+          <tr><td class="sym">HAND</td><td>Height of a well or cell above the nearest drainage</td><td class="unit">m</td><td>DEM and drainage layer</td><td class="use">A1 A7</td></tr>
+          <tr><td class="sym">A<sub>u</sub></td><td>Area of the micro-watershed in the storage model</td><td class="unit">m²</td><td>Watershed delineation</td><td class="use">B6 B7</td></tr>
+
+          <tr class="grp"><th colspan="5">Aquifer properties</th></tr>
+          <tr><td class="sym">K</td><td>Hydraulic conductivity</td><td class="unit">m/d</td><td>Lithology prior; refined by calibration</td><td class="use">A1 A6</td></tr>
+          <tr><td class="sym">T</td><td>Transmissivity (K × saturated thickness)</td><td class="unit">m²/d</td><td>Prior from aquifer maps; fitted from the mound shape and calibration</td><td class="use">A4 A6 A7</td></tr>
+          <tr><td class="sym">S<sub>Y</sub></td><td>Specific yield</td><td class="unit">fraction</td><td>Prior from lithology (for example CGWB norms); calibration</td><td class="use">A1 A4 A6 B6</td></tr>
+          <tr><td class="sym">T/S<sub>Y</sub></td><td>Aquifer diffusivity</td><td class="unit">m²/d</td><td>Fit of swing amplitude and phase against distance (eq. 5)</td><td class="use">A3 A4</td></tr>
+          <tr><td class="sym">b</td><td>Saturated thickness at the drainage boundary (eq. 12)</td><td class="unit">m</td><td>Aquifer maps; calibration</td><td class="use">A6</td></tr>
+          <tr><td class="sym">H̄</td><td>Time-averaged saturated thickness at the well (eq. 12)</td><td class="unit">m</td><td>Mean head minus the aquifer base</td><td class="use">A6</td></tr>
+          <tr><td class="sym">h<sub>floor</sub></td><td>Level at which the aquifer is effectively empty and wells go dry</td><td class="unit">m</td><td>Floor test on records; recall</td><td class="use">A4 B6 B7</td></tr>
+          <tr><td class="sym">h<sub>ceil</sub></td><td>Level at which the aquifer is full and further recharge is rejected</td><td class="unit">m</td><td>Ceiling test on records; recall</td><td class="use">A4 B6 B7</td></tr>
+
+          <tr class="grp"><th colspan="5">Heads and well observations</th></tr>
+          <tr><td class="sym">DTW</td><td>Depth to water below ground</td><td class="unit">m</td><td>Well records; recall intervals</td><td class="use">A3 A7 B3 B4</td></tr>
+          <tr><td class="sym">h</td><td>Groundwater head, h = z<sub>g</sub> − DTW</td><td class="unit">m</td><td>Derived</td><td class="use">A3–A7 B6</td></tr>
+          <tr><td class="sym">h₀</td><td>Head at the drainage boundary (stream or river bed level)</td><td class="unit">m</td><td>DEM along the drainage; wells near drainage (Case B)</td><td class="use">A4 A6 A7 B2</td></tr>
+          <tr><td class="sym">h̄</td><td>Time-averaged head above h₀</td><td class="unit">m</td><td>Running annual mean of h − h₀</td><td class="use">A4 A6</td></tr>
+          <tr><td class="sym">ΔH</td><td>Seasonal rise: post-monsoon minus pre-monsoon level</td><td class="unit">m</td><td>Well records; recall</td><td class="use">A4 B3 B5</td></tr>
+          <tr><td class="sym">Δt</td><td>Sampling interval of the well record</td><td class="unit">d</td><td>Record metadata</td><td class="use">A3 A6</td></tr>
+          <tr><td class="sym">—</td><td>Well depth and type (dug or bore)</td><td class="unit">m; category</td><td>Well inventory; survey</td><td class="use">A3 B3</td></tr>
+
+          <tr class="grp"><th colspan="5">Climate and recharge</th></tr>
+          <tr><td class="sym">P</td><td>Rainfall, daily and aggregated to monsoon and annual totals</td><td class="unit">mm</td><td>IMD gridded, CHIRPS, IMERG, gauges</td><td class="use">A2 A4</td></tr>
+          <tr><td class="sym">PET</td><td>Potential evapotranspiration</td><td class="unit">mm/d</td><td>ERA5-Land</td><td class="use">A2</td></tr>
+          <tr><td class="sym">AWC</td><td>Soil available water capacity</td><td class="unit">mm</td><td>Soil maps</td><td class="use">A1 A2</td></tr>
+          <tr><td class="sym">K<sub>c</sub></td><td>Crop coefficient by land use and season</td><td class="unit">—</td><td>LULC with FAO-56 tables</td><td class="use">A1 A2</td></tr>
+          <tr><td class="sym">SPI, SPEI</td><td>Standardised precipitation (and evapotranspiration) index, 3- and 12-month</td><td class="unit">—</td><td>Computed from P, and PET for SPEI</td><td class="use">A2 B1 B7</td></tr>
+          <tr><td class="sym">Rx1day, Rx5day</td><td>Largest 1-day and 5-day rainfall in a year</td><td class="unit">mm</td><td>Computed from P</td><td class="use">A2</td></tr>
+          <tr><td class="sym">q</td><td>Recharge reaching the water table</td><td class="unit">m/d</td><td>WTF (eq. 1, 13); models</td><td class="use">A6 B6</td></tr>
+          <tr><td class="sym">q<sub>a</sub></td><td>Long-term mean recharge</td><td class="unit">m/d</td><td>Mean of q, or from eq. 10</td><td class="use">A3 A6</td></tr>
+          <tr><td class="sym">q<sub>pot</sub></td><td>Potential recharge from the soil-water balance</td><td class="unit">m/d</td><td>Computed in A2</td><td class="use">A2 A6 B6</td></tr>
+          <tr><td class="sym">D</td><td>Net groundwater drainage away from the well</td><td class="unit">m/d</td><td>eq. 10 or eq. 12</td><td class="use">A3 A6</td></tr>
+          <tr><td class="sym">A</td><td>Amplitude of the variation of D over time (eq. 8)</td><td class="unit">m/d</td><td>Computed from x, L, T and S<sub>Y</sub></td><td class="use">A3 B2</td></tr>
+          <tr><td class="sym">ω, λ</td><td>Angular frequency of the recharge cycle; λ² = iωS<sub>Y</sub>/T</td><td class="unit">1/d; 1/m</td><td>ω = 2π/365 for an annual cycle</td><td class="use">A3 A4</td></tr>
+
+          <tr class="grp"><th colspan="5">Behaviour signatures</th></tr>
+          <tr><td class="sym">τ</td><td>Dry-season recession time constant</td><td class="unit">d</td><td>Exponential fit to the dry-season decline</td><td class="use">A4</td></tr>
+          <tr><td class="sym">lag</td><td>Delay between rainfall and the water-level peak</td><td class="unit">d or months</td><td>Cross-correlation of P or q<sub>pot</sub> with h</td><td class="use">A4</td></tr>
+          <tr><td class="sym">ρ₁</td><td>Lag-1 autocorrelation of annual mean levels (memory)</td><td class="unit">—</td><td>Well records</td><td class="use">A4</td></tr>
+          <tr><td class="sym">β</td><td>Trend in pre-monsoon level (Sen slope)</td><td class="unit">m/yr</td><td>Mann–Kendall test and Sen slope on records</td><td class="use">A4 B5</td></tr>
+          <tr><td class="sym">e</td><td>Rainfall elasticity of the seasonal rise, dΔH/dP<sub>monsoon</sub></td><td class="unit">m/mm</td><td>Regression of ΔH on monsoon rainfall; flattening suggests a ceiling</td><td class="use">A4</td></tr>
+          <tr><td class="sym">n<sub>rec</sub></td><td>Monsoons needed to recover after a drought</td><td class="unit">count</td><td>Records; recall</td><td class="use">A4 B3 B5</td></tr>
+
+          <tr class="grp"><th colspan="5">Survey and water use</th></tr>
+          <tr><td class="sym">t<sub>rec</sub></td><td>Time for a well to refill after pumping, by season</td><td class="unit">h</td><td>Recall</td><td class="use">B3 B4 B5</td></tr>
+          <tr><td class="sym">t<sub>dry</sub></td><td>Pumping hours before the well runs dry, by season</td><td class="unit">h</td><td>Recall</td><td class="use">B3 B4</td></tr>
+          <tr><td class="sym">m<sub>dry</sub></td><td>Month in which the well goes dry</td><td class="unit">month</td><td>Recall</td><td class="use">B3 B5 B7</td></tr>
+          <tr><td class="sym">Δz<sub>well</sub></td><td>Total deepening of a well since it was dug</td><td class="unit">m</td><td>Recall</td><td class="use">B3 B5</td></tr>
+          <tr><td class="sym">Q<sub>p</sub></td><td>Pump discharge</td><td class="unit">m³/h</td><td>Pump rating, or a timed bucket test</td><td class="use">B3 B6</td></tr>
+          <tr><td class="sym">Q<sub>abs</sub></td><td>Groundwater abstraction</td><td class="unit">m³/season</td><td>Pump hours × Q<sub>p</sub>; checked against irrigated area × crop water need</td><td class="use">A6 B6 B7</td></tr>
+          <tr><td class="sym">Q<sub>dom</sub></td><td>Drinking, domestic and livestock use</td><td class="unit">m³/season</td><td>Population and livestock counts × per-head norms</td><td class="use">B6 B7</td></tr>
+
+          <tr class="grp"><th colspan="5">Model and management</th></tr>
+          <tr><td class="sym">V</td><td>Groundwater storage in the micro-watershed</td><td class="unit">m³</td><td>V = S<sub>Y</sub>·A<sub>u</sub>·(h − h<sub>floor</sub>)</td><td class="use">B6 B7</td></tr>
+          <tr><td class="sym">k</td><td>Baseflow coefficient of the store</td><td class="unit">1/d</td><td>Calibration</td><td class="use">B6</td></tr>
+          <tr><td class="sym">P(scenario)</td><td>Probability of each behaviour scenario</td><td class="unit">—</td><td>Prior × likelihood of the observed signatures</td><td class="use">A5 B1 B5</td></tr>
+          <tr><td class="sym">—</td><td>Monsoon class: poor, normal or good</td><td class="unit">category</td><td>End-of-September rainfall departure or SPI</td><td class="use">B7</td></tr>
+          <tr><td class="sym">h<sub>res</sub></td><td>Reserve level kept for drinking water and drought carry-over</td><td class="unit">m</td><td>Set locally with the community</td><td class="use">B7</td></tr>
+          <tr><td class="sym">E<sub>allow</sub></td><td>Allowable rabi and summer extraction</td><td class="unit">m³</td><td>Storage above h<sub>res</sub>, minus Q<sub>dom</sub>, baseflow needs and carry-over buffer</td><td class="use">B7</td></tr>
+          <tr><td class="sym">SoE</td><td>Stage of extraction: abstraction ÷ annual extractable resource</td><td class="unit">%</td><td>CGWB groundwater estimation methodology</td><td class="use">B7</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <p class="foot">Source: Cuthbert, M. O. (2010). <a href="https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2009WR008572" style="color:var(--water)">An improved time series approach for estimating groundwater recharge from groundwater level fluctuations</a>. <i>Water Resources Research</i>, 46, W09515.</p>
+  <p class="foot">Stage numbering reflects the order of work. The six scenarios are a working typology: the diffusive case follows Cuthbert (2010) directly, and the others extend it to shallow hard-rock aquifers and heavy pumping. Thresholds and sample sizes are starting points to calibrate locally.</p>
+</div>
+
+<script>
+(function(){
+  var S = [
+    {tag:"S1", name:"Diffusive, stream-connected", rr:"High", rrn:"Fitting amplitude and mean head against distance to drainage confirms it directly, if wells span near and far positions.", cr:"Low", crn:"Mostly diagnosed by ruling the others out. Farmers rarely notice a muted swing, and near-versus-far comparisons need many respondents.", recall:"A smooth rise and fall that follows the rain; wells far from streams swing more than wells near them; no regular overflow or drying out.", ask:"Seasonal depths, compared between wells near and far from streams.", sig:"Smooth rise and fall that scales with rainfall; amplitude grows with distance from drainage; mean head forms a mound between streams.", hint:"Thick, unconfined aquifer that never fills or empties. Fit gives T/S<sub>Y</sub> and q/T.", model:"Cuthbert modified WTF (eq. 13 or 12); 2-D Boussinesq or MODFLOW.", kind:"diffusive"},
+    {tag:"S2", name:"Fills to the top", rr:"Medium", rrn:"Flat annual peaks are clear only if the record includes a heavy-rain year; otherwise a ceiling cannot be told from an ordinary peak.", cr:"High", crn:"Overflow and waterlogging are vivid, memorable events tied to named years.", recall:"The monsoon peak is at the same depth every year; water reaches the surface or overflows in heavy years; wells are back to normal after one monsoon, even after a drought.", ask:"What happened in the named heavy-rain year: surface water, overflow, waterlogging.", sig:"Annual peak level is flat across years, the heavy-rain year included; rise saturates with rainfall.", hint:"Storage-capped aquifer. Thickness ≈ dry-season depth − ceiling depth. Recharge is rejected as runoff in good years.", model:"Threshold bucket with a ceiling; transfer-function model with a nonlinear recharge term.", kind:"ceiling"},
+    {tag:"S3", name:"Drains to the floor", rr:"Medium", rrn:"Dry wells often go unrecorded or are logged as missing, and monthly sampling can miss the lowest point.", cr:"High", crn:"The month a well goes dry is remembered precisely, because farming plans depend on it.", recall:"Wells go dry most summers at a similar depth; recovery after pumping slows from hours to days through the dry season.", ask:"Month the well goes dry, and pumping hours before it runs dry, by season.", sig:"Dry-season minima clipped at a repeated level; wells read dry; recession truncated.", hint:"Thin aquifer or weathered zone; the floor marks its base. Dry-season yield is the binding limit.", model:"Threshold bucket with a floor; eq. 12 (T varies with h).", kind:"floor"},
+    {tag:"S4", name:"Compartmentalised", rr:"Low", rrn:"Needs a dense network; low coherence between wells can also come from pumping or measurement noise.", cr:"Medium", crn:"Interference between neighbouring wells is noticed, but heavy pumping (S6) produces the same complaint.", recall:"Neighbouring wells at a similar distance from drainage behave very differently; recovery slows when a neighbour pumps.", ask:"Does your well recover more slowly when a nearby well is pumping?", sig:"Flashy response to local rain; little relation to distance from drainage; low coherence between wells.", hint:"Low diffusivity; fractured rock. Recharge is local, and maps cannot be interpolated across compartments.", model:"Per-well WTF with small D; transfer-function model per well.", kind:"flashy"},
+    {tag:"S5", name:"Long memory", rr:"High", rrn:"Clear when the record spans about ten years or more with a drought in it: interannual swings dominate and lag the rain.", cr:"Low", crn:"Slow changes over several years are poorly remembered, and years blur together in recall.", recall:"After a drought it takes two or more monsoons to return to normal; one good monsoon barely helps.", ask:"How many monsoons after the named drought year until the well was normal again?", sig:"Seasonal swing muted, year-to-year swing dominant; the drought shows up a year later and recovery takes years.", hint:"Thick unsaturated zone or large storage. Plan budgets over several years.", model:"Transfer-function model with a long response; Hydrus-1D with WTF.", kind:"memory"},
+    {tag:"S6", name:"Abstraction-dominated", rr:"Medium", rrn:"The trend must be separated from rainfall trends, pumping data are usually missing, and monitoring wells are often sited away from pumping, as Cuthbert's step 4 advises.", cr:"High", crn:"Deepening a well and borewell failures are concrete, costly events that people remember.", recall:"Dry-season depth and well depths keep increasing even after good monsoons; new borewells and borewell failures are reported.", ask:"Deepening history of the well, and new or failed borewells nearby.", sig:"Pre-monsoon level falls year on year whatever the rainfall; negative WTF recharge in dry years.", hint:"Pumping exceeds recharge. Separate the pumping stress before estimating recharge.", model:"Transfer-function model or bucket with a pumping stress from irrigated area or pump hours.", kind:"depletion"}
+  ];
+  var rain = [1.0, 1.1, 0.45, 1.65, 0.9, 1.0]; // year 3 drought, year 4 heavy
+  function series(kind){
+    var out=[], prev=0, slow=0;
+    for (var y=0;y<6;y++){
+      for (var m=0;m<12;m++){
+        var t=y*12+m, r=rain[y];
+        var cyc=Math.cos(2*Math.PI*(m-8.5)/12); // peak around Sept–Oct
+        var mon=(m>=5&&m<=8)?r*(0.6+0.4*Math.sin((m-5)*1.3)):0;
+        var v;
+        if(kind==="diffusive"){ v=0.55*r*cyc+0.12*(r-1); }
+        else if(kind==="ceiling"){ v=Math.min(0.95*r*cyc+0.05,0.42); }
+        else if(kind==="floor"){ v=Math.max(0.8*r*cyc-0.05,-0.42); }
+        else if(kind==="flashy"){ prev=0.45*prev+mon*0.9-0.08; v=prev-0.15; }
+        else if(kind==="memory"){ slow=0.9*slow+0.18*(mon-0.25); v=0.15*cyc+slow*2.2; }
+        else { v=0.5*r*cyc+0.45-0.17*y-0.012*m; }
+        out.push(Math.max(-0.95,Math.min(0.95,v)));
+      }
+    }
+    return out;
+  }
+  function spark(kind){
+    var w=300,h=74,p=4,d=series(kind),n=d.length,ns="http://www.w3.org/2000/svg";
+    var svg=document.createElementNS(ns,"svg");
+    svg.setAttribute("viewBox","0 0 "+w+" "+h); svg.setAttribute("class","spark");
+    svg.setAttribute("role","img"); svg.setAttribute("aria-label","Sketch of water level over six years for this scenario");
+    var yw=(w-2*p)/6;
+    [[2,"var(--sediment-soft)"],[3,"var(--water-soft)"]].forEach(function(a){
+      var r=document.createElementNS(ns,"rect");
+      r.setAttribute("x",p+a[0]*yw); r.setAttribute("y",0); r.setAttribute("width",yw); r.setAttribute("height",h);
+      r.setAttribute("fill",a[1]); svg.appendChild(r);
+    });
+    var mid=document.createElementNS(ns,"line");
+    mid.setAttribute("x1",p); mid.setAttribute("x2",w-p); mid.setAttribute("y1",h/2); mid.setAttribute("y2",h/2);
+    mid.setAttribute("stroke","var(--line)"); mid.setAttribute("stroke-dasharray","3 3"); svg.appendChild(mid);
+    var pts=d.map(function(v,i){ return (p+i*(w-2*p)/(n-1)).toFixed(1)+","+(h/2-v*(h/2-p)).toFixed(1); }).join(" ");
+    var pl=document.createElementNS(ns,"polyline");
+    pl.setAttribute("points",pts); pl.setAttribute("fill","none"); pl.setAttribute("stroke","var(--water)");
+    pl.setAttribute("stroke-width","1.8"); pl.setAttribute("stroke-linejoin","round"); svg.appendChild(pl);
+    return svg;
+  }
+  function render(id, rows, rk, src){
+    var host=document.getElementById(id); if(!host) return;
+    S.forEach(function(s){
+      var c=document.createElement("div"); c.className="card";
+      var lvl=s[rk];
+      c.innerHTML='<div class="card-top"><span class="tag">'+s.tag+'</span><span class="rel rel-'+lvl.toLowerCase()+'" title="How reliably '+src+' detect this scenario">'+lvl+' from '+src+'</span></div><h4>'+s.name+'</h4>';
+      c.appendChild(spark(s.kind));
+      var dl=document.createElement("dl");
+      dl.innerHTML=rows.map(function(r){ return '<dt>'+r[0]+'</dt><dd>'+s[r[1]]+'</dd>'; }).join('');
+      c.appendChild(dl); host.appendChild(c);
+    });
+  }
+  render("scenarios", [["Signature in records","sig"],["Reliability","rrn"],["What it hints","hint"],["Model to calibrate","model"]], "rr", "records");
+  render("scenarios-b", [["Signature in recall","recall"],["Reliability","crn"],["Most telling question","ask"],["What it hints","hint"]], "cr", "recall");
+})();
+</script>
+
+<script>
+(function(){
+  function key(t){ return t.replace(/\s+/g,"").normalize("NFC"); }
+  var dict={};
+  document.querySelectorAll("#dictionary tbody tr").forEach(function(tr){
+    var c=tr.querySelectorAll("td"); if(c.length<5) return;
+    var k=key(c[0].textContent); if(k==="\u2014") return;
+    dict[k]={sym:c[0].innerHTML,desc:c[1].innerHTML,units:c[2].textContent,src:c[3].innerHTML};
+  });
+  var alias={"d":"dk","λ":"ω,λ","ω":"ω,λ","qa":"qa"};
+  var extra={"t":{sym:"t",desc:"Time",units:"d",src:"Time index of the well record"}};
+  function lookup(k){ k=key(k); return dict[k]||dict[alias[k]]||extra[k]; }
+  var tip=document.createElement("div"); tip.className="tip"; tip.setAttribute("role","tooltip"); tip.id="var-tip"; tip.hidden=true;
+  document.body.appendChild(tip);
+  var current=null;
+  function show(el){
+    var e=lookup(el.getAttribute("data-v")); if(!e) return;
+    if(current&&current!==el) current.classList.remove("on");
+    current=el; el.classList.add("on"); el.setAttribute("aria-describedby","var-tip");
+    tip.innerHTML='<span class="t-sym">'+e.sym+'</span><span>'+e.desc+'</span>'+
+      '<span class="t-row"><span class="t-k">Units</span><span>'+e.units+'</span></span>'+
+      '<span class="t-row"><span class="t-k">Source</span><span>'+e.src+'</span></span>';
+    tip.hidden=false;
+    var r=el.getBoundingClientRect(), tw=tip.offsetWidth, th=tip.offsetHeight;
+    var left=Math.min(Math.max(8,r.left+r.width/2-tw/2),document.documentElement.clientWidth-tw-8);
+    var top=r.top-th-8; if(top<8) top=r.bottom+8;
+    tip.style.left=(left+window.scrollX)+"px"; tip.style.top=(top+window.scrollY)+"px";
+  }
+  function hide(){ if(current){current.classList.remove("on");current.removeAttribute("aria-describedby");} current=null; tip.hidden=true; }
+  document.querySelectorAll(".eq .v[data-v]").forEach(function(el){
+    if(!lookup(el.getAttribute("data-v"))) { el.classList.remove("v"); return; }
+    el.addEventListener("mouseenter",function(){show(el);});
+    el.addEventListener("mouseleave",hide);
+    el.addEventListener("focus",function(){show(el);});
+    el.addEventListener("blur",hide);
+    el.addEventListener("click",function(ev){ ev.stopPropagation(); if(current===el) hide(); else show(el); });
+  });
+  document.addEventListener("click",hide);
+  document.addEventListener("keydown",function(ev){ if(ev.key==="Escape") hide(); });
+  document.querySelectorAll(".eq").forEach(function(eq){ eq.addEventListener("scroll",hide,{passive:true}); });
+  window.addEventListener("resize",hide);
+})();
+</script>
+
+</body></html>

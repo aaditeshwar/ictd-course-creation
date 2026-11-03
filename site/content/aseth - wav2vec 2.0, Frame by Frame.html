@@ -1,0 +1,603 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>wav2vec 2.0, Frame by Frame</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,500;7..72,600&family=Source+Sans+3:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: one running example ("the cat sat") followed down a single column of stages; a sticky bar tracks the frame being followed. */
+:root{
+  --bg:#F6F6FA; --surface:#FFFFFF; --ink:#15172B; --muted:#5A5E77; --line:#DADCE8;
+  --accent:#3A49C4; --accent-soft:#E7E9FB; --amber:#B86E0C; --amber-soft:#FBEFDC; --teal:#11806F; --teal-soft:#DDF3EF;
+  --ph-dh:#7550C4; --ph-schwa:#2B84BC; --ph-k:#C2561B; --ph-ae:#1C9566; --ph-t:#C0385A; --ph-s:#A98010; --ph-d:#8C3F9C; --ph-sil:#9A9EB3;
+  --f-display:"Literata", Georgia, "Times New Roman", serif;
+  --f-body:"Source Sans 3", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --f-mono:"JetBrains Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){
+  --bg:#0F1020; --surface:#171933; --ink:#E6E7F2; --muted:#A0A4C0; --line:#2C2F50;
+  --accent:#8F9AFF; --accent-soft:#232750; --amber:#F0A845; --amber-soft:#3A2A14; --teal:#4CC7B6; --teal-soft:#13302C;
+  --ph-dh:#A88BF0; --ph-schwa:#6CB8E8; --ph-k:#F08A55; --ph-ae:#56CF9A; --ph-t:#F0738F; --ph-s:#E2BE4A; --ph-d:#C98AD8; --ph-sil:#6E7290; color-scheme:dark }}
+:root[data-theme="dark"]{
+  --bg:#0F1020; --surface:#171933; --ink:#E6E7F2; --muted:#A0A4C0; --line:#2C2F50;
+  --accent:#8F9AFF; --accent-soft:#232750; --amber:#F0A845; --amber-soft:#3A2A14; --teal:#4CC7B6; --teal-soft:#13302C;
+  --ph-dh:#A88BF0; --ph-schwa:#6CB8E8; --ph-k:#F08A55; --ph-ae:#56CF9A; --ph-t:#F0738F; --ph-s:#E2BE4A; --ph-d:#C98AD8; --ph-sil:#6E7290; color-scheme:dark }
+
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:16px;line-height:1.6}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--surface)}
+.wrap{max-width:980px;margin:0 auto;padding-block:32px 72px;padding-left:max(16px, env(safe-area-inset-left, 0px));padding-right:max(16px, env(safe-area-inset-right, 0px));display:flex;flex-direction:column;gap:44px}
+h1,h2,h3{font-family:var(--f-display);font-weight:600;text-wrap:balance;margin:0;line-height:1.2}
+h1{font-size:2.3rem}
+h2{font-size:1.5rem}
+h3{font-size:1.05rem}
+p{margin:0;max-width:68ch}
+.muted{color:var(--muted)}
+.eyebrow{font-size:.74rem;letter-spacing:.1em;text-transform:uppercase;font-weight:600;color:var(--muted)}
+code,.mono{font-family:var(--f-mono);font-size:.86em}
+
+.hero{display:flex;flex-direction:column;gap:14px}
+.facts{display:flex;flex-wrap:wrap;gap:8px 18px;font-size:.92rem;color:var(--muted)}
+.facts b{color:var(--ink);font-weight:600;font-variant-numeric:tabular-nums}
+.btn{font:inherit;font-size:.9rem;font-weight:500;border:1px solid var(--line);background:var(--surface);color:var(--ink);padding:6px 12px;border-radius:6px;cursor:pointer}
+.btn:hover{border-color:var(--accent)}
+.btn:focus-visible,.seg button:focus-visible,input:focus-visible,.cell:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.btn.primary{background:var(--accent);border-color:var(--accent);color:var(--surface)}
+.row{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+
+.followbar{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:10px 14px;display:flex;flex-wrap:wrap;gap:10px 16px;align-items:center;font-size:.92rem}
+.followbar .who{display:flex;align-items:center;gap:8px;min-width:0;flex:1 1 260px}
+.swatch{width:12px;height:12px;border-radius:3px;flex:none}
+.pill{font-size:.75rem;font-weight:600;padding:2px 8px;border-radius:999px;white-space:nowrap}
+.pill.masked{background:var(--amber-soft);color:var(--amber)}
+.pill.open{background:var(--teal-soft);color:var(--teal)}
+
+.stage{display:flex;flex-direction:column;gap:14px}
+.stage-head{display:flex;gap:14px;align-items:baseline}
+.step{font-family:var(--f-mono);font-size:.85rem;color:var(--accent);flex:none}
+.phase{font-size:.72rem;font-weight:600;letter-spacing:.08em;text-transform:uppercase;padding:2px 8px;border-radius:4px;background:var(--accent-soft);color:var(--accent);margin-left:auto;white-space:nowrap}
+.phase.ft{background:var(--teal-soft);color:var(--teal)}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:16px;display:flex;flex-direction:column;gap:14px;min-width:0}
+.scroll{overflow-x:auto}
+.strip{display:block;width:100%;min-width:520px;height:auto}
+.cell{cursor:pointer}
+canvas{display:block;width:100%}
+.two{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
+.two > *{min-width:0}
+.label{font-size:.78rem;font-weight:600;color:var(--muted);letter-spacing:.04em}
+.note{font-size:.85rem;color:var(--muted);border-left:3px solid var(--line);padding-left:10px;max-width:72ch}
+.callout{font-size:.9rem;background:var(--accent-soft);border-radius:8px;padding:10px 14px;max-width:none}
+
+table{border-collapse:collapse;width:100%;font-size:.86rem;font-variant-numeric:tabular-nums}
+th,td{padding:6px 8px;border-bottom:1px solid var(--line);text-align:right;white-space:nowrap}
+th:first-child,td:first-child{text-align:left}
+thead th{font-size:.72rem;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);font-weight:600}
+tr.hl td{background:var(--accent-soft)}
+
+.bars{display:flex;flex-direction:column;gap:5px;font-size:.84rem}
+.bar{display:grid;grid-template-columns:minmax(90px,150px) 1fr 52px;gap:8px;align-items:center}
+.bar .track{height:12px;background:var(--bg);border-radius:3px;overflow:hidden;border:1px solid var(--line)}
+.bar .fill{height:100%;background:var(--accent)}
+.bar .val{font-family:var(--f-mono);font-size:.78rem;text-align:right;font-variant-numeric:tabular-nums}
+.bar.true .fill{background:var(--teal)}
+.bar.true .name{font-weight:600;color:var(--teal)}
+.bar.drop{opacity:.55}
+.bar.drop .name{text-decoration:line-through}
+
+.seg{display:inline-flex;border:1px solid var(--line);border-radius:6px;overflow:hidden}
+.seg button{font:inherit;font-size:.86rem;border:0;background:var(--surface);color:var(--ink);padding:6px 12px;cursor:pointer;border-right:1px solid var(--line)}
+.seg button:last-child{border-right:0}
+.seg button[aria-pressed="true"]{background:var(--accent);color:var(--surface)}
+.ctl{display:flex;flex-direction:column;gap:2px;font-size:.85rem;min-width:170px}
+.ctl output{font-family:var(--f-mono);font-size:.8rem;color:var(--accent)}
+input[type=range]{accent-color:var(--accent);width:100%}
+
+.stat{display:flex;flex-wrap:wrap;gap:6px 20px;font-size:.9rem}
+.stat b{font-family:var(--f-mono);font-weight:500;color:var(--accent)}
+.result{font-family:var(--f-mono);font-size:1.15rem;padding:8px 12px;background:var(--bg);border-radius:6px;border:1px solid var(--line);overflow-x:auto;white-space:pre}
+.legend{display:flex;flex-wrap:wrap;gap:6px 14px;font-size:.82rem;color:var(--muted)}
+.legend span{display:inline-flex;align-items:center;gap:5px}
+.flow-svg{display:block;width:100%;min-width:560px;height:auto}
+.flow-svg a{cursor:pointer}
+.flow-svg a:hover rect,.flow-svg a:focus-visible rect{stroke-width:2}
+.flow-svg a:focus-visible{outline:none}
+.fc-net rect{fill:var(--accent-soft);stroke:var(--accent)}
+.fc-new rect{fill:var(--teal-soft);stroke:var(--teal)}
+.fc-loss rect{fill:var(--amber-soft);stroke:var(--amber)}
+.fc-data rect{fill:var(--bg);stroke:var(--muted)}
+.flow-svg rect{stroke-width:1}
+.fc-t{font-family:var(--f-body);font-size:14px;font-weight:600;fill:var(--ink)}
+.fc-s{font-family:var(--f-body);font-size:12px;fill:var(--muted)}
+.fc-h{font-family:var(--f-display);font-size:15px;font-weight:600;fill:var(--ink)}
+.fc-arr{stroke:var(--muted);stroke-width:1.4;fill:none}
+.fc-div{stroke:var(--line);stroke-dasharray:4 4}
+.foot{font-size:.84rem;color:var(--muted);display:flex;flex-direction:column;gap:6px;border-top:1px solid var(--line);padding-top:16px}
+@media (max-width:600px){ h1{font-size:1.8rem} .phase{margin-left:0} .stage-head{flex-wrap:wrap} }
+</style>
+
+<div class="wrap">
+  <header class="hero">
+    <span class="eyebrow">Baevski et al., 2020 · worked example</span>
+    <h1>wav2vec 2.0, frame by frame</h1>
+    <p>Follow one short clip, a synthetic voice saying <em>“the cat sat”</em>, through every part of the model: the convolutional encoder, the quantizer, masking, the Transformer, the contrastive loss, and finally fine-tuning with text. Click any frame in any strip to follow it through the stages.</p>
+    <div class="facts">
+      <span><b>0.9 s</b> of audio</span><span><b>16,000</b> samples per second</span><span><b>14,400</b> samples in</span><span><b>44</b> frames out</span><span><b>20 ms</b> per frame</span>
+    </div>
+    <div class="row"><button class="btn primary" id="play" type="button">Play the synthetic clip</button><span class="muted" style="font-size:.85rem">A crude vowel-and-noise synthesiser, built in the page. It sounds robotic, but it has the right structure.</span></div>
+  </header>
+
+  <section class="stage" id="s-overview">
+    <div class="stage-head"><span class="step">00</span><h2>The two phases at a glance</h2></div>
+    <p>Pre-training uses audio alone: the model hides parts of its own input and learns to identify what was hidden. Fine-tuning reuses the encoder and Transformer, drops the quantizer, and adds one output layer trained against transcripts. Click a box to jump to its stage below.</p>
+    <div class="panel">
+      <div class="scroll">
+        <svg class="flow-svg" viewBox="0 0 680 450" role="img" aria-labelledby="fc-title fc-desc">
+          <title id="fc-title">wav2vec 2.0 pre-training and fine-tuning</title>
+          <desc id="fc-desc">Left: pre-training on audio only. The CNN encodes the waveform into frames; spans are masked before the Transformer; a quantizer turns unmasked frames into targets; a contrastive loss matches each masked frame's context vector to its true target. Right: fine-tuning. The frozen encoder and the pre-trained Transformer feed a new linear layer whose per-frame letter scores are trained against the transcript with a CTC loss.</desc>
+          <defs><marker id="fc-arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
+          <text class="fc-h" x="185" y="24" text-anchor="middle">Pre-training: audio only</text>
+          <text class="fc-h" x="495" y="24" text-anchor="middle">Fine-tuning: audio + text</text>
+          <line class="fc-div" x1="340" y1="36" x2="340" y2="428"/>
+
+          <a href="#s-enc" class="fc-data"><rect x="50" y="40" width="270" height="44" rx="8"/><text class="fc-t" x="185" y="62" text-anchor="middle" dominant-baseline="central">Raw waveform</text></a>
+          <a href="#s-enc" class="fc-net"><rect x="50" y="110" width="270" height="56" rx="8"/><text class="fc-t" x="185" y="129" text-anchor="middle" dominant-baseline="central">CNN feature encoder</text><text class="fc-s" x="185" y="148" text-anchor="middle" dominant-baseline="central">vector z every 20 ms</text></a>
+          <a href="#s-mask" class="fc-loss"><rect x="50" y="196" width="125" height="56" rx="8"/><text class="fc-t" x="112" y="215" text-anchor="middle" dominant-baseline="central">Mask</text><text class="fc-s" x="112" y="234" text-anchor="middle" dominant-baseline="central">spans hidden</text></a>
+          <a href="#s-quant" class="fc-new"><rect x="195" y="196" width="125" height="56" rx="8"/><text class="fc-t" x="257" y="215" text-anchor="middle" dominant-baseline="central">Quantizer</text><text class="fc-s" x="257" y="234" text-anchor="middle" dominant-baseline="central">z → targets q</text></a>
+          <a href="#s-ctx" class="fc-net"><rect x="50" y="282" width="125" height="56" rx="8"/><text class="fc-t" x="112" y="301" text-anchor="middle" dominant-baseline="central">Transformer</text><text class="fc-s" x="112" y="320" text-anchor="middle" dominant-baseline="central">context c</text></a>
+          <a href="#s-con" class="fc-loss"><rect x="50" y="368" width="270" height="56" rx="8"/><text class="fc-t" x="185" y="387" text-anchor="middle" dominant-baseline="central">Contrastive loss</text><text class="fc-s" x="185" y="406" text-anchor="middle" dominant-baseline="central">find true q among distractors</text></a>
+          <line class="fc-arr" x1="185" y1="84" x2="185" y2="108" marker-end="url(#fc-arrow)"/>
+          <path class="fc-arr" d="M185 166 L185 180 L112 180 L112 194" marker-end="url(#fc-arrow)"/>
+          <path class="fc-arr" d="M185 180 L257 180 L257 194" marker-end="url(#fc-arrow)"/>
+          <line class="fc-arr" x1="112" y1="252" x2="112" y2="280" marker-end="url(#fc-arrow)"/>
+          <line class="fc-arr" x1="112" y1="338" x2="112" y2="366" marker-end="url(#fc-arrow)"/>
+          <line class="fc-arr" x1="257" y1="252" x2="257" y2="366" marker-end="url(#fc-arrow)"/>
+
+          <a href="#s-enc" class="fc-data"><rect x="360" y="40" width="270" height="44" rx="8"/><text class="fc-t" x="495" y="62" text-anchor="middle" dominant-baseline="central">Raw waveform</text></a>
+          <a href="#s-enc" class="fc-net"><rect x="360" y="110" width="270" height="56" rx="8"/><text class="fc-t" x="495" y="129" text-anchor="middle" dominant-baseline="central">CNN feature encoder</text><text class="fc-s" x="495" y="148" text-anchor="middle" dominant-baseline="central">frozen</text></a>
+          <a href="#s-ctx" class="fc-net"><rect x="360" y="196" width="270" height="56" rx="8"/><text class="fc-t" x="495" y="215" text-anchor="middle" dominant-baseline="central">Transformer</text><text class="fc-s" x="495" y="234" text-anchor="middle" dominant-baseline="central">pre-trained, now updated</text></a>
+          <a href="#s-ft" class="fc-new"><rect x="360" y="282" width="270" height="56" rx="8"/><text class="fc-t" x="495" y="301" text-anchor="middle" dominant-baseline="central">New linear layer</text><text class="fc-s" x="495" y="320" text-anchor="middle" dominant-baseline="central">letter scores per frame</text></a>
+          <a href="#s-ft" class="fc-loss"><rect x="360" y="368" width="170" height="56" rx="8"/><text class="fc-t" x="445" y="387" text-anchor="middle" dominant-baseline="central">CTC loss</text><text class="fc-s" x="445" y="406" text-anchor="middle" dominant-baseline="central">align to text</text></a>
+          <a href="#s-ft" class="fc-data"><rect x="550" y="368" width="80" height="56" rx="8"/><text class="fc-t" x="590" y="387" text-anchor="middle" dominant-baseline="central">Text</text><text class="fc-s" x="590" y="406" text-anchor="middle" dominant-baseline="central">transcript</text></a>
+          <line class="fc-arr" x1="495" y1="84" x2="495" y2="108" marker-end="url(#fc-arrow)"/>
+          <line class="fc-arr" x1="495" y1="166" x2="495" y2="194" marker-end="url(#fc-arrow)"/>
+          <line class="fc-arr" x1="495" y1="252" x2="495" y2="280" marker-end="url(#fc-arrow)"/>
+          <path class="fc-arr" d="M495 338 L495 352 L445 352 L445 366" marker-end="url(#fc-arrow)"/>
+          <line class="fc-arr" x1="550" y1="396" x2="533" y2="396" marker-end="url(#fc-arrow)"/>
+        </svg>
+      </div>
+      <div class="legend">
+        <span><span class="swatch" style="background:var(--accent-soft);border:1px solid var(--accent)"></span>network carried across both phases</span>
+        <span><span class="swatch" style="background:var(--teal-soft);border:1px solid var(--teal)"></span>part used in one phase only</span>
+        <span><span class="swatch" style="background:var(--amber-soft);border:1px solid var(--amber)"></span>masking and training losses</span>
+        <span><span class="swatch" style="background:var(--bg);border:1px solid var(--muted)"></span>data</span>
+      </div>
+      <p class="note">The quantizer's two 320-entry codebooks start as random vectors and are learned during pre-training, through the contrastive and diversity losses. They are thrown away for fine-tuning. At test time, a separate text-only language model can help choose between candidate transcripts (stage 07).</p>
+    </div>
+  </section>
+
+  <div class="followbar" aria-live="polite">
+    <div class="who"><span class="label">Following</span><span class="swatch" id="fb-sw"></span><span id="fb-text"></span><span class="pill" id="fb-pill"></span></div>
+    <div class="row"><button class="btn" id="prev" type="button" aria-label="Previous frame">◀ Prev</button><button class="btn" id="next" type="button" aria-label="Next frame">Next ▶</button><button class="btn" id="reset" type="button">Reset example</button></div>
+  </div>
+
+  <!-- 1 waveform + encoder -->
+  <section class="stage" id="s-enc">
+    <div class="stage-head"><span class="step">01</span><h2>Feature encoder: waveform to frames</h2><span class="phase">Pre-training and fine-tuning</span></div>
+    <p>The input is the raw waveform: one number per sample. Seven convolutional layers slide over it, each one halving or fifthing the time resolution. The result is one vector <b>z</b> every 20 ms, each summarising a 25 ms window of sound. The outlined box on the waveform is the window the followed frame sees.</p>
+    <div class="panel">
+      <span class="label">Waveform, shaded by the sound being spoken</span>
+      <canvas id="wave" height="150" aria-label="Waveform of the clip with phoneme segments and the followed frame's 25 ms window"></canvas>
+      <div class="two">
+        <div style="display:flex;flex-direction:column;gap:6px">
+          <span class="label">Zoom: the 400 samples one frame sees</span>
+          <canvas id="zoom" height="110" aria-label="The 25 millisecond window of the followed frame"></canvas>
+        </div>
+        <div class="scroll">
+          <span class="label">How the layers shrink time</span>
+          <table id="ladder"><thead><tr><th>Layer</th><th>Kernel</th><th>Stride</th><th>Sees (samples)</th><th>Sees (ms)</th><th>Rate</th></tr></thead><tbody></tbody></table>
+        </div>
+      </div>
+      <span class="label">The 44 encoder outputs z<sub>1</sub>…z<sub>44</sub></span>
+      <div class="scroll"><canvas id="heat" height="130" style="min-width:520px" aria-label="Heatmap of encoder outputs over time"></canvas></div>
+      <div class="scroll"><svg class="strip" id="strip-enc" role="img" aria-label="Frames coloured by sound; click to follow a frame"></svg></div>
+      <div class="legend" id="legend"></div>
+      <p class="note">In the real model each z has 512 numbers learned by training. Here we show 24 band energies as a stand-in, which is roughly what early layers of such encoders end up detecting. Bright means more energy in that frequency band.</p>
+    </div>
+  </section>
+
+  <!-- 2 quantizer -->
+  <section class="stage" id="s-quant">
+    <div class="stage-head"><span class="step">02</span><h2>Quantizer: snapping frames to speech units</h2><span class="phase">Pre-training only</span></div>
+    <p>Each z is also sent to the quantizer, which picks one entry from each of two codebooks of 320 entries. The pair of choices names a discrete unit, and a linear layer turns the two picked vectors into the target <b>q</b>. A Gumbel softmax makes the picking trainable: random noise is added to the scores, and a temperature τ controls how decisive the choice is. Training starts at τ = 2 and anneals to 0.5.</p>
+    <div class="panel">
+      <div class="row">
+        <div class="ctl" style="flex:1 1 220px"><label for="tau">Temperature τ <output id="tau-out">2.0</output></label><input type="range" id="tau" min="0.5" max="2" step="0.05" value="2"></div>
+        <button class="btn" id="resample" type="button">Resample the noise</button>
+      </div>
+      <div class="two">
+        <div class="bars" id="cb1"></div>
+        <div class="bars" id="cb2"></div>
+      </div>
+      <div class="stat" id="q-stat"></div>
+      <span class="label">The unit chosen at every frame (same colour = same unit)</span>
+      <div class="scroll"><svg class="strip" id="strip-unit" role="img" aria-label="Unit chosen at each frame"></svg></div>
+      <p class="note">The units here are hand-assigned so you can see the pattern a trained model tends to show: the vowel in “cat” and the vowel in “sat” reuse the same units, and the start, middle and end of a sound often get different units. In the real model nobody assigns them; they emerge, and they line up only loosely with phonemes. A diversity loss pushes the model to use all 2 × 320 entries.</p>
+    </div>
+  </section>
+
+  <!-- 3 masking -->
+  <section class="stage" id="s-mask">
+    <div class="stage-head"><span class="step">03</span><h2>Masking: hiding spans before the Transformer</h2><span class="phase">Pre-training</span></div>
+    <p>A fraction p of frames is drawn as span starts, and the M frames from each start are hidden. Each hidden z is replaced by one shared, learned mask vector. The quantizer still sees the original z, so the correct answers are kept. With p = 0.065 and M = 10, about half the frames end up hidden, in spans of about 300 ms, roughly a syllable.</p>
+    <div class="panel">
+      <div class="row">
+        <div class="ctl" style="flex:1 1 180px"><label for="p">Start fraction p <output id="p-out">0.065</output></label><input type="range" id="p" min="0.01" max="0.2" step="0.005" value="0.065"></div>
+        <div class="ctl" style="flex:1 1 180px"><label for="M">Span length M <output id="M-out">10</output></label><input type="range" id="M" min="1" max="20" step="1" value="10"></div>
+        <button class="btn" id="remask" type="button">Draw a new mask</button>
+      </div>
+      <div class="scroll"><svg class="strip" id="strip-mask" role="img" aria-label="Frames with masked spans hatched"></svg></div>
+      <div class="stat" id="mask-stat"></div>
+      <p class="note">With only 44 frames the masked share jumps around from draw to draw. The real model trains on 15–20 s crops (750–1,000 frames), where the share settles near the expected value 1 − (1 − p)<sup>M</sup>. A span of one 20 ms frame would be easy to guess from its neighbours, which is why whole syllables are hidden.</p>
+    </div>
+  </section>
+
+  <!-- 4 transformer -->
+  <section class="stage" id="s-ctx">
+    <div class="stage-head"><span class="step">04</span><h2>Transformer: building context</h2><span class="phase">Pre-training and fine-tuning</span></div>
+    <p>The Transformer turns each z into a context vector <b>c</b>. At every layer, each frame looks at all other frames and decides how much to borrow from each: that is self-attention. The bars show how much the followed frame attends to every other frame at the chosen layer. Masked frames carry only the mask vector, so they have little to offer and get less attention.</p>
+    <div class="panel">
+      <div class="row"><span class="label">Layer</span>
+        <div class="seg" role="group" aria-label="Transformer layer"><button type="button" data-layer="0" aria-pressed="true">Early (1)</button><button type="button" data-layer="1" aria-pressed="false">Middle (6)</button><button type="button" data-layer="2" aria-pressed="false">Late (12)</button></div>
+      </div>
+      <div class="scroll"><svg class="strip" id="strip-att" role="img" aria-label="Attention from the followed frame to every frame"></svg></div>
+      <p id="att-desc" class="callout"></p>
+      <div class="two">
+        <div style="display:flex;flex-direction:column;gap:6px">
+          <span class="label">Full attention map at this layer (row = frame asking, column = frame attended to)</span>
+          <canvas id="attmap" height="260" aria-label="Attention matrix"></canvas>
+        </div>
+        <div style="display:flex;flex-direction:column;gap:10px">
+          <span class="label">What a probe can read from the vectors</span>
+          <div class="bars" id="probe-z"></div>
+          <div class="bars" id="probe-c"></div>
+          <p class="note">A probe is a small classifier trained afterwards to read which sound a vector encodes. For a masked frame, z is just the mask vector, so the probe can only guess. As context accumulates through the layers, c recovers the hidden sound from its surroundings. Order information comes from a convolution over neighbouring frames that is added to the input, rather than from fixed position codes.</p>
+        </div>
+      </div>
+      <p class="note">Attention patterns and probe readouts here are illustrative, following trends reported in layer-by-layer analyses of wav2vec 2.0: early layers look locally, middle layers gather word-sized context, and phonetic information is strongest in the middle-to-upper layers, while the very last layers become specialised for the pre-training task. BASE has 12 layers of 768 numbers per frame; LARGE has 24 layers of 1,024.</p>
+    </div>
+  </section>
+
+  <!-- 5 contrastive -->
+  <section class="stage" id="s-con">
+    <div class="stage-head"><span class="step">05</span><h2>Contrastive loss: pick the true unit</h2><span class="phase">Pre-training only</span></div>
+    <p>For each masked frame, the model compares its context vector c with the true target q and with distractors: the targets of other masked frames in the same clip (100 of them in the paper). Similarity is measured by cosine similarity, divided by κ = 0.1, and turned into probabilities with a softmax. The loss is −log of the probability given to the true target. Drag the slider to see training push the true target up.</p>
+    <div class="panel">
+      <div class="ctl"><label for="prog">Training progress <output id="prog-out">0%</output></label><input type="range" id="prog" min="0" max="100" step="1" value="0"></div>
+      <div class="stat" id="con-stat"></div>
+      <div class="bars" id="con-bars"></div>
+      <p class="note">Distractors come from the same speaker and recording, so voice quality and microphone cannot give the answer away: the model must encode which sound occurred. A distractor that happens to be exactly the same unit as the target would be an impossible test, so the implementation drops it (shown struck through). Near-identical units, like another part of the same sound, are the hard negatives that teach fine distinctions.</p>
+    </div>
+  </section>
+
+  <!-- 6 fine-tuning CTC -->
+  <section class="stage" id="s-ft">
+    <div class="stage-head"><span class="step">06</span><h2>Fine-tuning: where text comes in</h2><span class="phase ft">Fine-tuning</span></div>
+    <p>Text plays no part in pre-training. For fine-tuning, the quantizer is dropped, the encoder is frozen, and a new linear layer turns each context vector into scores over about 30 tokens: the letters, an apostrophe, a word-boundary token “|”, and a special blank “_”. The transcript has 11 characters but the clip has 44 frames, and nobody says which frame belongs to which letter. CTC (Connectionist Temporal Classification) solves this by letting the model emit blanks and repeats, then collapsing them.</p>
+    <div class="panel">
+      <div class="row">
+        <div class="seg" role="group" aria-label="Collapse step" id="ctc-steps"><button type="button" data-step="0" aria-pressed="true">1 · Frame outputs</button><button type="button" data-step="1" aria-pressed="false">2 · Merge repeats</button><button type="button" data-step="2" aria-pressed="false">3 · Drop blanks</button><button type="button" data-step="3" aria-pressed="false">4 · “|” to spaces</button></div>
+        <button class="btn" id="altpath" type="button">Show another valid path</button>
+      </div>
+      <div class="scroll"><svg class="strip" id="strip-ctc" role="img" aria-label="Most likely token at each frame"></svg></div>
+      <div class="result" id="ctc-result"></div>
+      <p class="callout" id="ctc-note"></p>
+      <p class="note">During training, CTC adds up the probability of every frame path that collapses to the correct transcript, and the model is trained to raise that total. For the first 10,000 updates only the new output layer learns; after that the Transformer is fine-tuned too. Masking is still applied, as a regulariser, so the model does not memorise the small labelled set. To spell a double letter such as the “ll” in “hello”, the model must put a blank between the two: <code>l _ l</code>.</p>
+    </div>
+  </section>
+
+  <!-- 7 decoding with LM -->
+  <section class="stage" id="s-lm">
+    <div class="stage-head"><span class="step">07</span><h2>Decoding: a language model breaks ties</h2><span class="phase ft">Inference</span></div>
+    <p>At test time a beam search keeps several candidate transcripts. Each gets a score that combines the acoustic model with a separate language model trained only on text: score = log P<sub>acoustic</sub> + α · log P<sub>LM</sub> + β · words. The paper tunes α between 0 and 5 and β between −5 and 5. Here, “cad” fits the sound slightly better than “cat”, but is a far less likely sentence.</p>
+    <div class="panel">
+      <div class="row">
+        <div class="ctl" style="flex:1 1 200px"><label for="alpha">LM weight α <output id="alpha-out">0.00</output></label><input type="range" id="alpha" min="0" max="2" step="0.05" value="0"></div>
+        <div class="ctl" style="flex:1 1 200px"><label for="beta">Word insertion β <output id="beta-out">0.0</output></label><input type="range" id="beta" min="-1" max="1" step="0.1" value="0"></div>
+      </div>
+      <div class="scroll"><table id="lm-table"><thead><tr><th>Candidate</th><th>log P acoustic</th><th>log P LM</th><th>Words</th><th>Total</th></tr></thead><tbody></tbody></table></div>
+      <p class="note">Scores are made up for illustration. The effect is real: on Librispeech with 10 minutes of labels, adding a language model roughly halves the word error rate.</p>
+    </div>
+  </section>
+
+  <footer class="foot">
+    <p><b>What is real and what is illustrative.</b> Architecture numbers come from the paper: the encoder's kernels and strides, the 20 ms frame rate and 25 ms receptive field, 2 codebooks × 320 entries, τ annealed from 2 to 0.5, masking with p = 0.065 and M = 10, κ = 0.1, 100 distractors, frozen encoder and output-layer-only warm-up in fine-tuning. The clip, the features, the unit assignments, the attention weights, the probe readouts and the decoder scores are simulated so the mechanics are visible.</p>
+    <p>Source: Baevski, Zhou, Mohamed and Auli, “wav2vec 2.0: A Framework for Self-Supervised Learning of Speech Representations”, NeurIPS 2020 (arXiv 2006.11477).</p>
+  </footer>
+</div>
+
+<script>
+(function(){
+  "use strict";
+  // ---------- constants ----------
+  var SR=16000, N=14400, HOP=320, WIN=400, F=Math.floor((N-WIN)/HOP)+1; // 44
+  var SEG=[["dh",0,0.06,"the"],["schwa",0.06,0.16,"the"],["k",0.16,0.24,"cat"],["ae",0.24,0.40,"cat"],["t",0.40,0.48,"cat"],["s",0.48,0.60,"sat"],["ae",0.60,0.76,"sat"],["t",0.76,0.84,"sat"],["sil",0.84,0.90,""]];
+  var PHON={dh:"ð",schwa:"ə",k:"k",ae:"æ",t:"t",s:"s",d:"d",sil:"silence"};
+  var PHLIST=["dh","schwa","k","ae","t","s","d","sil"];
+  var ALTS={t:["d","k"],k:["t","d"],ae:["schwa"],schwa:["ae"],s:["dh"],dh:["s","schwa"],d:["t"],sil:["k"]};
+  function css(n){ return getComputedStyle(document.documentElement).getPropertyValue(n).trim(); }
+  function phColor(p){ return "var(--ph-"+p+")"; }
+  function rng(seed){ return function(){ seed|=0; seed=seed+0x6D2B79F5|0; var t=Math.imul(seed^seed>>>15,1|seed); t=t+Math.imul(t^t>>>7,61|t)^t; return ((t^t>>>14)>>>0)/4294967296; }; }
+
+  // ---------- frames ----------
+  function segAt(t){ for(var i=0;i<SEG.length;i++){ if(t>=SEG[i][1]&&t<SEG[i][2]) return i; } return SEG.length-1; }
+  var frameSeg=[], frameT=[];
+  for(var i=0;i<F;i++){ var tc=(i*HOP+WIN/2)/SR; frameT.push(tc); frameSeg.push(segAt(tc)); }
+  function ph(i){ return SEG[frameSeg[i]][0]; }
+  function word(i){ return SEG[frameSeg[i]][3]; }
+  var segFrames=SEG.map(function(_,s){ var a=[]; for(var i=0;i<F;i++) if(frameSeg[i]===s) a.push(i); return a; });
+
+  // ---------- synthesis ----------
+  var x=new Float32Array(N), R=rng(7), phase=0, prevW=0, lp=0;
+  function res(f,F0,bw){ var d=(f-F0)/bw; return 1/(1+d*d); }
+  var VF={schwa:[500,1500],ae:[750,1750],dh:[300,1600]};
+  for(var n=0;n<N;n++){
+    var t=n/SR, s=segAt(t), seg=SEG[s], p=seg[0], t0=seg[1], t1=seg[2], dur=t1-t0, u=(t-t0)/dur;
+    var f0=128-18*t/0.9; phase+=2*Math.PI*f0/SR;
+    var w=R()*2-1, hp=w-prevW; prevW=w; lp=0.6*lp+0.4*w;
+    var env=Math.min(1,(t-t0)/0.006,(t1-t)/0.006); env=Math.max(0,env);
+    var v=0;
+    if(VF[p]){ var fm=VF[p], acc=0, norm=0; for(var h=1;h*f0<4000;h++){ var g=res(h*f0,fm[0],90)+0.7*res(h*f0,fm[1],130)+0.12; acc+=g*Math.sin(h*phase); norm+=g; }
+      v=acc/norm*(p==="ae"?0.9:p==="schwa"?0.65:0.3)*3; if(p==="dh") v+=0.06*w; v*=env; }
+    else if(p==="s"){ v=0.32*hp*env; }
+    else if(p==="k"||p==="t"){ var tb=t0+0.6*dur; v=t<tb?0.004*w:(p==="t"?0.55*hp:0.5*lp)*Math.exp(-(t-tb)/0.012); }
+    else { v=0.003*w; }
+    x[n]=v;
+  }
+  var mx=0; for(n=0;n<N;n++) mx=Math.max(mx,Math.abs(x[n])); for(n=0;n<N;n++) x[n]*=0.9/mx;
+
+  // ---------- band features (stand-in for z) ----------
+  var B=24, Z=[], zmin=1e9, zmax=-1e9;
+  var bandF=[]; for(var b=0;b<B;b++) bandF.push(100*Math.pow(70,b/(B-1)));
+  for(i=0;i<F;i++){ var col=[]; for(b=0;b<B;b++){ var re=0,im=0,om=2*Math.PI*bandF[b]/SR; for(var k=0;k<WIN;k++){ var hw=0.5-0.5*Math.cos(2*Math.PI*k/(WIN-1)), sv=x[i*HOP+k]*hw; re+=sv*Math.cos(om*k); im+=sv*Math.sin(om*k);} var val=Math.log(1e-4+Math.sqrt(re*re+im*im)); col.push(val); zmin=Math.min(zmin,val); zmax=Math.max(zmax,val);} Z.push(col); }
+
+  // ---------- units ----------
+  var B1={dh:17,schwa:88,k:250,ae:131,t:64,s:199,sil:3,d:52}, B2={dh:203,schwa:41,k:12,ae:77,t:290,s:158,sil:5,d:110};
+  function unitOf(i){ var s=frameSeg[i], fr=segFrames[s], p=ph(i); var pos=(i===fr[0]?0:(i===fr[fr.length-1]?2:1)); if(p==="sil") pos=0; return [B1[p],B2[p]+pos]; }
+  var UNITS=[]; for(i=0;i<F;i++) UNITS.push(unitOf(i));
+  function ukey(u){ return u[0]+"·"+u[1]; }
+  function unitColor(u){ var h=(u[0]*47+u[1]*29)%360; return "hsl("+h+" 55% 55%)"; }
+
+  // ---------- state ----------
+  var DEFAULT_MASK=function(){ var m=new Array(F).fill(false); [14,31].forEach(function(s){ for(var j=s;j<s+10&&j<F;j++) m[j]=true; }); return m; };
+  var st={focus:21, mask:DEFAULT_MASK(), layer:0, tau:2, noiseSeed:1, prog:0, ctc:0, alt:0, alpha:0, beta:0};
+
+  // ---------- strip renderer ----------
+  var CW=12, CH=28;
+  function strip(svg, opt){
+    opt=opt||{}; var top=opt.bars?52:0, lab=opt.tokens?18:0, H=top+CH+16+lab, W=F*CW;
+    var s='<defs><pattern id="h-'+svg.id+'" width="5" height="5" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="5" height="5" fill="var(--surface)" fill-opacity="0.25"/><line x1="0" y1="0" x2="0" y2="5" stroke="var(--ink)" stroke-width="1.6" stroke-opacity="0.55"/></pattern></defs>';
+    // word labels
+    var words=[["the",0,7],["cat",8,23],["sat",24,41]];
+    for(var i=0;i<F;i++){
+      var fill=opt.unit?unitColor(UNITS[i]):phColor(ph(i));
+      var y=top;
+      if(opt.bars){ var bh=Math.max(1,opt.bars[i]*48); s+='<rect x="'+(i*CW+2)+'" y="'+(top-bh-2)+'" width="'+(CW-4)+'" height="'+bh+'" fill="var(--amber)" rx="1"/>'; }
+      s+='<g class="cell" data-i="'+i+'" tabindex="-1"><rect x="'+(i*CW+1)+'" y="'+y+'" width="'+(CW-2)+'" height="'+CH+'" rx="2" fill="'+fill+'"/>';
+      if(opt.mask!==false && st.mask[i]) s+='<rect x="'+(i*CW+1)+'" y="'+y+'" width="'+(CW-2)+'" height="'+CH+'" rx="2" fill="url(#h-'+svg.id+')"/>';
+      if(opt.tokens){ s+='<text x="'+(i*CW+CW/2)+'" y="'+(y+CH+14)+'" text-anchor="middle" font-family="var(--f-mono)" font-size="10" fill="'+(opt.tokens[i]==="_"?"var(--muted)":"var(--ink)")+'">'+opt.tokens[i]+'</text>'; }
+      if(i===st.focus) s+='<rect x="'+(i*CW)+'" y="'+(y-1)+'" width="'+CW+'" height="'+(CH+2)+'" rx="3" fill="none" stroke="var(--ink)" stroke-width="2"/>';
+      s+='</g>';
+    }
+    words.forEach(function(w){ var x0=w[1]*CW, x1=(w[2]+1)*CW, yy=top+CH+lab+12; s+='<line x1="'+(x0+2)+'" x2="'+(x1-2)+'" y1="'+(yy-9)+'" y2="'+(yy-9)+'" stroke="var(--line)"/><text x="'+((x0+x1)/2)+'" y="'+(yy+2)+'" text-anchor="middle" font-size="10" fill="var(--muted)" font-family="var(--f-body)">'+w[0]+'</text>'; });
+    svg.setAttribute("viewBox","0 0 "+W+" "+(H+4));
+    svg.innerHTML=s;
+  }
+  document.addEventListener("click",function(e){ var g=e.target.closest&&e.target.closest(".cell"); if(g&&g.closest("svg.strip")){ setFocus(+g.getAttribute("data-i")); } });
+
+  // ---------- follow bar ----------
+  function setFocus(i){ st.focus=Math.max(0,Math.min(F-1,i)); renderAll(); }
+  function renderFollow(){
+    var i=st.focus, p=ph(i);
+    document.getElementById("fb-sw").style.background=phColor(p);
+    document.getElementById("fb-text").textContent="frame "+(i+1)+" of "+F+" · "+frameT[i].toFixed(3)+" s · /"+PHON[p]+"/"+(word(i)?" in “"+word(i)+"”":"");
+    var pill=document.getElementById("fb-pill"); pill.textContent=st.mask[i]?"masked":"visible"; pill.className="pill "+(st.mask[i]?"masked":"open");
+  }
+  document.getElementById("prev").onclick=function(){ setFocus(st.focus-1); };
+  document.getElementById("next").onclick=function(){ setFocus(st.focus+1); };
+  document.getElementById("reset").onclick=function(){ st.focus=21; st.mask=DEFAULT_MASK(); document.getElementById("p").value=0.065; document.getElementById("M").value=10; renderAll(); };
+
+  // ---------- legend ----------
+  document.getElementById("legend").innerHTML=["dh","schwa","k","ae","t","s","sil"].map(function(p){ return '<span><span class="swatch" style="background:'+phColor(p)+'"></span>'+(p==="sil"?"silence":"/"+PHON[p]+"/")+'</span>'; }).join("")+'<span><span class="swatch" style="background:var(--surface);border:1px solid var(--ink);background-image:repeating-linear-gradient(45deg,var(--ink) 0 1px,transparent 1px 4px)"></span>masked</span>';
+
+  // ---------- 1. waveform, zoom, ladder, heatmap ----------
+  function fitCanvas(c){ var r=c.getBoundingClientRect(), d=window.devicePixelRatio||1, h=+c.getAttribute("height"); c.width=Math.max(1,Math.round(r.width*d)); c.height=Math.round(h*d); c.style.height=h+"px"; var ctx=c.getContext("2d"); ctx.setTransform(d,0,0,d,0,0); return {ctx:ctx,w:r.width,h:h}; }
+  function drawWave(){
+    var o=fitCanvas(document.getElementById("wave")), ctx=o.ctx, W=o.w, H=o.h, mid=H/2+8;
+    ctx.clearRect(0,0,W,H);
+    SEG.forEach(function(sg){ var x0=sg[1]/0.9*W, x1=sg[2]/0.9*W; ctx.globalAlpha=0.14; ctx.fillStyle=css("--ph-"+sg[0]); ctx.fillRect(x0,16,x1-x0,H-16); ctx.globalAlpha=1; ctx.fillStyle=css("--muted"); ctx.font="12px "+css("--f-body"); ctx.textAlign="center"; ctx.fillText(sg[0]==="sil"?"":"/"+PHON[sg[0]]+"/",(x0+x1)/2,12); });
+    ctx.strokeStyle=css("--ink"); ctx.lineWidth=1; ctx.beginPath();
+    for(var px=0;px<W;px++){ var a=Math.floor(px/W*N), bnd=Math.floor((px+1)/W*N), lo=1, hi=-1; for(var n=a;n<bnd&&n<N;n++){ lo=Math.min(lo,x[n]); hi=Math.max(hi,x[n]); } if(hi<lo){lo=hi=0;} ctx.moveTo(px+0.5,mid-hi*(H/2-14)); ctx.lineTo(px+0.5,mid-lo*(H/2-14)+0.5); }
+    ctx.stroke();
+    var f=st.focus, x0=f*HOP/N*W, x1=(f*HOP+WIN)/N*W;
+    ctx.fillStyle=css("--accent"); ctx.globalAlpha=0.18; ctx.fillRect(x0,16,x1-x0,H-16); ctx.globalAlpha=1;
+    ctx.strokeStyle=css("--accent"); ctx.lineWidth=2; ctx.strokeRect(x0,16,Math.max(2,x1-x0),H-17);
+  }
+  function drawZoom(){
+    var o=fitCanvas(document.getElementById("zoom")), ctx=o.ctx, W=o.w, H=o.h, a=st.focus*HOP;
+    ctx.clearRect(0,0,W,H); ctx.fillStyle=css("--accent-soft"); ctx.fillRect(0,0,W,H);
+    ctx.strokeStyle=css("--line"); ctx.beginPath(); ctx.moveTo(0,H/2); ctx.lineTo(W,H/2); ctx.stroke();
+    var hopX=HOP/WIN*W; ctx.setLineDash([4,4]); ctx.beginPath(); ctx.moveTo(hopX,0); ctx.lineTo(hopX,H); ctx.stroke(); ctx.setLineDash([]);
+    ctx.fillStyle=css("--muted"); ctx.font="11px "+css("--f-mono"); ctx.textAlign="left"; ctx.fillText("0 ms",4,H-6); ctx.textAlign="right"; ctx.fillText("25 ms",W-4,H-6); ctx.textAlign="center"; ctx.fillText("next frame starts (20 ms)",hopX,12);
+    var loc=0; for(var k=0;k<WIN;k++) loc=Math.max(loc,Math.abs(x[a+k])); loc=Math.max(loc,0.05);
+    ctx.strokeStyle=css("--accent"); ctx.lineWidth=1.5; ctx.beginPath();
+    for(k=0;k<WIN;k++){ var px=k/(WIN-1)*W, py=H/2-x[a+k]/loc*(H/2-16); if(k===0) ctx.moveTo(px,py); else ctx.lineTo(px,py); }
+    ctx.stroke();
+  }
+  (function ladder(){
+    var K=[10,3,3,3,3,2,2], S=[5,2,2,2,2,2,2], rf=1, j=1, rows="";
+    for(var l=0;l<7;l++){ rf+= (K[l]-1)*j; j*=S[l]; rows+='<tr'+(l===6?' class="hl"':'')+'><td>'+(l+1)+'</td><td>'+K[l]+'</td><td>'+S[l]+'</td><td>'+rf+'</td><td>'+(rf/16).toFixed(rf<160?2:1)+'</td><td>'+(SR/j).toFixed(SR/j<100?1:0)+' Hz</td></tr>'; }
+    document.querySelector("#ladder tbody").innerHTML=rows;
+  })();
+  function drawHeat(){
+    var c=document.getElementById("heat"), o=fitCanvas(c), ctx=o.ctx, W=o.w, H=o.h, cw=W/F, ch=(H-4)/B;
+    ctx.clearRect(0,0,W,H);
+    var acc=css("--accent"), bg=css("--surface");
+    for(var i=0;i<F;i++) for(var b=0;b<B;b++){ var v=(Z[i][b]-zmin)/(zmax-zmin); v=Math.pow(Math.max(0,v),1.6); ctx.fillStyle=bg; ctx.fillRect(i*cw,H-4-(b+1)*ch,cw+0.5,ch+0.5); ctx.globalAlpha=v; ctx.fillStyle=acc; ctx.fillRect(i*cw,H-4-(b+1)*ch,cw+0.5,ch+0.5); ctx.globalAlpha=1; }
+    ctx.strokeStyle=css("--ink"); ctx.lineWidth=2; ctx.strokeRect(st.focus*cw+1,1,cw-2,H-4);
+    ctx.fillStyle=css("--muted"); ctx.font="10px "+css("--f-body"); ctx.textAlign="left"; ctx.fillText("high freq",3,10); ctx.fillText("low freq",3,H-8);
+  }
+
+  // ---------- 2. quantizer ----------
+  function codebookProbs(i,g){
+    var r=rng(i*13+g*7+1), L=new Float64Array(320); for(var e=0;e<320;e++) L[e]=-1+ (r()-0.5);
+    var u=UNITS[i], p=ph(i), chosen=u[g];
+    if(g===1){ L[(chosen-1+320)%320]=2.2; L[(chosen+1)%320]=2.2; }
+    (ALTS[p]||[]).forEach(function(a){ L[(g===0?B1:B2)[a]]=1.6; });
+    L[chosen]=4.0;
+    var nr=rng(st.noiseSeed*1000+i*17+g), Pz=new Float64Array(320), mxl=-1e9;
+    for(e=0;e<320;e++){ var uu=Math.min(1-1e-9,Math.max(1e-9,nr())); var gn=-Math.log(-Math.log(uu)); Pz[e]=(L[e]+gn)/st.tau; mxl=Math.max(mxl,Pz[e]); }
+    var sum=0; for(e=0;e<320;e++){ Pz[e]=Math.exp(Pz[e]-mxl); sum+=Pz[e]; } for(e=0;e<320;e++) Pz[e]/=sum;
+    var idx=[]; for(e=0;e<320;e++) idx.push(e); idx.sort(function(a,b){ return Pz[b]-Pz[a]; });
+    return {P:Pz, top:idx.slice(0,5), argmax:idx[0], intended:chosen};
+  }
+  function bars(el,title,rows){ el.innerHTML='<span class="label">'+title+'</span>'+rows.map(function(r){ return '<div class="bar'+(r.cls?" "+r.cls:"")+'"><span class="name">'+r.name+'</span><span class="track"><span class="fill" style="display:block;width:'+(Math.max(0,Math.min(1,r.v))*100).toFixed(1)+'%"></span></span><span class="val">'+r.label+'</span></div>'; }).join(""); }
+  function renderQuant(){
+    var i=st.focus, res=[0,1].map(function(g){ return codebookProbs(i,g); });
+    [0,1].forEach(function(g){ var r=res[g], rest=1; var rows=r.top.map(function(e){ rest-=r.P[e]; return {name:"entry #"+e+(e===r.argmax?" ✓":""), v:r.P[e], label:(r.P[e]*100).toFixed(1)+"%", cls:e===r.argmax?"true":""}; });
+      rows.push({name:"other 315 entries", v:rest, label:(rest*100).toFixed(1)+"%"}); bars(document.getElementById(g?"cb2":"cb1"),"Codebook "+(g+1),rows); });
+    var picked=[res[0].argmax,res[1].argmax], same=picked[0]===res[0].intended&&picked[1]===res[1].intended;
+    document.getElementById("q-stat").innerHTML='<span>Picked unit: <b>'+picked[0]+' · '+picked[1]+'</b></span><span>q = linear( e<sub>1</sub>['+picked[0]+'] ⊕ e<sub>2</sub>['+picked[1]+'] )</span><span>'+(same?"The noise did not change the winner.":"The noise picked a neighbouring entry this time. That exploration is intended while τ is high.")+'</span>';
+    strip(document.getElementById("strip-unit"),{unit:true,mask:false});
+  }
+  document.getElementById("tau").oninput=function(e){ st.tau=+e.target.value; document.getElementById("tau-out").textContent=st.tau.toFixed(2); renderQuant(); };
+  document.getElementById("resample").onclick=function(){ st.noiseSeed++; renderQuant(); };
+
+  // ---------- 3. masking ----------
+  var maskR=rng(99);
+  function drawMask(){
+    var p=+document.getElementById("p").value, M=+document.getElementById("M").value, m=new Array(F).fill(false);
+    var num=Math.floor(p*F+maskR()), pool=[]; for(var s=0;s<=F-M;s++) pool.push(s);
+    for(var k=0;k<num&&pool.length;k++){ var j=Math.floor(maskR()*pool.length), s0=pool.splice(j,1)[0]; for(var q=s0;q<s0+M;q++) m[q]=true; }
+    st.mask=m; renderAll();
+  }
+  function renderMask(){
+    var p=+document.getElementById("p").value, M=+document.getElementById("M").value;
+    document.getElementById("p-out").textContent=p.toFixed(3); document.getElementById("M-out").textContent=M;
+    var n=st.mask.filter(Boolean).length;
+    document.getElementById("mask-stat").innerHTML='<span>Masked here: <b>'+n+' / '+F+'</b> ('+Math.round(n/F*100)+'%)</span><span>Expected on long clips: <b>'+Math.round((1-Math.pow(1-p,M))*100)+'%</b></span><span>Span length: <b>'+(M*20)+' ms</b></span>';
+    strip(document.getElementById("strip-mask"),{});
+  }
+  document.getElementById("p").oninput=renderMask; document.getElementById("M").oninput=renderMask;
+  document.getElementById("remask").onclick=drawMask;
+
+  // ---------- 4. transformer ----------
+  var LAYERDESC=["Early layers mostly look at immediate neighbours: a few frames either side. They sharpen local sound detail.","Middle layers gather context across roughly a word, and lean toward frames in the same word as the followed frame.","Late layers reach across the whole clip and pick out frames of the same or related sounds, even in another word, such as the other /æ/ or /t/."];
+  function attRow(i,l){
+    var w=[], sum=0;
+    for(var j=0;j<F;j++){ var d=Math.abs(i-j), v;
+      if(l===0) v=Math.exp(-d/1.2);
+      else if(l===1) v=Math.exp(-d/4)*(1+1.2*(word(i)&&word(i)===word(j)?1:0));
+      else v=Math.exp(-d/14)*0.6+((ph(i)===ph(j)||(ALTS[ph(i)]||[]).indexOf(ph(j))>=0)&&!st.mask[j]?0.9:0)+0.03;
+      if(st.mask[j]&&j!==i) v*=0.35;
+      w.push(v); sum+=v; }
+    return w.map(function(v){ return v/sum; });
+  }
+  function probe(i,layer,fromC){
+    var p=ph(i), out={};
+    var lvl = !fromC ? (st.mask[i]?null:0.55) : (st.mask[i]?[0.22,0.48,0.72][layer]:[0.62,0.8,0.86][layer]);
+    PHLIST.forEach(function(q){ out[q]=0; });
+    if(lvl===null){ PHLIST.forEach(function(q){ out[q]=1/PHLIST.length; }); return out; }
+    var alts=ALTS[p]||[], rest=1-lvl, altShare=alts.length?rest*0.6:0, others=PHLIST.filter(function(q){ return q!==p&&alts.indexOf(q)<0; });
+    out[p]=lvl; alts.forEach(function(a){ out[a]=altShare/alts.length; }); others.forEach(function(o){ out[o]=(rest-altShare)/others.length; });
+    return out;
+  }
+  function probeBars(el,title,P,truth){ var rows=PHLIST.map(function(q){ return {name:(q==="sil"?"silence":"/"+PHON[q]+"/"), v:P[q], label:(P[q]*100).toFixed(0)+"%", cls:q===truth?"true":""}; }).sort(function(a,b){ return b.v-a.v; }).slice(0,4); bars(el,title,rows); }
+  function renderCtx(){
+    var i=st.focus, l=st.layer, row=attRow(i,l), m=Math.max.apply(null,row);
+    strip(document.getElementById("strip-att"),{bars:row.map(function(v){ return v/m; })});
+    document.getElementById("att-desc").textContent=LAYERDESC[l];
+    var o=fitCanvas(document.getElementById("attmap")), ctx=o.ctx, S=Math.min(o.w,o.h), cs=S/F, acc=css("--amber"), bg=css("--surface");
+    ctx.clearRect(0,0,o.w,o.h);
+    for(var a=0;a<F;a++){ var r=attRow(a,l), rm=Math.max.apply(null,r); for(var b=0;b<F;b++){ ctx.fillStyle=bg; ctx.fillRect(b*cs,a*cs,cs+0.5,cs+0.5); ctx.globalAlpha=Math.pow(r[b]/rm,0.8); ctx.fillStyle=acc; ctx.fillRect(b*cs,a*cs,cs+0.5,cs+0.5); ctx.globalAlpha=1; } }
+    ctx.strokeStyle=css("--ink"); ctx.lineWidth=1.5; ctx.strokeRect(0.75,i*cs,S-1.5,cs);
+    probeBars(document.getElementById("probe-z"),"From z (input to the Transformer)"+(st.mask[i]?": masked":""),probe(i,l,false),ph(i));
+    probeBars(document.getElementById("probe-c"),"From c at this layer",probe(i,l,true),ph(i));
+  }
+  document.querySelectorAll("[data-layer]").forEach(function(btn){ btn.onclick=function(){ st.layer=+btn.getAttribute("data-layer"); document.querySelectorAll("[data-layer]").forEach(function(b2){ b2.setAttribute("aria-pressed",b2===btn?"true":"false"); }); renderCtx(); }; });
+
+  // ---------- 5. contrastive ----------
+  function renderCon(){
+    var i=st.focus, s=st.prog/100, el=document.getElementById("con-bars"), stat=document.getElementById("con-stat");
+    document.getElementById("prog-out").textContent=st.prog+"%";
+    if(!st.mask[i]){ stat.innerHTML='<span>Frame '+(i+1)+' is not masked, so it has no contrastive test. Pick a hatched frame in any strip, or use “Reset example”.</span>'; el.innerHTML=""; return; }
+    var tgt=UNITS[i], cands=[{j:i,name:"true target · frame "+(i+1)+" /"+PHON[ph(i)]+"/",sim:0.05+0.85*s,true:true}], dropped=[];
+    for(var j=0;j<F;j++){ if(j===i||!st.mask[j]) continue; var u=UNITS[j], lab="frame "+(j+1)+" /"+PHON[ph(j)]+"/"+(word(j)?" "+word(j):"");
+      if(u[0]===tgt[0]&&u[1]===tgt[1]){ dropped.push(lab); continue; }
+      var jit=(rng(j*31+i)()-0.5)*0.08, sim;
+      if(ph(j)===ph(i)) sim=0.05+0.62*s+jit; else if((ALTS[ph(i)]||[]).indexOf(ph(j))>=0) sim=0.05+0.25*s+jit; else sim=0.05-0.3*s+jit;
+      cands.push({j:j,name:lab,sim:sim}); }
+    var kappa=0.1, mxs=-1e9; cands.forEach(function(c){ mxs=Math.max(mxs,c.sim/kappa); });
+    var Z=0; cands.forEach(function(c){ c.e=Math.exp(c.sim/kappa-mxs); Z+=c.e; }); cands.forEach(function(c){ c.p=c.e/Z; });
+    var pt=cands[0].p, loss=-Math.log(pt);
+    stat.innerHTML='<span>Candidates: <b>'+cands.length+'</b> (1 true + '+(cands.length-1)+' distractors)</span><span>P(true): <b>'+(pt*100).toFixed(1)+'%</b></span><span>Loss −log P: <b>'+loss.toFixed(2)+'</b></span><span>Chance level: <b>'+Math.log(cands.length).toFixed(2)+'</b></span>';
+    var sorted=cands.slice().sort(function(a,b){ return b.p-a.p; }), shown=sorted.slice(0,8), restP=sorted.slice(8).reduce(function(a,c){ return a+c.p; },0);
+    var rows=shown.map(function(c){ return {name:c.name+'<br><span class="mono muted" style="font-size:.72rem">sim '+c.sim.toFixed(2)+'</span>', v:c.p, label:(c.p*100).toFixed(1)+"%", cls:c.true?"true":""}; });
+    if(sorted.length>8) rows.push({name:(sorted.length-8)+" more distractors", v:restP, label:(restP*100).toFixed(1)+"%"});
+    dropped.forEach(function(d){ rows.push({name:d+" (same unit)", v:0, label:"dropped", cls:"drop"}); });
+    bars(el,"Probability the model assigns to each candidate",rows);
+  }
+  document.getElementById("prog").oninput=function(e){ st.prog=+e.target.value; renderCon(); };
+
+  // ---------- 6. CTC ----------
+  var PATH="T H _ E E _ _ | _ _ C _ A A A A _ _ _ _ _ T T | S S S _ _ _ A A _ _ _ _ _ _ _ T _ _ _ _".split(" ");
+  var ALTP=[PATH.slice(),PATH.slice(),PATH.slice()];
+  ALTP[1][14]="_"; ALTP[1][15]="_"; ALTP[1][22]="_"; ALTP[1][39]="T"; ALTP[1][40]="T";
+  ALTP[2][0]="T"; ALTP[2][1]="T"; ALTP[2][2]="H"; ALTP[2][24]="_"; ALTP[2][31]="A"; ALTP[2][38]="T";
+  function collapse(p,step){
+    var a=p.slice(), out;
+    if(step>=1){ out=[]; a.forEach(function(t,k){ if(k===0||t!==a[k-1]) out.push(t); }); a=out; }
+    if(step>=2) a=a.filter(function(t){ return t!=="_"; });
+    if(step>=3) return a.join("").split("|").join(" ").toLowerCase();
+    return a.join(" ");
+  }
+  var CTCNOTE=["Each frame outputs its most likely token. Most frames say blank: the model only needs to fire a letter somewhere inside each sound.","Runs of the same token merge into one. “A A A A” becomes a single “A”. Blanks keep genuinely repeated letters apart.","Blanks are removed. What remains is the letter sequence.","The word-boundary token becomes a space, giving the transcript. Every path that ends here counts toward the CTC objective."];
+  function renderCTC(){
+    var p=ALTP[st.alt];
+    strip(document.getElementById("strip-ctc"),{tokens:p,mask:false});
+    document.getElementById("ctc-result").textContent=collapse(p,st.ctc);
+    document.getElementById("ctc-note").textContent=CTCNOTE[st.ctc]+(st.alt?" (Path "+(st.alt+1)+" of 3: different frames, same text.)":"");
+  }
+  document.querySelectorAll("[data-step]").forEach(function(btn){ btn.onclick=function(){ st.ctc=+btn.getAttribute("data-step"); document.querySelectorAll("[data-step]").forEach(function(b2){ b2.setAttribute("aria-pressed",b2===btn?"true":"false"); }); renderCTC(); }; });
+  document.getElementById("altpath").onclick=function(){ st.alt=(st.alt+1)%3; renderCTC(); };
+
+  // ---------- 7. LM ----------
+  var CAND=[["the cat sat",-4.2,-9.1,3],["the cad sat",-3.8,-15.6,3],["the cat set",-4.9,-10.4,3],["the cats at",-4.6,-12.9,3],["the cat s at",-4.4,-19.0,4]];
+  function renderLM(){
+    var a=st.alpha, b=st.beta;
+    document.getElementById("alpha-out").textContent=a.toFixed(2); document.getElementById("beta-out").textContent=b.toFixed(1);
+    var rows=CAND.map(function(c){ return {c:c,tot:c[1]+a*c[2]+b*c[3]}; }).sort(function(x,y){ return y.tot-x.tot; });
+    document.querySelector("#lm-table tbody").innerHTML=rows.map(function(r,k){ return '<tr'+(k===0?' class="hl"':'')+'><td>'+(k===0?"▶ ":"")+r.c[0]+'</td><td>'+r.c[1].toFixed(1)+'</td><td>'+r.c[2].toFixed(1)+'</td><td>'+r.c[3]+'</td><td>'+r.tot.toFixed(2)+'</td></tr>'; }).join("");
+  }
+  document.getElementById("alpha").oninput=function(e){ st.alpha=+e.target.value; renderLM(); };
+  document.getElementById("beta").oninput=function(e){ st.beta=+e.target.value; renderLM(); };
+
+  // ---------- audio ----------
+  var actx=null;
+  document.getElementById("play").onclick=function(){
+    try{ actx=actx||new (window.AudioContext||window.webkitAudioContext)(); var buf=actx.createBuffer(1,N,SR); buf.copyToChannel?buf.copyToChannel(x,0):buf.getChannelData(0).set(x); var src=actx.createBufferSource(); src.buffer=buf; src.connect(actx.destination); src.start(); }
+    catch(err){ document.getElementById("play").textContent="Audio is not available here"; }
+  };
+
+  // ---------- render ----------
+  function renderAll(){
+    renderFollow(); strip(document.getElementById("strip-enc"),{}); drawWave(); drawZoom(); drawHeat();
+    renderQuant(); renderMask(); renderCtx(); renderCon(); renderCTC(); renderLM();
+  }
+  renderAll();
+  var rt; window.addEventListener("resize",function(){ clearTimeout(rt); rt=setTimeout(function(){ drawWave(); drawZoom(); drawHeat(); renderCtx(); },120); });
+  try{ var mq=window.matchMedia("(prefers-color-scheme: dark)"); (mq.addEventListener?mq.addEventListener("change",renderAll):mq.addListener(renderAll)); }catch(e){}
+  new MutationObserver(renderAll).observe(document.documentElement,{attributes:true,attributeFilter:["data-theme"]});
+})();
+</script>
+
+</body></html>
